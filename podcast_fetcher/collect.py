@@ -86,9 +86,10 @@ def run_collect(
             continue
 
         queued = result.score >= config.min_score
-        processed["processed"][episode.guid] = _episode_record(episode, status="ok", extraction=result)
+        record = _episode_record(episode, status="ok", extraction=result)
+        processed["processed"][episode.guid] = record
         if queued:
-            pending["queued"][episode.guid] = _episode_record(episode, status="ok", extraction=result)
+            pending["queued"][episode.guid] = record
         logger.info(
             "processed: [%s] %s score=%d queued=%s",
             episode.feed_name,
