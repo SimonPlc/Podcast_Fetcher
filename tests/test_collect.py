@@ -1,6 +1,7 @@
 from __future__ import annotations
 
-from datetime import datetime, timedelta, timezone
+import json
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -105,3 +106,28 @@ def test_run_collect_with_no_new_episodes_returns_empty_list_and_exits_cleanly(
     config = load_config({})
     result = run_collect([FEED_A], config, fetch=fake_fetch(xml_by_url), now=NOW)
     assert result == []
+
+
+def test_run_collect_round_trips_state_files_to_disk(tmp_path: Path, monkeypatch: Any) -> None:
+    monkeypatch.chdir(tmp_path)
+    xml_by_url = {FEED_A.url: rss("a1", "Odd Lots Ep", RECENT_PUBDATE)}
+    config = load_config({})
+    run_collect([FEED_A], config, fetch=fake_fetch(xml_by_url), now=NOW)
+    assert (tmp_path / "state" / "emailed_episodes.json").exists()
+    assert (tmp_path / "state" / "pending_digest.json").exists()
+
+
+def test_run_collect_preserves_existing_state_contents_on_round_trip(
+    tmp_path: Path, monkeypatch: Any
+) -> None:
+    monkeypatch.chdir(tmp_path)
+    (tmp_path / "state").mkdir()
+    (tmp_path / "state" / "emailed_episodes.json").write_text(
+        '{"processed": {"old-guid": {"feed": "Odd Lots", "title": "Old"}}}', encoding="utf-8"
+    )
+    xml_by_url = {FEED_A.url: rss("a1", "Odd Lots Ep", RECENT_PUBDATE)}
+    config = load_config({})
+    run_collect([FEED_A], config, fetch=fake_fetch(xml_by_url), now=NOW)
+
+    on_disk = json.loads((tmp_path / "state" / "emailed_episodes.json").read_text(encoding="utf-8"))
+    assert on_disk == {"processed": {"old-guid": {"feed": "Odd Lots", "title": "Old"}}}

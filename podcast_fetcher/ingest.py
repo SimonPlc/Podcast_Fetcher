@@ -43,18 +43,21 @@ def parse_entries(parsed: Any, feed: Feed) -> list[Episode]:
 
 
 def _find_audio_url(entry: Any) -> str | None:
-    links = entry.get("links", [])
-    for link in links:
-        if link.get("rel") == "enclosure" and str(link.get("type", "")).startswith("audio"):
-            href = link.get("href")
-            if href:
-                return str(href)
-    for link in links:
-        if link.get("rel") == "enclosure":
-            href = link.get("href")
-            if href:
-                return str(href)
-    return None
+    """Prefer an enclosure whose type is audio/*; fall back to any
+    enclosure (some feeds omit or misdeclare the type).
+    """
+    fallback: str | None = None
+    for link in entry.get("links", []):
+        if link.get("rel") != "enclosure":
+            continue
+        href = link.get("href")
+        if not href:
+            continue
+        if str(link.get("type", "")).startswith("audio"):
+            return str(href)
+        if fallback is None:
+            fallback = str(href)
+    return fallback
 
 
 def _parse_published(entry: Any) -> datetime | None:

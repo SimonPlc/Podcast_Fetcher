@@ -39,38 +39,29 @@ def test_loads_the_real_repo_feeds_yaml() -> None:
     assert all(f.tier for f in feeds)
 
 
-def test_missing_top_level_key_raises() -> None:
-    import tempfile
-
-    with tempfile.TemporaryDirectory() as d:
-        path = Path(d) / "feeds.yaml"
-        path.write_text("not_feeds: []\n", encoding="utf-8")
-        with pytest.raises(FeedsConfigError):
-            load_feeds(path)
+def test_missing_top_level_key_raises(tmp_path: Path) -> None:
+    path = tmp_path / "feeds.yaml"
+    path.write_text("not_feeds: []\n", encoding="utf-8")
+    with pytest.raises(FeedsConfigError):
+        load_feeds(path)
 
 
-def test_empty_feeds_list_raises() -> None:
-    import tempfile
-
-    with tempfile.TemporaryDirectory() as d:
-        path = Path(d) / "feeds.yaml"
-        path.write_text("feeds: []\n", encoding="utf-8")
-        with pytest.raises(FeedsConfigError):
-            load_feeds(path)
+def test_empty_feeds_list_raises(tmp_path: Path) -> None:
+    path = tmp_path / "feeds.yaml"
+    path.write_text("feeds: []\n", encoding="utf-8")
+    with pytest.raises(FeedsConfigError):
+        load_feeds(path)
 
 
-def test_entry_missing_required_key_raises() -> None:
-    import tempfile
-
-    with tempfile.TemporaryDirectory() as d:
-        path = Path(d) / "feeds.yaml"
-        path.write_text(
-            """
+def test_entry_missing_required_key_raises(tmp_path: Path) -> None:
+    path = tmp_path / "feeds.yaml"
+    path.write_text(
+        """
 feeds:
   - name: "Odd Lots"
     url: "https://example.com/oddlots.rss"
 """,
-            encoding="utf-8",
-        )
-        with pytest.raises(FeedsConfigError, match="tier"):
-            load_feeds(path)
+        encoding="utf-8",
+    )
+    with pytest.raises(FeedsConfigError, match="tier"):
+        load_feeds(path)

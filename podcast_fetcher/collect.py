@@ -9,7 +9,13 @@ from podcast_fetcher.config import Config
 from podcast_fetcher.ingest import fetch_feed, parse_entries
 from podcast_fetcher.models import Episode, Feed
 from podcast_fetcher.selection import select_episodes
-from podcast_fetcher.store import load_pending, load_processed_ids
+from podcast_fetcher.store import (
+    load_pending,
+    load_processed,
+    load_queued_ids,
+    save_pending,
+    save_processed,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -22,9 +28,10 @@ def run_collect(
     now: datetime | None = None,
 ) -> list[Episode]:
     """Fetch every feed, then select which new episodes this run should
-    process. Ticket #1 scope: selection only, no download/transcription
-    (that lands in the next ticket) -- this proves the ingestion +
-    dedup + state round-trip end to end.
+    process. Ticket #1 scope: selection only, no download/transcription/
+    scoring (that lands in the next ticket) -- but the state files are
+    still read and written back on every run, so the atomic read/write
+    path is exercised end to end rather than only by its own unit test.
     """
     now = now or datetime.now(tz=timezone.utc)
 
@@ -37,14 +44,13 @@ def run_collect(
             logger.exception("Failed to fetch/parse feed %s (%s); skipping", feed.name, feed.url)
             episodes_by_feed[feed.name] = []
 
-    processed_ids = load_processed_ids()
+    processed = load_processed()
     pending = load_pending()
-    queued_ids = set(pending.get("queued", {}).keys())
 
     selected = select_episodes(
         episodes_by_feed,
-        processed_ids,
-        queued_ids,
+        set(processed.get("processed", {}).keys()),
+        load_queued_ids(),
         now,
         max_recent_days=config.max_recent_days,
         episodes_per_feed=config.episodes_per_feed,
@@ -54,5 +60,12 @@ def run_collect(
     for episode in selected:
         logger.info("selected: [%s] %s (%s)", episode.feed_name, episode.title, episode.guid)
     logger.info("collect: %d episode(s) selected across %d feed(s)", len(selected), len(feeds))
+
+    # Round-trip state on every run (even with nothing new to record yet):
+    # proves the atomic write path is actually wired into collect, not
+    # just exercised in isolation by test_state.py. Transcription/scoring
+    # (which will add real entries here) lands in the next ticket.
+    save_processed(processed)
+    save_pending(pending)
 
     return selected
