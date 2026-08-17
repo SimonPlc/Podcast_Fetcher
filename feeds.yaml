@@ -1,0 +1,92 @@
+# Podcast source list for a Hong Kong financing / repo trader (credit + rates core).
+# Tiers are descriptive only; every episode is scored 1-5 for relevance and only
+# episodes scoring >= MIN_SCORE (default 3) feed the morning brief. So a broad
+# list is safe: off-topic episodes are gated out before they reach you.
+#
+# To add a show: append name + url + tier. To find a feed URL, the monthly
+# discovery sweep proposes candidates, or use the iTunes Search API.
+
+feeds:
+  # --- Tier 1: money-market plumbing / repo / funding (bullseye) ---
+  - name: "Odd Lots"
+    url: "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/982f5071-765c-403d-969d-ae27003a8d83/podcast.rss"
+    tier: "plumbing"
+  - name: "Eurodollar University"
+    url: "https://feeds.transistor.fm/making-sense"
+    tier: "plumbing"
+  - name: "Monetary Matters"
+    url: "https://feeds.megaphone.fm/EWWMN1909747317"
+    tier: "plumbing"
+  - name: "Macro Musings"
+    url: "https://rss.libsyn.com/shows/138806/destinations/865793.xml"
+    tier: "plumbing"
+  - name: "BTN with Ethan Heisler"
+    url: "https://www.thebanktreasurynewsletter.com/btnpodcast?format=rss"
+    tier: "plumbing"
+  - name: "ICMA Podcast"
+    url: "https://feed.podbean.com/icma/feed.xml"
+    tier: "plumbing"
+
+  # --- Tier 2: macro / central-bank policy ---
+  - name: "The Macro Trading Floor"
+    url: "https://feeds.megaphone.fm/ALFINVESTMENTSTRATEGYBV2974145286"
+    tier: "macro"
+  - name: "Forward Guidance"
+    url: "https://feeds.megaphone.fm/forwardguidance"
+    tier: "macro"
+  - name: "Macro Hive Conversations"
+    url: "https://rss.libsyn.com/shows/254951/destinations/1929056.xml"
+    tier: "macro"
+  - name: "Invested: The OMFIF Podcast"
+    url: "https://feed.podbean.com/omfif/feed.xml"
+    tier: "macro"
+
+  # --- Tier 3: credit & structured credit ---
+  - name: "The Credit Edge"
+    url: "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/e74a35e9-c028-4e5f-a3f7-afb10164a717/8792a2e9-d66c-4038-a1fe-afb101654894/podcast.rss"
+    tier: "credit"
+  - name: "Cloud 9fin"
+    url: "https://feeds.transistor.fm/cloud-9fin"
+    tier: "credit"
+  - name: "Unhedged"
+    url: "https://feeds.acast.com/public/shows/6478a825654260001190a7cb"
+    tier: "credit"
+  - name: "Money Stuff: The Podcast"
+    url: "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/77e6a3a7-290d-4a82-8164-b14001353ef2/podcast.rss"
+    tier: "credit"
+  - name: "The CLO Investor Podcast"
+    url: "https://rss.libsyn.com/shows/517998/destinations/4445108.xml"
+    tier: "credit"
+  - name: "The LFI Levered Lines Podcast"
+    url: "https://feed.podbean.com/lfileveredlines/feed.xml"
+    tier: "credit"
+  - name: "CLOs Uncovered"
+    url: "https://rss.libsyn.com/shows/271850/destinations/2074964.xml"
+    tier: "credit"
+
+  # --- Tier 4: quant / systematic (only where it touches rates/credit) ---
+  - name: "Top Traders Unplugged"
+    url: "https://feeds.captivate.fm/top-traders-unplugged/"
+    tier: "quant"
+  - name: "Flirting with Models"
+    url: "https://feeds.captivate.fm/flirting-with-models/"
+    tier: "quant"
+  - name: "Making Sense (J.P. Morgan)"
+    url: "https://feed.podbean.com/marketmatters/feed.xml"
+    tier: "quant"
+
+  # --- Tier 5: broad / spillover (filter does the gating) ---
+  - name: "Goldman Sachs Exchanges"
+    url: "https://feeds.megaphone.fm/GLD9218176758"
+    tier: "broad"
+  - name: "The Julia La Roche Show"
+    url: "https://anchor.fm/s/41aa63c4/podcast/rss"
+    tier: "broad"
+
+  # --- Asia bonus ---
+  - name: "Asia Centric"
+    url: "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/992d604b-06ca-40cb-88b2-af6c016f5aa0/75a9f17c-2ff1-42c9-9a27-af6c016fae89/podcast.rss"
+    tier: "asia"
+  - name: "Under the Banyan Tree"
+    url: "https://feeds.acast.com/public/shows/64db93c01796c400110e0ce3"
+    tier: "asia"

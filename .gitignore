@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Local secrets / env
+.env
+
+# Downloaded audio + transient work (never committed)
+*.mp3
+*.m4a
+*.wav
+*.ogg
+.audio/
+.tmp/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NOTE: state/*.json IS committed on purpose (the repo is the database).
