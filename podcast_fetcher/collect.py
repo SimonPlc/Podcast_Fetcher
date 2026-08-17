@@ -6,8 +6,9 @@ from datetime import datetime, timezone
 from typing import Any
 
 from podcast_fetcher.config import Config
+from podcast_fetcher.extract import extract_episode
 from podcast_fetcher.ingest import fetch_feed, parse_entries
-from podcast_fetcher.models import Episode, Feed
+from podcast_fetcher.models import Episode, ExtractResult, Feed
 from podcast_fetcher.selection import select_episodes
 from podcast_fetcher.store import (
     load_pending,
@@ -16,8 +17,11 @@ from podcast_fetcher.store import (
     save_pending,
     save_processed,
 )
+from podcast_fetcher.transcribe import downloaded_audio, transcribe_audio
 
 logger = logging.getLogger(__name__)
+
+ExtractFn = Callable[..., ExtractResult]
 
 
 def run_collect(
@@ -25,13 +29,19 @@ def run_collect(
     config: Config,
     *,
     fetch: Callable[[str], Any] = fetch_feed,
+    download: Callable[[str], Any] = downloaded_audio,
+    transcribe: Callable[[Any, str], str] = transcribe_audio,
+    extract: ExtractFn = extract_episode,
     now: datetime | None = None,
 ) -> list[Episode]:
-    """Fetch every feed, then select which new episodes this run should
-    process. Ticket #1 scope: selection only, no download/transcription/
-    scoring (that lands in the next ticket) -- but the state files are
-    still read and written back on every run, so the atomic read/write
-    path is exercised end to end rather than only by its own unit test.
+    """Fetch every feed, select which new episodes to process, then for
+    each: download its audio, transcribe it, run the extraction prompt,
+    and record the result. Every attempted episode is recorded in the
+    processed/dedup store (so it's never retried); only episodes scoring
+    >= config.min_score are also added to the pending digest queue. A
+    single episode's failure (bad audio, transcription error, malformed
+    LLM output) is logged and recorded as failed -- it does not abort
+    the run for the other episodes, nor fail to persist state.
     """
     now = now or datetime.now(tz=timezone.utc)
 
@@ -56,16 +66,62 @@ def run_collect(
         episodes_per_feed=config.episodes_per_feed,
         max_episodes_per_run=config.max_episodes_per_run,
     )
-
-    for episode in selected:
-        logger.info("selected: [%s] %s (%s)", episode.feed_name, episode.title, episode.guid)
     logger.info("collect: %d episode(s) selected across %d feed(s)", len(selected), len(feeds))
 
-    # Round-trip state on every run (even with nothing new to record yet):
-    # proves the atomic write path is actually wired into collect, not
-    # just exercised in isolation by test_state.py. Transcription/scoring
-    # (which will add real entries here) lands in the next ticket.
+    for episode in selected:
+        try:
+            with download(episode.url) as audio_path:
+                transcript = transcribe(audio_path, config.whisper_model)
+            if len(transcript) > config.max_transcript_chars:
+                transcript = transcript[: config.max_transcript_chars]
+            result = extract(episode, transcript, claude_model=config.claude_model)
+        except Exception:
+            logger.exception(
+                "Failed to process episode [%s] %s (%s); recording as failed, not queued",
+                episode.feed_name,
+                episode.title,
+                episode.guid,
+            )
+            processed["processed"][episode.guid] = _episode_record(episode, status="failed")
+            continue
+
+        queued = result.score >= config.min_score
+        processed["processed"][episode.guid] = _episode_record(episode, status="ok", extraction=result)
+        if queued:
+            pending["queued"][episode.guid] = _episode_record(episode, status="ok", extraction=result)
+        logger.info(
+            "processed: [%s] %s score=%d queued=%s",
+            episode.feed_name,
+            episode.title,
+            result.score,
+            queued,
+        )
+
+    # State is written back on every run, even with nothing new (e.g. all
+    # episodes filtered out), so the atomic write path is always
+    # exercised end to end rather than only reachable when there's new
+    # data to record.
     save_processed(processed)
     save_pending(pending)
 
     return selected
+
+
+def _episode_record(episode: Episode, *, status: str, extraction: ExtractResult | None = None) -> dict[str, Any]:
+    record: dict[str, Any] = {
+        "feed_name": episode.feed_name,
+        "tier": episode.tier,
+        "title": episode.title,
+        "url": episode.url,
+        "published": episode.published.isoformat() if episode.published else None,
+        "status": status,
+    }
+    if extraction is not None:
+        record.update(
+            score=extraction.score,
+            one_liner=extraction.one_liner,
+            tags=extraction.tags,
+            summary=extraction.summary,
+            key_claims=extraction.key_claims,
+        )
+    return record

@@ -25,3 +25,16 @@ class Episode:
     url: str
     guid: str
     published: datetime | None
+
+
+@dataclass(frozen=True)
+class ExtractResult:
+    """The per-episode Claude extraction: a relevance score plus the
+    material the digest synthesis pass will read across all episodes.
+    """
+
+    score: int
+    one_liner: str
+    tags: list[str]
+    summary: list[str]
+    key_claims: list[str]
