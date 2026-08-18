@@ -16,6 +16,12 @@ NOW = datetime(2026, 8, 17, 12, 0, 0, tzinfo=timezone.utc)
 
 FEED_A = Feed(name="Odd Lots", url="https://example.com/oddlots.rss", tier="plumbing")
 FEED_B = Feed(name="Unhedged", url="https://example.com/unhedged.rss", tier="credit")
+ARTICLE_FEED = Feed(
+    name="Concoda",
+    url="https://example.com/concoda.rss",
+    tier="plumbing",
+    kind="article",
+)
 
 
 def rss(guid: str, title: str, pub_date: str) -> str:
@@ -300,3 +306,32 @@ def test_download_failure_is_recorded_not_fatal(tmp_path: Path, monkeypatch: Any
 
     processed = json.loads((tmp_path / "state" / "emailed_episodes.json").read_text(encoding="utf-8"))
     assert processed["processed"]["a1"]["status"] == "failed"
+
+
+def test_run_collect_ignores_article_feeds_carrying_audio(tmp_path: Path, monkeypatch: Any) -> None:
+    """An article feed must never be processed as a podcast, even when its
+    entries do carry an audio enclosure -- Substack can attach a
+    text-to-speech voiceover to any post at any time. Without the kind
+    filter, such a post would be transcribed and its summary committed to
+    the public repo, which SPEC.md forbids for article content.
+    """
+    monkeypatch.chdir(tmp_path)
+    xml_by_url = {
+        FEED_A.url: rss("a1", "Odd Lots Ep", RECENT_PUBDATE),
+        ARTICLE_FEED.url: rss("art1", "Newsletter post with voiceover", RECENT_PUBDATE),
+    }
+    inner = fake_fetch(xml_by_url)
+    fetched: list[str] = []
+
+    def tracking_fetch(url: str) -> Any:
+        fetched.append(url)
+        return inner(url)
+
+    config = load_config({})
+    result = run([FEED_A, ARTICLE_FEED], config, fetch=tracking_fetch)
+
+    assert [episode.guid for episode in result] == ["a1"]
+    assert ARTICLE_FEED.url not in fetched
+
+    processed = json.loads((tmp_path / "state" / "emailed_episodes.json").read_text(encoding="utf-8"))
+    assert set(processed["processed"]) == {"a1"}

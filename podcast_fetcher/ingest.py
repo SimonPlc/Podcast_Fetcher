@@ -36,7 +36,7 @@ def parse_entries(parsed: Any, feed: Feed) -> list[Episode]:
                 title=entry.get("title", "Untitled episode"),
                 url=audio_url,
                 guid=guid,
-                published=_parse_published(entry),
+                published=parse_published(entry),
             )
         )
     return episodes
@@ -60,7 +60,12 @@ def _find_audio_url(entry: Any) -> str | None:
     return fallback
 
 
-def _parse_published(entry: Any) -> datetime | None:
+def parse_published(entry: Any) -> datetime | None:
+    """Parse a feedparser entry's publish date, shared by episode and
+    article ingestion. Returns None (rather than raising) on a missing
+    or unparseable date -- the recency filters in selection.py/articles.py
+    treat that as "can't verify, don't exclude".
+    """
     struct = entry.get("published_parsed") or entry.get("updated_parsed")
     if struct is None:
         return None

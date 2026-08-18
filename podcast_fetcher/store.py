@@ -6,6 +6,7 @@ from podcast_fetcher.state import read_json, write_json_atomic
 
 PROCESSED_PATH = "state/emailed_episodes.json"
 PENDING_PATH = "state/pending_digest.json"
+SEEN_ARTICLES_PATH = "state/seen_articles.json"
 
 
 def load_processed(path: str | Path = PROCESSED_PATH) -> dict:
@@ -30,3 +31,20 @@ def load_queued_ids(path: str | Path = PENDING_PATH) -> set[str]:
 
 def save_pending(pending: dict, path: str | Path = PENDING_PATH) -> None:
     write_json_atomic(path, pending)
+
+
+def load_seen_articles(path: str | Path = SEEN_ARTICLES_PATH) -> dict:
+    """The article dedup record. Per SPEC.md, a record holds only the
+    article's (feed_name, url) hash as its key plus the feed_name (our own
+    config, safe to store) for debuggability -- never a title, body, or
+    summary.
+    """
+    return read_json(path, default={"seen": {}})
+
+
+def load_seen_article_hashes(path: str | Path = SEEN_ARTICLES_PATH) -> set[str]:
+    return set(load_seen_articles(path).get("seen", {}).keys())
+
+
+def save_seen_articles(seen: dict, path: str | Path = SEEN_ARTICLES_PATH) -> None:
+    write_json_atomic(path, seen)

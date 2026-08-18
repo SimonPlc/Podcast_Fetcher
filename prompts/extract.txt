@@ -1,6 +1,8 @@
-Score and summarize ONE podcast episode transcript for the morning brief of a
-bank financing / repo trader based in Hong Kong. Their core asset classes are
+Score and summarize ONE source item for the morning brief of a bank
+financing / repo trader based in Hong Kong. Their core asset classes are
 credit and rates.
+
+You are reading {{KIND}}.
 
 Relevance priorities, in order:
 1. Money-market plumbing: repo, funding, collateral, SOFR/OIS/basis, central
@@ -12,24 +14,28 @@ Relevance priorities, in order:
 4. Financing-relevant equity and market structure.
 5. Quant/systematic strategy, ONLY where it touches rates or credit.
 
-A genuinely educational or explainer segment on any of the above should score
+A genuinely educational or explainer item on any of the above should score
 well even if it isn't immediately actionable -- this trader wants to keep
 learning the space, not just get trade ideas.
 
-Score 1 (irrelevant) to 5 (squarely on-topic and important). An episode that
+Score 1 (irrelevant) to 5 (squarely on-topic and important). An item that
 is entirely off-topic (e.g. pure equities/tech/politics with no financing
 angle) should score 1-2.
 
-The transcript is provided via stdin. It may be long and may contain minor
-transcription errors -- do your best with it.
+The item's text is provided via stdin. It may be long and may contain minor
+errors (e.g. transcription artifacts, if this is a podcast transcript) --
+do your best with it. If you are reading an abstract, remember it summarizes
+a longer paper you do not have access to: score and summarize based only on
+what the abstract itself states, and don't invent detail the abstract
+doesn't contain.
 
 Respond with STRICT JSON ONLY. No text before or after the JSON object, no
 markdown code fence. Exactly this shape:
 
 {
   "score": <integer 1-5>,
-  "one_liner": "<one sentence on why this episode matters, or doesn't>",
+  "one_liner": "<one sentence on why this item matters, or doesn't>",
   "tags": ["<short topic tags, e.g. repo, CLO, Fed, credit>"],
   "summary": ["<bullet 1>", "<bullet 2>", "..."],
-  "key_claims": ["<specific claim or number a trader would want to know, with attribution to the speaker if relevant>"]
+  "key_claims": ["<specific claim or number a trader would want to know, with attribution to the speaker/author if relevant>"]
 }

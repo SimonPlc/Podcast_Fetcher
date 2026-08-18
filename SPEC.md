@@ -16,6 +16,15 @@
 > references to a "Brief"/theme-based synthesis elsewhere (old commit
 > messages, closed issue #3's original text), that reflects the pre-revision
 > design — this file is current.
+>
+> **Revision (2026-08-18, later same day):** ticket #7 added written articles
+> as a second source type (money-market/central-bank research blogs and
+> abstract-only paper feeds), scored and rendered exactly like podcast
+> episodes into the same per-episode card, ranked into one list by score.
+> Unlike podcasts, articles have no collect-time queue: they are fetched,
+> scored, and rendered entirely inside the digest run, since there is no
+> expensive transcription step to amortise (see the new Implementation
+> Decisions below). Article content is never persisted to state, only a hash.
 
 ## Problem Statement
 
@@ -94,6 +103,18 @@ spoken "podcast of podcasts" I can subscribe to.
     spoken audio recap, so that I can listen on my commute.
 23. As a trader (future phase), I want that audio published as a private podcast
     feed I subscribe to, so that new recaps appear automatically in my podcast app.
+24. As a trader, I want written research (central-bank blogs, market
+    commentary, paper abstracts) scored and summarized the same way as
+    podcast episodes, so that my brief isn't limited to audio-only coverage.
+25. As a trader, I want articles and episodes ranked into a single list by
+    relevance score, not split into separate sections, so that the most
+    important source of the day is obvious regardless of its format.
+26. As a trader, I want an article card to link back to the source article
+    (labeled "Read") the way an episode card links to "Listen", so that I
+    can go read the original when something matters.
+27. As a trader, I want a failed article fetch or extraction to be logged and
+    skipped rather than blocking the digest, so that a broken research feed
+    never costs me my podcast coverage for the day.
 
 ## Implementation Decisions
 
@@ -102,8 +123,9 @@ spoken "podcast of podcasts" I can subscribe to.
   unlimited free Actions minutes. Secrets live in encrypted GitHub Secrets, never
   in the repo.
 - State is persisted as **JSON files committed back to the repo** after each run
-  (the repo is the database). Two files: a permanent processed/dedup record and a
-  pending-digest queue.
+  (the repo is the database). Three files: a permanent podcast processed/dedup
+  record, a pending-digest queue, and (since ticket #7) a permanent article
+  dedup record holding hashes only -- see "Written articles" below.
 
 **Pipeline shape** — two decoupled modes plus a monthly mode:
 - **Collect** (several times per day): for each feed, take the newest N episodes
@@ -111,10 +133,16 @@ spoken "podcast of podcasts" I can subscribe to.
   run a per-episode LLM extraction (relevance score, one-liner, tags, summary
   bullets, key claims). Record every processed episode in the dedup record so it
   is never re-transcribed; queue only episodes scoring >= threshold.
-- **Digest** (once each weekday morning + a backup run): read the queue, render
-  one HTML + plain-text card per queued episode (sorted by score, highest
-  first), send it, then clear the queue. No LLM call happens here -- each
-  card is built entirely from the extraction already computed at collect time.
+- **Digest** (once each weekday morning + a backup run): read the podcast queue;
+  separately, fetch every article feed, filter/dedupe/score new articles
+  (ticket #7, see "Written articles" below); merge both into one set of
+  records and render one HTML + plain-text card per record (sorted by score,
+  highest first), send it, then clear the podcast queue and commit the newly
+  seen article hashes. No LLM call happens against the podcast queue -- each
+  episode card is built entirely from the extraction already computed at
+  collect time. Articles are the one exception to "digest makes no LLM call":
+  they have no collect-time queue, so their single Claude extraction happens
+  here, in the digest run itself.
 - **Discover** (monthly): query podcast directories for domain terms, dedupe
   against the current feed list, email a candidate-shows list for manual approval.
 
@@ -122,20 +150,79 @@ spoken "podcast of podcasts" I can subscribe to.
 - Pure **RSS** via feedparser; download the episode's audio enclosure like any
   podcast app. No scraping, no auth. Paywalled/Spotify-exclusive shows are out of
   scope because they expose no open audio feed.
-- Source list lives in `feeds.yaml` (name + url + tier). ~24 feeds at launch
-  spanning plumbing/repo, macro/policy, credit & structured credit, quant, broad
-  spillover, and an Asia bonus.
+- Source list lives in `feeds.yaml` (name + url + tier). ~24 podcast feeds at
+  launch spanning plumbing/repo, macro/policy, credit & structured credit,
+  quant, broad spillover, and an Asia bonus; ticket #7 added ~10 article feeds
+  (see "Written articles" below), distinguished by a `kind: podcast|article`
+  field defaulting to `podcast` so no existing entry needed editing.
+
+**Written articles (ticket #7)** -- a second source type, treated exactly like
+podcast episodes (same 1-5 score, same extraction prompt, same digest card,
+ranked into the same score-sorted list), with these deliberate differences:
+- **No collect step, no queue.** Articles are fetched, scored, extracted, and
+  rendered entirely inside the digest run. Podcasts keep the collect/digest
+  split solely to amortise expensive Whisper transcription; articles cost
+  nothing to fetch, so there's no reason to ration them across runs.
+- **Full-text RSS only, no scraping.** A feed qualifies only if it already
+  publishes the article body in `content:encoded` or `summary`/`description`
+  -- the same thing any RSS reader sees. An optional per-feed
+  `min_body_chars` overrides the ~2500-char full-text default; the two
+  research-paper feeds (BIS working papers, Fed FEDS Notes) set it to ~400,
+  since an abstract is a purpose-written summary rather than a truncated
+  teaser. Whichever threshold is in effect also tells the extraction prompt
+  whether it's reading a full article or an abstract, so it can calibrate
+  (e.g. not treat an abstract as if it had access to the whole paper).
+- **Article content is never persisted.** The repo is public; committing a
+  Claude-derived summary of someone else's article, even just to a dedup
+  record, is a redistribution question this project deliberately avoids
+  entirely rather than relies on a defensible-use argument for. The only
+  thing written to `state/seen_articles.json` is a hash of (feed name, URL)
+  per article, plus the feed name alongside it for debuggability -- the feed
+  name is our own config, not third-party content, so it carries no such
+  risk. No title, body, or LLM-generated summary ever reaches disk.
+- **Dedup hashes commit only after a successful send**, exactly like the
+  podcast queue only clears on success -- a failed send must not silently
+  burn that day's articles by marking them seen before they were ever
+  delivered.
+- **Article failures are non-fatal and never block podcast delivery.** A
+  feed that 404s, an entry below `min_body_chars`, or a failed Claude
+  extraction is logged and skipped; the digest still sends with whatever it
+  has, including podcast-only on a bad day for the article feeds. An
+  extraction failure specifically is *not* marked seen (unlike a below-
+  threshold score, which is), so a transient failure gets retried on the
+  next digest run rather than silently dropping that article forever --
+  there's no expensive resource spent on it to justify writing it off.
+- **FT is excluded**, even though it would otherwise be a strong source: FT's
+  Terms & Conditions section 3.5 prohibits machine-learning use of FT
+  content, `ft.com/robots.txt` blocks `ClaudeBot`/`Claude-Web`/`anthropic-ai`
+  by name, and its Copyright Policy caps redistribution at a 30-word summary,
+  ten per day. FT Alphaville's free Substack is included instead: an openly
+  published, full-text feed with none of those restrictions.
+- Structured credit (CLO/ABS/CMBS/lev fin) has no free full-text article
+  feed, so it remains covered only by the podcast list -- a known, accepted
+  gap (see Out of Scope).
 
 **Transcription**
 - Local **Whisper**, model `small` by default (better on jargon than the
   reference's `base`), running on Actions CPU. Model size is an env knob.
 
 **LLM**
-- Exactly **one** LLM pass in the whole pipeline: the per-episode extraction at
-  collect time. It calls **Claude via the Claude Code CLI** using a long-lived
-  subscription OAuth token (`CLAUDE_CODE_OAUTH_TOKEN`), i.e. zero marginal cost.
-  Instructions passed as the prompt; the episode transcript passed via stdin.
-  Model overridable via env. The digest step makes no LLM call at all.
+- **One extraction call per source item**, always via **Claude Code CLI** using
+  a long-lived subscription OAuth token (`CLAUDE_CODE_OAUTH_TOKEN`), i.e. zero
+  marginal cost. For a podcast episode this happens at collect time
+  (transcript via stdin); for an article (ticket #7) it happens at digest time
+  (article body, or abstract, via stdin) since there is no article collect
+  step. Model overridable via env either way. Aside from articles, the digest
+  step still makes no LLM call: an episode's card is built entirely from the
+  extraction already computed at collect time.
+- The shared `prompts/extract.txt` prompt takes one source item at a time and
+  is told, via a `{{KIND}}` placeholder, whether it's reading a podcast
+  transcript, the full text of an article, or a paper abstract, so it can
+  calibrate accordingly -- an abstract is scored/summarized only on what it
+  itself states, not assumed to have the full paper's detail behind it. The
+  strict-JSON output contract and shape (`score`/`one_liner`/`tags`/
+  `summary`/`key_claims`) are unchanged from before ticket #7 -- `render.py`
+  only gained a `kind` field on each record to choose "Listen" vs "Read".
 - The extraction prompt demands **strict JSON output** so downstream rendering
   is simple templating, with a tolerant parser that extracts the JSON object if
   the model wraps it in prose.
@@ -169,7 +256,10 @@ committed JSON state. `workflow_dispatch` allows manual runs with a mode overrid
 
 **Config knobs (env):** `RUN_MODE`, `WHISPER_MODEL`, `MAX_RECENT_DAYS` (3),
 `EPISODES_PER_FEED` (2), `MIN_SCORE` (3), `MAX_EPISODES_PER_RUN` (cap per collect),
-`MAX_TRANSCRIPT_CHARS`, `CLAUDE_MODEL`, `EMAIL_TO`, `EMAIL_FROM`.
+`MAX_TRANSCRIPT_CHARS`, `MAX_ARTICLES_PER_DIGEST` (10, cap on articles
+extracted per digest run -- ticket #7), `CLAUDE_MODEL`, `EMAIL_TO`, `EMAIL_FROM`.
+Articles reuse `MIN_SCORE` and `MAX_RECENT_DAYS` unchanged rather than getting
+their own knobs.
 
 ## Testing Decisions
 
@@ -191,6 +281,16 @@ not by unit tests. Three seams are tested:
    that the empty/quiet-day case renders the quiet note rather than an empty
    shell.
 
+Ticket #7 added the same kind of pure-logic, no-I/O tests for articles:
+article body extraction from a synthetic feed entry and the `min_body_chars`
+threshold; `select_articles`' recency/dedup/cap behavior; a unified
+score-descending sort across a mix of episode and article records; the
+dedup-hash-committed-only-after-a-successful-send ordering in `run_digest`
+(a failing `send` must leave `state/seen_articles.json` untouched, mirroring
+the existing pending-queue-untouched-on-failure test); and an explicit
+assertion that a persisted article record contains no `title`/`body`/
+`summary` key.
+
 No prior art in-repo (greenfield). Tests use plain `pytest` with hand-built
 fixtures; no network or model access. The pipeline is structured so these three
 functions are importable without triggering any I/O at import time.
@@ -206,6 +306,16 @@ functions are importable without triggering any I/O at import time.
 - Per-segment timestamped chapterization of episodes.
 - A web UI / archive site.
 - Multi-user support; this serves one recipient.
+- **Paywalled article sources** (ticket #7): same reasoning as paywalled
+  podcasts -- if a source doesn't openly publish full text (or a genuine
+  abstract) via RSS, it's not in scope. FT proper specifically, despite
+  being a strong source, is excluded on its own T&C/robots.txt grounds (see
+  "Written articles" above).
+- **Body extraction / scraping / readability parsing of article pages**
+  (ticket #7): a source only qualifies if its own feed already carries the
+  body. No HTML-page fetch-and-extract step exists or is planned; adding one
+  would blur the "full-text RSS only" line that keeps the redistribution
+  question simple.
 
 ## Further Notes
 

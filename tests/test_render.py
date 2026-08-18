@@ -25,6 +25,31 @@ ITEMS = {
     },
 }
 
+MIXED_ITEMS = {
+    "guid-1": {
+        "feed_name": "Odd Lots",
+        "title": "Repo Market Update",
+        "url": "https://example.com/ep1.mp3",
+        "kind": "podcast",
+        "score": 3,
+        "one_liner": "x",
+        "tags": [],
+        "summary": [],
+        "key_claims": [],
+    },
+    "hash-1": {
+        "feed_name": "NY Fed Liberty Street Economics",
+        "title": "Reserves Are Getting Scarce",
+        "url": "https://libertystreeteconomics.newyorkfed.org/some-post",
+        "kind": "article",
+        "score": 5,
+        "one_liner": "x",
+        "tags": [],
+        "summary": [],
+        "key_claims": [],
+    },
+}
+
 
 def test_populated_html_contains_each_episode_title_and_link() -> None:
     html, _ = render_digest(ITEMS)
@@ -81,3 +106,34 @@ def test_quiet_day_html_and_text_are_non_empty() -> None:
     html, text = render_digest({})
     assert len(html.strip()) > 0
     assert len(text.strip()) > 0
+
+
+# --- unified podcast/article rendering (ticket #7) ---
+
+
+def test_article_card_links_as_read() -> None:
+    html, text = render_digest(MIXED_ITEMS)
+    assert ">Read<" in html
+    assert "Read: https://libertystreeteconomics.newyorkfed.org/some-post" in text
+
+
+def test_episode_card_links_as_listen() -> None:
+    html, text = render_digest(MIXED_ITEMS)
+    assert ">Listen<" in html
+    assert "Listen: https://example.com/ep1.mp3" in text
+
+
+def test_record_with_no_kind_defaults_to_listen() -> None:
+    # Podcast records committed to state before articles existed have no
+    # "kind" field; they must still render as episodes, not blow up.
+    legacy_items = {"guid-1": {**ITEMS["guid-1"]}}
+    del legacy_items["guid-1"]["one_liner"]  # unrelated field, just proving no crash on a sparse record
+    html, text = render_digest(legacy_items)
+    assert ">Listen<" in html
+    assert "Listen:" in text
+
+
+def test_unified_list_sorts_podcast_and_article_by_score_descending() -> None:
+    html, _ = render_digest(MIXED_ITEMS)
+    # article (score 5) must come before podcast (score 3)
+    assert html.index("Reserves Are Getting Scarce") < html.index("Repo Market Update")

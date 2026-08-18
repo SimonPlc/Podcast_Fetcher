@@ -34,19 +34,32 @@ def run_collect(
     extract: ExtractFn = extract_episode,
     now: datetime | None = None,
 ) -> list[Episode]:
-    """Fetch every feed, select which new episodes to process, then for
-    each: download its audio, transcribe it, run the extraction prompt,
-    and record the result. Every attempted episode is recorded in the
-    processed/dedup store (so it's never retried); only episodes scoring
-    >= config.min_score are also added to the pending digest queue. A
-    single episode's failure (bad audio, transcription error, malformed
-    LLM output) is logged and recorded as failed -- it does not abort
-    the run for the other episodes, nor fail to persist state.
+    """Fetch every podcast feed, select which new episodes to process,
+    then for each: download its audio, transcribe it, run the extraction
+    prompt, and record the result. Every attempted episode is recorded in
+    the processed/dedup store (so it's never retried); only episodes
+    scoring >= config.min_score are also added to the pending digest
+    queue. A single episode's failure (bad audio, transcription error,
+    malformed LLM output) is logged and recorded as failed -- it does not
+    abort the run for the other episodes, nor fail to persist state.
+
+    Article feeds are filtered out here rather than by the caller. They
+    are handled entirely by the digest run, and their content must never
+    reach the committed state files (SPEC.md). The filter matters even
+    though article feeds rarely carry audio: Substack can attach a
+    text-to-speech enclosure to any post at any time, and without this
+    guard such a post would be transcribed as an episode and its summary
+    committed to the public repo.
     """
     now = now or datetime.now(tz=timezone.utc)
 
+    podcast_feeds = [feed for feed in feeds if feed.kind == "podcast"]
+    skipped = len(feeds) - len(podcast_feeds)
+    if skipped:
+        logger.info("collect: ignoring %d article feed(s); those run in the digest", skipped)
+
     episodes_by_feed: dict[str, list[Episode]] = {}
-    for feed in feeds:
+    for feed in podcast_feeds:
         try:
             parsed = fetch(feed.url)
             episodes_by_feed[feed.name] = parse_entries(parsed, feed)
@@ -66,7 +79,7 @@ def run_collect(
         episodes_per_feed=config.episodes_per_feed,
         max_episodes_per_run=config.max_episodes_per_run,
     )
-    logger.info("collect: %d episode(s) selected across %d feed(s)", len(selected), len(feeds))
+    logger.info("collect: %d episode(s) selected across %d feed(s)", len(selected), len(podcast_feeds))
 
     for episode in selected:
         try:
@@ -114,6 +127,7 @@ def _episode_record(episode: Episode, *, status: str, extraction: ExtractResult 
         "tier": episode.tier,
         "title": episode.title,
         "url": episode.url,
+        "kind": "podcast",
         "published": episode.published.isoformat() if episode.published else None,
         "status": status,
     }

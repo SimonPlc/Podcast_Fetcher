@@ -8,6 +8,9 @@ import yaml
 from podcast_fetcher.models import Feed
 
 
+_VALID_KINDS = ("podcast", "article")
+
+
 class FeedsConfigError(ValueError):
     """Raised when feeds.yaml is missing required structure."""
 
@@ -34,4 +37,19 @@ def _parse_entry(entry: Any, index: int, path: str | Path) -> Feed:
     missing = [key for key in ("name", "url", "tier") if not entry.get(key)]
     if missing:
         raise FeedsConfigError(f"{path}: feeds[{index}] missing required key(s): {', '.join(missing)}")
-    return Feed(name=entry["name"], url=entry["url"], tier=entry["tier"])
+
+    kind = entry.get("kind", "podcast")
+    if kind not in _VALID_KINDS:
+        raise FeedsConfigError(f"{path}: feeds[{index}] has invalid kind {kind!r}, expected one of {_VALID_KINDS}")
+
+    min_body_chars = entry.get("min_body_chars")
+    if min_body_chars is not None and not isinstance(min_body_chars, int):
+        raise FeedsConfigError(f"{path}: feeds[{index}] min_body_chars must be an integer, got {min_body_chars!r}")
+
+    return Feed(
+        name=entry["name"],
+        url=entry["url"],
+        tier=entry["tier"],
+        kind=kind,
+        min_body_chars=min_body_chars,
+    )

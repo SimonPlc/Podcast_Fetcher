@@ -90,3 +90,63 @@ feeds:
   - name: "Under the Banyan Tree"
     url: "https://feeds.acast.com/public/shows/64db93c01796c400110e0ce3"
     tier: "asia"
+
+  # --- Written articles (kind: article) -- full-text RSS only ---
+  # Same relevance scoring, extraction prompt, and digest card as podcasts
+  # (see SPEC.md); a source qualifies only if its own RSS feed already
+  # carries the full article body (content:encoded or summary/description),
+  # same as any RSS reader would see -- no scraping, no readability/body
+  # extraction. min_body_chars (default ~2500 chars, applied in
+  # articles.py) filters out teaser-only feeds; the two research-paper
+  # feeds below set it low (~400) because an abstract is a
+  # purpose-written summary, not a teaser, and the extraction prompt is
+  # told to treat it as such.
+  #
+  # FT proper is deliberately excluded even though it would be a strong
+  # source: FT's Terms & Conditions section 3.5 prohibits machine-learning
+  # use of FT content, ft.com/robots.txt blocks ClaudeBot/Claude-Web/
+  # anthropic-ai by name, and its Copyright Policy caps redistribution at a
+  # 30-word summary, ten per day. FT Alphaville's free Substack is included
+  # instead: an openly published, full-text feed with no such restriction.
+  - name: "NY Fed Liberty Street Economics"
+    url: "https://libertystreeteconomics.newyorkfed.org/feed/"
+    tier: "plumbing"
+    kind: "article"
+  - name: "BoE Bank Underground"
+    url: "https://bankunderground.co.uk/feed/"
+    tier: "macro"
+    kind: "article"
+  - name: "Bank Policy Institute"
+    url: "https://bpi.com/feed/"
+    tier: "macro"
+    kind: "article"
+  - name: "FT Alphaville (Substack)"
+    url: "https://ftav.substack.com/feed"
+    tier: "broad"
+    kind: "article"
+  - name: "Net Interest"
+    url: "https://www.netinterest.co/feed"
+    tier: "credit"
+    kind: "article"
+  - name: "Concoda"
+    url: "https://concoda.substack.com/feed"
+    tier: "plumbing"
+    kind: "article"
+  - name: "Apollo Academy"
+    url: "https://www.apolloacademy.com/feed/"
+    tier: "credit"
+    kind: "article"
+  - name: "Klement on Investing"
+    url: "https://klementoninvesting.substack.com/feed"
+    tier: "quant"
+    kind: "article"
+  - name: "BIS working papers"
+    url: "https://www.bis.org/doclist/wppubls.rss"
+    tier: "macro"
+    kind: "article"
+    min_body_chars: 400
+  - name: "Fed FEDS Notes"
+    url: "https://www.federalreserve.gov/feeds/feds_notes.xml"
+    tier: "macro"
+    kind: "article"
+    min_body_chars: 400

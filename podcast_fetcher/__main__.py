@@ -21,7 +21,7 @@ def main() -> int:
         return 0
 
     if config.run_mode == "digest":
-        run_digest(config, os.environ)
+        run_digest(config, os.environ, load_feeds(FEEDS_PATH))
         return 0
 
     logging.getLogger(__name__).error(

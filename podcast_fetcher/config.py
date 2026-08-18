@@ -9,6 +9,7 @@ DEFAULT_EPISODES_PER_FEED = 2
 DEFAULT_MIN_SCORE = 3
 DEFAULT_MAX_EPISODES_PER_RUN = 20
 DEFAULT_MAX_TRANSCRIPT_CHARS = 60_000
+DEFAULT_MAX_ARTICLES_PER_DIGEST = 10
 
 
 @dataclass(frozen=True)
@@ -20,6 +21,7 @@ class Config:
     max_episodes_per_run: int
     min_score: int
     max_transcript_chars: int
+    max_articles_per_digest: int
     claude_model: str | None
     email_to: str | None
     email_from: str | None
@@ -35,6 +37,7 @@ def load_config(env: Mapping[str, str]) -> Config:
         max_episodes_per_run=int(env.get("MAX_EPISODES_PER_RUN", DEFAULT_MAX_EPISODES_PER_RUN)),
         min_score=int(env.get("MIN_SCORE", DEFAULT_MIN_SCORE)),
         max_transcript_chars=int(env.get("MAX_TRANSCRIPT_CHARS", DEFAULT_MAX_TRANSCRIPT_CHARS)),
+        max_articles_per_digest=int(env.get("MAX_ARTICLES_PER_DIGEST", DEFAULT_MAX_ARTICLES_PER_DIGEST)),
         claude_model=env.get("CLAUDE_MODEL") or None,
         email_to=env.get("EMAIL_TO") or None,
         email_from=env.get("EMAIL_FROM") or None,

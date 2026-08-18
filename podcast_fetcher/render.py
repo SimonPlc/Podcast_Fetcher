@@ -13,6 +13,17 @@ _STYLE_TAG = (
     'padding: 2px 8px; margin-right: 4px; font-size: 11px;'
 )
 
+# Both source kinds render into the same card shape (SPEC: one unified list,
+# no separate section); only this action word differs. Default to "Listen"
+# so records with no "kind" (podcast episodes, including any already
+# committed to state before articles existed) still render correctly.
+_LINK_LABELS = {"article": "Read"}
+_DEFAULT_LINK_LABEL = "Listen"
+
+
+def _link_label(record: dict[str, Any]) -> str:
+    return _LINK_LABELS.get(record.get("kind", "podcast"), _DEFAULT_LINK_LABEL)
+
 
 def render_digest(items: dict[str, dict[str, Any]]) -> tuple[str, str]:
     """Render one card per queued episode, highest relevance score
@@ -32,7 +43,7 @@ def _esc(value: Any) -> str:
 
 
 def _render_html(episodes: list[dict[str, Any]]) -> str:
-    parts = [f'<div style="{_STYLE_BODY}"><h1>Podcast Digest</h1>']
+    parts = [f'<div style="{_STYLE_BODY}"><h1>Morning Brief</h1>']
     for episode in episodes:
         parts.append(f'<div style="{_STYLE_CARD}">')
         title = _esc(episode.get("title", "Untitled"))
@@ -40,7 +51,10 @@ def _render_html(episodes: list[dict[str, Any]]) -> str:
         feed = _esc(episode.get("feed_name", "Unknown"))
         score = episode.get("score", "?")
         parts.append(f'<h2 style="margin-top: 0;"><a href="{url}">{title}</a></h2>')
-        parts.append(f'<p style="{_STYLE_META}">{feed} &middot; score {score}/5</p>')
+        parts.append(
+            f'<p style="{_STYLE_META}">{feed} &middot; score {score}/5 '
+            f'&middot; <a href="{url}">{_link_label(episode)}</a></p>'
+        )
 
         tags = episode.get("tags") or []
         if tags:
@@ -65,13 +79,13 @@ def _render_html(episodes: list[dict[str, Any]]) -> str:
 
 
 def _render_text(episodes: list[dict[str, Any]]) -> str:
-    lines = ["PODCAST DIGEST", ""]
+    lines = ["MORNING BRIEF", ""]
     for episode in episodes:
         title = episode.get("title", "Untitled")
         feed = episode.get("feed_name", "Unknown")
         score = episode.get("score", "?")
         lines.append(f"{title} ({feed}) -- score {score}/5")
-        lines.append(str(episode.get("url", "")))
+        lines.append(f"{_link_label(episode)}: {episode.get('url', '')}")
 
         one_liner = episode.get("one_liner")
         if one_liner:
