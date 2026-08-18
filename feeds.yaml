@@ -150,3 +150,26 @@ feeds:
     tier: "macro"
     kind: "article"
     min_body_chars: 400
+
+# Search terms for the monthly `discover` sweep (ticket #5). Queried
+# against the free, keyless iTunes Search API (entity=podcast); results are
+# deduped against the podcast feeds above (both URL and name) and against
+# previously-proposed candidates in state/discovery_seen.json, then emailed
+# for manual approval -- discover never adds a feed itself. Only podcasts
+# are searched: there is no free keyless directory API for general
+# article/RSS feeds (see SPEC.md), so article sources stay hand-curated.
+# Tune coverage by editing this list; no code changes needed.
+discovery_terms:
+  - "repo market"
+  - "money markets"
+  - "funding markets"
+  - "SOFR"
+  - "collateral"
+  - "central banking"
+  - "interest rates"
+  - "credit markets"
+  - "structured credit"
+  - "CLO"
+  - "securitization"
+  - "fixed income"
+  - "bond market"

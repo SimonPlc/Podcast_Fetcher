@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pytest
 
-from podcast_fetcher.feeds import FeedsConfigError, load_feeds
+from podcast_fetcher.feeds import FeedsConfigError, load_discovery_terms, load_feeds
 from podcast_fetcher.models import Feed
 
 
@@ -147,3 +147,78 @@ feeds:
     )
     with pytest.raises(FeedsConfigError, match="tier"):
         load_feeds(path)
+
+
+# --- discovery_terms (ticket #5) ---
+
+
+def test_load_discovery_terms_returns_configured_list(tmp_path: Path) -> None:
+    path = tmp_path / "feeds.yaml"
+    path.write_text(
+        """
+feeds:
+  - name: "Odd Lots"
+    url: "https://example.com/oddlots.rss"
+    tier: "plumbing"
+discovery_terms:
+  - "repo market"
+  - "SOFR"
+""",
+        encoding="utf-8",
+    )
+    assert load_discovery_terms(path) == ["repo market", "SOFR"]
+
+
+def test_load_discovery_terms_absent_returns_empty_list(tmp_path: Path) -> None:
+    path = tmp_path / "feeds.yaml"
+    path.write_text(
+        """
+feeds:
+  - name: "Odd Lots"
+    url: "https://example.com/oddlots.rss"
+    tier: "plumbing"
+""",
+        encoding="utf-8",
+    )
+    assert load_discovery_terms(path) == []
+
+
+def test_load_discovery_terms_rejects_non_list(tmp_path: Path) -> None:
+    path = tmp_path / "feeds.yaml"
+    path.write_text(
+        """
+feeds:
+  - name: "Odd Lots"
+    url: "https://example.com/oddlots.rss"
+    tier: "plumbing"
+discovery_terms: "repo market"
+""",
+        encoding="utf-8",
+    )
+    with pytest.raises(FeedsConfigError, match="discovery_terms"):
+        load_discovery_terms(path)
+
+
+def test_load_discovery_terms_rejects_blank_entry(tmp_path: Path) -> None:
+    path = tmp_path / "feeds.yaml"
+    path.write_text(
+        """
+feeds:
+  - name: "Odd Lots"
+    url: "https://example.com/oddlots.rss"
+    tier: "plumbing"
+discovery_terms:
+  - "repo market"
+  - "   "
+""",
+        encoding="utf-8",
+    )
+    with pytest.raises(FeedsConfigError, match="discovery_terms"):
+        load_discovery_terms(path)
+
+
+def test_loads_the_real_repo_discovery_terms() -> None:
+    repo_feeds = Path(__file__).resolve().parent.parent / "feeds.yaml"
+    terms = load_discovery_terms(repo_feeds)
+    assert len(terms) >= 5
+    assert "SOFR" in terms

@@ -52,6 +52,20 @@ class Article:
 
 
 @dataclass(frozen=True)
+class Candidate:
+    """A podcast show surfaced by the monthly `discover` sweep (see
+    discover.py), from the free iTunes Search API. Unlike Article, this
+    data (a show's name and public feed URL) is directory metadata, not
+    third-party content, so it's fine to persist -- see
+    state/discovery_seen.json.
+    """
+
+    name: str
+    feed_url: str
+    term: str
+
+
+@dataclass(frozen=True)
 class ExtractResult:
     """The per-episode Claude extraction: a relevance score plus the
     material rendered into that episode's digest card.

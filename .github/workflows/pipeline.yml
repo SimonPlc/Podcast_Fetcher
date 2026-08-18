@@ -1,11 +1,13 @@
 name: Podcast Fetcher Pipeline
 
-# Two decoupled modes (see SPEC.md): "collect" runs several times a day and
-# transcribes/scores new episodes into the pending queue; "digest" runs once
-# each weekday morning (plus a backup run) and emails whatever is queued. The
-# run mode is derived from which cron fired this run (see "Determine run
-# mode" below) rather than declared per-schedule-entry, since GitHub Actions
-# has no per-cron-entry config -- workflow_dispatch can override it.
+# Three decoupled modes (see SPEC.md): "collect" runs several times a day
+# and transcribes/scores new episodes into the pending queue; "digest" runs
+# once each weekday morning (plus a backup run) and emails whatever is
+# queued; "discover" runs once a month and emails new candidate shows for
+# manual approval. The run mode is derived from which cron fired this run
+# (see "Determine run mode" below) rather than declared per-schedule-entry,
+# since GitHub Actions has no per-cron-entry config -- workflow_dispatch can
+# override it.
 on:
   schedule:
     # collect: 6x/day, staggered off-the-hour minutes to avoid GitHub's
@@ -20,6 +22,9 @@ on:
     # case the on-time run failed transiently. cron day-of-week 0-4 = Sun-Thu.
     - cron: "0 23 * * 0-4"
     - cron: "30 23 * * 0-4"
+    # discover: once a month (1st, 21:17 UTC), well clear of the digest and
+    # collect runs above.
+    - cron: "17 21 1 * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -28,6 +33,7 @@ on:
         options:
           - collect
           - digest
+          - discover
         default: collect
 
 # The repo's committed JSON state (state/emailed_episodes.json,
@@ -70,6 +76,9 @@ jobs:
             case "${{ github.event.schedule }}" in
               "0 23 * * 0-4" | "30 23 * * 0-4")
                 mode="digest"
+                ;;
+              "17 21 1 * *")
+                mode="discover"
                 ;;
               *)
                 mode="collect"

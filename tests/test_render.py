@@ -1,6 +1,7 @@
 from __future__ import annotations
 
-from podcast_fetcher.render import render_digest
+from podcast_fetcher.models import Candidate
+from podcast_fetcher.render import render_digest, render_discovery
 
 ITEMS = {
     "guid-1": {
@@ -137,3 +138,47 @@ def test_unified_list_sorts_podcast_and_article_by_score_descending() -> None:
     html, _ = render_digest(MIXED_ITEMS)
     # article (score 5) must come before podcast (score 3)
     assert html.index("Reserves Are Getting Scarce") < html.index("Repo Market Update")
+
+
+# --- render_discovery (ticket #5) ---
+
+CANDIDATES = [
+    Candidate(name="New Repo Show", feed_url="https://example.com/newrepo.rss", term="repo market"),
+    Candidate(name="Credit Weekly", feed_url="https://example.com/creditweekly.rss", term="structured credit"),
+]
+
+
+def test_discovery_html_contains_each_candidate_name_url_and_term() -> None:
+    html, _ = render_discovery(CANDIDATES)
+    assert "New Repo Show" in html
+    assert "https://example.com/newrepo.rss" in html
+    assert "repo market" in html
+    assert "Credit Weekly" in html
+    assert "https://example.com/creditweekly.rss" in html
+    assert "structured credit" in html
+
+
+def test_discovery_text_contains_each_candidate_name_url_and_term() -> None:
+    _, text = render_discovery(CANDIDATES)
+    assert "New Repo Show" in text
+    assert "https://example.com/newrepo.rss" in text
+    assert "repo market" in text
+
+
+def test_discovery_states_nothing_added_automatically() -> None:
+    html, text = render_discovery(CANDIDATES)
+    assert "nothing was added automatically" in html.lower()
+    assert "nothing was added automatically" in text.lower()
+
+
+def test_discovery_empty_renders_no_new_candidates_note() -> None:
+    html, text = render_discovery([])
+    assert "no new candidate" in html.lower()
+    assert "no new candidate" in text.lower()
+    assert "nothing was added automatically" in html.lower()
+
+
+def test_discovery_empty_html_and_text_are_non_empty() -> None:
+    html, text = render_discovery([])
+    assert len(html.strip()) > 0
+    assert len(text.strip()) > 0

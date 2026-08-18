@@ -8,7 +8,7 @@ from typing import Any
 from podcast_fetcher.articles import article_hash, parse_article_entries, select_articles
 from podcast_fetcher.config import Config
 from podcast_fetcher.extract import extract_article
-from podcast_fetcher.gmail import mint_access_token, send_email
+from podcast_fetcher.gmail import mint_access_token, require_env, send_email
 from podcast_fetcher.ingest import fetch_feed
 from podcast_fetcher.models import Article, ExtractResult, Feed
 from podcast_fetcher.render import render_digest
@@ -82,9 +82,9 @@ def run_digest(
     if not config.email_to or not config.email_from:
         raise RuntimeError("EMAIL_TO and EMAIL_FROM must be set to send the digest")
 
-    client_id = _require_env(env, "GMAIL_CLIENT_ID")
-    client_secret = _require_env(env, "GMAIL_CLIENT_SECRET")
-    refresh_token = _require_env(env, "GMAIL_REFRESH_TOKEN")
+    client_id = require_env(env, "GMAIL_CLIENT_ID")
+    client_secret = require_env(env, "GMAIL_CLIENT_SECRET")
+    refresh_token = require_env(env, "GMAIL_REFRESH_TOKEN")
 
     access_token = mint_token(client_id, client_secret, refresh_token)
     send(
@@ -189,10 +189,3 @@ def _mark_articles_seen(newly_seen: list[tuple[str, str]]) -> None:
     for hash_, feed_name in newly_seen:
         records[hash_] = {"feed_name": feed_name}
     save_seen_articles(seen)
-
-
-def _require_env(env: Mapping[str, str], key: str) -> str:
-    value = env.get(key)
-    if not value:
-        raise RuntimeError(f"{key} must be set to send the digest")
-    return value

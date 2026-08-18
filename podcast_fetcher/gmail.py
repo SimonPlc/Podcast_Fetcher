@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import base64
+from collections.abc import Mapping
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
@@ -8,6 +9,18 @@ import requests
 
 TOKEN_URL = "https://oauth2.googleapis.com/token"
 SEND_URL = "https://gmail.googleapis.com/gmail/v1/users/me/messages/send"
+
+
+def require_env(env: Mapping[str, str], key: str) -> str:
+    """Read a required env var, raising a clear error if unset or empty.
+    Shared by digest.py and discover.py -- both mint a Gmail access token
+    from the same three secrets before sending, and should fail the same
+    way when one is missing.
+    """
+    value = env.get(key)
+    if not value:
+        raise RuntimeError(f"{key} must be set to send email")
+    return value
 
 
 def mint_access_token(client_id: str, client_secret: str, refresh_token: str, *, timeout: int = 30) -> str:

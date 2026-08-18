@@ -25,6 +25,16 @@
 > scored, and rendered entirely inside the digest run, since there is no
 > expensive transcription step to amortise (see the new Implementation
 > Decisions below). Article content is never persisted to state, only a hash.
+>
+> **Revision (2026-08-19):** ticket #5 implemented the monthly `discover`
+> run mode: it queries the free, keyless iTunes Search API for the domain
+> terms in feeds.yaml's new `discovery_terms` list, dedupes candidates
+> against the current podcast feed list and against previously-proposed
+> candidates (`state/discovery_seen.json`), and emails whatever is new for
+> manual approval -- it never adds a feed itself. Discovery is
+> **podcasts-only**: there is no free keyless directory API for general
+> article/RSS feeds, so article sources in feeds.yaml remain curated by
+> hand (see "Podcast discovery" below).
 
 ## Problem Statement
 
@@ -123,9 +133,11 @@ spoken "podcast of podcasts" I can subscribe to.
   unlimited free Actions minutes. Secrets live in encrypted GitHub Secrets, never
   in the repo.
 - State is persisted as **JSON files committed back to the repo** after each run
-  (the repo is the database). Three files: a permanent podcast processed/dedup
-  record, a pending-digest queue, and (since ticket #7) a permanent article
-  dedup record holding hashes only -- see "Written articles" below.
+  (the repo is the database). Four files: a permanent podcast processed/dedup
+  record, a pending-digest queue, a permanent article dedup record holding
+  hashes only (since ticket #7 -- see "Written articles" below), and (since
+  ticket #5) a permanent discovery-candidate record holding previously-
+  proposed podcast candidates -- see "Podcast discovery" below.
 
 **Pipeline shape** — two decoupled modes plus a monthly mode:
 - **Collect** (several times per day): for each feed, take the newest N episodes
@@ -143,8 +155,12 @@ spoken "podcast of podcasts" I can subscribe to.
   collect time. Articles are the one exception to "digest makes no LLM call":
   they have no collect-time queue, so their single Claude extraction happens
   here, in the digest run itself.
-- **Discover** (monthly): query podcast directories for domain terms, dedupe
-  against the current feed list, email a candidate-shows list for manual approval.
+- **Discover** (monthly): query the iTunes Search API for each configured
+  domain term, dedupe candidates against the current podcast feed list and
+  against previously-proposed candidates, email a candidate-shows list for
+  manual approval, and record newly-proposed candidates as seen only after
+  that email sends successfully. Never adds a feed itself (see "Podcast
+  discovery" below).
 
 **Ingestion**
 - Pure **RSS** via feedparser; download the episode's audio enclosure like any
@@ -202,6 +218,52 @@ ranked into the same score-sorted list), with these deliberate differences:
   feed, so it remains covered only by the podcast list -- a known, accepted
   gap (see Out of Scope).
 
+**Podcast discovery (ticket #5)** -- a monthly `discover` run mode that
+proposes new podcast shows for manual approval; it never adds a feed itself:
+- **iTunes Search API only.** `https://itunes.apple.com/search?term=<term>&entity=podcast&limit=<n>`
+  is free, keyless, and returns `collectionName`/`feedUrl` per result --
+  confirmed working. Queried with `requests` and an honest, identifying
+  User-Agent, the same reasoning as `transcribe.py`'s `_REQUEST_HEADERS`.
+  `DISCOVERY_LIMIT` (default 25) caps results requested per search term.
+- **Article-feed discovery is explicitly out of scope.** There is no free
+  keyless directory API for general RSS/article feeds -- Feedly's search API
+  needs OAuth, Podcast Index needs a key, everything else is scraping.
+  Discovery therefore only ever searches for and proposes `kind: podcast`
+  shows; article sources in feeds.yaml stay hand-curated, as they always
+  have been.
+- **Search terms live in feeds.yaml**, as a top-level `discovery_terms` list
+  (loaded by `feeds.load_discovery_terms`, kept separate from `load_feeds`/
+  `Feed` since the terms describe the sweep as a whole, not any one feed),
+  so domain coverage can be tuned without touching code -- same principle as
+  the feed list itself. An absent `discovery_terms` key loads as an empty
+  list rather than raising, so existing feeds.yaml files/tests are
+  unaffected.
+- **Dedupe by both normalised feed URL and normalised name**, against BOTH
+  the current `kind: podcast` feed list and every previously-proposed
+  candidate, so the same show already declined isn't re-proposed every
+  month. Normalisation: case-fold, strip surrounding whitespace, drop a
+  trailing slash, and treat `http`/`https` as equivalent -- directory data
+  routinely lists the same show under a slightly different URL or scheme.
+  Candidates are also deduped against each other within one run, since the
+  same show can surface under more than one search term.
+- **Previously-proposed candidates persist to `state/discovery_seen.json`**,
+  keyed by normalised feed URL, storing the show's name, feed URL, and the
+  term that surfaced it. Unlike article content, a podcast's name and public
+  feed URL are directory metadata (the same thing anyone gets back from the
+  iTunes Search API), not third-party content requiring the article
+  no-persist treatment, so persisting them in full is fine.
+- **A candidate is recorded as proposed only after the email sends
+  successfully** -- exactly like the podcast queue and article dedup hashes
+  only commit on a successful digest send -- so a failed send doesn't
+  silently burn that month's candidates before Simon ever saw them.
+- **A failing search term is logged and skipped**, not fatal to the run,
+  matching `collect.py`'s per-feed and `digest.py`'s per-article defensive
+  style.
+- **No candidates found** (including when `discovery_terms` is empty)
+  renders a "no new candidates" note and still emails, rather than sending
+  nothing -- mirroring the digest's quiet-day behaviour: a monthly email
+  confirms the sweep ran even when there's nothing to review.
+
 **Transcription**
 - Local **Whisper**, model `small` by default (better on jargon than the
   reference's `base`), running on Actions CPU. Model size is an env knob.
@@ -250,16 +312,18 @@ plus an explicit knowledge-expansion dimension. Default queue threshold: score
   is a multipart/alternative MIME (text + HTML) posted to messages.send.
 
 **Scheduling (UTC)** — collect every few hours on a staggered minute; digest at
-23:00 UTC Sun-Thu (= 07:00 HK Mon-Fri) with a 23:30 backup; discover monthly.
-Concurrency is serialized (queue, do not cancel) so runs don't race on the
-committed JSON state. `workflow_dispatch` allows manual runs with a mode override.
+23:00 UTC Sun-Thu (= 07:00 HK Mon-Fri) with a 23:30 backup; discover monthly
+(1st of the month, 21:17 UTC). Concurrency is serialized (queue, do not cancel)
+so runs don't race on the committed JSON state. `workflow_dispatch` allows
+manual runs with a mode override.
 
 **Config knobs (env):** `RUN_MODE`, `WHISPER_MODEL`, `MAX_RECENT_DAYS` (3),
 `EPISODES_PER_FEED` (2), `MIN_SCORE` (3), `MAX_EPISODES_PER_RUN` (cap per collect),
 `MAX_TRANSCRIPT_CHARS`, `MAX_ARTICLES_PER_DIGEST` (10, cap on articles
-extracted per digest run -- ticket #7), `CLAUDE_MODEL`, `EMAIL_TO`, `EMAIL_FROM`.
-Articles reuse `MIN_SCORE` and `MAX_RECENT_DAYS` unchanged rather than getting
-their own knobs.
+extracted per digest run -- ticket #7), `DISCOVERY_LIMIT` (25, cap on iTunes
+results requested per search term -- ticket #5), `CLAUDE_MODEL`, `EMAIL_TO`,
+`EMAIL_FROM`. Articles reuse `MIN_SCORE` and `MAX_RECENT_DAYS` unchanged
+rather than getting their own knobs.
 
 ## Testing Decisions
 
@@ -291,6 +355,19 @@ the existing pending-queue-untouched-on-failure test); and an explicit
 assertion that a persisted article record contains no `title`/`body`/
 `summary` key.
 
+Ticket #5 added the same kind of pure-logic, no-network tests for discovery:
+`normalize_url`/`normalize_name` on the documented equivalence cases
+(trailing slash, http/https, case, whitespace); `select_new_candidates`
+excluding a match by URL alone, by name alone, against previously-proposed
+candidates, and dedup within one batch, while confirming a candidate is
+*not* excluded just because it collides with an existing `kind: article`
+feed; a failing search term not aborting `run_discover` (fake `search`
+raises for one term, the run still emails the rest); the
+candidates-recorded-only-after-a-successful-send ordering (mirroring
+articles' dedup-hash ordering, asserted against a failing `send`); and the
+empty-candidates ("no new candidates") render, including when
+`discovery_terms` itself is empty.
+
 No prior art in-repo (greenfield). Tests use plain `pytest` with hand-built
 fixtures; no network or model access. The pipeline is structured so these three
 functions are importable without triggering any I/O at import time.
@@ -316,6 +393,11 @@ functions are importable without triggering any I/O at import time.
   body. No HTML-page fetch-and-extract step exists or is planned; adding one
   would blur the "full-text RSS only" line that keeps the redistribution
   question simple.
+- **Article-feed discovery** (ticket #5): the monthly `discover` sweep only
+  ever searches for and proposes podcasts. There is no free keyless
+  directory API for general RSS/article feeds to query the way the iTunes
+  Search API covers podcasts, so article sources in feeds.yaml remain
+  curated by hand -- see "Podcast discovery" above.
 
 ## Further Notes
 

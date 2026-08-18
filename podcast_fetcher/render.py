@@ -1,7 +1,10 @@
 from __future__ import annotations
 
 import html as html_lib
+from collections.abc import Sequence
 from typing import Any
+
+from podcast_fetcher.models import Candidate
 
 _QUIET_MESSAGE = "Nothing scored relevant enough for today's digest -- quiet day, but the pipeline ran."
 
@@ -115,3 +118,58 @@ def _render_quiet_html() -> str:
 
 def _render_quiet_text() -> str:
     return _QUIET_MESSAGE + "\n"
+
+
+# --- Monthly discovery-sweep email (ticket #5) ---
+
+_DISCOVERY_INTRO = (
+    "Monthly discovery sweep -- nothing was added automatically. Review each "
+    "candidate below and add it to feeds.yaml yourself if it's worth including."
+)
+_DISCOVERY_QUIET_MESSAGE = "No new candidate shows found this month."
+
+
+def render_discovery(candidates: Sequence[Candidate]) -> tuple[str, str]:
+    """Render the monthly discover-run email: one row per proposed show
+    (name, feed URL, and the search term that surfaced it), or a
+    no-new-candidates note if the sweep found nothing new -- mirroring
+    render_digest's quiet-day note rather than an empty shell. Always
+    states plainly that nothing was added automatically: discover only
+    ever proposes, a human approves by hand-editing feeds.yaml (SPEC.md).
+    """
+    if not candidates:
+        return _render_discovery_quiet_html(), _render_discovery_quiet_text()
+    return _render_discovery_html(candidates), _render_discovery_text(candidates)
+
+
+def _render_discovery_html(candidates: Sequence[Candidate]) -> str:
+    parts = [
+        f'<div style="{_STYLE_BODY}"><h1>New Show Candidates</h1>',
+        f"<p><strong>{_esc(_DISCOVERY_INTRO)}</strong></p>",
+    ]
+    for candidate in candidates:
+        parts.append(f'<div style="{_STYLE_CARD}">')
+        parts.append(f'<h2 style="margin-top: 0;">{_esc(candidate.name)}</h2>')
+        parts.append(f'<p style="{_STYLE_META}">Feed: {_esc(candidate.feed_url)}</p>')
+        parts.append(f'<p style="{_STYLE_META}">Found via search term: &quot;{_esc(candidate.term)}&quot;</p>')
+        parts.append("</div>")
+    parts.append("</div>")
+    return "\n".join(parts)
+
+
+def _render_discovery_text(candidates: Sequence[Candidate]) -> str:
+    lines = ["NEW SHOW CANDIDATES", "", _DISCOVERY_INTRO, ""]
+    for candidate in candidates:
+        lines.append(candidate.name)
+        lines.append(f"Feed: {candidate.feed_url}")
+        lines.append(f'Found via search term: "{candidate.term}"')
+        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def _render_discovery_quiet_html() -> str:
+    return f'<div style="{_STYLE_BODY}"><p>{_esc(_DISCOVERY_QUIET_MESSAGE)}</p><p>{_esc(_DISCOVERY_INTRO)}</p></div>'
+
+
+def _render_discovery_quiet_text() -> str:
+    return _DISCOVERY_QUIET_MESSAGE + "\n" + _DISCOVERY_INTRO + "\n"

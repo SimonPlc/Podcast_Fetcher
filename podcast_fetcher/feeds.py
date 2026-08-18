@@ -53,3 +53,26 @@ def _parse_entry(entry: Any, index: int, path: str | Path) -> Feed:
         kind=kind,
         min_body_chars=min_body_chars,
     )
+
+
+def load_discovery_terms(path: str | Path) -> list[str]:
+    """Load the optional top-level `discovery_terms` list from feeds.yaml,
+    used by the monthly `discover` run to query podcast directories (see
+    SPEC.md). Kept as a separate function -- rather than bolted onto
+    `Feed` or `load_feeds` -- since the terms describe the sweep as a
+    whole, not any one feed.
+
+    Absent entirely, this returns an empty list rather than raising: a
+    feeds.yaml written before this feature existed (or any existing test
+    fixture) must keep loading exactly as before.
+    """
+    raw = yaml.safe_load(Path(path).read_text(encoding="utf-8"))
+    if not isinstance(raw, dict):
+        raise FeedsConfigError(f"{path}: expected a top-level mapping")
+
+    terms = raw.get("discovery_terms")
+    if terms is None:
+        return []
+    if not isinstance(terms, list) or not all(isinstance(term, str) and term.strip() for term in terms):
+        raise FeedsConfigError(f"{path}: 'discovery_terms' must be a list of non-empty strings")
+    return list(terms)
