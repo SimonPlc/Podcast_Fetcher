@@ -3,7 +3,7 @@ from __future__ import annotations
 import html as html_lib
 from typing import Any
 
-from podcast_fetcher.models import Brief
+from podcast_fetcher.models import Brief, ThemePoint
 
 _QUIET_MESSAGE = "Nothing scored relevant enough to make today's brief -- quiet day, but the pipeline ran."
 
@@ -36,6 +36,10 @@ def _source_label(guid: str, sources_by_id: dict[str, dict[str, Any]]) -> str:
     return f"{record.get('feed_name', 'Unknown')}: {record.get('title', guid)}"
 
 
+def _point_source_labels(point: ThemePoint, sources_by_id: dict[str, dict[str, Any]]) -> str:
+    return ", ".join(_source_label(sid, sources_by_id) for sid in point.source_ids)
+
+
 def _render_brief_html(brief: Brief, sources_by_id: dict[str, dict[str, Any]]) -> str:
     parts = [
         f'<div style="{_STYLE_BODY}">',
@@ -46,7 +50,7 @@ def _render_brief_html(brief: Brief, sources_by_id: dict[str, dict[str, Any]]) -
     for theme in brief.themes:
         parts.append(f'<h2 style="{_STYLE_H2}">{_esc(theme.name)}</h2><ul>')
         for point in theme.points:
-            sources = ", ".join(_source_label(sid, sources_by_id) for sid in point.source_ids)
+            sources = _point_source_labels(point, sources_by_id)
             attribution = f' <span style="{_STYLE_SOURCE}">[{_esc(sources)}]</span>' if sources else ""
             parts.append(f"<li>{_esc(point.text)}{attribution}</li>")
         parts.append("</ul>")
@@ -80,7 +84,7 @@ def _render_brief_text(brief: Brief, sources_by_id: dict[str, dict[str, Any]]) -
     for theme in brief.themes:
         lines.append(theme.name)
         for point in theme.points:
-            sources = ", ".join(_source_label(sid, sources_by_id) for sid in point.source_ids)
+            sources = _point_source_labels(point, sources_by_id)
             suffix = f" [{sources}]" if sources else ""
             lines.append(f"- {point.text}{suffix}")
         lines.append("")
