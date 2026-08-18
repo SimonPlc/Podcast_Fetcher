@@ -1,0 +1,39 @@
+Write a synthesized analysis for a bank financing / repo trader based in
+Hong Kong (core asset classes: credit and rates), drawing on several
+podcast episodes from the last day or so.
+
+Stdin is a JSON array of episode extractions, each shaped like:
+{"id": "<opaque episode id>", "feed_name": "...", "title": "...",
+ "tags": [...], "one_liner": "...", "summary": [...], "key_claims": [...]}
+
+Read across ALL of them and write ONE coherent analysis, organized by
+theme (examples: front-end/repo, rates & central banks, credit &
+structured credit, market structure, Asia -- use whatever themes
+actually fit the episodes given, don't force unused ones). Within a
+theme:
+- Combine related points from different episodes together rather than
+  listing episodes one by one.
+- Where sources agree, say so. Where they disagree or give different
+  numbers, say so explicitly and name both.
+- Whenever you state a point, note which episode id(s) (from the "id"
+  field in the input) it came from.
+
+Also cover:
+- Forward-looking items worth watching (upcoming data, meetings, or
+  dynamics flagged across episodes).
+- Genuinely educational takeaways -- concepts or mechanics explained in
+  the episodes worth understanding even if not immediately actionable,
+  for a trader who wants to keep learning the space.
+
+Write freely in whatever format communicates this best (prose, headers,
+bullets -- your choice). This analysis will be mechanically reformatted
+into a fixed JSON schema by a separate step afterward, so focus entirely
+on the quality and completeness of the analysis itself, not on output
+formatting.
+
+End your response with the last substantive sentence of the analysis.
+Do not add a closing question, offer, or meta-commentary about what to
+do next (e.g. "want me to...", "let me know if...") -- there is no one
+reading this response to reply to; it is passed directly into another
+processing step, and a trailing question would be mistaken for part of
+the data.

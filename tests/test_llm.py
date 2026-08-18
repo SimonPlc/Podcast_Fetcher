@@ -1,8 +1,11 @@
 from __future__ import annotations
 
+from typing import Any
+from unittest.mock import patch
+
 import pytest
 
-from podcast_fetcher.llm import LLMParseError, parse_json_object
+from podcast_fetcher.llm import LLMParseError, parse_json_object, run_claude
 
 
 def test_parses_clean_json_object() -> None:
@@ -42,3 +45,26 @@ def test_raises_on_json_array_not_object() -> None:
 def test_raises_on_truncated_json() -> None:
     with pytest.raises(LLMParseError):
         parse_json_object('{"a": 1, "b":')
+
+
+class _FakeCompletedProcess:
+    def __init__(self) -> None:
+        self.returncode = 0
+        self.stdout = '{"ok": true}'
+        self.stderr = ""
+
+
+def test_run_claude_strips_claude_code_session_env_vars(monkeypatch: Any) -> None:
+    monkeypatch.setenv("PATH", "/usr/bin")
+    monkeypatch.setenv("CLAUDE_CODE_SESSION_ID", "leaked-session-id")
+    monkeypatch.setenv("CLAUDE_CODE_CHILD_SESSION", "1")
+    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "sk-ant-oat01-should-survive")
+
+    with patch("podcast_fetcher.llm.subprocess.run", return_value=_FakeCompletedProcess()) as mock_run:
+        run_claude("instructions", "stdin text")
+
+    passed_env = mock_run.call_args.kwargs["env"]
+    assert "CLAUDE_CODE_SESSION_ID" not in passed_env
+    assert "CLAUDE_CODE_CHILD_SESSION" not in passed_env
+    assert passed_env["CLAUDE_CODE_OAUTH_TOKEN"] == "sk-ant-oat01-should-survive"
+    assert passed_env["PATH"] == "/usr/bin"

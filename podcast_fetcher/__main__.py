@@ -6,6 +6,7 @@ import sys
 
 from podcast_fetcher.collect import run_collect
 from podcast_fetcher.config import load_config
+from podcast_fetcher.digest import run_digest
 from podcast_fetcher.feeds import load_feeds
 
 FEEDS_PATH = "feeds.yaml"
@@ -14,13 +15,18 @@ FEEDS_PATH = "feeds.yaml"
 def main() -> int:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     config = load_config(os.environ)
-    feeds = load_feeds(FEEDS_PATH)
 
     if config.run_mode == "collect":
-        run_collect(feeds, config)
+        run_collect(load_feeds(FEEDS_PATH), config)
         return 0
 
-    logging.getLogger(__name__).error("Unsupported RUN_MODE=%r (only 'collect' is implemented so far)", config.run_mode)
+    if config.run_mode == "digest":
+        run_digest(config, os.environ)
+        return 0
+
+    logging.getLogger(__name__).error(
+        "Unsupported RUN_MODE=%r (expected 'collect' or 'digest')", config.run_mode
+    )
     return 1
 
 
