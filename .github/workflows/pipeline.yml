@@ -1,0 +1,171 @@
+name: Podcast Fetcher Pipeline
+
+# Two decoupled modes (see SPEC.md): "collect" runs several times a day and
+# transcribes/scores new episodes into the pending queue; "digest" runs once
+# each weekday morning (plus a backup run) and emails whatever is queued. The
+# run mode is derived from which cron fired this run (see "Determine run
+# mode" below) rather than declared per-schedule-entry, since GitHub Actions
+# has no per-cron-entry config -- workflow_dispatch can override it.
+on:
+  schedule:
+    # collect: 6x/day, staggered off-the-hour minutes to avoid GitHub's
+    # top-of-hour scheduling congestion. Roughly every 4 hours.
+    - cron: "13 0 * * *"
+    - cron: "27 4 * * *"
+    - cron: "41 8 * * *"
+    - cron: "8 12 * * *"
+    - cron: "22 16 * * *"
+    - cron: "36 20 * * *"
+    # digest: 23:00 UTC Sun-Thu = 07:00 HK Mon-Fri, plus a 23:30 backup in
+    # case the on-time run failed transiently. cron day-of-week 0-4 = Sun-Thu.
+    - cron: "0 23 * * 0-4"
+    - cron: "30 23 * * 0-4"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode (overrides the cron-derived mode for this manual run)"
+        type: choice
+        options:
+          - collect
+          - digest
+        default: collect
+
+# The repo's committed JSON state (state/emailed_episodes.json,
+# state/pending_digest.json) is the database, so runs must never race on it.
+# Queue rather than cancel: a cancelled collect/digest mid-write is exactly
+# the kind of partial-state risk this guards against.
+concurrency:
+  group: podcast-fetcher-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  # Repo variable with a literal fallback baked into the expression, so the
+  # env var this resolves to is never an empty string (see WHISPER_MODEL
+  # comment below the "Run pipeline" step for why that matters).
+  WHISPER_MODEL: ${{ vars.WHISPER_MODEL || 'small' }}
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Full history so a retry-rebase in the state-commit step (below)
+          # always has a common ancestor with origin, even though this is a
+          # rare path thanks to the concurrency group above.
+          fetch-depth: 0
+
+      - name: Determine run mode
+        id: run_mode
+        shell: bash
+        run: |
+          dispatch_mode="${{ github.event.inputs.mode }}"
+          if [ -n "$dispatch_mode" ]; then
+            mode="$dispatch_mode"
+          else
+            case "${{ github.event.schedule }}" in
+              "0 23 * * 0-4" | "30 23 * * 0-4")
+                mode="digest"
+                ;;
+              *)
+                mode="collect"
+                ;;
+            esac
+          fi
+          echo "Resolved run mode: $mode (schedule=${{ github.event.schedule }}, dispatch_mode=$dispatch_mode)"
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Set up Node.js (for the Claude Code CLI)
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Install Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Cache Whisper model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/whisper
+          key: whisper-model-${{ env.WHISPER_MODEL }}
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # CPU-only wheel first: the default PyPI torch build pulls in CUDA
+          # and is several times larger than this CPU-only Actions runner
+          # needs. Installing it before requirements.txt means
+          # openai-whisper's unpinned "torch" dependency is already
+          # satisfied and pip won't pull the GPU build in afterwards.
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          RUN_MODE: ${{ steps.run_mode.outputs.mode }}
+          # WHISPER_MODEL is set at the workflow level above (with its
+          # `|| 'small'` fallback already applied) rather than
+          # `${{ vars.WHISPER_MODEL }}` here directly -- an unset repo
+          # variable resolves to an empty string, and load_config() would
+          # pass that straight to transcribe.py without a default kicking
+          # in. Same reasoning is why MAX_RECENT_DAYS et al. below are left
+          # unset instead of piped from possibly-unset vars: load_config()'s
+          # int() conversions have no empty-string guard, only a
+          # key-is-absent one.
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+        run: python -m podcast_fetcher
+
+      - name: Commit and push updated state
+        # Runs even if the pipeline step above failed, so partial state
+        # collect.py already wrote (e.g. some episodes recorded before a
+        # later one crashed) is never left uncommitted just because the run
+        # itself is reported red.
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add state/
+
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update pipeline state [skip ci]"
+
+          attempt=1
+          max_attempts=5
+          until git push; do
+            if [ "$attempt" -ge "$max_attempts" ]; then
+              echo "::error::Failed to push state after $max_attempts attempts"
+              exit 1
+            fi
+            echo "Push rejected (attempt $attempt/$max_attempts); fetching and rebasing before retry..."
+            git fetch origin "$GITHUB_REF_NAME"
+            git rebase "origin/$GITHUB_REF_NAME"
+            attempt=$((attempt + 1))
+            sleep $((RANDOM % 5 + 1))
+          done
