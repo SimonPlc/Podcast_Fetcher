@@ -58,11 +58,36 @@ class Candidate:
     data (a show's name and public feed URL) is directory metadata, not
     third-party content, so it's fine to persist -- see
     state/discovery_seen.json.
+
+    `artist_name`/`genres` (ticket #8) carry the iTunes
+    `artistName`/`genres` fields -- the only extra material the show-level
+    relevance scoring pass has to go on, since there is no transcript at
+    this stage. They default empty so any code that only knows about
+    name/feed_url/term (e.g. state/discovery_seen.json records, which
+    never carried these) keeps working unchanged.
     """
 
     name: str
     feed_url: str
     term: str
+    artist_name: str = ""
+    genres: tuple[str, ...] = ()
+
+
+@dataclass(frozen=True)
+class ScoredCandidate:
+    """A Candidate paired with its Claude relevance score and one-line
+    reason from the batched discovery-scoring pass (ticket #8).
+
+    `score`/`reason` are None only along the scoring-failure fallback
+    path, where run_discover emails the unscored candidate list rather
+    than sending nothing (SPEC.md) -- render.py uses that to label those
+    rows "unscored" instead of showing a fabricated score.
+    """
+
+    candidate: Candidate
+    score: int | None
+    reason: str | None
 
 
 @dataclass(frozen=True)

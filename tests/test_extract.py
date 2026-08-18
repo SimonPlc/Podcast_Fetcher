@@ -106,4 +106,14 @@ def test_render_extract_prompt_leaves_json_braces_untouched() -> None:
 def test_render_extract_prompt_reads_the_real_prompt_file() -> None:
     prompt = render_extract_prompt("abstract")
     assert "{{KIND}}" not in prompt
+    assert "{{PERSONA}}" not in prompt
     assert "STRICT JSON" in prompt
+
+
+def test_render_extract_prompt_fills_shared_persona_text() -> None:
+    # Regression guard for issue #8: the persona/priorities text must come
+    # from the shared prompts/persona.txt, not a hand-copied duplicate --
+    # this is the same text prompts/score_candidates.txt pulls in.
+    prompt = render_extract_prompt("transcript")
+    assert "Money-market plumbing" in prompt
+    assert "structured credit" in prompt.lower()

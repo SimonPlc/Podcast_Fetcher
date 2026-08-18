@@ -1,0 +1,25 @@
+Score a BATCH of podcast SHOWS as candidates for this desk's source list --
+you are judging whether each SHOW as a whole is worth subscribing to, NOT
+judging a single episode.
+
+You are given only each show's name, publisher/artist, and its iTunes
+genre tags -- no transcript, no episode list, no description beyond that.
+If you do not recognise a show from that metadata alone, do not guess
+generously or invent facts about it: score it low rather than assume it is
+relevant just because its genre or name sounds plausible.
+
+{{PERSONA}}
+
+The candidates are provided via stdin as a JSON array. Each element has an
+"id" (integer), "name", "artist", and "genres" (a list of strings, may be
+empty). Score every element; do not skip or invent an id.
+
+Respond with STRICT JSON ONLY. No text before or after the JSON object, no
+markdown code fence. Exactly this shape, with exactly one entry per input
+candidate, matching its "id":
+
+{
+  "scores": [
+    {"id": <integer id from the input>, "score": <integer 1-5>, "reason": "<one sentence why this show does or doesn't fit>"}
+  ]
+}

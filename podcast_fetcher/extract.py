@@ -4,6 +4,7 @@ from pathlib import Path
 
 from podcast_fetcher.llm import LLMParseError, parse_json_object, run_claude
 from podcast_fetcher.models import Article, Episode, ExtractResult
+from podcast_fetcher.persona import render_with_persona
 
 PROMPT_PATH = "prompts/extract.txt"
 
@@ -25,12 +26,14 @@ def load_extract_prompt(path: str | Path = PROMPT_PATH) -> str:
 
 
 def render_extract_prompt(kind: str, *, prompt: str | None = None) -> str:
-    """Fill the shared extraction prompt's {{KIND}} placeholder.
+    """Fill the shared extraction prompt's {{KIND}} and {{PERSONA}}
+    placeholders.
 
     Plain string replace, not str.format: the prompt's JSON example is
     full of literal `{`/`}` characters that .format would choke on.
     """
     instructions = prompt if prompt is not None else load_extract_prompt()
+    instructions = render_with_persona(instructions)
     return instructions.replace(_KIND_PLACEHOLDER, _KIND_DESCRIPTIONS[kind])
 
 

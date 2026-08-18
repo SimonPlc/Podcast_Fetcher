@@ -35,6 +35,20 @@
 > **podcasts-only**: there is no free keyless directory API for general
 > article/RSS feeds, so article sources in feeds.yaml remain curated by
 > hand (see "Podcast discovery" below).
+>
+> **Revision (2026-08-19, later same day):** ticket #8 added a Claude
+> scoring pass over discovery candidates: run live, the keyword-only
+> sweep from #5 returned mostly crypto/real-estate/personal-finance shows
+> (a genre pre-filter doesn't help -- Bankless is filed under Business,
+> same as the shows the desk actually wants), so surviving candidates are
+> now scored in ONE batched Claude call against the same relevance
+> persona `prompts/extract.txt` uses, and only candidates scoring >=
+> `MIN_SCORE` are emailed. The persona/priorities text was factored out
+> of `prompts/extract.txt` into a shared `prompts/persona.txt` (loaded via
+> `podcast_fetcher.persona`) so the new `prompts/score_candidates.txt`
+> states the same priorities rather than a second, driftable copy. See
+> "Podcast discovery" below for the full scoring behaviour, including the
+> non-fatal fallback and the not-marked-seen-when-filtered-out rule.
 
 ## Problem Statement
 
@@ -264,6 +278,53 @@ proposes new podcast shows for manual approval; it never adds a feed itself:
   nothing -- mirroring the digest's quiet-day behaviour: a monthly email
   confirms the sweep ran even when there's nothing to review.
 
+**Scoring discovery candidates (ticket #8)** -- candidates surviving
+`select_new_candidates` are scored by Claude before being emailed, so the
+sweep proposes a handful of real prospects rather than a wall of keyword
+noise (run live against the real feed list, the first 4 of 13 configured
+terms alone returned 32 surviving candidates, almost all crypto/real-estate/
+personal-finance shows; a genre pre-filter doesn't fix this since e.g.
+Bankless is filed under Business, the same genre as the shows the desk
+wants):
+- **One batched Claude call per sweep**, not one per candidate: all
+  surviving candidates are serialized to a single JSON array on stdin
+  (`discover.build_score_stdin`) and scored in one `run_claude` call
+  (`discover.score_candidates`), reusing `llm.py`'s CLI plumbing
+  (including its Windows `.exe`-over-`.cmd`-shim handling) and following
+  `extract.py`'s pattern: render a prompt, pipe the payload via stdin, get
+  strict JSON back, parse it tolerantly-but-strictly
+  (`discover.parse_score_response`, mirroring `extract.parse_extraction`).
+- **The prompt (`prompts/score_candidates.txt`) is explicit it is judging
+  a SHOW, not an episode**: the only input per candidate is its iTunes
+  `collectionName`/`artistName`/`genres` -- no transcript exists at this
+  stage and none is fetched. The prompt tells the model to calibrate
+  accordingly and to score an unrecognised show low rather than invent
+  facts about it or guess generously from genre/name alone.
+- **Shares its persona/priorities wording with `prompts/extract.txt`**
+  rather than duplicating a copy that can drift: both prompts include a
+  `{{PERSONA}}` placeholder filled from `prompts/persona.txt` by the new
+  `podcast_fetcher.persona` module (same plain-string-replace mechanism as
+  `extract.py`'s `{{KIND}}` placeholder, for the same reason -- the JSON
+  examples are full of literal `{`/`}`).
+- **Threshold: `MIN_SCORE`** (no dedicated discovery knob -- the existing
+  digest/collect threshold earns its reuse here rather than adding a
+  second, easily-mismatched number). `discover.filter_by_threshold` is a
+  pure function so this is directly testable.
+- **The email shows each proposed show's score and one-line reason**
+  alongside its existing name/feed URL/search term (`render.render_discovery`,
+  extended to take `ScoredCandidate` instead of a bare `Candidate`).
+- **A scoring failure is non-fatal**: logged, and the run falls back to
+  emailing the whole surviving candidate list unscored, clearly labelled
+  "unscored" in the email, rather than sending nothing -- the same
+  defensive spirit as `collect.py`'s per-episode and `digest.py`'s
+  per-article handling.
+- **Only candidates actually emailed are recorded as seen.** A candidate
+  filtered out by scoring (below `MIN_SCORE`) is NOT marked seen, so a
+  better prompt later can still surface it -- this is deliberately
+  different from the scoring-failure fallback path, where the *entire*
+  unscored list that got emailed IS marked seen, since Simon did see all
+  of it even without scores.
+
 **Transcription**
 - Local **Whisper**, model `small` by default (better on jargon than the
   reference's `base`), running on Actions CPU. Model size is an env knob.
@@ -276,7 +337,9 @@ proposes new podcast shows for manual approval; it never adds a feed itself:
   (article body, or abstract, via stdin) since there is no article collect
   step. Model overridable via env either way. Aside from articles, the digest
   step still makes no LLM call: an episode's card is built entirely from the
-  extraction already computed at collect time.
+  extraction already computed at collect time. The monthly discover run
+  (ticket #8) is the one exception to "one call per item": it scores its
+  whole candidate batch in a single call -- see "Podcast discovery" above.
 - The shared `prompts/extract.txt` prompt takes one source item at a time and
   is told, via a `{{KIND}}` placeholder, whether it's reading a podcast
   transcript, the full text of an article, or a paper abstract, so it can
@@ -285,6 +348,11 @@ proposes new podcast shows for manual approval; it never adds a feed itself:
   strict-JSON output contract and shape (`score`/`one_liner`/`tags`/
   `summary`/`key_claims`) are unchanged from before ticket #7 -- `render.py`
   only gained a `kind` field on each record to choose "Listen" vs "Read".
+- **`prompts/extract.txt` and `prompts/score_candidates.txt` (ticket #8)
+  share one persona/priorities statement** via a `{{PERSONA}}` placeholder
+  filled from `prompts/persona.txt` (loaded by `podcast_fetcher.persona`),
+  rather than each prompt hand-stating the same priorities and risking the
+  two silently drifting apart.
 - The extraction prompt demands **strict JSON output** so downstream rendering
   is simple templating, with a tolerant parser that extracts the JSON object if
   the model wraps it in prose.
@@ -367,6 +435,24 @@ candidates-recorded-only-after-a-successful-send ordering (mirroring
 articles' dedup-hash ordering, asserted against a failing `send`); and the
 empty-candidates ("no new candidates") render, including when
 `discovery_terms` itself is empty.
+
+Ticket #8 added tests for the scoring pass, all against fakes, no network
+or Claude CLI: `build_score_stdin`'s exact id/name/artist/genres shape;
+`parse_score_response`'s tolerant-but-strict parsing (prose-wrapped JSON
+accepted; missing `scores` key, an out-of-range score, an out-of-range id,
+a missing `reason`, or incomplete id coverage all raise); `score_candidates`
+against a fake `run` (asserts the shared persona text landed in the
+rendered prompt, the empty-candidate-list short-circuit never calls `run`,
+and a malformed response propagates as `LLMParseError`); `filter_by_threshold`
+keeping/dropping by score and dropping an unscored (`None`) entry; and, at
+the `run_discover` level, three integration cases against a fake `score`:
+a below-threshold candidate is emailed to no one and NOT recorded in
+`discovery_seen.json` (the subtlest rule in the ticket, since it differs
+from every other "mark seen after send" case in this codebase); a mixed
+batch emails and records only the candidates that cleared the threshold;
+and a failing `score` falls back to emailing the entire unscored list
+(labelled "unscored" in the rendered email) with all of it recorded as
+seen, since Simon did see the whole list even without scores.
 
 No prior art in-repo (greenfield). Tests use plain `pytest` with hand-built
 fixtures; no network or model access. The pipeline is structured so these three

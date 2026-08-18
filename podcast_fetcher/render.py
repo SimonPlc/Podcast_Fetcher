@@ -4,7 +4,7 @@ import html as html_lib
 from collections.abc import Sequence
 from typing import Any
 
-from podcast_fetcher.models import Candidate
+from podcast_fetcher.models import ScoredCandidate
 
 _QUIET_MESSAGE = "Nothing scored relevant enough for today's digest -- quiet day, but the pipeline ran."
 
@@ -127,29 +127,49 @@ _DISCOVERY_INTRO = (
     "candidate below and add it to feeds.yaml yourself if it's worth including."
 )
 _DISCOVERY_QUIET_MESSAGE = "No new candidate shows found this month."
+_DISCOVERY_UNSCORED_NOTE = (
+    "Claude relevance scoring failed for this sweep, so these candidates are "
+    "UNSCORED and shown unfiltered -- review them more carefully than usual."
+)
 
 
-def render_discovery(candidates: Sequence[Candidate]) -> tuple[str, str]:
+def render_discovery(candidates: Sequence[ScoredCandidate], *, unscored: bool = False) -> tuple[str, str]:
     """Render the monthly discover-run email: one row per proposed show
-    (name, feed URL, and the search term that surfaced it), or a
-    no-new-candidates note if the sweep found nothing new -- mirroring
-    render_digest's quiet-day note rather than an empty shell. Always
-    states plainly that nothing was added automatically: discover only
-    ever proposes, a human approves by hand-editing feeds.yaml (SPEC.md).
+    (name, feed URL, score, one-line reason, and the search term that
+    surfaced it), or a no-new-candidates note if the sweep found nothing
+    that cleared the threshold -- mirroring render_digest's quiet-day
+    note rather than an empty shell. Always states plainly that nothing
+    was added automatically: discover only ever proposes, a human
+    approves by hand-editing feeds.yaml (SPEC.md).
+
+    `unscored=True` (issue #8's scoring-failure fallback) means every
+    `ScoredCandidate.score`/`.reason` is None -- Claude scoring failed
+    and the whole surviving candidate list is being emailed unfiltered
+    instead of sending nothing, and the email says so explicitly rather
+    than silently showing blank scores.
     """
     if not candidates:
         return _render_discovery_quiet_html(), _render_discovery_quiet_text()
-    return _render_discovery_html(candidates), _render_discovery_text(candidates)
+    return _render_discovery_html(candidates, unscored=unscored), _render_discovery_text(candidates, unscored=unscored)
 
 
-def _render_discovery_html(candidates: Sequence[Candidate]) -> str:
+def _render_discovery_html(candidates: Sequence[ScoredCandidate], *, unscored: bool) -> str:
     parts = [
         f'<div style="{_STYLE_BODY}"><h1>New Show Candidates</h1>',
         f"<p><strong>{_esc(_DISCOVERY_INTRO)}</strong></p>",
     ]
-    for candidate in candidates:
+    if unscored:
+        parts.append(f'<p style="color: #b00020;"><strong>{_esc(_DISCOVERY_UNSCORED_NOTE)}</strong></p>')
+    for item in candidates:
+        candidate = item.candidate
         parts.append(f'<div style="{_STYLE_CARD}">')
         parts.append(f'<h2 style="margin-top: 0;">{_esc(candidate.name)}</h2>')
+        if item.score is not None:
+            parts.append(f'<p style="{_STYLE_META}">Score: {item.score}/5</p>')
+            if item.reason:
+                parts.append(f"<p><em>{_esc(item.reason)}</em></p>")
+        else:
+            parts.append(f'<p style="{_STYLE_META}">Score: unscored</p>')
         parts.append(f'<p style="{_STYLE_META}">Feed: {_esc(candidate.feed_url)}</p>')
         parts.append(f'<p style="{_STYLE_META}">Found via search term: &quot;{_esc(candidate.term)}&quot;</p>')
         parts.append("</div>")
@@ -157,10 +177,20 @@ def _render_discovery_html(candidates: Sequence[Candidate]) -> str:
     return "\n".join(parts)
 
 
-def _render_discovery_text(candidates: Sequence[Candidate]) -> str:
+def _render_discovery_text(candidates: Sequence[ScoredCandidate], *, unscored: bool) -> str:
     lines = ["NEW SHOW CANDIDATES", "", _DISCOVERY_INTRO, ""]
-    for candidate in candidates:
+    if unscored:
+        lines.append(_DISCOVERY_UNSCORED_NOTE)
+        lines.append("")
+    for item in candidates:
+        candidate = item.candidate
         lines.append(candidate.name)
+        if item.score is not None:
+            lines.append(f"Score: {item.score}/5")
+            if item.reason:
+                lines.append(item.reason)
+        else:
+            lines.append("Score: unscored")
         lines.append(f"Feed: {candidate.feed_url}")
         lines.append(f'Found via search term: "{candidate.term}"')
         lines.append("")

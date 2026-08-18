@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from podcast_fetcher.models import Candidate
+from podcast_fetcher.models import Candidate, ScoredCandidate
 from podcast_fetcher.render import render_digest, render_discovery
 
 ITEMS = {
@@ -140,11 +140,21 @@ def test_unified_list_sorts_podcast_and_article_by_score_descending() -> None:
     assert html.index("Reserves Are Getting Scarce") < html.index("Repo Market Update")
 
 
-# --- render_discovery (ticket #5) ---
+# --- render_discovery (ticket #5, extended with scores by ticket #8) ---
 
 CANDIDATES = [
-    Candidate(name="New Repo Show", feed_url="https://example.com/newrepo.rss", term="repo market"),
-    Candidate(name="Credit Weekly", feed_url="https://example.com/creditweekly.rss", term="structured credit"),
+    ScoredCandidate(
+        candidate=Candidate(name="New Repo Show", feed_url="https://example.com/newrepo.rss", term="repo market"),
+        score=4,
+        reason="Repo-focused show squarely on the plumbing/funding beat.",
+    ),
+    ScoredCandidate(
+        candidate=Candidate(
+            name="Credit Weekly", feed_url="https://example.com/creditweekly.rss", term="structured credit"
+        ),
+        score=3,
+        reason="Structured credit coverage, worth a look.",
+    ),
 ]
 
 
@@ -165,6 +175,14 @@ def test_discovery_text_contains_each_candidate_name_url_and_term() -> None:
     assert "repo market" in text
 
 
+def test_discovery_html_and_text_contain_score_and_reason() -> None:
+    html, text = render_discovery(CANDIDATES)
+    assert "4/5" in html
+    assert "Repo-focused show squarely on the plumbing/funding beat." in html
+    assert "3/5" in text
+    assert "Structured credit coverage, worth a look." in text
+
+
 def test_discovery_states_nothing_added_automatically() -> None:
     html, text = render_discovery(CANDIDATES)
     assert "nothing was added automatically" in html.lower()
@@ -182,3 +200,25 @@ def test_discovery_empty_html_and_text_are_non_empty() -> None:
     html, text = render_discovery([])
     assert len(html.strip()) > 0
     assert len(text.strip()) > 0
+
+
+def test_discovery_unscored_fallback_marks_candidates_and_omits_fake_scores() -> None:
+    unscored_candidates = [
+        ScoredCandidate(
+            candidate=Candidate(name="New Repo Show", feed_url="https://example.com/newrepo.rss", term="repo market"),
+            score=None,
+            reason=None,
+        )
+    ]
+    html, text = render_discovery(unscored_candidates, unscored=True)
+    assert "New Repo Show" in html
+    assert "unscored" in html.lower()
+    assert "unscored" in text.lower()
+    assert "4/5" not in html
+    assert "scoring failed" in html.lower() or "unscored" in html.lower()
+
+
+def test_discovery_scored_path_does_not_show_unscored_note() -> None:
+    html, text = render_discovery(CANDIDATES, unscored=False)
+    assert "scoring failed" not in html.lower()
+    assert "scoring failed" not in text.lower()

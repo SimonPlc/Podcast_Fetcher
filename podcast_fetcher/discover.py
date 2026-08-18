@@ -1,15 +1,19 @@
 from __future__ import annotations
 
+import json
 import logging
 from collections.abc import Callable, Mapping, Sequence
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import Any
 
 import requests
 
 from podcast_fetcher.config import Config
 from podcast_fetcher.gmail import mint_access_token, require_env, send_email
-from podcast_fetcher.models import Candidate, Feed
+from podcast_fetcher.llm import LLMParseError, parse_json_object, run_claude
+from podcast_fetcher.models import Candidate, Feed, ScoredCandidate
+from podcast_fetcher.persona import render_with_persona
 from podcast_fetcher.render import render_discovery
 from podcast_fetcher.store import load_seen_candidates, save_seen_candidates
 
@@ -21,9 +25,13 @@ ITUNES_SEARCH_URL = "https://itunes.apple.com/search"
 # identifying User-Agent, not the default python-requests string.
 _REQUEST_HEADERS = {"User-Agent": "Podcast_Fetcher/1.0 (+https://github.com/SimonPlc/Podcast_Fetcher)"}
 
+SCORE_PROMPT_PATH = "prompts/score_candidates.txt"
+
 MintTokenFn = Callable[[str, str, str], str]
 SendFn = Callable[..., None]
 SearchFn = Callable[[str, int], Any]
+RunClaudeFn = Callable[..., str]
+ScoreFn = Callable[..., list[ScoredCandidate]]
 
 
 def search_itunes(term: str, limit: int, *, timeout: int = 30) -> Any:
@@ -44,6 +52,11 @@ def parse_itunes_results(raw: Any, term: str) -> list[Candidate]:
     """Convert a raw iTunes Search API response into Candidates. A result
     missing a show name or feed URL (both required to email/dedupe a
     candidate) is skipped rather than raising.
+
+    `artistName` and `genres` are carried along too (defaulting to
+    empty/unknown when absent) -- the only extra material available to
+    the ticket #8 show-scoring pass, per SPEC.md/the iTunes Search API's
+    documented fields.
     """
     results = raw.get("results", []) if isinstance(raw, dict) else []
     candidates = []
@@ -52,7 +65,16 @@ def parse_itunes_results(raw: Any, term: str) -> list[Candidate]:
         feed_url = result.get("feedUrl")
         if not name or not feed_url:
             continue
-        candidates.append(Candidate(name=name, feed_url=feed_url, term=term))
+        genres = result.get("genres")
+        candidates.append(
+            Candidate(
+                name=name,
+                feed_url=feed_url,
+                term=term,
+                artist_name=result.get("artistName") or "",
+                genres=tuple(genres) if isinstance(genres, list) else (),
+            )
+        )
     return candidates
 
 
@@ -124,6 +146,123 @@ def select_new_candidates(
     return selected
 
 
+# --- Claude scoring pass (ticket #8) ---
+#
+# Candidates surviving select_new_candidates are scored in ONE batched
+# Claude call (never one call per candidate -- see SPEC.md/issue #8),
+# against the same relevance persona prompts/extract.txt uses, factored
+# out to prompts/persona.txt (see podcast_fetcher.persona) so the two
+# prompts state the priorities once rather than as two copies that can
+# drift. The prompt is explicit that it's judging a SHOW (name, artist,
+# genres only -- no transcript exists at this stage), and that an
+# unrecognised show should score low rather than be guessed at
+# generously.
+
+
+def load_score_prompt(path: str | Path = SCORE_PROMPT_PATH) -> str:
+    return Path(path).read_text(encoding="utf-8")
+
+
+def render_score_prompt(*, prompt: str | None = None) -> str:
+    """Fill the show-scoring prompt's {{PERSONA}} placeholder."""
+    instructions = prompt if prompt is not None else load_score_prompt()
+    return render_with_persona(instructions)
+
+
+def build_score_stdin(candidates: Sequence[Candidate]) -> str:
+    """Serialize the whole batch of surviving candidates to score as one
+    JSON array on stdin: an "id" (the candidate's index, used to match
+    the response back up), plus the only material available at this
+    stage -- name, artist/publisher, and genres. No transcript, no
+    description: this is a show-level judgement (SPEC.md/issue #8).
+    """
+    payload = [
+        {
+            "id": index,
+            "name": candidate.name,
+            "artist": candidate.artist_name,
+            "genres": list(candidate.genres),
+        }
+        for index, candidate in enumerate(candidates)
+    ]
+    return json.dumps(payload)
+
+
+def parse_score_response(raw: str, expected_count: int) -> dict[int, tuple[int, str]]:
+    """Parse and validate a raw Claude response to the batched scoring
+    prompt into {id: (score, reason)}. Tolerant about *how* the JSON is
+    wrapped (parse_json_object) but strict about shape, mirroring
+    extract.parse_extraction: a missing/malformed field, an id outside
+    the input range, or a response that doesn't cover every id raises
+    LLMParseError rather than silently producing a partial result --
+    callers treat the whole batch as failed and fall back to the
+    unscored candidate list (SPEC.md).
+    """
+    data = parse_json_object(raw)
+
+    if "scores" not in data or not isinstance(data["scores"], list):
+        raise LLMParseError(f"score response missing 'scores' list: {data!r}")
+
+    results: dict[int, tuple[int, str]] = {}
+    for entry in data["scores"]:
+        if not isinstance(entry, dict):
+            raise LLMParseError(f"score entry must be an object: {entry!r}")
+
+        candidate_id = entry.get("id")
+        if not isinstance(candidate_id, int) or isinstance(candidate_id, bool):
+            raise LLMParseError(f"score entry missing/invalid 'id': {entry!r}")
+        if not 0 <= candidate_id < expected_count:
+            raise LLMParseError(f"score entry 'id' {candidate_id!r} out of range for {expected_count} candidate(s)")
+
+        score = entry.get("score")
+        if not isinstance(score, int) or isinstance(score, bool) or not 1 <= score <= 5:
+            raise LLMParseError(f"score entry 'score' must be an integer 1-5: {entry!r}")
+
+        reason = entry.get("reason")
+        if not isinstance(reason, str):
+            raise LLMParseError(f"score entry missing/invalid 'reason': {entry!r}")
+
+        results[candidate_id] = (score, reason)
+
+    if set(results.keys()) != set(range(expected_count)):
+        raise LLMParseError(
+            f"score response covers id(s) {sorted(results.keys())}, expected exactly 0..{expected_count - 1}"
+        )
+    return results
+
+
+def score_candidates(
+    candidates: Sequence[Candidate],
+    *,
+    claude_model: str | None = None,
+    prompt: str | None = None,
+    run: RunClaudeFn = run_claude,
+) -> list[ScoredCandidate]:
+    """Score a whole batch of surviving candidates in one Claude call.
+    Raises on any failure (Claude CLI error, malformed/incomplete JSON);
+    run_discover treats scoring as non-fatal and falls back to emailing
+    the unscored candidate list rather than raising (SPEC.md).
+    """
+    if not candidates:
+        return []
+    instructions = render_score_prompt(prompt=prompt)
+    stdin_text = build_score_stdin(candidates)
+    raw = run(instructions, stdin_text, model=claude_model)
+    parsed = parse_score_response(raw, len(candidates))
+    return [
+        ScoredCandidate(candidate=candidate, score=parsed[index][0], reason=parsed[index][1])
+        for index, candidate in enumerate(candidates)
+    ]
+
+
+def filter_by_threshold(scored: Sequence[ScoredCandidate], threshold: int) -> list[ScoredCandidate]:
+    """Keep only candidates whose Claude score meets the configured
+    threshold (SPEC.md/issue #8: defaults to MIN_SCORE). Pure function,
+    no I/O -- directly testable without a fake Claude call.
+    """
+    return [item for item in scored if item.score is not None and item.score >= threshold]
+
+
 def run_discover(
     feeds: Sequence[Feed],
     discovery_terms: Sequence[str],
@@ -131,23 +270,35 @@ def run_discover(
     env: Mapping[str, str],
     *,
     search: SearchFn = search_itunes,
+    score: ScoreFn = score_candidates,
     mint_token: MintTokenFn = mint_access_token,
     send: SendFn = send_email,
     now: datetime | None = None,
 ) -> None:
     """Query the iTunes Search API for each configured discovery term
     (feeds.yaml's `discovery_terms`), dedupe the results against the
-    current feed list and previously-proposed candidates, and email
-    whatever is new for manual approval -- or a no-new-candidates note.
-    This never adds a feed automatically; see SPEC.md.
+    current feed list and previously-proposed candidates, score the
+    survivors against the relevance persona in one batched Claude call,
+    and email whatever clears the threshold for manual approval -- or a
+    no-new-candidates note. This never adds a feed automatically; see
+    SPEC.md.
 
     A search term that fails (network error, bad response) is logged and
     skipped so one flaky term never aborts the sweep, mirroring
-    collect.py's per-feed handling. New candidates are recorded as
-    proposed in state/discovery_seen.json only after the email sends
-    successfully, matching digest.py's queue/hash-commit-after-send
-    ordering: a failed send must not silently burn that month's
-    candidates by marking them seen before Simon ever saw them.
+    collect.py's per-feed handling. A scoring failure is likewise
+    non-fatal: it's logged and the run falls back to emailing the whole
+    surviving candidate list unscored, clearly marked as such, rather
+    than sending nothing (SPEC.md/issue #8).
+
+    Candidates are recorded as proposed in state/discovery_seen.json only
+    after the email sends successfully, matching digest.py's
+    queue/hash-commit-after-send ordering: a failed send must not
+    silently burn that month's candidates by marking them seen before
+    Simon ever saw them. Only candidates actually emailed are recorded --
+    a candidate filtered out by scoring is NOT marked seen, so a better
+    prompt later can still surface it. That differs from the
+    scoring-failure fallback path, where everything emailed (the whole
+    unscored list) is recorded, since Simon did see all of it.
     """
     now = now or datetime.now(tz=timezone.utc)
 
@@ -167,14 +318,33 @@ def run_discover(
         "discover: %d new candidate(s) found across %d search term(s)", len(new_candidates), len(discovery_terms)
     )
 
-    month_label = now.strftime("%Y-%m")
+    to_email: list[ScoredCandidate]
+    unscored = False
     if new_candidates:
-        count = len(new_candidates)
+        try:
+            scored = score(new_candidates, claude_model=config.claude_model)
+            to_email = filter_by_threshold(scored, config.min_score)
+            logger.info(
+                "discover: %d of %d candidate(s) cleared the score threshold (>= %d)",
+                len(to_email),
+                len(new_candidates),
+                config.min_score,
+            )
+        except Exception:
+            logger.exception("discover: scoring failed; falling back to unscored candidate list")
+            unscored = True
+            to_email = [ScoredCandidate(candidate=c, score=None, reason=None) for c in new_candidates]
+    else:
+        to_email = []
+
+    month_label = now.strftime("%Y-%m")
+    if to_email:
+        count = len(to_email)
         subject = f"Podcast Fetcher: {count} new show candidate{'s' if count != 1 else ''} ({month_label})"
     else:
         subject = f"Podcast Fetcher: discovery sweep, no new candidates ({month_label})"
 
-    html, text = render_discovery(new_candidates)
+    html, text = render_discovery(to_email, unscored=unscored)
 
     if not config.email_to or not config.email_from:
         raise RuntimeError("EMAIL_TO and EMAIL_FROM must be set to send the discovery email")
@@ -194,8 +364,8 @@ def run_discover(
     )
     logger.info("discover: email sent to %s", config.email_to)
 
-    if new_candidates:
-        _mark_candidates_seen(new_candidates)
+    if to_email:
+        _mark_candidates_seen([item.candidate for item in to_email])
 
 
 def _mark_candidates_seen(candidates: Sequence[Candidate]) -> None:

@@ -1,0 +1,18 @@
+This is for the morning brief of a bank financing / repo trader based in
+Hong Kong. Their core asset classes are credit and rates.
+
+Relevance priorities, in order:
+1. Money-market plumbing: repo, funding, collateral, SOFR/OIS/basis, central
+   bank reserves and balance sheet, front-end rates.
+2. Rates and central-bank policy more broadly.
+3. Credit and structured credit: IG/HY, leveraged finance, private credit,
+   CLOs/CLO-equity, ABS/RMBS/CMBS, securitization, credit derivatives
+   (CDS/CDX/iTraxx), total return swaps.
+4. Financing-relevant equity and market structure.
+5. Quant/systematic strategy, ONLY where it touches rates or credit.
+
+A genuinely educational or explainer item on any of the above should score
+well even if it isn't immediately actionable -- this trader wants to keep
+learning the space, not just get trade ideas.
+
+Score 1 (irrelevant) to 5 (squarely on-topic and important).
