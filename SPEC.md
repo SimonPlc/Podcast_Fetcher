@@ -1,8 +1,21 @@
 # Spec: Podcast Fetcher — Macro/Rates/Credit morning brief
 
-> Status: ready to implement. Tracker issue + `ready-for-agent` label to be
-> applied once the GitHub repo exists (see setup task). This file is the source
-> of truth until then.
+> Status: tickets #1-#3 implemented and closed (github.com/SimonPlc/Podcast_Fetcher,
+> issues #1-#6). Phase 1 (email digest) verified end-to-end with a real sent
+> email. Next: tickets #4 (GitHub Actions workflow), #5 (monthly discovery
+> sweep), #6 (repo secrets + cloud smoke-test).
+>
+> **Revision (2026-08-18):** after seeing the first real digest, the digest
+> format was changed from a cross-episode thematic synthesis to **per-episode
+> digest cards** (one card per queued episode, sorted by relevance score) for
+> clarity and so each show is individually accessible — closer to the
+> `livescript-shared` reference than the original synthesis design. This
+> removed `synthesize.py` and its two-step LLM machinery entirely: the digest
+> step now makes **no LLM call** at all, it just renders each episode's
+> already-computed extraction (from the collect step) into a card. If you see
+> references to a "Brief"/theme-based synthesis elsewhere (old commit
+> messages, closed issue #3's original text), that reflects the pre-revision
+> design — this file is current.
 
 ## Problem Statement
 
@@ -19,11 +32,11 @@ I want to keep expanding my knowledge of these markets.
 
 An unattended pipeline that, for free, watches a curated set of finance podcast
 RSS feeds, transcribes new episodes, scores each for relevance to my desk, and
-emails me a single **cross-episode thematic synthesis** each weekday morning
-(~07:00 Hong Kong time) — organized by theme (front-end/repo, rates & central
-banks, credit & structured credit, Asia, market structure), noting where sources
-agree or disagree, written for a financing/repo trader. A monthly sweep proposes
-new relevant shows for me to approve. A later phase turns each brief into a
+emails me a digest each weekday morning (~07:00 Hong Kong time) with **one card
+per relevant episode** — show, score, tags, one-liner, summary bullets, key
+claims, and a link — sorted by relevance so the most important shows are
+immediately clear and each is individually accessible. A monthly sweep proposes
+new relevant shows for me to approve. A later phase turns the digest into a
 spoken "podcast of podcasts" I can subscribe to.
 
 ## User Stories
@@ -42,15 +55,16 @@ spoken "podcast of podcasts" I can subscribe to.
 5. As a trader who wants to grow, I want genuinely educational/explainer episodes
    to score well even when not immediately actionable, so that the brief also
    expands my knowledge.
-6. As a trader, I want one synthesized brief across all episodes rather than a
-   pile of per-episode summaries, so that I get a coherent read of the day.
-7. As a trader, I want the brief organized by theme with agreement/disagreement
-   between sources noted and views attributed, so that it reads like a strat's
-   morning note.
-8. As a trader, I want each point traceable back to its source episode, so that I
+6. As a trader, I want one card per relevant episode rather than a blended
+   cross-episode synthesis, so that each show is clearly separated and I can
+   tell at a glance which ones are worth my time.
+7. As a trader, I want each card to carry the show, a relevance score, tags, a
+   one-line summary, bullet-point details, and key claims, so that I can judge
+   relevance and substance without opening the episode.
+8. As a trader, I want each card to link back to its source episode, so that I
    can go listen to the full segment when something matters.
-9. As a trader, I want the brief to lead with a headline and a short TL;DR, so
-   that I get the gist in under two minutes.
+9. As a trader, I want cards sorted by relevance score, so that the most
+   important episodes are immediately at the top.
 10. As a trader, I want the email delivered ~07:00 HK on weekdays (Mon-Fri), so
     that it's waiting before my desk gets going; markets are shut on weekends.
 11. As a trader, I want Monday's edition to sweep up everything that dropped over
@@ -97,9 +111,10 @@ spoken "podcast of podcasts" I can subscribe to.
   run a per-episode LLM extraction (relevance score, one-liner, tags, summary
   bullets, key claims). Record every processed episode in the dedup record so it
   is never re-transcribed; queue only episodes scoring >= threshold.
-- **Digest** (once each weekday morning + a backup run): read the queue, run a
-  second LLM pass that synthesizes across all queued episodes into a themed brief,
-  render HTML + plain-text email, send it, then clear the queue.
+- **Digest** (once each weekday morning + a backup run): read the queue, render
+  one HTML + plain-text card per queued episode (sorted by score, highest
+  first), send it, then clear the queue. No LLM call happens here -- each
+  card is built entirely from the extraction already computed at collect time.
 - **Discover** (monthly): query podcast directories for domain terms, dedupe
   against the current feed list, email a candidate-shows list for manual approval.
 
@@ -116,13 +131,22 @@ spoken "podcast of podcasts" I can subscribe to.
   reference's `base`), running on Actions CPU. Model size is an env knob.
 
 **LLM**
-- Both passes call **Claude via the Claude Code CLI** using a long-lived
+- Exactly **one** LLM pass in the whole pipeline: the per-episode extraction at
+  collect time. It calls **Claude via the Claude Code CLI** using a long-lived
   subscription OAuth token (`CLAUDE_CODE_OAUTH_TOKEN`), i.e. zero marginal cost.
-  Instructions passed as the prompt; episode transcript / day's items passed via
-  stdin. Model overridable via env.
-- Both prompts demand **strict JSON output** so downstream rendering is simple
-  templating, with a tolerant parser that extracts the JSON object if the model
-  wraps it in prose.
+  Instructions passed as the prompt; the episode transcript passed via stdin.
+  Model overridable via env. The digest step makes no LLM call at all.
+- The extraction prompt demands **strict JSON output** so downstream rendering
+  is simple templating, with a tolerant parser that extracts the JSON object if
+  the model wraps it in prose.
+- On Windows, the Claude CLI must be invoked via its real `claude.exe` rather
+  than the `.cmd`/`.ps1` npm shim: the shim requires a `cmd.exe` relay hop
+  (plain `CreateProcess` can't launch a `.cmd` directly), and that hop was
+  confirmed, via live testing, to silently truncate large piped stdin before it
+  reached the model. `llm.py`'s `_resolve_claude_executable()` prefers the real
+  `.exe` (via `CLAUDE_CODE_EXECPATH` or a derived path) and falls back to a
+  plain PATH lookup elsewhere, since other platforms (incl. the GitHub Actions
+  Linux runners this pipeline actually runs on) have no such shim/relay.
 
 **Relevance persona** — HK financing/repo trader; priorities in order: (1)
 money-market plumbing/repo/funding/front-end, (2) rates & central banks, (3)
@@ -161,10 +185,11 @@ not by unit tests. Three seams are tested:
 2. **LLM output parsing** — given representative raw model outputs (clean JSON;
    JSON wrapped in prose/markdown fences; malformed), assert a validated dict or a
    clean failure. Pins the tolerant-extraction behavior.
-3. **Email rendering** — given a brief object plus items, assert the HTML and text
-   contain the headline, TL;DR, each theme with its points and source
-   attributions, the watch/learned sections, and the source index; and that the
-   empty/quiet-day case renders the quiet note rather than an empty shell.
+3. **Email rendering** — given a dict of queued episode records, assert the HTML
+   and text contain each episode's title, link, feed name, score, tags,
+   one-liner, summary bullets, and key claims, sorted by score descending; and
+   that the empty/quiet-day case renders the quiet note rather than an empty
+   shell.
 
 No prior art in-repo (greenfield). Tests use plain `pytest` with hand-built
 fixtures; no network or model access. The pipeline is structured so these three
@@ -186,10 +211,12 @@ functions are importable without triggering any I/O at import time.
 
 - Reference implementation studied: `TillAlexanderHani/livescript-shared` — same
   core idea (RSS → Whisper → Claude → email on GitHub Actions with git-committed
-  JSON state). Key divergences here: cross-episode **synthesis** rather than
-  per-episode cards; broadened credit/structured-credit persona; Gmail **API**
-  (reusing existing OAuth) rather than SMTP app password; a **monthly discovery**
-  sweep; and a planned audio phase.
+  JSON state), and now the same **per-episode card** digest shape (see the
+  2026-08-18 revision note above -- an initial cross-episode synthesis design
+  was tried, built, and abandoned after real use). Divergences that remain:
+  broadened credit/structured-credit persona; Gmail **API** (reusing existing
+  OAuth) rather than SMTP app password; a **monthly discovery** sweep; and a
+  planned audio phase.
 - Maintenance cost of the free stack: the Claude subscription OAuth token expires
   periodically and must be re-minted with `claude setup-token`; heavy days may hit
   subscription rate limits. Accepted tradeoff for zero marginal cost.

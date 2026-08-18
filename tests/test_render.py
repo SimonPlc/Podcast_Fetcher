@@ -1,98 +1,83 @@
 from __future__ import annotations
 
-from podcast_fetcher.models import Brief, Theme, ThemePoint
 from podcast_fetcher.render import render_digest
 
-SOURCES = {
+ITEMS = {
     "guid-1": {
         "feed_name": "Odd Lots",
         "title": "Repo Market Update",
         "url": "https://example.com/ep1.mp3",
+        "score": 5,
+        "one_liner": "Reserves are getting scarce.",
+        "tags": ["repo", "SOFR"],
+        "summary": ["Reserves near $2.9tn.", "SOFR-OIS widening."],
+        "key_claims": ["Reserves have fallen to ~$2.9tn (guest estimate)."],
     },
     "guid-2": {
         "feed_name": "Macro Musings",
         "title": "Fed Balance Sheet Deep Dive",
         "url": "https://example.com/ep2.mp3",
+        "score": 4,
+        "one_liner": "QT is nearing its endgame.",
+        "tags": ["Fed", "QT"],
+        "summary": ["QT may slow within two meetings."],
+        "key_claims": [],
     },
 }
 
-BRIEF = Brief(
-    headline="Fed reserves near $2.9tn, QT endgame in focus.",
-    tldr="Multiple shows flagged tightening repo conditions into quarter-end.",
-    themes=[
-        Theme(
-            name="Front-end / repo",
-            points=[
-                ThemePoint(text="Reserves near $2.9tn; SOFR-OIS widening.", source_ids=["guid-1", "guid-2"]),
-            ],
-        )
-    ],
-    watch=["Next FOMC meeting"],
-    learned=["SOFR-OIS spread as an early collateral-scarcity signal"],
-)
 
-
-def test_populated_html_contains_headline_and_tldr() -> None:
-    html, _ = render_digest(BRIEF, SOURCES)
-    assert BRIEF.headline in html
-    assert BRIEF.tldr in html
-
-
-def test_populated_text_contains_headline_and_tldr() -> None:
-    _, text = render_digest(BRIEF, SOURCES)
-    assert BRIEF.headline in text
-    assert BRIEF.tldr in text
-
-
-def test_populated_html_contains_theme_name_and_point_text() -> None:
-    html, _ = render_digest(BRIEF, SOURCES)
-    assert "Front-end / repo" in html
-    assert "Reserves near $2.9tn; SOFR-OIS widening." in html
-
-
-def test_populated_html_attributes_points_to_source_titles() -> None:
-    html, _ = render_digest(BRIEF, SOURCES)
+def test_populated_html_contains_each_episode_title_and_link() -> None:
+    html, _ = render_digest(ITEMS)
     assert "Repo Market Update" in html
-    assert "Fed Balance Sheet Deep Dive" in html
-
-
-def test_populated_html_contains_watch_and_learned_sections() -> None:
-    html, _ = render_digest(BRIEF, SOURCES)
-    assert "Next FOMC meeting" in html
-    assert "SOFR-OIS spread as an early collateral-scarcity signal" in html
-
-
-def test_populated_html_contains_source_index_with_links() -> None:
-    html, _ = render_digest(BRIEF, SOURCES)
     assert "https://example.com/ep1.mp3" in html
+    assert "Fed Balance Sheet Deep Dive" in html
     assert "https://example.com/ep2.mp3" in html
-    assert "Odd Lots" in html
-    assert "Macro Musings" in html
 
 
-def test_populated_text_contains_source_index() -> None:
-    _, text = render_digest(BRIEF, SOURCES)
+def test_populated_text_contains_each_episode_title_and_link() -> None:
+    _, text = render_digest(ITEMS)
+    assert "Repo Market Update" in text
     assert "https://example.com/ep1.mp3" in text
-    assert "Odd Lots" in text
 
 
-def test_theme_with_no_points_does_not_crash() -> None:
-    brief = Brief(headline="h", tldr="t", themes=[Theme(name="Empty theme", points=[])], watch=[], learned=[])
-    html, text = render_digest(brief, {})
-    assert "Empty theme" in html
-    assert "Empty theme" in text
+def test_populated_html_contains_feed_name_score_and_one_liner() -> None:
+    html, _ = render_digest(ITEMS)
+    assert "Odd Lots" in html
+    assert "5/5" in html
+    assert "Reserves are getting scarce." in html
+
+
+def test_populated_html_contains_tags_summary_and_key_claims() -> None:
+    html, _ = render_digest(ITEMS)
+    assert "repo" in html
+    assert "Reserves near $2.9tn." in html
+    assert "Reserves have fallen to ~$2.9tn (guest estimate)." in html
+
+
+def test_populated_html_sorts_episodes_by_score_descending() -> None:
+    html, _ = render_digest(ITEMS)
+    assert html.index("Repo Market Update") < html.index("Fed Balance Sheet Deep Dive")
+
+
+def test_populated_text_sorts_episodes_by_score_descending() -> None:
+    _, text = render_digest(ITEMS)
+    assert text.index("Repo Market Update") < text.index("Fed Balance Sheet Deep Dive")
+
+
+def test_episode_with_no_key_claims_does_not_crash() -> None:
+    html, text = render_digest(ITEMS)
+    assert "Fed Balance Sheet Deep Dive" in html
+    assert "Fed Balance Sheet Deep Dive" in text
 
 
 def test_quiet_day_renders_note_not_empty_shell() -> None:
-    html, text = render_digest(None, {})
+    html, text = render_digest({})
     assert "nothing" in html.lower() or "quiet" in html.lower()
     assert "nothing" in text.lower() or "quiet" in text.lower()
-    # must not contain leftover structural markers from the populated template
-    assert "TL;DR" not in html
-    assert "Sources" not in html
+    assert "PODCAST DIGEST" not in text
 
 
 def test_quiet_day_html_and_text_are_non_empty() -> None:
-    html, text = render_digest(None, {})
+    html, text = render_digest({})
     assert len(html.strip()) > 0
     assert len(text.strip()) > 0
