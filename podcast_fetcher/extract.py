@@ -8,7 +8,8 @@ from podcast_fetcher.persona import render_with_persona
 
 PROMPT_PATH = "prompts/extract.txt"
 
-_REQUIRED_STRING_LIST_FIELDS = ("tags", "summary", "key_claims")
+_REQUIRED_STRING_LIST_FIELDS = ("tags", "watch", "terms", "key_claims")
+_REQUIRED_STRING_FIELDS = ("one_liner", "recap", "implications")
 
 # The shared prompt has one {{KIND}} placeholder telling the model what
 # kind of source item it's reading, so it can calibrate (e.g. an abstract
@@ -55,8 +56,9 @@ def parse_extraction(raw: str) -> ExtractResult:
     if not 1 <= score <= 5:
         raise LLMParseError(f"extraction 'score' out of range 1-5: {score!r}")
 
-    if "one_liner" not in data or not isinstance(data["one_liner"], str):
-        raise LLMParseError(f"extraction missing/invalid 'one_liner': {data!r}")
+    for field in _REQUIRED_STRING_FIELDS:
+        if field not in data or not isinstance(data[field], str):
+            raise LLMParseError(f"extraction missing/invalid '{field}': {data!r}")
 
     for field in _REQUIRED_STRING_LIST_FIELDS:
         if field not in data:
@@ -69,7 +71,10 @@ def parse_extraction(raw: str) -> ExtractResult:
         score=score,
         one_liner=data["one_liner"],
         tags=list(data["tags"]),
-        summary=list(data["summary"]),
+        recap=data["recap"],
+        implications=data["implications"],
+        watch=list(data["watch"]),
+        terms=list(data["terms"]),
         key_claims=list(data["key_claims"]),
     )
 

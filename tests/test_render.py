@@ -11,7 +11,10 @@ ITEMS = {
         "score": 5,
         "one_liner": "Reserves are getting scarce.",
         "tags": ["repo", "SOFR"],
-        "summary": ["Reserves near $2.9tn.", "SOFR-OIS widening."],
+        "recap": "Reserves near $2.9tn amid persistent SOFR-OIS widening, the guest says.",
+        "implications": "Repo desks should watch month-end funding pressure closely.",
+        "watch": ["Month-end repo pricing"],
+        "terms": ["SOFR -- the Secured Overnight Financing Rate"],
         "key_claims": ["Reserves have fallen to ~$2.9tn (guest estimate)."],
     },
     "guid-2": {
@@ -21,7 +24,10 @@ ITEMS = {
         "score": 4,
         "one_liner": "QT is nearing its endgame.",
         "tags": ["Fed", "QT"],
-        "summary": ["QT may slow within two meetings."],
+        "recap": "QT may slow within two meetings, the guest argues.",
+        "implications": "",
+        "watch": [],
+        "terms": [],
         "key_claims": [],
     },
 }
@@ -35,7 +41,10 @@ MIXED_ITEMS = {
         "score": 3,
         "one_liner": "x",
         "tags": [],
-        "summary": [],
+        "recap": "x",
+        "implications": "",
+        "watch": [],
+        "terms": [],
         "key_claims": [],
     },
     "hash-1": {
@@ -46,9 +55,59 @@ MIXED_ITEMS = {
         "score": 5,
         "one_liner": "x",
         "tags": [],
-        "summary": [],
+        "recap": "x",
+        "implications": "",
+        "watch": [],
+        "terms": [],
         "key_claims": [],
     },
+}
+
+# A single fully-populated new-shape record, for tests that need every
+# recap-format block (Why it matters/Watch/Terms/Key claims) present at once.
+FULL_ITEM = {
+    "feed_name": "Odd Lots",
+    "title": "Repo Market Update",
+    "url": "https://example.com/ep1.mp3",
+    "score": 5,
+    "one_liner": "Reserves are getting scarce.",
+    "tags": ["repo"],
+    "recap": "Reserves near $2.9tn amid persistent SOFR-OIS widening, the guest says.",
+    "implications": "Repo desks should watch month-end funding pressure closely.",
+    "watch": ["Month-end repo pricing"],
+    "terms": ["SOFR -- the Secured Overnight Financing Rate"],
+    "key_claims": ["Reserves have fallen to ~$2.9tn (guest estimate)."],
+}
+
+# A new-shape record with every optional block empty, to prove they're
+# omitted rather than rendered as empty headings.
+SPARSE_ITEM = {
+    "feed_name": "Odd Lots",
+    "title": "Repo Market Update",
+    "url": "https://example.com/ep1.mp3",
+    "score": 5,
+    "one_liner": "Reserves are getting scarce.",
+    "tags": [],
+    "recap": "Reserves near $2.9tn, the guest says.",
+    "implications": "",
+    "watch": [],
+    "terms": [],
+    "key_claims": [],
+}
+
+# An OLD-shape record: the two episodes already queued in
+# state/pending_digest.json when the recap format shipped have `summary`
+# (a bullet list) and no `recap` at all, so tomorrow's digest must still
+# render them (backward compat).
+OLD_SHAPE_ITEM = {
+    "feed_name": "Odd Lots",
+    "title": "Repo Market Update",
+    "url": "https://example.com/ep1.mp3",
+    "score": 5,
+    "one_liner": "Reserves are getting scarce.",
+    "tags": ["repo"],
+    "summary": ["Reserves near $2.9tn.", "SOFR-OIS widening."],
+    "key_claims": ["Reserves have fallen to ~$2.9tn (guest estimate)."],
 }
 
 
@@ -73,10 +132,10 @@ def test_populated_html_contains_feed_name_score_and_one_liner() -> None:
     assert "Reserves are getting scarce." in html
 
 
-def test_populated_html_contains_tags_summary_and_key_claims() -> None:
+def test_populated_html_contains_tags_recap_and_key_claims() -> None:
     html, _ = render_digest(ITEMS)
     assert "repo" in html
-    assert "Reserves near $2.9tn." in html
+    assert "Reserves near $2.9tn amid persistent SOFR-OIS widening" in html
     assert "Reserves have fallen to ~$2.9tn (guest estimate)." in html
 
 
@@ -94,6 +153,55 @@ def test_episode_with_no_key_claims_does_not_crash() -> None:
     html, text = render_digest(ITEMS)
     assert "Fed Balance Sheet Deep Dive" in html
     assert "Fed Balance Sheet Deep Dive" in text
+
+
+# --- recap-format card (drops Phase 2 direction: recap/implications/watch/terms) ---
+
+
+def test_full_new_shape_record_renders_all_recap_blocks() -> None:
+    html, text = render_digest({"guid-1": FULL_ITEM})
+    assert FULL_ITEM["recap"] in html
+    assert FULL_ITEM["recap"] in text
+    assert "Why it matters" in html
+    assert "Why it matters" in text
+    assert FULL_ITEM["implications"] in html
+    assert FULL_ITEM["implications"] in text
+    assert "Watch" in html
+    assert "Watch" in text
+    assert FULL_ITEM["watch"][0] in html
+    assert FULL_ITEM["watch"][0] in text
+    assert "Terms" in html
+    assert "Terms" in text
+    assert FULL_ITEM["terms"][0] in html
+    assert FULL_ITEM["terms"][0] in text
+    assert "Key claims" in html
+    assert "Key claims" in text
+
+
+def test_empty_implications_watch_and_terms_omit_their_blocks() -> None:
+    html, text = render_digest({"guid-1": SPARSE_ITEM})
+    assert SPARSE_ITEM["recap"] in html
+    assert "Why it matters" not in html
+    assert "Why it matters" not in text
+    assert "Watch" not in html
+    assert "Watch" not in text
+    assert "Terms" not in html
+    assert "Terms" not in text
+    assert "Key claims" not in html
+    assert "Key claims" not in text
+
+
+def test_old_shape_record_with_summary_list_still_renders_bullets() -> None:
+    # Backward compat: the two episodes already queued in
+    # state/pending_digest.json have `summary`, not `recap`.
+    html, text = render_digest({"guid-1": OLD_SHAPE_ITEM})
+    for bullet in OLD_SHAPE_ITEM["summary"]:
+        assert bullet in html
+        assert bullet in text
+    assert "Why it matters" not in html
+    assert "Watch" not in html
+    assert "Terms" not in html
+    assert "Key claims" in html  # unaffected, still renders as before
 
 
 def test_quiet_day_renders_note_not_empty_shell() -> None:

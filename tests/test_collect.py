@@ -77,7 +77,10 @@ def fake_extract(score: int = 4) -> Any:
             score=score,
             one_liner=f"one-liner for {episode.title}",
             tags=["repo"],
-            summary=["bullet one"],
+            recap="recap paragraph",
+            implications="implications sentence",
+            watch=["watch item"],
+            terms=["term -- definition"],
             key_claims=["claim one"],
         )
 
@@ -320,7 +323,9 @@ def test_transcript_longer_than_max_chars_is_truncated_before_extraction(
 
     def capturing_extract(episode: Episode, transcript: str, *, claude_model: str | None = None) -> ExtractResult:
         seen_transcripts.append(transcript)
-        return ExtractResult(score=4, one_liner="x", tags=[], summary=[], key_claims=[])
+        return ExtractResult(
+            score=4, one_liner="x", tags=[], recap="x", implications="x", watch=[], terms=[], key_claims=[]
+        )
 
     config = load_config({"MAX_TRANSCRIPT_CHARS": "100"})
     run(

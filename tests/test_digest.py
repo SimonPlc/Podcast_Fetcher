@@ -101,7 +101,10 @@ def fake_extract_article(score: int = 4, calls: list[Article] | None = None) -> 
             score=score,
             one_liner=f"one-liner for {article.title}",
             tags=["repo"],
-            summary=["bullet one"],
+            recap="recap paragraph",
+            implications="implications sentence",
+            watch=["watch item"],
+            terms=["term -- definition"],
             key_claims=["claim one"],
         )
 
@@ -424,7 +427,7 @@ def test_seen_article_record_never_contains_title_body_or_summary(tmp_path: Path
 
     key = article_hash(ARTICLE_FEED.name, ARTICLE_URL)
     record = read_seen_articles(tmp_path)["seen"][key]
-    forbidden = {"title", "body", "summary", "one_liner", "key_claims", "url"}
+    forbidden = {"title", "body", "recap", "implications", "watch", "terms", "one_liner", "key_claims", "url"}
     assert not (forbidden & record.keys())
     assert record == {"feed_name": ARTICLE_FEED.name}
 

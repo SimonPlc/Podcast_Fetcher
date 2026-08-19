@@ -178,7 +178,10 @@ def _article_record(article: Article, extraction: ExtractResult) -> dict[str, An
         "score": extraction.score,
         "one_liner": extraction.one_liner,
         "tags": extraction.tags,
-        "summary": extraction.summary,
+        "recap": extraction.recap,
+        "implications": extraction.implications,
+        "watch": extraction.watch,
+        "terms": extraction.terms,
         "key_claims": extraction.key_claims,
     }
 
