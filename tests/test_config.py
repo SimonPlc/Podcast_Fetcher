@@ -9,7 +9,7 @@ def test_defaults_applied_when_env_empty() -> None:
     assert config.whisper_model == "small"
     assert config.max_recent_days == 3
     assert config.episodes_per_feed == 2
-    assert config.max_episodes_per_run == 20
+    assert config.max_episodes_per_run == 8
     assert config.min_score == 3
     assert config.max_transcript_chars == 60_000
     assert config.max_articles_per_digest == 10
@@ -17,6 +17,9 @@ def test_defaults_applied_when_env_empty() -> None:
     assert config.claude_model is None
     assert config.email_to is None
     assert config.email_from is None
+    assert config.collect_time_budget_min == 50
+    assert config.min_episodes_per_run == 2
+    assert config.max_episode_attempts == 3
 
 
 def test_env_values_override_defaults() -> None:
@@ -34,6 +37,9 @@ def test_env_values_override_defaults() -> None:
             "CLAUDE_MODEL": "claude-opus-5",
             "EMAIL_TO": "simon@example.com",
             "EMAIL_FROM": "bot@example.com",
+            "COLLECT_TIME_BUDGET_MIN": "30",
+            "MIN_EPISODES_PER_RUN": "1",
+            "MAX_EPISODE_ATTEMPTS": "5",
         }
     )
     assert config.run_mode == "digest"
@@ -48,6 +54,9 @@ def test_env_values_override_defaults() -> None:
     assert config.claude_model == "claude-opus-5"
     assert config.email_to == "simon@example.com"
     assert config.email_from == "bot@example.com"
+    assert config.collect_time_budget_min == 30
+    assert config.min_episodes_per_run == 1
+    assert config.max_episode_attempts == 5
 
 
 def test_empty_string_env_values_treated_as_unset() -> None:

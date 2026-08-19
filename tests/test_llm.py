@@ -5,7 +5,13 @@ from unittest.mock import patch
 
 import pytest
 
-from podcast_fetcher.llm import LLMParseError, parse_json_object, run_claude
+from podcast_fetcher.llm import (
+    ClaudeUnavailableError,
+    LLMParseError,
+    check_claude_available,
+    parse_json_object,
+    run_claude,
+)
 
 
 def test_parses_clean_json_object() -> None:
@@ -68,3 +74,44 @@ def test_run_claude_strips_claude_code_session_env_vars(monkeypatch: Any) -> Non
     assert "CLAUDE_CODE_CHILD_SESSION" not in passed_env
     assert passed_env["CLAUDE_CODE_OAUTH_TOKEN"] == "sk-ant-oat01-should-survive"
     assert passed_env["PATH"] == "/usr/bin"
+
+
+# --- Issue #9: our-side vs episode-side failure ---
+
+
+class _FakeFailedProcess:
+    def __init__(self) -> None:
+        self.returncode = 1
+        self.stdout = ""
+        self.stderr = "error: invalid API key · Please run /login"
+
+
+def test_run_claude_raises_claude_unavailable_on_nonzero_exit() -> None:
+    with patch("podcast_fetcher.llm.subprocess.run", return_value=_FakeFailedProcess()):
+        with pytest.raises(ClaudeUnavailableError):
+            run_claude("instructions", "stdin text")
+
+
+def test_run_claude_raises_claude_unavailable_when_executable_missing() -> None:
+    with patch("podcast_fetcher.llm.subprocess.run", side_effect=FileNotFoundError("no such file")):
+        with pytest.raises(ClaudeUnavailableError):
+            run_claude("instructions", "stdin text")
+
+
+def test_check_claude_available_makes_one_cheap_run_claude_call() -> None:
+    calls: list[tuple[str, str]] = []
+
+    def fake_run(prompt: str, stdin_text: str, *, model: str | None = None, timeout: int = 600) -> str:
+        calls.append((prompt, stdin_text))
+        return "OK"
+
+    check_claude_available(run=fake_run)
+    assert len(calls) == 1
+
+
+def test_check_claude_available_propagates_claude_unavailable_error() -> None:
+    def failing_run(prompt: str, stdin_text: str, *, model: str | None = None, timeout: int = 600) -> str:
+        raise ClaudeUnavailableError("claude CLI exited 1: not logged in")
+
+    with pytest.raises(ClaudeUnavailableError):
+        check_claude_available(run=failing_run)

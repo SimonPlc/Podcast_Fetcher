@@ -76,12 +76,15 @@ def test_excludes_already_queued_episode() -> None:
     assert result == []
 
 
-def test_per_feed_cap_keeps_newest_first() -> None:
+def test_per_feed_cap_keeps_newest_episodes() -> None:
+    # The per-feed cap still keeps a feed's newest N ("old" is dropped);
+    # only the cross-feed *output* order is oldest-first (issue #9), so
+    # the two kept episodes come back oldest-of-the-two first.
     old = ep(guid="old", days_ago=2)
     newer = ep(guid="newer", days_ago=1)
     newest = ep(guid="newest", days_ago=0)
     result = select({"Odd Lots": [old, newer, newest]}, episodes_per_feed=2)
-    assert result == [newest, newer]
+    assert result == [newer, newest]
 
 
 def test_per_run_cap_applies_across_feeds() -> None:
@@ -92,8 +95,10 @@ def test_per_run_cap_applies_across_feeds() -> None:
     }
     result = select(feeds, max_episodes_per_run=2)
     assert len(result) == 2
-    # newest-first across feeds
-    assert [e.guid for e in result] == ["c", "b"]
+    # oldest-in-window-first across feeds (issue #9): "a" (1 day ago) is
+    # nearest the recency cutoff and must be processed before it ages
+    # out, so it wins the cap over the newer "c".
+    assert [e.guid for e in result] == ["a", "b"]
 
 
 def test_missing_published_date_does_not_crash_and_is_included() -> None:
