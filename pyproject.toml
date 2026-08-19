@@ -4,7 +4,10 @@ testpaths = ["tests"]
 
 [tool.mypy]
 python_version = "3.12"
-packages = ["podcast_fetcher"]
+# Source and tests both type-checked: the recap-format review found the
+# test suite had drifted out of type-clean unnoticed because only the
+# package was in scope. Bare `mypy` now covers both.
+files = ["podcast_fetcher", "tests"]
 disallow_untyped_defs = true
 warn_unused_ignores = true
 warn_redundant_casts = true
