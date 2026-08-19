@@ -5,6 +5,7 @@ import os
 import re
 import shutil
 import subprocess
+from collections.abc import Callable
 from pathlib import Path
 from typing import Any
 
@@ -31,7 +32,27 @@ _SESSION_ENV_VARS = {
 
 
 class LLMParseError(ValueError):
-    """Raised when a model response contains no valid JSON object."""
+    """Raised when a model response contains no valid JSON object.
+
+    Episode-side (issue #9): the CLI call itself succeeded, but what it
+    returned is unusable. This says nothing about our pipeline, so the
+    episode that produced it is recorded terminal and never retried --
+    contrast ClaudeUnavailableError below.
+    """
+
+
+class ClaudeUnavailableError(RuntimeError):
+    """Raised when the Claude Code CLI itself could not be run or failed
+    outright (issue #9): the executable is missing, or it exited
+    non-zero (expired/missing CLAUDE_CODE_OAUTH_TOKEN, a subscription
+    rate limit, a transient CLI crash, ...).
+
+    Our-side, not episode-side: it says nothing about whatever episode
+    happened to be in flight, so collect.py must not burn that episode
+    as `failed` when this is raised -- see collect.run_collect's
+    handling of the extraction call, and llm.check_claude_available for
+    the preflight check run before any transcription starts.
+    """
 
 
 _FENCE_RE = re.compile(r"```(?:json)?\s*(.*?)\s*```", re.DOTALL)
@@ -133,15 +154,35 @@ def run_claude(prompt: str, stdin_text: str, *, model: str | None = None, timeou
     if model:
         cmd += ["--model", model]
     clean_env = {key: value for key, value in os.environ.items() if key not in _SESSION_ENV_VARS}
-    result = subprocess.run(
-        cmd,
-        input=stdin_text,
-        capture_output=True,
-        text=True,
-        timeout=timeout,
-        check=False,
-        env=clean_env,
-    )
+    try:
+        result = subprocess.run(
+            cmd,
+            input=stdin_text,
+            capture_output=True,
+            text=True,
+            timeout=timeout,
+            check=False,
+            env=clean_env,
+        )
+    except FileNotFoundError as exc:
+        # The executable couldn't even be launched (not installed, PATH
+        # wrong, ...) -- our-side, exactly like a non-zero exit below.
+        raise ClaudeUnavailableError(f"claude CLI executable not found: {exc}") from exc
     if result.returncode != 0:
-        raise RuntimeError(f"claude CLI exited {result.returncode}: {result.stderr[:500]}")
+        raise ClaudeUnavailableError(f"claude CLI exited {result.returncode}: {result.stderr[:500]}")
     return result.stdout
+
+
+RunClaudeFn = Callable[..., str]
+
+
+def check_claude_available(*, model: str | None = None, run: RunClaudeFn = run_claude) -> None:
+    """Preflight health check (issue #9) used by collect.run_collect
+    before any download/transcribe work starts. Makes one cheap
+    run_claude call and lets ClaudeUnavailableError propagate; the
+    caller treats that as "abort the run, retry next time" rather than
+    burning Whisper CPU on episodes a known-bad CLI can't score anyway.
+    Returns None on success -- the caller only cares whether this
+    raised.
+    """
+    run("Reply with exactly the word OK and nothing else.", "", model=model)

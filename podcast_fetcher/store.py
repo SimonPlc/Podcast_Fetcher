@@ -18,6 +18,27 @@ def load_processed_ids(path: str | Path = PROCESSED_PATH) -> set[str]:
     return set(load_processed(path).get("processed", {}).keys())
 
 
+# Terminal statuses (issue #9): a record in either state is permanently
+# excluded from selection and never retried. `deferred` (an our-side
+# ClaudeUnavailableError, still under the retry cap) is deliberately
+# NOT terminal -- see terminal_ids below and collect.run_collect.
+_TERMINAL_STATUSES = {"ok", "failed"}
+
+
+def terminal_ids(processed: dict) -> set[str]:
+    """The subset of an already-loaded `processed` record whose episode
+    is terminal (status ok or failed). Pure: takes the dict collect.py
+    already has in hand rather than re-reading it from disk, and keeps
+    the ok/failed/deferred status vocabulary out of selection.py, which
+    only ever sees a plain set of ids to exclude.
+    """
+    return {
+        guid
+        for guid, record in processed.get("processed", {}).items()
+        if record.get("status") in _TERMINAL_STATUSES
+    }
+
+
 def save_processed(processed: dict, path: str | Path = PROCESSED_PATH) -> None:
     write_json_atomic(path, processed)
 

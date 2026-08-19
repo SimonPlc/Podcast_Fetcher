@@ -56,6 +56,11 @@ env:
 jobs:
   run:
     runs-on: ubuntu-latest
+    # Well under GitHub's 6h hard kill, and above COLLECT_TIME_BUDGET_MIN
+    # (50min) plus room for one long in-flight episode, feed fetching,
+    # and dependency install -- a backstop for collect, which is the mode
+    # that can otherwise run long; digest/discover finish in minutes.
+    timeout-minutes: 90
     steps:
       - name: Checkout
         uses: actions/checkout@v4
