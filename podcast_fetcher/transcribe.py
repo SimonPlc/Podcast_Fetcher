@@ -54,21 +54,30 @@ def downloaded_audio(url: str, *, timeout: int = 120) -> Iterator[Path]:
 
 
 def transcribe_audio(path: Path, model: str) -> str:
-    """Transcribe an audio file with local Whisper.
+    """Transcribe an audio file with local faster-whisper.
 
-    `whisper` (and its heavy torch dependency) is imported lazily so
-    that importing this module -- and everything that imports it, like
-    collect.py -- never requires Whisper to be installed. Only actually
-    calling this function does. Loaded models are cached per process so
-    a run processing several episodes doesn't reload the model each time.
+    faster-whisper is a CTranslate2 reimplementation of Whisper: the same
+    models, but ~4x faster on CPU with int8 quantisation and no torch
+    dependency -- which is what lets the more accurate `medium` model run
+    on the free CPU runner within the collect time budget, roughly where
+    openai-whisper's `small` used to land.
+
+    `faster_whisper` is imported lazily so that importing this module --
+    and everything that imports it, like collect.py -- never requires the
+    transcription stack to be installed; only actually calling this
+    function does. Loaded models are cached per process so a run
+    processing several episodes doesn't reload the model each time.
     """
-    import whisper  # noqa: PLC0415 -- deliberately lazy, see docstring
+    from faster_whisper import WhisperModel  # noqa: PLC0415 -- deliberately lazy, see docstring
 
     if model not in _loaded_models:
-        _loaded_models[model] = whisper.load_model(model)
-    result = _loaded_models[model].transcribe(
+        _loaded_models[model] = WhisperModel(model, device="cpu", compute_type="int8")
+    segments, _info = _loaded_models[model].transcribe(
         str(path),
         initial_prompt=_DOMAIN_PROMPT,
         language="en",
     )
-    return str(result["text"]).strip()
+    # transcribe() returns a lazy generator of segments; consuming it is
+    # what actually runs the model. Each segment.text carries a leading
+    # space, so strip per-segment and rejoin.
+    return " ".join(segment.text.strip() for segment in segments).strip()

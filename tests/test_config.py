@@ -6,7 +6,7 @@ from podcast_fetcher.config import load_config
 def test_defaults_applied_when_env_empty() -> None:
     config = load_config({})
     assert config.run_mode == "collect"
-    assert config.whisper_model == "small"
+    assert config.whisper_model == "medium"
     assert config.max_recent_days == 3
     assert config.episodes_per_feed == 2
     assert config.max_episodes_per_run == 8

@@ -3,7 +3,9 @@ from __future__ import annotations
 from dataclasses import dataclass
 from collections.abc import Mapping
 
-DEFAULT_WHISPER_MODEL = "small"
+# `medium` (not `small`) since the switch to faster-whisper (CTranslate2)
+# made the more accurate model fast enough for the CPU runner's time budget.
+DEFAULT_WHISPER_MODEL = "medium"
 DEFAULT_MAX_RECENT_DAYS = 3
 DEFAULT_EPISODES_PER_FEED = 2
 DEFAULT_MIN_SCORE = 3

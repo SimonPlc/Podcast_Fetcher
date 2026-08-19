@@ -167,7 +167,7 @@ All via environment variables, all with working defaults:
 | Variable | Default | Effect |
 |---|---|---|
 | `RUN_MODE` | `collect` | `collect`, `digest` or `discover` |
-| `WHISPER_MODEL` | `small` | Larger handles rates/credit jargon better, and is slower |
+| `WHISPER_MODEL` | `medium` | faster-whisper model size; larger handles rates/credit jargon better but is slower |
 | `MAX_RECENT_DAYS` | `3` | Recency window for episodes and articles |
 | `EPISODES_PER_FEED` | `2` | Per-feed cap per collect run |
 | `MAX_EPISODES_PER_RUN` | `8` | Hard total cap per collect run |

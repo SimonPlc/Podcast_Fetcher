@@ -51,7 +51,7 @@ env:
   # Repo variable with a literal fallback baked into the expression, so the
   # env var this resolves to is never an empty string (see WHISPER_MODEL
   # comment below the "Run pipeline" step for why that matters).
-  WHISPER_MODEL: ${{ vars.WHISPER_MODEL || 'small' }}
+  WHISPER_MODEL: ${{ vars.WHISPER_MODEL || 'medium' }}
 
 jobs:
   run:
@@ -115,18 +115,17 @@ jobs:
       - name: Cache Whisper model
         uses: actions/cache@v4
         with:
-          path: ~/.cache/whisper
-          key: whisper-model-${{ env.WHISPER_MODEL }}
+          # faster-whisper downloads the CTranslate2 model from the
+          # Hugging Face hub into ~/.cache/huggingface.
+          path: ~/.cache/huggingface
+          key: faster-whisper-${{ env.WHISPER_MODEL }}
 
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          # CPU-only wheel first: the default PyPI torch build pulls in CUDA
-          # and is several times larger than this CPU-only Actions runner
-          # needs. Installing it before requirements.txt means
-          # openai-whisper's unpinned "torch" dependency is already
-          # satisfied and pip won't pull the GPU build in afterwards.
-          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          # faster-whisper (CTranslate2) has no torch/CUDA dependency, so
+          # unlike openai-whisper there's no multi-GB GPU wheel to avoid --
+          # a plain requirements install is enough.
           pip install -r requirements.txt
 
       - name: Run pipeline

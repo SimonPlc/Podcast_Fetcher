@@ -353,8 +353,13 @@ wants):
   better prompt or a working run can still surface it later.
 
 **Transcription**
-- Local **Whisper**, model `small` by default (better on jargon than the
-  reference's `base`), running on Actions CPU. Model size is an env knob.
+- Local **faster-whisper** (CTranslate2), model `medium` by default, running
+  on Actions CPU. faster-whisper is ~4x faster than openai-whisper for the same
+  model with no torch dependency, which is what makes the more accurate
+  `medium` affordable within the collect time budget (roughly where the old
+  openai-whisper `small` landed). Decoding is biased toward finance jargon via
+  an `initial_prompt` glossary and pinned to English. Model size is an env knob
+  (`WHISPER_MODEL`).
 
 **LLM**
 - **One extraction call per source item**, always via **Claude Code CLI** using
