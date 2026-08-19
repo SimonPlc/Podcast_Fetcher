@@ -44,6 +44,46 @@
         "Fed balance-sheet task force findings on reserve/balance-sheet sizing under Warsh"
       ]
     },
+    "6e1ad772-adab-4113-a7d9-a22d1fb5f171": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a rates/repo book, the piece argues against reading the long-end back-up as the start of a durable bear-steepening or term-premium blowout \u2014 instead it frames the move as front-end-led richening (2yr rallying on rate-cut expectations) consistent with bull-steepening, which should inform curve RV positioning (10s30s, 2s30s) and skepticism toward auction-tail headlines as standalone signals.",
+      "key_claims": [
+        "30-year Treasury yield reached ~5.31%, its highest level since June 2007 (host)",
+        "10-year yield moved toward ~4.75%, highest in 19 months (host)",
+        "Since the 30-year first crossed 5% in October 2023 (also then a post-2007 high), the yield is up only about 20bp nearly three years later (host)",
+        "By late December 2023 the 30-year yield had fallen more than a full percentage point from its October 2023 panic peak (host)",
+        "The 2-year yield is moving lower even as the 30-year makes new highs, which the host says is inconsistent with a broad inflation-repricing story",
+        "The 10s30s spread and the 30-year's premium over short-term yields both remain historically low/flat, arguing against genuine bond-vigilante pricing",
+        "The most recent 30-year bond auction cleared at its highest yield since 2001 (host)"
+      ],
+      "kind": "podcast",
+      "one_liner": "Argues the 30-year Treasury's 'highest yield since 2007' headline is not a bond-vigilante or inflation-repricing event but ordinary bull-steepening curve normalization, backed by a falling 2-year yield and a flat 10s30s spread.",
+      "published": "2026-08-19T11:00:00+00:00",
+      "recap": "The episode dissects the narrative around the 30-year Treasury yield hitting roughly 5.31%, its highest since June 2007, with the 10-year near 4.75%. The mainstream story blames returning inflation, fading Fed credibility, weakening foreign demand, heavy issuance, and awakening 'bond vigilantes.' The host counters that this same panic occurred in October 2023 when the 30-year first crossed 5% (also then the highest since 2007), followed by a sharp yield collapse; nearly three years later the yield is only about 20 basis points above that level, hardly evidence of a new regime. The real signal, he argues, is in the curve shape rather than one maturity: the 2-year yield is declining even as the 30-year rises, which is bull-steepening driven by expectations of Fed easing amid softening retail sales and labor data, not a broad inflation repricing. The 10s30s spread has stayed flat rather than widening, and the 30-year's premium over short-term yields remains historically low, contradicting claims of an exploding term premium or genuine bond vigilantism. He also debunks the foreign-selling and weak-auction narratives as short-lived mechanical noise (citing 2009, 2011, and late-2023 precedents where 'disastrous' auctions were followed by falling yields), and separately argues 1970s-style inflation predates the oil shock, so oil above $90 is not itself an inflation driver. The conclusion: normalization of a Fed-distorted curve, not fiscal collapse.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "rates",
+        "Treasury curve",
+        "Fed policy",
+        "term premium",
+        "bull-steepening",
+        "30-year yield"
+      ],
+      "terms": [
+        "bull-steepening -- a yield curve steepening in which front-end yields fall faster than (or while) long-end yields rise or hold, typically as markets price in central bank easing",
+        "10s30s spread -- the yield differential between the 10-year and 30-year Treasury yields, used to gauge long-end-specific risk premium"
+      ],
+      "tier": "plumbing",
+      "title": "30-Year Bond Yields Are Surging... Here\u2019s What It Means",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/7934209c/20907c52.mp3",
+      "watch": [
+        "2-year Treasury yield trajectory as a read on Fed-cut pricing",
+        "10s30s and 30yr-vs-short-rate spread for any genuine widening",
+        "Upcoming long-bond auction tails/bid-to-cover for signs the move is becoming durable",
+        "Fed guidance and policy path under the referenced new Fed chair"
+      ]
+    },
     "d029f141-0fda-4758-8bc0-21464bacdad3": {
       "feed_name": "Eurodollar University",
       "key_claims": [
