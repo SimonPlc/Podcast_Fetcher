@@ -168,6 +168,12 @@ def run_claude(prompt: str, stdin_text: str, *, model: str | None = None, timeou
         # The executable couldn't even be launched (not installed, PATH
         # wrong, ...) -- our-side, exactly like a non-zero exit below.
         raise ClaudeUnavailableError(f"claude CLI executable not found: {exc}") from exc
+    except subprocess.TimeoutExpired as exc:
+        # A hung CLI (an auth prompt waiting on stdin, a wedged request,
+        # ...) is our-side too, not the episode's fault -- so it must
+        # defer rather than burn the in-flight episode. At preflight it
+        # aborts the whole run, same as any other ClaudeUnavailableError.
+        raise ClaudeUnavailableError(f"claude CLI timed out after {timeout}s") from exc
     if result.returncode != 0:
         raise ClaudeUnavailableError(f"claude CLI exited {result.returncode}: {result.stderr[:500]}")
     return result.stdout

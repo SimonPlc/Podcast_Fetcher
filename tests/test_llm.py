@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import subprocess
 from typing import Any
 from unittest.mock import patch
 
@@ -94,6 +95,16 @@ def test_run_claude_raises_claude_unavailable_on_nonzero_exit() -> None:
 
 def test_run_claude_raises_claude_unavailable_when_executable_missing() -> None:
     with patch("podcast_fetcher.llm.subprocess.run", side_effect=FileNotFoundError("no such file")):
+        with pytest.raises(ClaudeUnavailableError):
+            run_claude("instructions", "stdin text")
+
+
+def test_run_claude_raises_claude_unavailable_on_timeout() -> None:
+    # A hung CLI is our-side, not the episode's fault: it must raise
+    # ClaudeUnavailableError (defer) rather than a bare TimeoutExpired
+    # that collect.py would burn as an episode-side failure.
+    timeout_exc = subprocess.TimeoutExpired(cmd="claude", timeout=600)
+    with patch("podcast_fetcher.llm.subprocess.run", side_effect=timeout_exc):
         with pytest.raises(ClaudeUnavailableError):
             run_claude("instructions", "stdin text")
 

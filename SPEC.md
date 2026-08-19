@@ -411,13 +411,39 @@ so runs don't race on the committed JSON state. `workflow_dispatch` allows
 manual runs with a mode override.
 
 **Config knobs (env):** `RUN_MODE`, `WHISPER_MODEL`, `MAX_RECENT_DAYS` (3),
-`EPISODES_PER_FEED` (2), `MIN_SCORE` (3), `MAX_EPISODES_PER_RUN` (cap per collect),
-`MAX_TRANSCRIPT_CHARS`, `MAX_ARTICLES_PER_DIGEST` (10, cap on articles
-extracted per digest run -- ticket #7), `DISCOVERY_LIMIT` (25, cap on iTunes
-results requested per search term -- ticket #5), `DISCOVERY_BATCH_SIZE` (25,
-candidates scored per Claude call -- ticket #8), `CLAUDE_MODEL`, `EMAIL_TO`,
-`EMAIL_FROM`. Articles reuse `MIN_SCORE` and `MAX_RECENT_DAYS` unchanged
-rather than getting their own knobs.
+`EPISODES_PER_FEED` (2), `MIN_SCORE` (3), `MAX_EPISODES_PER_RUN` (8, hard cap
+per collect), `COLLECT_TIME_BUDGET_MIN` (50, wall-clock budget -- ticket #9),
+`MIN_EPISODES_PER_RUN` (2, floor attempted even past the budget -- ticket #9),
+`MAX_EPISODE_ATTEMPTS` (3, retry cap before an our-side deferral becomes
+terminal -- ticket #9), `MAX_TRANSCRIPT_CHARS`, `MAX_ARTICLES_PER_DIGEST` (10,
+cap on articles extracted per digest run -- ticket #7), `DISCOVERY_LIMIT` (25,
+cap on iTunes results requested per search term -- ticket #5),
+`DISCOVERY_BATCH_SIZE` (25, candidates scored per Claude call -- ticket #8),
+`CLAUDE_MODEL`, `EMAIL_TO`, `EMAIL_FROM`. Articles reuse `MIN_SCORE` and
+`MAX_RECENT_DAYS` unchanged rather than getting their own knobs.
+
+**Collect run bounding and failure handling (ticket #9).** A collect run is
+bounded in wall-clock time: it stops starting new episodes once
+`COLLECT_TIME_BUDGET_MIN` is reached, but always attempts at least
+`MIN_EPISODES_PER_RUN` first (the floor wins so a slow prior run never starves
+this one to zero work); the workflow job also carries a `timeout-minutes: 90`
+hard backstop. Deferred episodes are simply left unrecorded, so they stay
+eligible next run. Per-episode failures are split by cause: an **episode-side**
+failure (bad audio, a transcription error, or a malformed-but-successful LLM
+reply -- `LLMParseError`) is recorded `failed` (terminal, never retried); an
+**our-side** failure (`ClaudeUnavailableError` -- the Claude CLI missing,
+token expired, rate-limited, hung/timed out, or crashing) is recorded
+`deferred` with an attempt counter and does **not** burn the episode, and the
+rest of the run is aborted since a known-bad CLI can't score the remaining
+episodes either. A cheap `check_claude_available` preflight runs before any
+transcription for the same reason. Only `ok`/`failed` records exclude an
+episode from future selection (`store.terminal_ids`); a `deferred` record
+stays selectable until its attempts reach `MAX_EPISODE_ATTEMPTS`, at which
+point it is recorded `failed` so a persistently broken CLI can't re-transcribe
+it forever. Selection processes the eligible pool **oldest-in-window first**
+(FIFO) across feeds so an episode nearest the `MAX_RECENT_DAYS` cutoff is
+handled before it can age out unscored; the per-feed cap still keeps each
+feed's newest `EPISODES_PER_FEED`.
 
 ## Testing Decisions
 
