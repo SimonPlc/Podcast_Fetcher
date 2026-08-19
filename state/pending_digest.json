@@ -1,5 +1,49 @@
 {
   "queued": {
+    "64fba1090e18127fa361f051:64fba4edb48a5e6f7261367d:6a84e302a4bad07b608da666": {
+      "feed_name": "BTN with Ethan Heisler",
+      "implications": "For a repo/financing desk, the SOMA T-bill/MBS mix shift, delayed Reserve Management Purchase Program buys, and reserves sitting just under $3tn are directly relevant to bill supply, collateral availability, and repo/SOFR dynamics; the fading rate-hike pricing and curve moves (2s10s narrowing to 45bp, 10yr spiking to 4.75%) also bear on front-end positioning and duration risk around the September meeting.",
+      "key_claims": [
+        "FOMC voted to hold the Fed funds rate at 3.50%-3.75% on July 29, with 3 members dissenting in favor of a 25bp hike",
+        "The 30-year Treasury topped 5.30%, its highest level since before the GFC",
+        "SOMA agency MBS holdings fell from $2.1tn (33% of SOMA) in July 2025 to $1.9tn (29%) this month, shortening portfolio maturity from over nine years to eight years",
+        "The Fed earned positive net interest income on its SOMA portfolio for the first time since 2022",
+        "National debt outstanding is $39tn and is projected to grow by more than $2tn in fiscal 2026, the fifth consecutive year of that pace, equal to about 7% of GDP (down from 10% in 2022)",
+        "Bank deposits rose from $13tn to $19tn and money market fund assets doubled from $4tn to $8tn since 2020",
+        "CME FedWatch probability of a September rate hike fell from 67% to 35% over the course of the month; Polymarket odds fell from 58% (Aug 1) to 25%",
+        "Dissenting voter Beth Hammack said a 25bp move 'probably doesn't do a whole lot for the economy'"
+      ],
+      "kind": "podcast",
+      "one_liner": "A bank-treasury newsletter dissects the July FOMC hold under new Fed Chair Kevin Warsh, the shrinking/re-shaping SOMA portfolio, T-bill vs. MBS runoff, reserve levels, and deficit-driven money supply growth -- core money-market plumbing and rates content.",
+      "published": "2026-08-18T23:02:44+00:00",
+      "recap": "This bank treasury newsletter covers the July 29 FOMC meeting, where the committee (9 in favor, 3 dissenting for a 25bp hike) held the Fed funds rate at 3.50%-3.75% under new Chairman Kevin Warsh, who has now voted to hold at both his June and July meetings despite pledging to fight inflation, which has stayed above 2% for 63 months. Warsh drew criticism for abandoning forward guidance, refusing to explain his votes, and instead insisting 'Mr. Market' should do the Fed's interpretive work -- a stance the author, channeling Warsh's stated admiration for Alan Greenspan and Ayn Rand's Objectivism, treats skeptically. Market-implied hike odds swung sharply through the month (CME FedWatch September-hike probability fell from 67% to 35%; Polymarket from 58% to 25%) after cooling but not worsening inflation and jobs data. On the balance sheet side, SOMA holds over $530bn in T-bills, with the NY Fed delaying further Reserve Management Purchase Program buys until October; agency MBS holdings fell from $2.1tn (33% of SOMA) to $1.9tn (29%) year-over-year, shortening portfolio maturity from over nine years to eight, and the Fed posted its first positive net SOMA interest income since 2022, easing negative Treasury remittances. Separately, the piece notes FY2026 federal debt growth of over $2tn (debt now $39tn, deficit ~7% of GDP), with bank deposits up from $13tn to $19tn and money market fund assets doubling to $8tn since 2020, alongside a 30-year Treasury yield above 5.30%, the highest since before the GFC.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "FOMC",
+        "SOMA",
+        "reserves",
+        "balance sheet",
+        "Treasury yields",
+        "rates",
+        "deficit spending",
+        "money markets"
+      ],
+      "terms": [
+        "SOMA -- the Fed's 'system open market account' holding over $530 billion in Treasury bills, referenced as the account through which the Fed manages its securities portfolio",
+        "LCR -- 'lease cost resolution,' the framework the FDIC uses (alongside the systemic risk exception) to decide how to resolve a failed bank"
+      ],
+      "tier": "plumbing",
+      "title": "BANK TREASURERS SHRUGGED",
+      "url": "https://static1.squarespace.com/static/64fba1090e18127fa361f051/t/6a84e39ca6d2a84f2ecec068/1787093926742/Bank+Treasury+Newsletter+Audio-August+2026.mp3",
+      "watch": [
+        "September 2026 FOMC decision and whether dissenters get a majority for a 25bp hike",
+        "Resumption of Reserve Management Purchase Program buys in October and their T-bill/MBS composition",
+        "Further SOMA remittance/net interest income trends",
+        "Fed balance-sheet task force findings on reserve/balance-sheet sizing under Warsh"
+      ]
+    },
     "d029f141-0fda-4758-8bc0-21464bacdad3": {
       "feed_name": "Eurodollar University",
       "key_claims": [
@@ -36,6 +80,40 @@
       "tier": "plumbing",
       "title": "WTF Just Happened to Retail Sales?!",
       "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/075b2e78/10173c70.mp3"
+    },
+    "e15e7ba0-774d-42b6-adeb-f5cbec92754a": {
+      "feed_name": "Top Traders Unplugged",
+      "implications": "Background, not actionable -- the neutral-rate/productivity debate and the reduced diversification value of duration are relevant context for a rates book, but the episode contains no repo, funding, collateral, or credit-spread specifics to trade on.",
+      "key_claims": [
+        "Pyle: some AI-adjacent \"memory firms\" are trading under 10x forward earnings, which he argues looks far from a 1990s-style bubble valuation",
+        "Pyle: the current macro regime is 'supply driven'/scarcity-driven, versus the demand-deficient, low-volatility 2010s regime",
+        "Pyle: bonds' role in portfolios has shifted from duration-based diversification to income generation, with market-neutral hedge fund strategies increasingly relied on for diversification instead",
+        "Pyle: there is active debate over whether AI-driven productivity gains will be disinflationary while also raising the neutral real rate, versus a minority view that real rates face downward pressure"
+      ],
+      "kind": "podcast",
+      "one_liner": "A BlackRock portfolio strategist's big-picture take on the shift from a demand-driven to a supply/scarcity-driven macro regime touches on neutral-rate and duration debates relevant to a rates desk, but the bulk of the conversation is about equity/hedge-fund portfolio construction with little on repo or funding markets.",
+      "published": "2026-08-19T04:00:00+00:00",
+      "recap": "Mike Pyle, deputy head of BlackRock's portfolio management group and a former US deputy national security advisor, discusses how the macro regime has shifted since his earlier BlackRock stint (2014-2021). He frames today's environment as \"supply driven\" -- shaped by pandemic-era supply-chain shocks, the Russia-Ukraine war, the Iran-linked energy shock, and the AI capex boom -- in contrast to the demand-deficient 2010s, when central banks suppressed rates and volatility, growth risk dominated inflation risk, and bonds provided strong equity diversification. He argues fiscal policy has become more activist post-2010s, as policymakers overcorrected for perceived under-stimulus after the GFC. On AI, he sees current bottleneck-driven earnings among suppliers to hyperscalers as likely to compress over time as competition and new supply relax constraints, though he expects a durable earnings path given AI demand still outstripping supply; he doesn't see current forward valuations as stretched (citing sub-10x forward multiples for some memory firms). On rates, he flags an active debate about whether AI-driven productivity gains will be disinflationary (1990s-style) while also possibly pushing the neutral real rate higher, versus a minority view of downward pressure on real rates -- with the answer still unclear via real-time productivity data. On portfolio construction, he argues bonds' role has shifted from duration-based diversification to income generation, with diversification instead sought via market-neutral/multi-strategy hedge funds, and describes growing client interest in portable alpha and total portfolio approaches (TPA) that blend public/private income and alpha overlays atop equity beta.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "macro",
+        "Fed",
+        "neutral rate",
+        "portfolio construction",
+        "hedge funds",
+        "duration",
+        "AI capex",
+        "fiscal policy"
+      ],
+      "terms": [],
+      "tier": "quant",
+      "title": "ALO38: Why the Old Rules of Diversification Are Changing ft. Mike Pyle",
+      "url": "https://episodes.captivate.fm/episode/e15e7ba0-774d-42b6-adeb-f5cbec92754a.mp3",
+      "watch": [
+        "Data on whether AI productivity gains begin outweighing resource-demand/capex effects on inflation and the neutral rate",
+        "Whether hyperscaler-supplier earnings/multiples compress as capacity bottlenecks ease"
+      ]
     },
     "e197109b-f5bc-473f-90df-6bf6d294167c": {
       "feed_name": "Macro Musings",
