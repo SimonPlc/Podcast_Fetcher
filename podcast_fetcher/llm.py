@@ -30,6 +30,20 @@ _SESSION_ENV_VARS = {
     "AI_AGENT",
 }
 
+# The Claude CLI only needs its own auth token (CLAUDE_CODE_OAUTH_TOKEN) to
+# run; it never sends email. The Gmail send credentials sit in the same
+# process env on the GitHub runner, but this subprocess is the one place that
+# feeds untrusted transcript/article text to a model, so there is no reason to
+# expose them to it. Stripping them is defence in depth -- no known exploit
+# path, but it keeps the secrets out of the process that reads untrusted input.
+_SECRET_ENV_VARS = {
+    "GMAIL_CLIENT_ID",
+    "GMAIL_CLIENT_SECRET",
+    "GMAIL_REFRESH_TOKEN",
+    "EMAIL_TO",
+    "EMAIL_FROM",
+}
+
 
 class LLMParseError(ValueError):
     """Raised when a model response contains no valid JSON object.
@@ -153,7 +167,8 @@ def run_claude(prompt: str, stdin_text: str, *, model: str | None = None, timeou
     cmd = [claude_path, "-p", prompt, "--output-format", "text"]
     if model:
         cmd += ["--model", model]
-    clean_env = {key: value for key, value in os.environ.items() if key not in _SESSION_ENV_VARS}
+    stripped = _SESSION_ENV_VARS | _SECRET_ENV_VARS
+    clean_env = {key: value for key, value in os.environ.items() if key not in stripped}
     try:
         result = subprocess.run(
             cmd,

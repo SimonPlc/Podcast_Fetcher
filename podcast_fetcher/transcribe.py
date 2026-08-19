@@ -11,6 +11,22 @@ import requests
 _DOWNLOAD_CHUNK_BYTES = 1 << 20  # 1 MiB
 _loaded_models: dict[str, Any] = {}
 
+# Whisper `small` mishears finance jargon (e.g. "least cost resolution" ->
+# "lease cost resolution", "IORB"/"SOFR"/"SOMA" garbled), and the extraction
+# model then faithfully repeats the error. Passing a domain glossary as
+# Whisper's `initial_prompt` biases decoding toward these terms at the source,
+# for zero extra compute -- cheaper and safer than a larger, slower model.
+# It is prior context, not a transcript prefix, so it never appears in output.
+_DOMAIN_PROMPT = (
+    "Finance and markets discussion. Likely terms: repo, reverse repo, SOFR, "
+    "IORB, OIS, basis, standing repo facility (SRF), discount window, reserves, "
+    "SOMA, FOMC, FHLB, quantitative tightening (QT), quantitative easing (QE), "
+    "Treasury bills, T-bills, MBS, agency MBS, LCR (liquidity coverage ratio), "
+    "least cost resolution, FDIC, SVB, CLO, ABS, RMBS, CMBS, CDS, CDX, iTraxx, "
+    "total return swap, securitization, leveraged finance, private credit, "
+    "investment grade, high yield, collateral, duration, front-end rates."
+)
+
 # Some CDNs (e.g. Acast) blanket-block the default python-requests UA
 # string as a bot heuristic, even for this fully public, unauthenticated
 # audio. An honest, identifying UA (same idea as any podcast app sends)
@@ -50,5 +66,9 @@ def transcribe_audio(path: Path, model: str) -> str:
 
     if model not in _loaded_models:
         _loaded_models[model] = whisper.load_model(model)
-    result = _loaded_models[model].transcribe(str(path))
+    result = _loaded_models[model].transcribe(
+        str(path),
+        initial_prompt=_DOMAIN_PROMPT,
+        language="en",
+    )
     return str(result["text"]).strip()

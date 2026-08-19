@@ -77,6 +77,25 @@ def test_run_claude_strips_claude_code_session_env_vars(monkeypatch: Any) -> Non
     assert passed_env["PATH"] == "/usr/bin"
 
 
+def test_run_claude_strips_gmail_send_secrets_from_subprocess_env(monkeypatch: Any) -> None:
+    # The extract/score subprocess is fed untrusted transcript text and never
+    # sends email, so the Gmail send credentials must not reach it -- only its
+    # own auth token should survive.
+    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "sk-ant-oat01-should-survive")
+    monkeypatch.setenv("GMAIL_CLIENT_SECRET", "gmail-client-secret")
+    monkeypatch.setenv("GMAIL_REFRESH_TOKEN", "gmail-refresh-token")
+    monkeypatch.setenv("EMAIL_TO", "simon@example.com")
+
+    with patch("podcast_fetcher.llm.subprocess.run", return_value=_FakeCompletedProcess()) as mock_run:
+        run_claude("instructions", "stdin text")
+
+    passed_env = mock_run.call_args.kwargs["env"]
+    assert "GMAIL_CLIENT_SECRET" not in passed_env
+    assert "GMAIL_REFRESH_TOKEN" not in passed_env
+    assert "EMAIL_TO" not in passed_env
+    assert passed_env["CLAUDE_CODE_OAUTH_TOKEN"] == "sk-ant-oat01-should-survive"
+
+
 # --- Issue #9: our-side vs episode-side failure ---
 
 

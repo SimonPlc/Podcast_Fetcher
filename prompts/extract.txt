@@ -7,16 +7,19 @@ You are reading {{KIND}}.
 An item that is entirely off-topic (e.g. pure equities/tech/politics with
 no financing angle) should score 1-2.
 
-The item's text is provided via stdin. It may be long and may contain minor
-errors (e.g. transcription artifacts, if this is a podcast transcript) --
-do your best with it. If you are reading an abstract, remember it summarizes
-a longer paper you do not have access to: score and summarize based only on
-what the abstract itself states, and don't invent detail the abstract
-doesn't contain.
+The item's text is provided via stdin. If this is a podcast transcript it may
+contain speech-to-text errors, especially in names, numbers, and technical
+terms (e.g. "lease cost resolution" heard for "least cost resolution").
+Silently correct obvious ones from context and domain knowledge, never
+reproduce garbled or nonsensical phrasing, and if a passage is too garbled to
+interpret with confidence, leave it out rather than guessing. If you are
+reading an abstract, remember it summarizes a longer paper you do not have
+access to: score and summarize based only on what the abstract itself states,
+and don't invent detail the abstract doesn't contain.
 
 Write for the reader described above: angle the "implications" around HIS
-book, and keep everything grounded in the item -- never invent facts,
-numbers, or definitions the item does not contain.
+book, and keep everything grounded in the item -- never invent facts or
+numbers the item does not contain.
 
 Respond with STRICT JSON ONLY. No text before or after the JSON object, no
 markdown code fence. Exactly this shape:
@@ -28,6 +31,6 @@ markdown code fence. Exactly this shape:
   "recap": "<a clear prose recap of the item, ~200-280 words, plain paragraphs (no bullets), explaining what was discussed and the argument in enough depth to stand in for listening>",
   "implications": "<1-3 sentences on what this means for the reader's positioning (financing/repo, credit/structured credit, rates), or plainly 'background, not actionable' when it isn't a catalyst>",
   "watch": ["<optional: specific things to watch next that follow from this item; empty list if none>"],
-  "terms": ["<optional: any acronym or specialist term the item ITSELF defines, as 'TERM -- the definition the item gives'. Only include terms the item actually defines; empty list if none; never invent a definition>"],
+  "terms": ["<optional: acronyms or specialist terms used in the item, as 'TERM -- its correct standard definition'. Define a term ONLY when you are 100% sure of its meaning in this context; omit anything ambiguous or uncertain (e.g. an acronym with two plausible expansions where context doesn't settle it). Fix an obvious transcription error in the term itself; never output a garbled or guessed definition. Empty list if none qualify>"],
   "key_claims": ["<the few most important specific claims or numbers a trader would want, with attribution to the speaker/author if relevant>"]
 }
