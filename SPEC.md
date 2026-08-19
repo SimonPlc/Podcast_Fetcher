@@ -75,8 +75,9 @@ I want to keep expanding my knowledge of these markets.
 An unattended pipeline that, for free, watches a curated set of finance podcast
 RSS feeds, transcribes new episodes, scores each for relevance to my desk, and
 emails me a digest each weekday morning (~07:00 Hong Kong time) with **one card
-per relevant episode** — show, score, tags, one-liner, summary bullets, key
-claims, and a link — sorted by relevance so the most important shows are
+per relevant episode** — show, score, tags, one-liner, a prose recap,
+persona-angled implications, optional watch/terms, key claims, and a link —
+sorted by relevance so the most important shows are
 immediately clear and each is individually accessible. A monthly sweep proposes
 new relevant shows for me to approve. The written per-item recap is the end
 product; a spoken "podcast of podcasts" was considered and is not planned.
@@ -165,8 +166,9 @@ product; a spoken "podcast of podcasts" was considered and is not planned.
 **Pipeline shape** — two decoupled modes plus a monthly mode:
 - **Collect** (several times per day): for each feed, take the newest N episodes
   within a recency window, skip already-processed, download audio, transcribe,
-  run a per-episode LLM extraction (relevance score, one-liner, tags, summary
-  bullets, key claims). Record every processed episode in the dedup record so it
+  run a per-episode LLM extraction (relevance score, one-liner, tags, a prose
+  recap, persona-angled implications, optional watch/terms, key claims). Record
+  every processed episode in the dedup record so it
   is never re-transcribed; queue only episodes scoring >= threshold.
 - **Digest** (once each weekday morning + a backup run): read the podcast queue;
   separately, fetch every article feed, filter/dedupe/score new articles
@@ -370,9 +372,14 @@ wants):
   transcript, the full text of an article, or a paper abstract, so it can
   calibrate accordingly -- an abstract is scored/summarized only on what it
   itself states, not assumed to have the full paper's detail behind it. The
-  strict-JSON output contract and shape (`score`/`one_liner`/`tags`/
-  `summary`/`key_claims`) are unchanged from before ticket #7 -- `render.py`
-  only gained a `kind` field on each record to choose "Listen" vs "Read".
+  strict-JSON output contract and shape (`score`/`one_liner`/`tags`/`recap`/
+  `implications`/`watch`/`terms`/`key_claims`) is shared by podcasts and
+  articles; `render.py` uses a `kind` field on each record to choose "Listen"
+  vs "Read". The recap-format change (2026-08-20) replaced the old bullet
+  `summary` list with a prose `recap` plus a persona-angled `implications`
+  line and optional `watch`/`terms` sections (each omitted from the card when
+  empty); `render.py` still falls back to an old-shape `summary` list for any
+  record queued before the change.
 - **`prompts/extract.txt` and `prompts/score_candidates.txt` (ticket #8)
   share one persona/priorities statement** via a `{{PERSONA}}` placeholder
   filled from `prompts/persona.txt` (loaded by `podcast_fetcher.persona`),
@@ -461,7 +468,8 @@ not by unit tests. Three seams are tested:
    clean failure. Pins the tolerant-extraction behavior.
 3. **Email rendering** — given a dict of queued episode records, assert the HTML
    and text contain each episode's title, link, feed name, score, tags,
-   one-liner, summary bullets, and key claims, sorted by score descending; and
+   one-liner, recap, implications, and key claims (with empty watch/terms/
+   implications blocks omitted), sorted by score descending; and
    that the empty/quiet-day case renders the quiet note rather than an empty
    shell.
 
@@ -472,8 +480,8 @@ score-descending sort across a mix of episode and article records; the
 dedup-hash-committed-only-after-a-successful-send ordering in `run_digest`
 (a failing `send` must leave `state/seen_articles.json` untouched, mirroring
 the existing pending-queue-untouched-on-failure test); and an explicit
-assertion that a persisted article record contains no `title`/`body`/
-`summary` key.
+assertion that a persisted article record contains no `title`/`body` or any
+LLM-generated content (`recap`/`summary`) key.
 
 Ticket #5 added the same kind of pure-logic, no-network tests for discovery:
 `normalize_url`/`normalize_name` on the documented equivalence cases
