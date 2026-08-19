@@ -78,8 +78,8 @@ emails me a digest each weekday morning (~07:00 Hong Kong time) with **one card
 per relevant episode** — show, score, tags, one-liner, summary bullets, key
 claims, and a link — sorted by relevance so the most important shows are
 immediately clear and each is individually accessible. A monthly sweep proposes
-new relevant shows for me to approve. A later phase turns the digest into a
-spoken "podcast of podcasts" I can subscribe to.
+new relevant shows for me to approve. The written per-item recap is the end
+product; a spoken "podcast of podcasts" was considered and is not planned.
 
 ## User Stories
 
@@ -520,8 +520,9 @@ functions are importable without triggering any I/O at import time.
 ## Out of Scope
 
 - **Phase 2 audio** ("podcast of podcasts"): TTS of the brief, audio assembly, MP3
-  hosting, and generating a subscribable RSS feed. Deferred until the email digest
-  is working well; captured as user stories 22-23 for later.
+  hosting, and generating a subscribable RSS feed. **Not planned** (decided
+  2026-08-20): the written per-item recap is the intended end product, not a
+  stepping stone to audio. User stories 22-23 are retired rather than deferred.
 - Auto-discovery that silently adds shows (discovery only *proposes*; humans
   approve).
 - Paywalled or Spotify-exclusive shows (no open audio feed).
