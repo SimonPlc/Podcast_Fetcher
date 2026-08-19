@@ -45,20 +45,39 @@ def _esc(value: Any) -> str:
     return html_lib.escape(str(value))
 
 
-def _render_recap_html(episode: dict[str, Any]) -> str:
-    """Recap block: new-shape records carry `recap` (a prose paragraph);
-    the two episodes already queued in state/pending_digest.json when the
-    recap format shipped instead carry the old bullet-point `summary`
-    list and no `recap` at all, so they still render as bullets rather
-    than going blank (backward compat -- see the recap-format ticket).
+def _recap_or_summary(episode: dict[str, Any]) -> tuple[str, list[str]]:
+    """The recap block's backward-compat decision, shared by both
+    renderers so it isn't spelled out twice: new-shape records carry a
+    prose `recap`; the episodes already queued in
+    state/pending_digest.json when the recap format shipped instead carry
+    the old bullet-point `summary` list and no `recap` at all. Returns
+    (recap_prose, summary_bullets) with at most one populated -- the
+    caller formats each as its output demands.
     """
     recap = episode.get("recap")
     if recap:
-        return f"<p>{_esc(recap)}</p>"
-    summary = episode.get("summary") or []
-    if summary:
-        return "<ul>" + "".join(f"<li>{_esc(bullet)}</li>" for bullet in summary) + "</ul>"
-    return ""
+        return str(recap), []
+    return "", list(episode.get("summary") or [])
+
+
+def _labeled_list_html(label: str, items: Sequence[str]) -> str:
+    """A `<strong>label</strong>` heading over the items as a `<ul>`, or
+    "" when there are no items -- the one shape shared by the Watch,
+    Terms, and Key claims blocks so each isn't hand-copied.
+    """
+    if not items:
+        return ""
+    heading = f'<p style="{_STYLE_META}"><strong>{_esc(label)}</strong></p>'
+    return heading + "<ul>" + "".join(f"<li>{_esc(item)}</li>" for item in items) + "</ul>"
+
+
+def _labeled_list_text(label: str, items: Sequence[str]) -> list[str]:
+    """Text counterpart of `_labeled_list_html`: a `Label:` line followed
+    by one `- item` line each, or no lines at all when empty.
+    """
+    if not items:
+        return []
+    return [f"{label}:", *(f"- {item}" for item in items)]
 
 
 def _render_html(episodes: list[dict[str, Any]]) -> str:
@@ -83,29 +102,21 @@ def _render_html(episodes: list[dict[str, Any]]) -> str:
         if one_liner:
             parts.append(f"<p><em>{_esc(one_liner)}</em></p>")
 
-        recap_html = _render_recap_html(episode)
-        if recap_html:
-            parts.append(recap_html)
+        recap, summary = _recap_or_summary(episode)
+        if recap:
+            parts.append(f"<p>{_esc(recap)}</p>")
+        elif summary:
+            parts.append("<ul>" + "".join(f"<li>{_esc(bullet)}</li>" for bullet in summary) + "</ul>")
 
         implications = episode.get("implications")
         if implications:
             parts.append(f'<p style="{_STYLE_META}"><strong>Why it matters</strong></p>')
             parts.append(f"<p>{_esc(implications)}</p>")
 
-        watch = episode.get("watch") or []
-        if watch:
-            parts.append(f'<p style="{_STYLE_META}"><strong>Watch</strong></p>')
-            parts.append("<ul>" + "".join(f"<li>{_esc(item)}</li>" for item in watch) + "</ul>")
-
-        terms = episode.get("terms") or []
-        if terms:
-            parts.append(f'<p style="{_STYLE_META}"><strong>Terms</strong></p>')
-            parts.append("<ul>" + "".join(f"<li>{_esc(term)}</li>" for term in terms) + "</ul>")
-
-        key_claims = episode.get("key_claims") or []
-        if key_claims:
-            parts.append(f'<p style="{_STYLE_META}"><strong>Key claims</strong></p>')
-            parts.append("<ul>" + "".join(f"<li>{_esc(claim)}</li>" for claim in key_claims) + "</ul>")
+        for label, key in (("Watch", "watch"), ("Terms", "terms"), ("Key claims", "key_claims")):
+            block = _labeled_list_html(label, episode.get(key) or [])
+            if block:
+                parts.append(block)
 
         parts.append("</div>")
     parts.append("</div>")
@@ -129,39 +140,19 @@ def _render_text(episodes: list[dict[str, Any]]) -> str:
         if tags:
             lines.append("Tags: " + ", ".join(tags))
 
-        # Recap block: new-shape records carry `recap` (prose); old-shape
-        # records (already-queued episodes from before the recap format
-        # shipped) carry `summary` bullets instead -- see
-        # _render_recap_html for the same backward-compat reasoning.
-        recap = episode.get("recap")
+        recap, summary = _recap_or_summary(episode)
         if recap:
             lines.append(recap)
         else:
-            for bullet in episode.get("summary") or []:
-                lines.append(f"- {bullet}")
+            lines.extend(f"- {bullet}" for bullet in summary)
 
         implications = episode.get("implications")
         if implications:
             lines.append("Why it matters:")
             lines.append(implications)
 
-        watch = episode.get("watch") or []
-        if watch:
-            lines.append("Watch:")
-            for item in watch:
-                lines.append(f"- {item}")
-
-        terms = episode.get("terms") or []
-        if terms:
-            lines.append("Terms:")
-            for term in terms:
-                lines.append(f"- {term}")
-
-        key_claims = episode.get("key_claims") or []
-        if key_claims:
-            lines.append("Key claims:")
-            for claim in key_claims:
-                lines.append(f"- {claim}")
+        for label, key in (("Watch", "watch"), ("Terms", "terms"), ("Key claims", "key_claims")):
+            lines.extend(_labeled_list_text(label, episode.get(key) or []))
 
         lines.append("")
 

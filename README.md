@@ -170,7 +170,10 @@ All via environment variables, all with working defaults:
 | `WHISPER_MODEL` | `small` | Larger handles rates/credit jargon better, and is slower |
 | `MAX_RECENT_DAYS` | `3` | Recency window for episodes and articles |
 | `EPISODES_PER_FEED` | `2` | Per-feed cap per collect run |
-| `MAX_EPISODES_PER_RUN` | `20` | Total cap per collect run |
+| `MAX_EPISODES_PER_RUN` | `8` | Hard total cap per collect run |
+| `COLLECT_TIME_BUDGET_MIN` | `50` | Wall-clock budget: stop starting new episodes past this |
+| `MIN_EPISODES_PER_RUN` | `2` | Floor attempted even if the budget is already exceeded |
+| `MAX_EPISODE_ATTEMPTS` | `3` | Retries before an our-side deferral becomes terminal |
 | `MIN_SCORE` | `3` | Relevance bar for the brief, and for proposing a show |
 | `MAX_TRANSCRIPT_CHARS` | `60000` | Transcript truncation before scoring |
 | `MAX_ARTICLES_PER_DIGEST` | `10` | Cap on articles per brief |

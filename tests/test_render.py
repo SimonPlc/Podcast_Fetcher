@@ -1,9 +1,11 @@
 from __future__ import annotations
 
+from typing import Any
+
 from podcast_fetcher.models import Candidate, ScoredCandidate
 from podcast_fetcher.render import render_digest, render_discovery
 
-ITEMS = {
+ITEMS: dict[str, dict[str, Any]] = {
     "guid-1": {
         "feed_name": "Odd Lots",
         "title": "Repo Market Update",
@@ -32,7 +34,7 @@ ITEMS = {
     },
 }
 
-MIXED_ITEMS = {
+MIXED_ITEMS: dict[str, dict[str, Any]] = {
     "guid-1": {
         "feed_name": "Odd Lots",
         "title": "Repo Market Update",
@@ -65,7 +67,7 @@ MIXED_ITEMS = {
 
 # A single fully-populated new-shape record, for tests that need every
 # recap-format block (Why it matters/Watch/Terms/Key claims) present at once.
-FULL_ITEM = {
+FULL_ITEM: dict[str, Any] = {
     "feed_name": "Odd Lots",
     "title": "Repo Market Update",
     "url": "https://example.com/ep1.mp3",
@@ -81,7 +83,7 @@ FULL_ITEM = {
 
 # A new-shape record with every optional block empty, to prove they're
 # omitted rather than rendered as empty headings.
-SPARSE_ITEM = {
+SPARSE_ITEM: dict[str, Any] = {
     "feed_name": "Odd Lots",
     "title": "Repo Market Update",
     "url": "https://example.com/ep1.mp3",
@@ -99,7 +101,7 @@ SPARSE_ITEM = {
 # state/pending_digest.json when the recap format shipped have `summary`
 # (a bullet list) and no `recap` at all, so tomorrow's digest must still
 # render them (backward compat).
-OLD_SHAPE_ITEM = {
+OLD_SHAPE_ITEM: dict[str, Any] = {
     "feed_name": "Odd Lots",
     "title": "Repo Market Update",
     "url": "https://example.com/ep1.mp3",

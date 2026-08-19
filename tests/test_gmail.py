@@ -25,7 +25,13 @@ def test_build_mime_message_round_trips_content() -> None:
     assert message["Subject"] == "Morning brief"
     assert message.is_multipart()
 
-    parts = {part.get_content_type(): part.get_payload(decode=True).decode("utf-8") for part in message.walk() if not part.is_multipart()}
+    parts: dict[str, str] = {}
+    for part in message.walk():
+        if part.is_multipart():
+            continue
+        payload = part.get_payload(decode=True)
+        assert isinstance(payload, bytes)
+        parts[part.get_content_type()] = payload.decode("utf-8")
     assert parts["text/plain"] == "plain body"
     assert parts["text/html"] == "<p>html body</p>"
 
@@ -42,4 +48,6 @@ def test_build_mime_message_prevents_header_injection_via_subject_newline() -> N
     # The newline must not have split into a second, real Bcc header --
     # it's fine for the literal word to survive as inert subject text.
     assert message.get_all("Bcc") is None
-    assert len(message.get_all("Subject")) == 1
+    subjects = message.get_all("Subject")
+    assert subjects is not None
+    assert len(subjects) == 1
