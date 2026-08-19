@@ -1,3 +1,81 @@
 {
-  "queued": {}
+  "queued": {
+    "d029f141-0fda-4758-8bc0-21464bacdad3": {
+      "feed_name": "Eurodollar University",
+      "key_claims": [
+        "Steve/Jeff: July retail sales declined outright, including the control group and with a pullback in auto sales.",
+        "Steve: personal savings rate has dropped to levels not seen since the 1940s.",
+        "Jeff: gasoline demand (per EIA data) declined during peak 2026 summer driving season, following similar y/y declines in 2025 and 2024.",
+        "Jeff: only the top ~10% of consumers by wealth have been sustaining spending via equity-market wealth effects; this cohort has reportedly begun pulling back too.",
+        "Hosts: average hourly earnings for production/non-supervisory workers have started declining, historically a leading indicator for falling retail sales and subsequent layoffs.",
+        "Hosts characterize Fed Chair Powell and (incoming/nominee) Kevin Warsh's 'resilient economy' framing as understating underlying labor-market and income deterioration."
+      ],
+      "kind": "podcast",
+      "one_liner": "A recession-watch discussion of weakening US consumer data (falling retail sales, gasoline demand, sentiment, labor market) that matters for rate-cut expectations even though it never touches repo/funding markets directly.",
+      "published": "2026-08-17T13:17:15+00:00",
+      "score": 3,
+      "status": "ok",
+      "summary": [
+        "Hosts (Jeff/Steve, Eurodollar University-style show) argue July retail sales' outright decline (including the control group and auto sales) is not a one-off but the payback phase of a recurring 'mini-cycle': artificial spring strength (tax refunds, front-running an energy price shock) followed by summer weakness.",
+        "They tie the spending slowdown to a deteriorating labor market: falling average hourly earnings for production/non-supervisory workers, weak payrolls, a 'disastrous' household survey, and people dropping out of the labor force entirely.",
+        "Savings rate has fallen to levels not seen since the 1940s as consumers exhaust tax refunds and try to keep spending despite falling real incomes; discussion argues this leaves no buffer left to sustain consumption.",
+        "They dismiss the mainstream 'Amazon Prime Day calendar distortion' excuse for weak retail sales, pointing instead to declining gasoline demand in peak driving season (also weak in 2024 and 2025) as corroborating evidence of demand destruction.",
+        "Consumer sentiment (University of Michigan) and spending both tracked the energy/oil price shock and geopolitical (Iran) headlines rather than showing durable improvement.",
+        "Only high-income consumers (top ~10%, via equity market wealth effect) have kept spending; the hosts argue this is the last prop under an otherwise weakening consumer economy, alongside AI-related capex as the other main growth pillar.",
+        "They predict the next leading indicator to watch is employers cutting hours before outright layoffs, as small/medium businesses (unlike AI hyperscalers) face margin squeeze from higher input/energy costs they can't pass on to consumers (cited: McDonald's cutting prices to defend traffic).",
+        "Overall framing: 'resilient because it hasn't broken' is a low bar; they see the economy as fragile and argue balance of probabilities favors this mini-cycle turning into a more traditional, recognizable business-cycle downturn/recession."
+      ],
+      "tags": [
+        "macro",
+        "labor-market",
+        "retail-sales",
+        "recession-risk",
+        "Fed",
+        "consumer-spending"
+      ],
+      "tier": "plumbing",
+      "title": "WTF Just Happened to Retail Sales?!",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/075b2e78/10173c70.mp3"
+    },
+    "e197109b-f5bc-473f-90df-6bf6d294167c": {
+      "feed_name": "Macro Musings",
+      "key_claims": [
+        "Nelson: JPMorgan Chase's reserve balances at the Fed fell from $400bn (end-2023) to $100bn (end-2025), partly because repo rates rose relative to IORB, making it financially sensible to shrink reserves.",
+        "Nelson: Fed staff told the FOMC pre-2019 that structural reserve demand was ~$1 trillion; it is now roughly $3 trillion, and he believes it could return toward $1tn (or somewhat higher given economic growth) with the right liquidity-regulation changes.",
+        "Nelson: the 2019 repo-market volatility and 2023 QT slowdown were both predictable 'potholes' from coupon-settlement reserve drains that the Fed failed to pre-empt with timely open market operations.",
+        "Nelson: as of a 2024 Fed FAQ, banks can now count standing repo operations, the discount window, and FHLB advances toward satisfying internal liquidity stress tests \u2014 a change he says would have helped SVB avoid a disorderly failure in March 2023.",
+        "Nelson: SVB approached the Fed about signing up for the standing repo facility about a year before failing, to help pass internal liquidity stress tests, but the Fed said it 'wasn't ready to go there yet.'",
+        "Nelson: Silvergate Bank survived a ~60% deposit run in late 2022 by borrowing at the discount window against collateral, then self-liquidated in an orderly way with no FDIC cost \u2014 held up as how the lender-of-last-resort function should work.",
+        "Riksbank introduced a 0% interest deposit facility on a portion of bank reserves specifically to rebuild its capital without government recapitalization, motivated by central bank independence concerns."
+      ],
+      "kind": "podcast",
+      "one_liner": "Bill Nelson (BPI, ex-Fed) argues for shrinking the Fed's balance sheet, reforming liquidity rules to recognize discount-window/standing-repo access, and possibly reviving a demand-driven/ceiling reserve system \u2014 direct relevance to money-market plumbing but framed as forward-looking policy debate rather than immediate trade catalyst.",
+      "published": "2026-08-17T09:00:00+00:00",
+      "score": 3,
+      "status": "ok",
+      "summary": [
+        "Bill Nelson (BPI Chief Economist, ex-Fed) discusses a global 'sea change' toward smaller central bank balance sheets and demand-driven/ceiling reserve systems, citing ECB, BoE, Riksbank, Norges Bank, Bank of Canada and RBA all shrinking balance sheets partly to revive interbank markets.",
+        "He argues current liquidity requirements (LCR) wrongly ignore banks' capacity to borrow from the discount window/standing repo facility as a legitimate form of self-insurance, contributing to stigma and oversized reserve demand.",
+        "Discusses the new Fed balance-sheet task force under Chair Kevin Warsh, spurred by papers from Lorie Logan/Sam Schulhofer-Wolf, Stephen Miran, and Darrell Duffie; unclear whether the mandate covers just balance-sheet size or full operating-system redesign.",
+        "Recounts the Fed's historical below-market discount rate era (mid-1960s to 2003) and Volcker-era non-borrowed reserve targeting as a precedent for a demand-driven system with built-in borrowing.",
+        "Critiques Norway's tiered/quota reserve system as too heavy-handed versus a 'voluntary reserve target' approach (drawing on a 2008 Fed memo), though notes the voluntary version risks not reducing structural reserve demand enough unless priced correctly.",
+        "Cites central bank independence concerns (Riksbank's zero-interest reserve requirement to avoid government recapitalization, Bank of England's finance-ministry recapitalization, Quarles's 'attractive nuisance' quote) as another driver of the shrink-the-balance-sheet push.",
+        "Uses SVB (March 2023) and Silvergate (self-liquidation, late 2022) as case studies: SVB was denied standing repo facility access pre-failure and had to sell AFS securities, triggering a disorderly run; Silvergate successfully used the discount window to fund an orderly wind-down. Fed later (2024 FAQ) expanded standing repo/discount window/FHLB recognition for liquidity stress tests."
+      ],
+      "tags": [
+        "repo",
+        "discount window",
+        "Fed balance sheet",
+        "reserves",
+        "IORB",
+        "standing repo facility",
+        "central bank independence",
+        "liquidity regulation",
+        "SVB"
+      ],
+      "tier": "plumbing",
+      "title": "Bill Nelson on Shrinking the Fed's Balance Sheet and Reviving Interbank Markets",
+      "url": "https://traffic.libsyn.com/secure/macromusings/MM-556-BillNelson-Podcast-auphonic.mp3?dest-id=865793"
+    }
+  }
 }
