@@ -95,10 +95,23 @@ class ScoredCandidate:
 class ExtractResult:
     """The per-episode Claude extraction: a relevance score plus the
     material rendered into that episode's digest card.
+
+    `recap` replaced the old bullet-point `summary` list (recap-format
+    change): a single ~200-280 word prose paragraph written to stand in
+    for actually listening/reading, rather than a bare list of points.
+    `implications` is the persona-angled "why it matters" sentence or two
+    -- explicitly allowed to say plainly that an item is background, not
+    actionable, rather than forcing a trade angle onto everything.
+    `watch` and `terms` are both optional (may be empty): things to watch
+    next, and any specialist term the item itself defines. See
+    prompts/extract.txt for the exact contract the model is held to.
     """
 
     score: int
     one_liner: str
     tags: list[str]
-    summary: list[str]
+    recap: str
+    implications: str
+    watch: list[str]
+    terms: list[str]
     key_claims: list[str]

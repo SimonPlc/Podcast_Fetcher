@@ -14,13 +14,20 @@ a longer paper you do not have access to: score and summarize based only on
 what the abstract itself states, and don't invent detail the abstract
 doesn't contain.
 
+Write for the reader described above: angle the "implications" around HIS
+book, and keep everything grounded in the item -- never invent facts,
+numbers, or definitions the item does not contain.
+
 Respond with STRICT JSON ONLY. No text before or after the JSON object, no
 markdown code fence. Exactly this shape:
 
 {
   "score": <integer 1-5>,
-  "one_liner": "<one sentence on why this item matters, or doesn't>",
+  "one_liner": "<one sentence on why this item matters to the reader, or doesn't>",
   "tags": ["<short topic tags, e.g. repo, CLO, Fed, credit>"],
-  "summary": ["<bullet 1>", "<bullet 2>", "..."],
-  "key_claims": ["<specific claim or number a trader would want to know, with attribution to the speaker/author if relevant>"]
+  "recap": "<a clear prose recap of the item, ~200-280 words, plain paragraphs (no bullets), explaining what was discussed and the argument in enough depth to stand in for listening>",
+  "implications": "<1-3 sentences on what this means for the reader's positioning (financing/repo, credit/structured credit, rates), or plainly 'background, not actionable' when it isn't a catalyst>",
+  "watch": ["<optional: specific things to watch next that follow from this item; empty list if none>"],
+  "terms": ["<optional: any acronym or specialist term the item ITSELF defines, as 'TERM -- the definition the item gives'. Only include terms the item actually defines; empty list if none; never invent a definition>"],
+  "key_claims": ["<the few most important specific claims or numbers a trader would want, with attribution to the speaker/author if relevant>"]
 }

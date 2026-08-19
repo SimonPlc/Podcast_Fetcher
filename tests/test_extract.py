@@ -10,7 +10,10 @@ CLEAN_JSON = """{
   "score": 4,
   "one_liner": "Fed balance sheet runoff discussion, directly relevant to repo.",
   "tags": ["repo", "Fed", "QT"],
-  "summary": ["Point one.", "Point two."],
+  "recap": "The hosts walk through the Fed's balance sheet runoff in detail.",
+  "implications": "Watch repo pricing into month-end.",
+  "watch": ["Next FOMC meeting"],
+  "terms": ["QT -- quantitative tightening, per the hosts"],
   "key_claims": ["Reserves are approaching $2.9tn per the guest."]
 }"""
 
@@ -26,11 +29,37 @@ FENCED_JSON = f"""```json
 
 MALFORMED = "I couldn't parse this episode, sorry."
 
-MISSING_FIELD_JSON = """{"score": 4, "one_liner": "x", "tags": [], "summary": []}"""
+MISSING_FIELD_JSON = """{"score": 4, "one_liner": "x", "tags": [], "watch": [], "terms": []}"""
 
-WRONG_TYPE_JSON = """{"score": "high", "one_liner": "x", "tags": [], "summary": [], "key_claims": []}"""
+WRONG_TYPE_JSON = (
+    '{"score": "high", "one_liner": "x", "recap": "x", "implications": "x", '
+    '"tags": [], "watch": [], "terms": [], "key_claims": []}'
+)
 
-SCORE_OUT_OF_RANGE_JSON = """{"score": 9, "one_liner": "x", "tags": [], "summary": [], "key_claims": []}"""
+SCORE_OUT_OF_RANGE_JSON = (
+    '{"score": 9, "one_liner": "x", "recap": "x", "implications": "x", '
+    '"tags": [], "watch": [], "terms": [], "key_claims": []}'
+)
+
+MISSING_RECAP_JSON = (
+    '{"score": 4, "one_liner": "x", "implications": "x", '
+    '"tags": [], "watch": [], "terms": [], "key_claims": []}'
+)
+
+MISSING_IMPLICATIONS_JSON = (
+    '{"score": 4, "one_liner": "x", "recap": "x", '
+    '"tags": [], "watch": [], "terms": [], "key_claims": []}'
+)
+
+NON_STRING_TERM_JSON = (
+    '{"score": 4, "one_liner": "x", "recap": "x", "implications": "x", '
+    '"tags": [], "watch": [], "terms": [1], "key_claims": []}'
+)
+
+EMPTY_WATCH_AND_TERMS_JSON = (
+    '{"score": 4, "one_liner": "x", "recap": "x", "implications": "x", '
+    '"tags": [], "watch": [], "terms": [], "key_claims": []}'
+)
 
 
 def test_parses_clean_json() -> None:
@@ -39,7 +68,10 @@ def test_parses_clean_json() -> None:
         score=4,
         one_liner="Fed balance sheet runoff discussion, directly relevant to repo.",
         tags=["repo", "Fed", "QT"],
-        summary=["Point one.", "Point two."],
+        recap="The hosts walk through the Fed's balance sheet runoff in detail.",
+        implications="Watch repo pricing into month-end.",
+        watch=["Next FOMC meeting"],
+        terms=["QT -- quantitative tightening, per the hosts"],
         key_claims=["Reserves are approaching $2.9tn per the guest."],
     )
 
@@ -72,6 +104,27 @@ def test_raises_on_wrong_field_type() -> None:
 def test_raises_on_score_out_of_range() -> None:
     with pytest.raises(LLMParseError):
         parse_extraction(SCORE_OUT_OF_RANGE_JSON)
+
+
+def test_raises_on_missing_recap() -> None:
+    with pytest.raises(LLMParseError):
+        parse_extraction(MISSING_RECAP_JSON)
+
+
+def test_raises_on_missing_implications() -> None:
+    with pytest.raises(LLMParseError):
+        parse_extraction(MISSING_IMPLICATIONS_JSON)
+
+
+def test_accepts_empty_watch_and_terms_lists() -> None:
+    result = parse_extraction(EMPTY_WATCH_AND_TERMS_JSON)
+    assert result.watch == []
+    assert result.terms == []
+
+
+def test_raises_on_non_string_term() -> None:
+    with pytest.raises(LLMParseError):
+        parse_extraction(NON_STRING_TERM_JSON)
 
 
 # --- render_extract_prompt: the shared prompt tells the model which kind of
