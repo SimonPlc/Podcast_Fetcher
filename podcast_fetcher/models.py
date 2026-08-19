@@ -79,15 +79,16 @@ class ScoredCandidate:
     """A Candidate paired with its Claude relevance score and one-line
     reason from the batched discovery-scoring pass (ticket #8).
 
-    `score`/`reason` are None only along the scoring-failure fallback
-    path, where run_discover emails the unscored candidate list rather
-    than sending nothing (SPEC.md) -- render.py uses that to label those
-    rows "unscored" instead of showing a fabricated score.
+    Both fields are always populated: a candidate the model did not
+    score (its chunk failed, or its id was absent from an otherwise
+    valid reply) is never wrapped in a ScoredCandidate at all. It is
+    returned separately as *deferred* and retried on the next sweep, so
+    there is no such thing as a scored-but-unscored row.
     """
 
     candidate: Candidate
-    score: int | None
-    reason: str | None
+    score: int
+    reason: str
 
 
 @dataclass(frozen=True)

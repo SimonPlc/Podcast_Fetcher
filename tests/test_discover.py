@@ -19,6 +19,7 @@ from podcast_fetcher.discover import (
     render_score_prompt,
     run_discover,
     score_candidates,
+    score_in_batches,
     select_new_candidates,
 )
 from podcast_fetcher.llm import LLMParseError
@@ -69,26 +70,47 @@ def itunes_result(name: str, feed_url: str) -> dict[str, Any]:
     return {"collectionName": name, "feedUrl": feed_url}
 
 
-def fake_score(scores_by_name: dict[str, tuple[int, str]] | None = None) -> Any:
-    """A stand-in for score_candidates: scores every candidate 5 ("clearly
-    relevant") by default, or per-name if scores_by_name overrides it, so
-    existing tests that don't care about scoring keep passing without
-    touching the network or the Claude CLI.
+def fake_score(
+    scores_by_name: dict[str, tuple[int, str]] | None = None,
+    defer_names: set[str] | None = None,
+) -> Any:
+    """A stand-in for score_in_batches: returns (scored, deferred).
+
+    Scores every candidate 5 ("clearly relevant") by default, or per-name
+    if scores_by_name overrides it, so existing tests that don't care
+    about scoring keep passing without touching the network or the Claude
+    CLI. Names in defer_names come back as deferred instead of scored.
     """
     overrides = scores_by_name or {}
+    deferrals = defer_names or set()
 
-    def _score(candidates: Sequence[Candidate], **kwargs: Any) -> list[ScoredCandidate]:
-        results = []
+    def _score(candidates: Sequence[Candidate], **kwargs: Any) -> tuple[list[ScoredCandidate], list[Candidate]]:
+        scored: list[ScoredCandidate] = []
+        deferred: list[Candidate] = []
         for candidate in candidates:
+            if candidate.name in deferrals:
+                deferred.append(candidate)
+                continue
             score, reason = overrides.get(candidate.name, (5, "test: assumed relevant"))
-            results.append(ScoredCandidate(candidate=candidate, score=score, reason=reason))
-        return results
+            scored.append(ScoredCandidate(candidate=candidate, score=score, reason=reason))
+        return scored, deferred
 
     return _score
 
 
-def failing_score(candidates: Sequence[Candidate], **kwargs: Any) -> list[ScoredCandidate]:
-    raise RuntimeError("claude CLI exited 1: scoring failed")
+def unreachable_score(candidates: Sequence[Candidate], **kwargs: Any) -> tuple[list[ScoredCandidate], list[Candidate]]:
+    """Asserts scoring is never reached: used where every result was
+    deduped away, so there is nothing to spend a Claude call on.
+    """
+    raise AssertionError("scoring should not be invoked when there are no new candidates")
+
+
+def all_deferred_score(candidates: Sequence[Candidate], **kwargs: Any) -> tuple[list[ScoredCandidate], list[Candidate]]:
+    """score_in_batches when every chunk failed: nothing scored, everything
+    deferred. It swallows chunk errors internally, so it returns rather
+    than raising.
+    """
+    return [], list(candidates)
 
 
 ALWAYS_RELEVANT = fake_score()
@@ -501,10 +523,20 @@ def test_parse_score_response_missing_scores_key_raises() -> None:
         parse_score_response("{}", expected_count=1)
 
 
-def test_parse_score_response_incomplete_coverage_raises() -> None:
+def test_parse_score_response_tolerates_incomplete_coverage() -> None:
+    # An incomplete reply is NOT an error: the ids that came back are used
+    # and the rest are deferred by the caller. Requiring full coverage meant
+    # one dropped entry discarded every good score in the same chunk.
     raw = json.dumps({"scores": [{"id": 0, "score": 3, "reason": "ok"}]})
+    assert parse_score_response(raw, expected_count=2) == {0: (3, "ok")}
+
+
+def test_parse_score_response_duplicate_id_raises() -> None:
+    raw = json.dumps(
+        {"scores": [{"id": 0, "score": 3, "reason": "ok"}, {"id": 0, "score": 5, "reason": "again"}]}
+    )
     with pytest.raises(LLMParseError):
-        parse_score_response(raw, expected_count=2)
+        parse_score_response(raw, expected_count=1)
 
 
 def test_parse_score_response_out_of_range_score_raises() -> None:
@@ -529,7 +561,7 @@ def test_score_candidates_empty_list_returns_empty_without_calling_run() -> None
     def unreachable_run(*args: Any, **kwargs: Any) -> str:
         raise AssertionError("run_claude should not be called for an empty candidate list")
 
-    assert score_candidates([], run=unreachable_run) == []
+    assert score_candidates([], run=unreachable_run) == ([], [])
 
 
 def test_score_candidates_builds_prompt_and_stdin_and_parses_response() -> None:
@@ -541,17 +573,28 @@ def test_score_candidates_builds_prompt_and_stdin_and_parses_response() -> None:
         captured["model"] = model
         return json.dumps({"scores": [{"id": 0, "score": 2, "reason": "crypto"}, {"id": 1, "score": 5, "reason": "repo"}]})
 
-    result = score_candidates(SCORE_CANDIDATES, claude_model="claude-x", run=fake_run)
+    scored, missing = score_candidates(SCORE_CANDIDATES, claude_model="claude-x", run=fake_run)
 
     assert captured["model"] == "claude-x"
     assert "Money-market plumbing" in captured["instructions"]
     payload = json.loads(captured["stdin_text"])
     assert [entry["name"] for entry in payload] == ["Odd Lots", "Bankless"]
 
-    assert result == [
+    assert scored == [
         ScoredCandidate(candidate=SCORE_CANDIDATES[0], score=2, reason="crypto"),
         ScoredCandidate(candidate=SCORE_CANDIDATES[1], score=5, reason="repo"),
     ]
+    assert missing == []
+
+
+def test_score_candidates_returns_omitted_ids_as_missing() -> None:
+    def partial_run(instructions: str, stdin_text: str, *, model: str | None = None) -> str:
+        return json.dumps({"scores": [{"id": 0, "score": 4, "reason": "kept"}]})
+
+    scored, missing = score_candidates(SCORE_CANDIDATES, run=partial_run)
+
+    assert [item.candidate.name for item in scored] == ["Odd Lots"]
+    assert [candidate.name for candidate in missing] == ["Bankless"]
 
 
 def test_score_candidates_propagates_malformed_response_as_llmparseerror() -> None:
@@ -574,9 +617,80 @@ def test_filter_by_threshold_keeps_at_or_above_and_drops_below() -> None:
     assert [item.candidate.name for item in result] == ["Bankless"]
 
 
-def test_filter_by_threshold_drops_none_scores() -> None:
-    scored = [ScoredCandidate(candidate=SCORE_CANDIDATES[0], score=None, reason=None)]
-    assert filter_by_threshold(scored, threshold=1) == []
+# --- score_in_batches: chunking (hardening for #8) ---
+
+
+def chunk_recording_run(reply_for: Any) -> tuple[Any, list[list[str]]]:
+    """A fake run_claude that records the names in each chunk it was
+    handed and replies with whatever reply_for(names) returns.
+    """
+    seen_chunks: list[list[str]] = []
+
+    def _run(instructions: str, stdin_text: str, *, model: str | None = None) -> str:
+        names = [entry["name"] for entry in json.loads(stdin_text)]
+        seen_chunks.append(names)
+        return reply_for(names)
+
+    return _run, seen_chunks
+
+
+def full_reply(names: list[str]) -> str:
+    return json.dumps({"scores": [{"id": i, "score": 4, "reason": "ok"} for i in range(len(names))]})
+
+
+def many_candidates(count: int) -> list[Candidate]:
+    return [Candidate(name=f"Show {i}", feed_url=f"https://example.com/{i}.rss", term="t") for i in range(count)]
+
+
+def test_score_in_batches_single_partial_chunk() -> None:
+    run, chunks = chunk_recording_run(full_reply)
+    scored, deferred = score_in_batches(many_candidates(3), batch_size=10, run=run)
+    assert chunks == [["Show 0", "Show 1", "Show 2"]]
+    assert len(scored) == 3
+    assert deferred == []
+
+
+def test_score_in_batches_exact_multiple_and_ragged_tail() -> None:
+    run, chunks = chunk_recording_run(full_reply)
+    score_in_batches(many_candidates(4), batch_size=2, run=run)
+    assert [len(c) for c in chunks] == [2, 2]
+
+    run, chunks = chunk_recording_run(full_reply)
+    scored, deferred = score_in_batches(many_candidates(5), batch_size=2, run=run)
+    assert [len(c) for c in chunks] == [2, 2, 1]
+    assert len(scored) == 5
+    assert deferred == []
+
+
+def test_score_in_batches_one_failing_chunk_does_not_poison_the_others() -> None:
+    # The whole point of chunking: a bad chunk defers only its own
+    # candidates, instead of discarding every good score in the sweep.
+    def reply(names: list[str]) -> str:
+        if "Show 2" in names:
+            raise RuntimeError("claude CLI exited 1")
+        return full_reply(names)
+
+    run, _ = chunk_recording_run(reply)
+    scored, deferred = score_in_batches(many_candidates(6), batch_size=2, run=run)
+
+    assert [item.candidate.name for item in scored] == ["Show 0", "Show 1", "Show 4", "Show 5"]
+    assert [candidate.name for candidate in deferred] == ["Show 2", "Show 3"]
+
+
+def test_score_in_batches_partial_reply_defers_only_the_missing_ids() -> None:
+    def reply(names: list[str]) -> str:
+        return json.dumps({"scores": [{"id": 0, "score": 4, "reason": "ok"}]})
+
+    run, _ = chunk_recording_run(reply)
+    scored, deferred = score_in_batches(many_candidates(3), batch_size=3, run=run)
+
+    assert [item.candidate.name for item in scored] == ["Show 0"]
+    assert [candidate.name for candidate in deferred] == ["Show 1", "Show 2"]
+
+
+def test_score_in_batches_rejects_nonsense_batch_size() -> None:
+    with pytest.raises(ValueError):
+        score_in_batches(many_candidates(2), batch_size=0)
 
 
 # --- run_discover: scoring integration (ticket #8) ---
@@ -645,13 +759,13 @@ def test_run_discover_mixed_scores_emails_and_records_only_those_above_threshold
     assert normalize_url("https://example.com/bankless.rss") not in seen
 
 
-def test_run_discover_scoring_failure_falls_back_to_unscored_list_and_marks_all_seen(
+def test_run_discover_total_scoring_failure_proposes_nothing_and_records_nothing(
     tmp_path: Path, monkeypatch: Any
 ) -> None:
-    # Scoring failure is non-fatal: log it and email the unscored
-    # candidate list rather than sending nothing. Unlike the
-    # below-threshold case, everything emailed here IS marked seen,
-    # since Simon did see the whole list.
+    # When nothing could be scored, say so rather than dumping the
+    # unvetted list. Emailing a couple of hundred unjudged shows and then
+    # suppressing them forever is strictly worse than reporting that
+    # scoring is broken, so nothing is proposed and nothing is marked seen.
     monkeypatch.chdir(tmp_path)
     calls: list[dict[str, Any]] = []
 
@@ -661,19 +775,53 @@ def test_run_discover_scoring_failure_falls_back_to_unscored_list_and_marks_all_
         config_with_email(),
         FAKE_ENV,
         search=fake_search({"repo market": [itunes_result("New Repo Show", "https://example.com/newrepo.rss")]}),
-        score=failing_score,
+        score=all_deferred_score,
         mint_token=fake_mint_token,
         send=recording_send(calls),
         now=NOW,
     )
 
     assert len(calls) == 1
+    assert "scoring was unavailable" in calls[0]["text"].lower()
+    assert "New Repo Show" not in calls[0]["html"]
+    assert "scoring unavailable" in calls[0]["subject"].lower()
+
+    assert read_discovery_seen(tmp_path).get("seen", {}) == {}
+
+
+def test_run_discover_reports_deferred_count_alongside_proposals(tmp_path: Path, monkeypatch: Any) -> None:
+    # A partial scoring failure still proposes what it could judge, tells
+    # Simon how many were skipped, and leaves the skipped ones unrecorded
+    # so the next sweep reconsiders them.
+    monkeypatch.chdir(tmp_path)
+    calls: list[dict[str, Any]] = []
+
+    run_discover(
+        [EXISTING_FEED],
+        ["repo market"],
+        config_with_email(),
+        FAKE_ENV,
+        search=fake_search(
+            {
+                "repo market": [
+                    itunes_result("New Repo Show", "https://example.com/newrepo.rss"),
+                    itunes_result("Skipped Show", "https://example.com/skipped.rss"),
+                ]
+            }
+        ),
+        score=fake_score(defer_names={"Skipped Show"}),
+        mint_token=fake_mint_token,
+        send=recording_send(calls),
+        now=NOW,
+    )
+
     assert "New Repo Show" in calls[0]["html"]
-    assert "unscored" in calls[0]["html"].lower()
-    assert "1 new show candidate" in calls[0]["subject"]
+    assert "Skipped Show" not in calls[0]["html"]
+    assert "could not be scored" in calls[0]["text"]
 
     seen = read_discovery_seen(tmp_path)["seen"]
     assert normalize_url("https://example.com/newrepo.rss") in seen
+    assert normalize_url("https://example.com/skipped.rss") not in seen
 
 
 def test_run_discover_scoring_never_invoked_when_no_new_candidates(tmp_path: Path, monkeypatch: Any) -> None:
@@ -686,7 +834,7 @@ def test_run_discover_scoring_never_invoked_when_no_new_candidates(tmp_path: Pat
         config_with_email(),
         FAKE_ENV,
         search=fake_search({"repo market": [itunes_result("Odd Lots", EXISTING_FEED.url)]}),
-        score=failing_score,
+        score=unreachable_score,
         mint_token=fake_mint_token,
         send=recording_send(calls),
         now=NOW,

@@ -202,23 +202,35 @@ def test_discovery_empty_html_and_text_are_non_empty() -> None:
     assert len(text.strip()) > 0
 
 
-def test_discovery_unscored_fallback_marks_candidates_and_omits_fake_scores() -> None:
-    unscored_candidates = [
-        ScoredCandidate(
-            candidate=Candidate(name="New Repo Show", feed_url="https://example.com/newrepo.rss", term="repo market"),
-            score=None,
-            reason=None,
-        )
-    ]
-    html, text = render_discovery(unscored_candidates, unscored=True)
-    assert "New Repo Show" in html
-    assert "unscored" in html.lower()
-    assert "unscored" in text.lower()
-    assert "4/5" not in html
-    assert "scoring failed" in html.lower() or "unscored" in html.lower()
+def test_discovery_no_candidates_but_deferrals_reports_scoring_unavailable() -> None:
+    # Nothing could be judged, so nothing is proposed. The email has to say
+    # that plainly rather than looking like an ordinary quiet month.
+    html, text = render_discovery([], deferred_count=225)
+    assert "scoring was unavailable" in html.lower()
+    assert "scoring was unavailable" in text.lower()
+    assert "reconsidered on the next run" in text.lower()
 
 
-def test_discovery_scored_path_does_not_show_unscored_note() -> None:
-    html, text = render_discovery(CANDIDATES, unscored=False)
-    assert "scoring failed" not in html.lower()
-    assert "scoring failed" not in text.lower()
+def test_discovery_deferred_count_is_reported_alongside_proposals() -> None:
+    html, text = render_discovery(CANDIDATES, deferred_count=3)
+    assert "3 further candidate shows could not be scored" in html
+    assert "3 further candidate shows could not be scored" in text
+
+
+def test_discovery_deferred_note_is_singular_for_one() -> None:
+    html, _ = render_discovery(CANDIDATES, deferred_count=1)
+    assert "1 further candidate show could not be scored" in html
+
+
+def test_discovery_no_deferrals_shows_no_deferral_note() -> None:
+    html, text = render_discovery(CANDIDATES)
+    assert "could not be scored" not in html
+    assert "could not be scored" not in text
+
+
+def test_discovery_never_lists_a_deferred_show() -> None:
+    # A deferred candidate is unvetted, which is precisely what this email
+    # exists to filter out, so only its count is ever reported.
+    html, text = render_discovery(CANDIDATES, deferred_count=2)
+    assert "Score:" in text
+    assert "unscored" not in text.lower()

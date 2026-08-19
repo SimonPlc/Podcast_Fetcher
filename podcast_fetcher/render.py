@@ -127,13 +127,22 @@ _DISCOVERY_INTRO = (
     "candidate below and add it to feeds.yaml yourself if it's worth including."
 )
 _DISCOVERY_QUIET_MESSAGE = "No new candidate shows found this month."
-_DISCOVERY_UNSCORED_NOTE = (
-    "Claude relevance scoring failed for this sweep, so these candidates are "
-    "UNSCORED and shown unfiltered -- review them more carefully than usual."
+_DISCOVERY_SCORING_UNAVAILABLE = (
+    "Claude relevance scoring was unavailable for this sweep, so no candidates "
+    "could be judged. Nothing has been proposed and nothing has been marked as "
+    "seen; every candidate will be reconsidered on the next run."
 )
 
 
-def render_discovery(candidates: Sequence[ScoredCandidate], *, unscored: bool = False) -> tuple[str, str]:
+def _deferred_note(deferred_count: int) -> str:
+    shows = "show" if deferred_count == 1 else "shows"
+    return (
+        f"{deferred_count} further candidate {shows} could not be scored this run "
+        f"and will be retried next time."
+    )
+
+
+def render_discovery(candidates: Sequence[ScoredCandidate], *, deferred_count: int = 0) -> tuple[str, str]:
     """Render the monthly discover-run email: one row per proposed show
     (name, feed URL, score, one-line reason, and the search term that
     surfaced it), or a no-new-candidates note if the sweep found nothing
@@ -142,58 +151,57 @@ def render_discovery(candidates: Sequence[ScoredCandidate], *, unscored: bool = 
     was added automatically: discover only ever proposes, a human
     approves by hand-editing feeds.yaml (SPEC.md).
 
-    `unscored=True` (issue #8's scoring-failure fallback) means every
-    `ScoredCandidate.score`/`.reason` is None -- Claude scoring failed
-    and the whole surviving candidate list is being emailed unfiltered
-    instead of sending nothing, and the email says so explicitly rather
-    than silently showing blank scores.
+    `deferred_count` is how many candidates could not be scored (their
+    chunk failed, or the model omitted them). They are never listed,
+    because an unvetted show is exactly what this email exists to filter
+    out, but their number is reported so a silently shrinking sweep is
+    visible. With no candidates at all and a non-zero deferred count,
+    the whole scoring pass failed and the email says so.
     """
     if not candidates:
+        if deferred_count:
+            return _render_unavailable_html(), _render_unavailable_text()
         return _render_discovery_quiet_html(), _render_discovery_quiet_text()
-    return _render_discovery_html(candidates, unscored=unscored), _render_discovery_text(candidates, unscored=unscored)
+    return (
+        _render_discovery_html(candidates, deferred_count),
+        _render_discovery_text(candidates, deferred_count),
+    )
 
 
-def _render_discovery_html(candidates: Sequence[ScoredCandidate], *, unscored: bool) -> str:
+def _render_discovery_html(candidates: Sequence[ScoredCandidate], deferred_count: int) -> str:
     parts = [
         f'<div style="{_STYLE_BODY}"><h1>New Show Candidates</h1>',
         f"<p><strong>{_esc(_DISCOVERY_INTRO)}</strong></p>",
     ]
-    if unscored:
-        parts.append(f'<p style="color: #b00020;"><strong>{_esc(_DISCOVERY_UNSCORED_NOTE)}</strong></p>')
     for item in candidates:
         candidate = item.candidate
         parts.append(f'<div style="{_STYLE_CARD}">')
         parts.append(f'<h2 style="margin-top: 0;">{_esc(candidate.name)}</h2>')
-        if item.score is not None:
-            parts.append(f'<p style="{_STYLE_META}">Score: {item.score}/5</p>')
-            if item.reason:
-                parts.append(f"<p><em>{_esc(item.reason)}</em></p>")
-        else:
-            parts.append(f'<p style="{_STYLE_META}">Score: unscored</p>')
+        parts.append(f'<p style="{_STYLE_META}">Score: {item.score}/5</p>')
+        if item.reason:
+            parts.append(f"<p><em>{_esc(item.reason)}</em></p>")
         parts.append(f'<p style="{_STYLE_META}">Feed: {_esc(candidate.feed_url)}</p>')
         parts.append(f'<p style="{_STYLE_META}">Found via search term: &quot;{_esc(candidate.term)}&quot;</p>')
         parts.append("</div>")
+    if deferred_count:
+        parts.append(f'<p style="{_STYLE_META}">{_esc(_deferred_note(deferred_count))}</p>')
     parts.append("</div>")
     return "\n".join(parts)
 
 
-def _render_discovery_text(candidates: Sequence[ScoredCandidate], *, unscored: bool) -> str:
+def _render_discovery_text(candidates: Sequence[ScoredCandidate], deferred_count: int) -> str:
     lines = ["NEW SHOW CANDIDATES", "", _DISCOVERY_INTRO, ""]
-    if unscored:
-        lines.append(_DISCOVERY_UNSCORED_NOTE)
-        lines.append("")
     for item in candidates:
         candidate = item.candidate
         lines.append(candidate.name)
-        if item.score is not None:
-            lines.append(f"Score: {item.score}/5")
-            if item.reason:
-                lines.append(item.reason)
-        else:
-            lines.append("Score: unscored")
+        lines.append(f"Score: {item.score}/5")
+        if item.reason:
+            lines.append(item.reason)
         lines.append(f"Feed: {candidate.feed_url}")
         lines.append(f'Found via search term: "{candidate.term}"')
         lines.append("")
+    if deferred_count:
+        lines.append(_deferred_note(deferred_count))
     return "\n".join(lines).rstrip() + "\n"
 
 
@@ -203,3 +211,14 @@ def _render_discovery_quiet_html() -> str:
 
 def _render_discovery_quiet_text() -> str:
     return _DISCOVERY_QUIET_MESSAGE + "\n" + _DISCOVERY_INTRO + "\n"
+
+
+def _render_unavailable_html() -> str:
+    return (
+        f'<div style="{_STYLE_BODY}">'
+        f'<p style="color: #b00020;"><strong>{_esc(_DISCOVERY_SCORING_UNAVAILABLE)}</strong></p></div>'
+    )
+
+
+def _render_unavailable_text() -> str:
+    return _DISCOVERY_SCORING_UNAVAILABLE + "\n"

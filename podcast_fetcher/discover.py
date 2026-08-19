@@ -31,7 +31,7 @@ MintTokenFn = Callable[[str, str, str], str]
 SendFn = Callable[..., None]
 SearchFn = Callable[[str, int], Any]
 RunClaudeFn = Callable[..., str]
-ScoreFn = Callable[..., list[ScoredCandidate]]
+ScoreFn = Callable[..., tuple[list[ScoredCandidate], list[Candidate]]]
 
 
 def search_itunes(term: str, limit: int, *, timeout: int = 30) -> Any:
@@ -191,12 +191,17 @@ def build_score_stdin(candidates: Sequence[Candidate]) -> str:
 def parse_score_response(raw: str, expected_count: int) -> dict[int, tuple[int, str]]:
     """Parse and validate a raw Claude response to the batched scoring
     prompt into {id: (score, reason)}. Tolerant about *how* the JSON is
-    wrapped (parse_json_object) but strict about shape, mirroring
-    extract.parse_extraction: a missing/malformed field, an id outside
-    the input range, or a response that doesn't cover every id raises
-    LLMParseError rather than silently producing a partial result --
-    callers treat the whole batch as failed and fall back to the
-    unscored candidate list (SPEC.md).
+    wrapped (parse_json_object) but strict about the shape of what it
+    does contain, mirroring extract.parse_extraction: a malformed entry,
+    an out-of-range id, a duplicated id, or a bad score/reason raises
+    LLMParseError.
+
+    An *incomplete* reply is deliberately NOT an error. Ids missing from
+    an otherwise valid response are simply absent from the returned dict,
+    and the caller defers those candidates to the next run. Requiring
+    full coverage instead would mean one dropped entry invalidated the
+    whole chunk, which at real batch sizes turned a partial success into
+    a total failure.
     """
     data = parse_json_object(raw)
 
@@ -222,12 +227,11 @@ def parse_score_response(raw: str, expected_count: int) -> dict[int, tuple[int, 
         if not isinstance(reason, str):
             raise LLMParseError(f"score entry missing/invalid 'reason': {entry!r}")
 
+        if candidate_id in results:
+            raise LLMParseError(f"score response repeats id {candidate_id}")
+
         results[candidate_id] = (score, reason)
 
-    if set(results.keys()) != set(range(expected_count)):
-        raise LLMParseError(
-            f"score response covers id(s) {sorted(results.keys())}, expected exactly 0..{expected_count - 1}"
-        )
     return results
 
 
@@ -237,22 +241,80 @@ def score_candidates(
     claude_model: str | None = None,
     prompt: str | None = None,
     run: RunClaudeFn = run_claude,
-) -> list[ScoredCandidate]:
-    """Score a whole batch of surviving candidates in one Claude call.
-    Raises on any failure (Claude CLI error, malformed/incomplete JSON);
-    run_discover treats scoring as non-fatal and falls back to emailing
-    the unscored candidate list rather than raising (SPEC.md).
+) -> tuple[list[ScoredCandidate], list[Candidate]]:
+    """Score ONE chunk of candidates in a single Claude call, returning
+    (scored, missing).
+
+    `missing` holds candidates the model left out of an otherwise valid
+    reply; they are deferred rather than guessed at. Raises only when the
+    call or the parse failed outright -- score_in_batches turns that into
+    a deferral for the whole chunk.
     """
     if not candidates:
-        return []
+        return [], []
     instructions = render_score_prompt(prompt=prompt)
     stdin_text = build_score_stdin(candidates)
     raw = run(instructions, stdin_text, model=claude_model)
     parsed = parse_score_response(raw, len(candidates))
-    return [
-        ScoredCandidate(candidate=candidate, score=parsed[index][0], reason=parsed[index][1])
-        for index, candidate in enumerate(candidates)
+
+    scored = [
+        ScoredCandidate(candidate=candidates[index], score=score, reason=reason)
+        for index, (score, reason) in sorted(parsed.items())
     ]
+    missing = [candidate for index, candidate in enumerate(candidates) if index not in parsed]
+    return scored, missing
+
+
+def score_in_batches(
+    candidates: Sequence[Candidate],
+    *,
+    batch_size: int,
+    claude_model: str | None = None,
+    prompt: str | None = None,
+    run: RunClaudeFn = run_claude,
+) -> tuple[list[ScoredCandidate], list[Candidate]]:
+    """Score every candidate in independent chunks, returning
+    (scored, deferred).
+
+    Chunking exists because a first sweep produces ~225 surviving
+    candidates. Scoring those in one call means ~33k chars of stdin and a
+    reply that has to carry a score and a sentence for all 225, which
+    invites truncation; and because a chunk is all-or-nothing, one bad
+    entry would otherwise discard every good score alongside it.
+
+    A chunk whose call or parse fails is logged and deferred whole. Other
+    chunks are unaffected. Deferred candidates are never emailed and never
+    marked seen, so they are simply reconsidered next month.
+    """
+    if batch_size < 1:
+        raise ValueError(f"batch_size must be >= 1, got {batch_size}")
+
+    scored: list[ScoredCandidate] = []
+    deferred: list[Candidate] = []
+
+    for start in range(0, len(candidates), batch_size):
+        chunk = list(candidates[start : start + batch_size])
+        try:
+            chunk_scored, chunk_missing = score_candidates(
+                chunk, claude_model=claude_model, prompt=prompt, run=run
+            )
+        except Exception:
+            logger.exception(
+                "discover: scoring failed for chunk of %d candidate(s); deferring them to the next run",
+                len(chunk),
+            )
+            deferred.extend(chunk)
+            continue
+
+        scored.extend(chunk_scored)
+        if chunk_missing:
+            logger.warning(
+                "discover: %d candidate(s) missing from an otherwise valid reply; deferring them",
+                len(chunk_missing),
+            )
+            deferred.extend(chunk_missing)
+
+    return scored, deferred
 
 
 def filter_by_threshold(scored: Sequence[ScoredCandidate], threshold: int) -> list[ScoredCandidate]:
@@ -260,7 +322,7 @@ def filter_by_threshold(scored: Sequence[ScoredCandidate], threshold: int) -> li
     threshold (SPEC.md/issue #8: defaults to MIN_SCORE). Pure function,
     no I/O -- directly testable without a fake Claude call.
     """
-    return [item for item in scored if item.score is not None and item.score >= threshold]
+    return [item for item in scored if item.score >= threshold]
 
 
 def run_discover(
@@ -270,7 +332,7 @@ def run_discover(
     env: Mapping[str, str],
     *,
     search: SearchFn = search_itunes,
-    score: ScoreFn = score_candidates,
+    score: ScoreFn = score_in_batches,
     mint_token: MintTokenFn = mint_access_token,
     send: SendFn = send_email,
     now: datetime | None = None,
@@ -285,20 +347,21 @@ def run_discover(
 
     A search term that fails (network error, bad response) is logged and
     skipped so one flaky term never aborts the sweep, mirroring
-    collect.py's per-feed handling. A scoring failure is likewise
-    non-fatal: it's logged and the run falls back to emailing the whole
-    surviving candidate list unscored, clearly marked as such, rather
-    than sending nothing (SPEC.md/issue #8).
+    collect.py's per-feed handling. Scoring failures are likewise
+    non-fatal but are handled per chunk (see score_in_batches): whatever
+    could be scored is used, and the rest is *deferred* to the next run.
+    If nothing could be scored at all, the email says exactly that
+    instead of dumping the unscored list -- emailing a couple of hundred
+    unvetted shows and then suppressing them forever is strictly worse
+    than reporting that scoring is broken.
 
     Candidates are recorded as proposed in state/discovery_seen.json only
     after the email sends successfully, matching digest.py's
     queue/hash-commit-after-send ordering: a failed send must not
     silently burn that month's candidates by marking them seen before
-    Simon ever saw them. Only candidates actually emailed are recorded --
-    a candidate filtered out by scoring is NOT marked seen, so a better
-    prompt later can still surface it. That differs from the
-    scoring-failure fallback path, where everything emailed (the whole
-    unscored list) is recorded, since Simon did see all of it.
+    Simon ever saw them. Only candidates actually emailed are recorded.
+    Anything scored below threshold, or deferred, stays unrecorded and so
+    remains eligible for a later sweep.
     """
     now = now or datetime.now(tz=timezone.utc)
 
@@ -318,33 +381,33 @@ def run_discover(
         "discover: %d new candidate(s) found across %d search term(s)", len(new_candidates), len(discovery_terms)
     )
 
-    to_email: list[ScoredCandidate]
-    unscored = False
+    to_email: list[ScoredCandidate] = []
+    deferred: list[Candidate] = []
     if new_candidates:
-        try:
-            scored = score(new_candidates, claude_model=config.claude_model)
-            to_email = filter_by_threshold(scored, config.min_score)
-            logger.info(
-                "discover: %d of %d candidate(s) cleared the score threshold (>= %d)",
-                len(to_email),
-                len(new_candidates),
-                config.min_score,
-            )
-        except Exception:
-            logger.exception("discover: scoring failed; falling back to unscored candidate list")
-            unscored = True
-            to_email = [ScoredCandidate(candidate=c, score=None, reason=None) for c in new_candidates]
-    else:
-        to_email = []
+        scored, deferred = score(
+            new_candidates,
+            batch_size=config.discovery_batch_size,
+            claude_model=config.claude_model,
+        )
+        to_email = filter_by_threshold(scored, config.min_score)
+        logger.info(
+            "discover: %d of %d candidate(s) cleared the score threshold (>= %d); %d deferred",
+            len(to_email),
+            len(new_candidates),
+            config.min_score,
+            len(deferred),
+        )
 
     month_label = now.strftime("%Y-%m")
     if to_email:
         count = len(to_email)
         subject = f"Podcast Fetcher: {count} new show candidate{'s' if count != 1 else ''} ({month_label})"
+    elif new_candidates and len(deferred) == len(new_candidates):
+        subject = f"Podcast Fetcher: discovery scoring unavailable ({month_label})"
     else:
         subject = f"Podcast Fetcher: discovery sweep, no new candidates ({month_label})"
 
-    html, text = render_discovery(to_email, unscored=unscored)
+    html, text = render_discovery(to_email, deferred_count=len(deferred))
 
     if not config.email_to or not config.email_from:
         raise RuntimeError("EMAIL_TO and EMAIL_FROM must be set to send the discovery email")
