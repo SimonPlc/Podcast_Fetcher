@@ -191,6 +191,15 @@
       "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/992d604b-06ca-40cb-88b2-af6c016f5aa0/6f2e3be6-c6c6-4f7f-83df-b4ab009236f7/audio.mp3?utm_source=Podcast&in_playlist=75a9f17c-2ff1-42c9-9a27-af6c016fae89",
       "watch": []
     },
+    "9909eeee-9c27-11f1-ab19-cf682a15597e": {
+      "feed_name": "Forward Guidance",
+      "kind": "podcast",
+      "published": "2026-08-20T10:00:00+00:00",
+      "status": "failed",
+      "tier": "macro",
+      "title": "Treasury-Led Financial Repression Is Ushering In A Debasement Regime | Weekly Roundup",
+      "url": "https://traffic.megaphone.fm/BWG2940175477.mp3"
+    },
     "bcc22dff-b144-40ae-8f68-b4ab00f28c30": {
       "feed_name": "Odd Lots",
       "implications": "Background, not actionable -- this is a philosophical AI-risk/utopia discussion with no connection to repo/funding markets, rates, or credit; skip unless tracking long-run AI-driven macro/productivity narratives.",
@@ -352,6 +361,48 @@
       "tier": "plumbing",
       "title": "Bill Nelson on Shrinking the Fed's Balance Sheet and Reviving Interbank Markets",
       "url": "https://traffic.libsyn.com/secure/macromusings/MM-556-BillNelson-Podcast-auphonic.mp3?dest-id=865793"
+    },
+    "f722623a-bd67-4af3-b5e4-db0ce09730cf": {
+      "feed_name": "Eurodollar University",
+      "implications": "No direct trade catalyst -- the buyback sizes ($2-4bn) are immaterial to funding or curve positioning -- but the off-the-run illiquidity and March 2020 dealer-capacity mechanics described are core repo/collateral-market plumbing worth having fresh in mind when assessing future Treasury market stress or repo dislocations.",
+      "key_claims": [
+        "Speaker: Treasury doubled its coupon buyback pace, from roughly $2bn to $4bn (plus TIPS), versus $100bn+ raised in a single weekly bill auction",
+        "Speaker: the buyback program was first floated by the Yellen Treasury in October 2022 and actually launched May 1, 2024 ($2bn notes/bonds, $500m TIPS)",
+        "Speaker: US government debt has crossed the $40 trillion threshold",
+        "Speaker: the 30-year Treasury yield hit its highest level since 2007",
+        "Speaker: the 30-year yield is only about half a point higher than when buyback discussions began roughly four years ago",
+        "Speaker: gold rose about 3.6% on the announcement day but was already in a sharp rally since early August, unrelated to buyback money-printing claims"
+      ],
+      "kind": "podcast",
+      "one_liner": "A myth-busting explainer on Treasury buybacks that's really a primer on off-the-run Treasury illiquidity and why the Treasury acts as marginal buyer -- directly relevant plumbing even though the program itself is too small to be a trading catalyst.",
+      "published": "2026-08-20T11:00:00+00:00",
+      "recap": "The host argues the market and media are overreacting to the Treasury's announcement that it will double the pace of its coupon buyback operations, framing it as \"QE lite\" or stealth yield curve control. He contends this is misinformation from both critics (who want to cry money-printing) and the Treasury itself (which wants to change the subject away from the 30-year yield hitting its highest level since 2007 and total federal debt crossing $40 trillion). Mechanically, a buyback works by issuing slightly more T-bills than needed and using the extra cash to repurchase old \"off-the-run\" notes and bonds -- securities that trade thinly because liquidity concentrates in newly-issued \"on-the-run\" issues. He ties this directly to March 2020, when reserve managers dumping off-the-run Treasuries (driven by dollar shortage, not policy) overwhelmed dealer capacity to repo or resell them, which is the technical problem buybacks are meant to backstop. He traces buyback history from 1920s-30s programs through Clinton-era 2000 buybacks (when the government had a bond shortage), to Yellen's October 2022 talk and May 2024 launch (initially $2bn notes/bonds plus $500m TIPS), to today's doubling to roughly $4bn. He stresses the dollar amounts are trivial next to weekly bill auctions of $100bn+, and that gold's 3.6% pop the same day reflects a pre-existing rally since early August, not evidence of money printing.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "Treasury",
+        "buybacks",
+        "off-the-run",
+        "repo",
+        "liquidity",
+        "dollar-shortage",
+        "yield-curve",
+        "gold"
+      ],
+      "terms": [
+        "off-the-run -- a previously issued Treasury security no longer the most recently auctioned of its maturity, typically less liquid than on-the-run issues",
+        "on-the-run -- the most recently auctioned Treasury security of a given maturity, generally the most liquid benchmark issue",
+        "TIPS -- Treasury Inflation-Protected Securities",
+        "YCC -- yield curve control, central bank/Treasury targeting of specific yields via purchases"
+      ],
+      "tier": "plumbing",
+      "title": "BREAKING: The Treasury Just Announced a Massive Bond Buyback Plan",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/10ab7691/ebcccfc6.mp3",
+      "watch": [
+        "Whether buyback pace continues to escalate and whether Treasury frames future increases as policy vs. technical liquidity management",
+        "Any signs of off-the-run Treasury liquidity stress resurfacing in repo/dealer balance sheets",
+        "30-year yield trajectory relative to the debt and issuance narrative"
+      ]
     },
     "marketmatters.podbean.com/d5547453-684d-39aa-b85f-60141fa6b9a6": {
       "feed_name": "Making Sense (J.P. Morgan)",
