@@ -1,5 +1,41 @@
 {
   "processed": {
+    "19392ba7-afba-41e9-9425-2ef1c9d5d6fc": {
+      "feed_name": "Macro Hive Conversations",
+      "implications": "Background, not actionable -- this is a sociology/political-economy discussion with no direct bearing on repo, funding, rates, or credit markets and does not warrant desk attention beyond general geopolitical color.",
+      "key_claims": [
+        "Milanovic: Chinese income inequality is higher than US inequality and sits just below Latin American levels, but has plateaued under Xi with a narrowing rural-urban gap.",
+        "Milanovic: in the US, roughly one-third of the top 10% of earners ('homo plutia') are simultaneously top capital-income and top labor-income earners, forming an effective elite of about 3% of the population; the equivalent share in Europe is 2-3%, versus about 1% in Latin American countries like Brazil, Peru, Argentina and Colombia.",
+        "Milanovic dates the end of neoliberal globalization to the 2007-2008 financial crisis (ideological shock) followed by the 2016 Trump election and Brexit (political shock), rather than Trump's 2024 return."
+      ],
+      "kind": "podcast",
+      "one_liner": "A wide-ranging interview on income inequality, China's rise, and the end of neoliberalism has no repo, rates, or credit content and offers nothing actionable for a financing desk.",
+      "published": "2026-08-21T11:54:00+00:00",
+      "recap": "This episode of Macrohive Conversations features Bilal Hafiz interviewing Branko Milanovic, a research professor at the Stone Center on Socio-Economic Inequality (CUNY) and former World Bank lead economist, about his book The Great Global Transformation. The conversation opens with Milanovic's academic path from statistics in socialist Yugoslavia into inequality research at the World Bank. The bulk of the discussion is thematic and historical: China's unexpectedly successful rise as a communist-party-led market economy that neither the Soviet Union's collapse nor Western neoliberal planners anticipated; the difference between China's growth model and Western colonial-era wealth accumulation; and Milanovic's framework of 'national market liberalism' -- domestic neoliberal policies (deregulation, tax cuts) combined with internationally mercantilist, zero-sum trade policy -- which he argues has replaced globalized neoliberalism in both the US and Europe since roughly the 2008 financial crisis and 2016 political shocks (Trump, Brexit). He discusses rising centralization under Xi Jinping, Erdogan's Turkey, and Modi's India as parallel trends; a new elite class he terms 'homo plutia' who earn top incomes from both labor and capital simultaneously; the 'folksy elite' who present themselves as ordinary despite outsized wealth; migration policy dilemmas; and why left-wing alternatives (Bernie Sanders, Occupy) failed to capitalize on 2008-era discontent. He closes with book recommendations and life advice for young people facing high inequality and elite overproduction (citing Peter Turchin).",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "macro",
+        "geopolitics",
+        "inequality",
+        "China"
+      ],
+      "terms": [],
+      "tier": "macro",
+      "title": "Ep. 372: Branko Milanovi\u0107 on China's Rise, the Shift to National Market Liberalism, and Inequality",
+      "url": "https://traffic.libsyn.com/secure/macrohive/MH_w_BRANKO_.mp3?dest-id=1929056",
+      "watch": []
+    },
+    "23f3d17b-bbd7-4917-88a4-e2225279f5a1": {
+      "attempts": 1,
+      "feed_name": "Eurodollar University",
+      "kind": "podcast",
+      "published": "2026-08-21T12:50:07+00:00",
+      "status": "deferred",
+      "tier": "plumbing",
+      "title": "Nvidia\u2019s Hidden Debt Risk Could Crash the ENTIRE AI Bubble",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/a19765c9/cce6c7d3.mp3"
+    },
     "3db9fb2c-9a6c-11f1-bae3-176a0945fba2": {
       "feed_name": "Monetary Matters",
       "kind": "podcast",
