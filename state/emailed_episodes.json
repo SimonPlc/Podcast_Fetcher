@@ -227,6 +227,47 @@
       "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/992d604b-06ca-40cb-88b2-af6c016f5aa0/6f2e3be6-c6c6-4f7f-83df-b4ab009236f7/audio.mp3?utm_source=Podcast&in_playlist=75a9f17c-2ff1-42c9-9a27-af6c016fae89",
       "watch": []
     },
+    "7b791eb6-d4eb-4178-9a6b-93997d501942": {
+      "feed_name": "Top Traders Unplugged",
+      "implications": "The Treasury buyback/off-the-run liquidity discussion and basis-trade/repo leverage dynamics are directly relevant background for a repo/financing desk monitoring dealer balance-sheet capacity, SLR constraints, and repo market stress transmission, but the bulk of the episode (CTA performance, trend-following taxonomy, commodity anecdotes) is not actionable for credit/rates positioning.",
+      "key_claims": [
+        "Co-host Mark: weekly Treasury auctions (including refunding) can total close to $800 billion",
+        "Co-host Mark: Treasury buyback program size increased from about $2 billion to about $4 billion a month",
+        "Co-host Mark: hedge funds hold over 9% of total marketable Treasury bonds and their largest trade category is the basis trade, per Fed studies",
+        "Niels: US 30-year Treasury yield hit 5.34%, the highest in a long time, just before the buyback announcement",
+        "Mark: first Treasury buyback program dates to 2000-2002 during a period of government budget surplus"
+      ],
+      "kind": "podcast",
+      "one_liner": "Mostly a trend-following/CTA industry chat and Treasury-market plumbing detour, with a brief but relevant discussion of the buyback program, off-the-run liquidity, primary dealer capital constraints, and the basis trade.",
+      "published": "2026-08-22T04:00:00+00:00",
+      "recap": "This is a weekly systematic-investor roundtable (Top Traders Unplugged) covering market 'rumblings': a hedge fund losing big in a concentrated bet, a Korean stock bubble unwind, yen intervention, a copper spread squeeze tied to low LME inventory buffer stocks, and CTA/trend-following performance updates (BTOP50, SocGen CTA Index, up mid-single-digits to high-single-digits year to date). The most relevant segment covers the US Treasury's buyback program, which the co-host explains is not new debt issuance but a swap: retiring illiquid off-the-run bonds (old coupons away from the current benchmark issue) and reissuing on-the-run debt, aimed at improving liquidity rather than steering long-end yields, despite the timing right after 30-year yields hit multi-year highs (5.34%) inviting yield-curve-control suspicions. The discussion ties this to a deeper 'Treasury plumbing' problem: primary dealers' balance-sheet capacity has shrunk relative to the exploding size of Treasury issuance (weekly auctions near $800bn), partly due to regulatory constraints like the supplementary leverage ratio, pushing market-making risk onto highly leveraged hedge funds running basis trades (cash vs. futures, cheapest-to-deliver arbitrage) financed via repo. The hosts flag this repo-financed leverage as a systemic risk transmission channel, referencing March 2020 as an example of Treasuries failing to act as a safe, liquid asset under stress. The episode closes with research on trend-following styles and a tribute to Victor Niederhoffer.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "Treasury buybacks",
+        "repo",
+        "basis trade",
+        "primary dealers",
+        "off-the-run liquidity",
+        "trend following",
+        "CTA"
+      ],
+      "terms": [
+        "SOFR/repo basis trade -- arbitrage between Treasury futures (cheapest-to-deliver) and cash bonds, typically financed with leveraged repo borrowing",
+        "on-the-run/off-the-run -- the most recently issued Treasury benchmark security (on-the-run) versus older, less liquid issues of similar maturity (off-the-run)",
+        "SLR -- Supplementary Leverage Ratio, a bank capital requirement limiting balance-sheet capacity for low-risk assets like Treasuries",
+        "cheapest-to-deliver -- the specific bond a futures short would deliver to minimize cost, used to price the futures-cash basis"
+      ],
+      "tier": "quant",
+      "title": "SI414: The Hidden Risks Beneath the Treasury Market ft. Mark Rzepczynski",
+      "url": "https://episodes.captivate.fm/episode/7b791eb6-d4eb-4178-9a6b-93997d501942.mp3",
+      "watch": [
+        "Size and cadence of Treasury buyback operations and any expansion",
+        "Off-the-run vs on-the-run Treasury spread behavior",
+        "Hedge fund Treasury basis trade positioning and repo leverage levels",
+        "Any SLR/dealer balance-sheet regulatory relief that could ease market-making capacity"
+      ]
+    },
     "9909eeee-9c27-11f1-ab19-cf682a15597e": {
       "feed_name": "Forward Guidance",
       "kind": "podcast",
@@ -439,6 +480,32 @@
         "Any signs of off-the-run Treasury liquidity stress resurfacing in repo/dealer balance sheets",
         "30-year yield trajectory relative to the debt and issuance narrative"
       ]
+    },
+    "marketmatters.podbean.com/cf49bf42-2be3-3179-b7f3-0a2bb4fc73b7": {
+      "feed_name": "Making Sense (J.P. Morgan)",
+      "implications": "Background, not actionable -- no content on funding markets, rates, or credit; the only tangential angle is a general read on capital markets appetite (oversubscribed defense IPOs) that has no direct bearing on repo/financing or credit books.",
+      "key_claims": [
+        "JP Morgan has committed $10 billion of its own balance sheet to invest in defense and aerospace/national security-related sectors (Marengo/Chalet).",
+        "U.S. government defense spending is roughly $1 trillion (Marengo).",
+        "Recent European defense company IPOs led by JP Morgan were massively oversubscribed (Marengo).",
+        "European defense budgets are seeing a 'massive spike' (Chalet)."
+      ],
+      "kind": "podcast",
+      "one_liner": "A JP Morgan promotional podcast on defense/aerospace investment banking and national-security capital deployment, with no repo, rates, or credit content.",
+      "published": "2026-08-21T17:49:40+00:00",
+      "recap": "This episode of JP Morgan's Making Sense, part of its Security and Resiliency in Action (SRI) series, features Mark Marengo (head of diversified industries investment banking) and Derek Chalet (head of the JP Morgan Chase Center for Geopolitics) discussing the bank's strategy in defense and aerospace. They frame aerospace and defense as one of five pillars of the SRI initiative, alongside energy, healthcare, manufacturing, and technology, and note JP Morgan has committed $10 billion of its own balance sheet to invest in this space. They point to roughly a trillion dollars in U.S. government defense spending, with investment flowing toward AI, cyber, drones, and subsea capabilities (submarines, unmanned systems, sensors), and describe record levels of venture capital backing next-generation defense-tech companies. The conversation highlights growing government-private sector collaboration, including unusual steps like government equity stakes in defense companies, and stresses that technological innovation and military readiness are linked, tying into JP Morgan's parallel work on frontier tech and critical minerals/rare earths. They also discuss expansion into Europe, citing sharply rising European defense budgets and successful, oversubscribed IPOs of European defense companies, and describe engagement with European governments and clients seeking help navigating defense-sector reforms and supply-chain resilience. The tone throughout is promotional, emphasizing JP Morgan's unique capabilities and its role as a connector between government, allies, and private capital in building long-term resilience and economic strength through defense investment.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "defense",
+        "off-topic",
+        "corporate"
+      ],
+      "terms": [],
+      "tier": "quant",
+      "title": "The new defense playbook: Partnerships, capital, capability",
+      "url": "https://mcdn.podbean.com/mf/web/udr32egknk9gpmsq/0826_SRI_Defense_and_Aerospace_Podcast_FINAL6mcaf.mp3",
+      "watch": []
     },
     "marketmatters.podbean.com/d5547453-684d-39aa-b85f-60141fa6b9a6": {
       "feed_name": "Making Sense (J.P. Morgan)",
