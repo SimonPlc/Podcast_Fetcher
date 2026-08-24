@@ -52,6 +52,18 @@ env:
   # env var this resolves to is never an empty string (see WHISPER_MODEL
   # comment below the "Run pipeline" step for why that matters).
   WHISPER_MODEL: ${{ vars.WHISPER_MODEL || 'medium' }}
+  # Pin the extraction model to Sonnet rather than leaving it to the CLI's
+  # account default. Two reasons: (1) quota -- the pipeline runs on the same
+  # personal subscription (and the same shared weekly limit) as interactive
+  # Claude Code use, so the background job must not eat the scarce Opus
+  # allowance; Sonnet is the metered-friendly choice. (2) correctness -- the
+  # recaps and key claims are only as good as the model reading the
+  # transcript, so extraction needs a known-capable model, not whatever the
+  # default happens to drift to. Sonnet, not Haiku, deliberately: this is the
+  # step that must not get the raw data wrong. Override via the CLAUDE_MODEL
+  # repo variable if ever needed. Set workflow-level (like WHISPER_MODEL) so
+  # it reaches the run process without being re-listed in the step env.
+  CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'sonnet' }}
 
 jobs:
   run:

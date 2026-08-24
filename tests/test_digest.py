@@ -11,6 +11,7 @@ import pytest
 from podcast_fetcher.articles import article_hash
 from podcast_fetcher.config import load_config
 from podcast_fetcher.digest import run_digest
+from podcast_fetcher.llm import ClaudeUnavailableError
 from podcast_fetcher.models import Article, ExtractResult, Feed
 
 TODAY = date(2026, 8, 18)
@@ -45,6 +46,21 @@ def recording_send(calls: list[dict[str, Any]]) -> Any:
 
 def failing_send(access_token: str, **kwargs: Any) -> None:
     raise RuntimeError("gmail API is down")
+
+
+def available_preflight(**kwargs: Any) -> None:
+    """A preflight that reports Claude as up -- injected into empty-digest
+    tests so they take the deterministic quiet-day path instead of shelling
+    out to a real (absent) claude CLI via the default preflight."""
+    return None
+
+
+def unavailable_preflight(**kwargs: Any) -> None:
+    raise ClaudeUnavailableError("claude CLI exited 1: usage limit reached")
+
+
+def unavailable_extract(article: Article, *, claude_model: str | None = None) -> ExtractResult:
+    raise ClaudeUnavailableError("claude CLI exited 1: usage limit reached")
 
 
 def config_with_email() -> Any:
@@ -149,7 +165,14 @@ def test_empty_queue_sends_quiet_day_note(tmp_path: Path, monkeypatch: Any) -> N
     write_queue(tmp_path, {})
     calls: list[dict[str, Any]] = []
 
-    run_digest(config_with_email(), FAKE_ENV, mint_token=fake_mint_token, send=recording_send(calls), today=TODAY)
+    run_digest(
+        config_with_email(),
+        FAKE_ENV,
+        mint_token=fake_mint_token,
+        send=recording_send(calls),
+        preflight=available_preflight,
+        today=TODAY,
+    )
 
     assert len(calls) == 1
     assert "quiet" in calls[0]["subject"].lower()
@@ -277,6 +300,7 @@ def test_article_below_min_score_is_excluded_but_marked_seen(tmp_path: Path, mon
         send=recording_send(calls),
         fetch=fake_fetch({ARTICLE_FEED.url: article_rss()}),
         extract=fake_extract_article(score=2),  # below default MIN_SCORE (3)
+        preflight=available_preflight,
         today=TODAY,
         now=NOW,
     )
@@ -302,6 +326,7 @@ def test_already_seen_article_is_not_rescored_or_reincluded(tmp_path: Path, monk
         send=recording_send(calls),
         fetch=fake_fetch({ARTICLE_FEED.url: article_rss()}),
         extract=fake_extract_article(score=5, calls=extract_calls),
+        preflight=available_preflight,
         today=TODAY,
         now=NOW,
     )
@@ -446,3 +471,87 @@ def test_podcast_only_feeds_are_untouched_by_article_pipeline(tmp_path: Path, mo
     assert len(calls) == 1
     assert "Repo Market Update" in calls[0]["html"]
     assert not (tmp_path / "state" / "seen_articles.json").exists()
+
+
+# --- Claude-unavailable vs quiet day: the digest must not mislabel an outage ---
+
+
+def test_empty_digest_with_claude_down_reports_unavailable_not_quiet(tmp_path: Path, monkeypatch: Any) -> None:
+    # Nothing queued and no articles to try, so the probe is the only signal:
+    # a failing preflight means the empty digest is an outage, not a quiet day.
+    monkeypatch.chdir(tmp_path)
+    write_queue(tmp_path, {})
+    calls: list[dict[str, Any]] = []
+
+    run_digest(
+        config_with_email(),
+        FAKE_ENV,
+        mint_token=fake_mint_token,
+        send=recording_send(calls),
+        preflight=unavailable_preflight,
+        today=TODAY,
+    )
+
+    assert len(calls) == 1
+    assert "unavailable" in calls[0]["subject"].lower()
+    assert "not a quiet day" in calls[0]["text"].lower()
+    assert read_pending(tmp_path) == {"queued": {}}
+
+
+def test_article_scoring_outage_reports_unavailable_without_probing(tmp_path: Path, monkeypatch: Any) -> None:
+    # When an article extraction already failed with ClaudeUnavailableError,
+    # the outage is known -- no extra preflight probe should be spent.
+    monkeypatch.chdir(tmp_path)
+    write_queue(tmp_path, {})
+    calls: list[dict[str, Any]] = []
+    probe_calls: list[dict[str, Any]] = []
+
+    def recording_preflight(**kwargs: Any) -> None:
+        probe_calls.append(kwargs)
+
+    run_digest(
+        config_with_email(),
+        FAKE_ENV,
+        [ARTICLE_FEED],
+        mint_token=fake_mint_token,
+        send=recording_send(calls),
+        fetch=fake_fetch({ARTICLE_FEED.url: article_rss()}),
+        extract=unavailable_extract,
+        preflight=recording_preflight,
+        today=TODAY,
+        now=NOW,
+    )
+
+    assert "unavailable" in calls[0]["subject"].lower()
+    assert probe_calls == []  # article signal already revealed the outage
+    key = article_hash(ARTICLE_FEED.name, ARTICLE_URL)
+    assert key not in read_seen_articles(tmp_path)["seen"]  # not marked seen -> retried next run
+
+
+def test_queued_podcast_delivered_with_banner_when_articles_cannot_be_scored(tmp_path: Path, monkeypatch: Any) -> None:
+    # A queued (already-scored) podcast is still delivered during an outage,
+    # but the email must flag that today's articles could not be scored.
+    monkeypatch.chdir(tmp_path)
+    write_queue(
+        tmp_path,
+        {"e1": {"feed_name": "Odd Lots", "title": "Repo Market Update", "url": "https://x/1.mp3", "score": 5}},
+    )
+    calls: list[dict[str, Any]] = []
+
+    run_digest(
+        config_with_email(),
+        FAKE_ENV,
+        [ARTICLE_FEED],
+        mint_token=fake_mint_token,
+        send=recording_send(calls),
+        fetch=fake_fetch({ARTICLE_FEED.url: article_rss()}),
+        extract=unavailable_extract,
+        today=TODAY,
+        now=NOW,
+    )
+
+    assert len(calls) == 1
+    assert "Repo Market Update" in calls[0]["html"]
+    assert "could not be scored" in calls[0]["html"].lower()
+    assert "could not be scored" in calls[0]["text"].lower()
+    assert read_pending(tmp_path) == {"queued": {}}  # queue cleared after successful send

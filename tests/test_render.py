@@ -219,6 +219,39 @@ def test_quiet_day_html_and_text_are_non_empty() -> None:
     assert len(text.strip()) > 0
 
 
+# --- Claude-unavailable vs quiet day: an empty digest must say which ---
+
+
+def test_empty_unavailable_reports_not_a_quiet_day() -> None:
+    html, text = render_digest({}, claude_unavailable=True)
+    assert "unavailable" in html.lower()
+    assert "not a quiet day" in text.lower()
+    # It must not be the ordinary quiet-day message, which would hide the outage.
+    assert "quiet day, but the pipeline ran" not in text.lower()
+
+
+def test_empty_without_unavailable_flag_is_still_quiet_day() -> None:
+    _, text = render_digest({})
+    assert "quiet" in text.lower()
+    assert "unavailable" not in text.lower()
+
+
+def test_items_present_with_unavailable_flag_shows_banner_and_keeps_cards() -> None:
+    html, text = render_digest(ITEMS, claude_unavailable=True)
+    # The already-scored cards are still delivered...
+    assert "Repo Market Update" in html
+    assert "Repo Market Update" in text
+    # ...with a banner explaining today's articles could not be scored.
+    assert "could not be scored" in html.lower()
+    assert "could not be scored" in text.lower()
+
+
+def test_items_present_without_unavailable_flag_has_no_banner() -> None:
+    html, text = render_digest(ITEMS)
+    assert "could not be scored" not in html.lower()
+    assert "could not be scored" not in text.lower()
+
+
 # --- unified podcast/article rendering (ticket #7) ---
 
 

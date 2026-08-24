@@ -190,8 +190,27 @@ def run_claude(prompt: str, stdin_text: str, *, model: str | None = None, timeou
         # aborts the whole run, same as any other ClaudeUnavailableError.
         raise ClaudeUnavailableError(f"claude CLI timed out after {timeout}s") from exc
     if result.returncode != 0:
-        raise ClaudeUnavailableError(f"claude CLI exited {result.returncode}: {result.stderr[:500]}")
+        raise ClaudeUnavailableError(f"claude CLI exited {result.returncode}: {_describe_failure(result)}")
     return result.stdout
+
+
+def _describe_failure(result: subprocess.CompletedProcess[str]) -> str:
+    """Summarise a failed CLI run for the exception message, drawing on
+    BOTH streams.
+
+    In `-p --output-format text` mode the CLI writes its human-readable
+    error (an expired token, or "usage limit reached" when a
+    subscription cap is exhausted) to stdout, not stderr -- so a
+    stderr-only message came back blank during the 2026-08 weekly-limit
+    outage and hid the cause entirely. Include whichever stream(s)
+    carried text, labelled, and say plainly when both were empty.
+    """
+    parts = []
+    if result.stderr and result.stderr.strip():
+        parts.append(f"stderr: {result.stderr.strip()[:500]}")
+    if result.stdout and result.stdout.strip():
+        parts.append(f"stdout: {result.stdout.strip()[:500]}")
+    return " | ".join(parts) or "(no output on stderr or stdout)"
 
 
 RunClaudeFn = Callable[..., str]

@@ -112,6 +112,22 @@ def test_run_claude_raises_claude_unavailable_on_nonzero_exit() -> None:
             run_claude("instructions", "stdin text")
 
 
+class _FakeFailedProcessStdoutOnly:
+    # The failure mode seen in the 2026-08 weekly-limit outage: exit 1 with the
+    # actual reason on stdout and nothing on stderr, so a stderr-only error
+    # message came back blank ("claude CLI exited 1: ") and hid the cause.
+    def __init__(self) -> None:
+        self.returncode = 1
+        self.stdout = "Claude usage limit reached. Your limit will reset at 8pm."
+        self.stderr = ""
+
+
+def test_run_claude_error_includes_stdout_when_stderr_is_blank() -> None:
+    with patch("podcast_fetcher.llm.subprocess.run", return_value=_FakeFailedProcessStdoutOnly()):
+        with pytest.raises(ClaudeUnavailableError, match="usage limit reached"):
+            run_claude("instructions", "stdin text")
+
+
 def test_run_claude_raises_claude_unavailable_when_executable_missing() -> None:
     with patch("podcast_fetcher.llm.subprocess.run", side_effect=FileNotFoundError("no such file")):
         with pytest.raises(ClaudeUnavailableError):

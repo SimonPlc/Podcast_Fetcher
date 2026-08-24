@@ -8,6 +8,24 @@ from podcast_fetcher.models import ScoredCandidate
 
 _QUIET_MESSAGE = "Nothing scored relevant enough for today's digest -- quiet day, but the pipeline ran."
 
+# Distinct from the quiet-day note above: an empty digest because Claude
+# could not be reached is NOT a quiet day, and saying "quiet day" in that
+# case (as it did before) hides a dead pipeline behind a reassuring
+# message. Mirrors render_discovery's _DISCOVERY_SCORING_UNAVAILABLE.
+_UNAVAILABLE_MESSAGE = (
+    "Claude was unavailable this run, so nothing could be scored -- this is NOT a "
+    "quiet day. The most likely cause is the weekly Claude usage limit being "
+    "exhausted. Queued episodes and today's articles are not lost; they will be "
+    "retried automatically on the next run once the limit resets."
+)
+# Shown above the cards when podcasts were delivered from the queue but
+# Claude was down for this run, so today's articles could not be scored.
+_UNAVAILABLE_BANNER = (
+    "Claude was unavailable this run, so today's articles could not be scored -- the "
+    "card(s) below were already scored by an earlier collect run. Anything unscored "
+    "will be retried on the next run."
+)
+
 _STYLE_BODY = 'font-family: -apple-system, Arial, sans-serif; max-width: 640px; margin: 0 auto; color: #1a1a1a;'
 _STYLE_CARD = 'border: 1px solid #ddd; border-radius: 8px; padding: 16px; margin-bottom: 16px;'
 _STYLE_META = 'color: #888; font-size: 12px;'
@@ -28,17 +46,28 @@ def _link_label(record: dict[str, Any]) -> str:
     return _LINK_LABELS.get(record.get("kind", "podcast"), _DEFAULT_LINK_LABEL)
 
 
-def render_digest(items: dict[str, dict[str, Any]]) -> tuple[str, str]:
+def render_digest(items: dict[str, dict[str, Any]], *, claude_unavailable: bool = False) -> tuple[str, str]:
     """Render one card per queued episode, highest relevance score
     first -- so the shows worth listening to are clear and each is
     individually accessible. An empty queue renders a quiet-day note
     (SPEC: "a quiet-day note when there is nothing relevant"), never an
     empty shell.
+
+    `claude_unavailable` distinguishes the two very different reasons a
+    digest can be empty: a genuine quiet day (nothing scored relevant)
+    versus Claude being unreachable so nothing *could* be scored. With no
+    items and this flag set, the email says so plainly rather than
+    mislabelling an outage as a quiet day. With items present and the
+    flag set, the delivered cards get a banner noting that today's
+    articles could not be scored.
     """
     if not items:
+        if claude_unavailable:
+            return _render_digest_unavailable_html(), _render_digest_unavailable_text()
         return _render_quiet_html(), _render_quiet_text()
     ordered = sorted(items.values(), key=lambda record: record.get("score", 0), reverse=True)
-    return _render_html(ordered), _render_text(ordered)
+    banner = _UNAVAILABLE_BANNER if claude_unavailable else None
+    return _render_html(ordered, banner), _render_text(ordered, banner)
 
 
 def _esc(value: Any) -> str:
@@ -80,8 +109,10 @@ def _labeled_list_text(label: str, items: Sequence[str]) -> list[str]:
     return [f"{label}:", *(f"- {item}" for item in items)]
 
 
-def _render_html(episodes: list[dict[str, Any]]) -> str:
+def _render_html(episodes: list[dict[str, Any]], banner: str | None = None) -> str:
     parts = [f'<div style="{_STYLE_BODY}"><h1>Morning Brief</h1>']
+    if banner:
+        parts.append(f'<p style="color: #b00020;"><strong>{_esc(banner)}</strong></p>')
     for episode in episodes:
         parts.append(f'<div style="{_STYLE_CARD}">')
         title = _esc(episode.get("title", "Untitled"))
@@ -123,8 +154,10 @@ def _render_html(episodes: list[dict[str, Any]]) -> str:
     return "\n".join(parts)
 
 
-def _render_text(episodes: list[dict[str, Any]]) -> str:
+def _render_text(episodes: list[dict[str, Any]], banner: str | None = None) -> str:
     lines = ["MORNING BRIEF", ""]
+    if banner:
+        lines += [banner, ""]
     for episode in episodes:
         title = episode.get("title", "Untitled")
         feed = episode.get("feed_name", "Unknown")
@@ -165,6 +198,17 @@ def _render_quiet_html() -> str:
 
 def _render_quiet_text() -> str:
     return _QUIET_MESSAGE + "\n"
+
+
+def _render_digest_unavailable_html() -> str:
+    return (
+        f'<div style="{_STYLE_BODY}">'
+        f'<p style="color: #b00020;"><strong>{_esc(_UNAVAILABLE_MESSAGE)}</strong></p></div>'
+    )
+
+
+def _render_digest_unavailable_text() -> str:
+    return _UNAVAILABLE_MESSAGE + "\n"
 
 
 # --- Monthly discovery-sweep email (ticket #5) ---

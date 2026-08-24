@@ -126,7 +126,13 @@ product; a spoken "podcast of podcasts" was considered and is not planned.
 17. As a trader, I want to add or remove a source by editing a simple list, so
     that I can tune coverage without touching code.
 18. As a trader, I want a quiet-day note when there is nothing relevant, so that I
-    know the system ran rather than silently failed.
+    know the system ran rather than silently failed. When the digest is empty
+    because Claude was *unavailable* (an outage or the weekly usage limit)
+    rather than because nothing scored, the email says so plainly ("Claude
+    unavailable", not "quiet day") -- an empty digest and a dead pipeline must
+    never look the same. Detection is the article-scoring calls hitting
+    `ClaudeUnavailableError`, or (when no article was tried) one cheap preflight
+    probe run only on an otherwise-empty digest.
 19. As a trader, I want to trigger a run manually on demand, so that I can
     smoke-test or catch up outside the schedule.
 20. As a trader, I want my email and API credentials kept secret even though the
@@ -431,8 +437,12 @@ terminal -- ticket #9), `MAX_TRANSCRIPT_CHARS`, `MAX_ARTICLES_PER_DIGEST` (10,
 cap on articles extracted per digest run -- ticket #7), `DISCOVERY_LIMIT` (25,
 cap on iTunes results requested per search term -- ticket #5),
 `DISCOVERY_BATCH_SIZE` (25, candidates scored per Claude call -- ticket #8),
-`CLAUDE_MODEL`, `EMAIL_TO`, `EMAIL_FROM`. Articles reuse `MIN_SCORE` and
-`MAX_RECENT_DAYS` unchanged rather than getting their own knobs.
+`CLAUDE_MODEL` (pinned to `sonnet` in the workflow -- the pipeline shares one
+personal subscription and weekly limit with interactive Claude Code use, so the
+background job must stay off the scarce Opus allowance, and extraction needs a
+known-capable model rather than the drifting CLI default; unset locally falls
+back to the CLI default), `EMAIL_TO`, `EMAIL_FROM`. Articles reuse `MIN_SCORE`
+and `MAX_RECENT_DAYS` unchanged rather than getting their own knobs.
 
 **Collect run bounding and failure handling (ticket #9).** A collect run is
 bounded in wall-clock time: it stops starting new episodes once
@@ -476,7 +486,9 @@ not by unit tests. Three seams are tested:
    one-liner, recap, implications, and key claims (with empty watch/terms/
    implications blocks omitted), sorted by score descending; and
    that the empty/quiet-day case renders the quiet note rather than an empty
-   shell.
+   shell, and that an empty digest caused by Claude being unavailable renders
+   the "unavailable, not a quiet day" note (and, when cards are still delivered
+   from the queue, a banner that today's articles could not be scored).
 
 Ticket #7 added the same kind of pure-logic, no-I/O tests for articles:
 article body extraction from a synthetic feed entry and the `min_body_chars`

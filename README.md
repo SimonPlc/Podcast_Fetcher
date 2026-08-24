@@ -179,7 +179,7 @@ All via environment variables, all with working defaults:
 | `MAX_ARTICLES_PER_DIGEST` | `10` | Cap on articles per brief |
 | `DISCOVERY_LIMIT` | `25` | iTunes results per search term |
 | `DISCOVERY_BATCH_SIZE` | `25` | Candidates scored per Claude call |
-| `CLAUDE_MODEL` | CLI default | Model override |
+| `CLAUDE_MODEL` | `sonnet` (in CI) | Extraction model. Pinned to Sonnet in the workflow so the background job stays off the shared weekly Opus allowance and extraction quality is predictable; unset locally falls back to the CLI default |
 
 ## Development
 
