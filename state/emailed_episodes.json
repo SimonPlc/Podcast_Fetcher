@@ -402,6 +402,48 @@
         "Crack spreads and diesel prices if Ukrainian strikes on Russian refining capacity intensify"
       ]
     },
+    "b8c9473a-9f6e-11f1-946b-2b3f9ea17d93": {
+      "feed_name": "Monetary Matters",
+      "implications": "Background, not actionable -- the episode is a buy-side careers and compensation discussion; the only points with any bearing on the reader's book are secondary color (private credit redemption/gate pressure, BDC NAV discounts, tighter private credit docs vs BSL, and a flagged 2027-29 leveraged software maturity wall) rather than fresh data or a trading catalyst.",
+      "key_claims": [
+        "Harry: some private credit funds are seeing redemption requests near/at gate levels (referenced as a 5% gate) with underlying demand described as consistently in the teens",
+        "Harry: private credit docs are tighter than in the broadly syndicated loan market, positioning private credit lenders better in a downturn/restructuring",
+        "Harry: software companies in CLOs were historically levered around 7x versus roughly 5-5.5x considered comfortable today",
+        "Harry: a large maturity/refinancing wall for leveraged software credits is expected in 2027-29",
+        "Harry: private credit associate cash comp at top NY shops has plateaued around $150K base/$150K+ bonus, with senior levels reaching $500-700K"
+      ],
+      "kind": "podcast",
+      "one_liner": "A buy-side careers and compensation interview (PE/private credit hiring, AI's effect on junior analyst roles) with only scattered, secondary color on private credit market structure that's not directly tradeable.",
+      "published": "2026-08-24T16:00:00+00:00",
+      "recap": "Max Sweety interviews \"High Yield Harry,\" founder of Buy Side Hub, about the state of the buy side. Harry argues 2025-26 is \"the year of the investment banker\" due to M&A and IPO activity (SpaceX, OpenAI, Anthropic), while private equity and private credit face headwinds: slower exits, tougher fundraising, and PE partners reportedly taking non-recourse loans against expected carry. He flags rising redemption requests at private credit funds (some near 5% gates, described as consistently hitting mid-teens levels annualized), attributing this partly to retail investors who didn't understand liquidity terms, partly to BDCs trading at discounts to NAV creating an arbitrage incentive to redeem and rebuy, and partly to FOMO chasing AI-driven equity returns. He argues private credit is actually better protected than private equity in a downturn because docs are tighter than in the broadly syndicated loan market and equity absorbs losses first. He expects software-related private credit and CLO exposure to face a reckoning around 2027-29 maturity walls, as historically-safe software credits (previously levered ~7x, now more like 5-5.5x) face AI-driven margin and competitive pressure. Data center financing is raised as attractive but check sizes are only feasible for the largest managers. The conversation closes on career strategy: AI is compressing junior-analyst headcount at large shops, private credit comp has plateaued, and Harry sees continued uncertainty tied to the higher-for-longer rate path (noting expectations of Fed cuts under a Kevin Warsh chair have been pushed out amid sticky inflation).",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "private credit",
+        "private equity",
+        "BDC",
+        "leveraged loans",
+        "careers",
+        "compensation",
+        "software credit",
+        "AI"
+      ],
+      "terms": [
+        "BDC -- Business Development Company, a publicly traded vehicle that invests in private credit/direct lending",
+        "NAV -- Net Asset Value",
+        "CLO -- Collateralized Loan Obligation",
+        "BSL -- Broadly Syndicated Loan market",
+        "EBITDA -- Earnings Before Interest, Taxes, Depreciation and Amortization"
+      ],
+      "tier": "plumbing",
+      "title": "Is Private Equity Broken? Why the Buyside\u2019s Problems Are Making 2026 \u201cThe Year of the Banker\u201d | High Yield Harry",
+      "url": "https://traffic.megaphone.fm/EWWMN3396018781.mp3",
+      "watch": [
+        "Redemption/gate activity at private credit funds and BDC discount-to-NAV levels as a flow indicator",
+        "Leveraged software credit performance into the 2027-29 maturity wall",
+        "Fed policy path and rate-cut timing given reported pushback in cut expectations"
+      ]
+    },
     "bcc22dff-b144-40ae-8f68-b4ab00f28c30": {
       "feed_name": "Odd Lots",
       "implications": "Background, not actionable -- this is a philosophical AI-risk/utopia discussion with no connection to repo/funding markets, rates, or credit; skip unless tracking long-run AI-driven macro/productivity narratives.",
@@ -642,6 +684,38 @@
         "Any signs of off-the-run Treasury liquidity stress resurfacing in repo/dealer balance sheets",
         "30-year yield trajectory relative to the debt and issuance narrative"
       ]
+    },
+    "marketmatters.podbean.com/427ea520-11aa-3a8a-bf2c-4da80c3bbd0c": {
+      "feed_name": "Making Sense (J.P. Morgan)",
+      "implications": "Background, not actionable -- this is about electricity/power derivatives market structure, not repo, funding, rates, or credit, and has no direct read-through to the reader's book.",
+      "key_claims": [
+        "ElectronX went live in ERCOT in February 2026 and in PJM in early April 2026, per Sam Teagle",
+        "ElectronX lists the next 120 hours of hourly futures on all its hub products, settling to the real-time average of four SPP price prints in ERCOT, per Teagle",
+        "The exchange has over 50 (nearing 60) institutional participants but still only about 1,000 contracts traded per day, per Teagle",
+        "Trading hours are 7am-8pm Chicago time on weekdays only, with 24/7 trading planned but not yet live, per Teagle"
+      ],
+      "kind": "podcast",
+      "one_liner": "A discussion of a new power/electricity derivatives exchange (ElectronX) has essentially no bearing on repo, rates, or credit markets.",
+      "published": "2026-08-25T06:00:00+00:00",
+      "recap": "JPMorgan's Brian Long interviews Sam Teagle, CEO of ElectronX, a newly CFTC-registered power derivatives exchange (designated contract market and derivatives clearing organization) launched in ERCOT (Texas) in February and PJM in April. Teagle argues US power markets are at an inflection point: renewables are raising short-term intraday volatility on the supply side, while data centers and AI-driven load growth are surging on the demand side, yet power derivatives infrastructure remains underdeveloped relative to other asset classes. ElectronX's innovation is listing granular, centrally cleared hourly futures contracts (the next 120 hours at all times) on power hubs, allowing participants to trade and settle exposure to specific hour-endings rather than broad daily/monthly blocks. Trades clear anonymously through the exchange (no bilateral ISDAs), settle against real-time price prints, and credit/debit accounts within seconds. The exchange trades 7am-8pm Chicago time on weekdays (not yet 24/7 or weekends, though that's on the roadmap), has direct market access with lowered barriers to entry, and has attracted over 50 institutional participants including retail energy providers, bitcoin miners, data centers, utilities, and quant trading firms, though daily volume remains modest (~1,000 contracts/day). Teagle frames this as building financial infrastructure to help the grid transition attract private capital by giving participants tools to hedge short-term price risk more precisely.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "power markets",
+        "commodities",
+        "market structure",
+        "off-topic"
+      ],
+      "terms": [
+        "DCM -- Designated Contract Market, a CFTC-regulated derivatives exchange",
+        "DCO -- Derivatives Clearing Organization, a CFTC-regulated central counterparty for clearing derivatives trades",
+        "ERCOT -- Electric Reliability Council of Texas, the grid operator/market for most of Texas",
+        "PJM -- Regional transmission organization coordinating electricity markets across parts of the Mid-Atlantic and Midwest US"
+      ],
+      "tier": "quant",
+      "title": "Power surge: The US electricity derivatives boom, with ElectronX",
+      "url": "https://mcdn.podbean.com/mf/web/3ugz59ircf6qmcge/JPM_MS_Power_Trading_FINAL6321v.mp3",
+      "watch": []
     },
     "marketmatters.podbean.com/cf49bf42-2be3-3179-b7f3-0a2bb4fc73b7": {
       "feed_name": "Making Sense (J.P. Morgan)",
