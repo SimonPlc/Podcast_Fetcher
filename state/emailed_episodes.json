@@ -259,6 +259,48 @@
       "title": "Does the market know anything about oil?",
       "url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6a84b771a835875d375e46f7/media.mp3"
     },
+    "6a8dd30b83ad88db015d0aa6": {
+      "feed_name": "Unhedged",
+      "implications": "For a rates/repo desk this is a direct read on long-end Treasury supply/demand dynamics, potential balance-sheet-adjacent intervention (TGA drawdown) that could affect bill issuance and funding markets, and a widening Treasury-Fed policy rift that could inject volatility into the front end and collateral markets if Warsh pushes back publicly.",
+      "key_claims": [
+        "30-year US Treasury yield is at roughly its highest level since 2001 (Armstrong)",
+        "US national debt crossed $40 trillion for the first time last week (Armstrong)",
+        "Treasury announced it would at least double the scale of long-bond buybacks, with room to increase further (discussed by both hosts)",
+        "CNBC's Steve Liesman reported Besant could tap the nearly $1 trillion Treasury General Account to fund further bond buybacks",
+        "Stan Druckenmiller, in a Wall Street Journal op-ed, argued the buybacks are 'price management' not liquidity management and that governments defending prices against fundamentals always lose",
+        "Besant said long-end Treasury yields are 'wrong' relative to fundamentals and claimed to have 'asymmetric information' the market lacks",
+        "Fed Chair Kevin Warsh has argued higher borrowing costs are a good thing that helps do part of the Fed's job, and has criticized Fed Treasury-market intervention for making deficit spending easier for politicians"
+      ],
+      "kind": "podcast",
+      "one_liner": "US Treasury Secretary Besant's opaque long-bond buybacks (and reported plans to tap the Treasury General Account) to suppress surging long-end yields are being publicly rebuked by Druckenmiller and quietly contradicted by Fed Chair Warsh, exposing a real fault line in how Treasury market stress and funding will be managed.",
+      "published": "2026-08-25T20:00:00+00:00",
+      "recap": "The hosts trace an escalating standoff in the US Treasury market. Weeks ago the US joined Japan in FX intervention to support the yen, which the hosts read as effectively defending Treasuries too, since Japan would otherwise sell Treasuries to raise dollars. Treasury Secretary Scott Besant then abruptly announced a large expansion of long-bond buybacks, framed as routine liquidity management but widely read as price support, since there was no sign of market dysfunction beyond investors demanding higher yields. Asked about intervening further, Trump floated using the military, a remark treated as absurd but symptomatic of how tense the situation has become. CNBC's Steve Liesman then reported Besant could tap the roughly $1 trillion Treasury General Account (the federal government's operating cash account) to fund further buybacks, distinct from Fed quantitative easing since it would use existing tax dollars rather than newly created money. Stan Druckenmiller, a mentor figure to Besant, publicly attacked the buybacks in a Wall Street Journal op-ed as price management rather than liquidity management, arguing governments that fight fundamentals always lose and that high long yields are the market's rational signal to cut the deficit. The hosts note the 30-year yield is near its highest since 2001, the US debt just crossed $40 trillion, and that Fed Chair Kevin Warsh has previously argued higher yields helpfully do part of the Fed's disciplining job \u2014 creating open dissonance between Treasury and the Fed on whether the market's signal should be resisted or heeded.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "Treasury",
+        "rates",
+        "Fed",
+        "deficit",
+        "buybacks",
+        "TGA",
+        "long-end yields",
+        "funding"
+      ],
+      "terms": [
+        "TGA -- Treasury General Account, the US federal government's operating cash account held at the Federal Reserve",
+        "QE -- Quantitative Easing, central bank purchases of bonds funded by newly created reserves"
+      ],
+      "tier": "credit",
+      "title": "Bombing the bond market",
+      "url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6a8dd30b83ad88db015d0aa6/media.mp3",
+      "watch": [
+        "Kevin Warsh's upcoming public remarks responding to Besant/Druckenmiller",
+        "Whether Treasury actually taps the TGA to fund bond buybacks, and any resulting bill supply/funding market effects",
+        "30-year and long-end Treasury yield trajectory relative to the 2001-era highs cited",
+        "Any formal fiscal consolidation signals from the Trump administration that would validate Besant's claim of 'asymmetric information'"
+      ]
+    },
     "6e1ad772-adab-4113-a7d9-a22d1fb5f171": {
       "feed_name": "Eurodollar University",
       "implications": "For a rates/repo book, the piece argues against reading the long-end back-up as the start of a durable bear-steepening or term-premium blowout \u2014 instead it frames the move as front-end-led richening (2yr rallying on rate-cut expectations) consistent with bull-steepening, which should inform curve RV positioning (10s30s, 2s30s) and skepticism toward auction-tail headlines as standalone signals.",
