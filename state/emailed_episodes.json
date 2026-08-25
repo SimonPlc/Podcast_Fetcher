@@ -338,6 +338,15 @@
         "Any SLR/dealer balance-sheet regulatory relief that could ease market-making capacity"
       ]
     },
+    "7c971872-9fc4-11f1-b0dc-336d51e1327e": {
+      "feed_name": "Goldman Sachs Exchanges",
+      "kind": "podcast",
+      "published": "2026-08-24T15:00:00+00:00",
+      "status": "failed",
+      "tier": "broad",
+      "title": "Building AI Systems for Capital Markets",
+      "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD1461785237.mp3"
+    },
     "9909eeee-9c27-11f1-ab19-cf682a15597e": {
       "feed_name": "Forward Guidance",
       "kind": "podcast",
@@ -346,6 +355,52 @@
       "tier": "macro",
       "title": "Treasury-Led Financial Repression Is Ushering In A Debasement Regime | Weekly Roundup",
       "url": "https://traffic.megaphone.fm/BWG2940175477.mp3"
+    },
+    "b1b87220-4b3b-4d8f-b66b-4af5f5352721": {
+      "feed_name": "Macro Musings",
+      "implications": "Background, not immediately actionable, but the Treasury issuance/duration and stablecoin-bill-demand discussion, plus the rising term premium and interest-cost trajectory, are directly relevant to front-end rates and Treasury collateral supply; the oil/refining and inflation section is a useful read on a lingering inflation/rate-path risk.",
+      "key_claims": [
+        "Harris: average trade-weighted US tariff rate rose from ~2.5% to a peak near 28% on Liberation Day, then fell to ~12-15% after market reaction and the Supreme Court's IEPA ruling",
+        "Harris: of roughly $250bn in tariff revenue collected in 2025, about $170bn is expected to be refunded",
+        "Harris: OBBB added about $5tn in new debt and worsened the medium-term primary deficit from ~1% to ~2% of GDP",
+        "Harris: US runs ~6% of GDP deficits with a ~2% primary deficit; a primary deficit near zero (or 1% surplus) is needed to grow out of the debt problem; interest payments are now ~4% of GDP and exceed defense spending",
+        "Harris/Robin Brooks paper: worst-case Brent price from the Hormuz disruption estimated at $125-150/bbl, not a global-recession-triggering level",
+        "Harris: global refining capacity down ~10%, largely from Ukrainian drone strikes on Russian refineries and Gulf refinery damage, driving diesel/jet fuel price spikes",
+        "Harris: the Hormuz conflict has added roughly 0.6 percentage points to headline inflation and 0.2 points to core in 2026",
+        "Harris: by the end of the Biden administration 216 Russian oil tankers had been sanctioned under the price-cap regime; the Trump administration has sanctioned zero and kept the cap at $60",
+        "Harris paper (with Neil Marotta and William Overcash): in an extreme AI-productivity scenario, interest rates could rise ~35% across the yield curve, and the 65+ population could grow from ~74mn to ~76mn over 10 years, adding entitlement costs; overall AI-driven deficit optimism should be 'cut in half'"
+      ],
+      "kind": "podcast",
+      "one_liner": "A wide-ranging macro discussion on why 2025's tariff/immigration/fiscal/Fed-independence shocks didn't tank growth, plus a deep dive on the fiscal outlook, Treasury issuance/duration strategy, and how AI could (or couldn't) fix US debt sustainability.",
+      "published": "2026-08-24T09:00:00+00:00",
+      "recap": "David Beckworth interviews Brookings' Ben Harris on why Trump-era shocks (tariffs spiking to ~28% then settling near 12-15%, near-zero net immigration, a $5tn debt-financed 'One Big Beautiful Bill,' and attacks on Fed independence) didn't trigger the recession most economists expected. Harris argues the shocks were smaller than headline numbers suggested (only ~$250bn tariff revenue collected, much refunded), were offset by data-center investment and OBBB-driven household refunds, and that some effects (construction wages, term premium) are still emerging with a lag. On oil, he details how Strait of Hormuz disruption is less about crude supply (workarounds via pipelines) than a ~10% hit to global refining capacity (Russian refineries hit by Ukrainian drones, Gulf refining also damaged), pushing crack spreads and diesel prices up and adding roughly 0.6pp to headline and 0.2pp to core inflation. He contrasts his Treasury-era Russian oil price-cap sanctions (price control, not quantity) with Ukraine's current effort to zero out Russian exports, noting the Trump administration has sanctioned zero tankers versus Biden's 216. The second half covers the fiscal outlook: 6% deficits, 2% primary deficits, interest payments now exceeding defense spending, Treasury's tilt toward T-bills complicated by uncertain stablecoin demand (~$2tn estimated), and a rising term premium reflecting policy volatility. Harris's own paper argues AI could improve growth but that five factors (longer lifespans raising entitlement costs, higher real rates from AI investment, labor displacement, capital's lower tax rate, and a likely AI arms race) mean any deficit-reduction optimism from AI should be halved.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "fiscal policy",
+        "Treasury issuance",
+        "tariffs",
+        "Fed independence",
+        "term premium",
+        "oil markets",
+        "inflation",
+        "AI economics",
+        "entitlements"
+      ],
+      "terms": [
+        "OBBB -- One Big Beautiful Bill, the Trump administration's signature 2025 fiscal/tax legislation",
+        "primary deficit -- the budget deficit excluding interest payments on debt",
+        "crack spread -- the difference between the price of crude oil and the price of refined products like diesel or jet fuel",
+        "IEPA -- International Emergency Economic Powers Act, the legal authority Trump used for tariffs that was challenged at the Supreme Court"
+      ],
+      "tier": "plumbing",
+      "title": "Ben Harris on AI, Fiscal Sustainability, and the Resilience of the U.S. Economy",
+      "url": "https://traffic.libsyn.com/secure/macromusings/MM-557-BenHarris-Podcast_mixdown.mp3?dest-id=865793",
+      "watch": [
+        "Whether Treasury shifts bill/coupon issuance mix as stablecoin demand for bills becomes clearer",
+        "Further US Treasury term-premium moves tied to Fed-independence concerns",
+        "Crack spreads and diesel prices if Ukrainian strikes on Russian refining capacity intensify"
+      ]
     },
     "bcc22dff-b144-40ae-8f68-b4ab00f28c30": {
       "feed_name": "Odd Lots",
