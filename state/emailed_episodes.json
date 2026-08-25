@@ -106,6 +106,76 @@
       "title": "What the OpenAI-Hugging Face Hack Really Tells Us About AI Danger",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/4fd75bad-403f-47c1-b23c-b4a60141b176/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83"
     },
+    "568c6e3c-2159-45c2-8e4d-b4ad011d7c22": {
+      "feed_name": "Odd Lots",
+      "implications": "Background, not actionable -- no repo/funding, rates, or credit angle; purely a development-economics discussion of African manufacturing and demographics.",
+      "key_claims": [
+        "Studwell: Dangote spent $20 billion building an oil refinery east of Lagos, alongside a large urea/fertilizer plant now supplying most of Nigeria's fertilizer.",
+        "Studwell: Dangote secured $400 million with $1 billion in backing ahead of a planned IPO expected to be the biggest stock listing in African history.",
+        "Studwell: Nigerian agriculture has grown near 6% annually since 2000, faster than China; Lagos alone (14 million people) accounts for a fifth of Nigeria's GDP.",
+        "Studwell: Ethiopia has grown at least 5% annually for 25 years, still around 10% currently, despite a civil war.",
+        "Studwell: Chinese manufacturing FDI into Africa was $12.5 billion last year (FT data), driven partly by better margins -- e.g., steel sells for ~$500-600/ton in China versus ~$1,000/ton in Africa."
+      ],
+      "kind": "podcast",
+      "one_liner": "An Odd Lots interview on African industrial development (Dangote's Nigerian refinery IPO, population density and manufacturing) with no money-market, rates, or credit content.",
+      "published": "2026-08-24T08:00:00+00:00",
+      "recap": "Odd Lots hosts Joe Weisenthal and Tracy Alloway interview Joe Studwell, author of \"How Africa Works\" (a follow-up to his earlier \"How Asia Works\"), about African economic development. The conversation centers on Aliko Dangote, Nigeria's richest man, whose conglomerate built a $20 billion oil refinery and a large fertilizer/urea plant near Lagos after earlier building a dominant cement business across a dozen African countries; Dangote is preparing what would be the largest stock listing in African history. Studwell argues Africa's growth story is now demand-driven rather than resource-driven, powered by a huge rise in population (from 220 million after WWII to 1.5 billion today) and rising urban population density, which creates markets, tax bases, and division of labor that previously didn't exist. He contrasts Nigeria's chaotic but productive growth (agriculture growing near 6% annually) with Ethiopia's more state-directed 5-10% growth streak, and argues manufacturing remains the best path to development because it absorbs low-education rural labor, unlike value-added services which require costly education (India's IT sector employs only ~6 million versus China's broader manufacturing-driven growth). He discusses Chinese manufacturing investment relocating to Africa for better margins (e.g., steel), the absence of historical land reform in Africa due to land abundance, and Rwanda's Singapore-style ambitions built on no capital controls rather than a developmental-state model. No mention of repo, funding markets, central bank policy, or credit.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "Africa",
+        "industrial policy",
+        "off-topic"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "The Nigerian Industrial Behemoth That Could Reshape the African Economy",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/568c6e3c-2159-45c2-8e4d-b4ad011d7c22/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+      "watch": []
+    },
+    "601648ee-398a-402f-a6a9-a0e31e74fc56": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "Directly bears on the reader's repo/funding book: a shrinking Fed balance sheet plus a Treasury general-account drawdown recycled through reverse repo would add T-bill supply pressure and could compress front-end yields, while bill-heavy Treasury issuance keeps collateral plentiful -- both worth tracking against SOFR/repo spreads and bill auction demand.",
+      "key_claims": [
+        "Whelan: a shrinking Fed balance sheet reduces reserves, forcing banks to buy more T-bills, which pushes bill yields down",
+        "Whelan: Treasury may raise roughly $800 billion for the TGA and could offer that cash back to the market via repurchase agreements to manage short-term liquidity",
+        "Whelan: the Fed's remaining MBS holdings (2-3% coupons from the COVID era) now have an average life of roughly 16-18 years",
+        "Whelan: Fed funds is no longer a real, actively-traded market, unlike in prior decades",
+        "Whelan: rising US rates would put pressure on the Japanese yen carry trade, per comments attributed to Treasury Secretary Bessent on CNBC"
+      ],
+      "kind": "podcast",
+      "one_liner": "A deep-dive on Fed balance-sheet/reserve mechanics, Treasury's own short-end 'QE' via repo, and T-bill issuance strategy -- core money-market plumbing territory for a repo trader.",
+      "published": "2026-08-22T10:00:00+00:00",
+      "recap": "Chris Whelan (The Institutional Risk Analyst) answers viewer questions on the Fed and Treasury market plumbing. On inflation, he argues Fed governor Kevin Warsh and Treasury Secretary Bessent view current price pressure as driven by Gulf-region supply disruption (diesel/energy) that monetary policy cannot fix, so the Fed stays on hold despite headline CPI. On the balance sheet, Whelan (citing Bill Nelson of the Bank Policy Institute) explains reserves are held only inside the Fed and are walled off from broader money supply (no M2 impact); if the Fed shrinks its balance sheet and reserves fall, banks and money funds must buy more T-bills to replace that safe short-term asset, pushing bill yields down. He describes a parallel mechanism where Treasury, sitting on a large cash balance (~$800bn TGA), could offer that cash into the market via reverse repo to ease short-end liquidity -- effectively Treasury's own version of QE, distinct from the Fed's crisis-era purchases of long bonds and MBS. He criticizes Powell/Yellen-era MBS purchases as having left the Fed holding low-coupon (2-3%) mortgage securities with 16-18 year average lives, a source of ongoing Fed losses. Other topics: a 5% 10-year yield would sharply raise Treasury's interest expense as low-coupon COVID-era debt rolls into higher rates; T-bills are described as safe but low-yielding versus money funds or insured bank products; and yen intervention/carry-trade dynamics are tied to US-Japan rate differentials and Treasury demand.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "Fed balance sheet",
+        "reserves",
+        "repo",
+        "T-bills",
+        "TGA",
+        "QT",
+        "MBS",
+        "yen carry trade",
+        "Treasury issuance"
+      ],
+      "terms": [
+        "TGA -- Treasury General Account, the US Treasury's operating cash account held at the Federal Reserve",
+        "SOFR -- Secured Overnight Financing Rate, the reference rate for overnight Treasury repo transactions",
+        "TIPS -- Treasury Inflation-Protected Securities",
+        "QT -- quantitative tightening, the Fed shrinking its balance sheet by letting securities mature/prepay"
+      ],
+      "tier": "broad",
+      "title": "#404 Chris Whalen Answers Your Questions on the Fed, Rates & the Next Bailout",
+      "url": "https://traffic.megaphone.fm/APO1924653127.mp3",
+      "watch": [
+        "Treasury's use of repurchase agreements to redeploy TGA cash into the market",
+        "Pace of Fed balance-sheet runoff and reserve levels under Warsh",
+        "Treasury's bill-vs-coupon issuance mix as rates reprice",
+        "Yen carry-trade unwind risk and its effect on UST demand from Japan"
+      ]
+    },
     "64fba1090e18127fa361f051:64fba4edb48a5e6f7261367d:6a84e302a4bad07b608da666": {
       "feed_name": "BTN with Ethan Heisler",
       "implications": "For a repo/financing desk, the SOMA T-bill/MBS mix shift, delayed Reserve Management Purchase Program buys, and reserves sitting just under $3tn are directly relevant to bill supply, collateral availability, and repo/SOFR dynamics; the fading rate-hike pricing and curve moves (2s10s narrowing to 45bp, 10yr spiking to 4.75%) also bear on front-end positioning and duration risk around the September meeting.",
@@ -296,6 +366,43 @@
       "title": "Nick Bostrom on What Happens if AI Solves All of Our Problems",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/bcc22dff-b144-40ae-8f68-b4ab00f28c30/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
       "watch": []
+    },
+    "cf75f416-9926-4aa2-b1de-eb9b5b218ac9": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a rates/repo desk this is a background macro-narrative piece, not a hard catalyst: the flattening/steepening yield-curve read and the Treasury buyback expansion are worth noting for duration and curve positioning, and the private-credit/shadow-bank tightening thesis is relevant context for CLO/private credit and AI-data-center financing exposure, but nothing here is a specific trade signal or data release to act on directly.",
+      "key_claims": [
+        "Walmart posted its worst sales growth in six years; the stock fell as much as 9% intraday (hosts Jeff and Steve, Fed Guy-style podcast).",
+        "Walmart is doubling the number of products getting price rollbacks using tariff-refund funds rather than boosting margins, per the hosts.",
+        "Household survey employment fell over 900,000 in the last six months and full-time jobs also declined, hosts say.",
+        "Pending home sales fell for two consecutive months (June-July) and housing starts are near a five-year low.",
+        "The 30-year Treasury yield hit a 19-year high but is only modestly above 2022-2023 levels; the yield curve remains historically flat.",
+        "The Treasury doubled the scale of an existing buyback program, which the hosts say sparked talk of stealth QE/yield curve control."
+      ],
+      "kind": "podcast",
+      "one_liner": "Weak Walmart/Home Depot/Lowe's sales and housing data are used to argue the consumer is rolling over, with knock-on read-throughs to a flattening yield curve, a Treasury buyback expansion, and tightening private-credit/shadow-bank lending.",
+      "published": "2026-08-23T11:00:00+00:00",
+      "recap": "The hosts dissect Walmart's worst sales growth in six years, framing it as evidence that consumers -- squeezed simultaneously by high energy prices, high borrowing costs, and weak real income growth -- are finally pulling back after being propped up by an \"I-shaped\" (or \"K-shaped\") economy. Notably, Walmart said it will use tariff-refund money to roughly double the number of products getting price rollbacks rather than pad margins, which the hosts read as a deflationary signal, not an inflationary one, since raising prices makes volume disappear. Home Depot and Lowe's corroborate this: big-ticket renovation and borrowing-financed purchases have stalled while consumers trade down to small items (paint, plants). Housing starts and pending home sales are near multi-year lows, and industrial production of consumer goods has been falling, which the hosts tie back to weakening labor-market data (household survey showing employment and full-time jobs declining over the past six months). They argue this macro deterioration is what's driving the 30-year Treasury yield to a 19-year high even as the yield curve stays historically flat-to-slightly-steepening, which they interpret as a demand/growth problem rather than an inflation or debt-oversupply problem. They note the Treasury doubled the scale of an existing buyback program, prompting talk of stealth QE/yield curve control. The hosts connect weakening macro sentiment to tightening credit conditions among non-bank ('shadow banking') lenders, warning this could pressure private credit and the AI-related debt/data-center financing boom.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "macro",
+        "consumer",
+        "yield-curve",
+        "Treasury-buybacks",
+        "private-credit",
+        "Fed",
+        "housing"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "Walmart Just Confirmed The WORST-CASE Scenario For The Economy",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/87363dba/ef7ee4dc.mp3",
+      "watch": [
+        "Treasury buyback program size/cadence going forward",
+        "Upcoming retail earnings (Target and peers) for price-rollback follow-through",
+        "Household survey employment/full-time jobs trend in coming payroll reports",
+        "Private credit and data-center financing spreads amid AI debt bubble concerns"
+      ]
     },
     "d029f141-0fda-4758-8bc0-21464bacdad3": {
       "feed_name": "Eurodollar University",
