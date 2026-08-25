@@ -43,6 +43,47 @@
         "Yen carry-trade unwind risk and its effect on UST demand from Japan"
       ]
     },
+    "7e67b62f-36ba-4b8f-9c04-b91819d856c9": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a repo/rates desk this is a useful sanity check against headline fiscal-doom narratives: it argues repo/collateral markets and Treasury auctions are functioning normally and the curve/term-premium data don't yet support pricing in a fiscal risk premium, so the more actionable signal from this piece is the private-credit/leveraged-loan deterioration (BDC non-accruals, 2020-21 vintage defaults) as an early credit-cycle stress indicator rather than a rates one.",
+      "key_claims": [
+        "Dalio estimates ~$5.5tn federal revenue vs ~$7.5tn spending this year, a ~$2tn shortfall, with ~$1tn annual interest costs and ~$10tn of debt needing refinancing",
+        "Treasury raised its coupon security buyback limit from $2bn to $4bn; the buyback program itself has existed since May 29, 2024",
+        "The 30-year Treasury yield first crossed 5% in October 2023 and is only modestly above that level nearly three years later, not showing accelerating repricing",
+        "NY Fed's 10-year term premium estimate has remained low and broadly flat for years despite worsening deficits",
+        "Non-accrual loans are reportedly increasing at some BDCs, with defaults/restructurings appearing among leveraged companies financed in the 2020-2021 boom"
+      ],
+      "kind": "podcast",
+      "one_liner": "A rebuttal of Ray Dalio's 'debt crisis/buyer strike' thesis using yield-curve shape, term premiums and the Treasury buyback program as evidence, concluding the fiscal problem hasn't yet become a Treasury-market problem.",
+      "published": "2026-08-25T11:00:00+00:00",
+      "recap": "The piece takes on Ray Dalio's warning that the US is approaching (or is in) a debt crisis, citing $2tn annual deficits, ~$1tn interest costs, ~$10tn of debt needing refinancing, falling Japanese demand, multi-year-high 30-year yields, and Treasury's recent decision to raise its coupon buyback limit from $2bn to $4bn, which Dalio-aligned commentary reads as quiet yield-curve control. The host argues a genuine 'buyer strike' would show up unambiguously across several independent market signals simultaneously: aggressive bear-steepening of the curve, unanchored inflation expectations, deteriorating repo/collateral liquidity, persistent weak auctions, and a sharply rising term premium. He walks through each: the 30-year is only modestly above its 2023 high (not a sustained breakout), the curve is historically flat/compressed rather than bear-steepening, the NY Fed's 10-year term premium estimate remains low and flat despite years of worsening deficits, auctions keep clearing, and Treasuries remain central to repo, derivatives and global dollar funding. He also clarifies the buyback program isn't new (started May 2024), doesn't create new money or reduce total debt (funded by other borrowing/taxes), and is more narrative management than QE. He then pivots to argue the real 'debt crisis' is showing up in the K-shaped real economy \u2014 rising non-accrual loans at BDCs and defaults among 2020-21-vintage leveraged borrowers \u2014 rather than in Treasury interest rates, since weak growth is actually sustaining safe-haven demand for governments' debt.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "rates",
+        "Treasury",
+        "term premium",
+        "yield curve",
+        "Fed",
+        "buybacks",
+        "private credit",
+        "fiscal policy"
+      ],
+      "terms": [
+        "OIS/term premium -- the New York Fed's ACM model estimate of the extra compensation investors require to hold a long-dated bond beyond the expected path of short rates",
+        "TGA -- Treasury General Account, the US Treasury's operating cash account held at the Federal Reserve",
+        "BDC -- Business Development Company, a publicly traded vehicle that lends to and invests in private/middle-market companies"
+      ],
+      "tier": "plumbing",
+      "title": "Ray Dalio Just Issued His Most Terrifying Debt Warning Yet",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/3b96c374/bb5544fa.mp3",
+      "watch": [
+        "Whether the 30-year yield breaks decisively away from the front end (bear steepening) rather than range-trading",
+        "NY Fed 10-year term premium estimate for a sustained move higher",
+        "Coupon buyback usage against the new $4bn limit and any further increases",
+        "BDC non-accrual and leveraged-loan default trends as a leading credit-cycle indicator"
+      ]
+    },
     "b1b87220-4b3b-4d8f-b66b-4af5f5352721": {
       "feed_name": "Macro Musings",
       "implications": "Background, not immediately actionable, but the Treasury issuance/duration and stablecoin-bill-demand discussion, plus the rising term premium and interest-cost trajectory, are directly relevant to front-end rates and Treasury collateral supply; the oil/refining and inflation section is a useful read on a lingering inflation/rate-path risk.",

@@ -133,6 +133,36 @@
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/568c6e3c-2159-45c2-8e4d-b4ad011d7c22/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
       "watch": []
     },
+    "5f718510-6aee-4234-8f78-309c17074b01": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "Background, not actionable for a repo/financing desk \u2014 this is a retail-oriented macro/asset-allocation conversation about gold, energy equities and long-bond avoidance, with only a passing, non-technical mention of Treasury buybacks and no discussion of repo, funding markets, or credit.",
+      "key_claims": [
+        "Oakley: US federal debt has crossed $40 trillion.",
+        "Oakley: a 1-year Treasury currently yields about 4% and a 2-year about 4.20-4.24%.",
+        "Oakley: gold mining stocks are only about 2-3% of the S&P 500 by weight.",
+        "Oakley: if gold miners traded at the same price-to-cash-flow multiple as in 2011, they would double from current levels.",
+        "Oakley: WTI crude is around $84-85/barrel and energy producers remain profitable and pay dividends (some cited above 6%, one up to 11%) even at $70-80 oil.",
+        "Oakley: roughly 40-50% of people in the investment advisory industry have only 15-17 years of experience, meaning they've never seen a sustained bear market or high inflation."
+      ],
+      "kind": "podcast",
+      "one_liner": "Retail-facing macro/gold-and-energy conversation with a Treasury-buyback aside; too soft-macro and equity-portfolio-focused to matter for a repo/credit desk.",
+      "published": "2026-08-25T10:00:00+00:00",
+      "recap": "Ted Oakley of Oxbow Advisors discusses his firm's tactical moves in and out of gold and silver miners, having sold most positions in late 2025/early 2026 and rebought from mid-July after a roughly 40% correction in miners. He argues gold, despite being near $4,600, is still well below a long-term target of $7,000-8,000 given eroding confidence in the dollar and unsustainable US fiscal trajectory (Social Security, Medicare, Medicaid and defense alone will exceed total revenue). Asked about Treasury Secretary Bessent's long-dated buyback program, Oakley characterizes it as a 'twist'-like operation (selling bills to buy long bonds) rather than true QE, doubts it can durably control the 30-year yield, and says Oxbow avoids long bonds in favor of 1-2 year paper given his view that inflation will structurally run 3-4% over the next decade. He also makes a bullish case for energy (oil, natural gas, copper, uranium) as an under-owned hard-asset trade offering high dividends, contrasts today's Fed communication style favorably, and warns of a coming 'generational bear market' driven by stretched valuations, retail euphoria, and heavy new issuance draining liquidity. He closes with concerns about boomers being overexposed to equities heading into retirement, previewing a forthcoming book on the topic.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "gold",
+        "Treasury buybacks",
+        "energy",
+        "macro",
+        "equities"
+      ],
+      "terms": [],
+      "tier": "broad",
+      "title": "#405 Ted Oakley: Gold Still Cheap at $4,600, The Energy Move Could Be Bigger, & 3 Signs of a Stock Market Top",
+      "url": "https://traffic.megaphone.fm/APO5974441639.mp3",
+      "watch": []
+    },
     "601648ee-398a-402f-a6a9-a0e31e74fc56": {
       "feed_name": "The Julia La Roche Show",
       "implications": "Directly bears on the reader's repo/funding book: a shrinking Fed balance sheet plus a Treasury general-account drawdown recycled through reverse repo would add T-bill supply pressure and could compress front-end yields, while bill-heavy Treasury issuance keeps collateral plentiful -- both worth tracking against SOFR/repo spreads and bill auction demand.",
@@ -346,6 +376,47 @@
       "tier": "broad",
       "title": "Building AI Systems for Capital Markets",
       "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD1461785237.mp3"
+    },
+    "7e67b62f-36ba-4b8f-9c04-b91819d856c9": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a repo/rates desk this is a useful sanity check against headline fiscal-doom narratives: it argues repo/collateral markets and Treasury auctions are functioning normally and the curve/term-premium data don't yet support pricing in a fiscal risk premium, so the more actionable signal from this piece is the private-credit/leveraged-loan deterioration (BDC non-accruals, 2020-21 vintage defaults) as an early credit-cycle stress indicator rather than a rates one.",
+      "key_claims": [
+        "Dalio estimates ~$5.5tn federal revenue vs ~$7.5tn spending this year, a ~$2tn shortfall, with ~$1tn annual interest costs and ~$10tn of debt needing refinancing",
+        "Treasury raised its coupon security buyback limit from $2bn to $4bn; the buyback program itself has existed since May 29, 2024",
+        "The 30-year Treasury yield first crossed 5% in October 2023 and is only modestly above that level nearly three years later, not showing accelerating repricing",
+        "NY Fed's 10-year term premium estimate has remained low and broadly flat for years despite worsening deficits",
+        "Non-accrual loans are reportedly increasing at some BDCs, with defaults/restructurings appearing among leveraged companies financed in the 2020-2021 boom"
+      ],
+      "kind": "podcast",
+      "one_liner": "A rebuttal of Ray Dalio's 'debt crisis/buyer strike' thesis using yield-curve shape, term premiums and the Treasury buyback program as evidence, concluding the fiscal problem hasn't yet become a Treasury-market problem.",
+      "published": "2026-08-25T11:00:00+00:00",
+      "recap": "The piece takes on Ray Dalio's warning that the US is approaching (or is in) a debt crisis, citing $2tn annual deficits, ~$1tn interest costs, ~$10tn of debt needing refinancing, falling Japanese demand, multi-year-high 30-year yields, and Treasury's recent decision to raise its coupon buyback limit from $2bn to $4bn, which Dalio-aligned commentary reads as quiet yield-curve control. The host argues a genuine 'buyer strike' would show up unambiguously across several independent market signals simultaneously: aggressive bear-steepening of the curve, unanchored inflation expectations, deteriorating repo/collateral liquidity, persistent weak auctions, and a sharply rising term premium. He walks through each: the 30-year is only modestly above its 2023 high (not a sustained breakout), the curve is historically flat/compressed rather than bear-steepening, the NY Fed's 10-year term premium estimate remains low and flat despite years of worsening deficits, auctions keep clearing, and Treasuries remain central to repo, derivatives and global dollar funding. He also clarifies the buyback program isn't new (started May 2024), doesn't create new money or reduce total debt (funded by other borrowing/taxes), and is more narrative management than QE. He then pivots to argue the real 'debt crisis' is showing up in the K-shaped real economy \u2014 rising non-accrual loans at BDCs and defaults among 2020-21-vintage leveraged borrowers \u2014 rather than in Treasury interest rates, since weak growth is actually sustaining safe-haven demand for governments' debt.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "rates",
+        "Treasury",
+        "term premium",
+        "yield curve",
+        "Fed",
+        "buybacks",
+        "private credit",
+        "fiscal policy"
+      ],
+      "terms": [
+        "OIS/term premium -- the New York Fed's ACM model estimate of the extra compensation investors require to hold a long-dated bond beyond the expected path of short rates",
+        "TGA -- Treasury General Account, the US Treasury's operating cash account held at the Federal Reserve",
+        "BDC -- Business Development Company, a publicly traded vehicle that lends to and invests in private/middle-market companies"
+      ],
+      "tier": "plumbing",
+      "title": "Ray Dalio Just Issued His Most Terrifying Debt Warning Yet",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/3b96c374/bb5544fa.mp3",
+      "watch": [
+        "Whether the 30-year yield breaks decisively away from the front end (bear steepening) rather than range-trading",
+        "NY Fed 10-year term premium estimate for a sustained move higher",
+        "Coupon buyback usage against the new $4bn limit and any further increases",
+        "BDC non-accrual and leveraged-loan default trends as a leading credit-cycle indicator"
+      ]
     },
     "9909eeee-9c27-11f1-ab19-cf682a15597e": {
       "feed_name": "Forward Guidance",
