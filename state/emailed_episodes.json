@@ -460,6 +460,42 @@
         "BDC non-accrual and leveraged-loan default trends as a leading credit-cycle indicator"
       ]
     },
+    "8a8d21ff-f9ea-402d-b5a1-24b28dc78e36": {
+      "feed_name": "Cloud 9fin",
+      "implications": "Background, not actionable for a rates/repo/credit trader -- this is a small, idiosyncratic corner of leveraged finance ($1-2bn across niche issuers) with no read-through to funding markets, rate policy, or mainstream credit/structured credit.",
+      "key_claims": [
+        "9fin has tracked about 25 cannabis companies with $1-2bn of US dollar-denominated debt (loans and senior secured notes), plus a small portion of Canadian dollar debt (Padbidri)",
+        "Cannabis companies cannot currently file for Chapter 11 bankruptcy, so all tracked restructurings in 9fin's database have been out-of-court (Padbidri)",
+        "DOJ/DEA hearings on rescheduling wrapped July 15; sources see a ruling as possible by fall at the earliest, with no firm timeline (Padbidri)",
+        "Medical cannabis was moved from Schedule I to Schedule III as of April 23, 2025, following a Trump executive order from December 2025 (Padbidri)"
+      ],
+      "kind": "podcast",
+      "one_liner": "A niche update on US cannabis debt (~$1-2bn across 25 issuers) and how federal rescheduling could ease tax burdens, unlock IP collateral, and eventually enable Chapter 11 access -- interesting leveraged-finance color but far from core repo/rates/credit markets.",
+      "published": "2026-08-26T12:00:00+00:00",
+      "recap": "9fin's Bill Weisbrod interviews Levfin deputy editor Sasha Padbidri about the potential federal rescheduling of cannabis and its impact on cannabis borrowers. Rescheduling refers to moving marijuana from Schedule I (alongside LSD and heroin) to Schedule III (alongside Tylenol with codeine), following a Trump executive order from December 2025 that already moved medical cannabis to Schedule III as of April 23. A ruling on recreational rescheduling from the DOJ/DEA, whose hearings wrapped July 15, isn't expected before fall at the earliest. The main financial implications discussed: companies currently barred from deducting SG&A/opex under Section 280E of the tax code (limited to COGS only) would gain meaningful tax relief post-rescheduling, freeing up cash; companies selling both medical and recreational product face accounting complexity separating revenue streams in the interim. Rescheduling would also make federal trademarks available for the first time, potentially letting cannabis companies use brand/strain IP as collateral for secured financing -- a market that doesn't exist yet. 9fin tracks roughly 25 companies with $1-2bn of cannabis debt (loans and senior secured notes), funded mostly by alternative lenders and revenue-backed credit lines rather than traditional banks, since stigma keeps Wall Street away. A key structural point: cannabis companies currently cannot file Chapter 11 bankruptcy, forcing all restructurings (e.g., Air Wellness's 2025 exit term loan) to happen out-of-court; rescheduling could eventually open the door to in-court restructuring.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "leveraged finance",
+        "cannabis",
+        "restructuring",
+        "collateral",
+        "secured lending",
+        "high yield"
+      ],
+      "terms": [
+        "Schedule I/III -- US Controlled Substances Act drug classification tiers; Schedule I bars most legal use, Schedule III allows regulated medical/commercial use",
+        "Section 280E -- US federal tax code provision barring businesses trafficking in Schedule I/II substances from deducting ordinary business expenses beyond cost of goods sold",
+        "Chapter 11 -- US Bankruptcy Code provision for in-court reorganization of a company's debts"
+      ],
+      "tier": "credit",
+      "title": "Syndication Nation \u2014 Will rescheduling light up the cannabis debt markets?",
+      "url": "https://media.transistor.fm/822fedd8/be3a3937.mp3",
+      "watch": [
+        "DOJ/DEA ruling on broader (recreational) cannabis rescheduling, possibly this fall",
+        "Whether rescheduling opens access to Chapter 11 for cannabis borrowers"
+      ]
+    },
     "9909eeee-9c27-11f1-ab19-cf682a15597e": {
       "feed_name": "Forward Guidance",
       "kind": "podcast",
