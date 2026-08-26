@@ -1,3 +1,88 @@
 {
-  "queued": {}
+  "queued": {
+    "061ad740-a084-11f1-8a09-0bcd9cc59371": {
+      "feed_name": "Monetary Matters",
+      "implications": "The Fed hike-vs-hold debate, term-premium/curve mechanics, and the SOFR-10yr linkage bear directly on front-end rates and repo/collateral positioning into the September FOMC; the bulk of the episode's equity-sector and AI-trade content is background, not actionable for a financing/credit book.",
+      "key_claims": [
+        "Pies: September Fed hike odds fell from ~75% in July to ~30%, and have since risen back to roughly 40%",
+        "Pies's nowcast model projects core PCE at 0.28% month-over-month",
+        "Historical pattern across seven hike cycles since the 1980s: every 25bp Fed hike produces roughly a 20bp rise in the 2-year yield and 12bp in the 10-year yield, an ~8bp/hike bear flattening",
+        "ACM term premium is around 80bp and the 2s10s curve is roughly 45-50bp, which Pies says shows no Fed credibility risk currently priced into the curve",
+        "Pies: 2025 non-financial gross corporate bond issuance is high in nominal terms but low relative to GDP or equity market cap versus prior years, undercutting the claim that AI-related issuance is crowding out Treasury demand"
+      ],
+      "kind": "podcast",
+      "one_liner": "A macro strategist argues September Fed-hike odds are underpriced and unpacks the term-premium/yield-curve mechanics of a hike, but most of the episode is equity/AI sector rotation with limited direct relevance to financing books.",
+      "published": "2026-08-26T15:00:00+00:00",
+      "recap": "Warren Pies of 314 Research explains why he cut a long-standing bullish equity and commodity overweight to neutral, citing a deteriorating market structure (single-stock volatility collapsing from 50-80% pre-earnings to roughly 35%, correlations still historically low) heading into an August 15-October 15 window loaded with macro risk: a live FOMC meeting, Jackson Hole, potential AI-lab IPOs, and midterm elections. His central rates argument is that the market has swung September hike odds from 75% in July down to 30% and back to roughly 40%, and that his CPI/PPI-driven core PCE nowcast (0.28% m/m) suggests the disinflation narrative is weaker than priced, with political pressure on the Fed (citing Hammack and Waller commentary) potentially tipping the committee toward a hike despite a soft-looking jobs report. He rejects the popular view that a hike would push the 10-year down by restoring credibility, pointing to the ACM term premium (~80bp) and a 2s10s curve near 45-50bp as showing no credibility risk priced in, and cites a historical rule from seven prior hike cycles: every 25bp hike has produced roughly a 20bp rise in the 2-year and 12bp in the 10-year (a bear flattener), with SOFR futures tracking the 10-year in lockstep for two years. He also dismisses Bessent's claim that AI-linked corporate issuance is crowding out Treasuries, arguing issuance relative to GDP and market cap remains low historically. The remainder covers equity sector rotation \u2014 semis vs. software, AI capex ROI, GPU rental-rate data, energy as a portfolio hedge \u2014 which is largely equity-strategy color.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "yield curve",
+        "term premium",
+        "PCE",
+        "Treasury issuance",
+        "equities",
+        "AI",
+        "oil"
+      ],
+      "terms": [
+        "ACM term premium -- the Adrian-Crump-Moench model's estimate of the extra yield investors demand for holding longer-dated Treasuries beyond expected future short rates",
+        "PCE -- Personal Consumption Expenditures price index, the Fed's preferred inflation gauge",
+        "SOFR -- Secured Overnight Financing Rate, the primary US repo-based reference rate"
+      ],
+      "tier": "plumbing",
+      "title": "Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
+      "url": "https://traffic.megaphone.fm/EWWMN6062624657.mp3",
+      "watch": [
+        "September FOMC decision and whether hawkish dissent broadens beyond Hammack",
+        "Next core PCE print ahead of the meeting",
+        "Treasury net issuance trends vs. AI-linked corporate issuance",
+        "Oil prices, crack spreads, and SPR drawdown headlines feeding into Fed political pressure"
+      ]
+    },
+    "783efb90-5c50-4890-8acc-bf92b8206122": {
+      "feed_name": "Eurodollar University",
+      "implications": "Background, not actionable for repo/funding markets directly, but the disinflation/weak-labor argument feeds into the reader's view on the Fed's rate path and front-end rates positioning; worth tracking as one input alongside official data, not a standalone catalyst.",
+      "key_claims": [
+        "Conference Board preliminary August consumer confidence index fell to 89.4 from 90.2 in July (speaker/host)",
+        "Conference Board expectations index dropped 5.8 points to 68.2, well below the historical 80 recession-warning threshold (speaker, citing Conference Board)",
+        "Walmart is cutting prices on more than 11,000 products, double its normal number, funded partly from $2.9 billion in tariff refunds (speaker, citing Walmart)",
+        "July payrolls fell 23,000; May and June payrolls revised down a combined 103,000 (speaker, citing establishment survey)",
+        "Labor force participation rate fell to 61.4%, down 0.7 points over six months; host estimates 3.8 million missing workers implying an 'effective' unemployment rate near 6.2% vs official 4.1%",
+        "Dick's Sporting Goods stock fell 27% after cutting its outlook on an increasingly promotional footwear market; Foot Locker comparable sales fell 3.6% last quarter",
+        "Core CPI's three-month annualized change fell to a new cycle low even after a modest July rebound (speaker's reading of CPI data)",
+        "Income needed to buy a starter home under $350,000 rose from about $43,000 in 2019 to about $78,000 today, while median household income did not keep pace (speaker)"
+      ],
+      "kind": "podcast",
+      "one_liner": "A consumer-confidence and retail-discounting deep dive arguing the labor market is quietly deteriorating and disinflation (not inflation) is the real risk -- useful macro background for a rates view but has no direct repo/funding/credit content.",
+      "published": "2026-08-26T13:53:03+00:00",
+      "recap": "The host argues that a coordinated wave of retail discounting -- Walmart cutting prices on 11,000+ items, Kroger cutting prices on thousands of products, grocery promotions up 10% year-on-year, Amazon pushing into cheap groceries, Aldi/Lidl expanding, and Dick's Sporting Goods stock falling 27% on guidance tied to a 'promotional' sneaker market -- reflects weakening consumer purchasing power rather than resilient demand. The evidence cited: the Conference Board's preliminary August consumer confidence index fell to 89.4, but its forward-looking expectations sub-index dropped to 68.2, deep below the historical 80-level recession threshold. He links this to labor-market data: July payrolls fell 23,000, prior months revised down a combined 103,000, the household survey showed larger declines, participation fell to 61.4%, and an alternative calculation adding an estimated 3.8 million labor-force dropouts implies an 'effective' unemployment rate near 6.2% versus the official 4.1%. He argues this constitutes a slow 'no-hire, some-fire' contraction distinct from NBER-style recessions, which is why confidence indicators have been dismissed. On prices, he notes core CPI's two- and three-month annualized rates hit fresh cycle lows even after a modest July rebound, arguing this shows tariff/energy cost pressures are not generating a broad inflationary second-round effect, but instead demand destruction and margin compression -- consistent with what he says the yield curve is already pricing, contrary to mainstream inflation and 'resilient labor market' narratives.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "labor market",
+        "consumer confidence",
+        "CPI",
+        "disinflation",
+        "Fed policy",
+        "macro"
+      ],
+      "terms": [
+        "CPI -- Consumer Price Index, a measure of the average change in prices paid by consumers",
+        "NBER -- National Bureau of Economic Research, the body that officially dates U.S. recessions",
+        "BLS -- Bureau of Labor Statistics"
+      ],
+      "tier": "plumbing",
+      "title": "Grocery Stores Just Issued a Warning About the American Consumer",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/193236f1/d0509cb9.mp3",
+      "watch": [
+        "August payrolls and any further downward revisions to prior months",
+        "Core CPI monthly/3-month annualized trend in upcoming releases",
+        "Retail earnings commentary on discounting/margin pressure (Kroger, Target, Amazon)",
+        "Conference Board expectations index for further deterioration below 68"
+      ]
+    }
+  }
 }
