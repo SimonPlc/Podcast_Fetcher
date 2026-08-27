@@ -2,7 +2,7 @@
 
 An unattended pipeline that watches finance podcast feeds and written-research
 feeds, transcribes and scores everything for relevance to a Hong Kong bank
-financing / repo desk, and emails a morning brief each weekday at ~07:00 HK.
+financing / repo desk, and emails a morning brief each weekday at ~06:47 HK.
 
 One card per relevant item, sorted by relevance score: show or publication,
 score, tags, a one-liner, summary bullets, key claims, and a link back to the
@@ -24,11 +24,26 @@ from whichever cron fired:
 | Mode | When | What it does |
 |---|---|---|
 | `collect` | 6x/day, staggered | Fetch podcast feeds, download audio, Whisper-transcribe, score with Claude, queue anything scoring >= `MIN_SCORE` |
-| `digest` | 23:00 UTC Sun-Thu, plus a 23:30 backup | Render the queued episodes, fetch and score today's articles, email one merged brief, then clear the queue |
+| `digest` | 22:47 UTC Sun-Thu, plus a 23:41 backup | Render the queued episodes, fetch and score today's articles, email one merged brief, then clear the queue |
 | `discover` | 1st of the month, 21:17 UTC | Search the iTunes API for configured terms, score the candidates, email new show suggestions |
 
-23:00 UTC Sun-Thu is 07:00 HK Mon-Fri. Sunday's run sweeps up whatever dropped
+22:47 UTC Sun-Thu is 06:47 HK Mon-Fri. Sunday's run sweeps up whatever dropped
 over the weekend.
+
+**Why the digest crons sit on odd minutes.** GitHub makes no delivery guarantee
+for `schedule`: under load it delays runs, and drops them outright when the
+delay runs past the next window. On 2026-08-26 the digest was still at `0 23`
+with its backup at `30 23`; both were dropped, 30 minutes apart was not enough
+to escape the same congestion window, and no brief went out that morning. The
+pair now sits at `47 22` and `41 23`, off the hour and in two different hours,
+for the same reason the collect crons are staggered.
+
+Scheduling alone cannot make this impossible, so there is a second line of
+defence: every `collect` run checks whether a digest slot went by undelivered
+and, if the queue is non-empty, sends the brief it missed. Six collect runs a
+day means six chances to notice. `state/digest_log.json` records which slot was
+last settled, which is also what stops the backup run mailing a second
+(quiet-day) brief on top of a successful primary.
 
 Podcasts are transcribed in `collect` and only rendered in `digest`, because
 Whisper is expensive and that work is worth amortising. Articles have no such
@@ -157,6 +172,7 @@ it:
 | `state/pending_digest.json` | Episodes queued for the next brief. Cleared after a successful send |
 | `state/seen_articles.json` | Hashes of articles already seen, plus the feed name. Deliberately holds no title, body or summary |
 | `state/discovery_seen.json` | Show candidates already proposed, so the monthly sweep stops re-suggesting them |
+| `state/digest_log.json` | The last settled digest slot (delivered, or confirmed empty) and the last real send time. Drives both the backup run's skip and the missed-digest catch-up |
 
 To force a re-run of an item, delete its entry and push.
 

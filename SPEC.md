@@ -108,7 +108,7 @@ product; a spoken "podcast of podcasts" was considered and is not planned.
    can go listen to the full segment when something matters.
 9. As a trader, I want cards sorted by relevance score, so that the most
    important episodes are immediately at the top.
-10. As a trader, I want the email delivered ~07:00 HK on weekdays (Mon-Fri), so
+10. As a trader, I want the email delivered ~06:47 HK on weekdays (Mon-Fri), so
     that it's waiting before my desk gets going; markets are shut on weekends.
 11. As a trader, I want Monday's edition to sweep up everything that dropped over
     the weekend, so that I don't miss weekend content.
@@ -423,17 +423,53 @@ plus an explicit knowledge-expansion dimension. Default queue threshold: score
   is a multipart/alternative MIME (text + HTML) posted to messages.send.
 
 **Scheduling (UTC)** — collect every few hours on a staggered minute; digest at
-23:00 UTC Sun-Thu (= 07:00 HK Mon-Fri) with a 23:30 backup; discover monthly
+22:47 UTC Sun-Thu (= 06:47 HK Mon-Fri) with a 23:41 backup; discover monthly
 (1st of the month, 21:17 UTC). Concurrency is serialized (queue, do not cancel)
 so runs don't race on the committed JSON state. `workflow_dispatch` allows
 manual runs with a mode override.
+
+**Delivery slots and settlement** — GitHub gives `schedule` no delivery
+guarantee: under load it delays runs and drops them outright. On 2026-08-26 it
+dropped both digest crons (then `0 23` and `30 23`), the brief never went out,
+and the queued episodes sat undelivered for a day. Two consequences are baked
+into the design.
+
+*A slot is a date, not a cron.* The primary and its backup are two attempts at
+one day's brief, so both settle the same **slot** (the UTC date of that day's
+scheduled digest, `podcast_fetcher/schedule.py`). Slots are recorded in
+`state/digest_log.json` as `last_slot`, and "settled" deliberately means *either*
+delivered *or* confirmed to have nothing to deliver -- both mean no brief is
+outstanding. `last_sent_at` separately records the last real delivery.
+
+*The backup only retries a primary that did not deliver.* It used to call the
+digest unconditionally, so after a successful primary it found the queue already
+cleared and mailed a quiet-day note on top of the real brief, every weekday. It
+now skips a slot that is already settled. The slot is recorded immediately after
+a successful send and before the queue is cleared, because the window this
+guards is the 54 minutes to the backup, which opens the moment the send returns.
+A send that raises leaves the slot unsettled, so the backup still covers it.
+
+*A missed slot is recovered from `collect`, not from another cron.* Every
+collect run checks whether a slot passed undelivered (beyond
+`MISSED_DIGEST_GRACE_MIN`, which must clear the backup so a merely-slow backup
+is not pre-empted) and, if the podcast queue is non-empty, sends the brief it
+missed. Six collect runs a day means six independent chances to notice, none of
+which depends on a further cron firing. Two limits are deliberate: a slot missed
+on a day that would have produced an **articles-only** digest is settled
+silently rather than caught up (articles are re-fetched at digest time, and a
+stale one is worth less than an unexpected email), and with **no log at all**
+the current slot is settled without sending, since an absent history is not
+evidence anything was missed. The catch-up is also wrapped so that a failure in
+it never stops the collect run it is riding on.
 
 **Config knobs (env):** `RUN_MODE`, `WHISPER_MODEL`, `MAX_RECENT_DAYS` (3),
 `EPISODES_PER_FEED` (2), `MIN_SCORE` (3), `MAX_EPISODES_PER_RUN` (8, hard cap
 per collect), `COLLECT_TIME_BUDGET_MIN` (50, wall-clock budget -- ticket #9),
 `MIN_EPISODES_PER_RUN` (2, floor attempted even past the budget -- ticket #9),
 `MAX_EPISODE_ATTEMPTS` (3, retry cap before an our-side deferral becomes
-terminal -- ticket #9), `MAX_TRANSCRIPT_CHARS`, `MAX_ARTICLES_PER_DIGEST` (10,
+terminal -- ticket #9), `MISSED_DIGEST_GRACE_MIN` (75, how long past its
+scheduled time a slot stays "merely late" before a collect run treats it as
+dropped), `MAX_TRANSCRIPT_CHARS`, `MAX_ARTICLES_PER_DIGEST` (10,
 cap on articles extracted per digest run -- ticket #7), `DISCOVERY_LIMIT` (25,
 cap on iTunes results requested per search term -- ticket #5),
 `DISCOVERY_BATCH_SIZE` (25, candidates scored per Claude call -- ticket #8),
@@ -583,6 +619,6 @@ functions are importable without triggering any I/O at import time.
 - Maintenance cost of the free stack: the Claude subscription OAuth token expires
   periodically and must be re-minted with `claude setup-token`; heavy days may hit
   subscription rate limits. Accepted tradeoff for zero marginal cost.
-- Timezone: HK is UTC+8. 23:00 UTC Sun-Thu delivers 07:00 HK Mon-Fri; Monday's
-  edition (Sun 23:00 UTC) naturally covers weekend-dropped episodes via the
+- Timezone: HK is UTC+8. 22:47 UTC Sun-Thu delivers 06:47 HK Mon-Fri; Monday's
+  edition (Sun 22:47 UTC) naturally covers weekend-dropped episodes via the
   recency window.

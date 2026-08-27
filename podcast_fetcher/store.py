@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from datetime import date, datetime
 from pathlib import Path
 
 from podcast_fetcher.state import read_json, write_json_atomic
@@ -8,6 +9,7 @@ PROCESSED_PATH = "state/emailed_episodes.json"
 PENDING_PATH = "state/pending_digest.json"
 SEEN_ARTICLES_PATH = "state/seen_articles.json"
 DISCOVERY_SEEN_PATH = "state/discovery_seen.json"
+DIGEST_LOG_PATH = "state/digest_log.json"
 
 
 def load_processed(path: str | Path = PROCESSED_PATH) -> dict:
@@ -85,3 +87,42 @@ def load_seen_candidates(path: str | Path = DISCOVERY_SEEN_PATH) -> dict:
 
 def save_seen_candidates(seen: dict, path: str | Path = DISCOVERY_SEEN_PATH) -> None:
     write_json_atomic(path, seen)
+
+
+def load_digest_log(path: str | Path = DIGEST_LOG_PATH) -> dict:
+    """The digest delivery record: which scheduled slot was last settled,
+    and when the last brief actually went out.
+
+    "Settled" is deliberately broader than "sent": a slot is settled once
+    it has either been delivered or been confirmed to have nothing to
+    deliver. Both mean the same thing to the callers -- there is no
+    outstanding brief for that day -- and collapsing them into one field
+    keeps a missed-but-empty slot from being re-examined by every later
+    run of the day.
+    """
+    return read_json(path, default={})
+
+
+def load_settled_slot(path: str | Path = DIGEST_LOG_PATH) -> date | None:
+    """The last settled digest slot, or None if the log doesn't exist yet
+    (a fresh checkout, or the first run after this record was introduced).
+    Callers must treat None as "no history", not as "everything is owed".
+    """
+    raw = load_digest_log(path).get("last_slot")
+    return date.fromisoformat(raw) if raw else None
+
+
+def record_digest_slot(
+    slot: date,
+    sent_at: datetime | None = None,
+    path: str | Path = DIGEST_LOG_PATH,
+) -> None:
+    """Mark `slot` settled. Pass `sent_at` when a brief was actually
+    emailed; omit it when the slot is being settled because there was
+    nothing to send, so `last_sent_at` keeps meaning "last real delivery".
+    """
+    log = load_digest_log(path)
+    log["last_slot"] = slot.isoformat()
+    if sent_at is not None:
+        log["last_sent_at"] = sent_at.isoformat()
+    write_json_atomic(path, log)
