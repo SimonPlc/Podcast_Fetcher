@@ -36,6 +36,13 @@ DEFAULT_MIN_EPISODES_PER_RUN = 2
 # this, it is recorded `failed` (terminal) instead of `deferred`,
 # bounding how many times a single episode can be re-transcribed.
 DEFAULT_MAX_EPISODE_ATTEMPTS = 3
+# How long past its scheduled time a digest slot stays "merely late"
+# before a collect run treats it as dropped and sends the catch-up brief
+# (digest.maybe_send_missed_digest). Must comfortably clear the backup
+# cron, which fires 54 minutes after the primary and then needs a few
+# minutes to install deps and run, or a backup that is simply running
+# slow would be pre-empted by a catch-up.
+DEFAULT_MISSED_DIGEST_GRACE_MIN = 75
 
 
 @dataclass(frozen=True)
@@ -56,6 +63,7 @@ class Config:
     collect_time_budget_min: int
     min_episodes_per_run: int
     max_episode_attempts: int
+    missed_digest_grace_min: int
 
 
 def load_config(env: Mapping[str, str]) -> Config:
@@ -77,4 +85,5 @@ def load_config(env: Mapping[str, str]) -> Config:
         collect_time_budget_min=int(env.get("COLLECT_TIME_BUDGET_MIN", DEFAULT_COLLECT_TIME_BUDGET_MIN)),
         min_episodes_per_run=int(env.get("MIN_EPISODES_PER_RUN", DEFAULT_MIN_EPISODES_PER_RUN)),
         max_episode_attempts=int(env.get("MAX_EPISODE_ATTEMPTS", DEFAULT_MAX_EPISODE_ATTEMPTS)),
+        missed_digest_grace_min=int(env.get("MISSED_DIGEST_GRACE_MIN", DEFAULT_MISSED_DIGEST_GRACE_MIN)),
     )

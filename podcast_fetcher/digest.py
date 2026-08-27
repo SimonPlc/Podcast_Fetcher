@@ -13,10 +13,14 @@ from podcast_fetcher.ingest import fetch_feed
 from podcast_fetcher.llm import ClaudeUnavailableError, check_claude_available
 from podcast_fetcher.models import Article, ExtractResult, Feed
 from podcast_fetcher.render import render_digest
+from podcast_fetcher.schedule import most_recent_due_slot
 from podcast_fetcher.store import (
     load_pending,
+    load_queued_ids,
+    load_settled_slot,
     load_seen_article_hashes,
     load_seen_articles,
+    record_digest_slot,
     save_pending,
     save_seen_articles,
 )
@@ -123,6 +127,16 @@ def run_digest(
         html=html,
     )
     logger.info("digest: email sent to %s", config.email_to)
+
+    # Settle the slot before clearing the queue, not after: the thing this
+    # guards against is the backup run 54 minutes later re-sending a brief
+    # that already went out, and that window opens the moment `send`
+    # returns. A crash between here and save_pending() leaves the queue
+    # uncleared and so repeats content tomorrow, which is the pre-existing
+    # behaviour and much the lesser of the two.
+    slot = most_recent_due_slot(now)
+    if slot is not None:
+        record_digest_slot(slot, sent_at=now)
 
     save_pending({"queued": {}})
     if newly_seen:
@@ -237,3 +251,92 @@ def _mark_articles_seen(newly_seen: list[tuple[str, str]]) -> None:
     for hash_, feed_name in newly_seen:
         records[hash_] = {"feed_name": feed_name}
     save_seen_articles(seen)
+
+
+def run_digest_if_due(
+    config: Config,
+    env: Mapping[str, str],
+    feeds: Sequence[Feed] = (),
+    *,
+    now: datetime | None = None,
+    run: Callable[..., None] = run_digest,
+) -> bool:
+    """Entry point for a cron-triggered digest. Sends unless this slot's
+    brief has already gone out; returns whether it sent.
+
+    Both digest crons land here, and only one of them should ever deliver.
+    The backup exists to cover a primary that failed transiently, but it
+    used to call run_digest() unconditionally: after a *successful*
+    primary it found the queue already cleared and mailed a quiet-day note
+    on top of the real brief, every single weekday. Checking the settled
+    slot makes the backup do what it was always meant to do -- retry only
+    a primary that did not deliver.
+    """
+    now = now or datetime.now(tz=timezone.utc)
+    slot = most_recent_due_slot(now)
+    if slot is not None and load_settled_slot() == slot:
+        logger.info("digest: slot %s already settled; skipping (this is the backup run)", slot)
+        return False
+    run(config, env, feeds, now=now)
+    return True
+
+
+def maybe_send_missed_digest(
+    config: Config,
+    env: Mapping[str, str],
+    feeds: Sequence[Feed] = (),
+    *,
+    now: datetime | None = None,
+    run: Callable[..., None] = run_digest,
+) -> bool:
+    """Catch up a digest slot that never ran, from inside a collect run.
+    Returns whether it sent.
+
+    GitHub Actions makes no delivery guarantee for `schedule`: under load
+    it delays runs and drops them outright, and on 2026-08-26 it dropped
+    both digest crons, so no brief went out that morning and the queued
+    episodes sat undelivered for a day. Moving the crons off the hour
+    makes that less likely but cannot make it impossible, so the recovery
+    lives here instead: every collect run checks whether a slot went by
+    undelivered and, if so, sends the brief it missed. Six collect runs a
+    day means six independent chances to notice.
+
+    Two deliberate limits:
+
+    - It only fires when the podcast queue is non-empty. A slot missed on
+      a day that would have produced an articles-only digest is settled
+      silently rather than caught up, because articles are re-fetched at
+      digest time and a stale one is worth less than an unexpected email.
+    - With no log at all (the first run after this shipped) it settles the
+      current slot without sending, since an absent history is not
+      evidence that anything was missed.
+    """
+    now = now or datetime.now(tz=timezone.utc)
+    slot = most_recent_due_slot(now, grace_minutes=config.missed_digest_grace_min)
+    if slot is None:
+        return False
+
+    settled = load_settled_slot()
+    if settled is None:
+        logger.info("digest: no delivery log yet; settling slot %s without sending", slot)
+        record_digest_slot(slot)
+        return False
+    if settled >= slot:
+        return False
+
+    if not load_queued_ids():
+        # Settle it anyway. Otherwise episodes queued *after* the missed
+        # slot would look like missed content to the next collect run,
+        # which would then mail a brief in the middle of the afternoon.
+        logger.info("digest: slot %s was missed but nothing is queued; settling, no catch-up", slot)
+        record_digest_slot(slot)
+        return False
+
+    logger.warning(
+        "digest: slot %s was missed (last settled %s) and %d item(s) are queued; sending catch-up brief",
+        slot,
+        settled,
+        len(load_queued_ids()),
+    )
+    run(config, env, feeds, now=now)
+    return True
