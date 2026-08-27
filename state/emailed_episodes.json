@@ -87,6 +87,48 @@
       "title": "The Commodity Bull Market Is Broadening | Jim Wiederhold on Copper, Grains, and Bloomberg Commodity Index",
       "url": "https://traffic.megaphone.fm/EWWMN7216533128.mp3"
     },
+    "3655ef36-a18c-11f1-aeca-cbd655fc898d": {
+      "feed_name": "Forward Guidance",
+      "implications": "For a repo/rates desk, watch Treasury's TGA drawdown mechanics and any RRP/reserve-purchase reversal signals as they directly affect bill supply, SOFR basis, and front-end funding conditions; the term-premium-driven long-end selloff and Bessent's buyback campaign are live inputs for duration and curve positioning into Jackson Hole.",
+      "key_claims": [
+        "Druckenmiller (op-ed): 'the long-term treasury yield is the most important price in the world... it is also the only fiscal disciplinarian the US has left'; 'if the 30-year must trade at 5.5% to clear, that isn't a crisis, it is an invoice'",
+        "Steve Liesman (CNBC), citing two senior Treasury officials: Treasury could use its near-$1 trillion TGA balance to help fund expanded government bond purchases",
+        "Host: reverse repo (RRP) balances have already been brought down toward zero as part of the administration's actions",
+        "Hosts: much of the recent US long-end yield rise has been driven by term premium rather than rate expectations, unlike other developed markets where long ends have repriced more on hawkish rate expectations"
+      ],
+      "kind": "podcast",
+      "one_liner": "Deep dive on Treasury's TGA-funded bond buybacks, RRP-to-zero, and a Fed-chair dilemma between hawkish long-end/dovish front-end policy going into Jackson Hole -- core money-market and rates plumbing for a repo desk, wrapped around a Druckenmiller op-ed spat and a long AI/crypto-bubble tangent.",
+      "published": "2026-08-27T10:00:00+00:00",
+      "recap": "Hosts on Blockworks' Forward Guidance Roundup open by noting markets are range-bound into Labor Day, with policymakers actively suppressing volatility (oil, yields) ahead of Jackson Hole. The main story is Stan Druckenmiller's op-ed (reportedly AI-assisted) criticizing Treasury Secretary Bessent's use of bond buybacks to cap long-end yields, arguing the 30-year is the last fiscal disciplinarian and that any 'crisis' at 5.5% yields is really 'an invoice' for Congress, not something Treasury should paper over. The hosts debate whether this signals a rift among Soros-lineage officials (Bessent, Fed Chair Warsh) or is a coordinated trial balloon shifting blame to Congress. They then discuss a CNBC leak that Treasury could tap its ~$1tn TGA balance to fund expanded bond purchases, noting this is largely a timing trick versus issuing more bills, but signals Bessent's intent to fight yields above 5% aggressively. Looking ahead to Warsh's Jackson Hole speech, they lay out two scenarios: talking hawkish on the long end/balance sheet while staying dovish on the front end (rates, possibly reviving reserve purchases to manage bill-driven SOFR basis stress), versus talking tough with no real teeth since a rate hike isn't on the table. They conclude the setup is a 'nothing burger' for yields short-term but structurally bearish long-term, with the recent selloff driven mainly by term premium rather than rate expectations. The episode closes with a long tangent comparing Anthropic's rumored IPO/valuation hype to the 2021 crypto L1 bubble, and reaffirming a preference for gold/Bitcoin 'debasement trades' over bonds.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "repo",
+        "TGA",
+        "RRP",
+        "Treasury buybacks",
+        "Fed",
+        "Jackson Hole",
+        "term premium",
+        "SOFR",
+        "Druckenmiller",
+        "AI bubble"
+      ],
+      "terms": [
+        "TGA -- Treasury General Account, the US Treasury's main operating cash account held at the Federal Reserve",
+        "RRP -- overnight reverse repurchase facility at the Federal Reserve",
+        "SOFR -- Secured Overnight Financing Rate, the primary US overnight repo-based reference rate"
+      ],
+      "tier": "macro",
+      "title": "Druck Calls Out Bessent & Will Jackson Hole Derail The Debasement Trade? | Weekly Roundup",
+      "url": "https://traffic.megaphone.fm/BWG1012068594.mp3",
+      "watch": [
+        "Fed Chair Warsh's Jackson Hole speech (Friday) for balance-sheet/duration and front-end rate signals",
+        "Whether Treasury actually taps the TGA vs. issuing new bills to fund buybacks",
+        "Any move to resume reserve (RRP-related) purchases to manage SOFR basis volatility from heavier bill issuance",
+        "30-year yield behavior around the 5.5% level Druckenmiller flagged"
+      ]
+    },
     "3db9fb2c-9a6c-11f1-bae3-176a0945fba2": {
       "feed_name": "Monetary Matters",
       "kind": "podcast",
@@ -692,6 +734,48 @@
         "Whether Treasury shifts bill/coupon issuance mix as stablecoin demand for bills becomes clearer",
         "Further US Treasury term-premium moves tied to Fed-independence concerns",
         "Crack spreads and diesel prices if Ukrainian strikes on Russian refining capacity intensify"
+      ]
+    },
+    "b324a08e-dea3-42b2-813d-fec5b475d2bb": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a credit/structured-credit desk, this is a warning sign about mark integrity and affiliate concentration risk in insurance-backed private credit (loans, CLO equity, warehouse lines) \u2014 worth flagging any exposure to Guggenheim-affiliated paper or similarly structured insurer/sponsor-related private credit vehicles, and treating BDC discounts-to-NAV and non-traded credit fund redemption trends as read-throughs; limited direct repo/rates relevance beyond insurers' use of repo against high-quality collateral to fund these structures.",
+      "key_claims": [
+        "A $1.18bn Guggenheim-linked first-lien loan due 2031, priced at par in November 2024, was trading around 72.5-73 cents on the dollar by August 2026 (host, citing market pricing)",
+        "Guggenheim Investments' Q2 revenue fell 38% year-over-year and a measure of earnings fell 77% (host)",
+        "Delaware Life and Clear Spring acknowledged more than $20bn of investments should have been classified as affiliated but were not (host, citing company disclosures)",
+        "Bloomberg reported the insurers' remediation plans could reduce affiliated exposure by approximately $6.5bn (host, citing Bloomberg)",
+        "S&P affirmed Delaware Life's A-minus financial strength rating but revised the outlook from stable to negative (host)",
+        "Walter agreed to sell the LA Lakers to Josh Kushner and Bob Iger at a record $12.5bn valuation (host)"
+      ],
+      "kind": "podcast",
+      "one_liner": "A Guggenheim-linked $1.18bn loan trading at distressed 73 cents exposes how Mark Walter's TWG insurers (Delaware Life, Clear Spring) mislabeled $20bn+ of affiliated private-credit loans, raising fresh doubts about valuation integrity across the insurance-backed private credit complex.",
+      "published": "2026-08-27T11:00:00+00:00",
+      "recap": "The episode examines a distressed-priced loan tied to Guggenheim Partners CEO Mark Walter's broader business network, which spans asset management (Guggenheim Investments), a holding company (TWG Global), and two life insurers, Delaware Life and Clear Spring. A $1.18bn first-lien loan due 2031, issued at par in November 2024, has fallen to roughly 72.5-73 cents despite no missed payments, a level the host frames as market-implied distress. The decline followed a 38% revenue drop and 77% earnings collapse at Guggenheim Investments, partly blamed on delayed advisory-fee recognition at Guggenheim Private Investments, itself the subject of a whistleblower complaint. Separately, Delaware Life and Clear Spring disclosed that over $20bn of investments should have been classified as \"affiliated\" but weren't, following federal grand jury subpoenas and an SEC inquiry. The host argues this reflects a broader pattern: insurers' long-duration annuity premiums are used as cheap, sticky leverage that private-credit sponsors funnel into related-party loans, warehouse facilities, CLOs, and even trophy assets (Dodgers, the since-sold Lakers stake), while risk sits with policyholders. S&P cut Delaware Life's outlook to negative; the insurers plan to shed roughly $6.5bn of affiliated exposure. The host connects this to wider private-credit opacity \u2014 BDCs trading below NAV, rising redemptions in non-traded credit funds \u2014 and argues fragmented state/federal regulatory oversight means no one has a full picture of affiliate chains, making the Walter case a potential template for scrutinizing similar insurer-sponsor structures industry-wide.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "private credit",
+        "insurance",
+        "affiliated transactions",
+        "CLO",
+        "BDC",
+        "credit",
+        "structured credit",
+        "regulation"
+      ],
+      "terms": [
+        "BDC -- Business Development Company, a publicly traded closed-end fund that lends to and invests in private/middle-market companies",
+        "CLO -- Collateralized Loan Obligation, a securitization backed by a pool of leveraged loans",
+        "First lien loan -- a secured loan with the highest priority claim on pledged collateral in a default"
+      ],
+      "tier": "plumbing",
+      "title": "The Mark Walter Scandal Could Expose Billions in Private Credit Losses",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/8f85de06/c3797705.mp3",
+      "watch": [
+        "Further disclosures or rating actions on Delaware Life and Clear Spring as they unwind ~$6.5bn of affiliated exposure",
+        "Outcome of the federal grand jury subpoenas and SEC investigation into TWG/Guggenheim insurers",
+        "Whether other insurer-sponsor private credit groups face similar affiliate-reclassification scrutiny",
+        "Pricing action on the 2031 Guggenheim-linked first-lien loan and any affiliate purchases of the debt"
       ]
     },
     "b8c9473a-9f6e-11f1-946b-2b3f9ea17d93": {
