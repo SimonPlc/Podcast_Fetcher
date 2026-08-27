@@ -23,3 +23,6 @@ venv/
 Thumbs.db
 
 # NOTE: state/*.json IS committed on purpose (the repo is the database).
+
+# Cygwin/Git-Bash crash dumps
+*.stackdump
