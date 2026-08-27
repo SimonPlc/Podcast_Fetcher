@@ -9,6 +9,9 @@
     "63033a888f7754682c1fba60796571225b0c72fd584a742feb8038eb1f6ab962": {
       "feed_name": "Fed FEDS Notes"
     },
+    "80aea6d16b93a846a76d92c33390b557171b060cf6ba64bb71af3e5500ad8243": {
+      "feed_name": "BoE Bank Underground"
+    },
     "88e835ad029defceb7603710a7fb28c7a16ef3870cd12f626056a71d5a03ad9b": {
       "feed_name": "Apollo Academy"
     },
@@ -20,6 +23,9 @@
     },
     "f1a55b2575608f37c9809e2aca3a0e20ca9f256fdee9c27fd2b5db122f07e456": {
       "feed_name": "Apollo Academy"
+    },
+    "f64019ac4c7c132694c8230bea6b7886b1330a1fca306e7690d9d36b3b763029": {
+      "feed_name": "BoE Bank Underground"
     },
     "f76f57efa4753985e36abde11184cb52e0380fb067da5600b054e03435e289f9": {
       "feed_name": "BIS working papers"
