@@ -78,6 +78,15 @@
       "title": "Nvidia\u2019s Hidden Debt Risk Could Crash the ENTIRE AI Bubble",
       "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/a19765c9/cce6c7d3.mp3"
     },
+    "363a4bf4-a179-11f1-ad46-8bd88e04ce7d": {
+      "feed_name": "Monetary Matters",
+      "kind": "podcast",
+      "published": "2026-08-26T18:08:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "The Commodity Bull Market Is Broadening | Jim Wiederhold on Copper, Grains, and Bloomberg Commodity Index",
+      "url": "https://traffic.megaphone.fm/EWWMN7216533128.mp3"
+    },
     "3db9fb2c-9a6c-11f1-bae3-176a0945fba2": {
       "feed_name": "Monetary Matters",
       "kind": "podcast",
@@ -579,6 +588,38 @@
         "DOJ/DEA ruling on broader (recreational) cannabis rescheduling, possibly this fall",
         "Whether rescheduling opens access to Chapter 11 for cannabis borrowers"
       ]
+    },
+    "8cd1efbf-943d-4d11-ba9c-b4b2007efb2f": {
+      "feed_name": "Asia Centric",
+      "implications": "Background, not actionable -- this is a European industrial-policy and equity-thematic story with no direct read-through to repo, funding markets, rates, or credit; any relevance would only surface indirectly via future European sovereign/defense-related bond supply, which isn't discussed here.",
+      "key_claims": [
+        "Bloomberg Intelligence estimates Europe needs 14 trillion euros of cumulative spend through 2035 to achieve strategic self-sufficiency (Rod Turnbull).",
+        "Defense alone requires about 750 billion euros per year, totaling 6.7 trillion euros cumulative to 2035 -- the largest line item.",
+        "Europe's GDP gap to the US is about 3 trillion euros and could widen to 7 trillion by 2040 if unaddressed, per Bloomberg Economics.",
+        "About 11 trillion euros of EU household savings sit in low-return bank deposits, seen as a potential funding source per the Draghi report.",
+        "Germany's pension overhaul could unlock about 500 billion euros.",
+        "The EU's 2028-2034 budget (MFF) is expected to raise the defense/tech spending share from about 13-14% to the low 20% range, freeing roughly 410 billion euros.",
+        "The EU's SAFE program provides 150 billion euros in cheap loans for defense investment.",
+        "PHEV/EV market share in the EU is about 27% and in the UK about 43%, with Chinese brands like BYD gaining share; about 100,000 EU auto-sector jobs have been lost since 2024 out of 13.8 million tied to the industry."
+      ],
+      "kind": "podcast",
+      "one_liner": "A discussion of Europe's strategic autonomy spending needs and defense/EV equity picks has no repo, funding, rates, or credit angle for a HK financing trader.",
+      "published": "2026-08-26T21:05:00+00:00",
+      "recap": "Bloomberg Intelligence's Rod Turnbull discusses a report estimating Europe needs to spend 14 trillion euros through 2035 to achieve strategic self-sufficiency from the US and China, after decades of underinvestment in defense, energy, and technology. The gap stems from Europe failing to commercialize its own innovations (the internet, mobile phones, battery tech) due to a risk-averse capital culture, with capital and talent leaking to the US. The 14 trillion breaks down into 6.7 trillion for defense, 3.2 trillion for energy, 3 trillion for tech, and 740 billion for food/agriculture, roughly matching the earlier Draghi report's recommended 1.2-1.5 trillion euros of annual spend. Defense is seen as the most achievable area of self-sufficiency, with picks beyond the well-known primes (Rheinmetall, BAE, Saab) including smaller names like Theon (night vision) and Mildef (hardened field PCs), plus Ukrainian defense innovators like FirePoint's Flamingo cruise missile. Energy and tech remain weak spots given reliance on imports and a lack of native AI/chip capability. Financing sources discussed include unlocking 11 trillion euros of EU household deposits, a German pension overhaul freeing up 500 billion, the EU's 2028-2034 budget (MFF) shifting weight toward defense/tech, and the EU's SAFE defense loan program. China's EV dominance (BYD, etc.) is also covered as a threat to Europe's 13.8 million auto-sector jobs.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "Europe",
+        "defense",
+        "equities",
+        "macro",
+        "off-topic"
+      ],
+      "terms": [],
+      "tier": "asia",
+      "title": "Europe Needs \u20ac14 Trillion to Catch US, China",
+      "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/992d604b-06ca-40cb-88b2-af6c016f5aa0/8cd1efbf-943d-4d11-ba9c-b4b2007efb2f/audio.mp3?utm_source=Podcast&in_playlist=75a9f17c-2ff1-42c9-9a27-af6c016fae89",
+      "watch": []
     },
     "9909eeee-9c27-11f1-ab19-cf682a15597e": {
       "feed_name": "Forward Guidance",
