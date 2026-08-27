@@ -1,5 +1,46 @@
 {
   "queued": {
+    "23fe5a8c-d1c2-4e74-975b-b4b30028ce5d": {
+      "feed_name": "Odd Lots",
+      "implications": "For a repo/rates book: Schmidt's accommodative r-star view and acknowledgment that Fed balance-sheet duration actions can move long rates are directly relevant to curve positioning, while the unresolved Warsh reaction function amid above-target inflation is a source of near-term rate-path uncertainty; the payments/atomic-settlement discussion is longer-horizon background on future liquidity and settlement plumbing rather than an immediate catalyst.",
+      "key_claims": [
+        "Schmidt: the Fed moves $5-10 trillion a day through multiple payment pipes",
+        "Unemployment fell from 4.3% to 4.1% since the last dot plot",
+        "The 30-year Treasury yield is above 5%",
+        "Schmidt: inflation has 'surged into the mid-threes' and 'we haven't done our job yet on inflation'",
+        "Schmidt dissented multiple times last year as a voting FOMC member, favoring more attention to inflation",
+        "Schmidt: r-star is normalizing but likely at a higher base level than pre-2008, making current policy fairly accommodative",
+        "15 people were named to new Fed task forces, not yet in direct dialogue with regional Fed presidents"
+      ],
+      "kind": "podcast",
+      "one_liner": "Kansas City Fed's Jeff Schmidt (a 2025 FOMC dissenter) discusses atomic settlement in payments, Fed balance-sheet effects on long rates, an accommodative r-star, and the still-murky reaction function under new Chair Kevin Warsh with inflation stuck in the mid-3s.",
+      "published": "2026-08-27T11:30:00+00:00",
+      "recap": "Recorded at the 2026 Jackson Hole symposium (themed 'financial innovation in payments'), Odd Lots hosts interview Kansas City Fed President Jeff Schmidt. He frames the payments theme around 'atomic settlement' -- instant, simultaneously-reconciled payments moving through the $5-10 trillion/day Fed system -- which he says will raise the importance of duration and liquidity management. On rates, Schmidt notes the Fed only directly controls the short end, though balance-sheet actions post-2008 and post-2020 pulled in duration and influenced longer rates. He attributes the rise in long yields (30-year above 5%) to competition between public and private credit demand, much of it driven by AI/data-center buildout crowding out other industries for commodities like steel, copper and grains. He says the labor market looks solid (unemployment fell to 4.1%) but inflation, which surged into the mid-3s, has not yet been tamed, and he worries about the Fed's credibility if it isn't seen taking inflation seriously -- consistent with his dissents last year as a voting member favoring tighter policy. He views r-star as normalizing but likely structurally higher than pre-2008, judging current policy fairly accommodative. On new Chair Warsh, Schmidt praises his openness to internal debate ('good family fight') but acknowledges Warsh's reaction function remains unclear, with newly formed Fed task forces (data, communications) not yet in dialogue with regional presidents -- that engagement is expected only once their research is published.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "FOMC",
+        "r-star",
+        "payments",
+        "balance sheet",
+        "yield curve",
+        "inflation",
+        "Warsh"
+      ],
+      "terms": [
+        "FOMC -- Federal Open Market Committee, the Fed's monetary policy-setting body",
+        "r-star -- the theoretical neutral real interest rate consistent with stable inflation and full employment"
+      ],
+      "tier": "plumbing",
+      "title": "Kansas City Fed President Jeffrey Schmid on the First Jackson Hole of the Warsh Era",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/23fe5a8c-d1c2-4e74-975b-b4b30028ce5d/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+      "watch": [
+        "Warsh's Friday Jackson Hole speech for clarity on the Fed's reaction function",
+        "Publication of the new Fed task force findings on data and communications",
+        "Further FOMC dissents given inflation running in the mid-3s"
+      ]
+    },
     "3655ef36-a18c-11f1-aeca-cbd655fc898d": {
       "feed_name": "Forward Guidance",
       "implications": "For a repo/rates desk, watch Treasury's TGA drawdown mechanics and any RRP/reserve-purchase reversal signals as they directly affect bill supply, SOFR basis, and front-end funding conditions; the term-premium-driven long-end selloff and Bessent's buyback campaign are live inputs for duration and curve positioning into Jackson Hole.",
