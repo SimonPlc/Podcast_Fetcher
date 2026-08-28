@@ -761,6 +761,15 @@
         "BDC non-accrual and leveraged-loan default trends as a leading credit-cycle indicator"
       ]
     },
+    "823608ea-a219-11f1-b45f-cf62504a9996": {
+      "feed_name": "The Macro Trading Floor",
+      "kind": "podcast",
+      "published": "2026-08-28T13:00:00+00:00",
+      "status": "failed",
+      "tier": "macro",
+      "title": "On Bessent, Gold & Idiosyncratic Trades",
+      "url": "https://traffic.megaphone.fm/ALFINVESTMENTSTRATEGYBV9992490790.mp3"
+    },
     "8a8d21ff-f9ea-402d-b5a1-24b28dc78e36": {
       "feed_name": "Cloud 9fin",
       "implications": "Background, not actionable for a rates/repo/credit trader -- this is a small, idiosyncratic corner of leveraged finance ($1-2bn across niche issuers) with no read-through to funding markets, rate policy, or mainstream credit/structured credit.",
@@ -1248,6 +1257,33 @@
       "tier": "quant",
       "title": "Power surge: The US electricity derivatives boom, with ElectronX",
       "url": "https://mcdn.podbean.com/mf/web/3ugz59ircf6qmcge/JPM_MS_Power_Trading_FINAL6321v.mp3",
+      "watch": []
+    },
+    "marketmatters.podbean.com/69b5d94b-3bdd-30d6-a7e4-4cf462c11119": {
+      "feed_name": "Making Sense (J.P. Morgan)",
+      "implications": "Background, not actionable -- this is an industrials/M&A advisory discussion with no repo, funding, rates, or credit content relevant to the reader's book.",
+      "key_claims": [
+        "Speakers note the April rare-earth magnet supply cutoff led to auto factory shutdowns two months later.",
+        "Korea Zinc is building a smelter in Clarksville, Tennessee that will produce 11 of 13 critical minerals domestically, per Michael Johnson.",
+        "Speakers expect supply-chain-driven investment to be an important M&A trend over the next two to ten years."
+      ],
+      "kind": "podcast",
+      "one_liner": "A JPMorgan investment banking piece on supply-chain resiliency and critical-minerals M&A has no funding, rates, or credit content relevant to a repo/financing trader.",
+      "published": "2026-08-28T16:03:40+00:00",
+      "recap": "This is an episode of JPMorgan's Making Sense podcast, part of a 'Security and Resiliency in Action' series produced by the bank's Investment Banking Group. The discussion features Michael Johnson (JPMorgan's SRI lead for energy and government), Andrew Castaldo (co-head of MidCap M&A), and Ben Wilson (co-head of North American M&A), focused on the capital needs of critical supply chains. They describe JPMorgan's Security and Resiliency Initiative (SRI), launched partly in response to last year's rare-earth magnet supply cutoff that triggered auto-factory shutdowns, and frame national security now as extending beyond weapons to generic pharmaceuticals, grid security, and technology. The speakers discuss identifying second- and third-tier suppliers (e.g., medium-voltage transformer makers) that are often small, family-owned businesses needing capital and advisory support, the shift from just-in-time to just-in-case inventory strategies, and onshoring of critical mineral processing and refining. They cite the Korea Zinc smelter project in Clarksville, Tennessee, as an example of long-term investment that will domestically produce 11 of 13 critical minerals and spur downstream manufacturing and jobs. The conversation concludes that repeated shocks (COVID, geopolitical tensions) have shifted corporate boards toward permanently prioritizing supply-chain resiliency over lowest-cost sourcing, which the speakers expect to be a durable M&A theme over the next two to ten years.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "supply chain",
+        "critical minerals",
+        "M&A",
+        "industrials",
+        "off-topic"
+      ],
+      "terms": [],
+      "tier": "quant",
+      "title": "The capital required for critical supply chains",
+      "url": "https://mcdn.podbean.com/mf/web/qegkirmvw5cne3y7/JPM_MS_SRI_Supply_Chain_Assets_V188esn.mp3",
       "watch": []
     },
     "marketmatters.podbean.com/cf49bf42-2be3-3179-b7f3-0a2bb4fc73b7": {
