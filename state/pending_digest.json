@@ -1,3 +1,47 @@
 {
-  "queued": {}
+  "queued": {
+    "586f23f8-81a9-4a68-93b3-f3e423ad4a30": {
+      "feed_name": "Macro Hive Conversations",
+      "implications": "The Treasury buyback/Fed reserve-management dynamic and potential 'stealth QE' are directly relevant to repo and bill supply/funding conditions, while the capex-financing-driven back-end selloff and hawkish ECB view argue for watching term premium and cross-market duration positioning rather than pure directional rates calls.",
+      "key_claims": [
+        "Turek: core PCE looks set to finish 2026 around 3%+ versus the Fed's December dot of 2.2%",
+        "Turek: hyperscaler AI capex could exceed $1 trillion over the next 12 months, up from roughly $700-800 billion this year and $200-400 billion in 2024-2025",
+        "Turek: the Treasury buyback program was expanded from $2 billion to $4 billion operations amid benign market conditions (tight swap spreads, no on-the-run/off-the-run dislocation)",
+        "Turek: Nvidia announced a $500 billion fund backed by major Wall Street firms to smooth financing conditions for AI supply-chain capex",
+        "Turek: Germany's budget deficit is around 4% and mechanically widening as growth stalls",
+        "Turek: oil is being kept in a roughly $75-95 range as both the US and Iran are incentivized to avoid both very low and very high prices"
+      ],
+      "kind": "podcast",
+      "one_liner": "A macro strategist's tour through Fed politics, AI capex financing, and the Treasury's new long-end buyback program touches directly on rates/duration positioning even though it's framed as broad macro commentary.",
+      "published": "2026-08-28T11:01:00+00:00",
+      "recap": "JST Advisors' John Turek discusses the Warsh Fed, comparing him to ECB's Lagarde as an 'owl' figure rather than a strong hawk/dove, someone solving for political optimization rather than leading with a fixed framework -- a stance the market punished after July's press conference produced a bear steepening. Turek sees the US economy driven increasingly by AI capex rather than consumption, arguing hyperscalers are spending from a fear of falling behind (a left-tail-avoidance motive) more than a pure right-tail bet, implying capex could keep rising through 2027 -- but a capex bust, if it comes, would be severe given the scale involved. He explains the sharp back-end selloff (30yr near decade highs) as driven by hyperscalers exhausting free cash flow and turning to debt markets just as global savings (increasingly only East Asian households) fail to keep pace with surging investment demand. He then covers the US Treasury's newly expanded long-end buyback program, arguing it's less about market dysfunction and more a level-targeting move akin to prior FX interventions (dollar-yen, the FX swap facility), raising the risk that funding buybacks via bill issuance could eventually force the Fed to restart reserve management purchases -- effectively QE. He also flags a hawkish ECB reaction function, German fiscal deterioration and rising AFD support, and a durable Iran/Strait of Hormuz standoff keeping refined product prices elevated and inflation risk skewed higher.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "Treasury buybacks",
+        "rates",
+        "duration",
+        "AI capex",
+        "ECB",
+        "dollar",
+        "JGB"
+      ],
+      "terms": [
+        "OIS -- Overnight Index Swap, a derivative referencing the compounded overnight rate, used as a rates benchmark",
+        "RMP -- Reserve Management Purchases, Fed asset purchases used to manage bank reserve levels distinct from QE",
+        "PCE -- Personal Consumption Expenditures price index, the Fed's preferred inflation gauge",
+        "ECI -- Employment Cost Index, a wage/compensation cost measure used by the Fed as a preferred wage tracker"
+      ],
+      "tier": "macro",
+      "title": "Ep. 373: Jon Turek on the 'Owl' Fed, the US Treasury's Bond Buybacks, and AI Capex Durability",
+      "url": "https://traffic.libsyn.com/secure/macrohive/MH_w_TUREK_.mp3?dest-id=1929056",
+      "watch": [
+        "Whether Treasury upsizes long-end buyback operations further and funds them via increased bill issuance",
+        "Whether the Fed restarts reserve management purchases (potential quasi-QE) in response to bill-driven funding pressure",
+        "Jackson Hole commentary from Warsh for more explicit reaction-function guidance",
+        "Hyperscaler 2027 capex guidance and corporate bond issuance from Google/Meta/etc. to fund AI spend"
+      ]
+    }
+  }
 }
