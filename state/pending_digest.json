@@ -42,6 +42,38 @@
         "Jackson Hole commentary from Warsh for more explicit reaction-function guidance",
         "Hyperscaler 2027 capex guidance and corporate bond issuance from Google/Meta/etc. to fund AI spend"
       ]
+    },
+    "ed1ddc9a-0462-49b4-824a-d24ed8a751a1": {
+      "feed_name": "Eurodollar University",
+      "implications": "Background, not actionable: the framework (using TIPS breakevens, swap spreads, collateral scarcity/abundance and bill yields jointly to gauge whether price shocks are transitory or regime-changing) is a legitimate and familiar lens for this trader's book, but the item offers no current readings, levels, or trade-relevant conclusions -- it's a conceptual pitch, not analysis.",
+      "key_claims": [
+        "Alan Greenspan, in a 1997 discussion of monetary changes, said interpreting the information gap left by the shift away from monetary aggregates was a 'severe challenge for monetary analysts' (as cited by the speaker)",
+        "The Fed moved away from targeting monetary aggregates (M1/M2/M3) toward the federal funds rate by the early 1980s, per the speaker",
+        "During recent tariff-driven inflation fears, the speaker says the TIPS curve showed near-term price pressure but did not show longer-term inflation compensation rising, implying markets did not price a sustained new inflation regime"
+      ],
+      "kind": "podcast",
+      "one_liner": "A promotional pitch for Eurodollar University's paid course, built around a 'monetary signal framework' (TIPS breakevens, yield curve, swap spreads, collateral markets, bill yields) for reading real-time monetary conditions rather than trusting the Fed or lagging data -- conceptually on-topic for a repo/rates trader but almost entirely sales copy with no concrete current readings or numbers.",
+      "published": "2026-08-29T11:00:00+00:00",
+      "recap": "The speaker (from Eurodollar University) argues that investors and even the Federal Reserve itself cannot reliably observe the modern monetary system, because it evolved decades ago beyond traditional aggregates like M1/M2/M3 into offshore, bank-centered wholesale funding, repo, derivatives and collateral chains -- what he calls the Eurodollar system. He cites the Fed's own shift away from targeting monetary aggregates toward the fed funds rate by the early 1980s, and quotes Alan Greenspan's 1997 remark that interpreting the resulting information gap was a 'severe challenge for monetary analysts.' Rather than relying on backward-looking statistics (CPI, payrolls, GDP), he proposes reading 'fingerprints' left by the monetary system across market prices: the Treasury yield curve, TIPS curve and breakeven inflation, swaps and swap spreads, collateral market conditions, T-bill yields, exchange rates and dealer positioning. As a worked example, he contrasts the media narrative during recent tariff-driven price fears (persistent inflation, 1970s redux) with what the TIPS curve actually showed -- near-term price pressure without a corresponding rise in longer-term inflation compensation -- arguing this distinguishes a transitory price shock from a genuine monetary inflation regime, and that misreading the two could lead to durationally wrong positioning. The bulk of the transcript is a sales pitch for the paid Eurodollar University 2.0 curriculum, daily briefings and Q&As, offered with a 14-day money-back guarantee.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "Eurodollar",
+        "TIPS",
+        "collateral",
+        "funding markets",
+        "yield curve",
+        "inflation expectations",
+        "education"
+      ],
+      "terms": [
+        "TIPS -- Treasury Inflation-Protected Securities, whose yield spread to nominal Treasuries (breakeven inflation) is used as a market-implied inflation gauge",
+        "Eurodollar system -- the offshore, largely bank-centered dollar funding and collateral network (wholesale funding, repo, derivatives) operating outside traditional domestic monetary aggregates, unrelated to the Euro currency"
+      ],
+      "tier": "plumbing",
+      "title": "If You Don\u2019t Understand the Eurodollar System, You Don\u2019t Understand the Markets",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/c71afbfd/c05a5280.mp3",
+      "watch": []
     }
   }
 }
