@@ -1,5 +1,51 @@
 {
   "queued": {
+    "38d66de3-60e9-48cd-bb6b-174a2ea86f12": {
+      "feed_name": "Eurodollar University",
+      "implications": "For an HK financing/repo desk, this reinforces that offshore dollar funding remains structurally tight even as DXY looks soft -- a reason to watch cross-currency basis (JPY, PHP, INR) and Treasury/collateral demand from Asian officials rather than reading a weak DXY as an easing in dollar funding conditions; the FIMA repo facility discussion is also directly relevant collateral-financing plumbing to monitor.",
+      "key_claims": [
+        "Japan's MOF spent 15.4 trillion yen (~$96.4bn) between July 30 and Aug 26, its largest single-month intervention ever (host, citing MOF data)",
+        "The US joined the intervention on July 31, the first coordinated US action to support the yen since 1998, with Bessent reportedly planning up to $10bn in yen purchases (host)",
+        "USD/JPY moved from ~164 to 155.23 after intervention, then returned to ~160 within weeks (host)",
+        "Japan has spent roughly 27 trillion yen on FX intervention in 2025 to date (host)",
+        "Philippine peso hit a record low of 62 despite the BSP raising its policy rate to 5% for a third straight meeting; Philippine trade deficit hit $5.97bn in July (host)",
+        "BIS data through end-2025 show FX notional contraction but the dollar's share of FX contracts unchanged to slightly higher (host)",
+        "During 2014-2016 'Eurodollar' period, China and Japan cut combined Treasury holdings by over $350bn while the 10-year yield fell from ~2.6% to ~1.4% (host)"
+      ],
+      "kind": "podcast",
+      "one_liner": "A eurodollar-funding-stress read on Japan's failed $96.4bn yen intervention argues persistent EM/Japan dollar demand -- not de-dollarization -- is the real signal, directly bearing on offshore dollar funding, cross-currency basis and Treasury/collateral flows.",
+      "published": "2026-08-30T11:00:00+00:00",
+      "recap": "The host argues Japan's massive, ultimately failed yen intervention exposes persistent global dollar-funding stress rather than de-dollarization. From July 30-Aug 26, Japan's MOF spent 15.4 trillion yen (~$96.4bn), its largest monthly intervention ever, with the US joining on July 31 -- the first coordinated yen support since 1998, reportedly including Treasury plans for up to $10bn. USD/JPY fell from 164 to 155 before drifting back to 160 within weeks; Japan has now spent ~27 trillion yen in 2025 without changing the trend. The Philippine peso hit a record low of 62 despite the BSP hiking rates to 5%, and India faces similar pressure -- both tied to energy-import bills and dollar scarcity, undercutting the textbook story that rate differentials alone drive the yen's weakness. Higher JGB yields haven't helped because they impose mark-to-market losses on holders like Nippon Life, discouraging domestic buying even as nominal yields rise. The FIMA repo facility was reportedly discussed as a tool to give Japan added flexibility. The host stresses that Japan selling Treasuries to fund intervention reflects dollar reliance, not rejection -- citing BIS and TIC data showing dollar's FX-contract share steady-to-higher and foreign Treasury holdings near record levels, paralleling the 2014-16 'Eurodollar University' episode when Treasury sales coincided with falling, not rising, yields. DXY's dip below 100 is attributed to euro weighting (~58%) masking dollar strength where it matters: trade financing, offshore borrowing, and collateral.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "FX intervention",
+        "yen",
+        "dollar funding",
+        "eurodollar",
+        "FIMA repo",
+        "Treasury holdings",
+        "BOJ",
+        "JGB",
+        "de-dollarization"
+      ],
+      "terms": [
+        "DXY -- the US Dollar Index, a geometrically weighted basket of six currencies in which the euro is ~58%",
+        "TIC -- Treasury International Capital data, the US Treasury's report on foreign holdings of US securities",
+        "BIS -- Bank for International Settlements",
+        "FIMA -- Foreign and International Monetary Authorities repo facility, a Fed facility letting foreign central banks repo their Treasury holdings for dollars without selling them outright"
+      ],
+      "tier": "plumbing",
+      "title": "Japan\u2019s $100 Billion Yen Intervention Just Failed... Now What?",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/042b1b25/d8ce3580.mp3",
+      "watch": [
+        "Whether Japan intervenes again as USD/JPY holds near/above 160",
+        "Use of the Fed's FIMA repo facility by Japan or other Asian central banks",
+        "Philippine peso and Indian rupee dollar-funding pressure",
+        "Nippon Life and other Japanese insurers' JGB buying behavior as a read on domestic demand",
+        "TIC and BIS data for any actual shift in foreign official Treasury holdings"
+      ]
+    },
     "586f23f8-81a9-4a68-93b3-f3e423ad4a30": {
       "feed_name": "Macro Hive Conversations",
       "implications": "The Treasury buyback/Fed reserve-management dynamic and potential 'stealth QE' are directly relevant to repo and bill supply/funding conditions, while the capex-financing-driven back-end selloff and hawkish ECB view argue for watching term premium and cross-market duration positioning rather than pure directional rates calls.",
