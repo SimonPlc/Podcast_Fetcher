@@ -423,6 +423,90 @@
       "title": "What the OpenAI-Hugging Face Hack Really Tells Us About AI Danger",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/4fd75bad-403f-47c1-b23c-b4a60141b176/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83"
     },
+    "51c50213-14cb-470e-ad9c-2545bf25d380": {
+      "feed_name": "Cloud 9fin",
+      "implications": "For a repo/financing desk, the key read-through is on collateral and lien-structure risk in leveraged credits: uptier/non-pro-rata LMEs that stack new-money-over-uptiered-over-left-behind tranches can leave already-thin unencumbered baskets and foreign-debt capacity even thinner, raising the odds of technical defaults and repeat restructurings in stressed leveraged loan and HY names used as financing collateral; it also flags creditor co-op formation and exit-consent/exchange-offer tactics as recurring catalysts to watch in distressed capital structures.",
+      "key_claims": [
+        "DeRoe states his career-average out-of-court debt exchange participation rate is about 94%, versus 99.3% during his first stint at Jefferies",
+        "He says non-pro-rata LMEs that deliberately leave 30-40% of creditors behind are 'bad investment banking' and predictably lead to repeat defaults with poor ultimate recoveries even for the 'winning' creditors",
+        "In the Carvana case, a co-op controlling 75-80% of debt made an initial proposal DeRoe called unappealing, and Jefferies used a partial exchange offer targeting the unaffiliated 20% to open direct talks with large holders, eventually reaching 96% participation",
+        "CommScope's restructuring involved roughly $10 billion of debt, $6 billion of near-term maturities, and about $2 billion of asset-sale proceeds used to help fund the deal",
+        "The 2015-2016 iHeart/Clear Channel Outdoor unrestricted-subsidiary drop-down of about $600 million in stock is cited as one of the first deals to trigger a broad creditor co-op (roughly 50-55% of an $11 billion senior debt group)"
+      ],
+      "kind": "podcast",
+      "one_liner": "A veteran restructuring banker argues that well-run liability management exercises (LMEs) can achieve near-universal creditor participation and durable outcomes, offering a credit investor a framework for judging which LMEs are likely to hold up versus which end in repeat defaults.",
+      "published": "2026-08-31T12:00:00+00:00",
+      "recap": "Bill DeRoe, Jefferies' Chairman of Capital Structure Solutions with 35 years and 600+ restructurings, traces LMEs back to Salomon Brothers' bond-optimization desk and the Drexel-era invention of exit consents, which let a majority of exchanging bondholders strip covenants from holdouts' bonds. He argues most LMEs historically avoided non-pro-rata, coercive structures, and that his career-average out-of-court participation rate is 94% (99%+ at Jefferies in the late '90s). DeRoe criticizes the recent wave of non-pro-rata 'uptier' deals that deliberately leave 30-40% of creditors behind, calling it \"bad investment banking\": these deals often over-layer capital structures into three tranches, exhaust flexibility, spark expensive litigation, and frequently lead to repeat defaults where even the favored creditors recover less than a cooperative deal would have delivered. He walks through case studies \u2014 CommScope (asset-sale-funded deleveraging), Carvana (using a partial exchange offer to bypass a hostile 80%-co-op proposal and negotiate directly with large holders), iHeart (the first major creditor co-op formed defensively after a 2015 unrestricted-subsidiary drop-down), and Inventive Health (a THL portfolio company saved via a bond-to-PIK swap). Themes throughout: define clear client objectives before choosing tactics, maintain parallel negotiating paths and situational flexibility, avoid weaponized NDAs, and resist advisors' urge to use every aggressive new technique just because the documents allow it. He rejects the framing that LMEs are pure \"creditor-on-creditor violence,\" insisting well-structured ones can be win-wins for sponsors, creditors, and companies.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "LME",
+        "liability management",
+        "restructuring",
+        "leveraged finance",
+        "distressed debt",
+        "co-op agreements",
+        "Chapter 11",
+        "credit"
+      ],
+      "terms": [
+        "LME -- liability management exercise, a transaction restructuring a company's debt (e.g. exchange, uptier, drop-down) outside of bankruptcy",
+        "uptier -- a non-pro-rata liability management transaction that reprioritizes some creditors' claims ahead of others within the same tranche",
+        "exit consent -- a technique where exchanging bondholders vote to strip covenants from the bonds of holdouts left behind",
+        "co-op agreement -- a contract among a subset of creditors restricting individual actions (e.g. negotiating separately) to preserve collective leverage",
+        "PIK -- payment-in-kind, interest paid by issuing more debt/securities rather than cash",
+        "1L/2L -- first-lien/second-lien, denoting seniority of secured claims on collateral"
+      ],
+      "tier": "credit",
+      "title": "LME Doomscrolling \u2014 Just because you can, doesn\u2019t mean you should",
+      "url": "https://media.transistor.fm/6a6999bb/6160458f.mp3",
+      "watch": [
+        "Further antitrust scrutiny of creditor co-op agreements",
+        "Repeat-default rates among companies that did non-pro-rata uptier LMEs versus consensual exchanges",
+        "Use of unrestricted-subsidiary drop-downs and partial exchange offers as negotiating tactics in upcoming leveraged loan maturities"
+      ]
+    },
+    "561b3f67-9bad-46b4-bb17-618745da9860": {
+      "feed_name": "Eurodollar University",
+      "implications": "Background, not directly actionable for HK repo/funding markets, but useful color for anyone pricing Chinese bank credit or property developer paper: the described balance-sheet rotation into low-yield government bonds and record-low loan growth is a live signal of impaired bank lending capacity and ongoing property-sector credit deterioration that could spill into Asian credit spreads and developer default risk.",
+      "key_claims": [
+        "China Vanke posted a loss of about $2.2bn (roughly 15bn yuan), per the hosts",
+        "July total social financing and RMB loan growth contracted at a record rate, per the hosts",
+        "Pre-2019 Chinese retail sales growth had never fallen below 8% year-over-year; in 2025 it has been near zero and briefly negative in one month, per the hosts",
+        "The May 2024 'historic housing rescue' and the September 2024 bazooka are described as having had no lasting effect on the Chinese economy or banking system despite trillions of yuan issued",
+        "Chinese banks are described as rotating out of risky lending and into government bonds regardless of rate levels, per the hosts' reading of balance-sheet trends"
+      ],
+      "kind": "podcast",
+      "one_liner": "A discussion of China's latest property-sector rescue (ultra-long mortgages, developer fundraising support) that's really a bank-recapitalization play, with Chinese banks visibly rotating out of lending and into low-yield government bonds -- a credit/rates signal relevant background for anyone watching Asian bank balance sheets and property credit.",
+      "published": "2026-08-31T11:00:00+00:00",
+      "recap": "Two podcast hosts (Snyder and a co-host) discuss China's early-September announcements of a fresh housing-market rescue package, timed to the annual Politburo/Congress meeting cycle. Measures include potential 40-year mortgages to lower monthly payments and a China Securities Regulatory Commission pledge to support developer fundraising via equity and bond issuance. The hosts argue this is less a household stimulus than a backdoor bank bailout: lower payments keep borrowers current and let banks book interest income while working through a large stock of bad property loans. They note recent evidence of continued stress -- China Vanke posted a roughly $2.2bn (about 15bn yuan) loss, July total social financing and RMB loan growth contracted at a record pace, and this follows the failed 'historic' May 2024 housing rescue and September 2024 bazooka, which had no lasting effect on growth or the banking system. Central to their argument is that Chinese banks are rotating balance sheets away from risky lending into government bonds despite ultra-low yields, signaling banks don't want to lend regardless of rate levels, while the PBOC's earlier warnings against buying government bonds went unheeded. They tie this to weak retail sales, falling job security, consumers' precautionary savings, and China's dependence on AI-driven chip exports and an export boom that Europe is now resisting. They frame the package as time-buying rather than a fix, pending China's hoped-for 'fourth industrial revolution' leadership, and warn a slowdown in the global AI trade would remove one of the last props under China's economy.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "China",
+        "housing",
+        "banking sector",
+        "credit",
+        "government bonds",
+        "PBOC",
+        "property developers",
+        "macro"
+      ],
+      "terms": [
+        "TSF -- Total Social Financing, a broad measure of credit and liquidity supplied to China's real economy",
+        "CSRC -- China Securities Regulatory Commission, China's securities market regulator",
+        "PBOC -- People's Bank of China, the central bank"
+      ],
+      "tier": "plumbing",
+      "title": "BREAKING: China Just Launched a Desperate Housing Bailout",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/a95c4ecf/309df927.mp3",
+      "watch": [
+        "Follow-through (or lack thereof) on the CSRC's developer equity/bond fundraising support",
+        "China Vanke and other quasi-state developers' liquidity and loss trajectory",
+        "Chinese bank loan growth and total social financing data for signs of stabilization or further contraction",
+        "Chinese government bond yield moves as a gauge of market skepticism toward the stimulus"
+      ]
+    },
     "568c6e3c-2159-45c2-8e4d-b4ad011d7c22": {
       "feed_name": "Odd Lots",
       "implications": "Background, not actionable -- no repo/funding, rates, or credit angle; purely a development-economics discussion of African manufacturing and demographics.",
