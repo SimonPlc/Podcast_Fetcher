@@ -1,3 +1,51 @@
 {
-  "queued": {}
+  "queued": {
+    "0f62d2ee-e669-4b6f-94ee-20a99203eee5": {
+      "feed_name": "Macro Musings",
+      "implications": "Directly germane to the reader's book: the discussion of discount window stigma, IOR history, and the balance-sheet task force's push toward a more demand-driven ample-reserves regime bears on repo/funding market structure and the Fed's future footprint in money markets, while the inflation-expectations and Fed-communication discussion informs front-end rate positioning.",
+      "key_claims": [
+        "Cohn: his June 2004 Senate testimony argued for authorizing interest on reserves primarily on economic-efficiency grounds, not anticipating the later zero-lower-bound/QE rationale",
+        "Interest on reserves was legislated in 2006 (Financial Services Regulatory Relief Act), originally effective 2011, but accelerated to 2008 amid the financial crisis",
+        "Cohn: five IOR implementation options were considered in a 2008 Fed paper -- tiered reserves, voluntary balance target, corridor, floor with high balances, and wide daily band; the corridor/floor approach with interest on reserves was ultimately adopted",
+        "Cohn argues pre-2008 near-zero reserve levels were an artifact of banks avoiding a zero-interest 'tax,' not a natural scarce-reserves baseline, making direct comparisons to that era misleading",
+        "Cohn attributes above-target inflation partly to 2020-22 Fed framework and forward-guidance/QE mistakes (per his paper with Ergessen/Gottlieb) and partly to tariff and oil-price supply shocks of uncertain magnitude",
+        "Cohn: long-run 5y5y inflation expectations have stayed anchored near 2%+ through recent shocks, while near-term (5-year) expectations rose with oil prices before partly retreating",
+        "Cohn: SVB's failure reflected uninsured runnable deposits funding long-duration MBS amid a supervisory failure to warn on interest-rate risk during the zero-rate period"
+      ],
+      "kind": "podcast",
+      "one_liner": "A 40-year Fed veteran (Don Cohn) unpacks the history of interest on reserves, discount-window stigma, and the live debate over shrinking the Fed's balance sheet toward a more demand-driven reserves regime -- core money-market plumbing territory.",
+      "published": "2026-08-31T09:00:00+00:00",
+      "recap": "David Beckworth interviews former Fed Vice Chair Donald Cohn, covering Volcker's and Greenspan's monetary policy legacies before shifting to current Fed issues. Cohn recounts Volcker's disinflation fight and Greenspan's data-driven navigation of the 1987 crash, the early-90s jobless recovery, the 1994 tightening/1995 soft landing, and the late-90s productivity boom, arguing Greenspan effectively followed a Taylor-rule-like reaction function while resisting explicit multi-year forward guidance. On communications, Cohn argues Kevin Warsh's Fed should provide a clear economic narrative (as Greenspan and Mervyn King's BoE did) even while reducing dot-plot-style guidance. On inflation, Cohn attributes recent above-target inflation partly to 2020-22 Fed framework mistakes (referencing his paper with Ergessen) and partly to tariff/oil supply shocks, noting long-run inflation expectations remain anchored but near-term expectations and service prices bear watching. The core segment covers the Fed's balance-sheet task force: Cohn recounts his own 2004 congressional testimony pushing for interest on reserves (IOR), passed in 2006/accelerated to 2008, and the five options considered for implementation (tiered reserves, voluntary balance targets, corridor, floor, wide band) -- the floor/corridor hybrid was ultimately adopted. He debates the Stein-Greenwood (large balance sheet stabilizes liquidity) versus Rajan (large balance sheet encourages private-sector runnable liquidity, as with SVB) views, and closes on how to shrink reserve demand: destigmatizing discount-window/repo facility usage, addressing political disincentives to borrowing, and revisiting liquidity regulations and resolution-plan assumptions that mandate holding central bank reserves.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "repo",
+        "reserves",
+        "IOR",
+        "Fed balance sheet",
+        "discount window",
+        "QE",
+        "Fed",
+        "rates",
+        "inflation expectations"
+      ],
+      "terms": [
+        "SOFR/OIS -- not directly discussed but implied by repo/reserves context",
+        "IOR -- Interest on Reserves, interest paid by the Fed on balances depository institutions hold at Reserve Banks",
+        "LCR -- Liquidity Coverage Ratio, a bank regulatory requirement to hold sufficient high-quality liquid assets",
+        "QE -- Quantitative Easing, central bank large-scale asset purchases",
+        "FOMC -- Federal Open Market Committee, the Fed's monetary policy-setting body",
+        "SEP -- Summary of Economic Projections, the Fed's quarterly economic forecast release"
+      ],
+      "tier": "plumbing",
+      "title": "Donald Kohn on the Fed's Past, Present, and Future",
+      "url": "https://traffic.libsyn.com/secure/macromusings/MM-558-DonKohn-Podcast-auphonic.mp3?dest-id=865793",
+      "watch": [
+        "Output of Kevin Warsh's Fed balance-sheet task force (Karen Dynan, Jeremy Stein, Raghuram Rajan) on composition and QE triggers",
+        "Any Fed moves to reduce discount-window/repo-facility stigma or expand collateral eligibility toward LCR",
+        "Near-term vs long-term inflation expectations (5y and 5y5y breakevens) given recent tariff/oil-driven moves",
+        "Whether service-price/market-based core inflation firms up further"
+      ]
+    }
+  }
 }
