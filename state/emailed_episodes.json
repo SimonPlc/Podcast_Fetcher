@@ -1608,6 +1608,33 @@
       "url": "https://mcdn.podbean.com/mf/web/qegkirmvw5cne3y7/JPM_MS_SRI_Supply_Chain_Assets_V188esn.mp3",
       "watch": []
     },
+    "marketmatters.podbean.com/988e7227-8a61-3686-994f-1f9e8a54468a": {
+      "feed_name": "Making Sense (J.P. Morgan)",
+      "implications": "Background, not actionable -- this is a JPMorgan marketing/organizational podcast about its structuring franchise, not a source of market or policy signal; the passing mentions of private credit and financing demand offer no new data or catalysts for repo, funding, or credit positioning.",
+      "key_claims": [],
+      "kind": "podcast",
+      "one_liner": "A JPMorgan internal podcast about the bank's equity/cross-asset structuring business and AI adoption, with only glancing mentions of financing and private credit and nothing on repo, funding, or rates markets.",
+      "published": "2026-09-01T13:10:23+00:00",
+      "recap": "This is a JPMorgan 'Making Sense' podcast in which Gerbs Gerrod, head of equity structuring and financing, interviews Rui Fernandes, JPMorgan's head of global structuring, about his first year running the combined sales-and-trading structuring unit. Fernandes describes merging previously separate structuring teams into one group organized as a matrix of asset-class expertise (equity, rates, FX, commodities, credit) and client-type expertise (e.g., insurance, corporates), aiming for 'the total greater than the sum of the parts.' He credits benign market conditions this year for record structured and financing activity, with equities leading due to client demand for leverage and hedging, alongside continued private credit and private equity financing demand. Asked to name the most interesting asset class of 2026, he cites commodities (given its links to AI/digital infrastructure buildout and supply-chain/resource security themes) and corporates as a client segment (a newer focus with different needs than the bank's traditional financial-institution client base). The conversation turns to JPMorgan's VITA Portfolio Solutions platform, a cross-asset platform spanning QIS, Delta One, credit portfolio trading, and financing, organized around four capabilities: create, manage, analyze, report. Fernandes and Gerrod discuss how AI is being used internally for coding/platform development, faster speed-to-market for tailored solutions, synthesizing client information for customization, and post-trade servicing of long-dated structured transactions. The tone throughout is promotional and reflective on organizational design rather than market-moving.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "structuring",
+        "private credit",
+        "financing",
+        "equity derivatives",
+        "AI",
+        "business commentary"
+      ],
+      "terms": [
+        "QIS -- Quantitative Investment Strategies, systematic rules-based index/strategy products",
+        "Delta One -- trading desk/products providing linear (non-optionality) exposure to an underlying asset, e.g. via swaps or futures"
+      ],
+      "tier": "quant",
+      "title": "Innovate to simplify: Structuring for modern markets",
+      "url": "https://mcdn.podbean.com/mf/web/qyuysbusakxamzid/JPM_MS_VidaYTD_V2.mp3",
+      "watch": []
+    },
     "marketmatters.podbean.com/cf49bf42-2be3-3179-b7f3-0a2bb4fc73b7": {
       "feed_name": "Making Sense (J.P. Morgan)",
       "implications": "Background, not actionable -- no content on funding markets, rates, or credit; the only tangential angle is a general read on capital markets appetite (oversubscribed defense IPOs) that has no direct bearing on repo/financing or credit books.",
