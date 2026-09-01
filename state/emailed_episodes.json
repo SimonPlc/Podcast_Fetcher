@@ -1425,6 +1425,47 @@
       "title": "Bill Nelson on Shrinking the Fed's Balance Sheet and Reviving Interbank Markets",
       "url": "https://traffic.libsyn.com/secure/macromusings/MM-556-BillNelson-Podcast-auphonic.mp3?dest-id=865793"
     },
+    "e7c52b24-a236-11f1-8bb8-cb2037ec9015": {
+      "feed_name": "Goldman Sachs Exchanges",
+      "implications": "Background, not actionable for repo/rates books; the only financing-relevant thread is the buildout of utility and IPP debt/equity issuance to fund data center capex, which could add to IG credit supply and is worth noting for anyone tracking utility-sector spreads, but there is no repo, funding, or rates policy content here.",
+      "key_claims": [
+        "Davenport: US power demand forecast raised to 3.5% CAGR through 2030, from 3.2% prior",
+        "Davenport: 2030 US data center power demand forecast raised to 108GW from 83GW",
+        "Singer: global data center power demand in 2030 forecast at 170% above 2025 levels, up from a 117% estimate in March",
+        "Singer: hyperscaler capex estimates for 2029 raised to $2.1tn from $1.5tn as of March",
+        "Davenport: ~60% of data center demand to be met by natural gas, ~40% by renewables/nuclear restarts; ~30GW of behind-the-meter gas capacity expected by 2030",
+        "Davenport: regulated utility capex up 60% over next five years vs. prior five years, funded 30-50% with equity; Vistra recently upgraded to investment grade, Constellation already investment grade"
+      ],
+      "kind": "podcast",
+      "one_liner": "A Goldman Sachs Exchanges discussion on AI-driven power demand and utility/grid constraints, with only a brief aside on utility and IPP credit metrics relevant to IG issuance.",
+      "published": "2026-09-01T04:00:00+00:00",
+      "recap": "Goldman Sachs' Alison Nathan and George Lee host GS Sustain's Brian Singer and utilities analyst Carly Davenport to update their AI power demand thesis. Davenport raised the US power demand CAGR to 3.5% through 2030, driven by data center demand hitting 108GW (up from 83GW) as new projects and rising data center utilization (vacancy down to 1-2%) both contribute. Singer noted hyperscaler capex estimates have jumped sharply since March (2027 estimate now $1.7tn, 2029 now $2.1tn), and despite efficiency gains, aggregate demand keeps outrunning them; globally, data center power demand in 2030 is now seen 170% above 2025 levels, equivalent to adding a country the size of Japan's total power consumption since 2024. They discuss regional market shifts (PJM staying dominant, MISO overtaking ERCOT as #2 by 2030), supply constraints via an expanded 'seven Ps' framework (pervasiveness, productivity, price, policy, parts, people, physical environment), and the rise of 'behind the meter' gas generation as a bridging solution (~30GW by 2030). Populist pushback and permitting delays (300+ local moratoria) are flagged as the steepest obstacle. On financing, Davenport notes regulated utility capex is up 60% over five years, funded ~30-50% with equity to preserve credit cushions, while independent power producers like Vistra and Constellation have seen investment-grade upgrades, with M&A-driven leverage expected to normalize toward 2x net debt/EBITDA within 12 months.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "power demand",
+        "utilities",
+        "data centers",
+        "AI capex",
+        "IG credit",
+        "capital markets"
+      ],
+      "terms": [
+        "PJM -- the mid-Atlantic regional transmission grid operator",
+        "ERCOT -- the Texas electricity grid operator",
+        "MISO -- the Midcontinent Independent System Operator grid region",
+        "CAGR -- compound annual growth rate",
+        "IPP -- independent power producer"
+      ],
+      "tier": "broad",
+      "title": "The Outlook for Data Center Power Demand as AI Token Use Grows",
+      "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD2901245773.mp3",
+      "watch": [
+        "Utility and IPP bond issuance volumes tied to data center capex",
+        "Data center moratorium counts as a proxy for policy/permitting risk",
+        "Vistra/Constellation leverage trajectory toward stated 2x net debt/EBITDA targets"
+      ]
+    },
     "ed1ddc9a-0462-49b4-824a-d24ed8a751a1": {
       "feed_name": "Eurodollar University",
       "implications": "Background, not actionable: the framework (using TIPS breakevens, swap spreads, collateral scarcity/abundance and bill yields jointly to gauge whether price shocks are transitory or regime-changing) is a legitimate and familiar lens for this trader's book, but the item offers no current readings, levels, or trade-relevant conclusions -- it's a conceptual pitch, not analysis.",
