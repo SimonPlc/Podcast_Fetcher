@@ -1,3 +1,47 @@
 {
-  "queued": {}
+  "queued": {
+    "6a971e9fa4a22c5817e2b574": {
+      "feed_name": "Unhedged",
+      "implications": "For a repo/rates desk this is core positioning input: front-end hawkish repricing (higher hike odds) alongside persistent long-end selling implies a steepening bias and higher term premium globally, with knock-on effects for funding costs, collateral yields, and cross-currency basis (US, UK, Japan, France all moving together); the AI-driven corporate bond issuance crowding out sovereign demand is also worth tracking as a technical driver of term rates.",
+      "key_claims": [
+        "Market-implied probability of a September Fed rate hike/hawkish move rose from about one-in-three to about two-in-three after Warsh's Jackson Hole speech (Rob Armstrong)",
+        "US 10-year Treasury yield is at 4.8% (Rob Armstrong/Katie Martin)",
+        "Japan's 10-year JGB yield hit 3% for the first time since 1996 (Katie Martin)",
+        "UK gilt yields are at their highest level since the financial crisis (Katie Martin)",
+        "US final sales to domestic buyers (a GDP proxy) ran around 4% in the latest quarterly estimate, implying roughly 7% nominal growth when combined with ~3% inflation -- cited from Matt Klein's Overshoot newsletter as a reason long rates may simply be catching up to growth",
+        "Warsh called the current PCE inflation target a \"firm fixed target\" and ruled out changing the measure"
+      ],
+      "kind": "podcast",
+      "one_liner": "New Fed chair Kevin Warsh turned hawkish at Jackson Hole, market-implied odds of a September hike jumped from ~1-in-3 to ~2-in-3, yet long-end yields (US 10yr 4.8%, JGB 10yr 3%, UK highest since GFC) kept rising regardless -- a global term-premium/funding-cost story any rates or repo desk needs to track.",
+      "published": "2026-09-01T20:00:00+00:00",
+      "recap": "Katie Martin and Rob Armstrong (FT Unhedged) review Fed chair Kevin Warsh's Jackson Hole speech after two rocky press conferences in which he dropped forward guidance, mused about revisiting the 2% PCE inflation target, and said he was untroubled by rising borrowing costs -- all of which spooked bond markets and prompted Treasury Secretary Scott Bessent to publicly (and unsuccessfully) urge yields lower. At Jackson Hole, Warsh sharpened his message: employment is near full, inflation is too high and not improving, the Fed's only tool is rates, and the current inflation target is a \"firm fixed target\" he won't tinker with. He also dismissed slowing wage growth and the \"no-hire-no-fire\" labor market as signals of disinflation, calling the stagnant job market a post-COVID rematching effect rather than weakness. Markets read this as unambiguously hawkish: implied odds of a September Fed hike (rate cut context notwithstanding) moved from about one-in-three to two-in-thirds. Yet despite short-end hawkishness, long-end yields kept climbing globally -- US 10yr at 4.8%, Japan's 10yr hitting 3% for the first time since 1996, UK yields at post-financial-crisis highs, and France also under pressure. The hosts weigh competing explanations: Fed policy confusion, unanchored inflation expectations, strong nominal growth (~4% real growth plus ~3% inflation per Matt Klein's Overshoot newsletter), fiscal profligacy/oversupply of sovereign debt, and competition for capital from massive AI/hyperscaler bond issuance funding data centers. Bessent claims to have undisclosed plans regarding Japan/the yen. The episode closes noting equities have so far ignored the bond selloff, which the hosts flag as unusual and fragile.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "Jackson Hole",
+        "rates",
+        "yield curve",
+        "term premium",
+        "fiscal",
+        "Treasury",
+        "JGB",
+        "Bessent",
+        "AI/data centers"
+      ],
+      "terms": [
+        "PCE -- Personal Consumption Expenditures price index, the Fed's preferred inflation gauge",
+        "OIS -- Overnight Index Swap (not directly discussed but relevant to the rates context)"
+      ],
+      "tier": "credit",
+      "title": "Warsh and peace",
+      "url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6a971e9fa4a22c5817e2b574/media.mp3",
+      "watch": [
+        "September FOMC decision given now ~2/3 priced-in hike odds",
+        "US, UK, Japan, France long-end yield trajectory and whether term premium keeps widening",
+        "Any concrete Bessent/Treasury action on Japan/yen policy",
+        "Whether equities eventually reprice on higher discount rates"
+      ]
+    }
+  }
 }
