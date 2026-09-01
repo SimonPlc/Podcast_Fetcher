@@ -6,8 +6,14 @@
     "0f8a91e8cc724aeafa44ebeed45a3559d5e09d49d25679c4bed3baf6419939db": {
       "feed_name": "NY Fed Liberty Street Economics"
     },
+    "1ca488323d9925bf32f1b0505c995ded852fa395ff38fdb967d369cae886fbd5": {
+      "feed_name": "Bank Policy Institute"
+    },
     "1cf5b8231dd281120ce081df01b213c4e688ea51869f064baf132f40d6302a0f": {
       "feed_name": "BIS working papers"
+    },
+    "2f49cbad521ae1a4e15e5c7eaae1909b72ee3e3ff58227bc9d8deb120eda5999": {
+      "feed_name": "Bank Policy Institute"
     },
     "63033a888f7754682c1fba60796571225b0c72fd584a742feb8038eb1f6ab962": {
       "feed_name": "Fed FEDS Notes"
@@ -18,11 +24,17 @@
     "88e835ad029defceb7603710a7fb28c7a16ef3870cd12f626056a71d5a03ad9b": {
       "feed_name": "Apollo Academy"
     },
+    "8e235ad8071daa5754562c1b3c5f0cad2a3c757beb903a4543bdbbb408358a45": {
+      "feed_name": "Bank Policy Institute"
+    },
     "96417587f49cb4c3249a209d0d66294fec9c162d582650239da6bae3bade0b5e": {
       "feed_name": "Fed FEDS Notes"
     },
     "9744bea736ca48429395ae3bafcd270545d8140c24ec7f9f7fc70c48a2c70509": {
       "feed_name": "Bank Policy Institute"
+    },
+    "a10675cd6ed1e02c78cd9abcf8c949413d293f7a09434e7aeda3b677bbb4b045": {
+      "feed_name": "NY Fed Liberty Street Economics"
     },
     "f1a55b2575608f37c9809e2aca3a0e20ca9f256fdee9c27fd2b5db122f07e456": {
       "feed_name": "Apollo Academy"
