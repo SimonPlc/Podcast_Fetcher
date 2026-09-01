@@ -1,0 +1,199 @@
+{
+  "seen": {
+    "https://anchor.fm/s/104660cc4/podcast/rss": {
+      "feed_url": "https://anchor.fm/s/104660cc4/podcast/rss",
+      "name": "Mind the Markets",
+      "term": "SOFR"
+    },
+    "https://anchor.fm/s/109cbf138/podcast/rss": {
+      "feed_url": "https://anchor.fm/s/109cbf138/podcast/rss",
+      "name": "Gordon Kerr's Credit Compass: Navigating European Credit Markets",
+      "term": "credit markets"
+    },
+    "https://anchor.fm/s/110037238/podcast/rss": {
+      "feed_url": "https://anchor.fm/s/110037238/podcast/rss",
+      "name": "\u00d8konomiPulsen",
+      "term": "money markets"
+    },
+    "https://anchor.fm/s/530a71b8/podcast/rss": {
+      "feed_url": "https://anchor.fm/s/530a71b8/podcast/rss",
+      "name": "Fixated: The Fixed Income Podcast",
+      "term": "fixed income"
+    },
+    "https://anchor.fm/s/eca7b164/podcast/rss": {
+      "feed_url": "https://anchor.fm/s/eca7b164/podcast/rss",
+      "name": "Thoughtful Money with Adam Taggart",
+      "term": "money markets"
+    },
+    "https://anchor.fm/s/ffb07db8/podcast/rss": {
+      "feed_url": "https://anchor.fm/s/ffb07db8/podcast/rss",
+      "name": "Clipping Coupons with Jennison Fixed Income",
+      "term": "fixed income"
+    },
+    "https://feed.podbean.com/academysecurities/feed.xml": {
+      "feed_url": "https://feed.podbean.com/academysecurities/feed.xml",
+      "name": "Academy Securities: Geopolitical & Macro Strategy Podcast",
+      "term": "SOFR"
+    },
+    "https://feed.podbean.com/globaldatapod/feed.xml": {
+      "feed_url": "https://feed.podbean.com/globaldatapod/feed.xml",
+      "name": "Global Data Pod",
+      "term": "central banking"
+    },
+    "https://feed.podbean.com/macrovoices/feed.xml": {
+      "feed_url": "https://feed.podbean.com/macrovoices/feed.xml",
+      "name": "Macro Voices",
+      "term": "central banking"
+    },
+    "https://feeds.acast.com/public/shows/69baf105723e626074167196": {
+      "feed_url": "https://feeds.acast.com/public/shows/69baf105723e626074167196",
+      "name": "Excalibur Fixed Income Podden",
+      "term": "fixed income"
+    },
+    "https://feeds.feedburner.com/lipperfixedincomefundmarketinsights": {
+      "feed_url": "https://feeds.feedburner.com/LipperFixedIncomeFundMarketInsights",
+      "name": "Lipper Fixed Income Fund Market Insights",
+      "term": "fixed income"
+    },
+    "https://feeds.fexingo.com/business/monetary-policy-explained.xml": {
+      "feed_url": "https://feeds.fexingo.com/business/monetary-policy-explained.xml",
+      "name": "Monetary Policy Explained with Fexingo: Central Banks, Money Supply, and Interest Rates",
+      "term": "central banking"
+    },
+    "https://feeds.fexingo.com/business/the-bond-investing-podcast.xml": {
+      "feed_url": "https://feeds.fexingo.com/business/the-bond-investing-podcast.xml",
+      "name": "The Bond Investing Podcast with Fexingo: Treasuries, Corporate Bonds, and Fixed Income Strategy",
+      "term": "fixed income"
+    },
+    "https://feeds.fexingo.com/business/the-bond-market-podcast.xml": {
+      "feed_url": "https://feeds.fexingo.com/business/the-bond-market-podcast.xml",
+      "name": "The Bond Market Podcast with Fexingo: Treasuries, Yields, and Fixed Income for Beginners",
+      "term": "SOFR"
+    },
+    "https://feeds.megaphone.fm/macrohorizons": {
+      "feed_url": "https://feeds.megaphone.fm/macrohorizons",
+      "name": "Macro Horizons",
+      "term": "SOFR"
+    },
+    "https://feeds.schwab.com/oninvesting": {
+      "feed_url": "https://feeds.schwab.com/oninvesting",
+      "name": "On Investing",
+      "term": "interest rates"
+    },
+    "https://feeds.simplecast.com/o_k8x5mk": {
+      "feed_url": "https://feeds.simplecast.com/o_K8X5mK",
+      "name": "Moody's Talks - Securitization Spotlight",
+      "term": "securitization"
+    },
+    "https://feeds.soundcloud.com/users/soundcloud:users:200948432/sounds.rss": {
+      "feed_url": "https://feeds.soundcloud.com/users/soundcloud:users:200948432/sounds.rss",
+      "name": "Waters Wavelength",
+      "term": "repo market"
+    },
+    "https://feeds.soundcloud.com/users/soundcloud:users:707035498/sounds.rss": {
+      "feed_url": "https://feeds.soundcloud.com/users/soundcloud:users:707035498/sounds.rss",
+      "name": "Euro Matters \u2013 the European Central Bank Podcast",
+      "term": "central banking"
+    },
+    "https://feeds.transistor.fm/baird-fixed-income-insights-convexity-pulse": {
+      "feed_url": "https://feeds.transistor.fm/baird-fixed-income-insights-convexity-pulse",
+      "name": "Baird Fixed Income Insights: Convexity Pulse",
+      "term": "fixed income"
+    },
+    "https://feeds.transistor.fm/fixed-interests": {
+      "feed_url": "https://feeds.transistor.fm/fixed-interests",
+      "name": "Fixed Interests",
+      "term": "interest rates"
+    },
+    "https://feeds.transistor.fm/securitization-in-nutshell-abs-expert-talk-by-bearingpoint": {
+      "feed_url": "https://feeds.transistor.fm/securitization-in-nutshell-abs-expert-talk-by-bearingpoint",
+      "name": "Securitization in nutshell \u2013 ABS Expert Talk by BearingPoint",
+      "term": "securitization"
+    },
+    "https://markethuddle.com/feed/podcast": {
+      "feed_url": "https://markethuddle.com/feed/podcast/",
+      "name": "The Market Huddle",
+      "term": "repo market"
+    },
+    "https://palisadesradio.ca/feed/podcast": {
+      "feed_url": "https://palisadesradio.ca/feed/podcast",
+      "name": "Palisades Gold Radio",
+      "term": "central banking"
+    },
+    "https://rss.art19.com/the-memo-by-howard-marks": {
+      "feed_url": "https://rss.art19.com/the-memo-by-howard-marks",
+      "name": "The Memo by Howard Marks",
+      "term": "interest rates"
+    },
+    "https://rss.buzzsprout.com/1135703.rss": {
+      "feed_url": "https://rss.buzzsprout.com/1135703.rss",
+      "name": "A Bird's-Eye View of the Bond Market",
+      "term": "bond market"
+    },
+    "https://rss.buzzsprout.com/1566353.rss": {
+      "feed_url": "https://rss.buzzsprout.com/1566353.rss",
+      "name": "Fixed Income Explained",
+      "term": "fixed income"
+    },
+    "https://rss.buzzsprout.com/1793717.rss": {
+      "feed_url": "https://rss.buzzsprout.com/1793717.rss",
+      "name": "GFF Podcast",
+      "term": "repo market"
+    },
+    "https://rss.buzzsprout.com/2029908.rss": {
+      "feed_url": "https://rss.buzzsprout.com/2029908.rss",
+      "name": "The SIFMA Podcast",
+      "term": "repo market"
+    },
+    "https://rss.buzzsprout.com/2067596.rss": {
+      "feed_url": "https://rss.buzzsprout.com/2067596.rss",
+      "name": "Money, Markets & New Age Investing",
+      "term": "money markets"
+    },
+    "https://rss.buzzsprout.com/982150.rss": {
+      "feed_url": "https://rss.buzzsprout.com/982150.rss",
+      "name": "The REGIS-TR RoundUp",
+      "term": "repo market"
+    },
+    "https://rss.libsyn.com/shows/130590/destinations/793427.xml": {
+      "feed_url": "https://rss.libsyn.com/shows/130590/destinations/793427.xml",
+      "name": "SCI In Conversation",
+      "term": "structured credit"
+    },
+    "https://rss.libsyn.com/shows/182429/destinations/1248257.xml": {
+      "feed_url": "https://rss.libsyn.com/shows/182429/destinations/1248257.xml",
+      "name": "Bankshot",
+      "term": "SOFR"
+    },
+    "https://rss.libsyn.com/shows/91567/destinations/457899.xml": {
+      "feed_url": "https://rss.libsyn.com/shows/91567/destinations/457899.xml",
+      "name": "Hidden Forces",
+      "term": "repo market"
+    },
+    "https://rss.libsyn.com/shows/98027/destinations/509399.xml": {
+      "feed_url": "https://rss.libsyn.com/shows/98027/destinations/509399.xml",
+      "name": "Grant's Current Yield Podcast",
+      "term": "interest rates"
+    },
+    "https://the-securitization.podomatic.com/rss2.xml": {
+      "feed_url": "https://the-securitization.podomatic.com/rss2.xml",
+      "name": "the vestr Securitization podcast",
+      "term": "securitization"
+    },
+    "https://video-api.shdsvc.dowjones.io/api/podcasts/feed/take%20on%20the%20week": {
+      "feed_url": "https://video-api.shdsvc.dowjones.io/api/podcasts/feed/take%20on%20the%20week",
+      "name": "WSJ's Take On the Week",
+      "term": "interest rates"
+    },
+    "https://www.podserve.fm/series/rss/997/eseclending-insights.rss": {
+      "feed_url": "https://www.podserve.fm/series/rss/997/eseclending-insights.rss",
+      "name": "eSecLending Insights",
+      "term": "funding markets"
+    },
+    "https://www.spreaker.com/show/5148668/episodes/feed": {
+      "feed_url": "https://www.spreaker.com/show/5148668/episodes/feed",
+      "name": "Securitization Insight",
+      "term": "SOFR"
+    }
+  }
+}
