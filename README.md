@@ -2,7 +2,7 @@
 
 An unattended pipeline that watches finance podcast feeds and written-research
 feeds, transcribes and scores everything for relevance to a Hong Kong bank
-financing / repo desk, and emails a morning brief each weekday at ~06:47 HK.
+financing / repo desk, and emails a morning brief each weekday at ~06:07 HK.
 
 One card per relevant item, sorted by relevance score: show or publication,
 score, tags, a one-liner, summary bullets, key claims, and a link back to the
@@ -24,10 +24,10 @@ from whichever cron fired:
 | Mode | When | What it does |
 |---|---|---|
 | `collect` | 6x/day, staggered | Fetch podcast feeds, download audio, Whisper-transcribe, score with Claude, queue anything scoring >= `MIN_SCORE` |
-| `digest` | 22:47 UTC Sun-Thu, plus a 23:41 backup | Render the queued episodes, fetch and score today's articles, email one merged brief, then clear the queue |
+| `digest` | 22:07 UTC Sun-Thu, plus a 23:07 backup | Render the queued episodes, fetch and score today's articles, email one merged brief, then clear the queue |
 | `discover` | 1st of the month, 21:17 UTC | Search the iTunes API for configured terms, score the candidates, email new show suggestions |
 
-22:47 UTC Sun-Thu is 06:47 HK Mon-Fri. Sunday's run sweeps up whatever dropped
+22:07 UTC Sun-Thu is 06:07 HK Mon-Fri. Sunday's run sweeps up whatever dropped
 over the weekend.
 
 **Why the digest crons sit on odd minutes.** GitHub makes no delivery guarantee
@@ -35,7 +35,7 @@ for `schedule`: under load it delays runs, and drops them outright when the
 delay runs past the next window. On 2026-08-26 the digest was still at `0 23`
 with its backup at `30 23`; both were dropped, 30 minutes apart was not enough
 to escape the same congestion window, and no brief went out that morning. The
-pair now sits at `47 22` and `41 23`, off the hour and in two different hours,
+pair now sits at `7 22` and `7 23`, off the hour and in two different hours,
 for the same reason the collect crons are staggered.
 
 Scheduling alone cannot make this impossible, so there is a second line of

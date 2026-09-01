@@ -129,7 +129,7 @@ def run_digest(
     logger.info("digest: email sent to %s", config.email_to)
 
     # Settle the slot before clearing the queue, not after: the thing this
-    # guards against is the backup run 54 minutes later re-sending a brief
+    # guards against is the backup run 60 minutes later re-sending a brief
     # that already went out, and that window opens the moment `send`
     # returns. A crash between here and save_pending() leaves the queue
     # uncleared and so repeats content tomorrow, which is the pre-existing

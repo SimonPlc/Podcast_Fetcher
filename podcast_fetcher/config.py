@@ -39,7 +39,7 @@ DEFAULT_MAX_EPISODE_ATTEMPTS = 3
 # How long past its scheduled time a digest slot stays "merely late"
 # before a collect run treats it as dropped and sends the catch-up brief
 # (digest.maybe_send_missed_digest). Must comfortably clear the backup
-# cron, which fires 54 minutes after the primary and then needs a few
+# cron, which fires 60 minutes after the primary and then needs a few
 # minutes to install deps and run, or a backup that is simply running
 # slow would be pre-empted by a catch-up.
 DEFAULT_MISSED_DIGEST_GRACE_MIN = 75

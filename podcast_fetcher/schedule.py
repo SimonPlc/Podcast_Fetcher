@@ -8,17 +8,19 @@ from datetime import date, datetime, time, timedelta, timezone
 # retry of the same logical slot, and the missed-digest logic reasons about
 # slots, not about which cron happened to fire.
 #
-# 22:47 UTC = 06:47 HK. Deliberately off the hour and off the half hour:
+# 22:07 UTC = 06:07 HK. Deliberately off the hour and off the half hour:
 # GitHub delays scheduled workflows under load and drops them outright when
 # the delay runs past the next window, and :00/:30 are the most congested
 # minutes there are. This is the same reasoning already applied to the
 # collect crons; the digest slot was left on :00 and got dropped on
-# 2026-08-26, taking the backup at :30 down with it.
-DIGEST_TIME_UTC = time(22, 47)
+# 2026-08-26, taking the backup at :30 down with it. Pulled 40 min earlier
+# than the original 22:47 so GitHub's scheduling drift lands the brief
+# before the morning read rather than mid-morning.
+DIGEST_TIME_UTC = time(22, 7)
 
 # Python's date.weekday(): Mon=0 ... Sun=6. Cron's day-of-week 0-4 is
 # Sun-Thu, which is Sun,Mon,Tue,Wed,Thu = {6, 0, 1, 2, 3}. Sun-Thu at
-# 22:47 UTC is Mon-Fri at 06:47 HK; Sunday's run sweeps the weekend.
+# 22:07 UTC is Mon-Fri at 06:07 HK; Sunday's run sweeps the weekend.
 DIGEST_WEEKDAYS = frozenset({6, 0, 1, 2, 3})
 
 # How far back to walk looking for the last scheduled slot. The longest

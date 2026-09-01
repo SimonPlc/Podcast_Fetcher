@@ -18,15 +18,17 @@ on:
     - cron: "8 12 * * *"
     - cron: "22 16 * * *"
     - cron: "36 20 * * *"
-    # digest: 22:47 UTC Sun-Thu = 06:47 HK Mon-Fri, plus a 23:41 backup in
+    # digest: 22:07 UTC Sun-Thu = 06:07 HK Mon-Fri, plus a 23:07 backup in
     # case the on-time run failed transiently. cron day-of-week 0-4 = Sun-Thu.
+    # Pulled 40 min earlier than the original 22:47 so GitHub's scheduling
+    # drift lands the brief before the morning read rather than mid-morning.
     # Off the hour and off the half hour for the same reason the collect
     # crons are: on 2026-08-26 these sat at :00 and :30, GitHub dropped
     # both under load, and no brief went out. Splitting them across two
     # different hours also stops one congestion window swallowing the
     # pair. Kept in sync with DIGEST_TIME_UTC in podcast_fetcher/schedule.py.
-    - cron: "47 22 * * 0-4"
-    - cron: "41 23 * * 0-4"
+    - cron: "7 22 * * 0-4"
+    - cron: "7 23 * * 0-4"
     # discover: once a month (1st, 21:17 UTC), well clear of the digest and
     # collect runs above.
     - cron: "17 21 1 * *"
@@ -96,7 +98,7 @@ jobs:
             mode="$dispatch_mode"
           else
             case "${{ github.event.schedule }}" in
-              "47 22 * * 0-4" | "41 23 * * 0-4")
+              "7 22 * * 0-4" | "7 23 * * 0-4")
                 mode="digest"
                 ;;
               "17 21 1 * *")

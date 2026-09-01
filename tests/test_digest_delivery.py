@@ -19,9 +19,10 @@ from podcast_fetcher.digest import maybe_send_missed_digest, run_digest, run_dig
 WEDNESDAY_SLOT = date(2026, 8, 26)
 TUESDAY_SLOT = date(2026, 8, 25)
 
-# Wednesday 23:00 UTC: 13 minutes past the 22:47 primary, well inside the
-# 75-minute grace. This is when the backup cron is doing its work.
-DURING_BACKUP = datetime(2026, 8, 26, 23, 0, tzinfo=timezone.utc)
+# Wednesday 23:10 UTC: 3 minutes past the 23:07 backup cron and well inside
+# the 75-minute grace on the 22:07 primary slot. This is when the backup
+# cron is doing its work.
+DURING_BACKUP = datetime(2026, 8, 26, 23, 10, tzinfo=timezone.utc)
 # Thursday 00:25 UTC: past the grace, so a slot that never delivered is
 # now genuinely missed rather than merely late.
 AFTER_GRACE = datetime(2026, 8, 27, 0, 25, tzinfo=timezone.utc)

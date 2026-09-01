@@ -108,7 +108,7 @@ product; a spoken "podcast of podcasts" was considered and is not planned.
    can go listen to the full segment when something matters.
 9. As a trader, I want cards sorted by relevance score, so that the most
    important episodes are immediately at the top.
-10. As a trader, I want the email delivered ~06:47 HK on weekdays (Mon-Fri), so
+10. As a trader, I want the email delivered ~06:07 HK on weekdays (Mon-Fri), so
     that it's waiting before my desk gets going; markets are shut on weekends.
 11. As a trader, I want Monday's edition to sweep up everything that dropped over
     the weekend, so that I don't miss weekend content.
@@ -423,7 +423,7 @@ plus an explicit knowledge-expansion dimension. Default queue threshold: score
   is a multipart/alternative MIME (text + HTML) posted to messages.send.
 
 **Scheduling (UTC)** — collect every few hours on a staggered minute; digest at
-22:47 UTC Sun-Thu (= 06:47 HK Mon-Fri) with a 23:41 backup; discover monthly
+22:07 UTC Sun-Thu (= 06:07 HK Mon-Fri) with a 23:07 backup; discover monthly
 (1st of the month, 21:17 UTC). Concurrency is serialized (queue, do not cancel)
 so runs don't race on the committed JSON state. `workflow_dispatch` allows
 manual runs with a mode override.
@@ -446,7 +446,7 @@ digest unconditionally, so after a successful primary it found the queue already
 cleared and mailed a quiet-day note on top of the real brief, every weekday. It
 now skips a slot that is already settled. The slot is recorded immediately after
 a successful send and before the queue is cleared, because the window this
-guards is the 54 minutes to the backup, which opens the moment the send returns.
+guards is the 60 minutes to the backup, which opens the moment the send returns.
 A send that raises leaves the slot unsettled, so the backup still covers it.
 
 *A missed slot is recovered from `collect`, not from another cron.* Every
@@ -619,6 +619,6 @@ functions are importable without triggering any I/O at import time.
 - Maintenance cost of the free stack: the Claude subscription OAuth token expires
   periodically and must be re-minted with `claude setup-token`; heavy days may hit
   subscription rate limits. Accepted tradeoff for zero marginal cost.
-- Timezone: HK is UTC+8. 22:47 UTC Sun-Thu delivers 06:47 HK Mon-Fri; Monday's
-  edition (Sun 22:47 UTC) naturally covers weekend-dropped episodes via the
+- Timezone: HK is UTC+8. 22:07 UTC Sun-Thu delivers 06:07 HK Mon-Fri; Monday's
+  edition (Sun 22:07 UTC) naturally covers weekend-dropped episodes via the
   recency window.
