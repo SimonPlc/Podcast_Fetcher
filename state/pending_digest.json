@@ -1,3 +1,49 @@
 {
-  "queued": {}
+  "queued": {
+    "eee35f63-91d3-4b60-85e5-aabc8ccd7e80": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a repo/rates desk, the framing supports fading hawkish repricing at the front end (2yr sold off to ~4.35-4.37% on Warsh) as inconsistent with underlying labor and breakeven data, and flags curve re-inversion risk if the Fed leans further hawkish into the September FOMC and Friday's payrolls print.",
+      "key_claims": [
+        "Kevin Warsh (Jackson Hole speech) said summer CPI/PCE readings don't show underlying inflation trending to target with sufficient speed, implying support for a rate hike",
+        "Treasury Secretary Besant argued the economy faces a supply/oil shock and that raising rates into it is unwarranted absent second/third-order price effects, and said no such spillover evidence exists",
+        "JOLTS hires fell to roughly 5 million, described as the third-worst reading of the cycle, comparable to early-2010s levels",
+        "Negative net turnover in JOLTS for a third consecutive month, per the speaker, raising the likelihood of a negative August payrolls print",
+        "The 30-year Treasury yield is up only about a quarter percentage point from 2023 despite trillions in additional debt issuance since then",
+        "30yr-to-3mo Treasury spread has compressed from 379bp (July 2011) to 134bp now, cited as evidence against a Treasury-rejection narrative",
+        "Eurozone August headline HICP hit a three-year high but core CPI unexpectedly decelerated to 2.4%, per the speaker"
+      ],
+      "kind": "podcast",
+      "one_liner": "A rates-macro commentary arguing Fed hawkishness (Warsh) is fighting a fragile labor market and an un-inverting curve, not real inflation risk -- directly bears on front-end rates positioning.",
+      "published": "2026-09-02T11:00:00+00:00",
+      "recap": "The speaker ties together three recent events: Kevin Warsh's hawkish Jackson Hole remarks favoring rate hikes to fight above-target CPI/PCE inflation, Treasury Secretary Besant's public pushback that the economy is facing an oil-driven supply shock that shouldn't warrant hiking absent second-order effects, and Tuesday's JOLTS report. The core argument is that the Fed fixates on the headline unemployment rate and inflation mandate while ignoring the JOLTS hiring rate, which fell back to roughly 5 million (near cycle lows, comparable to early-2010s levels) and stayed below the ~2% threshold that historically triggers labor-force dropouts. Because discouraged workers exit the labor force and stop counting as unemployed, the official unemployment rate understates real labor-market weakness, and negative net turnover for a third straight month raises the odds of a negative August payroll print. The speaker contrasts this with TIPS breakevens, which remain low despite rising oil prices, arguing the market is pricing demand destruction rather than inflation -- reinforced by Eurozone August CPI hitting a three-year high on energy alone while core CPI unexpectedly decelerated to 2.4%. On rates, the speaker argues the 30-year yield is barely changed since 2023 and spreads (30yr-3mo, 10yr-30yr) have compressed sharply despite far higher debt issuance, meaning there is no Treasury-rejection or term-premium story; instead this is ordinary curve un-inversion being resisted by the Fed's front-end stickiness, which risks re-inverting the curve if the Fed keeps hiking rhetoric.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "JOLTS",
+        "yield curve",
+        "inflation breakevens",
+        "Treasury",
+        "labor market",
+        "ECB"
+      ],
+      "terms": [
+        "JOLTS -- Job Openings and Labor Turnover Survey, a BLS release covering hires, quits, and turnover",
+        "PCE deflator -- Personal Consumption Expenditures price index, the Fed's preferred inflation gauge",
+        "TIPS breakevens -- the market-implied inflation rate derived from the yield spread between nominal Treasuries and Treasury Inflation-Protected Securities",
+        "HICP -- Harmonized Index of Consumer Prices, the Eurozone's standardized CPI measure"
+      ],
+      "tier": "plumbing",
+      "title": "WTF Just Happened at Jackson Hole?",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/b00a1d5c/052e56be.mp3",
+      "watch": [
+        "Friday's August nonfarm payrolls report (JOLTS-implied negative print risk)",
+        "September FOMC decision and any pivot in Fed communication after Jackson Hole",
+        "TIPS breakeven behavior if oil prices continue rising",
+        "ECB meeting next week amid core Eurozone CPI deceleration",
+        "30yr-3mo and 10yr-30yr Treasury spread trend for curve inversion risk"
+      ]
+    }
+  }
 }

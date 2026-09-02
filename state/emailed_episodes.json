@@ -124,6 +124,44 @@
       "url": "https://traffic.libsyn.com/secure/macrohive/MH_w_BRANKO_.mp3?dest-id=1929056",
       "watch": []
     },
+    "1a60e100-a65a-11f1-8982-1fc6528d4569": {
+      "feed_name": "Forward Guidance",
+      "implications": "background, not actionable for repo/rates trading -- the fiscal-dominance and heavy short-end Treasury issuance narrative (stablecoins as a T-bill buyer base, push toward bills) is tangential context on Treasury supply dynamics but the episode itself is an equity/alternative-asset allocation pitch, not money-market or credit content.",
+      "key_claims": [
+        "Bob Haber: the U.S. government needs to finance/roll over about $12 trillion in debt per year, growing toward $15-16 trillion within three years, an amount he says exceeds total U.S. savings and is close to half of global savings",
+        "Matt Hogan: typical Bitcoin portfolio allocations have risen from ~1% historically to a 2-5% norm, with some wirehouses recommending up to 10%",
+        "Haber: gold mining production is expected to grow only about 1-2% over the next 12 months",
+        "Haber: miners have historically returned 2-3x gold's return when operating with capital discipline"
+      ],
+      "kind": "podcast",
+      "one_liner": "A wealth-management pitch for gold/Bitcoin 'debasement' portfolios framed around fiscal dominance and Treasury issuance, but it's an equity-adjacent asset-allocation product discussion with no direct repo, rates-market or credit content.",
+      "published": "2026-09-02T10:00:00+00:00",
+      "recap": "Bitwise CIO Matt Hogan and Proficio founder Bob Haber discuss their jointly launched Bepro ETF, which blends gold, gold/silver miners, and Bitcoin as a 'debasement' hedge for portfolios historically built on 60/40 equity-bond splits. They argue currency debasement has accelerated since the Fed's founding and the 1970s gold-standard exit, and is now entering a fiscal-dominance phase where both political parties fund tax cuts and spending via ever-larger Treasury issuance rather than taxation. They tie recent Bitcoin-gold correlation spikes to Treasury Secretary Besant's market interventions (yield-curve management, pushing issuance to the short end, promoting stablecoins as a captive buyer base for T-bills) alongside China's central-bank gold buying. Haber flags the U.S. needs to roll over/finance roughly $12 trillion a year in debt, a figure they expect to grow toward $15-16 trillion, exceeding global savings, raising eventual auction-demand concerns. They discuss sizing debasement-asset allocations (Bitcoin 2-5% vs gold 5-25%), bullishness on gold and silver miners due to capital discipline and free cash flow, and silver's industrial/solar demand. On monetary policy, they expect at most one Fed hike this cycle under Chair Warsh, framing the Fed as secondary to fiscal policy now, and see any hike as a buying opportunity for debasement assets, betting on an 'AI productivity' escape from the debt burden.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "debasement",
+        "gold",
+        "Bitcoin",
+        "fiscal policy",
+        "Treasury issuance",
+        "stablecoins",
+        "Fed",
+        "portfolio construction"
+      ],
+      "terms": [
+        "QE -- quantitative easing, central bank asset purchases to expand its balance sheet and lower long-term yields",
+        "T-bills -- Treasury bills, short-maturity U.S. government debt"
+      ],
+      "tier": "macro",
+      "title": "Fiscal Dominance Is Breaking The 60/40 Portfolio | Matt Hougan & Bob Haber",
+      "url": "https://traffic.megaphone.fm/BWG5978082076.mp3",
+      "watch": [
+        "Treasury issuance mix shifting further toward T-bills under Besant",
+        "Stablecoin growth as a captive T-bill buyer base",
+        "Any Fed hike under Chair Warsh and market reaction"
+      ]
+    },
     "23f3d17b-bbd7-4917-88a4-e2225279f5a1": {
       "attempts": 1,
       "feed_name": "Eurodollar University",
@@ -1549,6 +1587,51 @@
       "title": "If You Don\u2019t Understand the Eurodollar System, You Don\u2019t Understand the Markets",
       "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/c71afbfd/c05a5280.mp3",
       "watch": []
+    },
+    "eee35f63-91d3-4b60-85e5-aabc8ccd7e80": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a repo/rates desk, the framing supports fading hawkish repricing at the front end (2yr sold off to ~4.35-4.37% on Warsh) as inconsistent with underlying labor and breakeven data, and flags curve re-inversion risk if the Fed leans further hawkish into the September FOMC and Friday's payrolls print.",
+      "key_claims": [
+        "Kevin Warsh (Jackson Hole speech) said summer CPI/PCE readings don't show underlying inflation trending to target with sufficient speed, implying support for a rate hike",
+        "Treasury Secretary Besant argued the economy faces a supply/oil shock and that raising rates into it is unwarranted absent second/third-order price effects, and said no such spillover evidence exists",
+        "JOLTS hires fell to roughly 5 million, described as the third-worst reading of the cycle, comparable to early-2010s levels",
+        "Negative net turnover in JOLTS for a third consecutive month, per the speaker, raising the likelihood of a negative August payrolls print",
+        "The 30-year Treasury yield is up only about a quarter percentage point from 2023 despite trillions in additional debt issuance since then",
+        "30yr-to-3mo Treasury spread has compressed from 379bp (July 2011) to 134bp now, cited as evidence against a Treasury-rejection narrative",
+        "Eurozone August headline HICP hit a three-year high but core CPI unexpectedly decelerated to 2.4%, per the speaker"
+      ],
+      "kind": "podcast",
+      "one_liner": "A rates-macro commentary arguing Fed hawkishness (Warsh) is fighting a fragile labor market and an un-inverting curve, not real inflation risk -- directly bears on front-end rates positioning.",
+      "published": "2026-09-02T11:00:00+00:00",
+      "recap": "The speaker ties together three recent events: Kevin Warsh's hawkish Jackson Hole remarks favoring rate hikes to fight above-target CPI/PCE inflation, Treasury Secretary Besant's public pushback that the economy is facing an oil-driven supply shock that shouldn't warrant hiking absent second-order effects, and Tuesday's JOLTS report. The core argument is that the Fed fixates on the headline unemployment rate and inflation mandate while ignoring the JOLTS hiring rate, which fell back to roughly 5 million (near cycle lows, comparable to early-2010s levels) and stayed below the ~2% threshold that historically triggers labor-force dropouts. Because discouraged workers exit the labor force and stop counting as unemployed, the official unemployment rate understates real labor-market weakness, and negative net turnover for a third straight month raises the odds of a negative August payroll print. The speaker contrasts this with TIPS breakevens, which remain low despite rising oil prices, arguing the market is pricing demand destruction rather than inflation -- reinforced by Eurozone August CPI hitting a three-year high on energy alone while core CPI unexpectedly decelerated to 2.4%. On rates, the speaker argues the 30-year yield is barely changed since 2023 and spreads (30yr-3mo, 10yr-30yr) have compressed sharply despite far higher debt issuance, meaning there is no Treasury-rejection or term-premium story; instead this is ordinary curve un-inversion being resisted by the Fed's front-end stickiness, which risks re-inverting the curve if the Fed keeps hiking rhetoric.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "JOLTS",
+        "yield curve",
+        "inflation breakevens",
+        "Treasury",
+        "labor market",
+        "ECB"
+      ],
+      "terms": [
+        "JOLTS -- Job Openings and Labor Turnover Survey, a BLS release covering hires, quits, and turnover",
+        "PCE deflator -- Personal Consumption Expenditures price index, the Fed's preferred inflation gauge",
+        "TIPS breakevens -- the market-implied inflation rate derived from the yield spread between nominal Treasuries and Treasury Inflation-Protected Securities",
+        "HICP -- Harmonized Index of Consumer Prices, the Eurozone's standardized CPI measure"
+      ],
+      "tier": "plumbing",
+      "title": "WTF Just Happened at Jackson Hole?",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/b00a1d5c/052e56be.mp3",
+      "watch": [
+        "Friday's August nonfarm payrolls report (JOLTS-implied negative print risk)",
+        "September FOMC decision and any pivot in Fed communication after Jackson Hole",
+        "TIPS breakeven behavior if oil prices continue rising",
+        "ECB meeting next week amid core Eurozone CPI deceleration",
+        "30yr-3mo and 10yr-30yr Treasury spread trend for curve inversion risk"
+      ]
     },
     "f722623a-bd67-4af3-b5e4-db0ce09730cf": {
       "feed_name": "Eurodollar University",
