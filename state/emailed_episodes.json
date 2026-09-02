@@ -1336,6 +1336,51 @@
       "title": "GM106: What Happens When the Debt Finally Matters ft. Marvin Barth",
       "url": "https://episodes.captivate.fm/episode/c4a83eea-c40b-4a2c-9003-51cd46880c72.mp3"
     },
+    "cd35cf8e-d1f1-4752-8183-b4b90095f456": {
+      "feed_name": "Asia Centric",
+      "implications": "Background, not directly actionable for repo/collateral desks, but useful context: BOJ/BOK tightening paths and a possible Taiwan hike matter for regional front-end rates, the US long-end/curve-control speculation ahead of Jackson Hole is worth tracking for term-premium and duration positioning, and PBOC's new offshore CNY settlement channel in Hong Kong is relevant to CNH funding and collateral flows.",
+      "key_claims": [
+        "Sean Darby (Mizuho): North Asian currencies are 40-56% undervalued vs USD on PPP/Big Mac Index terms",
+        "Korean retail sales grew 8.4% YoY in June; Taiwan's grew 7.7%",
+        "Taiwan shipbuilding orders up 60% in H1",
+        "Taiwan and Korea nominal GDP growth as high as 16% YoY",
+        "US 30-year Treasury yield above 5.2%, highest since the global financial crisis",
+        "Japanese mega-bank ROEs have risen from ~5% pre-COVID to above 10% now",
+        "Bank of Korea hiked rates 25bp the week of the interview; Bank of Japan may hike twice more into early 2027",
+        "Darby expects Fed's Warsh to manage the front end (up to 90 days) and Besant the long end around the Jackson Hole speech, effectively capping yields"
+      ],
+      "kind": "podcast",
+      "one_liner": "Mostly an Asian-equities/bank-stock pitch on undervalued North Asian FX, but touches BOJ/BOK tightening, rising long-end UST yields, Fed curve-control chatter ahead of Jackson Hole, and PBOC's offshore CNY settlement expansion in Hong Kong.",
+      "published": "2026-09-02T21:05:00+00:00",
+      "recap": "Mizuho equity strategist Sean Darby argues North Asian currencies (yen, won, Taiwan dollar, yuan) are trading 40-56% undervalued versus the dollar on purchasing-power-parity grounds (illustrated via the Big Mac index, dubbed 'Burger Heaven'), despite these economies holding the world's largest FX reserves and running large trade/current-account surpluses. He attributes the undervaluation partly to structural capital outflows (Korean retail and Taiwanese life-insurer buying of US assets) chasing wider US rate differentials. That is now reversing: the Bank of Korea hiked 25bp, Bank of Japan has moved from negative to 1% and may hike twice more into 2027, and Taiwan's central bank, on hold since 2024 despite strong data, faces mounting pressure to follow. Retail sales, nominal GDP (up to 16% YoY) and shipbuilding orders are surging on AI-driven export booms, spilling into domestic demand and inflation. Darby's trade idea is North Asian bank stocks, which he says are under-owned versus AI/tech names but stand to benefit from steepening yield curves and rising deposit-lending spreads, citing Japanese bank ROEs rising from ~5% pre-COVID to over 10% now. Separately, he discusses China's currency strength (large trade surplus, PBOC gold buying, and a new PBOC electronic settlement scheme allowing offshore CNY settlement in Hong Kong) as part of a de-dollarization push. He also flags a sticky-inflation, rising-yield backdrop in the US (30-year UST above 5.2%) and speculates that ahead of Jackson Hole, Fed's Warsh will focus on the front end (up to 90 days) while Besant manages the long end, effectively attempting to cap yields.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "FX",
+        "rates",
+        "BOJ",
+        "BOK",
+        "PBOC",
+        "CNY",
+        "Fed",
+        "yield-curve",
+        "banks",
+        "gold"
+      ],
+      "terms": [
+        "PPP -- purchasing power parity",
+        "ROE -- return on equity",
+        "PMI -- purchasing managers' index"
+      ],
+      "tier": "asia",
+      "title": "Cheap North Asian Currencies Reach Turning Point",
+      "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/992d604b-06ca-40cb-88b2-af6c016f5aa0/cd35cf8e-d1f1-4752-8183-b4b90095f456/audio.mp3?utm_source=Podcast&in_playlist=75a9f17c-2ff1-42c9-9a27-af6c016fae89",
+      "watch": [
+        "Jackson Hole commentary from Fed officials (Warsh on front end, Besant on long end) for signs of informal curve control",
+        "Whether Taiwan's central bank follows Korea and Japan in hiking rates",
+        "Further PBOC steps on offshore CNY settlement and internationalization via Hong Kong"
+      ]
+    },
     "cf75f416-9926-4aa2-b1de-eb9b5b218ac9": {
       "feed_name": "Eurodollar University",
       "implications": "For a rates/repo desk this is a background macro-narrative piece, not a hard catalyst: the flattening/steepening yield-curve read and the Treasury buyback expansion are worth noting for duration and curve positioning, and the private-credit/shadow-bank tightening thesis is relevant context for CLO/private credit and AI-data-center financing exposure, but nothing here is a specific trade signal or data release to act on directly.",
