@@ -1608,6 +1608,44 @@
       "url": "https://traffic.megaphone.fm/APO6794865361.mp3",
       "watch": []
     },
+    "d1acf7da-685f-4835-a0fd-1dc3718e6696": {
+      "feed_name": "Eurodollar University",
+      "implications": "Background, not actionable for repo/funding or credit desks directly; the labor-market deterioration (JOLTS hiring/quits) and demand-destruction narrative feed the broader debate on Fed easing pace, which is the only real read-through to rates positioning.",
+      "key_claims": [
+        "US refinery utilization hit 98% for the week ending August 28, the highest in nearly 8 years (EIA data cited by host)",
+        "US distillate (diesel/heating oil) stocks stood at ~103 million barrels as of August 28, the lowest for that time of year in EIA records dating to the early 1980s",
+        "IEA estimated lost global refinery throughput of approximately 4.7 million barrels per day versus 2025; other analysts cited a 2-3 million b/d shortfall in refined products",
+        "US gasoline supply (EIA demand proxy) averaged ~8.9 million b/d in August, down from ~9.05 mb/d in 2025 and ~9.12 mb/d in 2024 for the same period",
+        "JOLTS hiring rate fell below 5.1 million with net turnover negative for a third straight month; quits fell to ~3.06 million; working-age population hiring ratio was ~1.84% in July, below the ~2% threshold associated with a healthy labor market",
+        "Walmart cut prices on over 11,000 items last quarter, about twice its normal number; grocery promotions rose roughly 10% in H1 2025"
+      ],
+      "kind": "podcast",
+      "one_liner": "A deep dive into record diesel crack spreads and refinery bottlenecks driving demand destruction, with only a loose tie-in to labor data and Fed policy that a rates/credit trader would find background at best.",
+      "published": "2026-09-03T17:23:36+00:00",
+      "recap": "The host argues the real energy story isn't crude oil prices but the crack spread -- the margin between crude and refined products like diesel, which has hit record highs even as crude looks tame. Refineries, not crude supply, are the bottleneck: US refiners ran at 98% capacity (highest in nearly 8 years) in late August, unable to safely push higher, while global refined product losses are estimated at 2-4.7 million barrels per day (IEA) due to Hormuz disruptions, Ukrainian strikes on Russian refineries, Moscow's export suspension, and China protecting domestic supply. US distillate inventories are at their lowest for this time of year since 1980s EIA records began, even as the US exports aggressively to meet global demand. The diesel 3-2-1 crack spread has exceeded $100/barrel, historically extreme. Simultaneously, US gasoline demand fell for a second consecutive summer (8.9 mb/d in August vs 9.05 and 9.12 in prior two years), which the host links to weakening labor data -- JOLTS hiring rate below 5.1 million, quits falling to ~3.06 million, hiring ratio at 1.84% of working-age population, all consistent with a stagnant 'no-hire economy.' The thesis: rather than generating broad inflation, the energy shock is colliding with a strained consumer, producing demand destruction -- retailers (Walmart, Kroger, Aldi) cutting prices and promotions rather than passing on costs. With peak diesel season (harvest, heating) approaching amid record-low inventories, the host expects elevated, volatile diesel cracks but disinflationary pressure elsewhere in the economy.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "energy",
+        "inflation",
+        "labor-market",
+        "Fed",
+        "macro"
+      ],
+      "terms": [
+        "Crack spread -- the estimated gross margin from refining crude oil into products, commonly measured via the 3-2-1 ratio (3 barrels crude to 2 gasoline + 1 distillate)",
+        "JOLTS -- the US Job Openings and Labor Turnover Survey, a BLS report on hires, quits, and openings",
+        "IEA -- the International Energy Agency"
+      ],
+      "tier": "plumbing",
+      "title": "The Diesel Crisis Nobody Is Talking About",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/b8b9d3e6/9cbc64d3.mp3",
+      "watch": [
+        "EIA weekly distillate inventory and refinery utilization data heading into winter heating season",
+        "JOLTS hiring/quits trends as a leading indicator for Fed policy expectations",
+        "Diesel crack spread levels versus crude as a proxy for consumer disinflation vs. producer margin strength"
+      ]
+    },
     "e15e7ba0-774d-42b6-adeb-f5cbec92754a": {
       "feed_name": "Top Traders Unplugged",
       "implications": "Background, not actionable -- the neutral-rate/productivity debate and the reduced diversification value of duration are relevant context for a rates book, but the episode contains no repo, funding, collateral, or credit-spread specifics to trade on.",
