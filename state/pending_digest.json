@@ -1,3 +1,44 @@
 {
-  "queued": {}
+  "queued": {
+    "c668045c-a6ea-11f1-9fa3-9762e3473041": {
+      "feed_name": "Monetary Matters",
+      "implications": "The Treasury bull thesis (duration cheap on growth-slowdown/deficit-overstated logic) and the private-credit-bottom-not-in view are the two points with book relevance; most of the episode (equity chart-topping calls, semiconductor stock picks, gold, hair-loss stocks) is background color for a rates/credit financing desk.",
+      "key_claims": [
+        "Dillion: US deficit is about $2 trillion, ~6% of GDP, versus ~12% of GDP in 2010",
+        "Dillion: he is long 30-year Treasuries at 5.3% yield and 10-year at 4.7%, a multi-year trade",
+        "Dillion: next payrolls print is expected around 55,000 jobs; unemployment rate has fallen to 4.1% from 4.5%",
+        "Dillion: private credit/private equity has not yet bottomed because private-market repricing is much slower than public markets",
+        "Dillion: gold rallied ~15% in a month before pulling back through its 200-day average (~$4,500) after Warsh's Jackson Hole speech; next support seen near $3,900-4,000",
+        "Dillion: hyperscaler debt issuance (e.g., Google's $40bn bond) is a new phenomenon -- historically tech was financed with equity, not multi-decade debt"
+      ],
+      "kind": "podcast",
+      "one_liner": "A macro-trading interview arguing long-duration Treasuries are cheap despite the deficit/AI-issuance narrative, with a secondary bearish update on private credit still finding no bottom.",
+      "published": "2026-09-03T12:04:00+00:00",
+      "recap": "Jared Dillion (Daily Dirt Nap, author of The Awesome Portfolio) argues the bond sell-off is driven by a 'mind virus' of deficit and inflation fear rather than fundamentals: inflation is falling, labor data (weak payrolls, soft ISM/JOLTS/Chicago PMI) points to a slowdown, and the deficit at ~6% of GDP is well below 2010's 12%. He notes strong auction bid-to-covers show demand is being ignored while only supply gets attention, and argues a risk-off equity shock would send yields sharply lower. He says he has moved a large share of his own money into 30s (5.3%) and 10s (4.7%) as a multi-year trade. The conversation touches Volcker-era crowding-out logic, applied now to hyperscaler debt issuance (e.g., a $40bn Google bond) pressuring yields, and disagrees mildly with a guest's (Torsten Slok-referenced) view that AI outcomes both point to lower yields. Much of the rest covers equity sentiment and single-name views: financials/semis/healthcare 'topping' on his chart review, retail concentration in Nvidia/Broadcom, the Citadel/hedge-fund semiconductor block-trade unwind, gold's pullback after Jackson Hole/Warsh remarks with support near $3,900-4,000, copper as his least-favored metal, and speculative 'baldness drug' stock ideas. On credit, he reiterates a two-year-old bearish call on private credit/private equity, saying valuations haven't bottomed because illiquid private markets reprice much more slowly than public ones, and that AI, private credit and private equity risks are interlinked.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "rates",
+        "Treasuries",
+        "Fed",
+        "deficit",
+        "duration",
+        "private credit",
+        "gold",
+        "equities-sentiment"
+      ],
+      "terms": [
+        "OIS -- overnight index swap, a rate derivative referencing the average overnight rate over the swap term",
+        "CDX/iTraxx -- not discussed in this item"
+      ],
+      "tier": "plumbing",
+      "title": "\u201cI\u2019m Insanely Bullish on Bonds\u201d | Jared Dillian on Copper, Bonds, Semis, and The Awesome Portfolio",
+      "url": "https://traffic.megaphone.fm/EWWMN9962408100.mp3",
+      "watch": [
+        "Friday non-farm payrolls print (consensus ~55k) as a catalyst for both rates and gold repricing",
+        "Pace and pricing of hyperscaler/AI-related corporate bond issuance (e.g. Google's $40bn deal) and its crowding-out effect on Treasury yields",
+        "Further private credit/private equity liquidity and valuation marks for signs of a bottom"
+      ]
+    }
+  }
 }

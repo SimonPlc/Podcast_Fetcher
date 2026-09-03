@@ -890,6 +890,34 @@
         "Whether equities eventually reprice on higher discount rates"
       ]
     },
+    "6a995738809ae7c2f437e4ce": {
+      "feed_name": "Under the Banyan Tree",
+      "implications": "Background, not actionable -- this is an Asian equity-strategy recap of a China conference with no repo, funding, rates, or credit content relevant to the reader's book.",
+      "key_claims": [
+        "Speaker at the conference: overall China corporate earnings growth is roughly 12-30%, versus about 90% for AI hardware earnings.",
+        "Korean equities fell about 40% at one point in July 2026 amid reassessment of AI capacity/overbuild risk.",
+        "A speaker noted China's government debt is rising faster than in the US and most other markets, which could limit room for further fiscal spending.",
+        "Global data center investment is cited at roughly a trillion dollars, with concerns about overbuilding capacity/chips in Asia, though a potential issue is not expected until late 2027/early 2028."
+      ],
+      "kind": "podcast",
+      "one_liner": "A recap of HSBC's Shenzhen China conference covering equity-market themes (deflation, consumption, AI capex, trade) with no repo, rates, or credit content.",
+      "published": "2026-09-03T11:17:12+00:00",
+      "recap": "HSBC's Harold van der Linde and Jake Lee recap takeaways from the 2026 HSBC China Conference in Shenzhen. The main economic theme was China's exit from deflation, which speakers framed as a precondition for a consumption recovery, since falling prices encourage households to delay purchases while rising prices pull demand forward; economists took this as a signal that more policy stimulus could follow, though consumer stocks have not yet rallied given still-weak sales growth, aside from niche winners like snack retailers benefiting from an offline-shopping trend. On trade, panelists argued China is 'staying nimble' under tariffs, with US-bound trade holding up better than headlines suggest and exports to Europe (goods and services) growing strongly, alongside China's own large services imports from Europe. One speaker flagged that Chinese government debt, while smaller than the US in absolute terms, is rising faster than in most other markets, constraining room for further fiscal spending unless investment becomes more productive. The second half covers AI as the described 'K-shaped economy': AI-related hardware earnings are growing around 90% year-on-year versus roughly 12-30% for the broader market, and humanoid robotics is cited as a Chinese strength. Investor sentiment on AI has cooled from unconditional enthusiasm (Korea fell ~40% at one point in July on capacity/overbuild concerns, with a 2027-2028 risk window flagged) toward a more selective rotation, with flows moving into Japan and China alongside the US.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "China",
+        "equities",
+        "AI",
+        "macro",
+        "off-topic"
+      ],
+      "terms": [],
+      "tier": "asia",
+      "title": "Top takeaways from HSBC's China Conference",
+      "url": "https://sphinx.acast.com/p/open/s/64db93c01796c400110e0ce3/e/6a995738809ae7c2f437e4ce/media.mp3",
+      "watch": []
+    },
     "6e1ad772-adab-4113-a7d9-a22d1fb5f171": {
       "feed_name": "Eurodollar University",
       "implications": "For a rates/repo book, the piece argues against reading the long-end back-up as the start of a durable bear-steepening or term-premium blowout \u2014 instead it frames the move as front-end-led richening (2yr rallying on rate-cut expectations) consistent with bull-steepening, which should inform curve RV positioning (10s30s, 2s30s) and skepticism toward auction-tail headlines as standalone signals.",
@@ -1344,6 +1372,46 @@
       "tier": "quant",
       "title": "GM106: What Happens When the Debt Finally Matters ft. Marvin Barth",
       "url": "https://episodes.captivate.fm/episode/c4a83eea-c40b-4a2c-9003-51cd46880c72.mp3"
+    },
+    "c668045c-a6ea-11f1-9fa3-9762e3473041": {
+      "feed_name": "Monetary Matters",
+      "implications": "The Treasury bull thesis (duration cheap on growth-slowdown/deficit-overstated logic) and the private-credit-bottom-not-in view are the two points with book relevance; most of the episode (equity chart-topping calls, semiconductor stock picks, gold, hair-loss stocks) is background color for a rates/credit financing desk.",
+      "key_claims": [
+        "Dillion: US deficit is about $2 trillion, ~6% of GDP, versus ~12% of GDP in 2010",
+        "Dillion: he is long 30-year Treasuries at 5.3% yield and 10-year at 4.7%, a multi-year trade",
+        "Dillion: next payrolls print is expected around 55,000 jobs; unemployment rate has fallen to 4.1% from 4.5%",
+        "Dillion: private credit/private equity has not yet bottomed because private-market repricing is much slower than public markets",
+        "Dillion: gold rallied ~15% in a month before pulling back through its 200-day average (~$4,500) after Warsh's Jackson Hole speech; next support seen near $3,900-4,000",
+        "Dillion: hyperscaler debt issuance (e.g., Google's $40bn bond) is a new phenomenon -- historically tech was financed with equity, not multi-decade debt"
+      ],
+      "kind": "podcast",
+      "one_liner": "A macro-trading interview arguing long-duration Treasuries are cheap despite the deficit/AI-issuance narrative, with a secondary bearish update on private credit still finding no bottom.",
+      "published": "2026-09-03T12:04:00+00:00",
+      "recap": "Jared Dillion (Daily Dirt Nap, author of The Awesome Portfolio) argues the bond sell-off is driven by a 'mind virus' of deficit and inflation fear rather than fundamentals: inflation is falling, labor data (weak payrolls, soft ISM/JOLTS/Chicago PMI) points to a slowdown, and the deficit at ~6% of GDP is well below 2010's 12%. He notes strong auction bid-to-covers show demand is being ignored while only supply gets attention, and argues a risk-off equity shock would send yields sharply lower. He says he has moved a large share of his own money into 30s (5.3%) and 10s (4.7%) as a multi-year trade. The conversation touches Volcker-era crowding-out logic, applied now to hyperscaler debt issuance (e.g., a $40bn Google bond) pressuring yields, and disagrees mildly with a guest's (Torsten Slok-referenced) view that AI outcomes both point to lower yields. Much of the rest covers equity sentiment and single-name views: financials/semis/healthcare 'topping' on his chart review, retail concentration in Nvidia/Broadcom, the Citadel/hedge-fund semiconductor block-trade unwind, gold's pullback after Jackson Hole/Warsh remarks with support near $3,900-4,000, copper as his least-favored metal, and speculative 'baldness drug' stock ideas. On credit, he reiterates a two-year-old bearish call on private credit/private equity, saying valuations haven't bottomed because illiquid private markets reprice much more slowly than public ones, and that AI, private credit and private equity risks are interlinked.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "rates",
+        "Treasuries",
+        "Fed",
+        "deficit",
+        "duration",
+        "private credit",
+        "gold",
+        "equities-sentiment"
+      ],
+      "terms": [
+        "OIS -- overnight index swap, a rate derivative referencing the average overnight rate over the swap term",
+        "CDX/iTraxx -- not discussed in this item"
+      ],
+      "tier": "plumbing",
+      "title": "\u201cI\u2019m Insanely Bullish on Bonds\u201d | Jared Dillian on Copper, Bonds, Semis, and The Awesome Portfolio",
+      "url": "https://traffic.megaphone.fm/EWWMN9962408100.mp3",
+      "watch": [
+        "Friday non-farm payrolls print (consensus ~55k) as a catalyst for both rates and gold repricing",
+        "Pace and pricing of hyperscaler/AI-related corporate bond issuance (e.g. Google's $40bn deal) and its crowding-out effect on Treasury yields",
+        "Further private credit/private equity liquidity and valuation marks for signs of a bottom"
+      ]
     },
     "cd35cf8e-d1f1-4752-8183-b4b90095f456": {
       "feed_name": "Asia Centric",
