@@ -963,6 +963,15 @@
       "url": "https://sphinx.acast.com/p/open/s/64db93c01796c400110e0ce3/e/6a995738809ae7c2f437e4ce/media.mp3",
       "watch": []
     },
+    "6a99cd1bd54ec94380ea7d45": {
+      "feed_name": "Unhedged",
+      "kind": "podcast",
+      "published": "2026-09-03T20:00:00+00:00",
+      "status": "failed",
+      "tier": "credit",
+      "title": "Dear Brits, please save more",
+      "url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6a99cd1bd54ec94380ea7d45/media.mp3"
+    },
     "6e1ad772-adab-4113-a7d9-a22d1fb5f171": {
       "feed_name": "Eurodollar University",
       "implications": "For a rates/repo book, the piece argues against reading the long-end back-up as the start of a durable bear-steepening or term-premium blowout \u2014 instead it frames the move as front-end-led richening (2yr rallying on rate-cut expectations) consistent with bull-steepening, which should inform curve RV positioning (10s30s, 2s30s) and skepticism toward auction-tail headlines as standalone signals.",
@@ -1408,6 +1417,15 @@
       "title": "Nick Bostrom on What Happens if AI Solves All of Our Problems",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/bcc22dff-b144-40ae-8f68-b4ab00f28c30/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
       "watch": []
+    },
+    "c34cb447-3211-4e54-9d42-b4ba011c59e3": {
+      "feed_name": "The Credit Edge",
+      "kind": "podcast",
+      "published": "2026-09-03T20:00:00+00:00",
+      "status": "failed",
+      "tier": "credit",
+      "title": "Columbia Threadneedle Scans AI Debt Rush for Alpha Opportunity",
+      "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/e74a35e9-c028-4e5f-a3f7-afb10164a717/c34cb447-3211-4e54-9d42-b4ba011c59e3/audio.mp3?utm_source=Podcast&in_playlist=8792a2e9-d66c-4038-a1fe-afb101654894"
     },
     "c4a83eea-c40b-4a2c-9003-51cd46880c72": {
       "feed_name": "Top Traders Unplugged",
