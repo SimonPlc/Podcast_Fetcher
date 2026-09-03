@@ -672,6 +672,51 @@
       "url": "https://traffic.megaphone.fm/APO5974441639.mp3",
       "watch": []
     },
+    "6002d824-cec9-488f-b333-f9a166c917d0": {
+      "feed_name": "The CLO Investor Podcast",
+      "implications": "Ratings-methodology loosening and NAIC capital relief at the AAA/AA level should modestly cheapen top-of-stack CLO funding and could draw incremental insurer demand into senior tranches, while higher NAIC charges for BBB/BB should dampen insurer appetite lower in the stack \u2014 relevant context for a repo/financing desk pricing CLO collateral and for anyone tracking structured-credit relative value versus corporates.",
+      "key_claims": [
+        "Fitch is shortening its assumed recovery lag from 12 months to 6 months (Gilbert)",
+        "Fitch is extending its CCC cash-flow-diversion haircut mechanism from BB-and-below tranches to single-A and BBB tranches (Gilbert)",
+        "Roughly 10% of CLOs could be eligible for a ratings upgrade if the Fitch proposal is enacted as is (Bates)",
+        "Moody's is proposing to lower its AAA default stress multiple from 1.95x to 1.81x (Gilbert)",
+        "NAIC life-insurer risk-based capital charge for CLO AAA tranches is falling from 16bp to 4bp (a 4x reduction), effective around December 31, 2026, while charges for BBB-and-below tranches are rising (Gilbert)",
+        "CLO BB tranches have historically shown roughly a 40% recovery rate and have outperformed similarly-rated corporates over a 30-year track record (Gilbert/Bates)",
+        "NAIC has signaled it will next review ABS, RMBS, auto/consumer ABS, and multi-asset-class credit securitizations (Gilbert)"
+      ],
+      "kind": "podcast",
+      "one_liner": "A detailed walkthrough of proposed Fitch and Moody's CLO ratings-methodology changes and finalized NAIC risk-based-capital revisions for insurers, both of which reprice the cost and demand for CLO tranches across the capital stack.",
+      "published": "2026-09-03T14:12:00+00:00",
+      "recap": "Shiloh Bates interviews Chris Gilbert, co-head of Securitized Products at Natixis, on how CLO tranches are rated and on proposed criteria changes from Fitch and Moody's. Gilbert explains the ratings process: agencies model probability of default on underlying loans (using public ratings or, for middle-market CLOs, paid credit estimates), assume recovery rates and correlation (Fitch/S&P via Monte Carlo, Moody's via a binomial expansion technique weighted by diversity, industry and obligor concentration), then run cash-flow waterfalls to see what leverage each rating can support. Equity holders optimize for the thickest AAA and AA tranches to minimize funding cost. On Fitch's proposal: recovery lags are being shortened (12 months to 6), middle-market versus BSL recovery-rate distinctions are being eliminated as data has converged, and the CCC-basket haircut mechanism (previously only applied to BB-and-below tranches) is being extended to A and BBB tranches \u2014 all incrementally debt-friendly, with roughly 10% of CLOs potentially eligible for upgrade. Moody's is lowering its AAA stress multiple (1.95x to 1.81x) and will now consider actual portfolio composition alongside worst-case covenant scenarios, capped at one-to-two notch improvement. Separately, the NAIC has finalized (effective year-end) risk-based capital changes for life insurers: AAA capital charges fall to a quarter of prior levels (16bp to 4bp), while BBB-and-below charges rise, aimed at curbing capital arbitrage via securitization. Gilbert also details why BSL BB tranches, despite strong historical performance, trade volatile against economically-modest par shortfalls, since CLO cash-flow diversion mechanics tend to repair coverage over time \u2014 a structural feature distinguishing CLOs from legacy market-value CLOs.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "CLO",
+        "structured credit",
+        "ratings agencies",
+        "NAIC",
+        "leveraged loans",
+        "insurance capital",
+        "securitization"
+      ],
+      "terms": [
+        "CLO -- collateralized loan obligation, a securitization backed by a pool of leveraged loans",
+        "BSL -- broadly syndicated loan (as opposed to middle-market/private credit loans)",
+        "NAIC -- National Association of Insurance Commissioners, the US insurance regulatory standards body",
+        "RBC -- risk-based capital, the capital insurers must hold against an investment based on its risk classification",
+        "CCC haircut/diversion mechanism -- a CLO structural test that redirects cash flows from equity to senior debt as the portfolio's CCC-rated loan concentration grows",
+        "binomial expansion technique -- Moody's statistical method for modeling default correlation and diversity within a CLO's loan pool"
+      ],
+      "tier": "credit",
+      "title": "#39 Part 1, Chris Gilbert, Co-Head of Securitized Products, Natixis",
+      "url": "https://traffic.libsyn.com/secure/1302c0f6-a032-40ce-abec-d27acd45226e/Podcast_39.mp3?dest-id=4445108",
+      "watch": [
+        "Final published Fitch and Moody's criteria updates and their effective dates",
+        "State-by-state NAIC adoption ahead of the December 31 target implementation",
+        "NAIC's flagged follow-on review of ABS and multi-asset-class credit securitizations",
+        "Any pickup in insurer demand for CLO AAA/AA tranches once NAIC capital charges drop"
+      ]
+    },
     "601648ee-398a-402f-a6a9-a0e31e74fc56": {
       "feed_name": "The Julia La Roche Show",
       "implications": "Directly bears on the reader's repo/funding book: a shrinking Fed balance sheet plus a Treasury general-account drawdown recycled through reverse repo would add T-bill supply pressure and could compress front-end yields, while bill-heavy Treasury issuance keeps collateral plentiful -- both worth tracking against SOFR/repo spreads and bill auction demand.",
