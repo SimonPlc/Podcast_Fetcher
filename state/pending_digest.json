@@ -1,3 +1,48 @@
 {
-  "queued": {}
+  "queued": {
+    "a9265c2e-d86c-4d49-9344-7643e5e1274d": {
+      "feed_name": "Macro Hive Conversations",
+      "implications": "The Fed-voter-by-voter framework and the call for a possible year-end hike before 2027 cuts directly shapes front-end rate positioning and OIS/Fed-funds curve pricing; the Bessent bank-bond remarks plus deficit/military-spending trajectory reinforce a structurally bearish long-end view relevant to duration and curve steepener trades, though there is no direct repo/funding content here.",
+      "key_claims": [
+        "Dwor-Frecaut: her re-estimated Okun coefficient is still about 2 and stable post-pandemic, matching historical norms",
+        "Dwor-Frecaut: non-mortgage consumer debt (auto, credit card, student loan) is declining relative to GDP while delinquency rates on these approach GFC-era levels",
+        "Dwor-Frecaut: the household savings rate has fallen to about 3.5%, near pre-GFC lows, versus a normal ~7%",
+        "Dwor-Frecaut: breaking out AI-related vs non-AI capex imports shows non-AI capex imports are flat-to-falling in real terms, implying GDP calculations overstate domestic AI capex impact",
+        "Dwor-Frecaut: only about five FOMC voters favored a hike this year as of before Jackson Hole, per Fed communications and minutes",
+        "Bessent (via G20 remarks cited): signaled a willingness to buy bank bonds to prevent markets treating rate direction as a one-way bet",
+        "Dwor-Frecaut: US running a roughly 6% budget deficit with debt-to-GDP above 100%, alongside a proposed ~50% ($500bn, ~1.5% of GDP) increase in military spending"
+      ],
+      "kind": "podcast",
+      "one_liner": "A Macrohive strategist lays out a K-shaped, low-hire/low-fire US economy, argues AI-chip prices are a hidden supply shock keeping inflation sticky, and reads the FOMC's internal politics as tilting toward one more hike this year before cuts in 2027.",
+      "published": "2026-09-04T07:00:00+00:00",
+      "recap": "Macrohive strategist Dominique Dwor-Frecaut characterizes the US economy as full-employment but fragile and K-shaped: aggregate growth and consumption look fine, but non-mortgage consumer debt is deleveraging, delinquencies on credit cards/autos/student loans rival GFC levels, and the savings rate has fallen to near pre-GFC lows to sustain spending amid flat real incomes. She attributes stable Okun's-law dynamics (coefficient near 2) to a 'low-hire, low-fire' labor market driven by weak labor supply and AI-induced hiring caution, evidenced by a falling job-finding rate and rising unemployment duration despite low unemployment. On inflation, she argues the surge in AI-driven chip prices is an underappreciated supply shock analogous to an energy shock, which the FOMC has misread as demand pressure; a flat Phillips curve means these shocks aren't feeding into wages, keeping core trend measures (trimmed-mean, median CPI/PCE) on a gentle downward path. On the Fed, she describes a structural shift from a chair-centric FOMC (Bernanke/Yellen/Powell) to open dissent under Chair Warsh, requiring tracking of every voter rather than a few 'chair whisperers.' Despite Warsh's hawkish rhetoric on five-year-high inflation, she expects the committee dynamics (contingent on a pivotal Waller speech) could produce one more hike this year, followed by cuts in 2027 assuming no new supply shocks. She also flags Treasury Secretary Bessent's remarks about potential bank-bond purchases as a signal to asset managers, against a backdrop of a 6% deficit, debt/GDP above 100%, and a proposed 50% military budget increase, all bearish for the long end. Her surprise scenario for 2027 is that AI capex growth stalls with smaller-than-expected fallout for GDP, partly because much of the capex is import-leakage rather than domestic demand.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "inflation",
+        "labor market",
+        "fiscal",
+        "Treasury issuance",
+        "AI capex",
+        "Warsh"
+      ],
+      "terms": [
+        "Okun's law -- empirical relationship between GDP growth and changes in the unemployment rate",
+        "FOMC -- Federal Open Market Committee, the Fed's rate-setting body",
+        "PCE -- Personal Consumption Expenditures price index, the Fed's preferred inflation gauge",
+        "r-star -- the theoretical neutral real interest rate consistent with stable inflation and full employment"
+      ],
+      "tier": "macro",
+      "title": "Ep. 374: Dominique Dwor-Frecaut on the K-Shaped US Economy, AI Supply Shocks, and Fed Hikes",
+      "url": "https://traffic.libsyn.com/secure/macrohive/MH_w_DOMINIQUE_.mp3?dest-id=1929056",
+      "watch": [
+        "Waller's post-Jackson Hole speech and whether other FOMC doves follow his lead toward a hike",
+        "Upcoming core PCE/CPI data revisions reconciling the core PCE/CPI decoupling",
+        "Any concrete fiscal consolidation measures Bessent flagged for 'weeks to months' out",
+        "Signs of AI capex growth slowing and its knock-on effect on hyperscaler-linked Asian exporters (Taiwan, Korea)"
+      ]
+    }
+  }
 }

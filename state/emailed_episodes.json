@@ -1132,6 +1132,27 @@
       "title": "Building AI Systems for Capital Markets",
       "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD1461785237.mp3"
     },
+    "7d156235-f387-442d-92d2-b4ba0105ac94": {
+      "feed_name": "Odd Lots",
+      "implications": "background, not actionable -- this is a defense-industrial and military-technology discussion with no bearing on repo/funding markets, rates, or credit.",
+      "key_claims": [],
+      "kind": "podcast",
+      "one_liner": "Odd Lots episode on directed-energy weapons (lasers, high-powered microwaves) and defense industrial base economics has no repo, rates, or credit angle.",
+      "published": "2026-09-04T08:00:00+00:00",
+      "recap": "This Odd Lots episode features Wayne Sanders, senior defense research analyst at Bloomberg Intelligence and a former US Army colonel, discussing directed energy weapons -- lasers and high-powered microwaves -- as a potential solution to the depletion of expensive ballistic missile interceptors in conflicts like Israel-Iran. Sanders explains the physics: lasers concentrate energy into a narrow beam (a 'sniper rifle') to destroy single targets like drones or missiles via heat, while high-powered microwaves emit a wider beam (a 'shotgun') that can disable electronics across multiple targets, useful against drone swarms. He traces the technology's history from 1990s chemical lasers to today's electrically powered systems, and details the size-weight-power tradeoffs limiting deployability (a Stryker vehicle currently carries a 50-kilowatt laser; DARPA wants one megawatt by 2030). The economic argument is central: militaries want cheaper 'magazine depth' alternatives to multi-million-dollar interceptors like PAC-3 or THAAD when facing swarms of cheap drones. Sanders discusses supply-chain constraints (rare earths like terbium and dysprosium, dominated by China), the defense industrial base split between primes (Lockheed, RTX) scaling existing exquisite munitions and disruptors (Anduril, Castelion) capturing the mid-tier market, and command-authority structures for weapons deployment. He also addresses AI's limited, human-in-the-loop role in targeting decisions. The episode closes with hosts reflecting on the renewable-energy analogy for directed energy versus finite missile stockpiles.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "off-topic",
+        "defense",
+        "podcast"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "Why Laser Beams Are the Hottest New Tech in Defense",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/7d156235-f387-442d-92d2-b4ba0105ac94/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+      "watch": []
+    },
     "7e67b62f-36ba-4b8f-9c04-b91819d856c9": {
       "feed_name": "Eurodollar University",
       "implications": "For a repo/rates desk this is a useful sanity check against headline fiscal-doom narratives: it argues repo/collateral markets and Treasury auctions are functioning normally and the curve/term-premium data don't yet support pricing in a fiscal risk premium, so the more actionable signal from this piece is the private-credit/leveraged-loan deterioration (BDC non-accruals, 2020-21 vintage defaults) as an early credit-cycle stress indicator rather than a rates one.",
@@ -1267,6 +1288,50 @@
       "tier": "quant",
       "title": "IL52: Why Staying Calm Is the Ultimate Investing Edge ft. David Booth",
       "url": "https://episodes.captivate.fm/episode/a55f3031-7b10-4295-8ca2-2170433f7ee3.mp3"
+    },
+    "a9265c2e-d86c-4d49-9344-7643e5e1274d": {
+      "feed_name": "Macro Hive Conversations",
+      "implications": "The Fed-voter-by-voter framework and the call for a possible year-end hike before 2027 cuts directly shapes front-end rate positioning and OIS/Fed-funds curve pricing; the Bessent bank-bond remarks plus deficit/military-spending trajectory reinforce a structurally bearish long-end view relevant to duration and curve steepener trades, though there is no direct repo/funding content here.",
+      "key_claims": [
+        "Dwor-Frecaut: her re-estimated Okun coefficient is still about 2 and stable post-pandemic, matching historical norms",
+        "Dwor-Frecaut: non-mortgage consumer debt (auto, credit card, student loan) is declining relative to GDP while delinquency rates on these approach GFC-era levels",
+        "Dwor-Frecaut: the household savings rate has fallen to about 3.5%, near pre-GFC lows, versus a normal ~7%",
+        "Dwor-Frecaut: breaking out AI-related vs non-AI capex imports shows non-AI capex imports are flat-to-falling in real terms, implying GDP calculations overstate domestic AI capex impact",
+        "Dwor-Frecaut: only about five FOMC voters favored a hike this year as of before Jackson Hole, per Fed communications and minutes",
+        "Bessent (via G20 remarks cited): signaled a willingness to buy bank bonds to prevent markets treating rate direction as a one-way bet",
+        "Dwor-Frecaut: US running a roughly 6% budget deficit with debt-to-GDP above 100%, alongside a proposed ~50% ($500bn, ~1.5% of GDP) increase in military spending"
+      ],
+      "kind": "podcast",
+      "one_liner": "A Macrohive strategist lays out a K-shaped, low-hire/low-fire US economy, argues AI-chip prices are a hidden supply shock keeping inflation sticky, and reads the FOMC's internal politics as tilting toward one more hike this year before cuts in 2027.",
+      "published": "2026-09-04T07:00:00+00:00",
+      "recap": "Macrohive strategist Dominique Dwor-Frecaut characterizes the US economy as full-employment but fragile and K-shaped: aggregate growth and consumption look fine, but non-mortgage consumer debt is deleveraging, delinquencies on credit cards/autos/student loans rival GFC levels, and the savings rate has fallen to near pre-GFC lows to sustain spending amid flat real incomes. She attributes stable Okun's-law dynamics (coefficient near 2) to a 'low-hire, low-fire' labor market driven by weak labor supply and AI-induced hiring caution, evidenced by a falling job-finding rate and rising unemployment duration despite low unemployment. On inflation, she argues the surge in AI-driven chip prices is an underappreciated supply shock analogous to an energy shock, which the FOMC has misread as demand pressure; a flat Phillips curve means these shocks aren't feeding into wages, keeping core trend measures (trimmed-mean, median CPI/PCE) on a gentle downward path. On the Fed, she describes a structural shift from a chair-centric FOMC (Bernanke/Yellen/Powell) to open dissent under Chair Warsh, requiring tracking of every voter rather than a few 'chair whisperers.' Despite Warsh's hawkish rhetoric on five-year-high inflation, she expects the committee dynamics (contingent on a pivotal Waller speech) could produce one more hike this year, followed by cuts in 2027 assuming no new supply shocks. She also flags Treasury Secretary Bessent's remarks about potential bank-bond purchases as a signal to asset managers, against a backdrop of a 6% deficit, debt/GDP above 100%, and a proposed 50% military budget increase, all bearish for the long end. Her surprise scenario for 2027 is that AI capex growth stalls with smaller-than-expected fallout for GDP, partly because much of the capex is import-leakage rather than domestic demand.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "inflation",
+        "labor market",
+        "fiscal",
+        "Treasury issuance",
+        "AI capex",
+        "Warsh"
+      ],
+      "terms": [
+        "Okun's law -- empirical relationship between GDP growth and changes in the unemployment rate",
+        "FOMC -- Federal Open Market Committee, the Fed's rate-setting body",
+        "PCE -- Personal Consumption Expenditures price index, the Fed's preferred inflation gauge",
+        "r-star -- the theoretical neutral real interest rate consistent with stable inflation and full employment"
+      ],
+      "tier": "macro",
+      "title": "Ep. 374: Dominique Dwor-Frecaut on the K-Shaped US Economy, AI Supply Shocks, and Fed Hikes",
+      "url": "https://traffic.libsyn.com/secure/macrohive/MH_w_DOMINIQUE_.mp3?dest-id=1929056",
+      "watch": [
+        "Waller's post-Jackson Hole speech and whether other FOMC doves follow his lead toward a hike",
+        "Upcoming core PCE/CPI data revisions reconciling the core PCE/CPI decoupling",
+        "Any concrete fiscal consolidation measures Bessent flagged for 'weeks to months' out",
+        "Signs of AI capex growth slowing and its knock-on effect on hyperscaler-linked Asian exporters (Taiwan, Korea)"
+      ]
     },
     "b1b87220-4b3b-4d8f-b66b-4af5f5352721": {
       "feed_name": "Macro Musings",
