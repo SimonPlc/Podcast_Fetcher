@@ -1,5 +1,51 @@
 {
   "queued": {
+    "1b5f5720-5def-48c8-a293-f145dc86305a": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a credit/repo desk this is a case for staying cautious on private credit and lower-tier leveraged finance exposure: widening CCC spreads, shrinking BDC portfolios and elevated redemption backlogs point to tighter, pricier refinancing for weak borrowers and potential spillover into public HY technicals and dealer/bank counterparty risk (e.g. the Radiant/Glencore/Jefferies-fund trade-finance exposure); no direct repo/funding-market read-through beyond the general credit-cycle deterioration.",
+      "key_claims": [
+        "Blackstone's BCRED (~$77bn AUM) has limited repurchases to 5% for two consecutive quarters against ~10% redemption requests, per the host",
+        "Industry-wide private credit redemption requests hit $23bn in Q2, leaving an estimated $15bn withdrawal backlog",
+        "Non-traded BDC fundraising fell 82% year-on-year to ~$2bn in Q2, the lowest since 2020",
+        "Largest public BDC portfolios have contracted for three consecutive quarters as repayments exceed new originations",
+        "CCC junk bond spreads reached 1,053bp, the highest since the April 2025 tariff turmoil and matching the August 2024 yen-carry unwind extremes",
+        "BCRED NAV fell from $24.68 to $23.64 per share (~4%) between end-January and end-July",
+        "Bathla Group's collapse involves ~AU$3.3bn in private-credit debt from over 40 lenders, described as Australia's largest-ever corporate collapse",
+        "Glencore reportedly booked a ~$480m provision related to Radiant World/Sapphire exposure, with Radiant/Sapphire owing Glencore ~$951m against ~$471m owed back"
+      ],
+      "kind": "podcast",
+      "one_liner": "A detailed case that private credit stress (BCRED redemption caps, BDC fundraising collapse, CCC spreads near cycle highs) never went away and is now spreading into Australian property lending and iron-ore trade finance.",
+      "published": "2026-09-04T14:58:20+00:00",
+      "recap": "The piece argues the private-credit stress that surfaced with Tricolor and First Brands roughly a year ago never resolved, it just moved slower and out of headlines. Blackstone's BCRED, the largest non-traded BDC (~$77bn AUM), has capped repurchases at 5% for a second straight quarter even as shareholders requested ~10% withdrawals, and its NAV slipped from $24.68 to $23.64 per share between January and July. Across tracked private-credit funds, investors sought $23bn in Q2 redemptions, leaving an estimated $15bn backlog, while non-traded BDC fundraising fell 82% year-on-year to ~$2bn, the lowest since 2020. Public BDC portfolios have now contracted for three straight quarters as repayments outpace new originations. In public credit, CCC-rated junk spreads have widened to 1,053bp, matching stress levels last seen in the April 2025 tariff shock and August 2024 yen-carry unwind, even as IG and higher-quality HY stay calm \u2014 a divergence the host reads as the market pricing real refinancing risk at the bottom of the credit stack. The story then widens geographically and thematically: Australian builder Bathla collapsed under roughly AU$3.3bn of private-credit debt (mostly floating-rate, from 40+ lenders), triggering redemption gates at several Australian private-credit funds; separately, iron-ore trader Radiant World is under investigation (with a Jefferies-linked fund and Glencore exposed) over allegedly fraudulent invoices used as financing collateral, echoing the Tricolor/First Brands pattern in trade finance rather than direct lending.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "private credit",
+        "BDC",
+        "credit cycle",
+        "CCC spreads",
+        "high yield",
+        "trade finance",
+        "Australia"
+      ],
+      "terms": [
+        "BDC -- Business Development Company, a closed-end investment vehicle that lends to middle-market companies",
+        "NAV -- Net Asset Value, the per-share value of a fund's underlying assets",
+        "CCC -- the lowest speculative-grade (junk) credit rating tier, indicating high default risk",
+        "bps -- basis points, hundredths of a percentage point",
+        "PIK -- payment-in-kind interest, where interest accrues as additional debt rather than being paid in cash"
+      ],
+      "tier": "plumbing",
+      "title": "On Sh*t... Another Private Credit Fund Just Blew Up",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/35420a66/c3b54bb7.mp3",
+      "watch": [
+        "BCRED and other BDC redemption/NAV disclosures next quarter (Sept NAV determines Q3 redemption pricing)",
+        "CCC spread trajectory relative to IG/BB",
+        "Further Radiant World litigation/counterparty disclosures (Glencore, Jefferies-linked fund)",
+        "Additional Australian private-credit fund gating tied to Bathla fallout",
+        "Public BDC origination vs. repayment trends for further contraction"
+      ]
+    },
     "a9265c2e-d86c-4d49-9344-7643e5e1274d": {
       "feed_name": "Macro Hive Conversations",
       "implications": "The Fed-voter-by-voter framework and the call for a possible year-end hike before 2027 cuts directly shapes front-end rate positioning and OIS/Fed-funds curve pricing; the Bessent bank-bond remarks plus deficit/military-spending trajectory reinforce a structurally bearish long-end view relevant to duration and curve steepener trades, though there is no direct repo/funding content here.",

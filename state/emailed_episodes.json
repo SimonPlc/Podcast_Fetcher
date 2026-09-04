@@ -162,6 +162,52 @@
         "Any Fed hike under Chair Warsh and market reaction"
       ]
     },
+    "1b5f5720-5def-48c8-a293-f145dc86305a": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a credit/repo desk this is a case for staying cautious on private credit and lower-tier leveraged finance exposure: widening CCC spreads, shrinking BDC portfolios and elevated redemption backlogs point to tighter, pricier refinancing for weak borrowers and potential spillover into public HY technicals and dealer/bank counterparty risk (e.g. the Radiant/Glencore/Jefferies-fund trade-finance exposure); no direct repo/funding-market read-through beyond the general credit-cycle deterioration.",
+      "key_claims": [
+        "Blackstone's BCRED (~$77bn AUM) has limited repurchases to 5% for two consecutive quarters against ~10% redemption requests, per the host",
+        "Industry-wide private credit redemption requests hit $23bn in Q2, leaving an estimated $15bn withdrawal backlog",
+        "Non-traded BDC fundraising fell 82% year-on-year to ~$2bn in Q2, the lowest since 2020",
+        "Largest public BDC portfolios have contracted for three consecutive quarters as repayments exceed new originations",
+        "CCC junk bond spreads reached 1,053bp, the highest since the April 2025 tariff turmoil and matching the August 2024 yen-carry unwind extremes",
+        "BCRED NAV fell from $24.68 to $23.64 per share (~4%) between end-January and end-July",
+        "Bathla Group's collapse involves ~AU$3.3bn in private-credit debt from over 40 lenders, described as Australia's largest-ever corporate collapse",
+        "Glencore reportedly booked a ~$480m provision related to Radiant World/Sapphire exposure, with Radiant/Sapphire owing Glencore ~$951m against ~$471m owed back"
+      ],
+      "kind": "podcast",
+      "one_liner": "A detailed case that private credit stress (BCRED redemption caps, BDC fundraising collapse, CCC spreads near cycle highs) never went away and is now spreading into Australian property lending and iron-ore trade finance.",
+      "published": "2026-09-04T14:58:20+00:00",
+      "recap": "The piece argues the private-credit stress that surfaced with Tricolor and First Brands roughly a year ago never resolved, it just moved slower and out of headlines. Blackstone's BCRED, the largest non-traded BDC (~$77bn AUM), has capped repurchases at 5% for a second straight quarter even as shareholders requested ~10% withdrawals, and its NAV slipped from $24.68 to $23.64 per share between January and July. Across tracked private-credit funds, investors sought $23bn in Q2 redemptions, leaving an estimated $15bn backlog, while non-traded BDC fundraising fell 82% year-on-year to ~$2bn, the lowest since 2020. Public BDC portfolios have now contracted for three straight quarters as repayments outpace new originations. In public credit, CCC-rated junk spreads have widened to 1,053bp, matching stress levels last seen in the April 2025 tariff shock and August 2024 yen-carry unwind, even as IG and higher-quality HY stay calm \u2014 a divergence the host reads as the market pricing real refinancing risk at the bottom of the credit stack. The story then widens geographically and thematically: Australian builder Bathla collapsed under roughly AU$3.3bn of private-credit debt (mostly floating-rate, from 40+ lenders), triggering redemption gates at several Australian private-credit funds; separately, iron-ore trader Radiant World is under investigation (with a Jefferies-linked fund and Glencore exposed) over allegedly fraudulent invoices used as financing collateral, echoing the Tricolor/First Brands pattern in trade finance rather than direct lending.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "private credit",
+        "BDC",
+        "credit cycle",
+        "CCC spreads",
+        "high yield",
+        "trade finance",
+        "Australia"
+      ],
+      "terms": [
+        "BDC -- Business Development Company, a closed-end investment vehicle that lends to middle-market companies",
+        "NAV -- Net Asset Value, the per-share value of a fund's underlying assets",
+        "CCC -- the lowest speculative-grade (junk) credit rating tier, indicating high default risk",
+        "bps -- basis points, hundredths of a percentage point",
+        "PIK -- payment-in-kind interest, where interest accrues as additional debt rather than being paid in cash"
+      ],
+      "tier": "plumbing",
+      "title": "On Sh*t... Another Private Credit Fund Just Blew Up",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/35420a66/c3b54bb7.mp3",
+      "watch": [
+        "BCRED and other BDC redemption/NAV disclosures next quarter (Sept NAV determines Q3 redemption pricing)",
+        "CCC spread trajectory relative to IG/BB",
+        "Further Radiant World litigation/counterparty disclosures (Glencore, Jefferies-linked fund)",
+        "Additional Australian private-credit fund gating tied to Bathla fallout",
+        "Public BDC origination vs. repayment trends for further contraction"
+      ]
+    },
     "23f3d17b-bbd7-4917-88a4-e2225279f5a1": {
       "attempts": 1,
       "feed_name": "Eurodollar University",
@@ -385,6 +431,15 @@
       "tier": "broad",
       "title": "Wellington\u2019s Jean Hynes on the Art of Investing and Finding New Markets",
       "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD8338098878.mp3"
+    },
+    "49d2136c-7d8a-4883-abe9-b4bb00c0bdfa": {
+      "feed_name": "Money Stuff: The Podcast",
+      "kind": "podcast",
+      "published": "2026-09-04T14:00:00+00:00",
+      "status": "failed",
+      "tier": "credit",
+      "title": "Learn More Gooder",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/49d2136c-7d8a-4883-abe9-b4bb00c0bdfa/audio.mp3?utm_source=Podcast&in_playlist=77e6a3a7-290d-4a82-8164-b14001353ef2"
     },
     "4f8e48be-58f1-4103-a9bd-b4b30134770d": {
       "feed_name": "The Credit Edge",
@@ -2029,6 +2084,48 @@
       "title": "Power surge: The US electricity derivatives boom, with ElectronX",
       "url": "https://mcdn.podbean.com/mf/web/3ugz59ircf6qmcge/JPM_MS_Power_Trading_FINAL6321v.mp3",
       "watch": []
+    },
+    "marketmatters.podbean.com/4ba48f88-1634-3baa-8b06-a65c06146c63": {
+      "feed_name": "Making Sense (J.P. Morgan)",
+      "implications": "Background, not actionable for a repo/credit book \u2014 this is an equity capital markets update; the only crossover point is the passing observation that record Treasury issuance, fiscal deficits and AI-driven inflation are keeping the long end near two-decade highs, which is consistent with steepening/duration-supply themes already on most rates desks' radar.",
+      "key_claims": [
+        "Eddie Bayoune: US equity issuance (IPOs, follow-ons, equity-linked) is at $430bn YTD 2026 vs ~$200bn at the same point in 2025, and already exceeds the 2021 full-year high of $458bn",
+        "Bayoune: IPO proceeds have reached $162bn YTD, above the $152bn raised in all of 2021",
+        "Jack Atherton: global ECM volumes are ~$800bn YTD, up 75% YoY, with the US up over 100% and contributing just over half; global DCM is up 22% YoY to ~$3.4trn",
+        "Bayoune: IPO issuance was ~26bps of US equity market cap in 2021 (~$60trn market); applying that ratio to today's ~$80trn market implies room for IPO volumes well above $200bn by year-end",
+        "Atherton: ~60% of 2026 equity issuance volume has been in AI or AI-adjacent sectors",
+        "Atherton: SK Hynix's US ADR trades at a nearly 30% premium to its local listing",
+        "Atherton: the long end of the US yield curve is near two-decade highs, driven by record debt issuance, AI-related (memory) inflation, a $40trn national debt, geopolitics/oil, and Fed credibility concerns"
+      ],
+      "kind": "podcast",
+      "one_liner": "A JPMorgan ECM podcast on the record-breaking 2026 tech IPO/follow-on boom (SpaceX, SK Hynix, Alphabet, Intel) is mostly equity-issuance color with only a glancing, non-actionable mention of rates.",
+      "published": "2026-09-04T13:19:55+00:00",
+      "recap": "JPMorgan's Jack Atherton and global head of tech ECM Eddie Bayoune review a record 2026 for equity capital markets: global ECM volumes near $800bn (up 75% YoY), US equity issuance of $430bn YTD (versus $200bn a year ago and the prior 2021 high of $458bn), and IPO proceeds already exceeding all of 2021. They attribute the surge to mega deals \u2014 SpaceX (largest-ever IPO), SK Hynix (largest foreign issuer IPO, trading at a ~30% ADR premium to its local line), Intel's largest-ever follow-on, and Alphabet's $90bn raise \u2014 all of which JPM advised. They argue current IPO volumes are still low relative to a much larger $80trn US equity market cap versus 2021, implying room to run. Structural tailwinds cited: stronger retail bid, faster index-inclusion timelines, and more flexible lockup structures. The two top-down narratives investors are focused on are AI (sustained AI-lab revenue growth, elevated GPU rental rates, and continued infrastructure capex funding) and rates, where the long end sits near two-decade highs driven by record debt issuance, AI-related component inflation (e.g. memory), a $40trn national debt, geopolitics/oil, and Fed communication credibility \u2014 recorded just after Kevin Warsh's Jackson Hole remarks. They expect the yield curve to stay elevated into the midterms given likely divided government, and expect broader, more diverse IPO issuance (beyond mega-caps) heading into 2027.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "ECM",
+        "IPO",
+        "equity issuance",
+        "rates",
+        "AI capex",
+        "fiscal deficit"
+      ],
+      "terms": [
+        "ECM -- Equity Capital Markets",
+        "DCM -- Debt Capital Markets",
+        "ARR -- Annual Recurring Revenue",
+        "TAM -- Total Addressable Market",
+        "ADR -- American Depositary Receipt"
+      ],
+      "tier": "quant",
+      "title": "What's next for tech equity capital markets in a record year for mega-cap IPOs?",
+      "url": "https://mcdn.podbean.com/mf/web/r4kz6cs7ke28rv35/0926_Banking_Tech_ECM_Podcast_FINALb7sbo.mp3",
+      "watch": [
+        "Whether record equity issuance volumes broaden beyond mega-cap tech into a wider range of sectors/sizes into 2027",
+        "Continued Treasury issuance and fiscal deficit trajectory as a driver of long-end yields",
+        "Fed communication and credibility post-Jackson Hole (Warsh remarks) heading into the midterms"
+      ]
     },
     "marketmatters.podbean.com/69b5d94b-3bdd-30d6-a7e4-4cf462c11119": {
       "feed_name": "Making Sense (J.P. Morgan)",
