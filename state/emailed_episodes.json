@@ -1738,6 +1738,32 @@
       "title": "Bill Nelson on Shrinking the Fed's Balance Sheet and Reviving Interbank Markets",
       "url": "https://traffic.libsyn.com/secure/macromusings/MM-556-BillNelson-Podcast-auphonic.mp3?dest-id=865793"
     },
+    "e75801e4-a708-11f1-b596-c7b325a74c17": {
+      "feed_name": "Goldman Sachs Exchanges",
+      "implications": "background, not actionable -- this is a private-equity culture and strategy interview with no repo, funding, rates, or credit-market content relevant to a bank financing/repo trader's book.",
+      "key_claims": [
+        "Patel: Permira manages roughly $100 billion in assets across private equity and credit, founded in 1985 with $48 million.",
+        "Patel: the private equity industry needs roughly 20-25% DPI per year to function but has been delivering closer to 10% for several years; Permira realized about 22% of its NAV over the past 12 months.",
+        "Patel: Permira's typical portfolio company grows organically in the low teens at the top line and significantly faster at the bottom line."
+      ],
+      "kind": "podcast",
+      "one_liner": "A Goldman Sachs Exchange interview with Permira's co-CEO on private equity strategy, culture, and AI's effect on portfolio companies has no repo, rates, or credit content relevant to this trader's book.",
+      "published": "2026-09-04T04:00:00+00:00",
+      "recap": "Alison Mass interviews Dipan Patel, co-managing partner and co-CEO of Permira, a roughly $100 billion private equity and credit firm. Patel recounts formative early jobs at Arthur Andersen during Enron and Lehman Brothers during the GFC, then describes Permira's model: mid-market private equity across consumer, healthcare, services and technology, split evenly between the US and Europe, with an 'artisanal' craftsman culture as a private partnership rather than a scaled 'factory' platform. He discusses AI's bifurcating effect on portfolio companies -- businesses with proprietary data, network effects and strong brands benefit, while commodity-data businesses decline -- and says Permira tracks how much of its NAV is exposed positively to AI model releases. He covers the industry-wide liquidity/DPI problem, noting the model needs roughly 20-25% distributions-to-paid-in per year versus an industry average near 10%, while Permira achieved 22% over the past year through disciplined exit processes and simply owning more desirable businesses. He describes Permira's culture as 'anti-fragile,' citing how the firm recovered from a distressed, over-levered, cyclical fund during the GFC by pivoting toward higher-quality, structurally growing businesses -- a strategy that still defines the firm today. He also discusses the firm's philanthropic foundation, now a permanent carry holder in its funds, his immigrant father's entrepreneurial background, and closes with a lightning-round on investing lessons and personal interests.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "private-equity",
+        "off-topic"
+      ],
+      "terms": [
+        "DPI -- distributions to paid-in capital, cash returned to LPs as a percentage of invested/unrealized NAV"
+      ],
+      "tier": "broad",
+      "title": "Dipan Patel on Permira\u2019s \u2018Artisanal\u2019 Approach to Private Equity",
+      "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD3905636252.mp3",
+      "watch": []
+    },
     "e7c52b24-a236-11f1-8bb8-cb2037ec9015": {
       "feed_name": "Goldman Sachs Exchanges",
       "implications": "Background, not actionable for repo/rates books; the only financing-relevant thread is the buildout of utility and IPP debt/equity issuance to fund data center capex, which could add to IG credit supply and is worth noting for anyone tracking utility-sector spreads, but there is no repo, funding, or rates policy content here.",
