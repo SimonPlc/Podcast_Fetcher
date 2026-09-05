@@ -208,6 +208,41 @@
         "Public BDC origination vs. repayment trends for further contraction"
       ]
     },
+    "1d1489fb-454f-49ce-ab59-e6770c6833aa": {
+      "feed_name": "Top Traders Unplugged",
+      "implications": "Background, not actionable for a repo/credit/rates desk \u2014 this is a CTA-industry and commodities-futures-microstructure discussion with only a passing reference to JGB long-end yields and Japan's debt-financing strain, which merely echoes a well-known theme rather than adding new information for HK rates/repo positioning.",
+      "key_claims": [
+        "Japan's 10-year JGB yield is around 2.8%, an all-time high on the long end, with debt-to-GDP near 250% (Jorg Gitt)",
+        "August 2026 trend-following performance: SG Trend +2.77%, SocGen CTA +2.49%, BTOP50 +2.95%, all up roughly 10-11% year-to-date (Niels Kaastrup-Larsen)",
+        "The 'Century of Evidence' paper found positive trend-following returns in every decade from 1880-2016 across 67 markets (Gitt)",
+        "IMF research cited gives oil price elasticity of about 0.15, implying a 10% price rise yields roughly 1.5% more supply and 1.5% less demand (Gitt)",
+        "Using that elasticity, losing 10 million of the ~20 million barrels/day transiting Hormuz would require roughly a 33% price rise to rebalance, consistent with WTI trading in the $80-100 range during the crisis (Gitt)"
+      ],
+      "kind": "podcast",
+      "one_liner": "A CTA/trend-following industry podcast (investor relations, a century-of-trend-following paper, and an oil futures curve/squeeze model) with only glancing, non-actionable mentions of JGB yields and fixed-income allocation.",
+      "published": "2026-09-05T04:00:00+00:00",
+      "recap": "Hosts Niels Kaastrup-Larsen and Jorg Gitt discuss the CTA/trend-following industry: investor relationship anecdotes (including a total-portfolio-approach allocator and a client wind-down), a controversy around the Simplify CTA ETF quietly changing its sub-advisor/strategy without clear investor notice, and Bobby Jain's fund merging into Millennium after weak net-of-fee results. They give August performance for trend indices (SG Trend, SocGen CTA, BTOP50 all up ~2.5-3%) and briefly survey global rates, noting Japan's 10-year JGB yield near 2.8% (an all-time high on the long end) and rising concern about Japan financing its ~250% debt-to-GDP ratio as long yields approach 4%, plus Canada rate moves tied to tariffs. Listener questions cover how CTAs use correlation versus variance in portfolio construction, how systematic risk overrides are governed/logged, and where CTAs, macro funds, and hedges cluster along futures curves. The bulk of the episode then reviews two papers: 'A Century of Evidence on Trend Following Investing' (137 years, 67 markets, showing durable trend-following returns across regimes) and Ilia Bouchouev's 'A Stylized Model of the Oil Squeeze,' which models oil spreads via storage capacity utilization to explain the April 2020 negative-oil-price event as a financial-player roll shock rather than pure storage exhaustion.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "CTA",
+        "trend-following",
+        "commodities",
+        "oil",
+        "JGB",
+        "quant"
+      ],
+      "terms": [
+        "JGB -- Japanese Government Bond",
+        "CTA -- Commodity Trading Advisor, a managed futures/trend-following fund",
+        "TPA -- Total Portfolio Approach, an asset-allocation framework treating the portfolio holistically rather than by fixed asset-class buckets",
+        "WTI -- West Texas Intermediate crude oil futures contract"
+      ],
+      "tier": "quant",
+      "title": "SI416: 137 Years of Trend: What the Evidence Really Shows ft. Yoav Git",
+      "url": "https://episodes.captivate.fm/episode/1d1489fb-454f-49ce-ab59-e6770c6833aa.mp3",
+      "watch": []
+    },
     "23f3d17b-bbd7-4917-88a4-e2225279f5a1": {
       "attempts": 1,
       "feed_name": "Eurodollar University",
