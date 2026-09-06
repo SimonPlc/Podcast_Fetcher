@@ -27,6 +27,9 @@
     "501f2551089574380d89d607c56b5e3387e03f967cf9b74afdabe70f7ac503f2": {
       "feed_name": "NY Fed Liberty Street Economics"
     },
+    "59929ca01c270976c1c0cc8f63184a2e6b75b150f341a96726bfd745ea7b2f23": {
+      "feed_name": "Net Interest"
+    },
     "63033a888f7754682c1fba60796571225b0c72fd584a742feb8038eb1f6ab962": {
       "feed_name": "Fed FEDS Notes"
     },
@@ -47,6 +50,9 @@
     },
     "a10675cd6ed1e02c78cd9abcf8c949413d293f7a09434e7aeda3b677bbb4b045": {
       "feed_name": "NY Fed Liberty Street Economics"
+    },
+    "c027571525c2c34f5c1d02f7b40c58202c18a2147e47f773fa8e320c782a3881": {
+      "feed_name": "Fed FEDS Notes"
     },
     "cc22443468f14d407b6a84ecbdb324c81ba1b3e65fe44a2b7496fd2906e8369a": {
       "feed_name": "BoE Bank Underground"
