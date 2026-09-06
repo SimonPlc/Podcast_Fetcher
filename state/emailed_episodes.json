@@ -303,6 +303,48 @@
       "title": "SI415: Maybe This Is Just What Normal Markets Look Like ft. Alan Dunne",
       "url": "https://episodes.captivate.fm/episode/297426df-7af0-4ce0-96d4-5b5c9f61ecbd.mp3"
     },
+    "313bf49f-b6bf-4487-894b-2f71ac944c88": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a rates/credit desk this is background macro color rather than a plumbing signal -- it feeds the disinflation/growth-slowdown thesis (weak JOLTS/ADP, contracting construction despite lower rates) that would argue for a lower/steeper front end and continued Fed easing, while the emphasis on eroding discretionary income and labor-market softness is a slow-burn credit-quality watch item for consumer-linked ABS, leveraged loans and HY retail/consumer names rather than something actionable today.",
+      "key_claims": [
+        "Couche-Tard (Circle K): fuel revenue $16.7bn, +33% YoY, but same-store fuel volumes fell 1.6% in the US and 4.3% in Europe/other regions",
+        "Circle K same-store merchandise revenue rose only ~1.7%, missing analyst estimates",
+        "US Open resale prices fell 50-88% in the three days before some sessions (e.g. one session dropped from ~$69 baseline, another as much as 88% to ~$25)",
+        "JOLTS hiring fell below 5.1 million in July, among the weakest of the cycle; quits also dropped",
+        "Uber is cutting ~3,300 jobs, about 10% of its global workforce",
+        "Walmart cut prices on more than 11,000 products, about twice its typical pace",
+        "Non-residential construction spending moved into contraction by late 2024; residential construction spending fell sharply starting around September 2025",
+        "Bellevue/Sammamish (Seattle) pending sales of homes above $2mn fell 15% YoY over the three months through July; days-on-market for $2mn+ homes rose from 9 (2022) to 44"
+      ],
+      "kind": "podcast",
+      "one_liner": "A consumer-economy deep dive (Circle K, Walmart, US Open ticket resales, construction spending, JOLTS/ADP) arguing an energy-price shock is masking underlying demand destruction and labor-market weakness -- relevant macro backdrop for the Fed's rate path rather than a funding-market story.",
+      "published": "2026-09-06T18:09:25+00:00",
+      "recap": "The host (in a Jeff Snyder/Eurodollar-style commentary) argues that headline consumer resilience is illusory once you look past nominal spending totals. Circle K's parent Alimentation Couche-Tard reported record fuel revenue (+33% YoY, $16.7bn) driven purely by higher oil prices, even as same-store fuel volumes fell 1.6% in the US and 4.3% in Europe -- rising dollars, falling gallons, the textbook signature of demand destruction. Store traffic and discretionary merchandise sales (snacks, drinks) also softened, with management citing 'increasingly intentional' spending. The same pattern shows up elsewhere: US Open resale ticket prices collapsed 50-88% in the days before sessions (unusual versus last year's late run-up); Walmart cut prices on 11,000 items while basket size shrank; Kroger, Amazon and Aldi are pushing into discounting, suggesting a brewing grocery price war; and higher-income households are trading down into Dollar General while Dollar Tree's traffic barely moved. On labor, ADP and JOLTS data (hiring near 5.1mn, falling quits) contradict the stronger BLS payroll print, and Uber is cutting 3,300 jobs (~10% of staff). The centerpiece argument is construction spending: both non-residential and residential construction have been contracting since late 2023/September 2025 respectively, despite lower market rates -- proof, the host argues, that falling rates reflect weakening growth expectations rather than acting as stimulus. The conclusion: an energy shock is transferring purchasing power to energy producers while destroying demand everywhere else, not igniting broad inflation.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "macro",
+        "labor-market",
+        "Fed",
+        "rates",
+        "inflation",
+        "consumer",
+        "construction"
+      ],
+      "terms": [
+        "JOLTS -- Job Openings and Labor Turnover Survey, a BLS release tracking job openings, hires, and quits",
+        "ADP -- Automatic Data Processing's private-sector payroll employment report",
+        "BLS -- Bureau of Labor Statistics"
+      ],
+      "tier": "plumbing",
+      "title": "Convenience Stores Just Issued a Warning About the American Consumer",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/d74da479/2a699340.mp3",
+      "watch": [
+        "Upcoming BLS payroll revisions and whether ADP/JOLTS divergence widens",
+        "Non-residential and residential construction spending prints for continued contraction",
+        "Retail/grocery promotional intensity (Walmart, Kroger, Amazon, Aldi) as a margin/credit signal for consumer-sector issuers"
+      ]
+    },
     "363a4bf4-a179-11f1-ad46-8bd88e04ce7d": {
       "feed_name": "Monetary Matters",
       "kind": "podcast",
