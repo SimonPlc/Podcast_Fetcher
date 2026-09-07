@@ -1,5 +1,47 @@
 {
   "queued": {
+    "44090a48-dacc-4139-9a2a-07cb5aba969b": {
+      "feed_name": "Eurodollar University",
+      "implications": "Reinforces the case for continued front-end rate-cut pricing rather than reacting to noisy payroll beats \u2014 a rates desk should weight underlying labor trend/revision patterns over headline releases when positioning duration and OIS/SOFR forward curves ahead of the FOMC; no direct repo, credit, or securitization angle here.",
+      "key_claims": [
+        "Speakers state the May 2024 payroll print was initially reported at 272k and has since been revised down to 78k",
+        "Speakers state the August 2024 payroll print of 142k has since been revised down to roughly 9k",
+        "Speakers state the April 2025 print of 177k has been revised to 108k, and May 2025's 139k to 13k",
+        "Speakers cite the JOLTS hiring rate as the third worst of the current cycle",
+        "Speakers cite Canada's August payrolls showing an unexpected decline of roughly 40,000 with falling participation",
+        "Speakers cite Circle K gasoline revenue up 33% year-over-year while volumes fell about 1%, as evidence of consumer strain"
+      ],
+      "kind": "podcast",
+      "one_liner": "A deep dive on why the bond market shrugged off the August payroll 'beat,' arguing labor-market data is being systematically overstated and later revised away, which matters for how a rates trader reads the run-up to the next Fed meeting.",
+      "published": "2026-09-07T11:00:00+00:00",
+      "recap": "The hosts (Jeff Snider and Steve Van Metre, of Eurodollar University) argue that the headline August US payroll number was far less important than the bond market's muted reaction to it, at a moment when hawkish Fed commentary and an upcoming FOMC meeting had markets primed for a market-moving surprise. Their thesis: payrolls have become unreliable since late 2023, repeatedly printing strong headline numbers that get revised down sharply months later (they walk through examples from May\u2013August 2024 and April\u2013May 2025 where initial prints of 100-270k were later revised to near-zero or negative). They argue the BLS's birth-death and trend-cycle methodology can only model 'boom' or 'recession' regimes and fails to capture the current stagnant, low-growth ('forgot how to grow') environment. They cross-check against corroborating soft data: flat average hourly earnings and hours worked, decelerating ADP private payrolls, a weak JOLTS hiring rate, rolling-over ISM manufacturing new orders, a shrinking ISM services employment subindex, and a similarly ugly Canadian payroll report with falling participation. They describe a 'K-shaped' business landscape where large corporations look fine but small/medium businesses\u2014thin on margin, unable to shed workers freely\u2014have stopped hiring and are running bare-bones. They also flag distorted volume vs. price data (e.g., Circle K gasoline revenue up 33% YoY on 1% lower volumes) as evidence of consumer strain. Conclusion: the labor market is weakening under the surface despite headline noise, and the bond market is pricing the underlying trend, not the noisy monthly print, anticipating eventual Fed rate cuts.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "labor market",
+        "payrolls",
+        "BLS",
+        "macro",
+        "bond market"
+      ],
+      "terms": [
+        "BLS -- Bureau of Labor Statistics, publisher of the US monthly employment/payrolls report",
+        "ADP -- Automatic Data Processing, publishes a private-sector payrolls estimate",
+        "JOLTS -- Job Openings and Labor Turnover Survey, a BLS release on job openings, hires, and separations",
+        "ISM -- Institute for Supply Management, publisher of manufacturing/services purchasing managers' indices"
+      ],
+      "tier": "plumbing",
+      "title": "The Market\u2019s Reaction to This Blowout Jobs Report Makes NO Sense",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/d06f3b80/4882fdbc.mp3",
+      "watch": [
+        "Payroll revisions in subsequent months for the August print",
+        "Average hourly earnings and hours-worked trends",
+        "ISM manufacturing new orders and services employment subindices",
+        "Upcoming FOMC meeting and any policy signal reaction to labor data"
+      ]
+    },
     "bc402b47-b769-4a49-9fc0-4979a67bdf89": {
       "feed_name": "Macro Musings",
       "implications": "For a repo/financing desk, this is a preview of the operational and regulatory levers (LCR/SLR tweaks, discount window and SRF stigma reduction, expanded FIMA repo access, reserve supply reduction) that will shape reserve scarcity, collateral demand, and front-end funding spreads as QT-adjacent policy resumes under a Warsh-led Fed with an active balance-sheet task force.",
