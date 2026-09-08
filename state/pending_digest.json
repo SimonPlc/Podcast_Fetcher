@@ -230,6 +230,47 @@
         "Bank commercial/private-credit lending line reductions (e.g. JPMorgan)"
       ]
     },
+    "dcaf7a31-ce64-4beb-9873-be1f13c7278a": {
+      "feed_name": "Cloud 9fin",
+      "implications": "The Athene/private-credit funding model described (annuity liabilities funding illiquid private credit assets, at scale via a now ~$850bn book) is directly relevant background for anyone monitoring private credit systemic risk, NAV lending, and insurance-linked financing structures that increasingly compete with and interact with traditional leveraged finance and repo markets; otherwise this is background, not actionable, for a repo/rates desk.",
+      "key_claims": [
+        "Cohen states Apollo's roughly $1 trillion in assets is now split about $850 billion private credit versus $150 billion private equity, a reversal from its original private-equity-only model.",
+        "Leon Black paid Jeffrey Epstein over $150 million (cited as $158 million) over several years, ostensibly for tax and estate advice.",
+        "Leon Black gifted 58 million Apollo shares to Mark Rowan and Josh Harris to demonstrate a succession plan to IPO investors.",
+        "Apollo/Athene's annuity model matches the duration of liabilities (annuity payouts) to assets, structurally addressing the borrow-short/lend-long problem that hit Silicon Valley Bank.",
+        "Cohen raises the possibility of a 'run on the bank' scenario at Apollo/Athene if annuitants collectively chose to pay penalties and withdraw funds."
+      ],
+      "kind": "podcast",
+      "one_liner": "A biographical deep-dive on Leon Black and Apollo's history is mostly narrative/scandal, but its closing discussion of Athene's annuity-funded private credit model and systemic-risk parallels to bank runs is genuinely relevant to a credit/structured-credit desk.",
+      "published": "2026-09-08T21:18:41+00:00",
+      "recap": "This is an author interview with William Cohen about his book \"Money to Burn,\" on Leon Black, Apollo, and Mark Rowan. Most of the conversation is biographical and narrative: Cohen's method of getting powerful subjects to talk on the record, the personal histories of Leon Black (son of Eli Black, an Orthodox rabbi turned United Brands CEO who died by suicide amid the United Brands/Chiquita bribery scandal) and Mark Rowan, Apollo's founding out of Drexel Burnham after Michael Milken's junk-bond empire collapsed, and Leon Black's contested succession planning, including his gifting of 58 million Apollo shares to Rowan and Josh Harris to engineer a credible succession story. A substantial segment covers Leon Black's $158 million in payments to Jeffrey Epstein, ostensibly for tax and estate advice, and Cohen's effort to adjudicate whether that explanation is credible. The most market-relevant portion describes how Rowan and Jim Belardi built Athene, an annuity insurer, explicitly to solve the classic bank problem of borrowing short and lending long by matching annuity liability duration to invested assets, then merged it into Apollo to fund a private credit engine. Cohen notes Apollo's assets have shifted from mostly private equity to roughly $850 billion of private credit versus $150 billion of private equity, spanning deals like the Nvidia-linked $500 billion lending facility and Yankees debt refinancing. Cohen closes by flagging that if annuitants ever demanded withdrawals en masse despite penalties, Apollo could face a run-on-the-bank-style dynamic, drawing parallels to 2008 and Silicon Valley Bank.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "private credit",
+        "Apollo",
+        "Athene",
+        "insurance annuities",
+        "high yield",
+        "Drexel Burnham",
+        "leveraged finance",
+        "CLO-adjacent",
+        "duration mismatch",
+        "systemic risk"
+      ],
+      "terms": [
+        "CLO -- collateralized loan obligation, a securitization backed by a pool of leveraged loans",
+        "NAV lending -- financing secured against the net asset value of a private equity or credit fund's portfolio"
+      ],
+      "tier": "credit",
+      "title": "William Cohan reveals how Apollo and Leon Black ushered in the private credit boom amid fortune and scandal",
+      "url": "https://media.transistor.fm/a9168970/77bf5b73.mp3",
+      "watch": [
+        "Signs of stress or redemption pressure in Apollo/Athene's annuity book",
+        "Broader private credit sector liquidity mismatches flagged by regulators or rating agencies",
+        "Further large private-credit financings (e.g., Nvidia-linked facility, corporate refinancings like the Yankees deal) as a gauge of private credit's expansion into traditional credit territory"
+      ]
+    },
     "marketmatters.podbean.com/93ac6a2f-aaa3-3aef-9fcd-a1b009df1285": {
       "feed_name": "Making Sense (J.P. Morgan)",
       "implications": "Mostly background on EM market structure rather than a trading catalyst, but the APAC repo-access friction described is directly relevant to a HK-based repo trader's read on regional bond-financing liquidity and buy/sell pricing distortions in EM APAC names.",
