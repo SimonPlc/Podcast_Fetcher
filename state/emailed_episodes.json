@@ -51,6 +51,45 @@
       "title": "Richmond Fed\u2019s Tom Barkin on the Surprisingly Resilient Real Economy",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/095923e3-5c15-4936-b26b-b4b70018f8d6/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83"
     },
+    "0e4101a5-77fe-4d15-89a3-93c821b094fa": {
+      "feed_name": "Eurodollar University",
+      "implications": "background, not actionable -- the dollar-shortage/curve-flatness debate touches front-end rates and collateral themes the trader already tracks, but the discussion is speculative and anecdotal (single hedge fund margin call, no hard liquidity data) rather than a specific catalyst for repo, funding, or credit positioning.",
+      "key_claims": [
+        "Hendry: USD/JPY has been targeting 200 for four years versus a consensus pullback to 110; currently around 160-162",
+        "Hendry: this century only about six weeks have seen the US 10-year Treasury yield with a '5' handle",
+        "Jeff: a hedge fund long Qatari oil vs short Brent got margin calls during the Iran conflict and had to sell gold to meet them, cited as dollar-shortage evidence",
+        "Hendry: market cap of German stocks is about $1 trillion, UK about $4 trillion",
+        "Hendry: cumulative Japanese real wage growth has been negative this century, the worst record among G7 economies"
+      ],
+      "kind": "podcast",
+      "one_liner": "Freewheeling macro chat mixing yen carry-trade folklore, Nikkei/silver price targets and dollar-shortage debate, with vague QE/collateral color but nothing actionable for repo/rates desks and no reliable data.",
+      "published": "2026-09-07T21:38:42+00:00",
+      "recap": "Hugh Hendry and host Jeff discuss USD/JPY, which Hendry has long targeted at 200 versus a consensus pull back to 110; instead it has weakened to the 160-162 area. He frames this via a 'hiatus and breakout' pattern (Nasdaq 2017, gold post-2011) and argues Japanese banks, after 25 years of QE-driven safe JGB cash holdings, are increasingly funding dollar risk-taking abroad (tied loosely to Chinese property defaults since 2021), pressuring the yen further. He and Jeff debate whether BoJ rate hikes are paradoxically weakening the yen by destabilizing JGBs. Hendry predicts the Nikkei could reach 200,000 over time (from ~65-67k) and silver 200 (from 50), framing these as 'monkey brain' pattern trades rather than analytically derived. They discuss currency devaluation as a wealth transfer from households to corporates, contrast Japan/China/Europe policy credibility (Europe deemed irrelevant, weighed down by high debt costs), and praise US 'Bessent-era' policy for prioritizing growth over debt optimization. The back half is a debate on the 'dollar shortage' thesis: Jeff argues bond/credit markets (flat curves, capped 10yr yields in the US near 5% and China near 2%, Swiss yields near zero) signal a real dollar shortage and slowing monetary growth even without outright liquidity crisis, while Hendry argues rising stock markets and expanding collateral values indicate no shortage, with equities as the final confirming signal of any dollar-liquidity break. Much of the episode is informal, includes a promotional segment for Hendry's summer camp event.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "yen",
+        "carry-trade",
+        "BoJ",
+        "dollar-shortage",
+        "liquidity",
+        "JGB",
+        "macro"
+      ],
+      "terms": [
+        "JGB -- Japanese Government Bond",
+        "QE -- Quantitative Easing, central bank asset purchases to inject reserves/liquidity",
+        "YCC -- Yield Curve Control, central bank policy pinning bond yields at a target level"
+      ],
+      "tier": "plumbing",
+      "title": "Eurodollar Talk: Hugh Hendry: The Biggest Trade of the Next 10 Years Has Started",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/959369c2/f7f4304e.mp3",
+      "watch": [
+        "USD/JPY sustaining a break below 160",
+        "US 10-year yield approaching or breaching 5%",
+        "China 10-year government bond yield approaching 2%"
+      ]
+    },
     "0f62d2ee-e669-4b6f-94ee-20a99203eee5": {
       "feed_name": "Macro Musings",
       "implications": "Directly germane to the reader's book: the discussion of discount window stigma, IOR history, and the balance-sheet task force's push toward a more demand-driven ample-reserves regime bears on repo/funding market structure and the Fed's future footprint in money markets, while the inflation-expectations and Fed-communication discussion informs front-end rate positioning.",
@@ -989,6 +1028,48 @@
         "Pace of Fed balance-sheet runoff and reserve levels under Warsh",
         "Treasury's bill-vs-coupon issuance mix as rates reprice",
         "Yen carry-trade unwind risk and its effect on UST demand from Japan"
+      ]
+    },
+    "60f28494-baf6-4e10-bc6a-c0dcabab2052": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a HK-based financing/repo trader, the relevant thread is confirmation that Treasuries remain the preferred collateral asset even under reserve-diversification pressure -- central banks liquidated gold (via sale, lease, or collateral swap) rather than Treasuries to raise dollar liquidity, and sought Fed swap lines, which supports continued structural demand for UST as repo/banking collateral even amid de-dollarization narratives; the China bond/yen commentary is background context for cross-border basis and funding flows rather than a direct catalyst.",
+      "key_claims": [
+        "Brent Johnson: gold fell roughly 24% from the war's start (late February) to the MOU signing as central banks sold gold reserves for dollar liquidity",
+        "Johnson estimates Iran's infrastructure damage from the conflict at $300-400bn, versus a hypothetical $300bn US payout that never materialized",
+        "Johnson: less than 5% of outstanding Chinese government bonds are held by foreign investors; domestic buying is driven by a lack of alternative investment options amid a bank lending collapse",
+        "Johnson: Turkey, Russia, and Gulf states sold or leased gold (rather than Treasuries) during the conflict to raise dollar liquidity, partly to preserve Treasury holdings as swap-line collateral",
+        "Anecdote relayed by Johnson: a senior Bank of Abu Dhabi executive said in April that dirham and yuan business demand had dried up, with all client demand shifting to dollars"
+      ],
+      "kind": "podcast",
+      "one_liner": "A dollar-milkshake-theory discussion of the Iran conflict's aftermath surfaces real detail on how central banks tap gold vs. Treasuries for dollar liquidity and why Treasuries function as collateral rather than investments -- useful background on funding-market plumbing, though most of the segment is geopolitical narrative.",
+      "published": "2026-09-07T21:40:52+00:00",
+      "recap": "Brent Johnson (creator of the 'dollar milkshake theory') and the host review the US-Iran conflict and its market read-through. Johnson argues the US never expected a quick win but retains more resilience to disruption (oil, Strait of Hormuz closure) than Europe, China, or Southeast Asia, and frames the strikes as part of a broader US-China power struggle rather than an isolated Iran policy. He contends Iran overplayed its hand, suffering $300-400bn in infrastructure damage while failing to secure sanctions relief or dollar-based oil sales. The core financial-markets discussion centers on why the dollar stayed strong despite widespread 'debasement trade' calls: global demand for dollars to buy oil, copper and other commodities forces even reserve-diversifying central banks back into dollars during stress. He explains gold's 2025 rally as a reserve-asset hedge, then its ~24% drawdown from the war's start to the MOU signing as central banks (Turkey, Russia, Gulf states) monetized gold gains -- via outright sales, leasing, and collateral swaps -- specifically to raise dollar liquidity while preserving Treasury holdings, since Treasuries are needed as swap-line collateral and selling them would antagonize Washington. He details Treasuries' role as banking-system collateral (spread income, not price appreciation) as the reason demand persists regardless of yield direction. The conversation closes on China: near-zero foreign ownership of Chinese bonds reflecting domestic credit collapse and deflationary property-market stress, and a weak yen used to pressure Chinese export competitiveness.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "dollar",
+        "gold",
+        "collateral",
+        "swap-lines",
+        "reserves",
+        "geopolitics",
+        "China",
+        "BOJ",
+        "Treasuries"
+      ],
+      "terms": [
+        "MOU -- Memorandum of Understanding, a non-binding agreement between parties",
+        "DXY -- the US Dollar Index, measuring the dollar against a basket of major foreign currencies",
+        "NPL -- non-performing loan, a loan in or near default"
+      ],
+      "tier": "plumbing",
+      "title": "Eurodollar Talk: Iran War Could Trigger the BIGGEST Dollar Shortage in Years",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/43d148c7/4e392b74.mp3",
+      "watch": [
+        "Whether Gulf-state central banks pursue or receive a Fed swap line",
+        "Further gold leasing/collateral-swap activity as a liquidity-stress indicator",
+        "China credit growth and PBOC bond-buying dynamics amid ongoing property-sector deflation",
+        "BOJ policy commentary on yen weakness and Japanese carry-trade repatriation"
       ]
     },
     "64fba1090e18127fa361f051:64fba4edb48a5e6f7261367d:6a84e302a4bad07b608da666": {

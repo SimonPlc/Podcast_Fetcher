@@ -48,6 +48,48 @@
         "Fed's next policy move for a possible late-cycle 'one last hike'"
       ]
     },
+    "60f28494-baf6-4e10-bc6a-c0dcabab2052": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a HK-based financing/repo trader, the relevant thread is confirmation that Treasuries remain the preferred collateral asset even under reserve-diversification pressure -- central banks liquidated gold (via sale, lease, or collateral swap) rather than Treasuries to raise dollar liquidity, and sought Fed swap lines, which supports continued structural demand for UST as repo/banking collateral even amid de-dollarization narratives; the China bond/yen commentary is background context for cross-border basis and funding flows rather than a direct catalyst.",
+      "key_claims": [
+        "Brent Johnson: gold fell roughly 24% from the war's start (late February) to the MOU signing as central banks sold gold reserves for dollar liquidity",
+        "Johnson estimates Iran's infrastructure damage from the conflict at $300-400bn, versus a hypothetical $300bn US payout that never materialized",
+        "Johnson: less than 5% of outstanding Chinese government bonds are held by foreign investors; domestic buying is driven by a lack of alternative investment options amid a bank lending collapse",
+        "Johnson: Turkey, Russia, and Gulf states sold or leased gold (rather than Treasuries) during the conflict to raise dollar liquidity, partly to preserve Treasury holdings as swap-line collateral",
+        "Anecdote relayed by Johnson: a senior Bank of Abu Dhabi executive said in April that dirham and yuan business demand had dried up, with all client demand shifting to dollars"
+      ],
+      "kind": "podcast",
+      "one_liner": "A dollar-milkshake-theory discussion of the Iran conflict's aftermath surfaces real detail on how central banks tap gold vs. Treasuries for dollar liquidity and why Treasuries function as collateral rather than investments -- useful background on funding-market plumbing, though most of the segment is geopolitical narrative.",
+      "published": "2026-09-07T21:40:52+00:00",
+      "recap": "Brent Johnson (creator of the 'dollar milkshake theory') and the host review the US-Iran conflict and its market read-through. Johnson argues the US never expected a quick win but retains more resilience to disruption (oil, Strait of Hormuz closure) than Europe, China, or Southeast Asia, and frames the strikes as part of a broader US-China power struggle rather than an isolated Iran policy. He contends Iran overplayed its hand, suffering $300-400bn in infrastructure damage while failing to secure sanctions relief or dollar-based oil sales. The core financial-markets discussion centers on why the dollar stayed strong despite widespread 'debasement trade' calls: global demand for dollars to buy oil, copper and other commodities forces even reserve-diversifying central banks back into dollars during stress. He explains gold's 2025 rally as a reserve-asset hedge, then its ~24% drawdown from the war's start to the MOU signing as central banks (Turkey, Russia, Gulf states) monetized gold gains -- via outright sales, leasing, and collateral swaps -- specifically to raise dollar liquidity while preserving Treasury holdings, since Treasuries are needed as swap-line collateral and selling them would antagonize Washington. He details Treasuries' role as banking-system collateral (spread income, not price appreciation) as the reason demand persists regardless of yield direction. The conversation closes on China: near-zero foreign ownership of Chinese bonds reflecting domestic credit collapse and deflationary property-market stress, and a weak yen used to pressure Chinese export competitiveness.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "dollar",
+        "gold",
+        "collateral",
+        "swap-lines",
+        "reserves",
+        "geopolitics",
+        "China",
+        "BOJ",
+        "Treasuries"
+      ],
+      "terms": [
+        "MOU -- Memorandum of Understanding, a non-binding agreement between parties",
+        "DXY -- the US Dollar Index, measuring the dollar against a basket of major foreign currencies",
+        "NPL -- non-performing loan, a loan in or near default"
+      ],
+      "tier": "plumbing",
+      "title": "Eurodollar Talk: Iran War Could Trigger the BIGGEST Dollar Shortage in Years",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/43d148c7/4e392b74.mp3",
+      "watch": [
+        "Whether Gulf-state central banks pursue or receive a Fed swap line",
+        "Further gold leasing/collateral-swap activity as a liquidity-stress indicator",
+        "China credit growth and PBOC bond-buying dynamics amid ongoing property-sector deflation",
+        "BOJ policy commentary on yen weakness and Japanese carry-trade repatriation"
+      ]
+    },
     "a9743af4-d3f2-4d12-9945-718bb7e22876": {
       "feed_name": "Eurodollar University",
       "implications": "The GPU-collateral financing structure is effectively a new private-credit/ABS-adjacent risk to watch for spread and covenant quality; rising CDS hedging demand (even on IG names as broad hedges) is an early tightening-of-financial-conditions signal worth tracking alongside CDX/iTraxx spreads, and the reminder that long-end yields reflect growth/inflation expectations rather than issuance or deficit fears is directly relevant to duration and curve positioning.",
