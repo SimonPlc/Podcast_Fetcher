@@ -1,3 +1,95 @@
 {
-  "queued": {}
+  "queued": {
+    "560d2bd4-d4f6-44da-bef5-278c8824a999": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a repo/financing desk, the key signal is credit, not equities: Oracle and hyperscaler CDS widening, private-credit NAV gating, and CoreWeave-style circular financing are early stress indicators worth tracking alongside CLO/CDO-adjacent structures reappearing in AI infrastructure funding; a yen-funded carry unwind would be the more likely near-term catalyst for a broader repo/collateral squeeze than an equity-market crash per se.",
+      "key_claims": [
+        "Speaker: Oracle stock fell over 60% from its post-announcement peak (~$341) and its CDS widened from ~45bp to ~200bp public / ~300bp private, now trading like junk credit",
+        "Speaker: only ~40% of private credit loans reportedly have positive free cash flow (sourced loosely to BIS, uncertain)",
+        "Speaker: on the Bloomberg terminal, HY CDX was around 316 and IG CDX around 53, both still near their tights",
+        "Speaker: Magnetar-style investors underwrote CoreWeave and are said to be down 70-75% of their equity in it, having made $12.5 billion on a similar pre-GFC CDO trade",
+        "Speaker's own model projects hyperscalers hitting negative aggregate free cash flow within roughly 50 days of the interview",
+        "Speaker: non-financial credit is roughly $80 trillion, with private-sector debt (ex-government) at a low single-digit-to-high-single-digit percent share, but private credit has been the incremental driver of recent credit growth"
+      ],
+      "kind": "podcast",
+      "one_liner": "A long-volatility PM argues the AI capex boom is now a credit story rolling over -- Oracle's CDS trading like junk, private credit acting like a 'slow-motion shadow bank run,' and Japan's carry trade as the likely trigger for the next leverage unwind.",
+      "published": "2026-09-07T21:44:21+00:00",
+      "recap": "Portfolio manager Ben Bray (Deductive Capital), who runs a long-volatility strategy while also working in AI, argues markets are past the peak of the AI-driven momentum trade and rolling over, comparing the cycle to the 1840s British railway mania and the dot-com bust: the technology is real, but that doesn't protect shareholders or capital. He notes Oracle's stock fell over 60% from its post-hyperscaler-announcement high near $341, while its CDS widened from roughly 45bp to about 200bp publicly (300bp in private markets), now trading like junk credit. He frames private credit as a regulatory-arbitrage successor to pre-GFC bank underwriting, describing rising NAV redemption requests being gated quarter after quarter as a 'slow-motion shadow bank run,' and cites a claim (sourced loosely to BIS) that only ~40% of private credit loans generate positive free cash flow. He details the 'Magnetar 2.0' dynamic behind CoreWeave's financing, echoing the hedge fund's pre-GFC CDO equity-tranche trade, and flags credit default swaps newly listed on Meta, CoreWeave and SpaceX as evidence sentiment has shifted from pure volume-chasing to demand for protection. He sees Japan -- via negative real rates, energy-import pressure, and the yen carry trade funding global asset purchases including private credit -- as the probable trigger for a broader deleveraging, alongside a historical Fed pattern of tightening excessively right before cycle turns. He closes arguing the real risk is a slow multi-year unwind (like 2000-03 or 2007-09) rather than a single crash, driven by leverage ('the fuel') meeting a shrinking collateral base.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "private credit",
+        "CDS",
+        "CLO/CDO",
+        "credit spreads",
+        "Fed",
+        "yen carry trade",
+        "leverage",
+        "AI capex",
+        "BDC",
+        "commercial real estate"
+      ],
+      "terms": [
+        "CDS -- credit default swap, insurance-like contract paying out on a bond/loan default",
+        "CDX -- an index of CDS referencing a basket of investment-grade (IG) or high-yield (HY) corporate credits",
+        "BDC -- business development company, a listed vehicle that makes private/direct loans to companies",
+        "NAV -- net asset value, the per-unit value of a fund's holdings",
+        "GFC -- Global Financial Crisis (2007-2009)",
+        "CDO -- collateralized debt obligation, a structured product pooling debt into tranches of varying seniority"
+      ],
+      "tier": "plumbing",
+      "title": "Eurodollar Talk: The AI Bubble Is Following a 180-Year-Old Playbook",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/089e05f9/c66a347d.mp3",
+      "watch": [
+        "Hyperscaler capex/free-cash-flow trajectory in upcoming earnings (speaker estimates negative FCF within ~50 days)",
+        "Oracle and CoreWeave CDS spread levels",
+        "Private credit fund NAV redemption/gating trends and BDC discounts to NAV",
+        "BoJ policy stance and yen carry trade stability",
+        "Fed's next policy move for a possible late-cycle 'one last hike'"
+      ]
+    },
+    "a9743af4-d3f2-4d12-9945-718bb7e22876": {
+      "feed_name": "Eurodollar University",
+      "implications": "The GPU-collateral financing structure is effectively a new private-credit/ABS-adjacent risk to watch for spread and covenant quality; rising CDS hedging demand (even on IG names as broad hedges) is an early tightening-of-financial-conditions signal worth tracking alongside CDX/iTraxx spreads, and the reminder that long-end yields reflect growth/inflation expectations rather than issuance or deficit fears is directly relevant to duration and curve positioning.",
+      "key_claims": [
+        "Nvidia and major Wall Street firms (incl. BlackRock's Larry Fink) signed an MOU for $500bn+ in AI infrastructure financing, structured as GPU-collateralized lending (Gammon)",
+        "Nvidia is reportedly backstopping about 25% of the risk on these financing deals (Gammon)",
+        "CDS hedging demand has been rising incrementally since early July 2025, reflecting a behavioral shift from unconditional lending to active credit hedging (Snider)",
+        "The 30-year Treasury yield hit its highest level since 2007 (around 5.2-5.3%) as of the recording",
+        "Norway's ~$2 trillion sovereign wealth fund said it is stress-testing for a ~35% portfolio loss in an AI-bubble bust scenario, with the CEO saying total disappearance of the fund 'wouldn't be impossible'",
+        "Longtime bond bull Dr. Lacey Hunt reportedly turned bond bearish in the past few weeks (Gammon)",
+        "Gammon cites an ~85%+ historical correlation between the 10-year Treasury yield and nominal GDP since the 1950s as evidence deficits/issuance don't directly drive long rates"
+      ],
+      "kind": "podcast",
+      "one_liner": "A macro debate on the AI-financing credit bubble (GPU-collateralized private credit, rising CDS hedging demand) paired with a rigorous framework for reading Treasury yields as information rather than manipulation \u2014 core credit-cycle and rates content for a repo/financing desk.",
+      "published": "2026-09-07T21:45:31+00:00",
+      "recap": "Jeff Snider and George Gammon (recorded Aug 11) dissect the ~$500bn Nvidia/BlackRock-and-peers MOU to finance AI buildout, arguing it repackages ailing private credit as a 'new asset class' collateralized by GPUs rather than borrower cash flow \u2014 analogous to lending against a depreciating asset with no market to foreclose into. They flag that Nvidia backstopping roughly 25% of the risk signals borrowers can't clear a market rate, and liken the structure to a father (Nvidia) whose own income depends on his insolvent son's (OpenAI-type) burn rate. They connect this to a genuine shift in credit-market behavior: since early July, demand for CDS protection (even on solid names like Meta, used as broad hedges) has been rising steadily \u2014 not panic, but a clear change from blank-check lending to active hedging. They cite Michael Burry's 1987-crash warning and Norway's $2tn sovereign wealth fund stress-testing a 35% drawdown as signs sentiment is turning, though they read widespread bearishness (including lifelong bond bull Lacey Hunt flipping bearish) as a contrarian signal that a top isn't imminent. The second half is a rates framework: the 30-year hit a post-2007 high, but Gammon argues long rates simply track nominal GDP (85%+ historical correlation) and growth/inflation expectations, not deficits or auction results, and that Fed cuts can coincide with rising long yields because markets read capitulation as a signal to price recovery, not looser policy.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "private credit",
+        "CDS",
+        "credit cycle",
+        "Treasuries",
+        "yield curve",
+        "Fed",
+        "collateral",
+        "AI financing"
+      ],
+      "terms": [
+        "MOU -- memorandum of understanding, a non-binding agreement",
+        "CDS -- credit default swap, a derivative used to hedge or speculate on credit/default risk",
+        "BOJ -- Bank of Japan"
+      ],
+      "tier": "plumbing",
+      "title": "Eurodollar Talk: Wall Street Is Preparing for the Next Financial Shock | George Gammon Explains",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/4cce8486/ce305cf0.mp3",
+      "watch": [
+        "Further disclosures on Nvidia/BlackRock GPU-collateralized financing terms and rates charged",
+        "CDS spread trends on mega-cap tech (Meta, Nvidia) as a bellwether for AI-credit stress",
+        "Whether private-credit funds (e.g., Blue Owl) show signs of distress",
+        "30-year Treasury yield reaction if it breaks below ~5.05-5.1%"
+      ]
+    }
+  }
 }
