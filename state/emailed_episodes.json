@@ -2822,6 +2822,35 @@
         "US-China trade deadline in October",
         "UK budget at end of October and 2027 European elections (France, Italy, Spain)"
       ]
+    },
+    "omfif.podbean.com/36f449e9-f04f-3326-bc3d-dd8d5e08e0ef": {
+      "feed_name": "Invested: The OMFIF Podcast",
+      "implications": "Background, not actionable -- this is a domestic Norwegian fiscal-policy and sovereign-wealth-fund governance debate with no direct repo, funding, rates, or credit-market content relevant to a HK financing/repo desk.",
+      "key_claims": [
+        "Olsen: Norway's fiscal rule limits use of oil revenue to the fund's expected real return, preserving wealth for future generations.",
+        "Olsen: oil prices fell from over $100/barrel to roughly half that in the 2014 shock, temporarily raising unemployment.",
+        "Nicolai Tangen (NBIM head, per Olsen's characterization) suggested an extreme adverse market scenario could wipe out the entire fund, which Olsen argues is unrealistic because fiscal policy would adjust well before that point."
+      ],
+      "kind": "podcast",
+      "one_liner": "A debate between former Norges Bank governor \u00d8ystein Olsen and economist Martin Bech Holte over whether Norway's oil wealth has made it complacent, with little direct read-through to repo, rates, or credit markets.",
+      "published": "2026-09-08T14:04:01+00:00",
+      "recap": "Former Norges Bank governor \u00d8ystein Olsen discusses a new book, Our Rich Country, written with historian Eivind Tomasson, rebutting Martin Bech Holte's bestselling The Country That Became Too Rich. Holte argues Norway enjoyed a 'golden age' of growth until roughly 2013-14, after which oil wealth bred complacency, weak productivity, and a bloated public sector, prescribing sharp cuts to government spending. Olsen counters that Holte cherry-picks data and mislabels a run of external shocks -- the financial crisis, the 2014 oil price collapse, the pandemic, and the war in Ukraine -- as internally caused laziness. Olsen defends Norway's fiscal rule, which limits spending of oil revenue to the fund's expected real return, preserving wealth for future generations, and argues having a large sovereign asset is preferable to the high government debt burdening many peer economies. He draws a parallel between Holte's rhetoric and the MAGA-style narrative that institutions and politicians are corrupt, warning this undermines public confidence. The conversation touches on Norway's generous aid to Ukraine, a possible role for NBIM in Arctic/defense-adjacent infrastructure (echoing Mark Carney's push for Nordic pension capital), and NBIM chief Nicolai Tangen's warning that a severe market correction could theoretically wipe out the fund, which Olsen sees as a needed reminder to reduce fiscal dependency on fund transfers rather than a signal of complacency, though he calls the scenario itself unrealistic since fiscal policy would adjust before that point.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "sovereign wealth fund",
+        "fiscal policy",
+        "Norway",
+        "NBIM",
+        "macro"
+      ],
+      "terms": [
+        "NBIM -- Norges Bank Investment Management, manager of Norway's sovereign wealth (oil) fund"
+      ],
+      "tier": "macro",
+      "title": "Is Norway too rich for its own good?",
+      "url": "https://mcdn.podbean.com/mf/web/4eqjsma4nwdw2vzm/OO_DM_mixdown.mp3",
+      "watch": []
     }
   }
 }
