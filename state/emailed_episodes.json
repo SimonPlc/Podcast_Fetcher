@@ -1313,6 +1313,41 @@
         "Conference Board expectations index for further deterioration below 68"
       ]
     },
+    "7b1084d8-dd85-45fd-844f-60130d61930b": {
+      "feed_name": "Eurodollar University",
+      "implications": "Background, not actionable for a bank financing/repo or credit trading desk \u2014 this is retail-level multifamily CRE investment commentary (cap rates, lender-owned asset workouts, DSCR distress) rather than money-market, rates, or structured-credit content; the CPI/Fed passage is generic macro color the reader would get more precisely from official releases or a rates desk note.",
+      "key_claims": [
+        "Ken Macro: some CRE lenders are seeing debt service coverage ratios as low as 0.6-0.7, implying assets worth roughly 60-70 cents on the dollar",
+        "Ken Macro: his firm offered $8,000/unit for a 100% vacant, lender-owned property near a military base in Texas, versus a prior sale price of $90,000/unit four years earlier",
+        "Ken Macro: 2025 saw a 50-year high in multifamily supply, with future construction pipeline dropping sharply in 2024-2025 due to higher rates, implying supply/demand crossing and renewed rent growth around late 2027/early 2028",
+        "Jeff (host): June CPI showed a large headline drop from falling energy prices but core inflation barely moved, consistent with an energy-shock-driven demand-destruction/recession narrative rather than disinflation from strength"
+      ],
+      "kind": "podcast",
+      "one_liner": "A multifamily real-estate operator's market commentary on distressed CRE pricing and cap-rate resets, with a tangential CPI/Fed rates detour that's too consumer-macro-focused to be directly useful for institutional rates or credit desks.",
+      "published": "2026-09-07T21:41:48+00:00",
+      "recap": "Host Jeff interviews multifamily real-estate operator Ken Macro about why commercial real estate is trading at steep discounts despite a buoyant stock market. Macro attributes the repricing to three compounding forces: softening rents from post-2021 oversupply, rising operating costs (insurance, utilities, property taxes) squeezing net operating income, and floating-rate or maturing fixed-rate debt resetting from 4% coupons into the 5%+ range, which further crushes cash flow. He describes lenders now sizing loans off lower NOI and higher expenses, causing widespread repricing rather than isolated distress. Owners with several years left on fixed-rate debt are holding, while those facing near-term maturities or floating debt are listing assets, sometimes accepting lender-owned, fully vacant properties sold at deep discounts (one example: $8,000/unit, below land replacement cost, requiring all-cash purchase and heavy renovation capital since the asset isn't financeable). He argues supply pressure will ease by late 2027/early 2028 as new construction \u2014 curtailed by higher rates \u2014 falls off while absorption continues, setting up a future rent-growth and value-creation window; now is the time to prepare capital and operations, not necessarily to buy aggressively. Market selection varies sharply (Austin, Nashville oversupplied; Midwest stable; submarket-level divergence within cities like Phoenix). A shorter segment covers the June CPI report, framing it as showing energy-driven demand destruction with businesses (e.g., Walmart) cutting prices to preserve volume, and discusses how homeownership affordability keeps renters in apartments longer.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "CRE",
+        "multifamily",
+        "cap-rates",
+        "distressed-debt",
+        "CPI",
+        "Fed",
+        "macro"
+      ],
+      "terms": [
+        "NOI -- net operating income, a property's income after operating expenses but before debt service",
+        "DSCR -- debt service coverage ratio, net operating income divided by debt payments, used by lenders to assess repayment capacity",
+        "CPI -- consumer price index, a measure of inflation in a basket of consumer goods and services",
+        "OER -- owners' equivalent rent, the imputed rental value component of CPI used to estimate housing costs for homeowners"
+      ],
+      "tier": "plumbing",
+      "title": "Eurodollar Talk: Real Estate Insider \u201cBanks Are Now Dumping Buildings At 80 Cents On The Dollar!\u201d",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/c69468e0/f9a550f8.mp3",
+      "watch": []
+    },
     "7b791eb6-d4eb-4178-9a6b-93997d501942": {
       "feed_name": "Top Traders Unplugged",
       "implications": "The Treasury buyback/off-the-run liquidity discussion and basis-trade/repo leverage dynamics are directly relevant background for a repo/financing desk monitoring dealer balance-sheet capacity, SLR constraints, and repo market stress transmission, but the bulk of the episode (CTA performance, trend-following taxonomy, commodity anecdotes) is not actionable for credit/rates positioning.",
@@ -2012,6 +2047,51 @@
       "tier": "plumbing",
       "title": "WTF Just Happened to Retail Sales?!",
       "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/075b2e78/10173c70.mp3"
+    },
+    "d0662ea4-7a05-474b-97b6-e5992abd40bf": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a repo/financing desk this is mainly a forward-looking risk map rather than an immediate trade: watch CCC/HY spread widening, CLO downgrade activity, and bank pullback on private-credit lending lines as early signals of collateral and counterparty stress; a credit-cycle turn here would also pressure front-end rates (T-bill/OIS signals, potential faster Fed easing) and could tighten repo/collateral conditions if bank balance sheets pull in.",
+      "key_claims": [
+        "Dowd: private credit assets grew a minimum of 50-75% over 2024-2025, per some estimates",
+        "Dowd: non-farm payrolls were revised 8 standard deviations too high in 2024 and 4 standard deviations in 2025 versus QCEW",
+        "Dowd: semiconductors are 19% of the S&P 500 and AI/AI-adjacent names are 40-45% of total market cap",
+        "Dowd cites a PIMCO note suggesting the credit loss cycle is beginning to shift",
+        "Dowd: Morgan Stanley estimated ~$1.5tn of external financing needed for AI data-center buildout, much expected from private credit",
+        "Dowd: an Amazon investment-grade bond deal was only 1.6-1.8x subscribed, cited as a sign of cooling credit demand"
+      ],
+      "kind": "podcast",
+      "one_liner": "Ed Dowd argues private credit has quietly become the new (opaque) junk market and is showing early stress signals -- CCC widening, redemptions, SRT demand -- with contagion risk into CLOs, bank credit lines and the AI capex/debt cycle.",
+      "published": "2026-09-07T21:43:05+00:00",
+      "recap": "Macro investor Ed Dowd argues private credit has effectively become the new junk-bond market, but opaque, illiquid and self-marked -- riskier credits have migrated there from public high yield, leaving public HY spreads artificially tight while masking deterioration. He cites widening CCC spreads (noted by Gundlach, who called it 'garbage lending'), loans marked at par one month and near-zero the next, and rising fund redemptions with stalling inflows as evidence a credit-loss cycle (per a PIMCO note) is beginning. He traces the root to weak 'K-shaped' consumer fundamentals (First Brands, Tricolor bankruptcies), unreliable labor data (QCEW revisions showing non-farm payrolls off by 8 and 4 standard deviations in 2024-25), and private credit's 50-75% two-year asset growth funded by bank lending, which JPMorgan is reportedly now curtailing. He flags contagion channels: CLO downgrades forcing institutional sales, banks pulling credit lines, and rising demand for significant risk transfers (SRTs) as insiders quietly hedge while publicly downplaying risk -- a pattern he likens to pre-2008 CDS demand. He connects this to AI: the last credit impulse funded data-center/chip capex (Morgan Stanley estimated $1.5tn in external financing needed), semiconductors are now 19% of the S&P 500, and AI/AI-adjacent names are 40-45% of market cap, leaving equities vulnerable to a credit-driven drawdown. He also flags falling 3-month T-bill rates and a strengthening dollar (dollar shortage) as things to watch, expecting Fed cuts within six months.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "private credit",
+        "CLO",
+        "credit cycle",
+        "SRT",
+        "high yield",
+        "Fed",
+        "AI capex",
+        "credit spreads"
+      ],
+      "terms": [
+        "SRT -- significant risk transfer, a structure banks use to transfer credit risk on a loan portfolio off their balance sheet",
+        "CLO -- collateralized loan obligation, a securitization backed by a pool of leveraged loans",
+        "QCEW -- Quarterly Census of Employment and Wages, a lagging but comprehensive benchmark dataset used to revise non-farm payroll estimates",
+        "CCC -- a below-investment-grade credit rating tier indicating high default risk"
+      ],
+      "tier": "plumbing",
+      "title": "Eurodollar Talk: BlackRock Insider Reveals What\u2019s REALLY Happening in Private Credit",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/31316536/ca9022d2.mp3",
+      "watch": [
+        "CCC-rated spread widening trends",
+        "Private credit fund redemption/inflow data",
+        "CLO downgrade activity from rating agencies",
+        "3-month T-bill behavior relative to Fed policy",
+        "SRT issuance volumes",
+        "Bank commercial/private-credit lending line reductions (e.g. JPMorgan)"
+      ]
     },
     "d1060f69-9463-4c54-b6ee-96adb50949a6": {
       "feed_name": "The Julia La Roche Show",

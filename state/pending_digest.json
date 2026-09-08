@@ -90,6 +90,51 @@
         "Whether private-credit funds (e.g., Blue Owl) show signs of distress",
         "30-year Treasury yield reaction if it breaks below ~5.05-5.1%"
       ]
+    },
+    "d0662ea4-7a05-474b-97b6-e5992abd40bf": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a repo/financing desk this is mainly a forward-looking risk map rather than an immediate trade: watch CCC/HY spread widening, CLO downgrade activity, and bank pullback on private-credit lending lines as early signals of collateral and counterparty stress; a credit-cycle turn here would also pressure front-end rates (T-bill/OIS signals, potential faster Fed easing) and could tighten repo/collateral conditions if bank balance sheets pull in.",
+      "key_claims": [
+        "Dowd: private credit assets grew a minimum of 50-75% over 2024-2025, per some estimates",
+        "Dowd: non-farm payrolls were revised 8 standard deviations too high in 2024 and 4 standard deviations in 2025 versus QCEW",
+        "Dowd: semiconductors are 19% of the S&P 500 and AI/AI-adjacent names are 40-45% of total market cap",
+        "Dowd cites a PIMCO note suggesting the credit loss cycle is beginning to shift",
+        "Dowd: Morgan Stanley estimated ~$1.5tn of external financing needed for AI data-center buildout, much expected from private credit",
+        "Dowd: an Amazon investment-grade bond deal was only 1.6-1.8x subscribed, cited as a sign of cooling credit demand"
+      ],
+      "kind": "podcast",
+      "one_liner": "Ed Dowd argues private credit has quietly become the new (opaque) junk market and is showing early stress signals -- CCC widening, redemptions, SRT demand -- with contagion risk into CLOs, bank credit lines and the AI capex/debt cycle.",
+      "published": "2026-09-07T21:43:05+00:00",
+      "recap": "Macro investor Ed Dowd argues private credit has effectively become the new junk-bond market, but opaque, illiquid and self-marked -- riskier credits have migrated there from public high yield, leaving public HY spreads artificially tight while masking deterioration. He cites widening CCC spreads (noted by Gundlach, who called it 'garbage lending'), loans marked at par one month and near-zero the next, and rising fund redemptions with stalling inflows as evidence a credit-loss cycle (per a PIMCO note) is beginning. He traces the root to weak 'K-shaped' consumer fundamentals (First Brands, Tricolor bankruptcies), unreliable labor data (QCEW revisions showing non-farm payrolls off by 8 and 4 standard deviations in 2024-25), and private credit's 50-75% two-year asset growth funded by bank lending, which JPMorgan is reportedly now curtailing. He flags contagion channels: CLO downgrades forcing institutional sales, banks pulling credit lines, and rising demand for significant risk transfers (SRTs) as insiders quietly hedge while publicly downplaying risk -- a pattern he likens to pre-2008 CDS demand. He connects this to AI: the last credit impulse funded data-center/chip capex (Morgan Stanley estimated $1.5tn in external financing needed), semiconductors are now 19% of the S&P 500, and AI/AI-adjacent names are 40-45% of market cap, leaving equities vulnerable to a credit-driven drawdown. He also flags falling 3-month T-bill rates and a strengthening dollar (dollar shortage) as things to watch, expecting Fed cuts within six months.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "private credit",
+        "CLO",
+        "credit cycle",
+        "SRT",
+        "high yield",
+        "Fed",
+        "AI capex",
+        "credit spreads"
+      ],
+      "terms": [
+        "SRT -- significant risk transfer, a structure banks use to transfer credit risk on a loan portfolio off their balance sheet",
+        "CLO -- collateralized loan obligation, a securitization backed by a pool of leveraged loans",
+        "QCEW -- Quarterly Census of Employment and Wages, a lagging but comprehensive benchmark dataset used to revise non-farm payroll estimates",
+        "CCC -- a below-investment-grade credit rating tier indicating high default risk"
+      ],
+      "tier": "plumbing",
+      "title": "Eurodollar Talk: BlackRock Insider Reveals What\u2019s REALLY Happening in Private Credit",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/31316536/ca9022d2.mp3",
+      "watch": [
+        "CCC-rated spread widening trends",
+        "Private credit fund redemption/inflow data",
+        "CLO downgrade activity from rating agencies",
+        "3-month T-bill behavior relative to Fed policy",
+        "SRT issuance volumes",
+        "Bank commercial/private-credit lending line reductions (e.g. JPMorgan)"
+      ]
     }
   }
 }
