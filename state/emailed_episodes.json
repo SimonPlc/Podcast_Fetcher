@@ -851,6 +851,58 @@
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/568c6e3c-2159-45c2-8e4d-b4ad011d7c22/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
       "watch": []
     },
+    "57a9ba9e-73a3-4473-bc4c-ec8bdd0a07f0": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "For a repo/financing desk this is a signal to watch bank CDS positioning and off-balance-sheet hyperscaler financing as a funding/counterparty risk theme, and to monitor CCC loan and IG credit spread widening (LQD) plus private credit/BDC stress as early credit-cycle indicators; the discussion of Treasury issuance tactics on the long end and a potential curve-steepening/duration reversal is also directly relevant to rates positioning.",
+      "key_claims": [
+        "McDonald: Meta's off-balance-sheet financing has scaled from about $30bn to roughly $600bn over the last two-to-three years",
+        "McDonald: banks are aggressively buying CDS on Mag Seven names because they lent off-balance-sheet against AI-related free cash flow",
+        "McDonald: an Apple bond issued in 2021-22 has fallen from par to roughly 49-50; a Google-backed sterling bond with a 6.125% coupon has fallen from par to 88",
+        "McDonald: roughly $30 trillion of corporate paper was issued between 2018 and 2021, much of it now underwater as rates rose",
+        "McDonald: Treasury Secretary Bessent has threatened to reduce long-end (10s/20s) issuance and floated a possible operation-twist-style bond-buying approach",
+        "McDonald: bearish sentiment/positioning on duration bonds is at extreme/record levels, which he sees as a contrarian setup for buying TLT/ZROZ",
+        "McDonald: coal names (CNR) are up 32% and copper names up 82% over the past year on his 'hard assets' thesis",
+        "McDonald: the Strait of Hormuz has effectively been under disruption for almost 200 days amid Iran-Saudi tanker strikes, a risk to diesel/energy prices and inflation"
+      ],
+      "kind": "podcast",
+      "one_liner": "Larry McDonald argues banks are quietly loading up on CDS protection against Mag Seven off-balance-sheet financing exposure while CCC loans, private credit, and IG credit (LQD) show early cracks -- a 'rhymes with 2006' setup that bears directly on credit positioning and financing risk.",
+      "published": "2026-09-08T12:00:00+00:00",
+      "recap": "Larry McDonald of The Bear Traps Report joins Julia La Roche to lay out a bearish-tilting macro view built from cross-checking independent institutional investors. His core thesis: hyperscalers (Meta, others) are funding trillions in AI/data-center capex partly through off-balance-sheet vehicles (he cites Meta's roughly $30bn facility scaling toward $600bn), and banks that lent against this double-A-rated free cash flow are now aggressively buying credit default swaps on Mag Seven names as a hedge -- a dynamic he likens to 2006-2007 vintage credit behavior rather than an imminent 2008-style blowup. Supporting evidence he points to: CCC-rated bonds and leveraged loans widening/underperforming, LQD (investment-grade credit ETF) rolling over versus equities due to data-center-related issuance, and private credit/BDC names (Blue Owl, KKR) trading like something is deteriorating underneath. He also discusses Treasury Secretary Bessent's proactive stance -- threatening to curb long-end (10s/20s) issuance and floating a possible Fed-adjacent bond-buying/operation-twist type move to contain yields, comparing him to ECB's Trichet. McDonald flags a contrarian pivot some fixed-income managers are now making toward long duration (TLT, ZROZ) on the view that an energy-driven inflation spike could paradoxically pull forward a recession, causing bonds to rally sharply given how battered and unloved duration currently is (extreme bearish positioning). He also flags financials (Bank of America, JPMorgan) as overextended/record price-to-book and worth hedging via cheap puts, and cites DSA political risk and French/global elections as term-premium risks for global yields.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "CDS",
+        "credit",
+        "private credit",
+        "CLO/loans",
+        "IG credit",
+        "Treasury issuance",
+        "duration",
+        "Fed",
+        "data center financing",
+        "curve steepener"
+      ],
+      "terms": [
+        "CDS -- credit default swap, insurance-like contract paying out if a reference credit defaults",
+        "CCC -- lowest tier of below-investment-grade (junk) credit rating",
+        "IG -- investment-grade credit rating",
+        "BDC -- business development company, a vehicle that provides financing to (often private) companies",
+        "LQD -- iShares iBoxx Investment Grade Corporate Bond ETF",
+        "TLT -- iShares 20+ Year Treasury Bond ETF",
+        "ZROZ -- PIMCO 25+ Year Zero Coupon US Treasury ETF"
+      ],
+      "tier": "broad",
+      "title": "#407 Larry McDonald: The Bond Market's Biggest Contrarian Trade",
+      "url": "https://traffic.megaphone.fm/APO1291549276.mp3",
+      "watch": [
+        "Bank CDS buying activity referencing Mag Seven/hyperscaler credit exposure",
+        "CCC loan and LQD spread behavior relative to equities",
+        "Private credit/BDC names (Blue Owl, KKR) price action as a credit-stress proxy",
+        "Treasury long-end (10s/20s) issuance guidance and any operation-twist-style buying from Bessent",
+        "Curve steepening trades (e.g., 2s10s) and duration ETF flows (TLT, ZROZ) given extreme bearish positioning",
+        "Diesel/energy prices feeding into upcoming CPI/PPI prints"
+      ]
+    },
     "586f23f8-81a9-4a68-93b3-f3e423ad4a30": {
       "feed_name": "Macro Hive Conversations",
       "implications": "The Treasury buyback/Fed reserve-management dynamic and potential 'stealth QE' are directly relevant to repo and bill supply/funding conditions, while the capex-financing-driven back-end selloff and hawkish ECB view argue for watching term premium and cross-market duration positioning rather than pure directional rates calls.",
@@ -1549,6 +1601,40 @@
       "tier": "plumbing",
       "title": "What Actually Happens When a Life Insurer Fails (It's Worse Than a Bank) | Pranjal Drall and Andrew Granato on How Private Equity Turned Life Insurance Into a Taxpayer Backstop",
       "url": "https://traffic.megaphone.fm/EWWMN5766761981.mp3"
+    },
+    "80319f14-2de0-4590-a613-dedd930dc772": {
+      "feed_name": "Eurodollar University",
+      "implications": "Background, not actionable for repo/funding or credit desks; the only points with any book relevance are the passing Fed-rate-cut expectation and the unsourced zombie-debt figure, both too vague to trade on.",
+      "key_claims": [
+        "Keith Wiener: India raised gold import duties from 5% to 15-16% to curb demand and preserve dollar FX reserves for oil imports",
+        "Wiener: roughly 20% of corporate debt was 'zombie debt' (interest expense exceeds profit) when the effective market rate was ~2.5%, implying a higher share now that BBB borrowing costs are near 6.5-7%",
+        "Wiener: gold's 2025 London-to-New York inventory shift was driven by a tariff-avoidance carry trade (long spot/short futures), not speculative accumulation or a move toward a gold standard",
+        "Wiener maintains a prior forecast of $6,000-6,500 gold by year-end, calling it still achievable but delayed by the Iran conflict and Indian tariff headwinds"
+      ],
+      "kind": "podcast",
+      "one_liner": "A gold-market commentary podcast on Iran-driven demand shifts and Fed rate-cut expectations, with a tangential zombie-debt/credit-margin aside but no direct repo, funding, or rates-market content.",
+      "published": "2026-09-07T21:37:42+00:00",
+      "recap": "Jeff interviews Keith Wiener of Monetary Metals about gold's weakness since January 2026, driven mainly by the Iran conflict. Wiener argues traders long Qatari gas contracts and short Brent got caught by the Strait of Hormuz disruption, forcing them to raise dollar liquidity via margin calls, partly by selling gold. Separately, India's Modi discouraged gold buying and later hiked import duties (5% to 15%) to conserve FX reserves for oil imports; Turkey tightened gold import quotas similarly. Wiener contrasts weak 2025 Western retail ('stacker') demand\u2014burned by past false breakouts\u2014with strong institutional, Chinese (anti-yuan capital flight), Turkish (anti-lira), Indian (currency depreciation hedge) and Gulf (cultural/anti-dollar) buying. He explains 2025's gold flow from London to New York was a carry-trade response to tariff-uncertainty (buy spot, sell futures, deliver in New York to avoid tariffs), not speculative accumulation, and its reversal isn't bearish either\u2014both moves were mislabeled bullish/bearish by gold commentators. He expects Iran-driven selling pressure to exhaust itself, and flags falling interest rates (new Fed chair Warsh under pressure to cut) as the biggest bullish catalyst, alongside rising government distrust, fiscal profligacy, and dollar-alternative dynamics. He cites a stat that ~20% of corporate debt was 'zombie debt' (interest exceeds profit) when rates were near zero, implying a much higher share now. He reiterates a $6,000-6,500 year-end gold price target, calling it achievable but delayed by headwinds.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "gold",
+        "precious metals",
+        "Fed",
+        "dollar liquidity",
+        "India",
+        "tariffs",
+        "credit"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "Eurodollar Talk: You Won\u2019t Believe What Iran War Tensions Are Doing to Gold Markets",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/9ddf3a88/2dd305b5.mp3",
+      "watch": [
+        "Whether Fed Chair Warsh moves toward rate cuts despite inflation data",
+        "Indian gold import duty/demand trends through monsoon season",
+        "Iran/Strait of Hormuz conflict trajectory and its effect on oil-linked dollar liquidity stress"
+      ]
     },
     "823608ea-a219-11f1-b45f-cf62504a9996": {
       "feed_name": "The Macro Trading Floor",
@@ -2612,6 +2698,43 @@
       "title": "The capital required for critical supply chains",
       "url": "https://mcdn.podbean.com/mf/web/qegkirmvw5cne3y7/JPM_MS_SRI_Supply_Chain_Assets_V188esn.mp3",
       "watch": []
+    },
+    "marketmatters.podbean.com/93ac6a2f-aaa3-3aef-9fcd-a1b009df1285": {
+      "feed_name": "Making Sense (J.P. Morgan)",
+      "implications": "Mostly background on EM market structure rather than a trading catalyst, but the APAC repo-access friction described is directly relevant to a HK-based repo trader's read on regional bond-financing liquidity and buy/sell pricing distortions in EM APAC names.",
+      "key_claims": [
+        "Carlos Gomez Gascon: in EMEA and Latam, repo markets are functional enough that bond buy/sell prices are similar, but in APAC repo market access is often challenging, creating pricing distortions when dealers lack existing bond inventory.",
+        "Gomez Gascon: IRS leads EM electronification due to lower capital cost and better tenor standardization, making it the preferred hedge-fund channel and easier for backtesting.",
+        "Gomez Gascon: Brazil and Korea benefit from liquid interest rate futures markets that improve bond price discovery and hedging, making those markets more liquid overall.",
+        "Gomez Gascon: benchmark transitions in EM (e.g., South Africa's ZARONIA move) typically progress from manual to electronic to automated workflows."
+      ],
+      "kind": "podcast",
+      "one_liner": "JPMorgan's EM rates e-trading head walks through how automation and electronification are reshaping EM bond/swap/FX-swap trading, with a notable aside on APAC repo access constraints distorting bond pricing.",
+      "published": "2026-09-08T04:00:00+00:00",
+      "recap": "In this JPMorgan Making Sense episode, Meridith Cleary speaks with Carlos Gomez Gascon, JPMorgan's head of EM rates e-trading, about how automation is changing EM rates markets. Gascon distinguishes electronification (sending price requests via electronic channels, but still manually priced) from automation (machine-generated pricing and hedging), arguing EM lags developed markets partly due to local regulation, episodic liquidity, and varying broker/futures market infrastructure. He frames EM rates as an ecosystem of three linked asset classes -- FX swaps (priced off SOFR curve, local IRS curve, and cross-currency basis), interest rate swaps, and bonds (linked to swaps via a stable bond basis) -- so improving automation in one improves pricing across all three. IRS leads electronification because of lower capital costs and better tenor standardization, making it attractive to hedge funds for backtesting. Local bond markets are automating too, driven by asset managers trading in baskets that are hard to price manually. A key regional distinction: EMEA and Latam repo markets function well, keeping buy/sell bond prices aligned, while APAC repo markets are often hard to access, meaning dealers without inventory struggle to borrow bonds to deliver, creating pricing distortions between buy and sell sides. Brazil and Korea benefit from liquid interest rate futures aiding hedging and price discovery. Systematic funds are a growing EM client base, benefiting from faster, data-driven price discovery. During volatility, dealers lean more on automated skew/spread quoting rather than manual per-deal pricing. Benchmark reforms (e.g., South Africa's move to ZARONIA) typically follow a manual-to-electronic-to-automated adoption path.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "EM rates",
+        "repo",
+        "market structure",
+        "electronification",
+        "IRS",
+        "FX swaps",
+        "e-trading"
+      ],
+      "terms": [
+        "OIS -- overnight index swap",
+        "IRS -- interest rate swap",
+        "ZARONIA -- South Africa's new overnight reference rate replacing JIBAR"
+      ],
+      "tier": "quant",
+      "title": "How is automation shaping emerging markets?",
+      "url": "https://mcdn.podbean.com/mf/web/897ahcxehj7hx4sn/0926_FICC_How_is_automation_shaping_emerging_markets_v3FINAL8v627.mp3",
+      "watch": [
+        "Further APAC repo market access/liquidity developments",
+        "Progress of EM benchmark transitions (e.g., ZARONIA, Korea, Poland) toward automated electronic workflows"
+      ]
     },
     "marketmatters.podbean.com/988e7227-8a61-3686-994f-1f9e8a54468a": {
       "feed_name": "Making Sense (J.P. Morgan)",
