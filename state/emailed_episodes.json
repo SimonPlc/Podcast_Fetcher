@@ -51,6 +51,34 @@
       "title": "Richmond Fed\u2019s Tom Barkin on the Surprisingly Resilient Real Economy",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/095923e3-5c15-4936-b26b-b4b70018f8d6/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83"
     },
+    "0d618822-2682-48b3-8449-b4c000d9d9df": {
+      "feed_name": "Asia Centric",
+      "implications": "Background, not actionable -- this is a pure Japanese equity market-structure and shareholder-activism story with no repo, funding, rates, or credit content relevant to the reader's book.",
+      "key_claims": [
+        "Jamie Hulse: 120 activist campaigns launched in Japan in H1 of the year, making it the second most active activist market globally after the US.",
+        "Hulse: dividends and buybacks in Japan have roughly doubled over the past four years, and the Nikkei has more than doubled over the last 18 months.",
+        "Hulse: median price-to-book ratio for the ~2,500 Japanese companies under a $300mm market cap is about 0.9x, with roughly 20-25% of TOPIX-listed companies still trading below 1x book.",
+        "Hulse: activist fund Oasis has reportedly generated about 30% per annum for a decade and now manages over $15 billion.",
+        "Hulse: Elliott Management's intervention in Toyota Industries pushed the buyout price up by around 25%."
+      ],
+      "kind": "podcast",
+      "one_liner": "A deep dive on Japanese small/mid-cap shareholder activism and corporate governance reform, with no repo, rates, or credit angle for a financing desk.",
+      "published": "2026-09-09T21:05:00+00:00",
+      "recap": "This Bloomberg Intelligence 'Asia Centric' episode features Jamie Hulse, CIO of Senjin Capital, an activist fund focused on Japan, discussing the state of Japanese corporate governance reform. Hulse argues reform is real and accelerating: dividends and buybacks have roughly doubled over four years, cross-shareholdings are unwinding, and large conglomerates are restructuring and selling non-core assets to private equity. He frames large-cap Japan as being in the 'fourth or fifth inning' of governance reform but already expensively valued, while small and mid-caps are only in the 'first or second inning,' with median price-to-book around 0.9x across roughly 2,500 sub-$300mm market-cap companies, many carrying real estate at historic cost. He credits the Tokyo Stock Exchange's push for companies to trade above 1x book, and the 2014 stewardship code (which got domestic asset managers voting economically) as more consequential than the corporate governance code itself. Much of the conversation covers activist-driven takeover battles (Kakaku.com/TableLog, Toyota Industries, Fujisoft, Toyota Industries) where activists like Elliott, Oasis, 3D Investment Partners and Farallon forced higher buyout prices, plus cultural context on why Japanese executives resist shareholder-first behavior, poor small-cap disclosure/IR, and language/translation nuances in engaging management.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "equities",
+        "Japan",
+        "corporate governance",
+        "activism"
+      ],
+      "terms": [],
+      "tier": "asia",
+      "title": "Japan's Activism Boom Shifts to Small Caps",
+      "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/992d604b-06ca-40cb-88b2-af6c016f5aa0/0d618822-2682-48b3-8449-b4c000d9d9df/audio.mp3?utm_source=Podcast&in_playlist=75a9f17c-2ff1-42c9-9a27-af6c016fae89",
+      "watch": []
+    },
     "0e4101a5-77fe-4d15-89a3-93c821b094fa": {
       "feed_name": "Eurodollar University",
       "implications": "background, not actionable -- the dollar-shortage/curve-flatness debate touches front-end rates and collateral themes the trader already tracks, but the discussion is speculative and anecdotal (single hedge fund margin call, no hard liquidity data) rather than a specific catalyst for repo, funding, or credit positioning.",
