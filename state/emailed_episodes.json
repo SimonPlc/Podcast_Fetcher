@@ -165,6 +165,57 @@
         "Whether service-price/market-based core inflation firms up further"
       ]
     },
+    "13324dee-91c7-423d-a521-b4c101382449": {
+      "feed_name": "The Credit Edge",
+      "implications": "For an HK-based repo/financing trader, the actionable read is on funding-market spillover risk rather than an immediate trade: watch BOJ tightening as the trigger that could pull Japanese real-money flow out of Treasuries/Bunds, and monitor US IG/HY CDX positioning extremes and private-credit/insurer linkages as a slow-burn credit-crunch channel that could eventually pressure repo/collateral markets and basis trades (cash-CDS basis unwind risk explicitly flagged) if liquidity tightens.",
+      "key_claims": [
+        "Gallo: private credit funds have averaged roughly 8-9% net annual returns over the last four years, similar to public high-yield/IG returns but illiquid and locked for ~5 years",
+        "Gallo: private credit is now $3 trillion, and adjusted for growth/inflation is comparable in scale to the $1.5 trillion subprime market in 2007",
+        "Gallo (IMF data): over 40% of private credit fund exposure is to tech/software, and over 40% of that cohort has negative free cash flow with intangible-heavy balance sheets",
+        "Gallo: roughly 10% of private credit is currently pay-in-kind ('Schr\u00f6dinger's default')",
+        "Gallo: US CDX IG/HY positioning is at the 99.9th percentile of the last 15 years (longest ever recorded), per DTCC data",
+        "Gallo: spreads as a percentage of overall yield are around 15%, among the lowest on record, meaning most of the yield comes from government rates rather than credit risk",
+        "Gallo: hyperscalers are making about $1.9 trillion in revenue and would need to roughly double revenue to break even on a projected $10 trillion cumulative AI capex/financing cost over 10 years",
+        "Gallo: current corporate default rates are 3-4%, expected to gradually rise to 5-6%, mostly via restructurings rather than a spike",
+        "Gallo: Andromeda is short data-center operators, private credit managers, and insurers (via bonds, CDS, and equity), and long convertibles/real assets (defense, mining, energy, infrastructure) and gold"
+      ],
+      "kind": "podcast",
+      "one_liner": "Andromeda's Alberto Gallo lays out a fiscal-debasement-then-credit-crunch thesis, with private credit/AI data-center leverage as the key fault line to watch, though thin spreads over the last 30 years mean shorts are cheap convexity right now.",
+      "published": "2026-09-10T20:00:00+00:00",
+      "recap": "Bloomberg's Credit Edge hosts Alberto Gallo, CIO of Andromeda Capital, who frames rising long-end yields (US, UK, Japan) as an 'impossible trinity' problem: governments can't simultaneously run wartime-level deficits, keep currencies stable, and hold yields down. His base case is that currency debasement comes first (dovish central banks hiking less than needed, sticky above-target inflation for six years), but a credit crunch could follow if Japan's BOJ is forced to hike faster, pulling Japanese savers out of Treasuries/Bunds and into JGBs. On credit, Gallo describes a 'Jenga tower' of debt, with government bonds at the base and a new $3 trillion private credit layer at the top, heavily concentrated (over 40%, per IMF data) in tech/software financing the AI capex buildout, much of it negative-free-cash-flow and intangible-heavy. He argues investors aren't paid for the risk (200-300bp spreads funding IG-adjacent economics) and that private credit's non-mark-to-market structure hides losses (Schr\u00f6dinger's default via PIK toggles) that could transmit contagion through life insurers (Athene, Global Atlantic) to state guarantee funds and taxpayers rather than banks. Andromeda is broadly short data centers, private credit managers, and insurers via bonds/CDS/equity, while staying long convertibles and real-asset sectors (defense, mining, energy, infrastructure) and gold. He also flags record CDX IG/HY long positioning (99.9th percentile) as a latent risk if spreads (currently near 30-year tights) reprice, and sees Ukraine sovereign/corporate debt as a contrarian EM opportunity given hard-commodity exposure and EU accession prospects.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "private credit",
+        "credit spreads",
+        "CLO/ABS-adjacent",
+        "Fed policy",
+        "BOJ",
+        "fiscal debasement",
+        "AI capex",
+        "CDS",
+        "life insurers",
+        "IG credit"
+      ],
+      "terms": [
+        "CDS -- credit default swap, a derivative providing protection against a bond or loan default",
+        "CDX -- the North American corporate credit default swap index (investment grade and high yield versions)",
+        "PIK -- payment-in-kind, where interest is paid by issuing more debt/accrual rather than cash",
+        "SPV -- special purpose vehicle, a legally separate entity used to isolate financial risk or hold assets/debt off a parent's balance sheet",
+        "LBO -- leveraged buyout, acquisition of a company financed largely with borrowed money",
+        "BDC -- business development company, a closed-end investment vehicle that lends to or invests in private middle-market companies"
+      ],
+      "tier": "credit",
+      "title": "Hedge Fund Andromeda Warns of \u2018Titanic\u2019 Debt Disaster as Yields Soar",
+      "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/e74a35e9-c028-4e5f-a3f7-afb10164a717/13324dee-91c7-423d-a521-b4c101382449/audio.mp3?utm_source=Podcast&in_playlist=8792a2e9-d66c-4038-a1fe-afb101654894",
+      "watch": [
+        "BOJ policy signals and Japan inflation prints as the trigger for JGB repatriation flows out of Treasuries/Bunds",
+        "CDX IG/HY positioning (DTCC data) for unwinds from record-long levels",
+        "Private credit PIK/payment-in-kind ratios and life insurer (Athene, Global Atlantic) exposure disclosures",
+        "Hyperscaler/data-center (CoreWeave, SpaceX bond) refinancing spreads and any downgrades",
+        "US Treasury long-end yield levels (10y toward 5%, 30y toward 6%) as a catalyst for credit spread widening"
+      ]
+    },
     "19392ba7-afba-41e9-9425-2ef1c9d5d6fc": {
       "feed_name": "Macro Hive Conversations",
       "implications": "Background, not actionable -- this is a sociology/political-economy discussion with no direct bearing on repo, funding, rates, or credit markets and does not warrant desk attention beyond general geopolitical color.",
@@ -1402,6 +1453,15 @@
       "title": "Taking the pulse on medical tourism",
       "url": "https://sphinx.acast.com/p/open/s/64db93c01796c400110e0ce3/e/6aa2647ca6e9aef4cc6fd94e/media.mp3",
       "watch": []
+    },
+    "6aa302e62e8bb8424c5d127e": {
+      "feed_name": "Unhedged",
+      "kind": "podcast",
+      "published": "2026-09-10T20:00:00+00:00",
+      "status": "failed",
+      "tier": "credit",
+      "title": "Oil, yen and egonomics",
+      "url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6aa302e62e8bb8424c5d127e/media.mp3"
     },
     "6e1ad772-adab-4113-a7d9-a22d1fb5f171": {
       "feed_name": "Eurodollar University",
