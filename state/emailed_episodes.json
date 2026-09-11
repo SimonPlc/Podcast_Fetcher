@@ -2399,6 +2399,48 @@
       "title": "GM106: What Happens When the Debt Finally Matters ft. Marvin Barth",
       "url": "https://episodes.captivate.fm/episode/c4a83eea-c40b-4a2c-9003-51cd46880c72.mp3"
     },
+    "c5e3c1fa-75e8-46ff-9ee8-26a394a70501": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a rates desk, the core signal is that the curve's flatness and contained breakevens argue against pricing a durable inflation breakout, so front-end pressure looks more like a Fed-reaction-function story than genuine inflation risk premium \u2014 worth weighing against any hawkish repricing in short-end rates or OIS.",
+      "key_claims": [
+        "NY Fed Survey: 44.4% perceived probability that unemployment will be higher in one year, highest since April 2020",
+        "Existing home sales fell below a 3.98 million annualized rate in August, down 2% and one of only two sub-4-million readings since fall 2024 (NAR data)",
+        "Housing inventory rose 5.9% y/y to 1.62 million units as of August, highest since November 2019, implying 4.9 months of supply, the most in over a decade",
+        "Total consumer credit rose $15 billion in July (most in three years, per Fed), but revolving credit grew only $2.8 billion versus larger non-revolving gains",
+        "Median 1-year inflation expectations fell for a third straight month to 3.58%; 3-year edged down to 3.2%; 5-year held at 3%",
+        "Households expect gasoline +4.6%, food +5.3%, rent +6.6%, medical +9.1%, college +6.1% over the next year",
+        "August payroll print of 162,000 followed a pattern of downward revisions to prior summer reports"
+      ],
+      "kind": "podcast",
+      "one_liner": "Consumer surveys, housing data, credit mix, and a flat/stable yield curve all point to labor-market-driven demand destruction rather than an inflation spiral, directly challenging the Fed's hawkish framing.",
+      "published": "2026-09-11T11:00:00+00:00",
+      "recap": "The piece argues the New York Fed's Survey of Consumer Expectations shows households now assign a 44.4% probability to unemployment rising over the next year, the highest since April 2020, alongside pessimism about finding a new job if laid off. This anxiety is showing up in behavior: existing home sales fell below a 4-million annualized pace in August even as inventory hit its highest level since 2019 (4.9 months' supply, most in over a decade), suggesting weak demand rather than supply shortage is now the constraint. Consumer credit grew $15 billion in July, the most in three years, but almost entirely via non-revolving credit (autos, student loans) possibly pulled forward on fear of future financing costs, while revolving (credit card) credit rose just $2.8 billion, indicating caution on open-ended borrowing. Despite expecting necessities (gas, food, rent, medical, college) to get pricier, households' median 1-year inflation expectation fell for a third straight month to 3.58%, with 3-year at 3.2% and 5-year steady at 3%. The host ties this to the bond market: nominal yields are rising but the curve remains historically flat and breakevens benign, which he argues is inconsistent with markets pricing a genuine inflation spiral, and more consistent with front-end pressure from expected prolonged Fed hawkishness plus seasonal September effects. The overall argument is that an energy/necessities price shock is colliding with a deteriorating, \"no hire\" labor market to produce disinflationary demand destruction, and that the Fed's hawkish stance is unsupported by its own data.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "inflation expectations",
+        "yield curve",
+        "labor market",
+        "consumer credit",
+        "housing"
+      ],
+      "terms": [
+        "SAAR -- seasonally adjusted annual rate",
+        "NAR -- National Association of Realtors",
+        "OIS -- overnight index swap"
+      ],
+      "tier": "plumbing",
+      "title": "Americans Are Bracing for Something Not Seen Since 2020...",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/42ceaafe/57d666a6.mp3",
+      "watch": [
+        "Upcoming NY Fed Survey of Consumer Expectations releases for further shifts in unemployment/inflation expectations",
+        "Revolving vs non-revolving consumer credit splits in coming Fed G.19 releases",
+        "Payroll revisions and whether headline job gains continue to be revised down",
+        "Yield curve shape and inflation breakevens for signs of steepening that would contradict the demand-destruction thesis"
+      ]
+    },
     "c668045c-a6ea-11f1-9fa3-9762e3473041": {
       "feed_name": "Monetary Matters",
       "implications": "The Treasury bull thesis (duration cheap on growth-slowdown/deficit-overstated logic) and the private-credit-bottom-not-in view are the two points with book relevance; most of the episode (equity chart-topping calls, semiconductor stock picks, gold, hair-loss stocks) is background color for a rates/credit financing desk.",
@@ -2971,6 +3013,54 @@
         "Whether buyback pace continues to escalate and whether Treasury frames future increases as policy vs. technical liquidity management",
         "Any signs of off-the-run Treasury liquidity stress resurfacing in repo/dealer balance sheets",
         "30-year yield trajectory relative to the debt and issuance narrative"
+      ]
+    },
+    "fecd7090-ad46-11f1-b991-7f70ab8e99f7": {
+      "feed_name": "Forward Guidance",
+      "implications": "Front-end Fed hike-odds repricing (30/70 pause/hike into CPI and FOMC) and the term-premium-driven long-end selloff are directly relevant to rates positioning and curve trades; the JGB buyback/BOJ intervention story is also a read-through for global collateral and term-premium dynamics, though it's not a repo/funding-plumbing item per se \u2014 treat as important rates/policy background rather than an immediate actionable catalyst.",
+      "key_claims": [
+        "Host: Japan's MOF raised its long-JGB buyback plan from an initially guided $4bn minimum to $6bn, above prior guidance, yet long JGB yields rose further.",
+        "Host: Regression of 10yr UST yield to nominal GDP implies a 'fair value' 10yr yield near 5.8% if 6.6% nominal GDP growth continues.",
+        "Host: Yen intervention has moved USD/JPY from roughly 160 to about 153.",
+        "Host, citing Guy LeBas: August PPI headline +0.4% m/m in line with expectations; PCE-relevant components like portfolio services were negative (-1.6%), suggesting a benign underlying read with energy pass-through as the hot spot.",
+        "Host: Fed hike-vs-pause odds moved from about 50/50 a week ago to roughly 70% hike / 30% pause after the PPI print.",
+        "Host: SOFR curve into June/September 2026 is pricing roughly three hikes, which the hosts view as unlikely given growth deceleration risk.",
+        "Host: proprietary historical analysis finds that when long-end selloffs are term-premium-led (as currently), the first hike tends to see long yields fall, unlike inflation-expectation-led episodes (e.g., 2022) where yields kept rising through hikes."
+      ],
+      "kind": "podcast",
+      "one_liner": "A rates-focused macro discussion on BOJ JGB buybacks, a hot PPI print, and swinging Fed hike odds ahead of CPI/FOMC is core background for a rates and central-bank-policy focused trader, even without a direct repo/funding angle.",
+      "published": "2026-09-11T10:00:00+00:00",
+      "recap": "Hosts of Blockworks' Forward Guidance discuss Treasury Secretary Bessent's push to be seen as controlling bond markets: Japan's MOF raised its long-JGB buyback plan from an initially guided $4bn minimum to $6bn, yet long JGB yields still rose, which the hosts read as the bond market calling his bluff, even as yen intervention (from ~160 down to ~153) has worked better. A regression of the 10-year UST yield against nominal GDP implies a 'fair value' around 5.8% if 6.6% nominal GDP growth persists. They then dissect the August PPI print: headline +0.4% m/m in line with consensus, core actually softer than expected at +0.2%, with the hot part driven by energy/transport pass-through (rising diesel) while items feeding into PCE, like portfolio services (-1.6%), were benign \u2014 yet markets reacted aggressively, pushing hike odds from roughly 50/50 to about 70% for next week's FOMC. They discuss the risk of hiking into an oil supply shock (historically reversed within a year and recessionary), Waller's data-dependent, single-print reaction function, and SOFR pricing roughly three hikes into mid-2026, which they view as unlikely to be delivered given decelerating growth and disinflationary demand destruction from $100+ oil. A proprietary study suggests that when long-end selloffs are term-premium-led (as now) rather than inflation-expectation-led (as in 2022), a first 'credibility' hike tends to be followed by long yields falling. They close discussing the 'debasement trade' pullback as tactical noise within an intact longer-term thesis, and fading sentiment in AI/semiconductor trades amid political backlash and unwind of leveraged positioning.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "BOJ",
+        "JGB",
+        "rates",
+        "PPI",
+        "CPI",
+        "term premium",
+        "yen intervention",
+        "oil",
+        "macro"
+      ],
+      "terms": [
+        "PPI -- Producer Price Index, measuring prices received by producers for output",
+        "PCE -- Personal Consumption Expenditures price index, the Fed's preferred inflation gauge",
+        "term premium -- the extra yield investors demand for holding longer-dated bonds beyond expected short-rate path",
+        "FOMC -- Federal Open Market Committee, the Fed's rate-setting body",
+        "SOFR curve -- market-implied path of the Secured Overnight Financing Rate used to gauge expected Fed policy"
+      ],
+      "tier": "macro",
+      "title": "The Bond Market Is Trapping The Fed | Weekly Roundup",
+      "url": "https://traffic.megaphone.fm/BWG2316510194.mp3",
+      "watch": [
+        "The CPI print the day after this recording and its effect on FOMC hike odds",
+        "FOMC decision next week and whether any hike is framed as a one-off 'insurance' move vs. start of a cycle",
+        "Further BOJ JGB buyback escalation and long JGB yield reaction",
+        "Oil price trajectory above $100 and its pass-through to PPI/CPI",
+        "Whether long-end yields fall after a first hike if it is confirmed to be term-premium-driven, per the hosts' historical pattern"
       ]
     },
     "ffabb0eb-48cc-4ad4-8c96-b4b701728958": {
