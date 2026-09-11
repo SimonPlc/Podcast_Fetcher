@@ -678,6 +678,36 @@
         "Upcoming FOMC meeting and any policy signal reaction to labor data"
       ]
     },
+    "493ecf90-66c0-42b6-bc56-e9f56572c840": {
+      "feed_name": "Cloud 9fin",
+      "implications": "Background, not actionable for a HK repo/rates desk -- this is Argentine sovereign/EM infrastructure and project-finance color with no direct read-through to global funding markets, central bank policy, or structured credit products, though the syndicated bank financing and corporate bond spread tightening are a loose proxy for EM credit risk appetite.",
+      "key_claims": [
+        "Gustavo Copito: this is the first year Argentina will post consecutive years of growth.",
+        "Jimena Vega-Olmos: the Vaca Muerta Sur oil pipeline financing is, by ticket size, the largest project financing in Argentine history, combining sponsor equity with a bank loan syndicate including JPMorgan, Citi, and Santander.",
+        "Gonzalo Santamaria: Argentine energy corporates are currently issuing in international capital markets at very favorable rates, some trading below the sovereign country-risk spread."
+      ],
+      "kind": "podcast",
+      "one_liner": "A Spanish-language panel on Argentina's privatization and project-finance wave under Milei is EM/infrastructure color with only a loose credit-market tie-in, not core repo/rates/structured-credit content.",
+      "published": "2026-09-10T21:56:35+00:00",
+      "recap": "Nine Fin's LatAm podcast convenes three Argentine lawyers and a corporate finance veteran (from B\u00e9car Varela, Marval, and TGN/Techint) to discuss President Milei's renewed privatization and concession drive, covering routes, hydropower dredging concessions, water utility AySA, rail, and electricity transmission. Guests agree the attractive assets are heterogeneous (cheap pricing, regulatory change, and early-mover advantage combine), with oil and gas (Vaca Muerta) and mining (copper, lithium) seen as the most dynamic sectors because export-oriented projects can use the RIGI regime to keep dollar flows offshore and reduce Argentina risk. Regulated, tariff-dependent businesses (utility distribution, retail) are flagged as riskier given Argentina's history of freezing peso tariffs during inflation, drawing parallels to the post-2001 convertibility collapse that stranded dollar-debt utilities like TGN. A large section covers financing structures: project finance (non-recourse, repaid from project cash flows via special-purpose vehicles) is re-emerging after being dormant, exemplified by the Vaca Muerta Sur oil pipeline financing, which combined sponsor equity with a bank loan syndicate including JPMorgan, Citi, and Santander. Panelists also discuss growing local and international capital-market bond issuance by Argentine energy corporates at tightening spreads, and the role of multilaterals (World Bank guarantees, export credit agencies) in de-risking projects to crowd in private lenders, similar to earlier renewable-energy guarantee schemes.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "Argentina",
+        "EM",
+        "project finance",
+        "privatization",
+        "sovereign risk",
+        "capital markets"
+      ],
+      "terms": [
+        "RIGI -- R\u00e9gimen de Incentivo para Grandes Inversiones, Argentina's large-investment incentive regime offering tax/FX benefits to qualifying projects"
+      ],
+      "tier": "credit",
+      "title": "Nube 9fin \u2014 Privatizations and concessions across Argentina",
+      "url": "https://media.transistor.fm/2293de77/50dc0c38.mp3",
+      "watch": []
+    },
     "49d2136c-7d8a-4883-abe9-b4bb00c0bdfa": {
       "feed_name": "Money Stuff: The Podcast",
       "kind": "podcast",
