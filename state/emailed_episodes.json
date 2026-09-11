@@ -463,6 +463,38 @@
         "Retail/grocery promotional intensity (Walmart, Kroger, Amazon, Aldi) as a margin/credit signal for consumer-sector issuers"
       ]
     },
+    "3185c85c-664e-438d-90c4-b4c20100cec0": {
+      "feed_name": "Money Stuff: The Podcast",
+      "implications": "Background, not actionable -- the PE-aggressiveness/LME yield-premium segment is the only piece with a credit angle (sponsor reputation pricing into leveraged loan/HY spreads), but it's a light discussion of an academic paper rather than a market-moving development for repo, funding, or rates.",
+      "key_claims": [
+        "Academic paper (discussed by Matt Levine): portfolio companies owned by sponsors with reputations for aggressiveness pay considerably higher yields on debt; Apollo-sponsored loans carry a premium of about 100 basis points versus other sponsors, against a sample average yield of about 717 basis points.",
+        "DTC states it has custody of about $74 trillion of equities, roughly half of global equity market cap but a much larger share of U.S. stocks.",
+        "A 1998 report cited says Cede & Co. owned about 83% of all stocks in the United States."
+      ],
+      "kind": "podcast",
+      "one_liner": "A light, gossipy Money Stuff episode on NBA payola, Bitcoin-treasury (DAT) arbitrage, Cede & Co./DTC share custody, tokenized meme-stock spats, and an academic paper on PE sponsor aggressiveness raising borrowing costs -- entertaining but almost entirely tangential to repo/rates/credit.",
+      "published": "2026-09-11T15:42:43+00:00",
+      "recap": "This Money Stuff podcast episode (guest host Max Abelson filling in) covers several unrelated finance stories in a conversational format. First, they discuss a Wachtell Lipton investigation confirming the Clippers used sham consulting/endorsement deals (via the fraudulent company Aspiration Partners and a scoreboard vendor) to pay Kawhi Leonard above the NBA salary cap. Second, they explain 'DAT activism' -- Bitcoin-treasury companies like Empery Digital traded at premiums to their Bitcoin holdings in 2025, then flipped to discounts, prompting activists (Gabby Glicksberg, Tice Brown) to buy shares and push to liquidate the company to capture the discount; a Delaware court let their board nominees stand for election despite disclosure disputes about their Bitcoin hedging. Third, a dispute between Robinhood's Vlad Tenev and AMC's Adam Aron over Robinhood's offshore tokenized version of AMC stock leads into an explanation of how Cede & Co. (DTC's nominee) legally holds roughly 80% of most companies' shares, with brokerages and DTC maintaining electronic sub-ledgers -- background on why tokenization proposals appeal to companies wanting direct shareholder registries. Finally, they cover an academic paper finding that private-equity sponsors with reputations for aggressive, creditor-unfriendly tactics (liability management exercises) -- particularly Apollo -- pay roughly 100 basis points higher yields on portfolio-company debt than more 'genial' sponsors, which they frame as a rational ex-ante risk premium rather than moral judgment.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "private-equity",
+        "LME",
+        "market-structure",
+        "crypto",
+        "equities",
+        "off-topic"
+      ],
+      "terms": [
+        "LME -- Liability Management Exercise, a creditor-unfriendly debt restructuring tactic (e.g. uptiering, priming) used by some PE sponsors to extract value from existing creditors",
+        "DTC -- Depository Trust Company, the U.S. central securities depository that holds custody of most publicly traded shares in street name",
+        "Cede & Co. -- the nominee partnership through which DTC holds legal title to the vast majority of U.S. public company shares"
+      ],
+      "tier": "credit",
+      "title": "What's the Concern?",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/3185c85c-664e-438d-90c4-b4c20100cec0/audio.mp3?utm_source=Podcast&in_playlist=77e6a3a7-290d-4a82-8164-b14001353ef2",
+      "watch": []
+    },
     "347f3cb2-0047-4bc7-9907-5ac24e43affa": {
       "feed_name": "Macro Hive Conversations",
       "implications": "background, not actionable -- this is a meta episode about AI productivity tooling with no discussion of repo, funding, rates, credit, or any market-moving content relevant to a financing/repo trader's book.",
@@ -2713,6 +2745,15 @@
         "JOLTS hiring/quits trends as a leading indicator for Fed policy expectations",
         "Diesel crack spread levels versus crude as a proxy for consumer disinflation vs. producer margin strength"
       ]
+    },
+    "d532b966-adfa-11f1-bdb5-bf3625bc75cf": {
+      "feed_name": "Monetary Matters",
+      "kind": "podcast",
+      "published": "2026-09-11T16:07:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
+      "url": "https://traffic.megaphone.fm/EWWMN8808739042.mp3"
     },
     "dcaf7a31-ce64-4beb-9873-be1f13c7278a": {
       "feed_name": "Cloud 9fin",
