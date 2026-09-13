@@ -42,6 +42,56 @@
         "Yield curve shape and inflation breakevens for signs of steepening that would contradict the demand-destruction thesis"
       ]
     },
+    "f7af3d50-68bc-4bfb-bd77-5d755d0e31ad": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a front-end/repo desk, the described bill-market and term SOFR moves plus 2s10s flattening toward re-inversion are the actionable signal \u2014 worth tracking against actual FOMC pricing and repo/collateral positioning \u2014 while the broader demand-destruction thesis is a slower-moving macro backdrop relevant to credit spread risk if it plays out, not an immediate catalyst.",
+      "key_claims": [
+        "Host: core CPI y/y for August was 2.4%, the lowest of the current cycle since 2021",
+        "Host: 2-year Treasury yield was around 4.60%, up sharply since Jackson Hole",
+        "Host: the 2s10s spread had compressed to roughly 32-33bp ahead of recording",
+        "Host: 30-year long bond hit 5.3%, the highest rate in 19 years",
+        "Host: WTI futures above $100/barrel with a 3-month calendar spread near $12, tighter than 2022 levels",
+        "IEA (per host, September 2026 report): global oil demand forecast to decline 2.5 million bpd in 2026, nearly 1 million bpd worse than the prior month's estimate",
+        "Host citing EIA data: US oil 'product supplied' (demand proxy) down nearly 4% y/y through early September",
+        "Host: Circle K reported a 33% increase in gasoline sales revenue but a ~2% decline in gasoline volume",
+        "Host citing NY Fed Survey of Consumer Expectations: unemployment expectations at their highest since April 2020"
+      ],
+      "kind": "podcast",
+      "one_liner": "A Eurodollar-University-style rant argues the bill market, term SOFR, and a flattening 2s10s curve are pricing Fed hikes into an energy-driven CPI shock even as demand destruction signals the tightening cycle can't hold \u2014 a front-end rates and money-market read worth tracking.",
+      "published": "2026-09-13T00:00:07+00:00",
+      "recap": "The host argues August CPI, released ahead of next week's FOMC meeting, confirms a narrow, energy-driven inflation print rather than the broad 'second-round effects' central banks fear: headline CPI rose on gasoline/energy, but core CPI cooled to 2.4% y/y, the cycle low. He contrasts this with Kevin Warsh's Jackson Hole comment that only a 'meaningfully improving underlying trend' would justify holding off hikes, concluding markets still expect the Fed (and ECB, already two hikes into this cycle) to raise short rates again. He points to 'real cash' signals \u2014 T-bill yields and term SOFR \u2014 climbing since Jackson Hole to levels consistent with a 25bp hike being priced, with 2-year yields near 4.60%. But he stresses the long end isn't following: the 2s10s spread has compressed to roughly 32-33bp, and he frames this flattening (potentially re-inversion) as the market's real verdict \u2014 that hikes into an energy shock will simply accelerate demand destruction rather than sustained inflation. Evidence cited: WTI futures above $100/bbl with a record-tight 3-month calendar spread, the IEA's September 2026 report cutting 2026 global oil demand by 2.5 million bpd (nearly 1mb/d worse than last month), EIA data showing US product-supplied down ~4% y/y, falling gasoline volumes despite Circle K reporting 33% higher gasoline revenue on ~2% lower volume, and a NY Fed consumer survey showing the highest unemployment expectations since April 2020. The video closes with a pitch for the channel's paid subscription.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "CPI",
+        "bill market",
+        "term SOFR",
+        "yield curve",
+        "2s10s",
+        "oil",
+        "demand destruction",
+        "front-end rates"
+      ],
+      "terms": [
+        "SOFR -- Secured Overnight Financing Rate, the primary USD reference rate based on overnight Treasury repo transactions",
+        "CPI -- Consumer Price Index",
+        "WTI -- West Texas Intermediate crude oil benchmark",
+        "IEA -- International Energy Agency",
+        "EIA -- U.S. Energy Information Administration",
+        "2s10s -- the spread between 2-year and 10-year Treasury yields"
+      ],
+      "tier": "plumbing",
+      "title": "this won't end well...",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/6a7ff6a5/c6a0ebcf.mp3",
+      "watch": [
+        "FOMC decision and dot plot next week",
+        "Term SOFR futures and bill yields into the meeting",
+        "2s10s and 3m10s spread trajectory for re-inversion",
+        "IEA/EIA monthly oil demand revisions",
+        "US gasoline/diesel inventory and crack spread levels"
+      ]
+    },
     "fecd7090-ad46-11f1-b991-7f70ab8e99f7": {
       "feed_name": "Forward Guidance",
       "implications": "Front-end Fed hike-odds repricing (30/70 pause/hike into CPI and FOMC) and the term-premium-driven long-end selloff are directly relevant to rates positioning and curve trades; the JGB buyback/BOJ intervention story is also a read-through for global collateral and term-premium dynamics, though it's not a repo/funding-plumbing item per se \u2014 treat as important rates/policy background rather than an immediate actionable catalyst.",
