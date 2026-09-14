@@ -771,6 +771,38 @@
       "title": "Learn More Gooder",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/49d2136c-7d8a-4883-abe9-b4bb00c0bdfa/audio.mp3?utm_source=Podcast&in_playlist=77e6a3a7-290d-4a82-8164-b14001353ef2"
     },
+    "4a276c86-30f8-41ad-afce-5c3cafab293c": {
+      "feed_name": "Flirting with Models",
+      "implications": "Background, not actionable \u2014 this is crypto-native retail market infrastructure with no direct read-through to bank repo, funding markets, or credit; the only overlap is a passing SOFR-referenced financing leg and a TRS analogy, useful only as a curiosity on how DeFi is copying TradFi financing mechanics.",
+      "key_claims": [
+        "Sherman states Variational holds roughly 12-13% of crypto RWA perp open interest, versus Hyperliquid at 70%+ and most other venues at 1-2%",
+        "Sherman says the new swap product's financing leg is expected to price around 100 basis points over SOFR, versus typical crypto perp funding rate equilibria of 7-10% per annum",
+        "Sherman states there is currently over a billion dollars of dealer capacity behind the swap product (per episode introduction)"
+      ],
+      "kind": "podcast",
+      "one_liner": "A crypto/DeFi derivatives-platform interview about retail RFQ trading, perps and a new 'swap' product for RWA exposure \u2014 interesting market-structure color but almost entirely off the reader's credit/rates/repo book.",
+      "published": "2026-09-14T04:00:00+00:00",
+      "recap": "Corey Hofstein interviews Lucas Sherman, co-founder of Variational, an on-chain OTC derivatives platform, in a follow-up to an earlier episode with co-founder Edward Yu. Variational's retail product, Omni, uses a request-for-quote model against a single internal liquidity provider (OLP) rather than a public limit order book, which lets it segregate 'non-toxic' retail flow, internalize offsetting positions, and hedge only residual risk externally \u2014 Sherman argues this produces tighter effective spreads than order-book venues despite zero maker/taker fees, similar to how firms like Jane Street or Jump quote tight prices to retail brokerages. The conversation covers the recent boom in tokenized real-world-asset (RWA) perpetuals (oil, copper, natural gas, single stocks), and Sherman argues that rebuilding decades of TradFi market depth on-chain is inefficient; instead Variational connects directly to traditional dealer networks to source hedging liquidity. They discuss technical complications of RWA perps \u2014 funding rate design, index construction during market closures, weekend equity price freezes versus commodity pricing, and roll schedules on futures-referenced perps. The core new product discussed is a 'swap': a price-return leg plus a financing leg priced off short-term rates (roughly SOFR plus ~100bps), explicitly modeled as closer to a traditional total return swap or CFD than a perpetual, aimed at giving retail crypto traders more predictable financing costs than volatile perp funding rates.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "crypto",
+        "DeFi",
+        "market-structure",
+        "derivatives",
+        "RWA",
+        "total-return-swap"
+      ],
+      "terms": [
+        "RFQ -- request-for-quote, a trading protocol where a client asks specific dealers for a price rather than trading on a public order book",
+        "TRS -- total return swap, a derivative exchanging the total return of an asset (price plus income) for a financing rate",
+        "SOFR -- Secured Overnight Financing Rate, the US dollar risk-free reference rate based on Treasury repo transactions"
+      ],
+      "tier": "quant",
+      "title": "Lucas Schuermann \u2013\u00a0Swapping Out Perpetual Futures (S7E34)",
+      "url": "https://episodes.captivate.fm/episode/4a276c86-30f8-41ad-afce-5c3cafab293c.mp3",
+      "watch": []
+    },
     "4f8e48be-58f1-4103-a9bd-b4b30134770d": {
       "feed_name": "The Credit Edge",
       "implications": "For a credit/repo desk, the key signals are: hyperscaler/NVIDIA-linked IG issuance keeps growing and could pressure tech/IG spreads if capex guidance ever turns down; NVIDIA's growing off-balance-sheet backstops and SPV-based data-center financing (private credit, structured with amortizing tranches) are a structured-credit exposure worth monitoring for contingent-liability build-up; and neocloud names (CoreWeave, Nebius) are flagged as the most levered, capital-markets-dependent links in the chain and the likely first stress point.",
