@@ -3572,6 +3572,53 @@
         "UK budget at end of October and 2027 European elections (France, Italy, Spain)"
       ]
     },
+    "omfif.podbean.com/174dd821-debe-3bae-a693-e441a52e8f5f": {
+      "feed_name": "Invested: The OMFIF Podcast",
+      "implications": "For a repo/rates desk, the key signals are: Fed-Treasury discoordination and buyback operations could add noise to long-end Treasury supply/demand and collateral flows; AI capex financing is flagged as a private-credit and corporate-bond vulnerability worth monitoring for spread widening; and perceived erosion of dollar safe-asset status (falling convenience yield, reserve diversification into gold) is a slow-burn theme relevant to cross-currency funding and collateral demand.",
+      "key_claims": [
+        "Brunnermeier: a shift in AI value capture from foundation models to applications could trigger a 'radical repricing' and market disturbance in coming months",
+        "James: AI buildout vulnerability sits in bonds and the private credit market, not just equities, drawing a parallel to the 1873 US railroad-financing crash",
+        "Brunnermeier: inflation has run near 3% for five years versus the 2% target, and his own forecast does not see it returning to 2% in the next two to three years absent an AI supply shock",
+        "Brunnermeier: Besent's yen intervention funded via euros (without notifying Europe) aimed to stop Japan from selling long-dated US Treasuries, but reportedly some JGB/Treasury selling occurred anyway and the episode increased market nervousness and risk premium",
+        "Brunnermeier: convenience/safe-asset yield is falling at the long end not just in the US but also in France and other sovereigns",
+        "James: Norway's sovereign wealth fund is reportedly considering selling Treasuries, part of a broader shift into gold and alternative reserve assets",
+        "Brunnermeier: Germany's debt-to-GDP ratio could rise from roughly 62% to 80-90% in coming years"
+      ],
+      "kind": "podcast",
+      "one_liner": "Princeton economists Markus Brunnermeier and Harold James debate Fed-Treasury discord, AI-driven credit/bond market fragility, and mounting strain on the dollar's reserve-asset status \u2014 all bearing directly on rates positioning and safe-asset dynamics.",
+      "published": "2026-09-15T13:25:38+00:00",
+      "recap": "OMFIF's David Marsh hosts economist Markus Brunnermeier and historian Harold James to discuss the apparent split between the Fed (new chair Kevin Warsh) and the Treasury (Scott Besent), likened to two pilots fighting the controls. Brunnermeier argues the AI boom, while ultimately productivity-enhancing, risks a 'radical repricing' if value capture shifts from foundation models (OpenAI, Anthropic) to applications amid Chinese/open-weight competition; James draws a parallel to the 1873 railroad-building crash, noting today's vulnerability sits in bonds and the private credit market rather than just equities. Both expect Warsh, personally hawkish, to delay any hike until after the midterms, wary of repeating Jay Powell's public fight with Trump, even as a Saudi oil-facility attack pushes oil toward $100 and keeps inflation running near 3% rather than the 2% target. They dissect Besent's unusual yen intervention funded via euros without consulting Europe, seen as an attempt to stop Japan dumping long-dated Treasuries and keep yields down \u2014 a move Brunnermeier says signals nervousness and erodes rather than protects the dollar's 'exorbitant privilege' and safe-asset convenience yield. James adds that sanctions-driven dollar weaponization (e.g., Besent's boasted 'financial attack' on Iran) is accelerating diversification into gold and alternative reserves. The conversation closes on European political risk (AfD's Saxony-Anhalt surge, French debt-cancellation proposals, 2027 French elections) and Germany's rising debt-to-GDP ratio, with both agreeing that supply shocks \u2014 oil, tariffs, AI capex \u2014 will keep forcing central banks to tolerate above-target inflation for longer.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "Treasury",
+        "rates",
+        "inflation",
+        "dollar",
+        "safe assets",
+        "private credit",
+        "yield curve",
+        "FOMC",
+        "Europe"
+      ],
+      "terms": [
+        "FOMC -- Federal Open Market Committee, the Fed's rate-setting body",
+        "TIPS -- Treasury Inflation-Protected Securities, used to gauge market inflation expectations",
+        "convenience yield -- the extra premium investors accept to hold a highly safe, liquid asset like Treasuries",
+        "fiscal dominance -- a state where large fiscal deficits constrain or override central bank monetary policy independence"
+      ],
+      "tier": "macro",
+      "title": "Will Kevin Warsh quell inflation and can the AI boom last?",
+      "url": "https://mcdn.podbean.com/mf/web/zyqngdmwwu72fu5q/MD_9_September_final_edit9g5bb.mp3",
+      "watch": [
+        "Next week's FOMC decision under Kevin Warsh and any signal on hike timing relative to the midterms",
+        "Scale and mechanics of Treasury buyback operations and their effect on long-end yields",
+        "Signs of stress in private credit / AI-related corporate borrowing",
+        "Reserve-diversification flows (e.g., Norway's sovereign fund, gold buying) away from Treasuries",
+        "French and German political developments affecting prospects for a common European safe asset"
+      ]
+    },
     "omfif.podbean.com/36f449e9-f04f-3326-bc3d-dd8d5e08e0ef": {
       "feed_name": "Invested: The OMFIF Podcast",
       "implications": "Background, not actionable -- this is a domestic Norwegian fiscal-policy and sovereign-wealth-fund governance debate with no direct repo, funding, rates, or credit-market content relevant to a HK financing/repo desk.",
