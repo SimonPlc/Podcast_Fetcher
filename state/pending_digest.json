@@ -1,5 +1,45 @@
 {
   "queued": {
+    "f4d787ea-b117-11f1-9f76-630cadf4043c": {
+      "feed_name": "Goldman Sachs Exchanges",
+      "implications": "For a repo/rates trader, low realized/implied vol despite a fundamentals-driven global sell-off argues against fading the move technically, and the buyback/issuance-mix discussion (Treasury and DMO shortening the debt stock toward bills/shorter tenors) has direct read-through for bill supply, collateral availability and front-end/long-end relative value rather than the outright level of yields; the AI-capex financing competition for savings is also a credit-relevant theme to monitor for corporate debt issuance and spreads.",
+      "key_claims": [
+        "George Cole (Goldman Sachs): the current global bond sell-off has occurred with historically low realized and implied volatility, which he argues indicates it is fundamentals-driven rather than technical",
+        "Cole: US 10-year yields are above 5%, a level not seen in decades but closer to pre-Global Financial Crisis norms",
+        "Cole: the UK DMO's reduction in 30-year gilt issuance at the end of last year lowered 30-year yields only on a relative basis (vs swaps) and UK 30-year yields remain near highs despite reduced supply",
+        "Cole: AI capex is increasingly financed in debt markets, creating competition with government borrowing for global savings",
+        "Cole: rising European gas and oil prices tied to the war in Iran are the most proximate near-term driver of the latest, more volatile leg of the sell-off, pressuring BoE/ECB/Fed policy expectations"
+      ],
+      "kind": "podcast",
+      "one_liner": "Goldman's European rates strategist explains the broad-based global bond sell-off (fiscal deficits, AI capex borrowing, energy-driven inflation) and argues Treasury/DMO buyback and issuance-mix shifts are liquidity tools, not levers on the macro level of yields -- core background for anyone pricing duration, term premium and front-end rate paths.",
+      "published": "2026-09-15T15:24:00+00:00",
+      "recap": "Goldman Sachs strategist George Cole discusses the broad, multi-decade-high rise in global government bond yields across the US, Germany, UK and Japan, arguing no single market or curve segment is driving it -- moves span the 30-year term-premium zone down to policy-rate-sensitive short maturities. Notably, the sell-off has occurred with low realized and implied volatility, which Cole argues signals a fundamentals-driven move rather than a technical dislocation. He attributes the rise to overlapping fundamentals: persistent large fiscal deficits since the pandemic, AI capex increasingly financed in debt markets competing with government borrowing for savings, resilient growth, and a recent energy-price spike (oil and European gas) linked to the war in Iran that has central banks (BoE, ECB, Fed) running low on patience with 'transitory' inflation shocks. He discusses the US Treasury's expanded long-end buyback program, arguing -- by analogy with the UK DMO's reduced 30-year issuance -- that such supply/liquidity operations affect relative curve shape and swap spreads but not the macro level of yields, which is set by fundamentals: inflation, fiscal trajectory and issuance competition. Cole frames current 5%+ 10-year US yields as a partial return to pre-GFC norms given a more symmetric, higher inflation distribution, but flags larger debt burdens as a key difference. Looking forward, he sees near-term downside risk to yields hinging on energy prices easing and medium-term downside risk from a slowdown or disinflationary surprise in the AI capex cycle, while fiscal tightening would also lower yields; he suggests duration may regain hedge value on a 2-4 year horizon.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "rates",
+        "Fed",
+        "fiscal policy",
+        "Treasury issuance",
+        "term premium",
+        "central banks",
+        "duration",
+        "energy prices"
+      ],
+      "terms": [
+        "OIS -- Overnight Index Swap, a derivative referencing a central bank's overnight rate, used as a benchmark for policy rate expectations",
+        "DMO -- UK Debt Management Office, the UK government agency responsible for gilt issuance",
+        "term premium -- the extra yield investors demand for holding longer-dated bonds versus rolling short-dated ones, compensating for duration risk"
+      ],
+      "tier": "broad",
+      "title": "Why Global Bond Yields Are Surging",
+      "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD2088357060.mp3",
+      "watch": [
+        "Oil and European gas prices as the near-term catalyst for central bank (Fed/ECB/BoE) hawkish repricing",
+        "Further US Treasury refunding announcements on buyback size/composition and DMO-style long-end issuance cuts elsewhere",
+        "Signs of AI capex investment plans decelerating or fiscal tightening, either of which Cole flags as a path to lower yields"
+      ]
+    },
     "omfif.podbean.com/174dd821-debe-3bae-a693-e441a52e8f5f": {
       "feed_name": "Invested: The OMFIF Podcast",
       "implications": "For a repo/rates desk, the key signals are: Fed-Treasury discoordination and buyback operations could add noise to long-end Treasury supply/demand and collateral flows; AI capex financing is flagged as a private-credit and corporate-bond vulnerability worth monitoring for spread widening; and perceived erosion of dollar safe-asset status (falling convenience yield, reserve diversification into gold) is a slow-burn theme relevant to cross-currency funding and collateral demand.",
