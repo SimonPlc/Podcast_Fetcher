@@ -42,6 +42,50 @@
         "Scale/effectiveness of Treasury's liquidity-enhancing buybacks going forward",
         "Growth of tokenized repo volumes"
       ]
+    },
+    "42f42640-cfc8-4f09-ad32-6c9850a83e56": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "The AI-related leveraged finance/bank-loan spread widening (~50-130bp off tights) versus stable non-AI credit is an early signal to watch basis and dispersion trades in HY/loan books; the ratings-arbitrage and insurance/private-credit leverage thesis argues for caution on private credit and insurer-linked structured exposure, while the GDP/Bund-based 10-year fair-value model and two-year-leads-Fed framework are useful inputs for positioning duration and front-end rate expectations.",
+      "key_claims": [
+        "Gundlach: triple-C bank loans are down several percent in price, ~5-6% total return, vs. higher-rated bank loans up ~4%",
+        "Gundlach: AI-related junk bonds are ~50bp wider from tights and AI-related bank loans ~130bp wider, while non-AI high yield spreads have barely widened",
+        "Gundlach: SpaceX bonds widened to levels ~3 notches below their assigned rating (BBB-); Oracle's new bonds also widened sharply post-issuance despite junk rating",
+        "Gundlach: his GDP/German Bund model (7-yr average US nominal GDP vs German 10yr, R\u00b2=0.93) implies the US 10-year is currently ~20bp too high",
+        "Gundlach: expects CPI to print above 4% and stay there through March given oil near $106/barrel (WTI) and depleted strategic reserves",
+        "Gundlach: sees zero probability of a Fed rate cut at the next meeting and slightly better than 50-50 odds of a hike",
+        "Gundlach: national debt has crossed $40-41 trillion, with deficit potentially reaching 10-12% of GDP in the next recession"
+      ],
+      "kind": "podcast",
+      "one_liner": "Gundlach lays out a detailed credit-quality warning on AI-adjacent leveraged finance and private credit/insurance-company ratings arbitrage, plus his Fed and rates framework, directly on-topic for a rates/credit desk.",
+      "published": "2026-09-16T10:00:00+00:00",
+      "recap": "Jeffrey Gundlach of DoubleLine discusses stretched equity valuations (Shiller CAPE ~42) alongside rising Treasury yields, and pivots to credit market cracks. He notes triple-C bank loans and AI-related high-yield/loan spreads have widened meaningfully (junk bonds ~50bp, bank loans ~130bp off tights) while non-AI credit remains firm, citing SpaceX and Oracle bond issuance trading well wide of their assigned ratings. He argues rating agencies are being arbitraged, especially in private credit, where firms can shop among ~7-8 agencies for favorable ratings that flatter insurer capital treatment and leverage. He describes an incestuous chain: private equity owns private credit, which is bought by affiliated insurance/reinsurance companies (often offshore, under-reserved, and lightly regulated at the state level), calling private credit \"the fuse\" and insurance \"the bomb.\" He draws a 2006/CDO-ratings analogy, recommends buying annuities/life insurance only from mutual companies, and details his own portfolio shift to just 10% gold, dry powder in short-duration/high-quality funds, and zero AI exposure. On rates, he explains a model regressing the 7-year moving average of US nominal GDP against the German 10-year yield (R\u00b2=0.93) to argue the US 10-year is ~20bp rich to fair value. He also flags Treasury's \"Operation Twist\"-style signaling via Bessent, expects the Fed's two-year note dynamics to force a possible 25bp hike, and forecasts CPI printing above 4% into next year on oil (above $100/barrel) and diesel price spikes.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "private credit",
+        "credit ratings",
+        "CLO/insurance",
+        "Fed",
+        "rates",
+        "high yield",
+        "bank loans",
+        "repo/treasury issuance",
+        "inflation"
+      ],
+      "terms": [
+        "CDX/CLO-equity terms not used",
+        "SOFR not mentioned"
+      ],
+      "tier": "broad",
+      "title": "#408 Jeffrey Gundlach: We've Crossed to the Hard Side of the Street",
+      "url": "https://traffic.megaphone.fm/APO9971416950.mp3",
+      "watch": [
+        "Widening in single-B rated AI-adjacent credits (not just triple-C) as a confirmation signal",
+        "Fed decision and forward guidance from Governor Warsh given the 2yr-vs-funds-rate gap",
+        "Any Treasury announcement expanding 'Operation Twist'-style short bill issuance/long bond purchases",
+        "DOJ investigation into private credit ratings practices and disclosures from affiliated insurers",
+        "CPI prints relative to the 4%-and-above forecast tied to oil/diesel prices"
+      ]
     }
   }
 }
