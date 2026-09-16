@@ -537,6 +537,49 @@
       "url": "https://traffic.libsyn.com/secure/macrohive/MH_w_BILAL_.mp3?dest-id=1929056",
       "watch": []
     },
+    "34bce5a2-0de0-4988-af0d-0d33833565ee": {
+      "feed_name": "Top Traders Unplugged",
+      "implications": "The closing discussion of hedge funds' basis-trade dependence, Bessent's buybacks as a volatility-suppression tool, and skepticism that they meaningfully offset borrowing needs is directly relevant to a repo/financing desk watching Treasury market plumbing and term-premium dynamics; the historical material on junk bond origins and fixed-income ETF liquidity effects is useful background for credit/structured credit context rather than an immediate catalyst.",
+      "key_claims": [
+        "Wigglesworth: hedge funds' Treasury basis trade is a highly levered, liquidity-providing carry trade that performs poorly in high-volatility periods",
+        "Wigglesworth: Bessent's expanded buybacks are unlikely to meaningfully affect the bond market since every dollar spent must be borrowed elsewhere; the real aim is dampening volatility to protect basis traders",
+        "Wigglesworth: fixed-income ETFs have made large parts of the credit market more liquid rather than less, contrary to earlier fears",
+        "Milken earned $550 million in 1986; Drexel's high-yield desk at one point had four times Goldman Sachs' capital (per Wigglesworth's book)",
+        "Braddock Hickman's study found lower-rated corporate bonds defaulted more but delivered higher risk-adjusted returns overall, the basis for Milken's junk bond strategy"
+      ],
+      "kind": "podcast",
+      "one_liner": "A bond-market historian's book interview closes with a sharp, current-day discussion of the Treasury basis trade, hedge-fund dependence, buybacks and Fed credibility -- directly relevant to a repo/rates desk, with the historical sections offering useful background on credit market plumbing.",
+      "published": "2026-09-16T04:00:00+00:00",
+      "recap": "Kevin Coldiron interviews FT journalist Robin Wigglesworth about his new book on the history of bonds. Most of the conversation traces how bond market 'technology' built state power: Venice's 12th-century forced war loan (prestiti) became the first tradable bond and later consolidated into a single homogeneous issue (monte), Britain's consolidated annuities became arguably the first reserve asset because parliamentary checks on the crown made repayment credible, and the post-WWII Eurodollar glut (dollars pooling offshore, partly from Soviet-bloc banks) seeded the stateless Eurobond market that rebuilt London as a financial center. A long section covers Michael Milken, who read economist Braddock Hickman's finding that diversified low-rated bonds outperform after defaults, then built an original-issue junk bond market (rather than just trading fallen angels) at Drexel Burnham Lambert, birthing the modern leveraged finance and private credit industry -- though later vintages of junk defaulted more as quality diluted. Wigglesworth argues fixed-income ETFs have unexpectedly improved bond market liquidity rather than harming it, interacting with electronification and portfolio trading, and flags tokenization (already growing in repo) as an underappreciated coming shift. The interview closes on current events: Treasury Secretary Bessent's expanded liquidity buybacks, which Wigglesworth dismisses as largely symbolic ('peeing on a forest fire') relative to total issuance, but acknowledges are aimed at dampening volatility to protect hedge funds' heavily levered Treasury basis trade -- with the real fix being Fed chair Kevin Warsh signaling openness to rate hikes to rein in above-target inflation and rising term premium.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "repo",
+        "basis trade",
+        "Treasury",
+        "Fed",
+        "term premium",
+        "high yield",
+        "CLO/leveraged finance history",
+        "fixed-income ETFs",
+        "tokenization"
+      ],
+      "terms": [
+        "Eurodollar -- offshore US dollar deposits/bonds held outside the US banking system",
+        "basis trade -- levered arbitrage going long Treasury cash bonds and short Treasury futures to capture the price difference",
+        "term premium -- extra yield investors demand for holding longer-dated bonds over expected short-rate path",
+        "fallen angel -- a bond originally issued investment-grade that is later downgraded to junk"
+      ],
+      "tier": "quant",
+      "title": "IL53: How Bonds Quietly Built the Modern World ft. Robin Wigglesworth",
+      "url": "https://episodes.captivate.fm/episode/34bce5a2-0de0-4988-af0d-0d33833565ee.mp3",
+      "watch": [
+        "Signs of stress in weaker basis-trade players given high leverage in that trade",
+        "Whether Fed Chair Kevin Warsh signals openness to rate hikes as inflation stays above target",
+        "Scale/effectiveness of Treasury's liquidity-enhancing buybacks going forward",
+        "Growth of tokenized repo volumes"
+      ]
+    },
     "363a4bf4-a179-11f1-ad46-8bd88e04ce7d": {
       "feed_name": "Monetary Matters",
       "kind": "podcast",
