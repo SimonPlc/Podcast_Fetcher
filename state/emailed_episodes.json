@@ -381,6 +381,51 @@
       "url": "https://episodes.captivate.fm/episode/1d1489fb-454f-49ce-ab59-e6770c6833aa.mp3",
       "watch": []
     },
+    "1f5ef773-6fe6-4b0b-8631-3c457a698dfd": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a credit/structured-credit and rates trader, this is directional background rather than a trade catalyst: it reinforces watching CCC/HY spread widening, private credit defaults, and CRE-linked credit stress as leading indicators of a broader repricing that could eventually pressure IG spreads, CLO mezz/equity tranches, and bank funding costs if the 'orderly' cleanup broadens.",
+      "key_claims": [
+        "Volksbank Bravo's support package could reach \u20ac723m against \u20ac6.5bn total assets, equivalent to roughly one-ninth of the bank (host's calculation)",
+        "Bravo identified ~\u20ac608m in potential value losses, of which ~96% relate to non-core businesses outside traditional banking (per Bravo disclosure as cited)",
+        "Loans transferred into the German cooperative sector's shared bad bank (BAG) exceeded \u20ac1.2bn last year, the highest in over two decades and more than 5x the ~\u20ac230m transferred in 2024",
+        "At least \u20ac1bn in assistance has already been provided through the Cooperative Protection System this year, with contributions expected to more than double in 2026 versus 2025",
+        "CCC-rated bond spreads have climbed to nearly 1,100 basis points, described by Peter Boockvar as a 'flashing yellow warning sign' (per host/guest)",
+        "Fitch reported the private credit default rate just hit a record high, citing growing use of distressed maturity extensions",
+        "Non-tradable BDC fundraising reportedly fell from $11bn to $2bn"
+      ],
+      "kind": "podcast",
+      "one_liner": "A small German cooperative bank's up-to-\u20ac723m mutual-system rescue, rising bad-loan transfers, and 1,100bp CCC spreads are presented as converging evidence that the global credit cycle has turned from 'bubble funding' to 'bubble accounting' to cleanup.",
+      "published": "2026-09-16T13:38:35+00:00",
+      "recap": "The host covers a rescue of Volksbank Bravo, a small German cooperative bank (\u20ac6.5bn in assets) receiving up to \u20ac723m in support -- \u20ac473m in guarantees plus a roughly \u20ac250m equity stake -- from the cooperative sector's mutual protection system after identifying ~\u20ac608m in potential value losses, 96% from non-core investments in corporate credit, equity, and real estate rather than traditional mortgage or SME lending. A second cooperative bank, Volksbank Cleveland, has also sought help after an internal loan review and after firing its former CEO for governance failures. Transfers into the sector's shared 'bad bank' (BAG) hit \u20ac1.2bn last year, a 20-year high, over 5x the prior year, and 2026 rescue contributions are expected to more than double versus 2025. The host frames this as the end product of a decade of yield-reaching by institutions (German cooperatives, pension funds, insurers, private credit managers) forced out of low-yielding safe assets into private credit, mezzanine debt, and property, all of which looked fine while valuations rose. He ties this to CCC-rated bond spreads near 1,100bp (distressed territory, per guest Peter Boockvar), record private credit default rates (Fitch) driven by distressed maturity extensions ('extend and pretend'), and a collapse in BDC fundraising (from $11bn to $2bn). None of this signals a systemic deposit run or interbank freeze -- the German mutual system is functioning as designed -- but the host argues it shows credit risk being repriced globally across very different accounting regimes simultaneously.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "credit cycle",
+        "CCC spreads",
+        "private credit",
+        "German banks",
+        "cooperative banking",
+        "bad bank",
+        "structured credit",
+        "real estate",
+        "BDCs",
+        "credit spreads"
+      ],
+      "terms": [
+        "CCC-rated -- the lowest publicly-rated tier of corporate credit (high yield, high default risk)",
+        "BDC -- business development company, a vehicle that lends to (often private) middle-market companies",
+        "CDS/CLO not directly referenced with high confidence beyond general structured credit context"
+      ],
+      "tier": "plumbing",
+      "title": "German Banks Are Getting Bailed Out\u2026 WTF Is Going On?",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/52af49f4/9b9b6776.mp3",
+      "watch": [
+        "Whether CCC spreads continue widening past 1,100bp and whether IG spreads start moving with them",
+        "Further Volksbank/cooperative-sector rescue disclosures and BAG bad-loan transfer volumes into 2026",
+        "Fitch and other agencies' private credit default and maturity-extension data",
+        "BDC fundraising and redemption trends as a liquidity-stress proxy"
+      ]
+    },
     "23f3d17b-bbd7-4917-88a4-e2225279f5a1": {
       "attempts": 1,
       "feed_name": "Eurodollar University",
@@ -3592,6 +3637,57 @@
       "title": "The capital required for critical supply chains",
       "url": "https://mcdn.podbean.com/mf/web/qegkirmvw5cne3y7/JPM_MS_SRI_Supply_Chain_Assets_V188esn.mp3",
       "watch": []
+    },
+    "marketmatters.podbean.com/6febfd17-4f61-3246-8d5b-f9599eb0d07c": {
+      "feed_name": "Making Sense (J.P. Morgan)",
+      "implications": "For a repo/financing desk this is mostly background/market-structure color rather than a direct trade signal, but the data-center/IG supply wave, private-credit refi wall (2028-29), and rising HY distress share are worth tracking as they will affect collateral quality, spread volatility, and back-leverage/ABL demand (relevant to JPMorgan's own Financing Connect pitch); the rates-side framing (Fed forward-guidance changes, Treasury issuance uncertainty, swap-spread sensitivity to supply forecasts) is a useful analogy for how uncertain data-center issuance forecasts could move IG spreads similarly.",
+      "key_claims": [
+        "Kenney: IG bond market turnover in H1 2026 reached an 18-year peak",
+        "Kenney: HY daily turnover, still under 1%, is the highest since 2020",
+        "Kenney: 98.7% of IG CUSIPs and over 97% of HY CUSIPs (up from 95% a year ago) trade at least once per week",
+        "Data-center-build-out-related IG issuance totals roughly $300 billion, with overall IG issuance up about 50% year-over-year",
+        "Kenney: portfolio concentration limits for data-center-related credit are not close to being hit yet, but risk is building over the next 6-9 months",
+        "Kenney: private credit gates remain up with restricted quarterly redemptions; a refinancing wall in 2028-2029 is 'not inconsequential' but viewed as manageable rather than systemic",
+        "Kenney: June and July 2026 default rates were exceptionally low, even as the share of the HY market trading at distressed levels has been slowly rising"
+      ],
+      "kind": "podcast",
+      "one_liner": "JPMorgan credit and former rates sales heads map how electronification, record data-center-driven IG supply, and private-credit stress are reshaping credit markets just as rates policy uncertainty spills into spread product.",
+      "published": "2026-09-16T13:06:33+00:00",
+      "recap": "Brian LaRocca (JPMorgan Vita Portfolio Solutions) interviews Ben Kenney, newly head of credit sales after running rate sales, on how rates-market discipline is bleeding into credit. Kenney argues credit now has near-continuous price discovery: H1 2026 IG bond turnover hit an 18-year high, HY daily turnover (still under 1%) is the highest since 2020, and roughly 98.7% of IG CUSIPs and over 97% of HY CUSIPs trade at least once weekly, up from 95% a year ago. He sees credit electronification at the 'third or fourth inning,' behind FX and rates, with portfolio trading maturing faster in credit than it ever did in rates. On macro, he flags unusual policy uncertainty (new Fed chair Kevin Warsh scrapping forward guidance/dot plots, Treasury Secretary Bessent actively pushing yields lower, large deficits) and says he'd rather express the view via FX than duration or front-end rates given the noise, though fiscal steepening pressure remains real. On the ~$300bn data-center-driven IG issuance wave (IG issuance +50% YoY), he attributes summer spread widening partly to equity-market deleveraging noise rather than pure credit indigestion, expects continued issuance-driven volatility over the next 6-9 months, and says concentration limits aren't binding yet but are a growing medium-term risk. On private credit, the 'SAS apocalypse' narrative has repriced but isn't resolved \u2014 gates remain up, redemptions are restricted, and a 2028-29 refinancing wall looms though it's viewed as manageable rather than systemic. He also flags China capital formation and AI funding as an underappreciated risk. Low June/July default rates coexist with a slowly rising share of HY trading at distressed levels.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "credit",
+        "IG issuance",
+        "high yield",
+        "private credit",
+        "electronification",
+        "portfolio trading",
+        "rates",
+        "Fed",
+        "Treasury issuance",
+        "CLO/LevFin",
+        "back leverage"
+      ],
+      "terms": [
+        "IG -- Investment grade (higher-rated) corporate bonds",
+        "HY -- High yield (below investment grade) corporate bonds",
+        "CUSIP -- Committee on Uniform Securities Identification Procedures identifier assigned to individual bond issues (referred to in the transcript as 'QCIP', a likely mis-transcription)",
+        "LDI -- Liability-driven investment, a portfolio strategy matching assets to future liabilities (used by pension-type investors)",
+        "BDC -- Business development company, a vehicle used to hold private credit loans",
+        "TBAC -- Treasury Borrowing Advisory Committee, which advises the U.S. Treasury on debt issuance",
+        "ABL -- Asset-based lending, financing secured against a borrower's collateral pool",
+        "LevFin -- Leveraged finance, the business of underwriting and trading sub-investment-grade loans and bonds"
+      ],
+      "tier": "quant",
+      "title": "Navigating credit markets in 2026: \u201cDon\u2019t let the macro narrative overwhelm the micro\u201d",
+      "url": "https://mcdn.podbean.com/mf/web/didqwi9bqv8f2yvd/JPM_MS_VidaCreditFinancing_V2FINAL.mp3",
+      "watch": [
+        "Pace and size of data-center/AI-infrastructure related IG issuance over the next 6-9 months and whether portfolio concentration limits start to bind",
+        "Private credit / 'software' loan sector refinancing wall in 2028-2029 and BDC redemption gate activity",
+        "Share of HY market trading at distressed levels as a leading indicator versus still-low headline default rates",
+        "How Fed chair Kevin Warsh's departure from forward guidance/dot plots and Treasury's active yield-curve management evolve and feed into duration/FX positioning"
+      ]
     },
     "marketmatters.podbean.com/93ac6a2f-aaa3-3aef-9fcd-a1b009df1285": {
       "feed_name": "Making Sense (J.P. Morgan)",
