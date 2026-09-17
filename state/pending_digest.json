@@ -89,6 +89,46 @@
         "2s/10s/30s reaction over the following days once markets digest projections, not just the initial statement"
       ]
     },
+    "6aac3deffce2f8822622c5f3": {
+      "feed_name": "Unhedged",
+      "implications": "For a repo/rates desk, the reaffirmed hawkish tilt and apparent Fed independence reduce term-premium risk from political interference, but the dot plot signalling further hikes plus unresolved supply/competition-for-capital pressures argue against calling a top in yields -- worth tracking front-end repricing and any pickup in bond supply or shorting exhaustion at the long end.",
+      "key_claims": [
+        "The Fed raised rates by a quarter point in a unanimous vote, its first hike in several years (per hosts' account)",
+        "The Fed's dot plot signalled at least one more rate increase later this year",
+        "Core PCE inflation was cited at roughly 3.7% against the Fed's 2.0% target",
+        "The 10-year Treasury yield fell back to about 4.949%, below 5%, after initially rising post-decision",
+        "Trump publicly said US interest rates should be '1% or less' and criticized the hike as politically motivated"
+      ],
+      "kind": "podcast",
+      "one_liner": "FT's Unhedged podcast walks through a Fed rate hike (unanimous, hawkish dot plot) and the market's relief that Fed independence from Trump appears intact, with direct read-through to 10-year yields.",
+      "published": "2026-09-17T20:00:00+00:00",
+      "recap": "Katie Martin and Rob Armstrong discuss the FOMC's quarter-point rate hike -- its first hike in years -- delivered unanimously, which surprised markets given expectations of a split vote. Chair Kevin Warsh, who reportedly refuses to participate in the Fed's 'dot plot' of individual rate projections, nonetheless presided over a dot plot showing the committee expects at least one more hike this year, signalling a hawkish stance beyond the immediate move. The hosts note the irony that a tool Warsh dislikes ended up reinforcing the hawkish message he wanted to send. They trace the decision back to Warsh's Jackson Hole remarks framing inflation as the priority, which combined with a strong August CPI print made the hike almost inevitable, even though Warsh publicly downplayed reliance on any single data point. They stress the Fed's preferred gauge is core PCE, running near 3.7% versus the 2% target, justifying the hike on the Fed's own terms. Market reaction centered on the 10-year Treasury yield, which briefly rose post-decision but then fell back below 5% (to about 4.949%), interpreted as relief that the Fed is not bending to President Trump's demands for much lower rates (he called for 1% or less). Trump's public criticism drew a shrug from markets, unlike earlier clashes with Powell. Warsh cited economic strength, competition for capital, and geopolitics (oil) -- not fiscal spending -- as drivers of higher long-end yields, and the hosts debate whether yields have peaked given persistent upward pressures.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "FOMC",
+        "Treasury yields",
+        "monetary policy",
+        "Fed independence"
+      ],
+      "terms": [
+        "FOMC -- Federal Open Market Committee, the Fed body that sets US monetary policy",
+        "dot plot -- chart showing each FOMC member's projected policy rate path, part of the Summary of Economic Projections",
+        "PCE -- Personal Consumption Expenditures price index, the Fed's preferred inflation gauge",
+        "CPI -- Consumer Price Index, a differently-weighted inflation measure released before PCE"
+      ],
+      "tier": "credit",
+      "title": "News alert: Fed acts normal",
+      "url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6aac3deffce2f8822622c5f3/media.mp3",
+      "watch": [
+        "Next PCE and CPI prints for confirmation of the disinflation path",
+        "Further Fed dot-plot signals on additional 2026 hikes",
+        "10-year Treasury yield behavior around the 5% level and positioning/short-covering dynamics",
+        "Any renewed Trump pressure on Fed policy and market reaction to it"
+      ]
+    },
     "marketmatters.podbean.com/9daab1ae-b588-3322-81d0-8afb20f5bba9": {
       "feed_name": "Making Sense (J.P. Morgan)",
       "implications": "A resumption of Fed hikes with more explicitly signaled ahead re-steepens the near-term path for front-end rates and funding costs, directly affecting repo/OIS pricing and collateral cost-of-carry; the muddled neutral-rate messaging adds uncertainty to how restrictive policy really is, which the reader should factor into SOFR/OIS basis and funding curve positioning heading into the late-October meeting.",
