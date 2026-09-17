@@ -537,6 +537,53 @@
         "Retail/grocery promotional intensity (Walmart, Kroger, Amazon, Aldi) as a margin/credit signal for consumer-sector issuers"
       ]
     },
+    "316192ab-de6b-424a-a736-b51fa7068d4c": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a repo/rates desk this is a call to fade the hawkish symbolism: the argued lack of genuine inflation justification and hidden labor-market slack suggest the front end may be pricing in more tightening than fundamentals support, favoring flattener/steepener trades or duration adds on dips rather than chasing a sustained hiking cycle; also watch how this shapes term repo/OIS pricing if the market starts doubting Fed conviction post-hike.",
+      "key_claims": [
+        "The FOMC hiked 25bp on a 12-0 vote, per the host reading the released statement live",
+        "Statement language cited: 'activity is expanding at a solid pace,' 'productivity growth is strong,' 'capital investment is robust,' and job gains have 'kept pace with the workforce'",
+        "Ahead of the decision, 2-year yields were around 4.61-4.64% and the 10-year near 4.94%, with little post-announcement movement",
+        "Oil was cited around $102 with the curve in backwardation",
+        "Core CPI has continued improving while the core PCE deflator has stalled, and trimmed-mean PCE (the true underlying-trend measure Warsh referenced) has not bounced, implying the weakness is narrow, not broad",
+        "The BEA is expected to revise its PCE deflator estimate downward around September 30",
+        "The FRBNY Survey of Consumer Expectations shows the expected rise in unemployment over the next year at its highest since 2020",
+        "The dot plot showed roughly 50bp of additional projected tightening into 2027-2028, which the host characterizes as not particularly hawkish"
+      ],
+      "kind": "podcast",
+      "one_liner": "A Fed-day walkthrough arguing the FOMC hiked 25bp mainly for symbolic 'we're serious about inflation' messaging despite thin data support, which matters directly to a rates desk sizing how long this hiking cycle can last.",
+      "published": "2026-09-17T11:00:00+00:00",
+      "recap": "The piece walks through a live Fed decision day, framing the debate as the Fed's 'capital-E economics' versus the 'small-e economics' of ordinary Americans and the bond market. The host argues the Fed's resilient-labor-market narrative rests entirely on the official unemployment rate, which looks stable only because people are dropping out of the labor force (via attrition rather than layoffs) rather than because hiring is strong \u2014 JOLTS hiring rates and the Sahm Rule (misheard as 'Psalm/SOM rule') both point to underlying weakness. University of Michigan and Conference Board sentiment, plus the NY Fed's Survey of Consumer Expectations, show unemployment fear and financial-security readings only ever seen in recessions. On inflation, the justification (per Kevin Warsh's Jackson Hole remarks about insufficient 'structural improvement') leans on the headline PCE deflator, but core CPI and the trimmed-mean PCE are actually improving, meaning the softness is driven by a few narrow categories, not broad prices \u2014 and the BEA's September 30 revision is expected to lower PCE deflator readings further. Despite this, the Fed hiked 25bp on a 12-0 vote, with a statement citing resilient spending, strong productivity, and job gains 'keeping pace' with a shrinking workforce. The dot plot showed only modest additional tightening (roughly another 25bp, maybe two hikes) rather than an aggressive path. Bond markets barely reacted (2s ~4.6%, 10s ~4.94%). The host likens this to Trichet's ECB hikes and Bernanke's 2010 QE2 signal \u2014 policy moves that later proved unjustified \u2014 and predicts this hiking cycle will be short-lived once the weak data reasserts itself.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "PCE deflator",
+        "labor market",
+        "dot plot",
+        "monetary policy",
+        "yield curve"
+      ],
+      "terms": [
+        "Sahm Rule -- a recession-signal rule triggered when the 3-month moving average unemployment rate rises 0.5 percentage points above its low over the prior 12 months",
+        "PCE deflator -- the Personal Consumption Expenditures price index, the Fed's preferred inflation gauge",
+        "Trimmed-mean PCE -- a PCE inflation measure that excludes the most extreme price movements to isolate the underlying inflation trend",
+        "JOLTS -- the Job Openings and Labor Turnover Survey, a Bureau of Labor Statistics measure of hiring, openings, and quits",
+        "NBER -- the National Bureau of Economic Research, the body that officially dates U.S. recessions",
+        "Dot plot -- the FOMC's chart of individual members' projected federal funds rate path"
+      ],
+      "tier": "plumbing",
+      "title": "LIVE: Will the Fed Really Raise Rates Into a Struggling Economy",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/e3c4f26d/d6bb85d8.mp3",
+      "watch": [
+        "BEA's September 30 PCE deflator revision (expected downward)",
+        "Powell/Warsh press conference tone for further hawkish or dovish signals",
+        "Whether the dot plot's implied 1-2 additional hikes materialize into 2027-2028",
+        "JOLTS hiring and labor force participation trends as the real read on labor market health",
+        "2s/10s/30s reaction over the following days once markets digest projections, not just the initial statement"
+      ]
+    },
     "3185c85c-664e-438d-90c4-b4c20100cec0": {
       "feed_name": "Money Stuff: The Podcast",
       "implications": "Background, not actionable -- the PE-aggressiveness/LME yield-premium segment is the only piece with a credit angle (sponsor reputation pricing into leveraged loan/HY spreads), but it's a light discussion of an academic paper rather than a market-moving development for repo, funding, or rates.",
@@ -3285,6 +3332,48 @@
       "tier": "plumbing",
       "title": "Bill Nelson on Shrinking the Fed's Balance Sheet and Reviving Interbank Markets",
       "url": "https://traffic.libsyn.com/secure/macromusings/MM-556-BillNelson-Podcast-auphonic.mp3?dest-id=865793"
+    },
+    "e1f6e282-2609-491c-b550-d1fc2626fc6b": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "Largely macro/political commentary rather than plumbing- or desk-level content, but the 10-year at a 19-year high, three priced-in hikes on the 2-year, and rising corporate bankruptcies/distressed exchanges are backdrop signals worth logging for rates positioning and leveraged-credit/HY stress monitoring.",
+      "key_claims": [
+        "DiMartino Booth: 2-year Treasury pricing implies three more rate hikes, possibly including one before the October election",
+        "DiMartino Booth: 10-year Treasury yield closed at 5.01%, the highest level in 19 years",
+        "DiMartino Booth: permanent job losers (unemployed 27+ weeks) now exceed job leavers (unemployed <5 weeks) as of the August jobs report, which she says historically signals recession",
+        "DiMartino Booth: core PCE inflation has fallen from 4.7% to 3.4%, with FOMC dots showing an expected decline to 2.5% next year",
+        "S&P (cited by DiMartino Booth): over 70 bankruptcy filings per month for companies with $2M+ liabilities for three consecutive months (May-July), unprecedented in the series",
+        "DiMartino Booth: 57% of Americans doing cash-out refinancings in Q2 gave up a lower mortgage rate for a higher one",
+        "DiMartino Booth: AI capital investment growth has collapsed on a second-derivative, inflation-adjusted basis, which she views as the top market risk"
+      ],
+      "kind": "podcast",
+      "one_liner": "A Fed-day political/economic commentary podcast focused on labor-market data, inflation composition, and AI-investment risk, with only tangential relevance to the trader's repo/rates/credit book.",
+      "published": "2026-09-17T10:00:00+00:00",
+      "recap": "In this Fed Day interview, Danielle DiMartino Booth of QI Research reacts to a 25bp Fed hike under new chair Kevin Warsh, arguing the move and Warsh's press-conference tone amounted to unwarranted forward guidance despite his stated zero-forward-guidance policy. She notes the 2-year Treasury implies three more hikes priced in (one possibly before the election), the 10-year yield closed at 5.01%, its highest in 19 years, and stocks fell on the news. She disputes Warsh's claim that labor supply is keeping pace with job creation, citing data showing permanent job losers (27+ weeks unemployed) now exceed job switchers, which she calls a recessionary signal, and cites Bloomberg's Anna Wong on AI-driven displacement raising unemployment in exposed occupations. She discusses inflation internals: one-off increases in hotel CPI (Airbnb fee restructuring) and wireless pricing that should fade, alongside a BEA correction removing portfolio-management fees tied to rising equity markets from core PCE, offset by rising legal/bankruptcy-attorney fees flowing through PPI amid a surge in corporate bankruptcies (S&P counted 70+ filings with $2M+ liabilities for three straight months) and a rise in out-of-court distressed exchanges that often still end in bankruptcy court. She flags consumer stress (cash-out refinancers giving up low mortgage rates, tightening credit standards, falling real retail sales, trade-down from beef to chicken) concentrated below the top income tercile, which is itself now showing softening sentiment. Her biggest risk: AI capital investment has already peaked on an inflation-adjusted basis, propped up by accounting treatment of AI funding rounds flowing to hyperscaler earnings.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "inflation",
+        "labor market",
+        "credit",
+        "AI",
+        "macro"
+      ],
+      "terms": [
+        "PCE -- Personal Consumption Expenditures price index, the Fed's preferred inflation gauge",
+        "PPI -- Producer Price Index",
+        "FOMC -- Federal Open Market Committee",
+        "CPI -- Consumer Price Index"
+      ],
+      "tier": "broad",
+      "title": "#409 Danielle DiMartino Booth: Fed Is Hiking Into Recession, Consumers Tapped Out, & Credit Tightening",
+      "url": "https://traffic.megaphone.fm/APO3568008904.mp3",
+      "watch": [
+        "Divergent Fed speak from Bowman (dove) vs. Schmidt (hawk) on Friday following the 'unanimous' decision",
+        "Whether AI capital investment continues decelerating on an inflation-adjusted basis",
+        "Trend in corporate bankruptcy filings and distressed exchanges converting to Chapter 11/7"
+      ]
     },
     "e6dca75c-b07b-11f1-9f2b-eba646bf3464": {
       "feed_name": "Forward Guidance",

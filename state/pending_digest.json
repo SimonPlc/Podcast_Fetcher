@@ -1,3 +1,51 @@
 {
-  "queued": {}
+  "queued": {
+    "316192ab-de6b-424a-a736-b51fa7068d4c": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a repo/rates desk this is a call to fade the hawkish symbolism: the argued lack of genuine inflation justification and hidden labor-market slack suggest the front end may be pricing in more tightening than fundamentals support, favoring flattener/steepener trades or duration adds on dips rather than chasing a sustained hiking cycle; also watch how this shapes term repo/OIS pricing if the market starts doubting Fed conviction post-hike.",
+      "key_claims": [
+        "The FOMC hiked 25bp on a 12-0 vote, per the host reading the released statement live",
+        "Statement language cited: 'activity is expanding at a solid pace,' 'productivity growth is strong,' 'capital investment is robust,' and job gains have 'kept pace with the workforce'",
+        "Ahead of the decision, 2-year yields were around 4.61-4.64% and the 10-year near 4.94%, with little post-announcement movement",
+        "Oil was cited around $102 with the curve in backwardation",
+        "Core CPI has continued improving while the core PCE deflator has stalled, and trimmed-mean PCE (the true underlying-trend measure Warsh referenced) has not bounced, implying the weakness is narrow, not broad",
+        "The BEA is expected to revise its PCE deflator estimate downward around September 30",
+        "The FRBNY Survey of Consumer Expectations shows the expected rise in unemployment over the next year at its highest since 2020",
+        "The dot plot showed roughly 50bp of additional projected tightening into 2027-2028, which the host characterizes as not particularly hawkish"
+      ],
+      "kind": "podcast",
+      "one_liner": "A Fed-day walkthrough arguing the FOMC hiked 25bp mainly for symbolic 'we're serious about inflation' messaging despite thin data support, which matters directly to a rates desk sizing how long this hiking cycle can last.",
+      "published": "2026-09-17T11:00:00+00:00",
+      "recap": "The piece walks through a live Fed decision day, framing the debate as the Fed's 'capital-E economics' versus the 'small-e economics' of ordinary Americans and the bond market. The host argues the Fed's resilient-labor-market narrative rests entirely on the official unemployment rate, which looks stable only because people are dropping out of the labor force (via attrition rather than layoffs) rather than because hiring is strong \u2014 JOLTS hiring rates and the Sahm Rule (misheard as 'Psalm/SOM rule') both point to underlying weakness. University of Michigan and Conference Board sentiment, plus the NY Fed's Survey of Consumer Expectations, show unemployment fear and financial-security readings only ever seen in recessions. On inflation, the justification (per Kevin Warsh's Jackson Hole remarks about insufficient 'structural improvement') leans on the headline PCE deflator, but core CPI and the trimmed-mean PCE are actually improving, meaning the softness is driven by a few narrow categories, not broad prices \u2014 and the BEA's September 30 revision is expected to lower PCE deflator readings further. Despite this, the Fed hiked 25bp on a 12-0 vote, with a statement citing resilient spending, strong productivity, and job gains 'keeping pace' with a shrinking workforce. The dot plot showed only modest additional tightening (roughly another 25bp, maybe two hikes) rather than an aggressive path. Bond markets barely reacted (2s ~4.6%, 10s ~4.94%). The host likens this to Trichet's ECB hikes and Bernanke's 2010 QE2 signal \u2014 policy moves that later proved unjustified \u2014 and predicts this hiking cycle will be short-lived once the weak data reasserts itself.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "PCE deflator",
+        "labor market",
+        "dot plot",
+        "monetary policy",
+        "yield curve"
+      ],
+      "terms": [
+        "Sahm Rule -- a recession-signal rule triggered when the 3-month moving average unemployment rate rises 0.5 percentage points above its low over the prior 12 months",
+        "PCE deflator -- the Personal Consumption Expenditures price index, the Fed's preferred inflation gauge",
+        "Trimmed-mean PCE -- a PCE inflation measure that excludes the most extreme price movements to isolate the underlying inflation trend",
+        "JOLTS -- the Job Openings and Labor Turnover Survey, a Bureau of Labor Statistics measure of hiring, openings, and quits",
+        "NBER -- the National Bureau of Economic Research, the body that officially dates U.S. recessions",
+        "Dot plot -- the FOMC's chart of individual members' projected federal funds rate path"
+      ],
+      "tier": "plumbing",
+      "title": "LIVE: Will the Fed Really Raise Rates Into a Struggling Economy",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/e3c4f26d/d6bb85d8.mp3",
+      "watch": [
+        "BEA's September 30 PCE deflator revision (expected downward)",
+        "Powell/Warsh press conference tone for further hawkish or dovish signals",
+        "Whether the dot plot's implied 1-2 additional hikes materialize into 2027-2028",
+        "JOLTS hiring and labor force participation trends as the real read on labor market health",
+        "2s/10s/30s reaction over the following days once markets digest projections, not just the initial statement"
+      ]
+    }
+  }
 }
