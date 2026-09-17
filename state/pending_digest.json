@@ -1,5 +1,47 @@
 {
   "queued": {
+    "1e9fa654-4b9e-4543-8859-b9b525dd3c62": {
+      "feed_name": "The CLO Investor Podcast",
+      "implications": "Directly relevant to CLO debt and equity positioning: current pricing references (AAA ~SOFR+120, X-notes ~SOFR+100) and the refi payback heuristic (~6 months) are usable benchmarks, and the reminder that BSL AAA/AAA-adjacent paper can extend reinvestment via post-RP prepayment reinvestment is a real duration/optionality risk to price when buying CLO debt at a discount in stressed markets.",
+      "key_claims": [
+        "Gilbert: current top-tier BSL CLO AAA pricing is roughly SOFR+120, versus roughly SOFR+100 for X-notes (about 20bp inside AAA)",
+        "Gilbert/Bates: a refi is generally worth doing if the fixed transaction cost payback period is under about six months",
+        "Gilbert: refis typically carry a one-year non-call period versus two years for resets",
+        "Gilbert: BSL CLOs generally retain an option to reinvest prepayments/credit-improved asset sales after the stated reinvestment period, effectively extending life (e.g., a 5-year RP acting like 7 years), an option middle-market CLOs lack",
+        "Gilbert: X-notes add leverage to the equity position (already ~10x levered) and increase volatility, though their small size means limited impact on debt tranche sensitivities"
+      ],
+      "kind": "podcast",
+      "one_liner": "A detailed, practitioner-level walkthrough of CLO refi/reset economics and X-note financing mechanics -- core structured-credit plumbing even though it's not a near-term market catalyst.",
+      "published": "2026-09-17T16:52:00+00:00",
+      "recap": "Shiloh Bates (Flat Rock) continues his conversation with Chris Gilbert of Natixis on CLO refinancing and reset mechanics. A refi keeps the existing capital structure and reinvestment period, only repricing the debt; a simple payback rule of thumb is that if fixed transaction costs are recouped within about six months of interest savings, it's worth doing. A reset is closer to building a new CLO: the reinvestment period is extended, covenants and tranching can be rebuilt, and the portfolio often needs cleaning up so new AAA buyers see a fresh, low-default portfolio. That cleanup can require fresh equity capital or, alternatively, issuance of an X-note -- a small, top-of-stack, fast-amortizing AAA-rated tranche that behaves like cheap financing for the equity, repaid quickly out of early interest proceeds (Gilbert cites current levels of roughly SOFR+120 for standard CLO AAAs versus about SOFR+100 for X-notes). They discuss why equity holders almost always prefer X-notes over contributing new cash (cheaper cost of capital, better IRR, more capital left to deploy elsewhere), tradeoffs around current income versus IRR-focused investors, and the principal-agent tension where managers favor resets (longer fee-earning life) while equity often prefers a cheap refi followed by a later reset. They also cover an overlooked embedded option: BSL CLOs typically allow post-reinvestment-period reinvestment of prepayments, effectively extending life beyond the stated reinvestment period, a risk middle-market CLO debt doesn't carry and which the market rarely prices explicitly. A tangent covers the difficulty of cross-currency hedging (yen/dollar swaps) for Japanese AAA buyers given uncertain tranche duration.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "CLO",
+        "structured credit",
+        "leveraged loans",
+        "refi/reset",
+        "X-note",
+        "AAA spreads",
+        "SOFR"
+      ],
+      "terms": [
+        "CLO -- collateralized loan obligation, a securitized pool of leveraged loans divided into rated debt tranches and a subordinated equity tranche",
+        "BSL -- broadly syndicated loan, the large, liquid segment of the leveraged loan market (as opposed to middle-market loans)",
+        "X-note -- a small, fast-amortizing, top-priority AAA-rated CLO tranche that functions as cheap short-term financing for the equity tranche",
+        "Non-call period -- the initial period (commonly two years) during which CLO debt cannot be called/refinanced",
+        "Reinvestment period -- the period during which a CLO manager can reinvest loan prepayments/sale proceeds into new collateral rather than paying down debt",
+        "WAL -- weighted average life, the average time until principal is repaid across a bond's cash flows"
+      ],
+      "tier": "credit",
+      "title": "#40 Part 2, Chris Gilbert, Co-Head of Securitized Products, Natixis",
+      "url": "https://traffic.libsyn.com/secure/1302c0f6-a032-40ce-abec-d27acd45226e/Podcast_40.mp3?dest-id=4445108",
+      "watch": [
+        "Whether refi/reset issuance volume stays elevated as more 2023-24 vintage deals exit non-call periods",
+        "Any middle-market CLO managers beginning to price the lack-of-extension option into deal terms",
+        "X-note usage trends as a substitute for equity capital calls in resets"
+      ]
+    },
     "316192ab-de6b-424a-a736-b51fa7068d4c": {
       "feed_name": "Eurodollar University",
       "implications": "For a repo/rates desk this is a call to fade the hawkish symbolism: the argued lack of genuine inflation justification and hidden labor-market slack suggest the front end may be pricing in more tightening than fundamentals support, favoring flattener/steepener trades or duration adds on dips rather than chasing a sustained hiking cycle; also watch how this shapes term repo/OIS pricing if the market starts doubting Fed conviction post-hike.",
@@ -45,6 +87,49 @@
         "Whether the dot plot's implied 1-2 additional hikes materialize into 2027-2028",
         "JOLTS hiring and labor force participation trends as the real read on labor market health",
         "2s/10s/30s reaction over the following days once markets digest projections, not just the initial statement"
+      ]
+    },
+    "marketmatters.podbean.com/9daab1ae-b588-3322-81d0-8afb20f5bba9": {
+      "feed_name": "Making Sense (J.P. Morgan)",
+      "implications": "A resumption of Fed hikes with more explicitly signaled ahead re-steepens the near-term path for front-end rates and funding costs, directly affecting repo/OIS pricing and collateral cost-of-carry; the muddled neutral-rate messaging adds uncertainty to how restrictive policy really is, which the reader should factor into SOFR/OIS basis and funding curve positioning heading into the late-October meeting.",
+      "key_claims": [
+        "Feroli: the September hike was 25bp and unanimous, in line with expectations",
+        "Feroli: the dot plot points to one more hike likely this year",
+        "Core PCE has run above 3% year-over-year every month this year, though the three-month annualized pace has improved",
+        "The longer-run (neutral rate) dot moved up to about 3.25% while the funds rate sits just below 4%",
+        "Feroli: Chair Warsh described the hike as removing 'a dose of accommodation' rather than as policy moving above neutral, which is inconsistent with standard dot-plot interpretation",
+        "Feroli: the Fed has room to pause at the late-October meeting given only one jobs report and one inflation print arrive beforehand, citing precedent from the 2017-18 hiking cycle",
+        "The press conference was shortened to 30 minutes with no follow-up questions allowed"
+      ],
+      "kind": "podcast",
+      "one_liner": "JPMorgan's chief US economist breaks down the Fed's 25bp hike, mixed signals on the neutral rate, and the path for one more hike this year -- core front-end rates content for a repo/rates desk.",
+      "published": "2026-09-17T18:15:06+00:00",
+      "recap": "JPMorgan's Sam Azzarello interviews chief US economist Michael Feroli on the September FOMC decision: a unanimous 25bp hike, in line with expectations, with the dot plot signaling one more hike likely this year. Feroli ties the move to Fed Chair Kevin Warsh's hawkish Jackson Hole messaging, which effectively pre-committed the Fed to hike if inflation stayed firm -- which it did, with core PCE running above 3% year-over-year every month this year even as the three-month annualized pace improved. He flags confused communication around the neutral rate: the longer-run dot rose modestly to 3.25% while the funds rate sits just below 4%, yet Warsh described the hike as merely removing \"a dose of accommodation\" rather than signaling policy is above neutral -- language most committee members would likely contradict once out of blackout. Feroli sees room for the Fed to pause at the late-October meeting, since only one jobs report and one inflation print will land beforehand, drawing a parallel to the quarterly-tempo hiking cycle of 2017-18, though a pause would need careful communication or weak data to justify it. The press conference was cut to 30 minutes with no follow-up questions and yielded little new information. The unanimous vote is read as a show of Fed resolve and independence despite administration pressure for lower rates. Looking ahead, Feroli says core PCE remains the key data series, but early hints of labor market tightening now bear watching -- a tightening labor market could mean more than one additional hike.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "FOMC",
+        "rates",
+        "monetary policy",
+        "inflation",
+        "neutral rate",
+        "labor market"
+      ],
+      "terms": [
+        "FOMC -- Federal Open Market Committee, the Fed's rate-setting body",
+        "PCE -- Personal Consumption Expenditures price index, the Fed's preferred inflation gauge",
+        "dot plot -- the Fed's chart of individual policymakers' rate projections",
+        "neutral rate -- the policy rate level that neither stimulates nor restricts economic growth",
+        "blackout period -- the pre-meeting window when Fed officials refrain from public commentary"
+      ],
+      "tier": "quant",
+      "title": "The Fed hikes rates. What happens now?",
+      "url": "https://mcdn.podbean.com/mf/web/9f7vxwzpzxrm7u34/0926_Research_FedReaction_Podcast_V3.mp3",
+      "watch": [
+        "Labor market data releases before the late-October FOMC meeting for signs of tightening",
+        "Fed speakers' comments post-blackout on whether they view policy as restrictive",
+        "Core PCE prints and whether the three-month annualized improvement persists"
       ]
     }
   }
