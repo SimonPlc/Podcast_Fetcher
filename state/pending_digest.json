@@ -88,6 +88,53 @@
         "Growth of tokenized repo volumes"
       ]
     },
+    "36a100b4-b21e-11f1-83b5-7f87dc57cd53": {
+      "feed_name": "Monetary Matters",
+      "implications": "The fading basis-trade bid and lower repo/SOFR volumes are directly relevant to gauging term repo and collateral demand, while the higher-for-longer dot plot revision and expected further hikes argue for caution on front-end duration and support wider term premia; the Treasury bill-heavy issuance/balance-sheet shift and underwhelming buyback execution are also worth tracking for collateral supply and long-end technicals.",
+      "key_claims": [
+        "Joseph Wang: he was ~90% confident of a September hike after Warsh's Jackson Hole speech referenced non-restrictive financial conditions and the 'speed' of returning to target",
+        "Dot plot: median shows one more hike this year, and the 2028 median fed funds projection rose from 3.4% (June) to 3.9%, with longer-run neutral near 3.1-3.2%",
+        "Wang: expects at least two more hikes to get policy into restrictive territory, following Warsh's framing of the hike as 'removing a dose of accommodation'",
+        "Wang: repo/SOFR volumes are unusually low because basis traders have stepped back, reducing financing demand",
+        "Treasury upsized its buyback operation size to $6bn but only purchased $4.5-5.1bn, below the maximum allotment, disappointing market expectations for a bigger yield-suppression push",
+        "Wang: expects the Fed to shift balance-sheet composition away from longer-dated Treasuries toward bills, mirroring Treasury's own shift toward bill issuance",
+        "Max Weafee: financing for speculative AI borrowers (CoreWeave, neoclouds/private credit) is tied to short-end/SOFR overnight rates, while hyperscaler capex financing is largely insensitive to the level of long-end rates",
+        "Refining stocks up 73% total return this year versus 45.2% for semiconductors, per the discussion of Fiscal AI data"
+      ],
+      "kind": "podcast",
+      "one_liner": "Ex-Fed trader Joseph Wang unpacks a hawkish Warsh Fed hike (dot plot pushing the 2028 median rate up 50bp), fading repo/basis-trade demand, and a disappointing Treasury buyback upsizing -- core plumbing and rates content for a repo/financing desk.",
+      "published": "2026-09-16T22:30:00+00:00",
+      "recap": "Joseph Wang (ex-NY Fed trader) and host Jack review the FOMC meeting under Chair Kevin Warsh, who hiked rates for the first time in his tenure -- exactly as Wang predicted after parsing Warsh's Jackson Hole language about financial conditions not being restrictive and the 'speed' of returning to target. The vote was unanimous, and Warsh reframed the hike as 'removing a dose of accommodation,' implying policy is still accommodative and more hikes (Wang expects at least two) are coming. The dot plot showed one more hike this year but, more notably, raised the 2028 median rate 50bp (3.4% to 3.9%), signaling a higher-for-longer neutral rate. Warsh cited strong growth, low unemployment, sticky inflation, and geopolitical/energy shocks (Strait of Hormuz disruption pushing oil above $100) as reasons the Fed can no longer look through supply shocks after years of repeated ones. On plumbing: Wang notes repo/SOFR volumes are unusually low because basis traders have stepped back, reducing financing demand and possibly contributing to long-end Treasury weakness; he also expects the Fed to shift balance-sheet composition toward bills, mirroring Treasury's own shift in issuance. They also discuss Treasury's buyback program, upsized to $6bn per operation but under-executed at ~$4.5-5.1bn, disappointing markets hoping for a bigger yield-suppression 'bazooka.' A second segment covers a booming refining-stock trade (Marathon Petroleum, Valero) driven by wide crack spreads from the Hormuz-related supply shock, and a debate on whether AI capex financing is more sensitive to short-end (SOFR, neoclouds/private credit) versus long-end rates.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "repo",
+        "SOFR",
+        "Treasury buybacks",
+        "dot plot",
+        "balance sheet",
+        "basis trade",
+        "rates",
+        "credit financing"
+      ],
+      "terms": [
+        "SEP -- the Fed's quarterly Summary of Economic Projections, which includes the dot plot of individual rate forecasts",
+        "TIPS -- Treasury Inflation-Protected Securities, whose yield represents a real (inflation-adjusted) rate",
+        "SOFR -- Secured Overnight Financing Rate, the reference rate for overnight repo-backed borrowing",
+        "crack spread -- the margin refiners earn buying crude oil and selling refined products like gasoline and diesel"
+      ],
+      "tier": "plumbing",
+      "title": "Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
+      "url": "https://traffic.megaphone.fm/EWWMN8760779261.mp3",
+      "watch": [
+        "Whether the Fed delivers the two additional hikes Wang expects (possibly December and March)",
+        "Treasury buyback criteria/size in subsequent operations and whether allotments loosen toward overpaying for off-the-runs",
+        "SOFR/repo volumes for signs of basis-trade re-engagement",
+        "Fed balance-sheet composition shift toward bills matching Treasury's issuance mix",
+        "Strait of Hormuz/oil-diesel price trajectory and its feed-through to inflation and Fed reaction function"
+      ]
+    },
     "42f42640-cfc8-4f09-ad32-6c9850a83e56": {
       "feed_name": "The Julia La Roche Show",
       "implications": "The AI-related leveraged finance/bank-loan spread widening (~50-130bp off tights) versus stable non-AI credit is an early signal to watch basis and dispersion trades in HY/loan books; the ratings-arbitrage and insurance/private-credit leverage thesis argues for caution on private credit and insurer-linked structured exposure, while the GDP/Bund-based 10-year fair-value model and two-year-leads-Fed framework are useful inputs for positioning duration and front-end rate expectations.",
