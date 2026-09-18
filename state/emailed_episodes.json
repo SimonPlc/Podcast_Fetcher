@@ -563,6 +563,15 @@
       "title": "SI415: Maybe This Is Just What Normal Markets Look Like ft. Alan Dunne",
       "url": "https://episodes.captivate.fm/episode/297426df-7af0-4ce0-96d4-5b5c9f61ecbd.mp3"
     },
+    "30df4538-b2fe-11f1-a223-33e58f5060aa": {
+      "feed_name": "Forward Guidance",
+      "kind": "podcast",
+      "published": "2026-09-18T10:00:00+00:00",
+      "status": "failed",
+      "tier": "macro",
+      "title": "The Fed Is Hiking Into A Growth Slowdown | Weekly Roundup",
+      "url": "https://traffic.megaphone.fm/BWG7375970409.mp3"
+    },
     "313bf49f-b6bf-4487-894b-2f71ac944c88": {
       "feed_name": "Eurodollar University",
       "implications": "For a rates/credit desk this is background macro color rather than a plumbing signal -- it feeds the disinflation/growth-slowdown thesis (weak JOLTS/ADP, contracting construction despite lower rates) that would argue for a lower/steeper front end and continued Fed easing, while the emphasis on eroding discretionary income and labor-market softness is a slow-burn credit-quality watch item for consumer-linked ABS, leveraged loans and HY retail/consumer names rather than something actionable today.",
@@ -846,6 +855,15 @@
         "Fed balance-sheet composition shift toward bills matching Treasury's issuance mix",
         "Strait of Hormuz/oil-diesel price trajectory and its feed-through to inflation and Fed reaction function"
       ]
+    },
+    "3715cbfc-b4cf-4840-bf1b-b4c8010bc9bb": {
+      "feed_name": "Odd Lots",
+      "kind": "podcast",
+      "published": "2026-09-18T08:00:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "There's a Mind-Boggling Number of Rich People in America",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/3715cbfc-b4cf-4840-bf1b-b4c8010bc9bb/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83"
     },
     "38d66de3-60e9-48cd-bb6b-174a2ea86f12": {
       "feed_name": "Eurodollar University",
@@ -2671,6 +2689,43 @@
       "title": "The Rise of Organized Retail Crime at Big Box Stores",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/ac7406bd-0582-4820-af93-b4c100274867/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
       "watch": []
+    },
+    "ac94052b-b239-499e-b9ba-39ce7662c377": {
+      "feed_name": "Macro Hive Conversations",
+      "implications": "Background, not actionable for repo/rates/credit positioning -- the episode is pure oil-market and geopolitical analysis with no discussion of funding markets, central bank policy or credit; the only read-through is that a sustained oil/product price shock of this scale is an upside inflation risk that could feed into the rates outlook.",
+      "key_claims": [
+        "Johnston: Brent trading near $100/bbl with prompt backwardation of $3-5/bbl and DFL near $6/bbl",
+        "Johnston: diesel crack spread near $100/bbl versus a normal shoulder-season level around $10/bbl",
+        "Johnston: China cut crude imports by 5.4mb/d from pre-war baseline to the June trough, more than the entire OECD SPR release combined and equivalent to 45% of China's pre-war imports",
+        "Johnston: Hormuz throughput is running at roughly 8-10mb/d versus normal ~20mb/d, with total regional liquids output still down 8-10mb/d",
+        "Total CEO cited by Johnston: war-risk insurance to transit a VLCC through Hormuz costs about $20m, versus a pre-war premium of roughly 25bps"
+      ],
+      "kind": "podcast",
+      "one_liner": "A deep-dive into the Hormuz/Red Sea oil supply shock, Chinese crude/product flows and Venezuela-Canada heavy oil competition has no repo, funding or credit content, but the scale of the price shock is a background macro input for rates.",
+      "published": "2026-09-18T07:00:00+00:00",
+      "recap": "Oil researcher Rory Johnston (Commodity Context) updates Macrohive on the ongoing Middle East oil crisis as of September 9. Brent is back near $100 with the futures curve steeply backwardated ($3-5/bbl prompt, DFL near $6), and refined-product cracks are historically wide -- diesel crack near $100/bbl and gasoline cracks running above normal driving-season levels in the shoulder season. He attributes the delayed price explosion to SPR releases, pipeline reroutes, and above all an unexpected ~5.4mb/d collapse in Chinese crude imports (more than the entire OECD SPR release combined), which he argues was Beijing deliberately absorbing the shock to protect its export markets amid a weak property sector and the US trade war. Houthi attacks have closed the Red Sea reroute (Bab el-Mandeb), pushing Saudi barrels back through Hormuz via costly VLCC war-risk insurance (~$20m/tanker) and steep Iraqi loading discounts ($30-50/bbl). Refining capacity is also impaired: Ukrainian drone strikes have cut Russian refining to as low as 50% at times, Houthis have hit Saudi's Jazan refinery, and Gulf states are secretive about war damage. India's LPG-dependent economy has been squeezed, prompting talk of a new strategic reserve. Discussion closes on Venezuela's new US equity-stake oil deal and its knock-on effect widening Canadian WCS heavy-oil discounts, and Canada's resulting push for westward pipeline capacity away from US dependence.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "oil",
+        "commodities",
+        "geopolitics",
+        "China",
+        "macro-background"
+      ],
+      "terms": [
+        "DFL -- Dated-to-Frontline spread, the difference between physical/dated Brent price and the front-month futures price, used as a gauge of physical market tightness",
+        "WCS -- Western Canadian Select, the benchmark price for Canadian heavy crude oil",
+        "SPR -- Strategic Petroleum Reserve, government-held emergency crude oil stockpiles"
+      ],
+      "tier": "macro",
+      "title": "Ep. 376: Rory Johnston on $100 Oil, the Refined Product Crisis, and China's Swing Power",
+      "url": "https://traffic.libsyn.com/secure/macrohive/MH_w_JOHNSTON3.mp3?dest-id=1929056",
+      "watch": [
+        "Whether China loosens teapot refiner export restrictions into winter, which Johnston flags as the likely swing factor for the global diesel/jet crisis",
+        "Any US move toward refined-product export restrictions ahead of the midterms",
+        "Whether Hormuz throughput (currently ~8-10mb/d vs normal ~20mb/d) recovers further"
+      ]
     },
     "ae8e06da-4095-4c0f-8fdb-b4c0013c37f4": {
       "feed_name": "Odd Lots",
