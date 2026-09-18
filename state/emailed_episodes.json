@@ -118,6 +118,32 @@
         "China 10-year government bond yield approaching 2%"
       ]
     },
+    "0ea17bfc-b2a0-11f1-83a2-3729a991392f": {
+      "feed_name": "Goldman Sachs Exchanges",
+      "implications": "Background, not actionable -- this is a personal/career retrospective on private equity franchise-building with no discussion of funding markets, rates, or credit instruments relevant to the reader's book.",
+      "key_claims": [
+        "Rich Friedman says the current crisis in the PE industry is exits, not operating performance, with the public and strategic markets unlikely to absorb the large inventory of portfolio companies.",
+        "Goldman raised its first billion-dollar buyout fund (GSCP-1) in 1992 and its first subordinated debt fund in the late 1990s, initially targeting European deals where a private sub-debt market didn't yet exist.",
+        "Friedman says Goldman did about $200 billion of buyouts in an 18-month period during the mid-2000s buyout boom before raising a $5 billion fund in 2005.",
+        "Friedman estimates the PE industry now holds three to five trillion dollars of uninvested assets needing a home, calling the industry 'industrialized' with thousands of competitors versus a handful of firms when he started."
+      ],
+      "kind": "podcast",
+      "one_liner": "A career-retrospective interview with a Goldman Sachs Asset Management chairman about building the merchant bank/private equity franchise, with no repo, rates, or credit-market content relevant to a financing desk.",
+      "published": "2026-09-18T04:00:00+00:00",
+      "recap": "This is a Goldman Sachs Exchanges 'Great Investors' interview with Rich Friedman, chairman of Goldman Sachs Asset Management, marking 45 years at the firm. He recounts joining Goldman in 1980, working early on private debt and lease financings before moving into LBO-era media and telecom deals. He describes his 'battlefield promotion' under mentor Hank Paulson that led to the creation of Goldman's Principal Investment Area and the 1992 launch of GS Capital Partners' first billion-dollar buyout fund. He traces milestones: the Polo Ralph Lauren stake, a late-1990s subordinated debt fund for European buyouts (an early credit business), a 2005 $5 billion fund during the pre-crisis buyout boom, post-crisis senior debt and real estate debt funds, an infrastructure fund, and the build-out of Asia investing culminating in the ICBC privatization investment. He discusses investment-committee culture ('disagree without being disagreeable'), discipline around staying within circles of competence during momentum periods (dot-com, now AI), and describes today's PE industry as industrialized with thousands of competitors and trillions in uninvested capital, with the current crisis being exit difficulty rather than operating performance. He touches on AI hype, sectors of interest (wealth management, business services around data centers, sports services), and closes with philanthropy, career advice, and a lightning round.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "private equity",
+        "Goldman Sachs",
+        "career"
+      ],
+      "terms": [],
+      "tier": "broad",
+      "title": "Rich Friedman on the Rise of Private Markets and AI Investing",
+      "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD4317252897.mp3",
+      "watch": []
+    },
     "0f62d2ee-e669-4b6f-94ee-20a99203eee5": {
       "feed_name": "Macro Musings",
       "implications": "Directly germane to the reader's book: the discussion of discount window stigma, IOR history, and the balance-sheet task force's push toward a more demand-driven ample-reserves regime bears on repo/funding market structure and the Fed's future footprint in money markets, while the inflation-expectations and Fed-communication discussion informs front-end rate positioning.",
