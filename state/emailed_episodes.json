@@ -1753,6 +1753,15 @@
         "Fed balance-sheet task force findings on reserve/balance-sheet sizing under Warsh"
       ]
     },
+    "6a5aab7a-29f7-4572-907e-b4c900f5ffe7": {
+      "feed_name": "Money Stuff: The Podcast",
+      "kind": "podcast",
+      "published": "2026-09-18T15:15:42+00:00",
+      "status": "failed",
+      "tier": "credit",
+      "title": "Trying to Save the World Is No Excuse",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/6a5aab7a-29f7-4572-907e-b4c900f5ffe7/audio.mp3?utm_source=Podcast&in_playlist=77e6a3a7-290d-4a82-8164-b14001353ef2"
+    },
     "6a84b771a835875d375e46f7": {
       "feed_name": "Unhedged",
       "kind": "podcast",
@@ -3137,6 +3146,51 @@
         "Friday non-farm payrolls print (consensus ~55k) as a catalyst for both rates and gold repricing",
         "Pace and pricing of hyperscaler/AI-related corporate bond issuance (e.g. Google's $40bn deal) and its crowding-out effect on Treasury yields",
         "Further private credit/private equity liquidity and valuation marks for signs of a bottom"
+      ]
+    },
+    "cb320557-3e95-4758-a395-588405337a43": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a repo/financing desk this is mostly background on private-credit and structured-credit stress rather than a money-market catalyst, but the bank bridge-to-bond-market financing for the $22bn AI chip deal and insurer affiliated-loan cleanups are worth tracking as potential sources of primary IG issuance and collateral/counterparty risk; rising PIK usage and stressed maturity extensions are useful early-warning signals for CLO/leveraged-loan collateral quality.",
+      "key_claims": [
+        "Fitch: trailing-12-month private credit default rate across 1,300 US borrowers rose to 6.3% in August, a new record",
+        "Fitch: stressed maturity extensions accounted for 45% of August defaults, the largest category for a third straight month",
+        "Houlihan Lokey: 11.8% of loans by size elected some PIK interest in Q2, representing 6.3% of total interest dollars",
+        "Houlihan Lokey: loans to $10-20mm EBITDA borrowers trading below 90 cents on the dollar rose from ~1% in 2023 to 12% now; $20-100mm EBITDA borrowers at 6% (three-year high); >$100mm EBITDA borrowers at 3%",
+        "Fitch: healthcare and industrial manufacturing each recorded a 9.9% default rate in August, the most stressed sectors; software default rate fell from 1.2% in July to 0.6% in August",
+        "Blackstone's BPP real estate fund has roughly $11bn NAV and is facilitating secondary sales amid redemption pressure",
+        "TWG-controlled insurers Delaware Life and Clear Spring disclosed over $20bn of loans/investments that should have been classified as affiliated but weren't",
+        "Ten banks are providing a $22bn loan backing Blackstone/Alphabet's Crux AI venture, secured by Google TPUs and customer contracts, intended for eventual IG bond market refinancing",
+        "SoftBank's 5-year CDS rose to its highest level since 2023 on OpenAI-related exposure concerns"
+      ],
+      "kind": "podcast",
+      "one_liner": "Fitch's record 6.3% private-credit default rate is largely a maturity-extension/liquidity story, not a wave of outright defaults, but it's spilling into real-estate fund redemptions, insurance-company affiliated-loan scrutiny (Mark Walter/TWG), and a $22bn bank bridge loan for an AI chip deal awaiting bond-market takeout.",
+      "published": "2026-09-18T11:00:00+00:00",
+      "recap": "The piece argues private credit's record 6.3% trailing-12-month default rate (Fitch, 1,300 US borrowers, August) understates the real story: 45% of August defaults were stressed maturity extensions, not missed payments, meaning lenders roll loans because borrowers can't refinance or sell. That traps lender cash \u2014 sometimes converted to payment-in-kind interest (Houlihan Lokey: 11.8% of loans by size took some PIK in Q2, 6.3% of interest dollars) \u2014 so reported income diverges from cash income. Floating-rate exposure plus sticky Fed policy squeezes highly leveraged borrowers' thin interest coverage. The stress is worst among smaller borrowers: loans to $10-20mm EBITDA companies trading below 90 cents on the dollar rose from ~1% in 2023 to 12% now; $20-100mm EBITDA borrowers hit 6% (three-year high); >$100mm borrowers only 3%. Healthcare and industrial manufacturing led sector defaults at 9.9%; software defaults fell to 0.6% but valuations face AI-disruption risk. The same liquidity crunch shows up elsewhere: Blackstone and Invesco face redemption pressure and are arranging secondary sales/fee cuts in open-ended real estate funds (Blackstone's BPP fund, ~$11bn NAV); Mark Walter's TWG-controlled insurers (Delaware Life, Clear Spring) disclosed over $20bn of previously misclassified affiliated loans amid regulatory scrutiny, prompting Walter to sell the LA Lakers and explore selling Chelsea stakes; and ten banks are bridging a $22bn loan for Blackstone/Alphabet's Crux AI Google-TPU venture, intended to later be refinanced in the IG bond market. SoftBank's 5-year CDS hit its highest level since 2023 on OpenAI-related exposure concerns. The author frames all this as capital being rationed rather than disappearing.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "private credit",
+        "leveraged finance",
+        "CLO/direct lending",
+        "credit spreads",
+        "CDS",
+        "insurance",
+        "liquidity"
+      ],
+      "terms": [
+        "PIK -- payment-in-kind, where interest accrues to loan principal instead of being paid in cash",
+        "CDS -- credit default swap, a derivative providing protection against a borrower's default",
+        "EBITDA -- earnings before interest, taxes, depreciation and amortization",
+        "NAV -- net asset value"
+      ],
+      "tier": "plumbing",
+      "title": "BREAKING: Private Credit Defaults Just Hit a Record High",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/f7264c47/5127c280.mp3",
+      "watch": [
+        "Whether the $22bn Crux AI bank loan is successfully syndicated/refinanced into IG bonds",
+        "Fitch/Houlihan Lokey private-credit default and PIK trends in coming months, especially smaller-borrower cohorts",
+        "Outcome of regulatory review into TWG/Delaware Life/Clear Spring affiliated loans",
+        "SoftBank CDS levels as a proxy for AI-related credit risk appetite"
       ]
     },
     "cd35cf8e-d1f1-4752-8183-b4b90095f456": {
