@@ -920,6 +920,36 @@
       "title": "Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
       "url": "https://traffic.megaphone.fm/EWWMN2087135294.mp3"
     },
+    "3e31d459-2991-4de6-ac88-db9b3246fa52": {
+      "feed_name": "Top Traders Unplugged",
+      "implications": "Background, not actionable \u2014 this is trend-following philosophy and market-structure theory aimed at CTA/systematic allocators, with only passing, non-analytical references to Fed/BoE decisions and yield levels that a rates/credit desk would already be tracking through primary sources.",
+      "key_claims": [
+        "Brennan and Kaastrup-Larsen's research (for their forthcoming book) found trend-following's risk-adjusted performance at the 20-day horizon fell to roughly one quarter of its earlier level since 2020, while the 200-day horizon strengthened",
+        "Trend barometer reading was 52, with September gains driven mainly by energy and fixed-income positions while equities lagged",
+        "US 10-year yield cited at ~5%, German 10-year Bund at 3.55%",
+        "Brent crude cited around $108/bbl with European physical cargoes above $130/bbl",
+        "BTOP50 up 2.73% in September (14.48% YTD); SG Trend Index up 3.23% in September (14.67% YTD); S&P 500 total return down 1.23% in September (up 11.74% YTD)"
+      ],
+      "kind": "podcast",
+      "one_liner": "A systematic-investing podcast on trend-following theory (Santa Fe Institute, El Farol Bar problem, reflexivity) with only a brief, non-analytical mention of Fed/BoE meetings and yield levels \u2014 largely off-topic for a repo/credit desk.",
+      "published": "2026-09-19T04:00:00+00:00",
+      "recap": "This Systematic Investor Series episode opens with hosts Niels Kaastrup-Larsen and Richard Brennan previewing their forthcoming book, The Trend Following Manifesto, whose research finds that trend-following's edge hasn't disappeared post-GFC but migrated from short-term (20-day) to longer-term (200-day) lookback horizons, with the underlying tendency to trend actually stronger in the most recent decade than in prior ones. They give a brief markets update: a trend barometer reading of 52, gains concentrated in energy and fixed income while equities lag, a widely-expected Fed rate move, BoE and BoJ meetings this week, US 10-year yields near 5%, German Bund 10-year at 3.55%, and a sharp rally in Brent crude (spot ~$108, European physical cargoes above $130/bbl), tied back to a prior guest's comments on lost oil supply. Various trend-following index performance figures for September and year-to-date are read out, contrasted with weak traditional benchmarks (MSCI World, Agg Bond Index, S&P 500). A listener question on partial profit-taking versus letting winners run is addressed by arguing that outlier-dependent strategies have too few historical exceptional trades to statistically justify trimming, since missing one giant trend could change everything. The main topic is a long, professorial explainer on the Santa Fe Institute's complex adaptive systems research: Brian Arthur's El Farol Bar problem, reflexivity (echoing Soros), increasing/diminishing returns and network effects (VHS vs Betamax), how simulated markets produce endogenous trend-following behavior, Goodhart's law and system gaming, and why backtests are evidence but not promises, given non-stationary markets.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "trend-following",
+        "quant",
+        "Fed",
+        "rates-mention",
+        "Santa-Fe-Institute",
+        "market-structure-theory"
+      ],
+      "terms": [],
+      "tier": "quant",
+      "title": "SI418: Why Markets Are More Alive Than We Think ft. Richard Brennan",
+      "url": "https://episodes.captivate.fm/episode/3e31d459-2991-4de6-ac88-db9b3246fa52.mp3",
+      "watch": []
+    },
     "3e6a147f-1ef5-4733-a169-0bd35684c075": {
       "feed_name": "Eurodollar University",
       "kind": "podcast",
