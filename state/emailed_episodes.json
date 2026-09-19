@@ -911,6 +911,33 @@
         "TIC and BIS data for any actual shift in foreign official Treasury holdings"
       ]
     },
+    "3c42dc4e-ca08-46cf-b2c6-b4c90112084e": {
+      "feed_name": "Odd Lots",
+      "implications": "background, not actionable -- no discussion of rates, repo, credit, or funding markets relevant to the reader's book.",
+      "key_claims": [
+        "Sykes: 2025 M&A market is on track to be the biggest in history, surpassing the 2021 COVID-inflated peak",
+        "Sykes: private-equity-owned sellers account for about 30% of M&A volume this year, down from roughly 40% in recent years",
+        "Sykes: NBC's U.S. media rights deal for the Olympics runs through 2036 and is worth more than $1.5 billion per Games",
+        "Sykes: only about 2% of companies have reported a positive EPS impact from AI use so far, though 20-30% have implemented AI strategies internally"
+      ],
+      "kind": "podcast",
+      "one_liner": "A live conversation about the 2028 LA Olympics, M&A dealmaking trends, and AI's impact on media/entertainment has no money-market, rates, or credit content relevant to a repo/financing trader.",
+      "published": "2026-09-19T08:00:00+00:00",
+      "recap": "Recorded live at the Future Proof Conference, Bloomberg's Odd Lots hosts Tracy Alloway and Joe Weisenthal speak with Gene Sykes, Goldman Sachs co-head of Global M&A and chair of the U.S. Olympic and Paralympic Committee. Most of the conversation covers logistics, funding, and media rights for the 2028 LA Olympics: the games are largely privately funded (aside from federal security support), will use existing LA sports infrastructure and UCLA housing rather than new construction, expect roughly 17,000 athletes and 15 million tickets sold, and rely on media rights deals (NBC through 2036, worth over $1.5 billion per games) plus corporate sponsorships (Coca-Cola, Visa, Samsung, Starbucks, Uber, Google) for revenue. Sykes also discusses World Cup lessons and Olympic branding rules banning in-venue advertising. The back half turns to M&A: Sykes says 2025 is on pace to be the biggest M&A year ever, driven by AI-related infrastructure buildouts across semiconductors, power, and natural resources, with private-equity-owned sellers now a smaller share (30% vs 40% historically) of deal volume. He discusses AI adoption in dealmaking (still early, mostly efficiency gains for analysts), the fate of AI startups (most aim to be acquired), and AI's effect on media economics, including growing value of content back catalogs and TikTok's algorithm as a case study.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "M&A",
+        "off-topic",
+        "media",
+        "AI"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "A Goldman M&A Banker Helped Bring the Olympics to Los Angeles",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/3c42dc4e-ca08-46cf-b2c6-b4c90112084e/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+      "watch": []
+    },
     "3db9fb2c-9a6c-11f1-bae3-176a0945fba2": {
       "feed_name": "Monetary Matters",
       "kind": "podcast",
