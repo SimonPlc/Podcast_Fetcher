@@ -2430,6 +2430,54 @@
         "Iran/Strait of Hormuz conflict trajectory and its effect on oil-linked dollar liquidity stress"
       ]
     },
+    "80a4d226-341e-4036-9e5f-7a0c6ea536e7": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "For a credit/repo desk, the key signal is insurance-company balance sheets used as a private-credit funding vehicle \u2014 a potential source of forced-selling or downgrade-driven credit events (Guggenheim/777 named) worth monitoring for spread contagion into IG/leveraged finance; the deposit-cost repricing commentary is a soft signal on bank funding costs but not a plumbing/repo-specific data point, and the Fed/deficit framing is background macro context rather than a near-term rates catalyst.",
+      "key_claims": [
+        "Whalen: the Fed's 25bp hike is 'mostly a symbolic gesture' given a $2 trillion annual deficit that renders Fed policy 'almost irrelevant'",
+        "Whalen: corporate bond spreads to Treasuries have been compressing even as rates rise, indicating continued demand for paper",
+        "Whalen: more than half of US homes declined in price over the trailing 12 months, with a broader correction expected through 2028",
+        "Jeffrey Gundlach (cited by Whalen): 'private credit is the fuse and insurance companies are the bomb'",
+        "Whalen: insurers like those tied to Guggenheim and 777 loaded portfolios with leveraged, dubious private-credit assets, risking failure to pay annuity holders",
+        "Whalen: banks including Wells Fargo, Fifth Third, and Huntington have reported deposit rates rising after six consecutive quarters of falling interest expense",
+        "Whalen holds Annaly at roughly 0.9x book value and also holds AGNC, citing low MBS prepayment speeds (~4-5% vs historical 6%+) as supportive"
+      ],
+      "kind": "podcast",
+      "one_liner": "Chris Whalen argues the Fed's 25bp hike is symbolic given a $2 trillion deficit, and flags private-credit-funded insurance companies (citing Gundlach's 'private credit is the fuse, insurers are the bomb') as the next credit stress point.",
+      "published": "2026-09-19T12:00:00+00:00",
+      "recap": "Chris Whalen reacts to a 25bp Fed hike, calling it 'pretty lame' and largely symbolic, arguing the Fed is now the 'tail' to Treasury's 'dog' given a $2 trillion annual deficit (~6% of GDP) that dwarfs monetary policy's influence. He expects inflation to stay persistent, driven by energy (oil above $100, diesel shortages tied to Middle East conflict and Houthi disruption of the Red Sea), and predicts the Fed will eventually be forced back into QE/debt monetization since Congress won't cut the deficit. He notes corporate bond spreads have compressed even as rates rise, meaning investors are still buying paper despite funding stress in non-bank sectors. A large chunk of the conversation covers private credit's spillover into life insurers: firms like Guggenheim and 777 allegedly loaded insurance balance sheets with leveraged, dubious private-credit assets to boost equity returns beyond normal 12-15%, and Whalen expects failures, litigation, and state guaranty funds having to absorb failed carriers, with annuity holders potentially losing money. He also flags housing: over half of US homes fell in price over the trailing year, predicting a broader correction through 2028. On rates trading, he discusses bank deposit costs turning up after six quarters of decline (Wells Fargo, Fifth Third, Huntington) and details why he holds Annaly (MBS/Treasury spread, low prepayment speeds, MSR book) and AGNC, plus commentary on SEC crypto rulemaking and gold as a portfolio hedge.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "private credit",
+        "insurance",
+        "credit spreads",
+        "housing",
+        "Annaly",
+        "MBS",
+        "REIT",
+        "deficit"
+      ],
+      "terms": [
+        "FOMC -- Federal Open Market Committee, the Fed's rate-setting committee",
+        "MBS -- mortgage-backed securities",
+        "REIT -- real estate investment trust",
+        "MSR -- mortgage servicing rights",
+        "QE -- quantitative easing, central bank asset purchases",
+        "SEC -- Securities and Exchange Commission"
+      ],
+      "tier": "broad",
+      "title": "#410 Chris Whalen: Age of Uncertainty - Falling Home Prices, Cracks in Private Credit, & Sidelined Fed",
+      "url": "https://traffic.megaphone.fm/APO2890987015.mp3",
+      "watch": [
+        "Litigation and regulatory action against Guggenheim/777-linked insurance carriers",
+        "State guaranty fund involvement if life insurers fail",
+        "Further bank deposit rate increases signaling funding cost inflection",
+        "Whether the Fed eventually restarts QE amid deficit financing pressure"
+      ]
+    },
     "823608ea-a219-11f1-b45f-cf62504a9996": {
       "feed_name": "The Macro Trading Floor",
       "kind": "podcast",
