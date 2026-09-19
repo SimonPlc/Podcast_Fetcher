@@ -92,6 +92,50 @@
         "Outcome of regulatory review into TWG/Delaware Life/Clear Spring affiliated loans",
         "SoftBank CDS levels as a proxy for AI-related credit risk appetite"
       ]
+    },
+    "ecca2862-b38a-11f1-8ba3-5bdd634cc779": {
+      "feed_name": "Monetary Matters",
+      "implications": "For a repo/financing desk, the key read-throughs are: (1) natural real-money demand for 20-30yr paper is structurally shrinking as insurers rotate into floating-rate private credit, which argues for a steeper curve and higher term premium absent a risk-off catalyst; (2) Treasury's buyback/TGA mechanics are a liquidity-support and optics tool for off-the-runs, not a genuine debt-reduction or funding-supply relief valve, so don't expect it to ease bill/bond supply dynamics materially; (3) continued heavy IG corporate issuance for AI capex is a direct competitor for balance sheet against Treasuries, relevant to swap spreads and asset-swap levels.",
+      "key_claims": [
+        "Bush: the 30-year yield crossed 5.3% in August 2026 and is currently around 5.29%; the 10-year is up about 60bp over six months",
+        "Bush: insurers are estimated to allocate roughly 7-15% of their investment portfolios to private credit while remaining duration-matched on liabilities",
+        "Bush: Treasury raised buybacks from $2B to $4B and executed $6B on September 9, partly to support liquidity in older/off-the-run issues",
+        "Bush: on-the-run Treasuries account for roughly 70% of daily trading volume, with first/second off-the-runs adding another ~15%, leaving ~80-85% concentrated in the most recent issues",
+        "Bush: Treasury buybacks reduce headline notional debt (buying discounted off-the-run bonds and reissuing at par) but do not materially reduce total interest cost",
+        "Bush: total U.S. Treasury debt outstanding is about $40 trillion against roughly $1.2 trillion in daily trading volume",
+        "Bush: per Bank of America data, the 10-year rolling annualized return for long-dated Treasuries (15yr+) is the lowest in American history, lower than 1959"
+      ],
+      "kind": "podcast",
+      "one_liner": "A fixed-income CIO walks through why the long end is selling off, how insurance companies have quietly swapped natural long-Treasury demand for floating-rate private credit, and the mechanics (and limits) of Treasury's new buyback program.",
+      "published": "2026-09-19T16:27:00+00:00",
+      "recap": "David Bush, CIO of Trajan Wealth and a former 18-year bond portfolio manager, discusses the six-month bond selloff (10-year up ~60bp, 30-year near 5.29% after crossing 5.3% in August). He attributes rising yields to $40 trillion in outstanding Treasury debt, tariff- and Iran-conflict-driven inflation, and heavy IG corporate issuance funding AI capex, which crowds out Treasury demand. The most detailed section covers the shifting buyer base for long-duration government paper: insurance companies, pensions and sovereign wealth funds are the natural buyers of 20-30 year bonds, but insurers have been reallocating a portion (roughly 7-15% of assets, per his due diligence) into private credit, which is largely floating-rate and thus near-zero duration, while keeping the rest of the book duration-matched to liabilities. He frames this as insurers dialing down duration and convexity risk while dialing up credit and liquidity risk to chase yield, and flags due-diligence concerns (loan tape access, delinquency data, interval-fund redemption gates capped near 5% of NAV per quarter). He then explains Treasury's buyback program in detail: increased from $2B to $4B (with $6B actually executed September 9), potentially funded via the TGA, aimed at supporting liquidity in illiquid off-the-run issues; he notes it can reduce headline notional debt (buying bonds back at a discount to par and reissuing at par) without materially changing total interest cost. The episode closes with views on gold/dollar dynamics, AI-driven equity sectors, and private credit skepticism generally.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "Treasury issuance",
+        "duration",
+        "private credit",
+        "insurance ALM",
+        "buybacks/TGA",
+        "rates",
+        "credit risk",
+        "term premium"
+      ],
+      "terms": [
+        "TGA -- Treasury General Account, the U.S. Treasury's operating cash account held at the Federal Reserve",
+        "on-the-run/off-the-run -- the most recently issued Treasury benchmark (on-the-run) versus previously issued, less liquid issues of the same maturity (off-the-run)",
+        "BDC -- Business Development Company, a publicly listed or private vehicle that lends to and invests in mid-sized companies",
+        "REO -- Real Estate Owned, property a lender has foreclosed on and taken onto its books",
+        "loan tape -- a schedule/data file listing the individual loans in a credit portfolio, including performance and delinquency status"
+      ],
+      "tier": "plumbing",
+      "title": "Why The 30-Year Treasury Lost Its Biggest Buyers | David Busch on Why High Yields Are Attractive Right Now",
+      "url": "https://traffic.megaphone.fm/EWWMN1196988418.mp3",
+      "watch": [
+        "Size and cadence of further Treasury buyback increases and any TGA drawdown used to fund them",
+        "Insurance company private credit allocation trends and any loan tape/disclosure developments",
+        "30-year yield behavior around the 5.3%+ level and hyperscaler capex/earnings as a catalyst for credit spread widening"
+      ]
     }
   }
 }
