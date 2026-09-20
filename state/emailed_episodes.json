@@ -1054,6 +1054,36 @@
       "url": "https://traffic.megaphone.fm/APO8579991428.mp3",
       "watch": []
     },
+    "40d09bf0-b49c-11f1-bb16-bb11bfb3deb8": {
+      "feed_name": "Monetary Matters",
+      "implications": "Background, not actionable -- this is a long-only commodity-equity research discussion (gold, oil, uranium, copper miners) with no repo, funding, collateral, central-bank balance-sheet, credit or structured-credit content bearing on the trader's book.",
+      "key_claims": [
+        "Jeremy Boyer (Aurelion Research): gold could return to $5,000/oz, with China buying an estimated 66 of the ~100 tonnes purchased globally by central banks in June (per Goldman Sachs data cited).",
+        "Boyer: Aurelion's model portfolio is up over 38% year-to-date and over 130% since inception in July 2025, with commodities roughly 25-30% of the portfolio.",
+        "Boyer: turned bearish on oil near ~$110 during the Hormuz spike, citing Chinese import cuts and rising oil inventories; sees oil unlikely to sustainably exceed $120 absent a major escalation (e.g., US troop casualties in Iran).",
+        "Boyer: copper price target of $7 (from ~$6.5/lb) by year-end, calling copper a near-term (not just long-term) supply-demand story driven by AI/data-center buildout and long (10-15 year) mine lead times.",
+        "Boyer: bearish on urea/fertilizer, saying real pricing data show urea is currently affordable despite complaints from US farmers."
+      ],
+      "kind": "podcast",
+      "one_liner": "Cross-asset commodity outlook (gold, oil, uranium, copper, fertilizer) from an independent research shop, with essentially no repo/rates/credit content relevant to a HK financing/repo trader.",
+      "published": "2026-09-20T15:08:00+00:00",
+      "recap": "Max Wheathey interviews Jeremy Boyer, co-founder of independent research firm Aurelion, about the firm's commodity outlook across five names. Boyer is most bullish on gold, arguing it has decoupled from its usual inverse relationship with oil since around July, with heavy ETF inflows and central-bank buying (citing Goldman Sachs data that China bought roughly 66 of 100 tonnes purchased globally by central banks in June) pushing his target toward $5,000/oz; he frames real rates and Fed policy as now only a modest driver versus geopolitics and reserve diversification since Russia's asset seizure. On oil he is contrarian-bearish, arguing Chinese demand destruction and rising inventories undercut the Hormuz-conflict risk premium, and that only a real escalation (US casualties, strikes on permanent energy infrastructure) would flip him bullish; he is similarly bearish on urea/fertilizer on affordability data. He turns bullish on uranium, citing a global reactor-building backlog (China, France, UK, India) creating multi-year physical demand, playing both a producer and a physical uranium holding company. On copper he cites AI/data-center-driven demand, long mine lead times, and anecdotes of AI-adjacent companies (Lumentum) flagging copper as a cost risk, favoring smaller diversified producers (gold/copper/zinc exposure) over crowded names like Freeport or Southern Copper. He also discusses royalty companies (Land Bridge, Texas Pacific Land) and valuation methodology (EV/EBITDA or free-cash-flow multiples rather than DCF).",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "commodities",
+        "gold",
+        "oil",
+        "copper",
+        "uranium",
+        "equities"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "Outlook on 5 Key Commodities: Metals Bull Market is Just Getting Started (Gold, Copper, & Uranium) | J\u00e9r\u00e9mie Boyer | Aurelion",
+      "url": "https://traffic.megaphone.fm/EWWMN3255359168.mp3",
+      "watch": []
+    },
     "42f42640-cfc8-4f09-ad32-6c9850a83e56": {
       "feed_name": "The Julia La Roche Show",
       "implications": "The AI-related leveraged finance/bank-loan spread widening (~50-130bp off tights) versus stable non-AI credit is an early signal to watch basis and dispersion trades in HY/loan books; the ratings-arbitrage and insurance/private-credit leverage thesis argues for caution on private credit and insurer-linked structured exposure, while the GDP/Bund-based 10-year fair-value model and two-year-leads-Fed framework are useful inputs for positioning duration and front-end rate expectations.",
