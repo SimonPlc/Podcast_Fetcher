@@ -1,5 +1,46 @@
 {
   "queued": {
+    "3edfea80-630c-4a6c-b385-6c146842b3fa": {
+      "feed_name": "Eurodollar University",
+      "implications": "Background, not directly actionable on repo/collateral, but relevant to rates positioning: the described 2yr yield/WTI re-coupling and Fed hawkish-bias narrative is a catalyst to monitor for front-end rate repricing and potential curve re-inversion, while the demand-destruction thesis is a slow-burn credit-spread risk (margin compression in trucking/consumer-facing sectors) worth flagging for HY/leveraged-loan exposure.",
+      "key_claims": [
+        "National average diesel price reached approximately $6.20/gallon this week, a record, per AAA",
+        "California diesel prices near $8/gallon, with some stations reportedly at $9.99 earlier in the month",
+        "An export ban could raise gasoline prices by an estimated 15-30 cents/gallon or more per energy company estimates",
+        "The 2-year Treasury yield rose from 4.2% to above 4.7% over roughly three weeks since Jackson Hole, re-converging with oil prices",
+        "EIA gasoline-supplied data (a demand proxy) was weaker in summer 2026 than in comparable periods of 2025 and 2024"
+      ],
+      "kind": "podcast",
+      "one_liner": "A scenario-planning piece on diesel spiking to $8-10/gal ties energy-driven CPI pressure to a resurging Fed hawkish bias (2yr yield vs WTI correlation) and warns the ultimate macro effect is demand destruction/recession risk, not persistent inflation.",
+      "published": "2026-09-20T11:00:00+00:00",
+      "recap": "The piece argues policymakers and markets should start treating $8-10/gallon diesel as a real scenario rather than clickbait. National average diesel hit roughly $6.20/gallon (AAA), with California near $8 and isolated stations at $9.99. The bottleneck isn't crude supply but refining and distribution: Ukrainian drone strikes on Russian refineries, a Russian diesel export ban, and Middle East refining/shipping disruption (including Strait of Hormuz risk) have squeezed finished-fuel output even as crack spreads surge to extraordinary levels, though refineries can't quickly expand capacity. Options like export bans, tax suspensions, or reserve releases only reshuffle costs rather than adding supply, and an export ban specifically risks raising gasoline prices 15-30 cents/gallon by industry estimates. If refiners tilt output toward diesel/heating oil for winter, gasoline supply tightens too, potentially compounding pressure on consumers as summer 2026 EIA gasoline-supplied data already showed weaker demand than 2024/2025. The host highlights that the 2-year Treasury yield has re-correlated with WTI since Jackson Hole, jumping from 4.2% to above 4.7% in about three weeks, reflecting market pricing of a more hawkish Fed reacting to energy-driven headline CPI, even though rate hikes can't fix refining capacity. Drawing a parallel to the 1990-91 recession triggered by the Iraq-Kuwait oil shock, the argument concludes energy shocks don't cause lasting inflation spirals \u2014 they raise prices short-term but ultimately destroy demand, compress margins, and cost jobs across trucking, construction, farming, and retail.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "rates",
+        "Fed",
+        "oil",
+        "inflation",
+        "recession-risk",
+        "2yr-yield",
+        "macro"
+      ],
+      "terms": [
+        "WTI -- West Texas Intermediate, the U.S. benchmark crude oil price",
+        "Crack spread -- the difference between the cost of crude oil and the wholesale price of refined products like diesel, used as a proxy for refining margins",
+        "EIA -- U.S. Energy Information Administration",
+        "CPI -- Consumer Price Index"
+      ],
+      "tier": "plumbing",
+      "title": "WTF Just Happened to Diesel...",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/8e05af2a/bf0f92df.mp3",
+      "watch": [
+        "Whether Senate Majority Leader Thune advances a diesel export ban",
+        "Further refinery disruptions (hurricanes, drone strikes, shipping through Hormuz) into winter heating season",
+        "2-year Treasury yield vs WTI correlation and any Fed commentary tying policy to energy-driven CPI",
+        "Diesel/distillate inventory levels heading into Northeast heating season"
+      ]
+    },
     "80a4d226-341e-4036-9e5f-7a0c6ea536e7": {
       "feed_name": "The Julia La Roche Show",
       "implications": "For a credit/repo desk, the key signal is insurance-company balance sheets used as a private-credit funding vehicle \u2014 a potential source of forced-selling or downgrade-driven credit events (Guggenheim/777 named) worth monitoring for spread contagion into IG/leveraged finance; the deposit-cost repricing commentary is a soft signal on bank funding costs but not a plumbing/repo-specific data point, and the Fed/deficit framing is background macro context rather than a near-term rates catalyst.",
