@@ -1159,6 +1159,15 @@
       "title": "Wellington\u2019s Jean Hynes on the Art of Investing and Finding New Markets",
       "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD8338098878.mp3"
     },
+    "4388d737-726c-412f-8545-13c2c66188ca": {
+      "feed_name": "Macro Musings",
+      "kind": "podcast",
+      "published": "2026-09-21T09:00:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "Ellen Correia Golay on All-to-All Trading and Treasury Market Liquidity",
+      "url": "https://traffic.libsyn.com/secure/macromusings/MM-561-EllenCoreiaGolay-Podcast-FinalV2-auphonic.mp3?dest-id=865793"
+    },
     "44090a48-dacc-4139-9a2a-07cb5aba969b": {
       "feed_name": "Eurodollar University",
       "implications": "Reinforces the case for continued front-end rate-cut pricing rather than reacting to noisy payroll beats \u2014 a rates desk should weight underlying labor trend/revision patterns over headline releases when positioning duration and OIS/SOFR forward curves ahead of the FOMC; no direct repo, credit, or securitization angle here.",
@@ -2633,6 +2642,33 @@
       "tier": "asia",
       "title": "Europe Needs \u20ac14 Trillion to Catch US, China",
       "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/992d604b-06ca-40cb-88b2-af6c016f5aa0/8cd1efbf-943d-4d11-ba9c-b4b2007efb2f/audio.mp3?utm_source=Podcast&in_playlist=75a9f17c-2ff1-42c9-9a27-af6c016fae89",
+      "watch": []
+    },
+    "8d30821d-cf7d-4147-b00e-b4cb01647404": {
+      "feed_name": "Odd Lots",
+      "implications": "Background, not actionable -- this is a manufacturing/defense/geopolitics discussion with no repo, funding, rates, or credit content relevant to the reader's book.",
+      "key_claims": [
+        "Chris Power (Hadrian): the US expands its current missile inventory and runs out within seven days in war games, while China builds far more ships annually than the US.",
+        "Chris Power: Chinese state subsidies on energy, labor, capital, and export tariffs make US-made components roughly three times costlier than Chinese imports even with US labor and energy costs set to zero.",
+        "Tom Mueller: SpaceX launched 165 rockets last year, more than any other country, and put about 10,000 satellites into orbit, three times the next competitor."
+      ],
+      "kind": "podcast",
+      "one_liner": "Live-taped conversation with Hadrian's Chris Power and Impulse Space's Tom Mueller about reindustrializing Southern California, defense/space manufacturing, robotics and tariffs -- no repo, rates, or credit content.",
+      "published": "2026-09-21T08:00:00+00:00",
+      "recap": "In a live Odd Lots taping from Hollywood, Joe Weisenthal and Tracy Alloway talk with Chris Power (founder of automated contract manufacturer Hadrian) and Tom Mueller (SpaceX's first employee, now founder of Impulse Space) about reindustrializing Southern California's aerospace/defense corridor. Power frames US manufacturing decline through a great-power cycle theory: nations build industrial capacity, win wars, then get \"lazy,\" offshore production, and cede reserve-currency status, citing the Netherlands-to-Britain-to-America handoffs roughly every 150 years. He argues China now treats industrial policy as national security while the US has treated it as financial-spreadsheet optimization since the 1980s, subsidizing energy, labor, capital, and exports to undercut American producers -- explaining, in his view, why tariffs are necessary but poorly implemented on both sides. Mueller describes Impulse Space's in-orbit transportation products and recounts SpaceX skepticism-turned-vindication stories (Falcon 9, Dragon, Starship's chopstick catch). Both discuss vertical integration trade-offs (build in-house until production scale, then outsource), talent poaching among Southern California aerospace/defense startups clustered near legacy primes like Northrop Grumman, the race against China in humanoid robotics and AI, and the view that robotics will be decisive for future manufacturing, warfare, and lunar/Mars development. The episode is a general industrial-policy and defense-tech discussion with no mention of funding markets, rates, or credit.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "manufacturing",
+        "defense",
+        "space",
+        "geopolitics",
+        "off-topic"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "How LA Is Quietly Becoming America's New Industrial Tech Hub",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/8d30821d-cf7d-4147-b00e-b4cb01647404/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
       "watch": []
     },
     "8e30cc48-c94f-47b3-b450-b4ca014b861f": {
