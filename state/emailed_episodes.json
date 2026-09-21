@@ -2700,6 +2700,43 @@
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/8e30cc48-c94f-47b3-b450-b4ca014b861f/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
       "watch": []
     },
+    "8e4da78b-42b8-4775-8e0d-02bf8396f2bc": {
+      "feed_name": "Cloud 9fin",
+      "implications": "Background, not actionable for rates/repo desks, but a relevant data point for HY/leveraged credit allocators on how tight CCC/single-B spreads have become and where investors are starting to say relative value has run out.",
+      "key_claims": [
+        "Chobani's April 2025 senior unsecured notes (B3/CCC+) priced at 6.375%, ~225bps tighter than the average for that rating cohort and the tightest print of the year at those ratings (David Wessenhaver, 9fin)",
+        "Chobani's term loan priced at SOFR+2025bps at par in October 2025, versus SOFR+375bps at 99.5 in 2023",
+        "Chobani operating cash flow rose from $107mm in FY2022 to $584mm in FY2025, but free cash flow remains negative on ~$900mm of projected capex this fiscal year",
+        "Capex includes a $1.2bn New York facility, $500mm Idaho facility, and ~$570mm Michigan facility for La Colombe",
+        "Multiple investors told 9fin they have exited or avoided new Chobani paper due to insufficient spread compensation despite positive views on the credit"
+      ],
+      "kind": "podcast",
+      "one_liner": "A single-name leveraged finance case study on Chobani's dramatic spread tightening illustrates how far HY/CCC relative value has compressed, a useful read-through for anyone pricing credit risk in that cohort.",
+      "published": "2026-09-21T18:22:30+00:00",
+      "recap": "9fin's Syndication Nation podcast covers Chobani's transformation from a niche, capacity-constrained Greek yogurt maker into the largest yogurt brand in the US, and how that has reshaped its standing in leveraged finance markets. Reporter David Wessenhaver explains that Chobani has issued debt for about a decade, but pricing has compressed sharply: an April issuance of triple-C-plus/B3 rated senior unsecured notes priced at 6.375%, roughly 225bps tighter than the average for that rating cohort and the tightest print of the year at those ratings. A term loan priced at SOFR+2025bps at par in October 2025, versus SOFR+375bps at 99.5 in 2023. Growth has been driven by the protein/low-sugar trend (aided by GLP-1 drugs boosting protein demand) and diversification via acquisitions of La Colombe coffee and Daily Harvest. Despite bullish fundamentals, several investors told Wessenhaver they are stepping back \u2014 not on credit quality concerns but because spreads no longer compensate for triple-C risk. Operating cash flow rose from $107mm (FY2022) to $584mm (FY2025), but free cash flow remains negative due to heavy capex (~$900mm projected this fiscal year) funding a $1.2bn New York plant, $500mm Idaho plant, and ~$570mm Michigan coffee facility. Risks flagged include competitive entry by larger packaged-food players (e.g., Pepsi/Yum) undercutting on price, and execution risk on the capex-heavy diversification strategy.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "leveraged finance",
+        "high yield",
+        "CCC credit",
+        "loans",
+        "spreads",
+        "relative value"
+      ],
+      "terms": [
+        "SOFR -- Secured Overnight Financing Rate, the US risk-free reference rate used for floating-rate loan pricing",
+        "CCC/B3 -- speculative-grade credit ratings (S&P/Moody's) denoting higher default risk within high-yield"
+      ],
+      "tier": "credit",
+      "title": "Cloud 9fin \u2014 Syndication Nation \u2014 Will protein-maxxing keep Chobani king?",
+      "url": "https://media.transistor.fm/b979afe6/24579e27.mp3",
+      "watch": [
+        "Whether Chobani's capex program converts to positive free cash flow and eventual deleveraging",
+        "Competitive response from larger packaged-food players in the protein-dairy category",
+        "Whether CCC/single-B leveraged loan and HY spreads broadly continue tightening or reverse"
+      ]
+    },
     "90702b16-4f76-41e2-aa6d-6dc359f5ffdb": {
       "feed_name": "The Julia La Roche Show",
       "kind": "podcast",
