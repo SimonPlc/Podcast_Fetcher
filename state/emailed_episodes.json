@@ -4265,6 +4265,45 @@
       "title": "Adam Posen Thinks Things Could Get Very 'Messy' for the Fed",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/ffabb0eb-48cc-4ad4-8c96-b4b701728958/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83"
     },
+    "marketmatters.podbean.com/15e8e7b4-cac1-310d-ac54-befcf10909e3": {
+      "feed_name": "Making Sense (J.P. Morgan)",
+      "implications": "Background, not actionable for a rates/credit trading desk today, but worth tracking as tokenized money-market funds and deposit tokens develop into eligible collateral and as on-chain DvP settlement could eventually affect intraday liquidity and collateral mobility in repo-adjacent workflows; JPM's own HKD/RMB settlement rails are relevant given the reader's Hong Kong base.",
+      "key_claims": [
+        "Oli Harris: JPMorgan's blockchain platform (Connexus) has transacted over $4 trillion cumulatively since 2015 and now processes approximately $7 billion a day",
+        "Oli Harris: Connexus supports atomic on-chain FX settlement across eight currencies -- USD, EUR, GBP, AUD, SGD, HKD, JPY, RMB",
+        "Hannah Elson: asset manager clients are focused on launching tokenized money-market funds to access blockchain-based investors and stablecoin reserve asset flows, and are exploring their use as collateral",
+        "Hannah Elson: the UK government plans to issue a digital gilt in Q1 next year"
+      ],
+      "kind": "podcast",
+      "one_liner": "JPMorgan's custody and Connexus (blockchain) heads discuss tokenization's shift from pilot to production, with collateral mobility, tokenized money-market funds, and on-chain cash (deposit tokens/stablecoins) as the main threads relevant to funding and collateral efficiency.",
+      "published": "2026-09-22T06:00:00+00:00",
+      "recap": "Hannah Elson (JPMorgan Custody/Security Services) and Oli Harris (head of Connexus, JPMorgan's blockchain unit) discuss why tokenization is moving from pilots to production. Harris attributes the shift to three forces: market-structure convergence (assets, participants and cash finally on the same rails), sharper regulatory clarity letting institutions commit capital, and the emergence of a credible on-chain cash leg via regulated tokenized deposits like JPMorgan's own deposit token (JPM Coin), which enables true delivery-versus-payment. Higher rates have made idle liquidity costly, pushing collateral efficiency and settlement timing to board-level concerns. Elson adds that stablecoin growth is fueling demand for tokenized yield products (money-market funds) and that crypto-native fintechs are now serious servicing competitors. Client trends cited: asset managers launching tokenized money-market funds to tap blockchain-based investors and stablecoin reserve flows, exploration of tokenized funds as collateral, tokenized equities/bonds (DTCC, UK digital gilt plans), and treasury clients seeking reduced pre-funding via netting and 24/7 cross-border payments. Connexus reports $4 trillion transacted cumulatively and ~$7 billion/day currently, with atomic FX settlement across eight currencies including Hong Kong dollar and renminbi. Both speakers flag privacy/governance/finality on public chains and poor user experience/integration as the key remaining obstacles, predicting tokenization becomes invisible infrastructure within five years rather than a separate market.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "tokenization",
+        "collateral",
+        "money-market-funds",
+        "digital-assets",
+        "custody",
+        "stablecoins",
+        "settlement",
+        "JPMorgan"
+      ],
+      "terms": [
+        "DvP -- delivery versus payment, simultaneous exchange of securities and cash to eliminate settlement risk",
+        "CSD -- central securities depository",
+        "FMI -- financial market infrastructure"
+      ],
+      "tier": "quant",
+      "title": "Why tokenization is gaining momentum",
+      "url": "https://mcdn.podbean.com/mf/web/f8w7unqbj2drtecj/JPM_MS_Tokenization_V2FINAL.mp3",
+      "watch": [
+        "Regulatory progress on tokenized securities (DTCC plans, UK digital gilt in Q1 next year)",
+        "Whether tokenized money-market funds gain traction as repo/collateral instruments",
+        "Growth of JPMorgan deposit token / stablecoin-driven demand for on-chain cash"
+      ]
+    },
     "marketmatters.podbean.com/427ea520-11aa-3a8a-bf2c-4da80c3bbd0c": {
       "feed_name": "Making Sense (J.P. Morgan)",
       "implications": "Background, not actionable -- this is about electricity/power derivatives market structure, not repo, funding, rates, or credit, and has no direct read-through to the reader's book.",
@@ -4686,6 +4725,31 @@
       "tier": "macro",
       "title": "Is Norway too rich for its own good?",
       "url": "https://mcdn.podbean.com/mf/web/4eqjsma4nwdw2vzm/OO_DM_mixdown.mp3",
+      "watch": []
+    },
+    "omfif.podbean.com/c14167df-0da2-3e71-bef3-90174367e88d": {
+      "feed_name": "Invested: The OMFIF Podcast",
+      "implications": "Background, not actionable -- this is a general AI governance and workforce-diversity discussion with no repo/funding, rates, or credit content relevant to the reader's book.",
+      "key_claims": [
+        "Nguyen: women account for roughly 20-26% of AI professionals globally, with even lower shares in senior research or leadership roles (cited by host)",
+        "Amazon's 2014 AI recruiting tool was scrapped after penalizing CVs that mentioned the word 'women', reflecting bias from male-dominated training data (cited by host)",
+        "Nguyen: CFTE and the UK Financial Conduct Authority will launch the AI Lab Supercharged Academy in January 2026 to build structured AI capability and literacy"
+      ],
+      "kind": "podcast",
+      "one_liner": "A discussion of women's representation and inclusion in AI leadership with no money-market, rates, or credit content whatsoever.",
+      "published": "2026-09-22T08:34:00+00:00",
+      "recap": "This episode of UMFIF's Invested podcast features Tram Anh Nguyen, co-founder of the Center for Finance, Technology and Entrepreneurship (CFTE) and chairwoman of Global Women in AI, discussing the underrepresentation of women in artificial intelligence roles and leadership. Nguyen argues that inclusivity in AI is an economic and resilience issue, not just a diversity one, since systems reflect the judgment of those who design and govern them. She discusses CFTE's white paper 'AIfication of Talents,' which argues competitive advantage will come from 'talent density' -- how many people can contribute effectively in an AI-augmented environment -- and that retention should be treated as a board-level structural issue rather than an HR problem. She uses the 2014 Amazon recruiting-AI example (biased against CVs mentioning 'women') to illustrate algorithmic bias, proposing a three-level fix: model-level data testing and monitoring, human-level cognitive diversity and AI literacy, and institutional-level governance frameworks with clear accountability for who builds, validates, and can override algorithms. She references UNESCO's ethics-of-AI recommendations and CFTE's own AI Proficiency Framework (literacy, applied practitioner, systems/decision leader levels). The conversation closes on optimism about Global Women in AI's cross-sector community spanning industry, policy, and regulation across London, Riyadh, Abu Dhabi, Singapore, and Hong Kong.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "AI",
+        "diversity",
+        "off-topic"
+      ],
+      "terms": [],
+      "tier": "macro",
+      "title": "Decoding the AI gender gap",
+      "url": "https://mcdn.podbean.com/mf/web/kgqngdkkcyhddtte/GWAI_mixdown.mp3",
       "watch": []
     }
   }
