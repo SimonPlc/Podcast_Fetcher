@@ -2372,6 +2372,54 @@
         "Conference Board expectations index for further deterioration below 68"
       ]
     },
+    "78d85014-3a6d-49f9-b23c-ab04097fe206": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a repo/financing desk this is a useful read-through on term structure: continued long-end demand and issuers avoiding 30-year paper both point toward richer duration and eventual policy-rate relief, while widening CCC spreads and tighter AI-infrastructure financing are early markers worth tracking for leveraged-credit and structured-credit exposure; not an immediate repo/collateral catalyst but relevant background for curve and credit positioning.",
+      "key_claims": [
+        "The 2s10s Treasury spread has narrowed to about 20 basis points, the tightest in roughly 18 months",
+        "Since Kevin Warsh's Jackson Hole speech, the 2-year yield rose from about 4.2% to as high as 4.75%, a 55bp move in a couple of weeks (host's figures)",
+        "Per Bloomberg, demand has surged for options benefiting from a SOFR decline, implying the 2-year may already reflect priced-in hikes",
+        "CCC-rated credit spreads are approaching 1100 basis points",
+        "Aon's $2bn 30-year bond drew about $10bn in orders; GSK's $500mn 30-year issue drew roughly 10x demand",
+        "Only about 5% of US investment-grade bonds sold in the first half of September had maturities of 30 years or more, the smallest share for that period since at least 2020",
+        "PIMCO's CIO said the firm is trimming its long-duration underweight as yields above 5% now offer better value"
+      ],
+      "kind": "podcast",
+      "one_liner": "A close read of the 2s10s curve flattening to ~20bp -- driven now by the long end falling rather than the short end rising -- built around rates, TIPS breakevens, CCC spreads, and IG issuance mix, squarely in the reader's rates/credit wheelhouse.",
+      "published": "2026-09-23T11:00:00+00:00",
+      "recap": "The piece argues the 2-year/10-year Treasury spread has compressed to roughly 20bp, its narrowest in about a year and a half, but stresses the composition matters more than the level: earlier flattening was driven by the 2-year rising (from ~4.2% to ~4.75% since Kevin Warsh's Jackson Hole speech) as the market priced the Fed hiking again on oil-driven inflation fears, including a hike delivered last week and possibly another next month. Recently, though, the 10-year has itself declined, which the host reads as the market beginning to price post-hike demand destruction -- weaker consumption, tighter credit, softer labor -- rather than just Fed reaction function. Supporting evidence cited: Bloomberg options flow betting on SOFR declines, suggesting the 2-year may have overshot the Fed's own dot plot (which points to roughly one more hike, not an open series); PIMCO trimming its long-duration underweight above 5% yields; TIPS breakevens staying contained rather than signaling durable inflation; CCC credit spreads approaching 1100bp; AI infrastructure financing getting harder to distribute; and a striking IG issuance pattern -- Aon's $2bn 30-year drawing ~$10bn of orders, GSK's $500mn 30-year drawing ~10x demand -- yet only ~5% of September IG issuance had 30-year+ maturities, the lowest share since 2020, as issuers favor 5-7 year tenors expecting future refinancing at lower rates while investors scramble for duration. The host invokes the 2008 ECB 'Trichet' analogy of hiking into a weakening economy and lists confirming signals to watch: continued 2s10s and 5s10s compression, contained/declining TIPS breakevens, widening speculative-grade spreads, softening commodities, and deteriorating labor data.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "rates",
+        "yield curve",
+        "Fed",
+        "2s10s",
+        "TIPS",
+        "credit spreads",
+        "CCC",
+        "IG issuance",
+        "SOFR",
+        "duration"
+      ],
+      "terms": [
+        "SOFR -- Secured Overnight Financing Rate, the US repo-based benchmark that has largely replaced LIBOR",
+        "TIPS -- Treasury Inflation-Protected Securities, whose pricing implies market breakeven inflation expectations",
+        "2s10s -- the spread between 2-year and 10-year Treasury yields, a widely watched curve/recession signal",
+        "IG -- Investment Grade corporate bonds",
+        "dot plot -- the Fed's quarterly summary of individual policymakers' projected federal funds rate path"
+      ],
+      "tier": "plumbing",
+      "title": "You Won\u2019t Believe What the Bond Market Just Did",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/30cefaf5/20714c96.mp3",
+      "watch": [
+        "Further 2s10s and 5s10s compression toward/through inversion",
+        "TIPS breakeven trend (contained vs. rising)",
+        "CCC and broader speculative-grade spread widening plus lending-standard tightening",
+        "IG issuance maturity mix (30-year share) into Q4",
+        "Labor market data for signs markets start pricing actual Fed cuts"
+      ]
+    },
     "7b1084d8-dd85-45fd-844f-60130d61930b": {
       "feed_name": "Eurodollar University",
       "implications": "Background, not actionable for a bank financing/repo or credit trading desk \u2014 this is retail-level multifamily CRE investment commentary (cap rates, lender-owned asset workouts, DSCR distress) rather than money-market, rates, or structured-credit content; the CPI/Fed passage is generic macro color the reader would get more precisely from official releases or a rates desk note.",
