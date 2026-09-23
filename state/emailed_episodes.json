@@ -554,6 +554,35 @@
       "title": "Why Investors Are Mispricing China in a G2 World",
       "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/992d604b-06ca-40cb-88b2-af6c016f5aa0/254a0aba-f4b6-40f3-b868-b4c700dfd772/audio.mp3?utm_source=Podcast&in_playlist=75a9f17c-2ff1-42c9-9a27-af6c016fae89"
     },
+    "28f60a0d-65a7-4e8f-8814-b4ce00a1a007": {
+      "feed_name": "Asia Centric",
+      "implications": "Background, not actionable -- this is a private wealth management industry piece about AUM growth, headcount and client asset allocation trends, with no direct read-through to repo/funding markets, rates policy, or credit/structured credit positioning.",
+      "key_claims": [
+        "Standard Chartered's wealth solutions revenue rose 39% in H1, the fastest among major Asian banks (Shani Wong)",
+        "Over half of surveyed private bankers expect China's capital outflow controls to reduce net new money by less than 10%; about 40% expect a 10-25% hit",
+        "Hong Kong and Singapore are each expected to grow cross-border wealth by 9-10% annually, outpacing Switzerland",
+        "Singapore private banks' AUM grew 14% in Q1 versus a year earlier, with fee income up nearly 40% (Sarah-Jane Marmud)",
+        "DBS plans to add over 600 frontline advisors and platform engineers by end-2027; OCBC targets 600 additional relationship managers over three years; UOB plans to add about 50 private bankers per year for five years"
+      ],
+      "kind": "podcast",
+      "one_liner": "A survey of Asia's private-banking industry growth (Hong Kong vs Singapore, China capital outflow controls) with no repo, rates, or credit content relevant to a financing desk.",
+      "published": "2026-09-23T21:05:00+00:00",
+      "recap": "Bloomberg Intelligence analysts Shani Wong and Sarah-Jane Marmud discuss their second annual Asia Private Wealth Survey of 100 senior private bankers split between Hong Kong and Singapore. Key findings: more respondents than last year expect net new money to grow by double digits; Hong Kong and Singapore should both keep growing cross-border wealth at 9-10% annually, faster than Switzerland; and China's new capital outflow controls (crackdowns on online brokers like Futu and Tiger Brokers serving onshore clients) and new taxes on offshore trusts/insurance are expected to have only a mild impact on net new money, with over half of respondents citing less than a 10% hit. Mainland Chinese clients remain the largest source of new business for both hubs, though Singapore is more diversified, drawing significant flows from Southeast Asia and a rising share from the Middle East. Reasons cited for money moving offshore include higher yields (contrasting US Treasuries and Hong Kong money-market rates against low Chinese yields around 80bp) and diversification away from capital controls. Standard Chartered posted the strongest wealth revenue growth (+39%) in H1, while DBS, OCBC, UOB and JPMorgan are all expanding private banking headcount in Singapore. Client risk appetite has turned more defensive, with stronger preference for fixed income, cash, money markets, and gold, alongside rising interest in healthcare equities and ESG mandates.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "private-wealth",
+        "Hong Kong",
+        "Singapore",
+        "China-capital-controls",
+        "off-topic"
+      ],
+      "terms": [],
+      "tier": "asia",
+      "title": "Private Wealth Boom Defies China's Capital Curbs",
+      "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/992d604b-06ca-40cb-88b2-af6c016f5aa0/28f60a0d-65a7-4e8f-8814-b4ce00a1a007/audio.mp3?utm_source=Podcast&in_playlist=75a9f17c-2ff1-42c9-9a27-af6c016fae89",
+      "watch": []
+    },
     "297426df-7af0-4ce0-96d4-5b5c9f61ecbd": {
       "feed_name": "Top Traders Unplugged",
       "kind": "podcast",
@@ -3863,6 +3892,48 @@
         "Further large private-credit financings (e.g., Nvidia-linked facility, corporate refinancings like the Yankees deal) as a gauge of private credit's expansion into traditional credit territory"
       ]
     },
+    "df2bcdc4-b79e-11f1-a9e2-d733ccd909db": {
+      "feed_name": "Goldman Sachs Exchanges",
+      "implications": "For a repo/rates desk, Kaplan's view that the curve has already priced more tightening than the Fed will deliver, and that credit spreads remain well-behaved, argues against chasing further curve steepening or spread widening on Fed-hike fears; the bigger long-end driver flagged here is deficit/fiscal risk rather than front-end policy, which matters for repo collateral supply and term premium.",
+      "key_claims": [
+        "Kaplan: the nominal neutral fed funds rate is roughly 4%-4.25%, so a December hike (from 3.75-4% now) would put policy near neutral",
+        "Kaplan: month-over-month inflation is running close to 3% annualized versus a hoped-for ~2.5%",
+        "Dot plot median shows one more hike in 2026 and no further hikes in 2027, which Kaplan calls a muted response",
+        "Kaplan: the 10-year Treasury is above 5%, driven more by CBO's upwardly revised deficit estimates and lack of a fiscal plan than by Fed policy",
+        "Kaplan: credit spreads and the Treasury curve have already adjusted, arguably pricing in more Fed tightening than will actually occur",
+        "Oil prices have risen from the $60s a year ago to near $100, a key driver of the current inflation and supply-shock dynamic"
+      ],
+      "kind": "podcast",
+      "one_liner": "Former Dallas Fed President Robert Kaplan argues the Fed was right to hike in September but that markets are pricing in more tightening than needed, with the neutral rate near 4-4.25% and credit spreads already well-behaved -- core reading for anyone positioning the front end and curve.",
+      "published": "2026-09-23T22:35:00+00:00",
+      "recap": "Goldman Sachs Exchanges host Alison Nathan interviews Vice Chairman and former Dallas Fed President Robert Kaplan on the Fed's September rate hike under new Chair Kevin Warsh, the first increase in years after three cuts in fall 2025. Kaplan backs the hike, noting month-over-month inflation has run near 3% annualized versus a hoped-for 2.5%, driven partly by an oil shock (crude near $100 versus $60s a year ago) layered on an AI infrastructure boom, strong defense spending, and weak interest-rate-sensitive sectors like autos and housing. He reads the dot plot as muted -- one more 2026 hike, nothing priced for 2027 -- and estimates the nominal neutral rate at roughly 4-4.25%, meaning a further December hike would put policy near neutral with little need for more. He argues markets are pricing in a bigger hiking cycle than warranted, partly as a risk premium against oil staying elevated and uncertainty over Warsh's reaction function. On the real economy, Kaplan flags that the 10-year Treasury is above 5%, driven less by Fed action than by upwardly revised CBO deficit estimates and the absence of a credible fiscal plan; he notes credit spreads and the Treasury curve have already adjusted, arguably pricing in more than the Fed will deliver. He also discusses the Fed's independence (confident it's intact), transparency of officials' reaction functions, the rising share of GDP going to corporate profits versus labor, and how compounding supply shocks (oil, tariffs, immigration-driven labor constraints) complicate the Fed's usual playbook, since rate hikes can't reverse a supply shock but can slow its bleed into broader inflation.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "FOMC",
+        "neutral rate",
+        "inflation",
+        "credit spreads",
+        "Treasury curve",
+        "oil shock"
+      ],
+      "terms": [
+        "FOMC -- Federal Open Market Committee, the Fed's rate-setting body",
+        "PCE -- Personal Consumption Expenditures price index, the Fed's preferred inflation gauge",
+        "dot plot -- the Fed's quarterly chart showing each policymaker's projected path for the fed funds rate",
+        "CBO -- Congressional Budget Office, the nonpartisan U.S. agency that produces budget and deficit forecasts"
+      ],
+      "tier": "broad",
+      "title": "Why Markets May Be Pricing in Too Many Fed Rate Hikes",
+      "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD7922328223.mp3",
+      "watch": [
+        "PCE release September 30 and CPI in mid-October as the swing data for an October vs. December hike decision",
+        "Whether a fiscal plan emerges to address the CBO's upwardly revised deficit path, a key driver of long-end yields",
+        "Oil price trajectory tied to the Iran war as a source of inflation bleed-through into other goods/services"
+      ]
+    },
     "e0c817fa-b712-11f1-be96-0bf9ed46e867": {
       "feed_name": "Monetary Matters",
       "implications": "The framing of front-end rate moves as an energy-shock artifact rather than growth-driven \u2014 plus a synchronized global hiking cycle (Fed, BOJ, ECB, BoC) \u2014 argues for caution on duration and belly positioning, and reinforces watching C&I lending/SLOS as an early tell on whether restrictive policy actually bites; the BoE's QT-to-Treasury buyback mechanic is also a funding-structure detail worth flagging for gilt/global sovereign desks.",
@@ -4221,6 +4292,44 @@
         "TIPS breakeven behavior if oil prices continue rising",
         "ECB meeting next week amid core Eurozone CPI deceleration",
         "30yr-3mo and 10yr-30yr Treasury spread trend for curve inversion risk"
+      ]
+    },
+    "f462d0a2-5837-4195-8aca-cf17994e861b": {
+      "feed_name": "Cloud 9fin",
+      "implications": "Background, not actionable for repo/rates books; the BDC liquidity strain and shrinking European ticket sizes are a secondary read-through for CLO and leveraged-loan-adjacent credit desks watching how sponsor financing sources and maturity-wall refinancing needs evolve into 2027-28.",
+      "key_claims": [
+        "Hayfin closed a $15bn fundraise for its fifth direct lending fund vintage (Bickerstaff)",
+        "US retail/semi-liquid private credit vehicles are estimated at 15-20% of the US market versus under 5% in Europe (Bickerstaff)",
+        "Hayfin invested just under $6bn in 2025 and about $4.5bn year-to-date in 2026 (Bickerstaff)",
+        "Hayfin's book is roughly 6% software exposure with 15-20% classified medium AI risk (Bickerstaff)",
+        "Large European direct lending ticket sizes some managers could underwrite fell from $1bn+ in 2024/25 to roughly $200-400m this year (Bickerstaff)"
+      ],
+      "kind": "podcast",
+      "one_liner": "A private-credit direct lending podcast on Hayfin's \u20ac15bn European fundraise touches credit-cycle themes (BDC redemption pressure, AI risk in leveraged loan books, 2028/29 maturity wall) relevant to structured credit but has no direct repo/rates angle.",
+      "published": "2026-09-23T20:51:21+00:00",
+      "recap": "9fin's Sunde Jonsson interviews Mark Bickerstaff, co-head of direct lending at Hayfin, following the firm's $15bn fifth direct lending fundraise. Bickerstaff attributes the raise to investor diversification into Europe away from the US, Hayfin's 17-year local origination platform, and an institutional (not retail/BDC) LP base that has insulated it from the scrutiny hitting US semi-liquid vehicles. He estimates US retail/semi-liquid capital is 15-20% of the US private credit market versus under 5% in Europe, though European deal ticket sizes have shrunk this year (from $1bn+ to $200-400m) as US BDCs pull back cross-border allocations \u2014 a gap Hayfin's larger fund lets it fill. Borrowers are reportedly now asking lenders about their funding sources and exposure to retail/semi-liquid capital, a new diligence trend favoring locked-up institutional capital. On portfolio health, Hayfin's watch list is at historical-average levels, not elevated, though it is monitoring Middle East-driven oil/inflation pass-through and AI exposure (about 6% of the book in software, 15-20% medium AI risk) via a framework built with consultants since 2024. He flags the 2028/29 maturity wall from high-multiple 2021/22 vintage deals as a coming theme requiring refinancing, structuring, or exit decisions. M&A was subdued in H1 2026 but picked up sharply in July; growth areas cited are tactical/capital solutions (low-teens returns, addressing DPI needs) and asset-based finance (over $12bn deployed historically in real estate, maritime, healthcare).",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "private credit",
+        "direct lending",
+        "BDC",
+        "leveraged finance",
+        "credit cycle",
+        "Europe"
+      ],
+      "terms": [
+        "BDC -- Business Development Company, a US closed-end vehicle that lends to and invests in private/middle-market companies, often used as a retail-accessible private credit wrapper",
+        "DPI -- Distributions to Paid-In capital, a private fund performance metric measuring actual cash returned to LPs relative to capital contributed",
+        "BSL -- Broadly Syndicated Loan, a leveraged loan distributed to a wide institutional investor base via the syndicated market"
+      ],
+      "tier": "credit",
+      "title": "One does not simply raise \u20ac15bn in Europe",
+      "url": "https://media.transistor.fm/50276768/ad070d41.mp3",
+      "watch": [
+        "European direct lending deal volumes into Q4 2026 after the July pickup",
+        "2028/29 leveraged loan maturity wall refinancing activity",
+        "further shifts in US BDC cross-border allocation to Europe"
       ]
     },
     "f4d787ea-b117-11f1-9f76-630cadf4043c": {
