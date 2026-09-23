@@ -47,6 +47,53 @@
         "IG issuance maturity mix (30-year share) into Q4",
         "Labor market data for signs markets start pricing actual Fed cuts"
       ]
+    },
+    "e0c817fa-b712-11f1-be96-0bf9ed46e867": {
+      "feed_name": "Monetary Matters",
+      "implications": "The framing of front-end rate moves as an energy-shock artifact rather than growth-driven \u2014 plus a synchronized global hiking cycle (Fed, BOJ, ECB, BoC) \u2014 argues for caution on duration and belly positioning, and reinforces watching C&I lending/SLOS as an early tell on whether restrictive policy actually bites; the BoE's QT-to-Treasury buyback mechanic is also a funding-structure detail worth flagging for gilt/global sovereign desks.",
+      "key_claims": [
+        "Wallerstein: the 2028 Fed dot moved up 50bp and there was a 125bp gap between market and Fed views of intermediate-term neutral going into the meeting",
+        "Wallerstein: the hike probability would have been ~65-70% rather than 95% had oil not been above $100",
+        "Wallerstein: non-residential structures investment (ex-data centers) has fallen at roughly a 5% annualized pace every quarter since Q1 2024",
+        "Wallerstein: a garden-variety 2022-style bear market is becoming his base case despite being a US growth bull",
+        "Wallerstein: prefers being short the belly rather than the long end globally, and favors long Korean won over yen given a hawkish new Bank of Korea governor",
+        "Wallerstein: the Bank of England's QT-to-Treasury handoff of underwater gilts is effectively a central-bank-assisted buyback, not neutral for monetary policy independence as Governor Bailey claimed"
+      ],
+      "kind": "podcast",
+      "one_liner": "A macro strategist argues the Fed's hawkish hike (driven largely by oil, not reaccelerating growth) plus synchronized global central-bank tightening (BOJ, ECB, BoC) sets up a 2022-style bear market, with concrete curve and FX trade ideas attached.",
+      "published": "2026-09-23T14:00:00+00:00",
+      "recap": "Eric Wallerstein, Chief Macro Strategist at Clock Tower, discusses the Fed's hawkish hike and SEP, noting the 2028 dot rose 50bp and closed a 125bp gap between market and Fed views of neutral. He argues much of the global front-end rate move is actually an oil price effect (oil roughly doubled since January), not a reflection of reaccelerating growth, and that markets are over-extrapolating Q2 strength (which he ties to catch-up bank lending and fiscal stimulus, not a durable trend). He sees fiscal drag, a supply shock, and rate hikes compounding into next year, creating real downside risk the FOMC dismisses. He flags decelerating wage growth and collapsing non-residential construction as signs of mild restrictiveness even amid AI capex. He's watching C&I lending and the Senior Loan Officer Survey as key leading indicators. He increasingly expects a 2022-style bear market (energy shock, valuations, synchronized global tightening, fiscal drag) even while remaining a US growth bull. On other central banks: the BOJ hiked but Ueda sounded dovish, causing yen weakness and a soft intervention; he doubts the BOJ follows through on multiple hikes and prefers being short Japanese belly rates while favoring the Korean won over yen, given South Korea's AI-driven income boom and a hawkish new BOK governor. He dislikes European growth (energy exposure, French fiscal/political risk) despite liking European defense equities, and discusses China's opportunistic oil importing/refining strategy amid the Iran war, which he thinks could run longer than markets expect.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "central-bank policy",
+        "neutral rate",
+        "BOJ",
+        "yen",
+        "curve positioning",
+        "term premium",
+        "bear market",
+        "oil shock"
+      ],
+      "terms": [
+        "SEP -- Summary of Economic Projections, the Fed's quarterly economic and rate forecasts including the dot plot",
+        "C&I lending -- commercial and industrial lending by banks to businesses",
+        "SLOS -- Senior Loan Officer Opinion Survey, the Fed's quarterly survey of bank lending standards and demand",
+        "QT -- quantitative tightening, central bank balance sheet runoff",
+        "NFP -- nonfarm payrolls, the monthly US jobs report"
+      ],
+      "tier": "plumbing",
+      "title": "Energy Shock and Rate Hikes Could Cause a 2022 Style Bear Market | Eric Wallerstein | Clocktower Group",
+      "url": "https://traffic.megaphone.fm/EWWMN4931699632.mp3",
+      "watch": [
+        "Fed speakers (especially President Williams) for clarity on the reaction function and neutral rate estimate",
+        "C&I lending and Senior Loan Officer Survey trends",
+        "BOJ follow-through (or lack thereof) on further hikes and yen intervention",
+        "Oil price trajectory tied to the Iran/Middle East conflict as the key driver of global front-end rates",
+        "October FOMC meeting for a possible formal bear-market call from the strategist"
+      ]
     }
   }
 }
