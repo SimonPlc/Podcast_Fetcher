@@ -1928,6 +1928,52 @@
         "Fed balance-sheet task force findings on reserve/balance-sheet sizing under Warsh"
       ]
     },
+    "658b2e56-b820-11f1-951d-f7f30964c274": {
+      "feed_name": "Monetary Matters",
+      "implications": "For a repo/financing desk, the core signal is a credit market splitting into an ultra-liquid, easy-financing segment (IG, hyperscaler/AI issuance, high-grade collateral) versus a tightening, opaque segment (private credit, triple-C, consumer ABS) where mark-to-market and default visibility are poor \u2014 this argues for staying up in quality/seniority (AAA CLO tranches, senior structured product) and treating private-credit and BDC exposure as a monitoring risk for hidden losses and forced deleveraging rather than a financing opportunity; the higher-for-longer rates call also supports front-end/belly duration positioning over long-end exposure.",
+      "key_claims": [
+        "Peabody: triple-C credit clearing coupons are well north of 10%, probably north of 12%",
+        "Peabody: investment grade supply is forecast to be about $200 billion higher over the next quarter than a year ago",
+        "Peabody: mortgage rates are around 6% and auto loans are running north of 7%",
+        "Peabody/host: Fed recently raised rates to basically 3.9%, signaling 4.1% by year-end and holding there until end of 2027",
+        "Peabody: Social Security Trust Fund is projected to run out of money sometime in the mid-2030s",
+        "Peabody: GMO is overweight structured product (AAA CLOs, student loans, non-agency mortgages) and underweight vanilla high yield, investment grade, and EM credit risk in multi-asset portfolios"
+      ],
+      "kind": "podcast",
+      "one_liner": "GMO strategist argues the Fed's transmission mechanism is broken by the rise of private credit and non-bank lending, meaning rates may need to stay higher for longer even as it crushes lower-quality borrowers and consumers.",
+      "published": "2026-09-24T14:01:00+00:00",
+      "recap": "Henry Peabody of GMO discusses a paper on the Fed's unofficial 'third mandate': managing credit transmission across an increasingly debanked economy. He argues financial conditions remain easy for high-quality, termed-out corporate borrowers and AI-related capex, but tight for consumers and lower-quality credits (mortgages ~6%, auto loans north of 7%, triple-C clearing coupons above 10-12%). This bifurcation exists because non-bank lenders (private credit) don't tighten in response to Fed hikes the way regulated banks do, since their cost of capital isn't tied to deposits or bank balance-sheet constraints, and losses are less visible/transparent than in a banked system, making it hard to gauge where we are in the credit cycle. He expects rates to stay higher for longer until 'cracks form,' with triple-C spreads widening as a leading indicator of rising defaults, though not yet a spike. He flags software/IP-heavy private credit as vulnerable given poor recovery prospects (no hard assets). On positioning, GMO is underweight vanilla credit risk (IG, HY, EM beta) and duration, preferring short, seasoned, up-in-capital-structure structured product (AAA CLOs, student loans, non-agency MBS) for predictable, less-correlated returns. He's skeptical of yield-focused BDCs based on 2008-era experience (return of capital, cherry-picked portfolio sales). On rates, he favors the belly of the curve (3-5yr) as a hedge, expects further curve flattening, and sees long-end selling driven by real rates/term premium rather than pure inflation, tied to competition for capital from AI buildout and fiscal sustainability concerns (Social Security trust fund depletion in the mid-2030s).",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "private credit",
+        "credit cycle",
+        "rates",
+        "CLO",
+        "BDC",
+        "triple-C",
+        "duration",
+        "dollar"
+      ],
+      "terms": [
+        "OIS -- Overnight Index Swap, a rate derivative referencing the average overnight rate over a period",
+        "CLO -- Collateralized Loan Obligation, a securitization backed by a pool of leveraged loans",
+        "BDC -- Business Development Company, a publicly or privately traded vehicle that lends to (often private) middle-market companies",
+        "NAV -- Net Asset Value, the per-share value of a fund's underlying assets",
+        "CDS -- Credit Default Swap, a derivative contract providing credit protection against an issuer's default"
+      ],
+      "tier": "plumbing",
+      "title": "Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
+      "url": "https://traffic.megaphone.fm/EWWMN9559854152.mp3",
+      "watch": [
+        "Triple-C spread widening as a leading default indicator",
+        "Secondary market trading volumes in private credit (insurance company buying activity)",
+        "Investment-grade and high-yield supply growth tied to AI capex financing",
+        "BDC discounts to NAV and any buyback activity",
+        "Fed policy path relative to the 4.1% terminal signaled through 2027"
+      ]
+    },
     "6a5aab7a-29f7-4572-907e-b4c900f5ffe7": {
       "feed_name": "Money Stuff: The Podcast",
       "kind": "podcast",
