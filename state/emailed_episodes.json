@@ -4154,6 +4154,49 @@
         "Trend in corporate bankruptcy filings and distressed exchanges converting to Chapter 11/7"
       ]
     },
+    "e2cb4622-f4ab-42da-8c14-115a5b1dcb26": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "Background, not actionable \u2014 this is a highly speculative, long-horizon bear thesis from a retail-facing advisor with limited money-market granularity; the reader should note the yen-carry-unwind and Fed balance-sheet/reserve-drain threads as context for front-end funding conditions, but nothing here changes near-term repo, collateral, or credit-spread positioning.",
+      "key_claims": [
+        "Pinto: Treasury yields are well below fair value implied by ~6% nominal GDP growth",
+        "Pinto: federal debt is 720% of government revenue with ~$2 trillion annual deficits",
+        "Pinto: Fed balance sheet stands at ~$6.7 trillion, up from $700 billion 20 years ago; grew $200 billion in Powell's last five months",
+        "Pinto: private credit ~$1.6tn, CLOs ~$1.4tn, junk bonds ~$1.5tn, margin debt ~$1.5tn, national debt ~$40tn",
+        "Pinto: expects Fed to hike three times more (skip October, hike December and January), Fed funds could later be cut back to 1% or 0% if economy breaks",
+        "Pinto: personal portfolio currently ~40% in 1-3yr sovereign notes, ~10% precious metals, not net short",
+        "Pinto: forecasts 2027 as start of a difficult, potentially decade-plus 'hyper-stagflation' depression"
+      ],
+      "kind": "podcast",
+      "one_liner": "A permabear macro call for a 2027 depression driven by rising long rates popping an equity/real-estate/credit 'triumvirate of bubbles' \u2014 thin on money-market mechanics, but the Fed balance-sheet, private credit, and yen-carry threads are worth noting for background.",
+      "published": "2026-09-24T10:00:00+00:00",
+      "recap": "Michael Pinto, founder of Pento Portfolio Strategies, lays out a bearish macro thesis in this Julia La Roche interview. He argues yields face persistent upward pressure from six factors: benchmark Treasury yields trading well below nominal GDP (~6%), near six years of above-target inflation, federal debt at 720% of revenue with ~$2 trillion annual deficits, foreign creditors and the Bank of Japan reducing Treasury holdings (unwinding the yen carry trade as JGB/Bund yields rise from 0% to 3%+), and a new Fed under Chair Kevin Warsh signaling rate hikes (he expects moves in December and January, skipping October) plus a slowdown in balance-sheet growth from $6.7 trillion. He describes a 'Triumvirate of Bubbles' \u2014 equities (235% market cap/GDP), real estate, and credit (citing $1.6tn private credit, $1.4tn CLOs, $1.5tn junk bonds, $1.5tn margin debt) \u2014 that he expects rising long-term rates to pop, forecasting 2027 as the trigger year for a decade-plus 'hyper-stagflation' depression with double-digit unemployment and 50%+ equity drawdowns. He flags a Fed-Treasury conflict: Warsh wants free-market-driven higher rates while Treasury Secretary Bessent is using TGA drawdowns and quasi-Operation Twist to suppress long-end yields. Pinto says he's currently long (not net short), holding ~40% short-duration Treasuries (1-3yr), dividend equities, a long/short momentum ETF, and ~10% precious metals, watching credit spreads for early warning signs.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "macro",
+        "Fed",
+        "rates",
+        "balance sheet",
+        "private credit",
+        "stagflation",
+        "yen carry trade",
+        "gold"
+      ],
+      "terms": [
+        "TGA -- Treasury General Account, the U.S. Treasury's operating cash account held at the Fed",
+        "CLO -- Collateralized Loan Obligation, a securitization backed by a pool of leveraged loans",
+        "FOMC -- Federal Open Market Committee, the Fed body that sets interest rate policy"
+      ],
+      "tier": "broad",
+      "title": "#412 Michael Pento: 2027 Will Be a Very Difficult Year \u2013 Here's Why",
+      "url": "https://traffic.megaphone.fm/APO5910511357.mp3",
+      "watch": [
+        "FOMC rate-hike cadence under Chair Warsh (flagged: possible December and January hikes)",
+        "Pace of Fed balance-sheet runoff/reinvestment policy",
+        "Treasury General Account drawdown and any operation-twist-style long-end buying by Treasury",
+        "Credit spread widening as an early signal, per Pinto's own model"
+      ]
+    },
     "e6dca75c-b07b-11f1-9f2b-eba646bf3464": {
       "feed_name": "Forward Guidance",
       "kind": "podcast",
