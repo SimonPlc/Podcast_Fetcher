@@ -1,3 +1,39 @@
 {
-  "queued": {}
+  "queued": {
+    "6ab4ca5362a47b6beca89783": {
+      "feed_name": "Under the Banyan Tree",
+      "implications": "Background, not actionable for repo/funding directly, but the HKD peg discussion is a reminder that HK short rates (HIBOR) will keep tracking Fed hikes, keeping HK funding costs elevated and local carry compressed versus onshore CNY; the China/EM Asia policy divergence is useful macro context for cross-currency basis and regional rates positioning.",
+      "key_claims": [
+        "Fed raised rates and signaled a hawkish bias toward further hikes, per Fred Neumann",
+        "Bank of Japan raised rates two days after the Fed meeting, described as unusual given the BoJ's near-zero-rate history",
+        "Mainland China inflation is near zero/deflationary, giving its central bank room to hold or ease rather than tighten",
+        "Hong Kong equities/rates are flagged as unusually sensitive to Fed moves due to the USD currency peg",
+        "HSBC's house strategy view (cited by Neumann) sees room for RMB strength despite the China-vs-rest-of-world rate divergence, due to export surpluses and capital controls"
+      ],
+      "kind": "podcast",
+      "one_liner": "A broad-strokes HSBC macro podcast on Fed tightening and how Asian central banks (especially Japan, and by contrast mainland China) are responding, with a direct read-through to the HKD peg and HK rate sensitivity.",
+      "published": "2026-09-24T06:59:31+00:00",
+      "recap": "HSBC's Harald van der Linde and Fred Neumann discuss the Fed's latest hike, framed as hawkish given persistent inflation from rising energy (diesel) prices and a brewing El Ni\u00f1o threatening Asian food inflation. Markets are pricing further hikes since the Fed historically moves in multi-step cycles rather than one-off adjustments. Because the Fed sets the global price of money, most Asian central banks are following suit to avoid currency weakness feeding import-cost inflation: Japan's central bank hiked days after the Fed (unusual after decades of near-zero rates, driven by rising wages and food prices), with Australia, Korea, Indonesia, the Philippines and India also expected to tighten. Mainland China is the outlier, with disinflation/near-deflation and weak consumption/investment giving its central bank room to hold or even ease; capital controls insulate the renminbi from the usual divergence-driven outflow pressure, and HSBC's house view sees room for RMB strength on export surpluses. On equities, rising rates should pressure valuations, but AI-driven capex is generating order flow for Asian tech supply chains, complicating the picture. Hong Kong, due to its USD currency peg, is described as unusually rate-sensitive, and the hosts note a Hong Kong-versus-Shanghai listing arbitrage where the same mainland company can be priced differently due to capital-flow differences. The episode closes with a lighthearted forecast game: hosts predict India, Korea, Indonesia and Taiwan raise rates over six months, while China stays on hold.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "Asia central banks",
+        "BoJ",
+        "HKD peg",
+        "RMB",
+        "monetary policy"
+      ],
+      "terms": [],
+      "tier": "asia",
+      "title": "Will Asian central banks follow the Fed?",
+      "url": "https://sphinx.acast.com/p/open/s/64db93c01796c400110e0ce3/e/6ab4ca5362a47b6beca89783/media.mp3",
+      "watch": [
+        "Further Fed hikes and their pass-through to HIBOR/HKD peg dynamics",
+        "Whether mainland China's PBoC moves toward easing while other Asian central banks tighten",
+        "BoJ follow-through on rate hikes after years of ultra-low rates"
+      ]
+    }
+  }
 }
