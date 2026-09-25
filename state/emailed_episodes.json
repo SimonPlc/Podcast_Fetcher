@@ -262,6 +262,58 @@
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/1664f593-6ca2-4a3e-bbe6-b4c201317baa/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
       "watch": []
     },
+    "1712d7c8-b871-11f1-bf1f-f31d9d6b936f": {
+      "feed_name": "Forward Guidance",
+      "implications": "For an HK repo/rates trader, the core signal is the STIR curve (SOFR/Fed Funds futures) repricing from priced-in cuts to priced-in hikes since March, plus flagged early-warning credit spots (private credit/Oracle IG spread widening, regional bank CRE stress) that could presage funding-market stress worth monitoring, though the speakers note repo and swap markets currently show no visible stress.",
+      "key_claims": [
+        "DCP: 30-year bond futures (ZB) are down almost 10 points over the last two and a half months",
+        "DCP: the market is now pricing about four Fed hikes since the shift began in March, versus previously pricing in three-quarters of a cut",
+        "DCP: no rate cut is priced until December 2029 contracts",
+        "Speaker citing Compound/Peltier data: multiple well-known consumer/industrial stocks (Nike -84%, PayPal -83%, Boeing -55%, Lyft -78%, Wingstop -77%, Trade Desk -98%, etc.) are at multi-year lows from all-time highs despite indices near highs",
+        "DCP: Treasury Secretary Bessent's buyback bought $4bn versus a planned $6bn, seen as insufficient against a ~$50 trillion deficit trajectory",
+        "DCP: Oracle's bonds are trading roughly 10bps wide (upside down) and Oracle invoked a force majeure clause",
+        "DCP: SBA 7(a) small business working capital loans are currently priced at 12-13% interest",
+        "DCP: effective fed funds rate peaked at 5\u2153 in 2022-23, and SOFR futures pricing is nearing that peak again",
+        "Cited Goldman chart: over 50% of S&P 500 constituents now show negative beta to the index itself, evidence of extreme index concentration"
+      ],
+      "kind": "podcast",
+      "one_liner": "Two veteran STIR/bond traders argue the bond selloff (10Y ~5.22%, 30Y approaching 6%) is being driven by an inflationary AI capex boom, energy/diesel cost pass-through, and fiscal deficits, with SOFR pricing out cuts and pricing in hikes through 2027-28.",
+      "published": "2026-09-25T10:00:00+00:00",
+      "recap": "Two long-time fixed income/STIR traders (DCP and hosts) discuss the sharp bond selloff: the 10-year at 5.22%, 30-year futures (ZB) down almost 10 points in two and a half months, with SOFR/Fed Funds futures having swung from pricing three quarters of cuts to pricing roughly four hikes since March, which they attribute largely to the escalation around Iran and a broader 'inflationary expansion' from AI capex spending. DCP argues nothing shifts the bearish bond sentiment absent the Fed signaling hikes are done, AI capex slowing, crack spreads rolling over, index weakness, or a labor-market deterioration \u2014 none of which he sees as imminent. He flags diesel/fertilizer/food costs squeezing the 'lower half' of the economy while AI-driven names dominate index-level strength, noting most S&P constituents are far off highs (Nike, McDonald's, PayPal, Boeing, etc. down 30-98%) even as the Mag-7/AI names hold indices near highs \u2014 a concentration point reinforced by a cited Goldman stat that over half of S&P constituents now show negative beta to the index. They discuss Treasury Secretary Bessent's liquidity buybacks (bought $4bn of a planned $6bn) as insufficient given a ballooning deficit (~$50 trillion), regional bank stress signs (KRE testing its 200-day average), and private credit/Oracle credit spread widening as areas where the next crack could emerge. DCP's trading view: he'd want to buy SOFR around 9487-9480 in the 2027-28 contracts if oversold, but isn't there yet; he watches ZB support near 103 as the next technical level toward 'par.'",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "repo",
+        "SOFR",
+        "rates",
+        "Fed",
+        "STIR",
+        "fiscal deficit",
+        "private credit",
+        "regional banks",
+        "oil/energy shock"
+      ],
+      "terms": [
+        "SOFR -- Secured Overnight Financing Rate, the benchmark overnight repo-based interest rate that replaced LIBOR",
+        "ZB -- CBOT 30-year Treasury bond futures contract",
+        "TGA -- Treasury General Account, the US Treasury's operating cash account held at the Fed",
+        "CRE -- Commercial Real Estate",
+        "KRE -- SPDR S&P Regional Banking ETF",
+        "MOVE -- ICE BofA MOVE Index, a measure of implied volatility in the Treasury market",
+        "IRR -- Internal Rate of Return"
+      ],
+      "tier": "macro",
+      "title": "The Bond Market Pain Isn't Over | Weekly Roundup",
+      "url": "https://traffic.megaphone.fm/BWG6534812638.mp3",
+      "watch": [
+        "Whether ZB futures break below 103 toward 'par' (~6% long-end yield)",
+        "Oracle and private-credit spread widening as an early-warning indicator",
+        "Regional bank index (KRE) relative to its 200-day moving average",
+        "SOFR contracts 2027-28 (DSAIDCEP7 etc.) for entry near 9480-9487",
+        "Iran/geopolitical resolution as a potential catalyst to reverse the bond selloff",
+        "Treasury buyback sizes relative to issuance needs"
+      ]
+    },
     "19392ba7-afba-41e9-9425-2ef1c9d5d6fc": {
       "feed_name": "Macro Hive Conversations",
       "implications": "Background, not actionable -- this is a sociology/political-economy discussion with no direct bearing on repo, funding, rates, or credit markets and does not warrant desk attention beyond general geopolitical color.",
@@ -2936,6 +2988,43 @@
       "title": "How LA Is Quietly Becoming America's New Industrial Tech Hub",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/8d30821d-cf7d-4147-b00e-b4cb01647404/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
       "watch": []
+    },
+    "8da257f0-b552-4285-b696-150bd22ebfdc": {
+      "feed_name": "Macro Hive Conversations",
+      "implications": "Background, not actionable for a repo/funding book -- the Fed-hike/no-hike debate and the HYGH credit view are worth filing away as one macro voice's read on rate-cycle risk, but the substance is an equity/EM allocation call with no direct repo, collateral, or curve/basis content.",
+      "key_claims": [
+        "Pelosky: S&P 500 trades at ~18x 2027 forward earnings, below its 5- and 10-year averages, while South Korea trades at ~5x forward earnings",
+        "Pelosky cites JP Morgan: ~80% of ACWI constituents expected to have positive earnings growth in 2026, the highest since post-COVID",
+        "Pelosky: US Q3 earnings growth forecast at ~25% year-over-year",
+        "Pelosky: TPW Advisory has held no Treasuries in its global multi-asset model for four years, instead holding HYGH (rate-hedged high-yield credit) for pure credit exposure",
+        "Pelosky citing Morgan Stanley: Brazil's central bank expected to cut rates by 200-300 basis points over the next year",
+        "Pelosky: semiconductors trade at under 16x forward earnings versus ~18x for the S&P"
+      ],
+      "kind": "podcast",
+      "one_liner": "A bullish global-equity asset-allocation call (tripolar world, spending super-cycle) with only glancing references to Fed rate-hike odds and a high-yield-credit position, so it's mostly background noise for a repo/rates desk.",
+      "published": "2026-09-25T09:47:00+00:00",
+      "recap": "Jay Pelosky of TPW Advisory lays out his long-standing \"tripolar world\" thesis -- regional integration in Asia, Europe and the Americas replacing globalization -- now extended into a \"spending super-cycle\" where all three blocs pour public and private money into AI, defense and climate, sustaining a global earnings boom through 2030. He argues this favors non-US equities (EM at a 50% valuation discount to the US, South Korea at 5x forward earnings) over an expensive, underweight-worthy US market, while acknowledging the S&P itself is now only 18x forward earnings, cheap versus its own history. On rates, he says nominal GDP growth (6-7% in the US) still exceeds bond yields, so a 5% 10-year Treasury isn't yet threatening; the real question is whether the Fed delivers one more hike (a 1997-style pause) or embarks on a multi-hike tightening cycle. His firm holds no Treasuries in four years and instead owns HYGH (rate-hedged high-yield credit) as a pure credit-risk play, taking comfort that high yield is unbothered by current rate levels. He is overweight European banks (EUFN), Spain and Poland, bullish Brazil on an expected 200-300bp rate-cutting cycle, sees oil's Middle East-driven spike as a bullish catalyst for renewables adoption in EM, and downplays US midterm election risk as already priced in. The episode closes with an extended, off-topic segment on Duke college football NIL economics.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "equities",
+        "asset-allocation",
+        "Fed",
+        "high-yield",
+        "EM",
+        "Europe",
+        "oil",
+        "macro-strategy"
+      ],
+      "terms": [],
+      "tier": "macro",
+      "title": "Ep. 377: Jay Pelosky on the Tripolar World, the Spending Super Cycle, and the Global Earnings Boom",
+      "url": "https://traffic.libsyn.com/secure/macrohive/MH_w_PELOSKY2.mp3?dest-id=1929056",
+      "watch": [
+        "Whether the Fed delivers a second/third hike versus a one-and-done, which the speaker flags as the key swing factor for his bullish view",
+        "Brazil's pace of rate cuts (200-300bp guided over the next year) and BRL reaction",
+        "Whether a Russia-Ukraine or US-Iran ceasefire materializes, which he ties to European equity and oil-price moves"
+      ]
     },
     "8e30cc48-c94f-47b3-b450-b4ca014b861f": {
       "feed_name": "Odd Lots",
