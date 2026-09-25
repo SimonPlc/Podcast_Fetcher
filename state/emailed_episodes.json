@@ -2449,6 +2449,31 @@
       "title": "SI417: What Happens When AI Starts Trading the Markets ft. Rob Carver",
       "url": "https://episodes.captivate.fm/episode/74440db5-011d-46ec-8298-a746c3628802.mp3"
     },
+    "77d27e49-f26e-4c79-8913-b4cf01192cf5": {
+      "feed_name": "Odd Lots",
+      "implications": "background, not actionable -- nothing here touches repo, funding, credit, or rates markets.",
+      "key_claims": [
+        "LA shoot days peaked around 40,000 in 2016, fell to roughly 25,000 in 2023 after the writers' strikes, and were under 20,000 by 2025 (Davenport)",
+        "Studio real estate financed around the 2016 shoot-day peak is now facing oversupply as production demand has fallen (Davenport)",
+        "Family Guy had about 30 writers in its room historically; most shows today use much smaller 'mini rooms' or single writers (Davenport)"
+      ],
+      "kind": "podcast",
+      "one_liner": "A pure Hollywood-industry conversation about shoot days, writers rooms, and AI's impact on TV/film production, with no financing, credit, or rates content.",
+      "published": "2026-09-25T08:00:00+00:00",
+      "recap": "This Odd Lots episode, recorded live in Los Angeles, features hosts Tracy Alloway and Joe Weisenthal interviewing Hayes Davenport, a former TV writer (Eastbound and Down, Family Guy) now creative director of LA Material and co-host of Hollywood Handbook. The discussion centers on the decline of Hollywood production, tracked through 'shoot days' in LA, which peaked near 40,000 in 2016, fell during COVID, briefly recovered, then collapsed further after the 2023 writers' strikes to under 20,000 by 2025 -- roughly half the 2016 level. Davenport attributes this to the rise of streaming displacing cable, runaway production to lower-tax jurisdictions (North Carolina, South Carolina, Vancouver, Dublin), and oversupply of studio real estate financed during the 2016-era boom. They discuss the shift from large writers' rooms (Family Guy once had 30 writers) to 'mini rooms' or solo-written prestige shows (the 'Mike White model'), partly driven by strike-related contract rules. AI comes up mainly around job displacement fears for below-the-line workers (hair, makeup, grips) and content/IP sourcing (AI-generated short stories as newly popular source material), though Davenport notes AI hasn't yet written a produced show and comedy remains hardest for AI to replicate due to timing and voice. The conversation closes with reflections on LA's declining nightlife/monoculture, the fading of traditional movie stardom, and ripple effects of production decline on local restaurants and small businesses.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "off-topic",
+        "media",
+        "Hollywood"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "Hollywood Was Cooked Before AI, and Now It's Only Getting Worse",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/77d27e49-f26e-4c79-8913-b4cf01192cf5/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+      "watch": []
+    },
     "783efb90-5c50-4890-8acc-bf92b8206122": {
       "feed_name": "Eurodollar University",
       "implications": "Background, not actionable for repo/funding markets directly, but the disinflation/weak-labor argument feeds into the reader's view on the Fed's rate path and front-end rates positioning; worth tracking as one input alongside official data, not a standalone catalyst.",
