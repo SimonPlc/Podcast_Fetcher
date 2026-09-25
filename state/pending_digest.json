@@ -1,84 +1,55 @@
 {
   "queued": {
-    "658b2e56-b820-11f1-951d-f7f30964c274": {
-      "feed_name": "Monetary Matters",
-      "implications": "For a repo/financing desk, the core signal is a credit market splitting into an ultra-liquid, easy-financing segment (IG, hyperscaler/AI issuance, high-grade collateral) versus a tightening, opaque segment (private credit, triple-C, consumer ABS) where mark-to-market and default visibility are poor \u2014 this argues for staying up in quality/seniority (AAA CLO tranches, senior structured product) and treating private-credit and BDC exposure as a monitoring risk for hidden losses and forced deleveraging rather than a financing opportunity; the higher-for-longer rates call also supports front-end/belly duration positioning over long-end exposure.",
+    "d3e1b5c0-d5d2-4b3c-9b73-b4cf0149e262": {
+      "feed_name": "The Credit Edge",
+      "implications": "For a repo/financing desk, the CLO mechanics discussed (forced selling on B3-to-CCC downgrades, CLOs now able to fund new-money restructuring participation to avoid OC-triggered sales) and the growing post-LME locked-doc supply are useful context for how leveraged loan/CLO collateral behavior could evolve into the 2029 maturity wall, though nothing here is an immediate repo or funding-market catalyst.",
       "key_claims": [
-        "Peabody: triple-C credit clearing coupons are well north of 10%, probably north of 12%",
-        "Peabody: investment grade supply is forecast to be about $200 billion higher over the next quarter than a year ago",
-        "Peabody: mortgage rates are around 6% and auto loans are running north of 7%",
-        "Peabody/host: Fed recently raised rates to basically 3.9%, signaling 4.1% by year-end and holding there until end of 2027",
-        "Peabody: Social Security Trust Fund is projected to run out of money sometime in the mid-2030s",
-        "Peabody: GMO is overweight structured product (AAA CLOs, student loans, non-agency mortgages) and underweight vanilla high yield, investment grade, and EM credit risk in multi-asset portfolios"
+        "Camporin: the 10%+-yield stressed debt universe grew from about $400bn to $600bn over the past year",
+        "Camporin: roughly $1tn of high-yield debt matures through 2029, about half rated B3 or lower",
+        "Camporin: in-group versus out-of-group LME recoveries differ by roughly 10 points",
+        "Camporin: B3-rated loans are now 20-25% of the levered loan universe versus a historical 5-10%",
+        "Camporin: CCC loans trade at about 4x single-B spreads versus a ~3x historical average",
+        "Camporin: CLOs hold about 70% of the leveraged loan market",
+        "Camporin: post-LME 'locked-down' distressed paper totals about $150bn maturing over the next four to five years",
+        "Camporin: healthcare services costs rose ~27% from 2020-2025 while Medicare reimbursement fell ~10%",
+        "Bloomberg/Camporin citing Bloomberg data: of 26 LME-type transactions last year, 12 were largely consensual amend-and-extend deals"
       ],
       "kind": "podcast",
-      "one_liner": "GMO strategist argues the Fed's transmission mechanism is broken by the rise of private credit and non-bank lending, meaning rates may need to stay higher for longer even as it crushes lower-quality borrowers and consumers.",
-      "published": "2026-09-24T14:01:00+00:00",
-      "recap": "Henry Peabody of GMO discusses a paper on the Fed's unofficial 'third mandate': managing credit transmission across an increasingly debanked economy. He argues financial conditions remain easy for high-quality, termed-out corporate borrowers and AI-related capex, but tight for consumers and lower-quality credits (mortgages ~6%, auto loans north of 7%, triple-C clearing coupons above 10-12%). This bifurcation exists because non-bank lenders (private credit) don't tighten in response to Fed hikes the way regulated banks do, since their cost of capital isn't tied to deposits or bank balance-sheet constraints, and losses are less visible/transparent than in a banked system, making it hard to gauge where we are in the credit cycle. He expects rates to stay higher for longer until 'cracks form,' with triple-C spreads widening as a leading indicator of rising defaults, though not yet a spike. He flags software/IP-heavy private credit as vulnerable given poor recovery prospects (no hard assets). On positioning, GMO is underweight vanilla credit risk (IG, HY, EM beta) and duration, preferring short, seasoned, up-in-capital-structure structured product (AAA CLOs, student loans, non-agency MBS) for predictable, less-correlated returns. He's skeptical of yield-focused BDCs based on 2008-era experience (return of capital, cherry-picked portfolio sales). On rates, he favors the belly of the curve (3-5yr) as a hedge, expects further curve flattening, and sees long-end selling driven by real rates/term premium rather than pure inflation, tied to competition for capital from AI buildout and fiscal sustainability concerns (Social Security trust fund depletion in the mid-2030s).",
-      "score": 3,
+      "one_liner": "A distressed/stressed credit PM lays out in granular detail how CLO structural dynamics, disqualified-lender lists, and locked-down post-LME docs are shaping the leveraged loan and high-yield opportunity set into 2029's maturity wall.",
+      "published": "2026-09-24T20:10:41+00:00",
+      "recap": "James Crombie and Negisa Baluku of Bloomberg speak with Austin Camporin, head of special situations at Magnetar Capital (17-year Elliott Management veteran), about the stressed and distressed credit opportunity. Camporin argues the stress universe (debt yielding 10%+) has grown from roughly $400bn to $600bn over the past year even as broad index spreads stay tight, because supply of distressed paper is rising while the buyer base is thinning. He attributes the thin buyer base to three technical factors: disqualified-lender (DQ) lists that block large or 'active' managers from data rooms and voting rights on broadly syndicated loans; scale constraints, since 85-90% of stressed issuers sit in capital structures under $5bn, too small to move the needle for mega-funds; and CLOs' forced-selling dynamic as loans get downgraded from B3 to CCC \u2014 notable because B3 loans are now 20-25% of the levered loan universe versus a historical 5-10%, and CLOs hold about 70% of all levered loans. He details Magnetar's process: building LTV-versus-yield regressions to find mispriced 'babies thrown out with the bathwater,' taking ~4-5% tranche positions (enough for a steering-committee seat without needing scale), and hedging long distressed positions with short longer-duration IG credit rather than costly single-name shorts. He discusses sector opportunities (software understood via short duration/enterprise contracts/cash/optionality, building products as cyclical, healthcare services on margin compression from Medicare reimbursement cuts), the roughly $150bn of post-LME 'locked-down' paper as a growing opportunity, and why LMEs are shifting toward more consensual amend-and-extend deals given the $1tn maturity wall through 2029 (half B3-or-lower).",
+      "score": 5,
       "status": "ok",
       "tags": [
-        "Fed",
-        "private credit",
-        "credit cycle",
-        "rates",
+        "distressed debt",
+        "LME",
         "CLO",
-        "BDC",
-        "triple-C",
-        "duration",
-        "dollar"
+        "leveraged loans",
+        "high-yield",
+        "private credit",
+        "DQ list",
+        "B3/CCC",
+        "maturity wall",
+        "structured credit"
       ],
       "terms": [
-        "OIS -- Overnight Index Swap, a rate derivative referencing the average overnight rate over a period",
-        "CLO -- Collateralized Loan Obligation, a securitization backed by a pool of leveraged loans",
-        "BDC -- Business Development Company, a publicly or privately traded vehicle that lends to (often private) middle-market companies",
-        "NAV -- Net Asset Value, the per-share value of a fund's underlying assets",
-        "CDS -- Credit Default Swap, a derivative contract providing credit protection against an issuer's default"
+        "LME -- liability management exchange, an out-of-court debt restructuring/exchange transaction",
+        "DQ list -- disqualified lender list, a provision letting a loan sponsor bar named investors from buying or viewing information on a syndicated loan",
+        "CLO -- collateralized loan obligation, a securitization vehicle holding a pool of leveraged loans",
+        "LTV -- loan-to-value, the ratio of debt to underlying enterprise/asset value",
+        "TRS -- total return swap, used here as a way to gain synthetic exposure to a loan without being the registered holder",
+        "OC -- overcollateralization, a CLO structural test comparing collateral value to liabilities",
+        "steerco -- steering committee, the creditor group that leads negotiations in a restructuring or LME",
+        "BDC -- business development company, a vehicle used by private credit funds to lend to companies"
       ],
-      "tier": "plumbing",
-      "title": "Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
-      "url": "https://traffic.megaphone.fm/EWWMN9559854152.mp3",
+      "tier": "credit",
+      "title": "Magnetar Scours $600 Billion Stressed Debt Pile for Bond, Loan Value",
+      "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/e74a35e9-c028-4e5f-a3f7-afb10164a717/d3e1b5c0-d5d2-4b3c-9b73-b4cf0149e262/audio.mp3?utm_source=Podcast&in_playlist=8792a2e9-d66c-4038-a1fe-afb101654894",
       "watch": [
-        "Triple-C spread widening as a leading default indicator",
-        "Secondary market trading volumes in private credit (insurance company buying activity)",
-        "Investment-grade and high-yield supply growth tied to AI capex financing",
-        "BDC discounts to NAV and any buyback activity",
-        "Fed policy path relative to the 4.1% terminal signaled through 2027"
-      ]
-    },
-    "6ab4ca5362a47b6beca89783": {
-      "feed_name": "Under the Banyan Tree",
-      "implications": "Background, not actionable for repo/funding directly, but the HKD peg discussion is a reminder that HK short rates (HIBOR) will keep tracking Fed hikes, keeping HK funding costs elevated and local carry compressed versus onshore CNY; the China/EM Asia policy divergence is useful macro context for cross-currency basis and regional rates positioning.",
-      "key_claims": [
-        "Fed raised rates and signaled a hawkish bias toward further hikes, per Fred Neumann",
-        "Bank of Japan raised rates two days after the Fed meeting, described as unusual given the BoJ's near-zero-rate history",
-        "Mainland China inflation is near zero/deflationary, giving its central bank room to hold or ease rather than tighten",
-        "Hong Kong equities/rates are flagged as unusually sensitive to Fed moves due to the USD currency peg",
-        "HSBC's house strategy view (cited by Neumann) sees room for RMB strength despite the China-vs-rest-of-world rate divergence, due to export surpluses and capital controls"
-      ],
-      "kind": "podcast",
-      "one_liner": "A broad-strokes HSBC macro podcast on Fed tightening and how Asian central banks (especially Japan, and by contrast mainland China) are responding, with a direct read-through to the HKD peg and HK rate sensitivity.",
-      "published": "2026-09-24T06:59:31+00:00",
-      "recap": "HSBC's Harald van der Linde and Fred Neumann discuss the Fed's latest hike, framed as hawkish given persistent inflation from rising energy (diesel) prices and a brewing El Ni\u00f1o threatening Asian food inflation. Markets are pricing further hikes since the Fed historically moves in multi-step cycles rather than one-off adjustments. Because the Fed sets the global price of money, most Asian central banks are following suit to avoid currency weakness feeding import-cost inflation: Japan's central bank hiked days after the Fed (unusual after decades of near-zero rates, driven by rising wages and food prices), with Australia, Korea, Indonesia, the Philippines and India also expected to tighten. Mainland China is the outlier, with disinflation/near-deflation and weak consumption/investment giving its central bank room to hold or even ease; capital controls insulate the renminbi from the usual divergence-driven outflow pressure, and HSBC's house view sees room for RMB strength on export surpluses. On equities, rising rates should pressure valuations, but AI-driven capex is generating order flow for Asian tech supply chains, complicating the picture. Hong Kong, due to its USD currency peg, is described as unusually rate-sensitive, and the hosts note a Hong Kong-versus-Shanghai listing arbitrage where the same mainland company can be priced differently due to capital-flow differences. The episode closes with a lighthearted forecast game: hosts predict India, Korea, Indonesia and Taiwan raise rates over six months, while China stays on hold.",
-      "score": 3,
-      "status": "ok",
-      "tags": [
-        "Fed",
-        "rates",
-        "Asia central banks",
-        "BoJ",
-        "HKD peg",
-        "RMB",
-        "monetary policy"
-      ],
-      "terms": [],
-      "tier": "asia",
-      "title": "Will Asian central banks follow the Fed?",
-      "url": "https://sphinx.acast.com/p/open/s/64db93c01796c400110e0ce3/e/6ab4ca5362a47b6beca89783/media.mp3",
-      "watch": [
-        "Further Fed hikes and their pass-through to HIBOR/HKD peg dynamics",
-        "Whether mainland China's PBoC moves toward easing while other Asian central banks tighten",
-        "BoJ follow-through on rate hikes after years of ultra-low rates"
+        "Pace of B3-to-CCC leveraged loan downgrades and resulting CLO forced-selling",
+        "Growth of the ~$150bn post-LME 'locked-down' paper universe as it approaches maturity",
+        "Rating agency responses to the unusually high (9%) stressed share of the loan market versus CCC-only (4-5%)",
+        "Further evolution of CLO documentation allowing new-money participation in restructurings"
       ]
     }
   }

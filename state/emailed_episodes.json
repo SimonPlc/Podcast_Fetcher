@@ -3954,6 +3954,58 @@
         "Diesel crack spread levels versus crude as a proxy for consumer disinflation vs. producer margin strength"
       ]
     },
+    "d3e1b5c0-d5d2-4b3c-9b73-b4cf0149e262": {
+      "feed_name": "The Credit Edge",
+      "implications": "For a repo/financing desk, the CLO mechanics discussed (forced selling on B3-to-CCC downgrades, CLOs now able to fund new-money restructuring participation to avoid OC-triggered sales) and the growing post-LME locked-doc supply are useful context for how leveraged loan/CLO collateral behavior could evolve into the 2029 maturity wall, though nothing here is an immediate repo or funding-market catalyst.",
+      "key_claims": [
+        "Camporin: the 10%+-yield stressed debt universe grew from about $400bn to $600bn over the past year",
+        "Camporin: roughly $1tn of high-yield debt matures through 2029, about half rated B3 or lower",
+        "Camporin: in-group versus out-of-group LME recoveries differ by roughly 10 points",
+        "Camporin: B3-rated loans are now 20-25% of the levered loan universe versus a historical 5-10%",
+        "Camporin: CCC loans trade at about 4x single-B spreads versus a ~3x historical average",
+        "Camporin: CLOs hold about 70% of the leveraged loan market",
+        "Camporin: post-LME 'locked-down' distressed paper totals about $150bn maturing over the next four to five years",
+        "Camporin: healthcare services costs rose ~27% from 2020-2025 while Medicare reimbursement fell ~10%",
+        "Bloomberg/Camporin citing Bloomberg data: of 26 LME-type transactions last year, 12 were largely consensual amend-and-extend deals"
+      ],
+      "kind": "podcast",
+      "one_liner": "A distressed/stressed credit PM lays out in granular detail how CLO structural dynamics, disqualified-lender lists, and locked-down post-LME docs are shaping the leveraged loan and high-yield opportunity set into 2029's maturity wall.",
+      "published": "2026-09-24T20:10:41+00:00",
+      "recap": "James Crombie and Negisa Baluku of Bloomberg speak with Austin Camporin, head of special situations at Magnetar Capital (17-year Elliott Management veteran), about the stressed and distressed credit opportunity. Camporin argues the stress universe (debt yielding 10%+) has grown from roughly $400bn to $600bn over the past year even as broad index spreads stay tight, because supply of distressed paper is rising while the buyer base is thinning. He attributes the thin buyer base to three technical factors: disqualified-lender (DQ) lists that block large or 'active' managers from data rooms and voting rights on broadly syndicated loans; scale constraints, since 85-90% of stressed issuers sit in capital structures under $5bn, too small to move the needle for mega-funds; and CLOs' forced-selling dynamic as loans get downgraded from B3 to CCC \u2014 notable because B3 loans are now 20-25% of the levered loan universe versus a historical 5-10%, and CLOs hold about 70% of all levered loans. He details Magnetar's process: building LTV-versus-yield regressions to find mispriced 'babies thrown out with the bathwater,' taking ~4-5% tranche positions (enough for a steering-committee seat without needing scale), and hedging long distressed positions with short longer-duration IG credit rather than costly single-name shorts. He discusses sector opportunities (software understood via short duration/enterprise contracts/cash/optionality, building products as cyclical, healthcare services on margin compression from Medicare reimbursement cuts), the roughly $150bn of post-LME 'locked-down' paper as a growing opportunity, and why LMEs are shifting toward more consensual amend-and-extend deals given the $1tn maturity wall through 2029 (half B3-or-lower).",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "distressed debt",
+        "LME",
+        "CLO",
+        "leveraged loans",
+        "high-yield",
+        "private credit",
+        "DQ list",
+        "B3/CCC",
+        "maturity wall",
+        "structured credit"
+      ],
+      "terms": [
+        "LME -- liability management exchange, an out-of-court debt restructuring/exchange transaction",
+        "DQ list -- disqualified lender list, a provision letting a loan sponsor bar named investors from buying or viewing information on a syndicated loan",
+        "CLO -- collateralized loan obligation, a securitization vehicle holding a pool of leveraged loans",
+        "LTV -- loan-to-value, the ratio of debt to underlying enterprise/asset value",
+        "TRS -- total return swap, used here as a way to gain synthetic exposure to a loan without being the registered holder",
+        "OC -- overcollateralization, a CLO structural test comparing collateral value to liabilities",
+        "steerco -- steering committee, the creditor group that leads negotiations in a restructuring or LME",
+        "BDC -- business development company, a vehicle used by private credit funds to lend to companies"
+      ],
+      "tier": "credit",
+      "title": "Magnetar Scours $600 Billion Stressed Debt Pile for Bond, Loan Value",
+      "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/e74a35e9-c028-4e5f-a3f7-afb10164a717/d3e1b5c0-d5d2-4b3c-9b73-b4cf0149e262/audio.mp3?utm_source=Podcast&in_playlist=8792a2e9-d66c-4038-a1fe-afb101654894",
+      "watch": [
+        "Pace of B3-to-CCC leveraged loan downgrades and resulting CLO forced-selling",
+        "Growth of the ~$150bn post-LME 'locked-down' paper universe as it approaches maturity",
+        "Rating agency responses to the unusually high (9%) stressed share of the loan market versus CCC-only (4-5%)",
+        "Further evolution of CLO documentation allowing new-money participation in restructurings"
+      ]
+    },
     "d532b966-adfa-11f1-bdb5-bf3625bc75cf": {
       "feed_name": "Monetary Matters",
       "kind": "podcast",
