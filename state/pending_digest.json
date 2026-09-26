@@ -52,6 +52,46 @@
         "Treasury buyback sizes relative to issuance needs"
       ]
     },
+    "3a677105-d9ba-43be-abad-056c057f8879": {
+      "feed_name": "Top Traders Unplugged",
+      "implications": "The described short-end repricing (2yr +75bp since mid-August) and CTA rates-short profitability are relevant color for a rates/repo desk gauging positioning and funding-market sentiment, but the episode offers no repo/collateral-specific detail; the momentum-window and agentic-AI segments are educational/background on portfolio construction methodology rather than anything actionable for financing or credit books.",
+      "key_claims": [
+        "Nick Baltus: roughly 45% of S&P 500 constituents currently show negative beta to the index on a 3-month basis, versus just under 20% at the dot-com peak (citing a Goldman Sachs chart)",
+        "Alan Dunne: the 2-year Treasury yield has risen at least ~75bp since mid-August 2026",
+        "SocGen Trend Index and SocGen CTA Index both up ~3.7% for the recent month and ~15.2% year-to-date, cited as roughly the third-best year in the last 15 for trend following",
+        "Baltus: in his firm's portfolio, roughly 80% of the month's gains came from fixed-income short positions, achieved without a rise in bond market volatility, causing vol-scaled signals to strengthen further",
+        "Alpha Architect paper (per Baltus's read): VIX-conditioned dynamic lookback windows for momentum showed no statistically significant outperformance versus a static 10-month window, with apparent gains concentrated in a few instances such as November 2020",
+        "Andrew Ang/Old Bridge paper example: a March 2026 model run using an agentic multi-portfolio-construction-agent framework produced a CIO-selected allocation of 44% equities versus a 60/40 benchmark"
+      ],
+      "kind": "podcast",
+      "one_liner": "Trend-following CTA manager Nick Baltus discusses the recent sharp bear-steepening/repricing at the short end of global rates curves and how vol-scaled trend models have benefited, plus two research notes (vol-adaptive momentum windows, and an agentic-AI asset allocation framework) that are more background/process than trade catalysts.",
+      "published": "2026-09-26T00:00:00+00:00",
+      "recap": "This Top Traders Unplugged episode features Alan Dunne interviewing Nick Baltus (Societe Generale) on trend-following performance and two research papers. They open discussing a Goldman Sachs chart showing ~45% of S&P 500 constituents now have negative beta to the index, driven by AI-mega-cap concentration distorting the cap-weighted index -- a dot-com-era-like phenomenon. The core rates discussion covers the sharp global repricing of yields since mid-August: the 2-year yield up roughly 75bp-plus, alongside multi-year/decade highs in US and UK yields, reversing expectations from earlier this year of imminent rate cuts. Both hosts caution against linear, single-factor explanations (growth, fiscal deficits, AI capex competing for capital, debasement fears) given markets are complex adaptive systems where positioning and hedging flows matter as much as fundamentals. They note this move has been the strongest driver of trend-following returns in 2026 (SocGen Trend and CTA indices both up ~15.2% YTD, ~3.7% in the recent month), with fixed income shorts contributing roughly 80% of gains, notably without a rise in bond volatility, meaning vol-scaled trend signals actually strengthened. They then review an Alpha Architect paper testing whether VIX-conditioned lookback windows improve momentum/trend strategies versus a static 10-month window across five ETFs -- finding no statistically robust benefit, with apparent outperformance driven by a handful of instances (e.g., the November 2020 vaccine announcement). Baltus explains his firm instead uses continuous volatility scaling of signal strength and portfolio risk budgeting rather than discrete vol-based regime triggers. The second half covers an Andrew Ang/Old Bridge paper proposing a multi-agent AI architecture for institutional asset allocation (macro, asset-class, covariance, 21 competing portfolio-construction agents, and a CIO agent), including its look-ahead bias and non-reproducibility challenges.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "rates",
+        "trend-following",
+        "CTA",
+        "yields",
+        "Fed",
+        "volatility",
+        "asset-allocation",
+        "AI"
+      ],
+      "terms": [
+        "OIS -- overnight index swap, a derivative referencing a compounded overnight rate used as a rates benchmark",
+        "CTA -- commodity trading advisor, industry shorthand for systematic trend-following managers",
+        "VIX -- CBOE Volatility Index, a measure of implied volatility on S&P 500 options"
+      ],
+      "tier": "quant",
+      "title": "SI419: What Happens When AI Starts Building the Portfolio ft. Nick Baltas",
+      "url": "https://episodes.captivate.fm/episode/3a677105-d9ba-43be-abad-056c057f8879.mp3",
+      "watch": [
+        "Whether the rise in front-end yields continues or reverses, and its knock-on effect on trend-following/CTA positioning",
+        "Further Goldman Sachs commentary on S&P dispersion/negative-beta clustering as an equity market-structure signal"
+      ]
+    },
     "d3e1b5c0-d5d2-4b3c-9b73-b4cf0149e262": {
       "feed_name": "The Credit Edge",
       "implications": "For a repo/financing desk, the CLO mechanics discussed (forced selling on B3-to-CCC downgrades, CLOs now able to fund new-money restructuring participation to avoid OC-triggered sales) and the growing post-LME locked-doc supply are useful context for how leveraged loan/CLO collateral behavior could evolve into the 2029 maturity wall, though nothing here is an immediate repo or funding-market catalyst.",
