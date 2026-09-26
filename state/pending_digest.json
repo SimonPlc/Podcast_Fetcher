@@ -139,6 +139,42 @@
         "Further Goldman Sachs commentary on S&P dispersion/negative-beta clustering as an equity market-structure signal"
       ]
     },
+    "c30cf457-7e65-4c04-8dbe-dc183e29e5ff": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "Mostly background macro/political color rather than a direct repo or funding-market catalyst; the mortgage-REIT spread-widening comment and the private-credit/insurance-carrier asset quality warning are the closest things to a structured-credit read-through, and the contrarian Fed-cut-via-demand-destruction call is worth filing away as a tail scenario for the front end.",
+      "key_claims": [
+        "Chris Whalen: 30-year Treasury yield hit its highest level since 2004, and the 10-year has traded through 5%",
+        "Whalen: mortgage rates are roughly the 10-year Treasury yield plus about 2 percentage points, putting current rates above 7%",
+        "Whalen citing guest John Dysart: fertilizer prices have risen roughly eightfold over the past 12 months, and about a third of fertilizer usage this year may not recur next year",
+        "Whalen: expects the Fed to eventually cut rates (potentially late 2026 into 2027) as energy-driven demand destruction weakens employment, despite current hiking",
+        "Whalen: has rebalanced his own portfolio -- cut Italy exposure from 16% to 11% of the portfolio, added energy majors/drillers, exited SpaceX and Charles Schwab (Schwab position up ~11%), remains long gold and silver"
+      ],
+      "kind": "podcast",
+      "one_liner": "A macro/political rant touching real themes for rates desks -- structurally higher long yields, a 7%+ mortgage regime, and a contrarian Fed-cut call driven by energy-led demand destruction -- but wrapped in gold-bug/fiscal-doom framing with limited plumbing detail.",
+      "published": "2026-09-26T10:00:00+00:00",
+      "recap": "Bank analyst Chris Whalen argues the sharp rise in long-end yields (30-year at its highest since 2004, 10-year through 5%) reflects a loss of US fiscal credibility rather than Fed policy, calling incoherent statements from Trump and Treasury Secretary Bessent a key driver. He says mortgage rates above 7% (roughly 10-year Treasury plus ~200bp) are the new normal now that QE-era subsidies are gone, predicting industry consolidation and headcount cuts ahead of the MBA annual conference. He argues the Fed's recent 25bp hike was about credibility, not inflation control, since current inflation is structural -- driven by war-damaged Persian Gulf refining capacity, diesel shortages, and fertilizer costs (up 8x in a year per a guest, John Dysart), which he expects to cut global crop yields and eventually surface as double-digit food/grocery inflation. He makes a contrarian call that energy-driven demand destruction could force the Fed to cut rates by late 2026/2027 despite current hiking, since the employment mandate would dominate once economic activity weakens. On markets, he describes rebalancing his own portfolio -- trimming Italy exposure, adding energy majors/drillers, still long gold/silver on a de-dollarization thesis, unconcerned about mortgage REIT (Annaly-type) spread widening being a positive. He also touches on Social Security means-testing, a housing correction concentrated in oversupplied Sun Belt markets (Orlando cited), and warns listeners to scrutinize private-credit-backed annuity/life insurance carriers (e.g., Apollo, Guggenheim) for asset-liability mismatch risk.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "rates",
+        "Fed",
+        "mortgage",
+        "MBS",
+        "gold",
+        "energy",
+        "private credit",
+        "fiscal deficit"
+      ],
+      "terms": [],
+      "tier": "broad",
+      "title": "#413 Chris Whalen: Bonds, Gold, Energy, & the Coming Food Shock",
+      "url": "https://traffic.megaphone.fm/APO2250815028.mp3",
+      "watch": [
+        "Whether refining/diesel disruption from the Persian Gulf and Red Sea actually feeds into realized US inflation prints",
+        "Any sign of Fed easing bias emerging from weakening employment data, contrary to the current hiking path",
+        "Mortgage REIT spread trends (e.g., Annaly) as a read on MBS-Treasury basis"
+      ]
+    },
     "d3e1b5c0-d5d2-4b3c-9b73-b4cf0149e262": {
       "feed_name": "The Credit Edge",
       "implications": "For a repo/financing desk, the CLO mechanics discussed (forced selling on B3-to-CCC downgrades, CLOs now able to fund new-money restructuring participation to avoid OC-triggered sales) and the growing post-LME locked-doc supply are useful context for how leveraged loan/CLO collateral behavior could evolve into the 2029 maturity wall, though nothing here is an immediate repo or funding-market catalyst.",
