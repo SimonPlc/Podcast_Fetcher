@@ -340,6 +340,53 @@
       "url": "https://traffic.libsyn.com/secure/macrohive/MH_w_BRANKO_.mp3?dest-id=1929056",
       "watch": []
     },
+    "1a0c46bd-ef76-4ca9-8223-f22236ba2729": {
+      "feed_name": "Eurodollar University",
+      "implications": "Largely background macro narrative for an HK repo/credit trader, but the throughline -- that energy-driven dollar demand is tightening offshore dollar funding conditions unevenly by country -- is relevant context for cross-currency basis, EM local-currency financing costs, and gauging risk appetite in dollar funding markets rather than a direct repo/SOFR catalyst.",
+      "key_claims": [
+        "India attracted over $140 billion in foreign inflows, pushing surplus bank liquidity to a record 11 trillion rupees (~$115bn equivalent), per the speaker",
+        "RBI conducted at least $10 billion of sell-buy dollar swaps in recent weeks to drain excess rupee liquidity",
+        "RBI has an estimated $106.7 billion short dollar forward position from defending the rupee",
+        "BOJ raised its policy rate to 1.25%, the highest since 1995, with two dissenting votes",
+        "Japan's Ministry of Finance/BOJ spent roughly 15.4 trillion yen (>$96bn) on yen-buying intervention in under a month, and about 27 trillion yen over the year",
+        "Philippine peso fell to a record low below 62/dollar despite policy rate hikes, as the trade deficit widened to almost $6 billion",
+        "Asian Development Bank cut its 2026 Philippine growth forecast to 3.3%, S&P to 2.9%",
+        "Indonesia's current account deficit widened to a record in Q2 on higher oil import costs",
+        "Chinese rates are at their widest-ever discount to US dollar rates, yet the yuan is rising, attributed by the speaker to continuous exporter dollar-to-yuan conversion"
+      ],
+      "kind": "podcast",
+      "one_liner": "A global-dollar-shortage thesis (Eurodollar-system framing) walking through India, Japan, China, Philippines and Indonesia FX stress -- useful background on offshore dollar funding conditions but no direct repo/SOFR/collateral content.",
+      "published": "2026-09-26T05:08:35+00:00",
+      "recap": "The speaker argues that currency moves are driven less by interest-rate differentials than by mechanical dollar supply and demand. India pulled in over $140bn of foreign inflows via RBI-subsidized non-resident deposits (dollar deposit rates up to 7.5%), pushing bank liquidity to a record 11 trillion rupees, which the RBI then had to drain via at least $10bn of sell-buy dollar swaps -- yet the rupee kept sliding toward record lows. The explanation offered: India imports oil, so higher crude/refined-product prices directly raise its dollar needs, and the reserves/swaps borrowed to defend the currency are liabilities, not free reserves (RBI reportedly holds a $106.7bn short dollar forward position). Japan raised its policy rate to 1.25% (highest since 1995, with two BOJ dissents) and has intervened heavily (~15.4tn yen in one month, ~27tn yen over the year), yet the yen is again approaching 160/dollar, because Japanese institutions still weigh risk-adjusted returns and hold large foreign portfolios. The Philippines and Indonesia show similar patterns: rate hikes or fiscal-discipline promises fail against widening trade/current-account deficits from expensive energy imports. China is presented as the counterexample -- despite record-wide China-vs-US rate differentials and a weak domestic economy, the yuan rises because exporters continuously convert commercial dollar receipts into yuan. The overarching argument: an 'energy shock is a dollar shock,' straining global dollar funding availability unevenly across countries depending on commercial dollar access, not policy rates.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "FX",
+        "dollar funding",
+        "Eurodollar",
+        "central banks",
+        "BOJ",
+        "RBI",
+        "emerging markets",
+        "energy shock"
+      ],
+      "terms": [
+        "RBI -- Reserve Bank of India, India's central bank",
+        "BOJ -- Bank of Japan, Japan's central bank",
+        "GPIF -- Government Pension Investment Fund, Japan's public pension fund",
+        "DXY -- US Dollar Index, a trade-weighted measure of the dollar against a basket of currencies (dominated by the euro)",
+        "sell-buy swap -- an FX swap where a central bank sells dollars spot for local currency and agrees to reverse the trade at a future date"
+      ],
+      "tier": "plumbing",
+      "title": "BREAKING: India Just Intervened to Save Its Currency",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/ae8d7a29/35fdf494.mp3",
+      "watch": [
+        "Whether BOJ intervenes again if USD/JPY breaks above 160",
+        "GPIF portfolio reallocation flows (rumored vs. actual)",
+        "RBI's forward dollar book unwind and further sell-buy swap activity",
+        "Chinese export/trade-surplus trends as the offsetting yuan support mechanism"
+      ]
+    },
     "1a60e100-a65a-11f1-8982-1fc6528d4569": {
       "feed_name": "Forward Guidance",
       "implications": "background, not actionable for repo/rates trading -- the fiscal-dominance and heavy short-end Treasury issuance narrative (stablecoins as a T-bill buyer base, push toward bills) is tangential context on Treasury supply dynamics but the episode itself is an equity/alternative-asset allocation pitch, not money-market or credit content.",
