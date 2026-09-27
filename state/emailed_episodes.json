@@ -4281,6 +4281,36 @@
       "title": "Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
       "url": "https://traffic.megaphone.fm/EWWMN8808739042.mp3"
     },
+    "d87b74cb-cdd7-48b6-8975-754d844aae51": {
+      "feed_name": "Eurodollar University",
+      "implications": "background, not actionable -- this is consumer-goods/retail cost-pass-through commentary with no direct read-through to repo/funding markets, rate policy, or credit spreads, though persistent energy-driven cost pressure is a data point for the broader inflation/policy backdrop.",
+      "key_claims": [
+        "Pepsi cut prices by as much as 15% earlier in the year after some bags of chips had priced above $7",
+        "Pepsi's CEO said in July that consumers were under more strain than expected due to higher gas prices",
+        "Kroger has pulled Red Bull from all its grocery and gas station locations over supplier price-increase disputes",
+        "A supplier's products (transcribed as 'Borshead') have disappeared from roughly 200 Kroger locations",
+        "US retail sales showed a burst of panic buying in August, and PMI data shows businesses front-loading purchases ahead of expected cost increases"
+      ],
+      "kind": "podcast",
+      "one_liner": "A consumer-goods pricing/margin squeeze story with an energy-cost angle -- interesting macro color but no direct repo, rates, or credit-market content.",
+      "published": "2026-09-27T16:32:59+00:00",
+      "recap": "The piece describes a reversal in consumer packaged goods pricing strategy. Pepsi had cut prices by as much as 15% to win back shoppers after snack prices had climbed above $7 a bag, but the discounting failed to revive demand -- Pepsi's CEO said in July that consumers were under more strain than expected, citing higher gas prices. Now the company is described as trapped: consumers still can't afford its products, but rising energy and input costs make the lower prices unsustainable, pointing toward renewed price increases. The segment cites parallel friction elsewhere in the grocery channel: Kroger has pulled Red Bull from its stores and gas stations, and Borshead (likely a mis-transcription of a supplier brand) products have vanished from roughly 200 Kroger locations, both because Kroger is refusing to accept further supplier price hikes. The narrator frames these as symptoms of a broader energy shock working through the economy rather than isolated corporate disputes. It also notes an August burst of panic buying in retail sales and similar front-loading behavior showing up in PMI survey data, as businesses rush to buy inputs before energy, transport, and raw-material costs rise further. The conclusion is that this panic buying is not a sign of economic strength but a symptom of a squeeze: businesses can't absorb rising costs, and consumers can't absorb higher prices, so something has to give.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "inflation",
+        "consumer-goods",
+        "macro",
+        "energy-costs"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "Something Extremely Rare Just Happened to the Yield Curve",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/bca255cd/bb302cd6.mp3",
+      "watch": [
+        "Whether PMI input-price and front-loading signals feed into core goods inflation prints that could shift rate-cut expectations"
+      ]
+    },
     "dcaf7a31-ce64-4beb-9873-be1f13c7278a": {
       "feed_name": "Cloud 9fin",
       "implications": "The Athene/private-credit funding model described (annuity liabilities funding illiquid private credit assets, at scale via a now ~$850bn book) is directly relevant background for anyone monitoring private credit systemic risk, NAV lending, and insurance-linked financing structures that increasingly compete with and interact with traditional leveraged finance and repo markets; otherwise this is background, not actionable, for a repo/rates desk.",
@@ -4321,6 +4351,15 @@
         "Broader private credit sector liquidity mismatches flagged by regulators or rating agencies",
         "Further large private-credit financings (e.g., Nvidia-linked facility, corporate refinancings like the Yankees deal) as a gauge of private credit's expansion into traditional credit territory"
       ]
+    },
+    "dcb9cb92-ba7b-11f1-a458-e718842ef232": {
+      "feed_name": "Monetary Matters",
+      "kind": "podcast",
+      "published": "2026-09-27T14:30:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "The Private Credit Boom is Over: Redemption Requests Exceed Liquidity | James Elbaor | Marlton LLC",
+      "url": "https://traffic.megaphone.fm/EWWMN7582797836.mp3"
     },
     "df2bcdc4-b79e-11f1-a9e2-d733ccd909db": {
       "feed_name": "Goldman Sachs Exchanges",
