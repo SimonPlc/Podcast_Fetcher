@@ -3269,6 +3269,49 @@
       "title": "Treasury-Led Financial Repression Is Ushering In A Debasement Regime | Weekly Roundup",
       "url": "https://traffic.megaphone.fm/BWG2940175477.mp3"
     },
+    "99d82593-9d49-4752-bd19-5df838dd2f2e": {
+      "feed_name": "Eurodollar University",
+      "implications": "Background, not directly actionable for repo/funding or credit desks; the recession-risk and curve-inversion framing (2s10s cited as near-inverting) is relevant context for duration/curve positioning and for stress-testing growth-sensitive credit exposure (HY, leveraged loans, consumer ABS) if the front-loading-then-bust thesis plays out.",
+      "key_claims": [
+        "Steve Van Metre: consumers could not afford chips even after Pepsi's price cuts, so lower prices failed to restore demand",
+        "Kroger has pulled Red Bull from all its stores/gas stations and Borshead products from roughly 200 locations over supplier price increase disputes",
+        "Jeff/Steve: shipping costs have risen by about 201% recently, which they expect to pass through to consumer prices",
+        "Hosts attribute the August-September surge in US retail sales and S&P Global PMIs to front-loaded 'panic buying' ahead of expected price/rate increases, not organic demand growth, drawing a direct parallel to the 2022 cycle that preceded a US manufacturing recession and a European recession",
+        "Final University of Michigan consumer sentiment showed current conditions weak but the forward-looking outlook component fell even further",
+        "PCE spending growth is described as persistently falling behind trend, which the hosts characterize as a contraction at the margin despite not resembling 2009",
+        "Dollar Tree's CEO reportedly said higher-income consumers are now shopping like lower-income consumers, visiting less frequently and buying only sale items"
+      ],
+      "kind": "podcast",
+      "one_liner": "Eurodollar University's Jeff Snider and Steve Van Metre argue an energy shock is squeezing consumers and producing 2022-style front-loaded demand that will roll over into recession -- useful macro/recession-risk background for a rates desk, but no direct repo, funding, or credit content.",
+      "published": "2026-09-28T11:00:00+00:00",
+      "recap": "The hosts revisit Pepsi's earlier price cuts, made to win back consumers priced out by ~$7 bags of chips, which failed to lift volumes; Pepsi is now signaling price increases again as energy and input costs rise, a reversal they expect to fail too. Kroger has pulled Red Bull and Borshead products in a supplier pricing standoff, framed as a marketing play to position itself as consumer-friendly. The hosts read these as symptoms of a broader energy shock (tied to the Iran conflict and rising diesel/fuel costs) that businesses are slow to accept because official narratives, including Fed governor Kevin Warsh's comments on a resilient labor market, understate consumer strain. They argue the August-September surge in retail sales and S&P Global PMIs is not organic strength but panic buying/front-loading ahead of expected price and rate increases, directly analogous to the 2022 inventory-and-demand cycle that preceded a US manufacturing recession and a full European recession. Supporting evidence cited includes falling University of Michigan consumer sentiment (especially the forward-looking component), PCE growth persistently falling behind trend, weak consumer discretionary stock performance, subdued wage growth and hours worked, and anecdotal traffic data (light Friday-night traffic near Disney in Orlando). The conclusion: this is the classic energy-shock-precedes-recession pattern, with consumers pulling back at the margin even though headline data looks resilient.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "macro",
+        "consumer",
+        "energy shock",
+        "recession",
+        "Fed",
+        "yield curve",
+        "PMI"
+      ],
+      "terms": [
+        "PMI -- Purchasing Managers' Index, a survey-based gauge of manufacturing/services business activity",
+        "PCE -- Personal Consumption Expenditures, the BEA's measure of consumer spending",
+        "BEA -- Bureau of Economic Analysis, the US government agency that publishes PCE and GDP data",
+        "NBER -- National Bureau of Economic Research, the body that officially dates US recessions"
+      ],
+      "tier": "plumbing",
+      "title": "Pepsi and Red Bull Just Confirmed the Worst-Case Scenario for the Economy",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/f4378e0b/5f2da089.mp3",
+      "watch": [
+        "Next non-farm payrolls report for wage-growth trend confirmation",
+        "2s10s Treasury spread for inversion",
+        "PCE and retail sales prints for reversal after the August-September front-loading spike",
+        "Diesel/heating oil prices into winter as a consumer cost-squeeze indicator"
+      ]
+    },
     "9f814b96-af8c-11f1-abee-bb716c7e91d0": {
       "feed_name": "Monetary Matters",
       "implications": "background, not actionable -- this is junior-mining equity stock-picking and activist investing with no repo, funding, rates, or credit content relevant to a bank financing/repo desk's book.",
