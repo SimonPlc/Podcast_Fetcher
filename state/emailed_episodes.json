@@ -2732,6 +2732,31 @@
         "Labor market data for signs markets start pricing actual Fed cuts"
       ]
     },
+    "7a3568d9-8263-4e3a-8f8f-b4d00139959f": {
+      "feed_name": "Odd Lots",
+      "implications": "background, not actionable -- this is a real estate/urban-development discussion with no repo, funding, rates, or credit-market content relevant to the reader's book.",
+      "key_claims": [
+        "Zach Lasry: higher interest rates have broken the old commercial real estate strategy of arbitraging cap rates against borrowing costs, forcing developers to compete on product quality instead.",
+        "Bill McBride: California's rule preventing density reduction, plus ADU growth, are the main recent zoning changes, though ADUs add only marginally to housing stock.",
+        "Zach Lasry: roughly 95% of Los Angeles is zoned residential, limiting where mixed-use, walkable commercial streets can exist."
+      ],
+      "kind": "podcast",
+      "one_liner": "A live Odd Lots conversation about LA residential and commercial real estate development, zoning, parking, and neighborhood-building has no money-market, rates, or credit content relevant to a repo/financing desk.",
+      "published": "2026-09-28T08:00:00+00:00",
+      "recap": "Recorded live in LA, Joe Weisenthal and Tracy Alloway speak with Bill McBride (Calculated Risk, known for calling the subprime bubble and later the 2008 housing bottom) and Zach Lasry, a developer with The Western Company, about commercial and residential property in Los Angeles. Lasry describes his effort to bring an 'A24-style' curatorial approach to picking tenants, aiming to recreate the dense, mixed-use street life described in Jane Jacobs' The Death and Life of Great American Cities, contrasted with LA's overwhelmingly residential zoning (roughly 95% by his account) that starves most streets of commercial life. McBride discusses California zoning reform, ADU (accessory dwelling unit) growth, a state rule barring density reduction, and builder concerns about the build-to-rent model coming under pressure. Lasry notes that with higher interest rates, the prior playbook of 'financial engineering' \u2014 cap-rate versus interest-rate arbitrage \u2014 no longer works, forcing developers to focus on genuinely improving the product to grow rents. The conversation also covers bureaucratic friction (a multi-year, million-dollar process just to get a crosswalk approved), parking scarcity (Koreatown as an extreme case), competition for construction materials like transformers, and speculation about how self-driving cars could eventually reshape parking, home design, and even municipal ticket revenue.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "real estate",
+        "off-topic",
+        "zoning"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "Why Building a Crosswalk in LA Is Kafkaesque",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/7a3568d9-8263-4e3a-8f8f-b4d00139959f/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+      "watch": []
+    },
     "7b1084d8-dd85-45fd-844f-60130d61930b": {
       "feed_name": "Eurodollar University",
       "implications": "Background, not actionable for a bank financing/repo or credit trading desk \u2014 this is retail-level multifamily CRE investment commentary (cap rates, lender-owned asset workouts, DSCR distress) rather than money-market, rates, or structured-credit content; the CPI/Fed passage is generic macro color the reader would get more precisely from official releases or a rates desk note.",
@@ -3316,6 +3341,49 @@
         "Radiant World lawsuit developments and any spillover to trade-finance counterparties",
         "Pace of US issuer migration into EUR/GBP/other currency bond markets as hyperscaler dollar supply continues",
         "BDC share price discounts to NAV as a market-based gauge of private credit mark credibility"
+      ]
+    },
+    "a1b3c167-fe8d-4705-a656-758f93b199bb": {
+      "feed_name": "Macro Musings",
+      "implications": "For a repo/financing desk, the Riksbank's certificate/deposit-rate structure and its ability to toggle between ample and scarce reserves within a week is a live case study for how the Fed's own demand-driven reserve-regime debate (ample reserves, repo facility usage, reserve demand reduction) could evolve; the QE-threshold argument (capital losses, fiscal entanglement, ratchet effect) is directly applicable to ongoing US debate about using Fed balance-sheet tools to cap long-end Treasury yields.",
+      "key_claims": [
+        "Thed\u00e9en: the Riksbank's corridor system pays 10bp below policy rate on deposits versus the full policy rate on one-week certificates, and banks voluntarily leave roughly SEK 100bn on deposit despite the lower rate",
+        "Thed\u00e9en: after QE losses, the Riksbank asked parliament for capital injections starting around 0.5-0.6% of GDP (more than SEK 40bn requested, SEK 25bn eventually granted)",
+        "Thed\u00e9en: Swedish cash usage in stores fell from about 40% of purchases in 2010 to about 5% today",
+        "Thed\u00e9en: Swedish central bank notes and coins outstanding are only about 0.7-0.8% of GDP and shrinking, prompting a new zero-interest reserve requirement on banks as a revenue substitute",
+        "Thed\u00e9en: the Riksbank sets a high threshold for inflation-motivated QE because Swedish household/corporate borrowing is largely variable-rate, muting the transmission channel QE relies on"
+      ],
+      "kind": "podcast",
+      "one_liner": "The Riksbank governor lays out, in unusual operational detail, a demand-driven corridor/reserve system and a hard-learned high bar for future QE \u2014 directly relevant lessons for anyone watching the Fed's own reserve-regime and balance-sheet debates.",
+      "published": "2026-09-28T09:00:00+00:00",
+      "recap": "David Beckworth interviews Riksbank governor Erik Thed\u00e9en on the history and operations of the world's oldest central bank. After tracing the bank's founding in 1668 and its parliament-based governance (an executive board of five voting equally on rates, overseen but not directed by a politically-appointed council), the conversation turns to the Riksbank's operating framework. Thed\u00e9en describes a demand-driven corridor system: the deposit rate sits 10bp below the policy rate while one-week certificates pay the full policy rate, so banks voluntarily choose how much to park in certificates versus deposits (currently banks leave roughly SEK 100bn on deposit despite the lower rate, valuing liquidity access). Certificates can be sold back or repoed within days, letting the system swing between ample and scarce reserves inside a week, and the Riksbank has now largely wound down its domestic bond holdings via QT. The core segment covers Thed\u00e9en's June speech setting a high threshold for future QE: financial-stability QE (e.g., 2022 corporate bond turmoil, COVID) remains a live tool, but QE for inflation purposes is now viewed skeptically because Swedish borrowing is mostly variable-rate (blunting transmission), and because bond-buying created mark-to-market losses that forced the Riksbank to ask parliament for capital injections \u2014 an interaction with fiscal policy he sees as a direct independence risk. To avoid repeat capital asks, the Riksbank got parliament to approve a zero-interest reserve requirement on banks as a stable non-seigniorage revenue source. The episode closes with a discussion of Sweden's advanced but now-stalled digital payment adoption (cash down from 40% to 5% of purchases since 2010), a legislative push to keep cash usable at grocery stores, and skepticism that dollar or euro stablecoins threaten the krona given Sweden's fiscal/institutional credibility.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "repo",
+        "reserves",
+        "central bank balance sheet",
+        "QE",
+        "corridor system",
+        "Riksbank",
+        "Fed",
+        "digital payments",
+        "stablecoins"
+      ],
+      "terms": [
+        "QE -- quantitative easing, central bank purchases of bonds to inject liquidity/lower long-term rates",
+        "QT -- quantitative tightening, the reduction of a central bank's balance sheet via runoff or asset sales",
+        "OIS -- overnight index swap, a derivative referencing an overnight rate used to gauge policy-rate expectations",
+        "AML -- anti-money laundering, regulatory checks on financial transactions",
+        "DLT -- distributed ledger technology, the shared-database infrastructure underlying tokenized settlement systems"
+      ],
+      "tier": "plumbing",
+      "title": "Erik Thed\u00e9en on QE, Central Bank Independence, and Digital Payments",
+      "url": "https://traffic.libsyn.com/secure/macromusings/MM-562-ErikThedeen-Podcast_mixdown-auphonic.mp3?dest-id=865793",
+      "watch": [
+        "Fed policy statements on reducing reserve demand or narrowing the ample-reserves regime",
+        "Any Fed/Treasury discussion of using balance-sheet tools (e.g., repo facilities) to manage long-end yields",
+        "Riksbank dialogue with banks on reviving interbank repo/unsecured markets as QT completes"
       ]
     },
     "a386b652-3a7d-4d3d-9572-46ed0acb66ba": {
