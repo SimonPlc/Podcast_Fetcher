@@ -99,6 +99,9 @@
     "a1522e12e87c164a19de8ca4c8f1246dea292f6f46ea6edee8eef5a642b2730d": {
       "feed_name": "Bank Policy Institute"
     },
+    "a5195facef08570ea462edec1ec0a6b53e80533aa5fd5d1069bbf74ea631a356": {
+      "feed_name": "NY Fed Liberty Street Economics"
+    },
     "c027571525c2c34f5c1d02f7b40c58202c18a2147e47f773fa8e320c782a3881": {
       "feed_name": "Fed FEDS Notes"
     },
@@ -106,6 +109,9 @@
       "feed_name": "BoE Bank Underground"
     },
     "db22358883c6d5543baceaecc0caa069c5ea028412cccec3600cecc1fcdf427c": {
+      "feed_name": "Fed FEDS Notes"
+    },
+    "e34b51f533455a52344385f0d4f8b4573d78654a35bc29195411c9c0f1b034f4": {
       "feed_name": "Fed FEDS Notes"
     },
     "e4ba35d7cd3d6731cc0644197e8facb22a51a8d2f6c56ce5b09848116b8b5848": {
@@ -134,6 +140,9 @@
     },
     "f8c4e9cc8d154365a6c0818cb66afd73a30123f8ef10804249c5cd4db87fd83b": {
       "feed_name": "Apollo Academy"
+    },
+    "fde2fa926ad9607930ebf5a82653c741847808f2c78e1c59bb5410ed909c75a6": {
+      "feed_name": "Fed FEDS Notes"
     }
   }
 }
