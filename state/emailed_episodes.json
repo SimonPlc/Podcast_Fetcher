@@ -1,5 +1,31 @@
 {
   "processed": {
+    "04861ce2-b5dc-11f1-bce4-f3670064480a": {
+      "feed_name": "Goldman Sachs Exchanges",
+      "implications": "Background, not actionable -- this is a wealth-management and M&A advisory discussion on family business succession and governance with no repo/funding, rates, or credit/structured-credit content relevant to the reader's book.",
+      "key_claims": [
+        "De Mallmann: family-owned businesses produce about 70% of global economic output and 60% of jobs, but only about a third reach a second generation and roughly a tenth reach a third",
+        "De Mallmann: in the US there are over 32 million family-owned businesses (over 80% of all US businesses), accounting for over 60% of GDP and over 60% of the workforce",
+        "De Mallmann: around 35% of Fortune 500 companies are family-controlled or have a significant family owner"
+      ],
+      "kind": "podcast",
+      "one_liner": "A Goldman Sachs Exchanges discussion on family-owned business succession and wealth management has no repo, rates, or credit financing content for this trader.",
+      "published": "2026-09-29T12:00:00+00:00",
+      "recap": "This Goldman Sachs Exchanges episode features Alison Nathan interviewing F.X. de Mallmann (chairman of Goldman Sachs EMEA and investment banking, who covers large family-owned companies) and Tucker York (chair of Goldman's global wealth management business) about family-owned businesses. They open with statistics: family-owned firms generate roughly 70% of global economic output and 60% of jobs, yet only about a third survive to a second generation and roughly a tenth to a third generation. De Mallmann details regional patterns -- over 32 million family businesses in the US accounting for over 60% of GDP and workforce, roughly 35% of Fortune 500 companies being family-controlled, and dominant family conglomerates in Europe (luxury, shipping, consumer goods) and Asia (India, Korea). Both guests discuss why family ownership tends to produce long-term thinking, disciplined capital allocation, and prudent leverage use, and why succession is so fraught: founders must decide whether family members stay involved in management and how to structure ownership transfer, all while balancing family dynamics, capable successors, and governance mechanisms like exit rights and conflict resolution. They cover the choice between staying private, taking on outside capital, IPOing, or selling outright, and the emotional identity tied to founder-run businesses. The conversation closes on wealth management: once a founder sells or IPOs, they must shift from managing a business to managing capital, and York advises diversification and staying consistently invested rather than holding concentrated single-company bets.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "family office",
+        "wealth management",
+        "M&A",
+        "off-topic"
+      ],
+      "terms": [],
+      "tier": "broad",
+      "title": "How Family Businesses Should Plan for Generational Success",
+      "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD6323427850.mp3",
+      "watch": []
+    },
     "061ad740-a084-11f1-8a09-0bcd9cc59371": {
       "feed_name": "Monetary Matters",
       "implications": "The Fed hike-vs-hold debate, term-premium/curve mechanics, and the SOFR-10yr linkage bear directly on front-end rates and repo/collateral positioning into the September FOMC; the bulk of the episode's equity-sector and AI-trade content is background, not actionable for a financing/credit book.",
@@ -4871,6 +4897,49 @@
       "title": "If You Don\u2019t Understand the Eurodollar System, You Don\u2019t Understand the Markets",
       "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/c71afbfd/c05a5280.mp3",
       "watch": []
+    },
+    "ed2a1be0-cab3-4e3b-8b08-411b5f05c261": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "For a HK bank repo/financing desk, the actionable read-through is on the rates side: Treasury buyback expansion and reported agency mortgage purchases are explicit levers to cap long-end yields into the November refunding, and a long-bond/short-equity macro stance signals expectation of a growth-expectations reset rather than a soft landing \u2014 worth monitoring for term-premium and duration positioning, though nothing here bears directly on repo/collateral plumbing.",
+      "key_claims": [
+        "Andy Constant: currently 75% of his max risk target (4% worst-case loss), short equities, long long-term bonds, slight long JPY, slight long SOFR",
+        "Constant: long-end real yields are now ~3.25-3.75%, versus ~1% in September 2020 when 10-year yields hit 65bp",
+        "Constant: this is the seventh episode since COVID of a rapid 50-125bp rate rise; six prior instances V-topped and reversed",
+        "Constant: Treasury Secretary Bessent is expanding buybacks and has a lever at the November quarterly refunding to try to suppress long-end rates; Pulte reportedly announced increased mortgage purchases for the same purpose",
+        "Constant: aggregate AI-related earnings/sales claims (citing a figure like $30 trillion referenced for Anthropic) exceed the entire US GDP of roughly $30 trillion, implying unrealistic embedded expectations",
+        "Constant: this cycle's leverage is concentrated in public-sector/national debt growth rather than private-sector borrowing, unlike prior credit-driven boom-bust cycles he has experienced"
+      ],
+      "kind": "podcast",
+      "one_liner": "A macro CIO argues growth expectations are now priced too optimistically across every asset class, and is positioned short equities/long long-dated bonds into a Fed under Kevin Warsh that hasn't yet proven it will tolerate pain to kill inflation.",
+      "published": "2026-09-29T10:00:00+00:00",
+      "recap": "Andy Constant of Damped Spring Advisors lays out a four-factor macro framework (growth, inflation, risk premium, positioning) and argues growth expectations are now too high across every asset class after a sharp bond sell-off finally repriced rates alongside already-strong equities. His central worry is a mismatch between AI-driven earnings claims from mega-cap companies and total US GDP (\"the pie theory\"), plus the scale of debt-financed AI capex (\"hamburger theory\") that could strain financing markets. He notes six prior COVID-era episodes where rapid 50-125bp rate spikes V-topped as policymakers intervened, and questions whether a seventh V-top is coming; Treasury Secretary Bessent's expanded buybacks and reported mortgage purchases by Pulte are read as administration attempts to suppress long-end yields ahead of the November refunding. On the Fed, he's skeptical Kevin Warsh has yet proven credibility \u2014 the September hike was forced by data, not a voluntary hawkish signal \u2014 and doubts, based on the post-Volcker track record, that any Fed will actually inflict enough pain (higher rates, lower asset prices, job losses) to bring demand-driven inflation to target. He argues this cycle's leverage is unusually public-sector (national debt) rather than private-sector driven, making historical analogs weak. His own book: roughly 75% of a 4%-worst-case risk budget, short equities, long long-duration bonds, small long JPY, and a small long SOFR position, framed as a 1-3 month tactical overlay atop a permanent, levered risk-parity-style beta portfolio (bonds/stocks/commodities/gold).",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "Treasury buybacks",
+        "SOFR",
+        "60/40",
+        "AI capex",
+        "portfolio positioning",
+        "inflation"
+      ],
+      "terms": [
+        "SOFR -- Secured Overnight Financing Rate, the US repo-based benchmark for short-term interest rates",
+        "V-top -- a rapid spike in interest rates that quickly reverses, as speaker uses it for repeated post-COVID rate episodes",
+        "60/40 -- a traditional portfolio allocation of 60% equities and 40% bonds",
+        "zero DTE options -- options contracts with zero days to expiration"
+      ],
+      "tier": "broad",
+      "title": "#414 Andy Constan: Markets Vulnerable to Disappointment, Cautious on Equities, and the 60/40 Strikes Back",
+      "url": "https://traffic.megaphone.fm/APO2248254047.mp3",
+      "watch": [
+        "November quarterly refunding announcement and any Treasury buyback size changes",
+        "Whether long-end real yields keep rising or V-top as in prior post-COVID episodes",
+        "Kevin Warsh's next policy decisions as a credibility test",
+        "Pace of AI-related capex financing and any capital markets pushback"
+      ]
     },
     "eee35f63-91d3-4b60-85e5-aabc8ccd7e80": {
       "feed_name": "Eurodollar University",
