@@ -5630,6 +5630,33 @@
       "title": "Decoding the AI gender gap",
       "url": "https://mcdn.podbean.com/mf/web/kgqngdkkcyhddtte/GWAI_mixdown.mp3",
       "watch": []
+    },
+    "omfif.podbean.com/eef1e182-02cf-3846-b3b3-6aaae162d158": {
+      "feed_name": "Invested: The OMFIF Podcast",
+      "implications": "Background, not actionable -- this is an ESG/sustainable-finance and pension-governance discussion with no bearing on repo, funding, collateral, central bank policy, or credit/structured credit markets relevant to this trader's book.",
+      "key_claims": [
+        "Anne Simpson: global pension savings are approaching roughly $300 trillion.",
+        "Anne Simpson: at CalPERS, about 50 cents of every dollar paid in pensions came from investment returns.",
+        "Anne Simpson: a Texas court case challenging ESG-related investment practices on fiduciary-duty grounds is still ongoing."
+      ],
+      "kind": "podcast",
+      "one_liner": "An OMFIF podcast on sustainable/transition finance, pension fiduciary duty, and the US political backlash against ESG investing, with no repo, rates, or credit content.",
+      "published": "2026-09-29T08:54:29+00:00",
+      "recap": "OMFIF chairman David Marsh interviews Anne Simpson (OMFIF vice chair, formerly of Franklin Templeton and CalPERS) about mobilizing pension and savings capital -- roughly $300 trillion globally -- toward the energy transition and sustainable finance, with a focus on Latin America. Simpson frames climate change as both risk and opportunity for long-horizon investors and argues transition finance is now entangled with security and geopolitics given ongoing conflicts tied to energy supply. Much of the conversation addresses the US political backlash under the Trump administration against ESG and DEI investing: state-treasurer boycotts, litigation (including an ongoing Texas case), House Judiciary hearings, and SEC depositions, centered on claims that considering climate risk breaches fiduciary duty or constitutes antitrust collusion among investors. Simpson rebuts both claims, arguing fiduciary duty (loyalty and prudence) actually requires addressing observable climate-related risks such as insurance losses and agricultural damage, and that shared risk assessment is not collusion. She uses a sailing metaphor -- tacking into headwinds -- to describe navigating this politically. The discussion turns to Latin America's pension fund development (Brazil's Novo Mercado, Chile, Mexico, Previ) as a model where strong domestic pension fund regulation and participation attracts international capital, and closes with reflections on Europe-Mercosur trade ties and Latin America's role in critical minerals and biodiversity.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "ESG",
+        "pension-funds",
+        "transition-finance",
+        "fiduciary-duty",
+        "Latin-America"
+      ],
+      "terms": [],
+      "tier": "macro",
+      "title": "Investing in sustainability across the Americas",
+      "url": "https://mcdn.podbean.com/mf/web/fwztneyaszszez68/ATFS_mixdown.mp3",
+      "watch": []
     }
   }
 }
