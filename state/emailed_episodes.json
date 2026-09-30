@@ -217,6 +217,15 @@
         "Whether service-price/market-based core inflation firms up further"
       ]
     },
+    "12679c06-bce8-11f1-9343-93f1955e4b30": {
+      "feed_name": "Monetary Matters",
+      "kind": "podcast",
+      "published": "2026-09-30T16:00:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "Token Bill Dwarfs CPU Bill | Ben Pouladian on Meta's Muse, Anthropic S1, and Why All Roads Still Lead to NVIDIA",
+      "url": "https://traffic.megaphone.fm/EWWMN1939645778.mp3"
+    },
     "13324dee-91c7-423d-a521-b4c101382449": {
       "feed_name": "The Credit Edge",
       "implications": "For an HK-based repo/financing trader, the actionable read is on funding-market spillover risk rather than an immediate trade: watch BOJ tightening as the trigger that could pull Japanese real-money flow out of Treasuries/Bunds, and monitor US IG/HY CDX positioning extremes and private-credit/insurer linkages as a slow-burn credit-crunch channel that could eventually pressure repo/collateral markets and basis trades (cash-CDS basis unwind risk explicitly flagged) if liquidity tightens.",
