@@ -5165,6 +5165,15 @@
         "US gasoline/diesel inventory and crack spread levels"
       ]
     },
+    "fa6e0db8-e2d7-4bc3-a2be-8c13a0ed73f7": {
+      "feed_name": "Top Traders Unplugged",
+      "kind": "podcast",
+      "published": "2026-09-30T04:00:00+00:00",
+      "status": "failed",
+      "tier": "quant",
+      "title": "TTU153: Why Investors Keep Getting Trend Following Wrong ft. Patrick Welton",
+      "url": "https://episodes.captivate.fm/episode/fa6e0db8-e2d7-4bc3-a2be-8c13a0ed73f7.mp3"
+    },
     "fecd7090-ad46-11f1-b991-7f70ab8e99f7": {
       "feed_name": "Forward Guidance",
       "implications": "Front-end Fed hike-odds repricing (30/70 pause/hike into CPI and FOMC) and the term-premium-driven long-end selloff are directly relevant to rates positioning and curve trades; the JGB buyback/BOJ intervention story is also a read-through for global collateral and term-premium dynamics, though it's not a repo/funding-plumbing item per se \u2014 treat as important rates/policy background rather than an immediate actionable catalyst.",
