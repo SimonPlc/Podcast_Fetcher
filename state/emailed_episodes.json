@@ -735,6 +735,15 @@
       "title": "SI415: Maybe This Is Just What Normal Markets Look Like ft. Alan Dunne",
       "url": "https://episodes.captivate.fm/episode/297426df-7af0-4ce0-96d4-5b5c9f61ecbd.mp3"
     },
+    "2cb9593e-be76-11f1-a93f-0b43150a7a91": {
+      "feed_name": "The Macro Trading Floor",
+      "kind": "podcast",
+      "published": "2026-10-02T15:29:00+00:00",
+      "status": "failed",
+      "tier": "macro",
+      "title": "Macro Blowups Everywhere - What Now?",
+      "url": "https://traffic.megaphone.fm/ALFINVESTMENTSTRATEGYBV6713503438.mp3"
+    },
     "30df4538-b2fe-11f1-a223-33e58f5060aa": {
       "feed_name": "Forward Guidance",
       "kind": "podcast",
@@ -4474,6 +4483,15 @@
         "Diesel crack spread levels versus crude as a proxy for consumer disinflation vs. producer margin strength"
       ]
     },
+    "d306e1c0-1528-438c-8bca-0ba58da9f889": {
+      "feed_name": "Cloud 9fin",
+      "kind": "podcast",
+      "published": "2026-10-02T17:45:18+00:00",
+      "status": "failed",
+      "tier": "credit",
+      "title": "Subprime Time \u2014 What does music royalty ABS look like today?",
+      "url": "https://media.transistor.fm/44bb7ecc/a017104f.mp3"
+    },
     "d3e1b5c0-d5d2-4b3c-9b73-b4cf0149e262": {
       "feed_name": "The Credit Edge",
       "implications": "For a repo/financing desk, the CLO mechanics discussed (forced selling on B3-to-CCC downgrades, CLOs now able to fund new-money restructuring participation to avoid OC-triggered sales) and the growing post-LME locked-doc supply are useful context for how leveraged loan/CLO collateral behavior could evolve into the 2029 maturity wall, though nothing here is an immediate repo or funding-market catalyst.",
@@ -4862,6 +4880,15 @@
         "Treasury General Account drawdown and any operation-twist-style long-end buying by Treasury",
         "Credit spread widening as an early signal, per Pinto's own model"
       ]
+    },
+    "e426b829-e22f-4759-b9cc-b4d70116d973": {
+      "feed_name": "Money Stuff: The Podcast",
+      "kind": "podcast",
+      "published": "2026-10-02T17:04:13+00:00",
+      "status": "failed",
+      "tier": "credit",
+      "title": "Reintegration With the Default World",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/e426b829-e22f-4759-b9cc-b4d70116d973/audio.mp3?utm_source=Podcast&in_playlist=77e6a3a7-290d-4a82-8164-b14001353ef2"
     },
     "e6dca75c-b07b-11f1-9f2b-eba646bf3464": {
       "feed_name": "Forward Guidance",
