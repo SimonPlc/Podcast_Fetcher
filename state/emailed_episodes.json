@@ -1440,6 +1440,15 @@
         "Upcoming FOMC meeting and any policy signal reaction to labor data"
       ]
     },
+    "4469452b-7c31-479c-a27c-955fa096a4a4": {
+      "feed_name": "Eurodollar University",
+      "kind": "podcast",
+      "published": "2026-10-02T19:27:27+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "WTF Just Happened to the Bond Market and Credit Spreads?",
+      "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/d51c5259/447c94cb.mp3"
+    },
     "493ecf90-66c0-42b6-bc56-e9f56572c840": {
       "feed_name": "Cloud 9fin",
       "implications": "Background, not actionable for a HK repo/rates desk -- this is Argentine sovereign/EM infrastructure and project-finance color with no direct read-through to global funding markets, central bank policy, or structured credit products, though the syndicated bank financing and corporate bond spread tightening are a loose proxy for EM credit risk appetite.",
@@ -5505,6 +5514,15 @@
       "title": "The capital required for critical supply chains",
       "url": "https://mcdn.podbean.com/mf/web/qegkirmvw5cne3y7/JPM_MS_SRI_Supply_Chain_Assets_V188esn.mp3",
       "watch": []
+    },
+    "marketmatters.podbean.com/6f6c751f-294d-339c-885f-07ab3421bff6": {
+      "feed_name": "Making Sense (J.P. Morgan)",
+      "kind": "podcast",
+      "published": "2026-10-02T20:21:25+00:00",
+      "status": "failed",
+      "tier": "quant",
+      "title": "September jobs report: \"When the risks are two-sided, you're in good position\"",
+      "url": "https://mcdn.podbean.com/mf/web/79hd9ufxpys3wxwa/1026_MS_Sept_Jobs_Report_2026_V2FINAL6houi.mp3"
     },
     "marketmatters.podbean.com/6febfd17-4f61-3246-8d5b-f9599eb0d07c": {
       "feed_name": "Making Sense (J.P. Morgan)",
