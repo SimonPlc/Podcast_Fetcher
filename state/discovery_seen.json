@@ -1,5 +1,10 @@
 {
   "seen": {
+    "https://anchor.fm/s/103db19ac/podcast/rss": {
+      "feed_url": "https://anchor.fm/s/103db19ac/podcast/rss",
+      "name": "The Loonie Hour",
+      "term": "central banking"
+    },
     "https://anchor.fm/s/104660cc4/podcast/rss": {
       "feed_url": "https://anchor.fm/s/104660cc4/podcast/rss",
       "name": "Mind the Markets",
@@ -20,10 +25,25 @@
       "name": "Fixated: The Fixed Income Podcast",
       "term": "fixed income"
     },
+    "https://anchor.fm/s/bef765d4/podcast/rss": {
+      "feed_url": "https://anchor.fm/s/bef765d4/podcast/rss",
+      "name": "Money, Markets & Macro",
+      "term": "money markets"
+    },
+    "https://anchor.fm/s/e6649358/podcast/rss": {
+      "feed_url": "https://anchor.fm/s/e6649358/podcast/rss",
+      "name": "Updates from the CBN",
+      "term": "central banking"
+    },
     "https://anchor.fm/s/eca7b164/podcast/rss": {
       "feed_url": "https://anchor.fm/s/eca7b164/podcast/rss",
       "name": "Thoughtful Money with Adam Taggart",
       "term": "money markets"
+    },
+    "https://anchor.fm/s/f37f9ba0/podcast/rss": {
+      "feed_url": "https://anchor.fm/s/f37f9ba0/podcast/rss",
+      "name": "The David Lin Report",
+      "term": "interest rates"
     },
     "https://anchor.fm/s/ffb07db8/podcast/rss": {
       "feed_url": "https://anchor.fm/s/ffb07db8/podcast/rss",
@@ -35,6 +55,11 @@
       "name": "Academy Securities: Geopolitical & Macro Strategy Podcast",
       "term": "SOFR"
     },
+    "https://feed.podbean.com/eyeonthemarket/feed.xml": {
+      "feed_url": "https://feed.podbean.com/eyeonthemarket/feed.xml",
+      "name": "Eye On The Market",
+      "term": "central banking"
+    },
     "https://feed.podbean.com/globaldatapod/feed.xml": {
       "feed_url": "https://feed.podbean.com/globaldatapod/feed.xml",
       "name": "Global Data Pod",
@@ -44,6 +69,11 @@
       "feed_url": "https://feed.podbean.com/macrovoices/feed.xml",
       "name": "Macro Voices",
       "term": "central banking"
+    },
+    "https://feed.podbean.com/notesontheweekahead/feed.xml": {
+      "feed_url": "https://feed.podbean.com/notesontheweekahead/feed.xml",
+      "name": "Notes on the Week Ahead",
+      "term": "interest rates"
     },
     "https://feeds.acast.com/public/shows/69baf105723e626074167196": {
       "feed_url": "https://feeds.acast.com/public/shows/69baf105723e626074167196",
@@ -109,6 +139,11 @@
       "feed_url": "https://feeds.transistor.fm/securitization-in-nutshell-abs-expert-talk-by-bearingpoint",
       "name": "Securitization in nutshell \u2013 ABS Expert Talk by BearingPoint",
       "term": "securitization"
+    },
+    "https://jeffb823.github.io/debt-desk-feed/feed.xml": {
+      "feed_url": "https://jeffb823.github.io/debt-desk-feed/feed.xml",
+      "name": "Debt Desk",
+      "term": "SOFR"
     },
     "https://markethuddle.com/feed/podcast": {
       "feed_url": "https://markethuddle.com/feed/podcast/",
@@ -183,6 +218,11 @@
     "https://video-api.shdsvc.dowjones.io/api/podcasts/feed/take%20on%20the%20week": {
       "feed_url": "https://video-api.shdsvc.dowjones.io/api/podcasts/feed/take%20on%20the%20week",
       "name": "WSJ's Take On the Week",
+      "term": "interest rates"
+    },
+    "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/3441857d-10f0-47c5-991f-ae3c0021f233/9040f928-9636-419d-8ac6-ae3c0021f241/podcast.rss": {
+      "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/3441857d-10f0-47c5-991f-ae3c0021f233/9040f928-9636-419d-8ac6-ae3c0021f241/podcast.rss",
+      "name": "Wall Street Week",
       "term": "interest rates"
     },
     "https://www.podserve.fm/series/rss/997/eseclending-insights.rss": {
