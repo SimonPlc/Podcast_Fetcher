@@ -3748,6 +3748,15 @@
         "Whether Hormuz throughput (currently ~8-10mb/d vs normal ~20mb/d) recovers further"
       ]
     },
+    "acd8195d-a4fa-4446-9058-182ee6190d8a": {
+      "feed_name": "The Julia La Roche Show",
+      "kind": "podcast",
+      "published": "2026-10-03T13:00:00+00:00",
+      "status": "failed",
+      "tier": "broad",
+      "title": "#416 Chris Whalen: Cheap Credit Is Over, K-Shaped Economy Becoming an L, Long Energy & Short Financials",
+      "url": "https://traffic.megaphone.fm/APO7838061690.mp3"
+    },
     "ae8e06da-4095-4c0f-8fdb-b4c0013c37f4": {
       "feed_name": "Odd Lots",
       "implications": "Background, not actionable -- this is a political philosophy discussion with no repo, funding, credit, or rates content relevant to the reader's book.",
