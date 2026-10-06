@@ -2836,6 +2836,15 @@
         "Conference Board expectations index for further deterioration below 68"
       ]
     },
+    "78b47f1e-bdcf-11f1-9c39-4b1b61ccf6f7": {
+      "feed_name": "Goldman Sachs Exchanges",
+      "kind": "podcast",
+      "published": "2026-10-06T04:00:00+00:00",
+      "status": "failed",
+      "tier": "broad",
+      "title": "Inside the Revival of Venture Capital Liquidity with an Industry Pioneer",
+      "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD6405641425.mp3"
+    },
     "78d85014-3a6d-49f9-b23c-ab04097fe206": {
       "feed_name": "Eurodollar University",
       "implications": "For a repo/financing desk this is a useful read-through on term structure: continued long-end demand and issuers avoiding 30-year paper both point toward richer duration and eventual policy-rate relief, while widening CCC spreads and tighter AI-infrastructure financing are early markers worth tracking for leveraged-credit and structured-credit exposure; not an immediate repo/collateral catalyst but relevant background for curve and credit positioning.",
