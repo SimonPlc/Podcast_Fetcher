@@ -5438,6 +5438,15 @@
         "Whether long-end yields fall after a first hike if it is confirmed to be term-premium-driven, per the hosts' historical pattern"
       ]
     },
+    "ff3375fd-f97a-4431-99b9-9ccc7ef53a0c": {
+      "feed_name": "The Julia La Roche Show",
+      "kind": "podcast",
+      "published": "2026-10-06T10:00:00+00:00",
+      "status": "failed",
+      "tier": "broad",
+      "title": "#417 Nick Nemeth: The Biggest Turn in My Lifetime, Why Credit Contagion Could Hit Everything",
+      "url": "https://traffic.megaphone.fm/APO3991300454.mp3"
+    },
     "ffabb0eb-48cc-4ad4-8c96-b4b701728958": {
       "feed_name": "Odd Lots",
       "kind": "podcast",
