@@ -286,6 +286,15 @@
         "US Treasury long-end yield levels (10y toward 5%, 30y toward 6%) as a catalyst for credit spread widening"
       ]
     },
+    "1485466f-fcd8-4fcb-aef7-76f86701bed3": {
+      "feed_name": "The CLO Investor Podcast",
+      "kind": "podcast",
+      "published": "2026-10-09T19:10:00+00:00",
+      "status": "failed",
+      "tier": "credit",
+      "title": "#41, Josef Pschorn, Fixed + Floating Podcast",
+      "url": "https://traffic.libsyn.com/secure/1302c0f6-a032-40ce-abec-d27acd45226e/Podcast_41.mp3?dest-id=4445108"
+    },
     "1663826c-c3ef-11f1-bb9f-93cc6b9e7474": {
       "feed_name": "The Macro Trading Floor",
       "kind": "podcast",
