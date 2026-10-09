@@ -286,6 +286,15 @@
         "US Treasury long-end yield levels (10y toward 5%, 30y toward 6%) as a catalyst for credit spread widening"
       ]
     },
+    "1663826c-c3ef-11f1-bb9f-93cc6b9e7474": {
+      "feed_name": "The Macro Trading Floor",
+      "kind": "podcast",
+      "published": "2026-10-09T14:38:00+00:00",
+      "status": "failed",
+      "tier": "macro",
+      "title": "6% Yields Next & Will Stonks Handle It?",
+      "url": "https://traffic.megaphone.fm/ALFINVESTMENTSTRATEGYBV1794602388.mp3"
+    },
     "1664f593-6ca2-4a3e-bbe6-b4c201317baa": {
       "feed_name": "Odd Lots",
       "implications": "background, not actionable -- this is an AI-industry safety and policy discussion with no bearing on repo/funding markets, rates, or credit/structured credit positioning.",
@@ -4705,6 +4714,15 @@
         "Rating agency responses to the unusually high (9%) stressed share of the loan market versus CCC-only (4-5%)",
         "Further evolution of CLO documentation allowing new-money participation in restructurings"
       ]
+    },
+    "d48864e5-24e3-4186-b8de-b4de00f38870": {
+      "feed_name": "Money Stuff: The Podcast",
+      "kind": "podcast",
+      "published": "2026-10-09T14:54:56+00:00",
+      "status": "failed",
+      "tier": "credit",
+      "title": "Jeremy Maletz",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/d48864e5-24e3-4186-b8de-b4de00f38870/audio.mp3?utm_source=Podcast&in_playlist=77e6a3a7-290d-4a82-8164-b14001353ef2"
     },
     "d532b966-adfa-11f1-bdb5-bf3625bc75cf": {
       "feed_name": "Monetary Matters",
