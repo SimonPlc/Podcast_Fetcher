@@ -4772,6 +4772,15 @@
         "Whether PMI input-price and front-loading signals feed into core goods inflation prints that could shift rate-cut expectations"
       ]
     },
+    "d96ec913-3ea1-4979-9f31-807344a96de1": {
+      "feed_name": "Top Traders Unplugged",
+      "kind": "podcast",
+      "published": "2026-10-10T04:00:00+00:00",
+      "status": "failed",
+      "tier": "quant",
+      "title": "SI421: Taking CTAs Mainstream ft. Andrew Beer",
+      "url": "https://episodes.captivate.fm/episode/d96ec913-3ea1-4979-9f31-807344a96de1.mp3"
+    },
     "dcaf7a31-ce64-4beb-9873-be1f13c7278a": {
       "feed_name": "Cloud 9fin",
       "implications": "The Athene/private-credit funding model described (annuity liabilities funding illiquid private credit assets, at scale via a now ~$850bn book) is directly relevant background for anyone monitoring private credit systemic risk, NAV lending, and insurance-linked financing structures that increasingly compete with and interact with traditional leveraged finance and repo markets; otherwise this is background, not actionable, for a repo/rates desk.",
