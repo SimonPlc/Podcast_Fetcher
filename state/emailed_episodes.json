@@ -1610,6 +1610,15 @@
       "url": "https://episodes.captivate.fm/episode/4a276c86-30f8-41ad-afce-5c3cafab293c.mp3",
       "watch": []
     },
+    "4a3a515e-f85d-487d-98c7-91c48c62b665": {
+      "feed_name": "Eurodollar University",
+      "kind": "podcast",
+      "published": "2026-10-12T11:00:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "OpenAI's Money Problem Is WAY Worse Than You Think",
+      "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/3f752bc6/5edf134b.mp3"
+    },
     "4dabf3ec-4fc6-4bb9-a7a7-b4d601226e6f": {
       "feed_name": "Odd Lots",
       "kind": "podcast",
@@ -2210,6 +2219,15 @@
         "China credit growth and PBOC bond-buying dynamics amid ongoing property-sector deflation",
         "BOJ policy commentary on yen weakness and Japanese carry-trade repatriation"
       ]
+    },
+    "64f69dd8-9167-4b6f-9c04-6221f62e7ca2": {
+      "feed_name": "Macro Musings",
+      "kind": "podcast",
+      "published": "2026-10-12T09:00:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "John Rolle on The Bahamas' Fixed Exchange Rate and the First Nationwide Central Bank Digital Currency",
+      "url": "https://traffic.libsyn.com/secure/macromusings/MM-564-JohnRolle-Podcast_mixdown-auphonic.mp3?dest-id=865793"
     },
     "64fba1090e18127fa361f051:64fba4edb48a5e6f7261367d:6a84e302a4bad07b608da666": {
       "feed_name": "BTN with Ethan Heisler",
@@ -5477,6 +5495,15 @@
       "tier": "plumbing",
       "title": "BREAKING: The Jobs Report Worse Than Everyone Expected",
       "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/29f6d35e/25a7c19f.mp3"
+    },
+    "f6fd1a43-7c77-47c2-ae42-b4e0016e2d9b": {
+      "feed_name": "Odd Lots",
+      "kind": "podcast",
+      "published": "2026-10-12T08:00:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "Nate Soares on How AI Really Could Kill Us All",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/f6fd1a43-7c77-47c2-ae42-b4e0016e2d9b/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83"
     },
     "f722623a-bd67-4af3-b5e4-db0ce09730cf": {
       "feed_name": "Eurodollar University",
