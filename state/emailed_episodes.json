@@ -217,6 +217,15 @@
         "Whether service-price/market-based core inflation firms up further"
       ]
     },
+    "0ff95236-c704-11f1-bc99-37d6f467ae9b": {
+      "feed_name": "Goldman Sachs Exchanges",
+      "kind": "podcast",
+      "published": "2026-10-13T14:00:00+00:00",
+      "status": "failed",
+      "tier": "broad",
+      "title": "Where Chinese Exports Are Gaining the Most Market Share",
+      "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD3207274747.mp3"
+    },
     "10cb7e00-5ebd-45b7-9ff6-b4d5007f943e": {
       "feed_name": "Asia Centric",
       "kind": "podcast",
@@ -5698,6 +5707,15 @@
       "tier": "plumbing",
       "title": "Adam Posen Thinks Things Could Get Very 'Messy' for the Fed",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/ffabb0eb-48cc-4ad4-8c96-b4b701728958/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83"
+    },
+    "marketmatters.podbean.com/03d2a938-84c6-3ec6-aa8c-7c0be15eb1b1": {
+      "feed_name": "Making Sense (J.P. Morgan)",
+      "kind": "podcast",
+      "published": "2026-10-13T13:25:32+00:00",
+      "status": "failed",
+      "tier": "quant",
+      "title": "Blackstone on hedge funds: Why multi-strats are back",
+      "url": "https://mcdn.podbean.com/mf/web/vpmu3uxsvh4v6ft6/JPM_Making_Sense_Navigating_the_Hedge_Fund_Frontier_EP_2_FINAL8j538.mp3"
     },
     "marketmatters.podbean.com/15e8e7b4-cac1-310d-ac54-befcf10909e3": {
       "feed_name": "Making Sense (J.P. Morgan)",
