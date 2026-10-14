@@ -5633,6 +5633,15 @@
         "US gasoline/diesel inventory and crack spread levels"
       ]
     },
+    "f7ca5200-c3c9-4a47-b986-756cf8db9024": {
+      "feed_name": "Top Traders Unplugged",
+      "kind": "podcast",
+      "published": "2026-10-14T04:00:00+00:00",
+      "status": "failed",
+      "tier": "quant",
+      "title": "UGO13: How Much Longer Can AI Carry the Market ft. Christian Mueller-Glissmann",
+      "url": "https://episodes.captivate.fm/episode/f7ca5200-c3c9-4a47-b986-756cf8db9024.mp3"
+    },
     "fa6e0db8-e2d7-4bc3-a2be-8c13a0ed73f7": {
       "feed_name": "Top Traders Unplugged",
       "kind": "podcast",
