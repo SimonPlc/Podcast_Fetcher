@@ -577,6 +577,15 @@
       "url": "https://episodes.captivate.fm/episode/1d1489fb-454f-49ce-ab59-e6770c6833aa.mp3",
       "watch": []
     },
+    "1d6b25de-882c-40fe-98d0-c80b0419f819": {
+      "feed_name": "Cloud 9fin",
+      "kind": "podcast",
+      "published": "2026-10-14T16:39:59+00:00",
+      "status": "failed",
+      "tier": "credit",
+      "title": "Shall I compare thee to an English restructuring?",
+      "url": "https://media.transistor.fm/f41535d8/cd60d5bd.mp3"
+    },
     "1e9fa654-4b9e-4543-8859-b9b525dd3c62": {
       "feed_name": "The CLO Investor Podcast",
       "implications": "Directly relevant to CLO debt and equity positioning: current pricing references (AAA ~SOFR+120, X-notes ~SOFR+100) and the refi payback heuristic (~6 months) are usable benchmarks, and the reminder that BSL AAA/AAA-adjacent paper can extend reinvestment via post-RP prepayment reinvestment is a real duration/optionality risk to price when buying CLO debt at a discount in stressed markets.",
@@ -5659,6 +5668,15 @@
       "tier": "quant",
       "title": "TTU153: Why Investors Keep Getting Trend Following Wrong ft. Patrick Welton",
       "url": "https://episodes.captivate.fm/episode/fa6e0db8-e2d7-4bc3-a2be-8c13a0ed73f7.mp3"
+    },
+    "fbbc85b5-8a97-49c6-8847-1d59cd6381d1": {
+      "feed_name": "Eurodollar University",
+      "kind": "podcast",
+      "published": "2026-10-14T15:17:19+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "Paul Tudor Jones Just Issued a Terrifying Warning for 2027",
+      "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/1ba322bd/95e1e6f9.mp3"
     },
     "fe56d18b-1e31-4497-a5f3-78929bf7f563": {
       "feed_name": "Eurodollar University",
