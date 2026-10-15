@@ -2902,6 +2902,15 @@
       "title": "This Is What Consumers 'Always' Do Before a Recession",
       "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/003d87a1/1bf2e07e.mp3"
     },
+    "73a66959-5f2c-4449-b9e6-6fe67c751827": {
+      "feed_name": "Eurodollar University",
+      "kind": "podcast",
+      "published": "2026-10-15T11:00:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "The Private Credit Crisis Just Went Public...",
+      "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/9ea6b32d/7842739f.mp3"
+    },
     "74440db5-011d-46ec-8298-a746c3628802": {
       "feed_name": "Top Traders Unplugged",
       "kind": "podcast",
@@ -3725,6 +3734,24 @@
       "title": "Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
       "url": "https://traffic.megaphone.fm/EWWMN3352251052.mp3",
       "watch": []
+    },
+    "ICMA.podbean.com/7a325185-ae4f-36ed-947d-e0c16ff7e0cd": {
+      "feed_name": "ICMA Podcast",
+      "kind": "podcast",
+      "published": "2026-10-15T12:25:43+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "ICMA Quarterly Briefing Q4 2026: ICSDs announce jurisdictional scope expansion for dematerialised securities issuance option",
+      "url": "https://mcdn.podbean.com/mf/web/huau9wkafe7hwm8q/QRQ4_Miriam7anvp.mp3"
+    },
+    "ICMA.podbean.com/c48d2153-c4c6-31b4-89f1-ae191b57d584": {
+      "feed_name": "ICMA Podcast",
+      "kind": "podcast",
+      "published": "2026-10-15T12:57:54+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "ICMA Quarterly Briefing Q4 2026: MiFIR post-trade transparency in the EU and UK",
+      "url": "https://mcdn.podbean.com/mf/web/qr9ztnptcdmfe6yd/QRQ4_Ninabnmb1.mp3"
     },
     "a12a9081-0f03-4073-b09e-6ddee4a031e6": {
       "feed_name": "Eurodollar University",
@@ -5128,6 +5155,15 @@
       "tier": "plumbing",
       "title": "Bill Nelson on Shrinking the Fed's Balance Sheet and Reviving Interbank Markets",
       "url": "https://traffic.libsyn.com/secure/macromusings/MM-556-BillNelson-Podcast-auphonic.mp3?dest-id=865793"
+    },
+    "e1c6d233-8d4e-43c8-8ee9-f748e1117f69": {
+      "feed_name": "The Julia La Roche Show",
+      "kind": "podcast",
+      "published": "2026-10-15T10:00:00+00:00",
+      "status": "failed",
+      "tier": "broad",
+      "title": "#420 Larry McDonald: The Market Has Already Crashed. The Index Just Hasn\u2019t Noticed",
+      "url": "https://traffic.megaphone.fm/APO4736015068.mp3"
     },
     "e1f6e282-2609-491c-b550-d1fc2626fc6b": {
       "feed_name": "The Julia La Roche Show",
