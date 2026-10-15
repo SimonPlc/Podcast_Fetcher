@@ -1497,6 +1497,15 @@
       "title": "Ellen Correia Golay on All-to-All Trading and Treasury Market Liquidity",
       "url": "https://traffic.libsyn.com/secure/macromusings/MM-561-EllenCoreiaGolay-Podcast-FinalV2-auphonic.mp3?dest-id=865793"
     },
+    "438e5ddd-4f02-4557-99c7-b4e4012fad94": {
+      "feed_name": "The Credit Edge",
+      "kind": "podcast",
+      "published": "2026-10-15T20:00:00+00:00",
+      "status": "failed",
+      "tier": "credit",
+      "title": "TCW Chops Credit Risk to Lowest in 30 Years as CCCs \u2018Cry Uncle\u2019",
+      "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/e74a35e9-c028-4e5f-a3f7-afb10164a717/438e5ddd-4f02-4557-99c7-b4e4012fad94/audio.mp3?utm_source=Podcast&in_playlist=8792a2e9-d66c-4038-a1fe-afb101654894"
+    },
     "44090a48-dacc-4139-9a2a-07cb5aba969b": {
       "feed_name": "Eurodollar University",
       "implications": "Reinforces the case for continued front-end rate-cut pricing rather than reacting to noisy payroll beats \u2014 a rates desk should weight underlying labor trend/revision patterns over headline releases when positioning duration and OIS/SOFR forward curves ahead of the FOMC; no direct repo, credit, or securitization angle here.",
@@ -2816,6 +2825,15 @@
       "title": "How to build a data centre",
       "url": "https://sphinx.acast.com/p/open/s/64db93c01796c400110e0ce3/e/6ad07cfd8f34078889b3861f/media.mp3"
     },
+    "6ad1248b94a3daa98eca62d9": {
+      "feed_name": "Unhedged",
+      "kind": "podcast",
+      "published": "2026-10-15T20:00:00+00:00",
+      "status": "failed",
+      "tier": "credit",
+      "title": "The AI boom stumbles",
+      "url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6ad1248b94a3daa98eca62d9/media.mp3"
+    },
     "6e1ad772-adab-4113-a7d9-a22d1fb5f171": {
       "feed_name": "Eurodollar University",
       "implications": "For a rates/repo book, the piece argues against reading the long-end back-up as the start of a durable bear-steepening or term-premium blowout \u2014 instead it frames the move as front-end-led richening (2yr rallying on rate-cut expectations) consistent with bull-steepening, which should inform curve RV positioning (10s30s, 2s30s) and skepticism toward auction-tail headlines as standalone signals.",
@@ -3779,6 +3797,24 @@
       "tier": "plumbing",
       "title": "ICMA Quarterly Briefing Q4 2026: Building the bridge to the next generation of primary markets",
       "url": "https://mcdn.podbean.com/mf/web/pdk93fv7am7kyevr/QRQ4_Georginaasih7.mp3"
+    },
+    "ICMA.podbean.com/e187793a-bdda-30f5-b25b-0a8121acbbbd": {
+      "feed_name": "ICMA Podcast",
+      "kind": "podcast",
+      "published": "2026-10-15T12:18:06+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "ICMA Quarterly Briefing Q4 2026: Third country CSDs recognition under EU CSDR: SIU MISP alleviation ahead of 17 January 2027",
+      "url": "https://mcdn.podbean.com/mf/web/6j58adir6izady3e/QRQ4_Ruari7h3pa.mp3"
+    },
+    "ICMA.podbean.com/e2906b66-6f53-3c4f-b90f-f94dd14e5fac": {
+      "feed_name": "ICMA Podcast",
+      "kind": "podcast",
+      "published": "2026-10-15T11:44:28+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "ICMA Quarterly Briefing Q4 2026: SEC mandatory clearing for US Treasuries",
+      "url": "https://mcdn.podbean.com/mf/web/9jsjapnapw2ac9wb/QRQ4_Zhanadd75.mp3"
     },
     "ICMA.podbean.com/f9a7073b-6a3a-3b82-a355-6d3dbe35caa7": {
       "feed_name": "ICMA Podcast",
