@@ -1338,6 +1338,15 @@
         "Diesel/distillate inventory levels heading into Northeast heating season"
       ]
     },
+    "3f4cc947-c311-4d1c-b77b-b4e500f4321b": {
+      "feed_name": "Money Stuff: The Podcast",
+      "kind": "podcast",
+      "published": "2026-10-16T15:09:29+00:00",
+      "status": "failed",
+      "tier": "credit",
+      "title": "Release Me From This Demon",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/3f4cc947-c311-4d1c-b77b-b4e500f4321b/audio.mp3?utm_source=Podcast&in_playlist=77e6a3a7-290d-4a82-8164-b14001353ef2"
+    },
     "3f71ac5b-b2bd-4e53-a012-f853f47dfbe2": {
       "feed_name": "The Julia La Roche Show",
       "implications": "background, not actionable -- this is retail-oriented commentary on gold, Fed critique, and mortgage-REIT structure with no repo, funding, rates-policy, or credit-derivatives content relevant to an HK bank financing/repo desk.",
@@ -4959,6 +4968,15 @@
       "tier": "credit",
       "title": "Subprime Time \u2014 What does music royalty ABS look like today?",
       "url": "https://media.transistor.fm/44bb7ecc/a017104f.mp3"
+    },
+    "d3190530-c96c-11f1-b54c-abab057e6c26": {
+      "feed_name": "The Macro Trading Floor",
+      "kind": "podcast",
+      "published": "2026-10-16T14:19:00+00:00",
+      "status": "failed",
+      "tier": "macro",
+      "title": "AI Bubble Popping Or A Boring Pullback?",
+      "url": "https://traffic.megaphone.fm/ALFINVESTMENTSTRATEGYBV7081549916.mp3"
     },
     "d3e1b5c0-d5d2-4b3c-9b73-b4cf0149e262": {
       "feed_name": "The Credit Edge",
