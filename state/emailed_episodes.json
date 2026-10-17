@@ -217,6 +217,15 @@
         "Whether service-price/market-based core inflation firms up further"
       ]
     },
+    "0f7b2d45-33e7-428a-bc59-bfea11badf1d": {
+      "feed_name": "The Julia La Roche Show",
+      "kind": "podcast",
+      "published": "2026-10-17T12:00:00+00:00",
+      "status": "failed",
+      "tier": "broad",
+      "title": "#421 Chris Whalen: Double-Digit Inflation, Falling Home Prices & a Fed Forced to Hike",
+      "url": "https://traffic.megaphone.fm/APO7256426932.mp3"
+    },
     "0ff95236-c704-11f1-bc99-37d6f467ae9b": {
       "feed_name": "Goldman Sachs Exchanges",
       "kind": "podcast",
