@@ -1056,6 +1056,15 @@
         "Growth of tokenized repo volumes"
       ]
     },
+    "3602ab20-c575-47ca-94a6-e43fee0a2300": {
+      "feed_name": "Eurodollar University",
+      "kind": "podcast",
+      "published": "2026-10-22T11:00:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "Anthropic Has $750 Billion in Commitments\u2026 and Just $17 Billion in Revenue",
+      "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/2fca590b/cd1e3339.mp3"
+    },
     "363a4bf4-a179-11f1-ad46-8bd88e04ce7d": {
       "feed_name": "Monetary Matters",
       "kind": "podcast",
@@ -5280,6 +5289,15 @@
       "tier": "plumbing",
       "title": "The Private Credit Boom is Over: Redemption Requests Exceed Liquidity | James Elbaor | Marlton LLC",
       "url": "https://traffic.megaphone.fm/EWWMN7582797836.mp3"
+    },
+    "de394157-2f74-443e-bd10-63548ac4a6a9": {
+      "feed_name": "The Julia La Roche Show",
+      "kind": "podcast",
+      "published": "2026-10-22T10:00:00+00:00",
+      "status": "failed",
+      "tier": "broad",
+      "title": "#423 Jordi Visser: Why the AI Bears Are Wrong \u2014 and the One Asset He\u2019d Bet On Right Now",
+      "url": "https://traffic.megaphone.fm/APO5249339087.mp3"
     },
     "deaab75c-044c-4c35-b13b-5cc2e29bd9a0": {
       "feed_name": "Eurodollar University",
