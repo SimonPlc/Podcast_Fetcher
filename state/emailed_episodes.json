@@ -4564,6 +4564,15 @@
         "Fed policy path and rate-cut timing given reported pushback in cut expectations"
       ]
     },
+    "bafaf4f8-ce63-11f1-baf0-33dcd222d51d": {
+      "feed_name": "Goldman Sachs Exchanges",
+      "kind": "podcast",
+      "published": "2026-10-23T04:00:00+00:00",
+      "status": "failed",
+      "tier": "broad",
+      "title": "Why Oil Prices Are Surging Despite Recovering Supply",
+      "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD8749172286.mp3"
+    },
     "bbee8dff-1ad3-4ccd-b707-b4bb00f7df11": {
       "feed_name": "Odd Lots",
       "kind": "podcast",
