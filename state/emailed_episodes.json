@@ -4298,6 +4298,15 @@
         "30-year Treasury yield reaction if it breaks below ~5.05-5.1%"
       ]
     },
+    "a9b4a70b-f0c8-424d-a862-88e30063e325": {
+      "feed_name": "Eurodollar University",
+      "kind": "podcast",
+      "published": "2026-10-26T11:00:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "Airlines Just Sent a TERRIFYING Warning About the Economy",
+      "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/98249cbd/19a21a6b.mp3"
+    },
     "ac7406bd-0582-4820-af93-b4c100274867": {
       "feed_name": "Odd Lots",
       "implications": "Background, not actionable -- this is a retail-operations and loss-prevention story with no bearing on repo, funding markets, rates, or credit.",
@@ -6750,6 +6759,15 @@
         "US-China trade deadline in October",
         "UK budget at end of October and 2027 European elections (France, Italy, Spain)"
       ]
+    },
+    "omfif.podbean.com/07e613fa-7c24-3aeb-a5cc-58c95af32479": {
+      "feed_name": "Invested: The OMFIF Podcast",
+      "kind": "podcast",
+      "published": "2026-10-26T11:21:06+00:00",
+      "status": "failed",
+      "tier": "macro",
+      "title": "The Treasury paradox facing reserve managers",
+      "url": "https://mcdn.podbean.com/mf/web/ptfv7u9uwykwz7c7/UBS_mixdown2.mp3"
     },
     "omfif.podbean.com/174dd821-debe-3bae-a693-e441a52e8f5f": {
       "feed_name": "Invested: The OMFIF Podcast",
