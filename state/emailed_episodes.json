@@ -1083,6 +1083,15 @@
         "Growth of tokenized repo volumes"
       ]
     },
+    "351a74ee-d081-429f-9783-35f2026010b4": {
+      "feed_name": "The Julia La Roche Show",
+      "kind": "podcast",
+      "published": "2026-10-27T10:00:00+00:00",
+      "status": "failed",
+      "tier": "broad",
+      "title": "#425 Axel Merk: I Sat Down With Kevin Warsh \u2014 What the Fed Is Really Up To and Where Gold Goes Next",
+      "url": "https://traffic.megaphone.fm/APO9906993940.mp3"
+    },
     "3602ab20-c575-47ca-94a6-e43fee0a2300": {
       "feed_name": "Eurodollar University",
       "kind": "podcast",
@@ -3600,6 +3609,15 @@
       "tier": "broad",
       "title": "#419 Chris Whalen: Mortgage Funeral, No Bond Rally & the Deficit Washington Won\u2019t Talk About",
       "url": "https://traffic.megaphone.fm/APO6384737840.mp3"
+    },
+    "83374264-d215-11f1-9fc7-4fad52c9ded2": {
+      "feed_name": "Monetary Matters",
+      "kind": "podcast",
+      "published": "2026-10-27T14:48:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "The Fed Put Is Dead: Why Stagflation & a Bear Market Are Next | Vincent Deluard | StoneX",
+      "url": "https://traffic.megaphone.fm/EWWMN2984709236.mp3"
     },
     "8406292c-7c32-4f86-b994-80188f6cbb88": {
       "feed_name": "Eurodollar University",
