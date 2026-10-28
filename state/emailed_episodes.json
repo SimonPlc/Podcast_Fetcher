@@ -3889,6 +3889,15 @@
         "Whether CCC/single-B leveraged loan and HY spreads broadly continue tightening or reverse"
       ]
     },
+    "8ef5395a-de2f-4e77-9327-73b3e572cbda": {
+      "feed_name": "Cloud 9fin",
+      "kind": "podcast",
+      "published": "2026-10-28T18:47:45+00:00",
+      "status": "failed",
+      "tier": "credit",
+      "title": "Unpacking JP Morgan\u2019s lower middle market push",
+      "url": "https://media.transistor.fm/e544b936/c50e6215.mp3"
+    },
     "90702b16-4f76-41e2-aa6d-6dc359f5ffdb": {
       "feed_name": "The Julia La Roche Show",
       "kind": "podcast",
@@ -4264,6 +4273,15 @@
       "tier": "quant",
       "title": "IL52: Why Staying Calm Is the Ultimate Investing Edge ft. David Booth",
       "url": "https://episodes.captivate.fm/episode/a55f3031-7b10-4295-8ca2-2170433f7ee3.mp3"
+    },
+    "a67a1374-9f5e-4874-a06e-b4f100ddfecf": {
+      "feed_name": "Asia Centric",
+      "kind": "podcast",
+      "published": "2026-10-28T21:05:00+00:00",
+      "status": "failed",
+      "tier": "asia",
+      "title": "BHP CFO on Copper, AI and Mining's New Era",
+      "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/992d604b-06ca-40cb-88b2-af6c016f5aa0/a67a1374-9f5e-4874-a06e-b4f100ddfecf/audio.mp3?utm_source=Podcast&in_playlist=75a9f17c-2ff1-42c9-9a27-af6c016fae89"
     },
     "a7d5026d-0d53-43f6-9415-0c78d7d58631": {
       "feed_name": "Top Traders Unplugged",
