@@ -4752,6 +4752,15 @@
         "Further BoJ/MoF yen intervention activity"
       ]
     },
+    "b5e4fd76-d618-11f1-a85a-afe698c2f0ec": {
+      "feed_name": "Monetary Matters",
+      "kind": "podcast",
+      "published": "2026-11-01T17:21:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "The Fed Has AI\u2019s Back | Dan Krausz on \u201cLiquidity Trap Door\u201d In AI Infrastructure and Why Policymakers Are Inclined to Support Financial Conditions",
+      "url": "https://traffic.megaphone.fm/EWWMN2132300470.mp3"
+    },
     "b614da06-213b-4d27-ae05-b4c101309140": {
       "feed_name": "Odd Lots",
       "implications": "Background, not actionable -- the content concerns AI safety, regulation, and one large asset manager's internal AI build-out rather than funding markets, rates, or credit; the only oblique relevance is the reminder that systematic/AI-driven flows are becoming a larger share of market participants over time.",
