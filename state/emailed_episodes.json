@@ -1,5 +1,14 @@
 {
   "processed": {
+    "01ecf3ed-0171-49e8-b18b-76309ed63e20": {
+      "feed_name": "Eurodollar University",
+      "kind": "podcast",
+      "published": "2026-11-01T12:00:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "The AI Bubble Is Now A Debt Disaster",
+      "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/d689ec5f/7f9bfad0.mp3"
+    },
     "04861ce2-b5dc-11f1-bce4-f3670064480a": {
       "feed_name": "Goldman Sachs Exchanges",
       "implications": "Background, not actionable -- this is a wealth-management and M&A advisory discussion on family business succession and governance with no repo/funding, rates, or credit/structured-credit content relevant to the reader's book.",
