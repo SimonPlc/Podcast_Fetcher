@@ -3867,6 +3867,24 @@
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/8d30821d-cf7d-4147-b00e-b4cb01647404/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
       "watch": []
     },
+    "8d41f02c-cfbb-4d5d-9940-b4f6012379c2": {
+      "feed_name": "Odd Lots",
+      "kind": "podcast",
+      "published": "2026-11-03T09:00:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "An Election Day Special With Nate Silver",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/8d41f02c-cfbb-4d5d-9940-b4f6012379c2/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83"
+    },
+    "8d4e3421-d358-41a2-9473-d5ff7e6c638f": {
+      "feed_name": "The Julia La Roche Show",
+      "kind": "podcast",
+      "published": "2026-11-03T11:00:00+00:00",
+      "status": "failed",
+      "tier": "broad",
+      "title": "#428 Jim Bianco: After 6 Years Bearish, I\u2019m Finally Turning on Bonds \u2014 Why 5% Is the New Normal",
+      "url": "https://traffic.megaphone.fm/APO4899437036.mp3"
+    },
     "8da257f0-b552-4285-b696-150bd22ebfdc": {
       "feed_name": "Macro Hive Conversations",
       "implications": "Background, not actionable for a repo/funding book -- the Fed-hike/no-hike debate and the HYGH credit view are worth filing away as one macro voice's read on rate-cycle risk, but the substance is an equity/EM allocation call with no direct repo, collateral, or curve/basis content.",
