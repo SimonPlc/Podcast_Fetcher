@@ -4532,6 +4532,15 @@
         "30-year Treasury yield reaction if it breaks below ~5.05-5.1%"
       ]
     },
+    "a9ae4836-d7f4-11f1-a4ce-aff0b3913dc1": {
+      "feed_name": "Forward Guidance",
+      "kind": "podcast",
+      "published": "2026-11-04T11:00:00+00:00",
+      "status": "failed",
+      "tier": "macro",
+      "title": "Is The AI Selloff A Buying Opportunity? | Warren Pies",
+      "url": "https://traffic.megaphone.fm/BWG1629607902.mp3"
+    },
     "a9b4a70b-f0c8-424d-a862-88e30063e325": {
       "feed_name": "Eurodollar University",
       "kind": "podcast",
