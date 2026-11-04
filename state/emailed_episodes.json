@@ -6127,6 +6127,15 @@
         "Vistra/Constellation leverage trajectory toward stated 2x net debt/EBITDA targets"
       ]
     },
+    "ea7cfc96-d87a-11f1-bd71-ffb1c5d3cebe": {
+      "feed_name": "Goldman Sachs Exchanges",
+      "kind": "podcast",
+      "published": "2026-11-04T18:17:00+00:00",
+      "status": "failed",
+      "tier": "broad",
+      "title": "John Waldron on GDP Growth, AI, and the M&A Outlook",
+      "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD4850394850.mp3"
+    },
     "eac96156-c193-11f1-981c-4b26d5758027": {
       "feed_name": "Monetary Matters",
       "kind": "podcast",
