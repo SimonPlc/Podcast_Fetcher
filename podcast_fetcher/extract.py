@@ -79,6 +79,27 @@ def parse_extraction(raw: str) -> ExtractResult:
     )
 
 
+_PARSE_ATTEMPTS = 2
+
+
+def _run_and_parse(instructions: str, stdin_text: str, claude_model: str | None) -> ExtractResult:
+    """Call Claude and parse the reply, retrying once on a malformed reply.
+
+    A reply that is not valid JSON (e.g. an unescaped quote inside a
+    fenced block) is usually a one-off model formatting slip, and parse
+    failures are recorded terminally as `failed`, so one retry is much
+    cheaper than losing the episode.
+    """
+    for attempt in range(_PARSE_ATTEMPTS):
+        raw = run_claude(instructions, stdin_text, model=claude_model)
+        try:
+            return parse_extraction(raw)
+        except LLMParseError:
+            if attempt == _PARSE_ATTEMPTS - 1:
+                raise
+    raise AssertionError("unreachable")
+
+
 def extract_episode(
     episode: Episode,
     transcript: str,
@@ -88,8 +109,7 @@ def extract_episode(
 ) -> ExtractResult:
     """Run the extraction prompt against one episode's transcript."""
     instructions = render_extract_prompt("transcript", prompt=prompt)
-    raw = run_claude(instructions, transcript, model=claude_model)
-    return parse_extraction(raw)
+    return _run_and_parse(instructions, transcript, claude_model)
 
 
 def extract_article(
@@ -103,5 +123,4 @@ def extract_article(
     told which kind of source it's reading via article.source_kind.
     """
     instructions = render_extract_prompt(article.source_kind, prompt=prompt)
-    raw = run_claude(instructions, article.body, model=claude_model)
-    return parse_extraction(raw)
+    return _run_and_parse(instructions, article.body, claude_model)
