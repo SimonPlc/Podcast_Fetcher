@@ -2240,6 +2240,49 @@
       "title": "The Certainty Premium: What\u2019s Driving the Tech Sector Divergence? | Jeff Keller",
       "url": "https://traffic.megaphone.fm/EWWMN9055900805.mp3"
     },
+    "5b63d22a-b30e-49d0-bdb5-0963e91d46a5": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "The reserves-rate/fed-funds differential point is the one actionable thread for a repo/financing desk \u2014 it's a specific, checkable precondition Whalen sets for any Fed balance-sheet (QT-adjacent) move, worth tracking against actual IORB-vs-EFFR/repo settings; the rest (AI bubble, housing, gold) is background color with only indirect relevance via bank/non-bank credit health and mortgage REIT spreads.",
+      "key_claims": [
+        "Whalen: the Fed is still unwilling to let the rate it pays on reserves fall below the fed funds/repo rate, which he says must happen before any balance-sheet shrinkage under Warsh can occur",
+        "Whalen: home sales are at a 16-year low (since 2010) with mortgage rates around 7-7.5%",
+        "Whalen: bank unrealized losses have risen back to levels seen a couple of years ago (referencing Schwab and Bank of America)",
+        "Whalen: the federal budget deficit is about $2 trillion a year, contributing to inflation and crowding out via higher long-term rates",
+        "Whalen: he holds close to 20% of his portfolio in Annaly Capital, treating it as a high-yield substitute for T-bills, and notes it trades below book value",
+        "Whalen: expects a weak first quarter of 2026 for banks and non-banks tied to mortgage/non-bank credit as volumes fall",
+        "Whalen: gold is near $3,800/oz, with continued central bank buying, including gold transfers from Russia to China"
+      ],
+      "kind": "podcast",
+      "one_liner": "Mostly macro/political color (AI bubble, housing, gold) but with a real nugget for rates desks: Whalen argues Fed credibility hinges on widening the gap between the rate paid on reserves and the fed funds/repo rate before any balance-sheet runoff can happen.",
+      "published": "2026-11-14T11:00:00+00:00",
+      "recap": "Chris Whalen and host Julia La Roche cover a wide sweep of markets. On Nvidia, Whalen argues the AI trade is deflating, calling the Jensen Huang/China chip-sanctions story a sign the bubble is unwinding, with gold down and rates up as a result. On housing, he flags home sales at a 16-year low (since 2010), driven by 7-7.5% mortgage rates; volumes in the secondary mortgage market are falling fast, pointing to a soft first quarter of 2026 across banks and non-banks, and he expects the mortgage/realtor industry to shrink after its pandemic-era hiring boom. On the Fed, he says markets and economists largely view new Chair Kevin Warsh as not yet credible, and that regaining credibility requires both action on rates (he floats a possible 50bp hike) and, crucially, letting the rate paid on reserves fall below the fed funds/repo rate \u2014 something the Fed has so far refused to do, which he says blocks any real balance-sheet shrinkage. He also discusses bank unrealized losses rising again as rates climb, a $2 trillion deficit pressuring long rates via crowding out, and recounts gold-rehypothecation chatter (gold moving out of New York vaults, Jamie Dimon's comments) as benign, not a sign of shortage. He closes by describing Annaly Capital as roughly 20% of his own portfolio, used as a high-yield cash substitute, citing its mortgage-servicing-rights buffer and below-book-value pricing.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "reserves",
+        "repo rate",
+        "balance sheet",
+        "mortgage REITs",
+        "Annaly",
+        "non-bank credit",
+        "gold",
+        "housing"
+      ],
+      "terms": [
+        "GSE -- government-sponsored enterprise (e.g., Fannie Mae/Freddie Mac)",
+        "REIT -- real estate investment trust"
+      ],
+      "tier": "broad",
+      "title": "#433 Chris Whalen: Nobody Will Fix the Deficit, Inflation Is the Only Issue & Gold\u2019s Dip Is a Gift",
+      "url": "https://traffic.megaphone.fm/APO6569905313.mp3",
+      "watch": [
+        "Whether the Fed widens the gap between the rate paid on reserves and the fed funds/repo rate, which Whalen treats as the precondition for balance-sheet shrinkage",
+        "Size and timing of the next Fed rate move following the midterms",
+        "Mortgage/non-bank credit volumes into Q1 2026 as a read on bank and non-bank lender revenue",
+        "Annaly Capital's book value and spread trends as a mortgage-REIT proxy"
+      ]
+    },
     "5cc6a280-e79d-41f0-9a69-b89bd3fe5644": {
       "feed_name": "Macro Musings",
       "implications": "Background, not actionable for repo/rates trading day-to-day, but the T-bill demand framework (0.6-0.8 dollars of new T-bill demand per dollar of stablecoin growth, sourced mainly from bank deposit outflows and foreign inflows) is a useful structural data point for anyone modeling front-end Treasury bill supply/demand and potential community-bank funding stress over a multi-year horizon.",
@@ -2447,6 +2490,39 @@
         "Further gold leasing/collateral-swap activity as a liquidity-stress indicator",
         "China credit growth and PBOC bond-buying dynamics amid ongoing property-sector deflation",
         "BOJ policy commentary on yen weakness and Japanese carry-trade repatriation"
+      ]
+    },
+    "61dba7c2-e043-11f1-b5cb-174ca1513211": {
+      "feed_name": "Monetary Matters",
+      "implications": "Background, not actionable -- this is equity market-structure and small-cap capital-formation content with no repo, funding, rates, or credit angle relevant to the reader's book.",
+      "key_claims": [
+        "Coulson states OTC Markets' operating margin is around 30%, versus roughly 60% for some exchange competitors",
+        "Coulson claims the vast majority of stock promotion dollar volume has migrated from OTC markets to exchanges",
+        "Coulson cites the SEC's pending rule to expand ATM offering access to OTCQX/OTCQB issuers and preempt state blue-sky rules for SEC-registered offerings, expected to be clarified in Q1 of next year"
+      ],
+      "kind": "podcast",
+      "one_liner": "A discussion of OTC Markets Group's business model, listing tiers, and SEC capital-formation proposals -- market-structure color with no repo, rates, or credit content.",
+      "published": "2026-11-14T15:52:00+00:00",
+      "recap": "Jack interviews Cromwell Coulson, CEO of OTC Markets Group, about the company's role as a non-exchange market operator for over-the-counter securities. Coulson explains OTC Markets runs several ATSs (alternative trading systems) under FINRA oversight, providing broker-dealer connectivity, market data licensing, and issuer disclosure services. He details the tiered market structure -- OTCQX (best market, for ADRs like Roche and Adidas and community banks), OTCQB (venture market for emerging companies), OTCID Basic, Pink Limited, and the Expert Market -- each reflecting different disclosure and transparency standards, with flags (including a historical skull-and-crossbones) used to warn investors about promotional activity rather than halting trading. He argues most stock promotion/pump-and-dump activity has migrated to major exchanges rather than OTC markets. A substantial portion covers pending SEC proposals to expand ATM (at-the-market) share offerings to OTCQX/OTCQB issuers and preempt state blue-sky rules for SEC-registered offerings, which Coulson says could meaningfully improve capital formation for smaller public companies, expected to surface in early-to-mid next year. He also discusses the secular decline in public company counts (attributing it to regulatory burden and tax advantages favoring private equity/VC), OTC Markets' own profitability and data licensing growth, and closes with measured optimism on tokenization as a useful-in-parts technology rather than a wholesale replacement for existing settlement infrastructure (DTC/NSCC).",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "market structure",
+        "equities",
+        "SEC",
+        "capital formation",
+        "tokenization"
+      ],
+      "terms": [
+        "ATM -- at-the-market offering, where an issuer sells newly issued shares directly into the market over time via a broker rather than in a single underwritten block",
+        "ATS -- alternative trading system, a non-exchange venue registered with the SEC for matching securities trades",
+        "DTC/NSCC -- Depository Trust Company / National Securities Clearing Corporation, the US entities providing central securities depository and clearing services"
+      ],
+      "tier": "plumbing",
+      "title": "The Case for Public Markets | Cromwell Coulson on Small-Cap Capital Formation, Disclosure, and SEC Offering Reform",
+      "url": "https://traffic.megaphone.fm/EWWMN1959244115.mp3",
+      "watch": [
+        "SEC's proposed ATM expansion to OTCQX/OTCQB issuers and state blue-sky preemption, expected to clarify in Q1 next year"
       ]
     },
     "64f69dd8-9167-4b6f-9c04-6221f62e7ca2": {
@@ -4109,6 +4185,39 @@
         "2s10s Treasury spread for inversion",
         "PCE and retail sales prints for reversal after the August-September front-loading spike",
         "Diesel/heating oil prices into winter as a consumer cost-squeeze indicator"
+      ]
+    },
+    "9d24ac51-fef1-4f4e-8cda-b501016c2b98": {
+      "feed_name": "Odd Lots",
+      "implications": "Background, not actionable for repo/rates/credit books \u2014 this is a single-name equity and tech-policy story; the only crossover is a passing reference to NVIDIA's vendor-financing/supply-commitment role, which is worth filing away as a tail risk to AI-capex-linked credit exposures (data-center debt, hyperscaler capex-linked issuance) if NVIDIA's financing commitments to its ecosystem were ever to wobble.",
+      "key_claims": [
+        "Stacy Rasgon (Bernstein) downgraded NVIDIA from outperform and halved his price target following Jensen Huang's dismissal, citing key-man risk rather than a change in near-term revenue estimates.",
+        "Rasgon: direct China (incl. Hong Kong) sales were roughly 8% of NVIDIA revenue last quarter, with effectively no data-center chips shipped directly into China because China itself is blocking it; US customers are over 60% of revenue and Taiwanese customers are in the low 20s%.",
+        "Rasgon estimates NVIDIA's 2027 revenue guidance implies growth of at least 70%, approaching $700 billion, while citing Broadcom's data-center revenue guidance (~$115bn in 2027, doubling again to ~$230bn in 2028) and AMD's GPU sales roughly tripling year-over-year into the low $40 billions.",
+        "Rasgon raises NVIDIA's 'central bank of AI'/vendor-financing role \u2014 large capital commitments for supply (memory, wafers, CoWoS) driven by Huang's personal relationships \u2014 as an unresolved risk now that he is gone, noting reports that outgoing CFO/interim CEO Colette may not have been fully aligned with the scale of those commitments."
+      ],
+      "kind": "podcast",
+      "one_liner": "A deep dive into NVIDIA's Jensen Huang ouster and China chip-export politics is almost entirely an equity/corporate-governance story, with only a glancing, non-quantified mention of NVIDIA's 'vendor financing' ecosystem role that would interest a repo/credit trader.",
+      "published": "2026-11-14T09:00:00+00:00",
+      "recap": "Bloomberg's Odd Lots hosts Joe Weisenthal and Tracy Alloway talk to Bernstein analyst Stacy Rasgon about NVIDIA's crisis following Jensen Huang's abrupt dismissal amid allegations he had a relationship with a businesswoman, Alice Wang, whom US intelligence reportedly flagged as a possible asset for China. Rasgon explains he downgraded NVIDIA from outperform and halved his price target not because near-term revenue is at risk, but because of unresolved key-man risk, expected tape bombs from congressional investigations, and uncertainty over succession. He argues Huang's personal relationships underpinned supplier and customer commitments (handshake deals) that a new CEO may struggle to maintain, and that his unmatched 10-year technology foresight (e.g., early CUDA investment) is hard to replace. Rasgon breaks down NVIDIA's revenue geography (direct China sales ~8%, US customers >60%, Taiwan ~20s%), arguing China itself, not the US, is currently blocking shipment of even permitted older chips, and flags a parallel issue of China accessing GPU capacity remotely via third countries, which regulators may crack down on. He discusses rising China-hawk sentiment in Washington (Besson publicly blaming Lutnick), competitive threats from AMD, Broadcom, Google TPUs and custom silicon, and closes by noting NVIDIA's reputation as the 'central bank of AI' \u2014 financing supply and partnerships largely through Huang's personal will \u2014 as an underappreciated risk now that he's gone.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "NVIDIA",
+        "equities",
+        "semiconductors",
+        "China export controls",
+        "key-man risk",
+        "vendor financing"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "How Wall Street Is Bracing For the Post-Jensen Huang Nvidia Era",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/9d24ac51-fef1-4f4e-8cda-b501016c2b98/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+      "watch": [
+        "NVIDIA earnings next week for any change to near-term guidance or commentary on financing/backstop commitments",
+        "Further US political action on chip export policy toward China",
+        "Any disclosure on NVIDIA's 'vendor financing' exposure to AI ecosystem partners under a new CEO"
       ]
     },
     "9f814b96-af8c-11f1-abee-bb716c7e91d0": {

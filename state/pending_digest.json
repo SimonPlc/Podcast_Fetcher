@@ -128,6 +128,49 @@
         "Further CTA de-risking/re-risking around energy/rates volatility into year-end"
       ]
     },
+    "5b63d22a-b30e-49d0-bdb5-0963e91d46a5": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "The reserves-rate/fed-funds differential point is the one actionable thread for a repo/financing desk \u2014 it's a specific, checkable precondition Whalen sets for any Fed balance-sheet (QT-adjacent) move, worth tracking against actual IORB-vs-EFFR/repo settings; the rest (AI bubble, housing, gold) is background color with only indirect relevance via bank/non-bank credit health and mortgage REIT spreads.",
+      "key_claims": [
+        "Whalen: the Fed is still unwilling to let the rate it pays on reserves fall below the fed funds/repo rate, which he says must happen before any balance-sheet shrinkage under Warsh can occur",
+        "Whalen: home sales are at a 16-year low (since 2010) with mortgage rates around 7-7.5%",
+        "Whalen: bank unrealized losses have risen back to levels seen a couple of years ago (referencing Schwab and Bank of America)",
+        "Whalen: the federal budget deficit is about $2 trillion a year, contributing to inflation and crowding out via higher long-term rates",
+        "Whalen: he holds close to 20% of his portfolio in Annaly Capital, treating it as a high-yield substitute for T-bills, and notes it trades below book value",
+        "Whalen: expects a weak first quarter of 2026 for banks and non-banks tied to mortgage/non-bank credit as volumes fall",
+        "Whalen: gold is near $3,800/oz, with continued central bank buying, including gold transfers from Russia to China"
+      ],
+      "kind": "podcast",
+      "one_liner": "Mostly macro/political color (AI bubble, housing, gold) but with a real nugget for rates desks: Whalen argues Fed credibility hinges on widening the gap between the rate paid on reserves and the fed funds/repo rate before any balance-sheet runoff can happen.",
+      "published": "2026-11-14T11:00:00+00:00",
+      "recap": "Chris Whalen and host Julia La Roche cover a wide sweep of markets. On Nvidia, Whalen argues the AI trade is deflating, calling the Jensen Huang/China chip-sanctions story a sign the bubble is unwinding, with gold down and rates up as a result. On housing, he flags home sales at a 16-year low (since 2010), driven by 7-7.5% mortgage rates; volumes in the secondary mortgage market are falling fast, pointing to a soft first quarter of 2026 across banks and non-banks, and he expects the mortgage/realtor industry to shrink after its pandemic-era hiring boom. On the Fed, he says markets and economists largely view new Chair Kevin Warsh as not yet credible, and that regaining credibility requires both action on rates (he floats a possible 50bp hike) and, crucially, letting the rate paid on reserves fall below the fed funds/repo rate \u2014 something the Fed has so far refused to do, which he says blocks any real balance-sheet shrinkage. He also discusses bank unrealized losses rising again as rates climb, a $2 trillion deficit pressuring long rates via crowding out, and recounts gold-rehypothecation chatter (gold moving out of New York vaults, Jamie Dimon's comments) as benign, not a sign of shortage. He closes by describing Annaly Capital as roughly 20% of his own portfolio, used as a high-yield cash substitute, citing its mortgage-servicing-rights buffer and below-book-value pricing.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "reserves",
+        "repo rate",
+        "balance sheet",
+        "mortgage REITs",
+        "Annaly",
+        "non-bank credit",
+        "gold",
+        "housing"
+      ],
+      "terms": [
+        "GSE -- government-sponsored enterprise (e.g., Fannie Mae/Freddie Mac)",
+        "REIT -- real estate investment trust"
+      ],
+      "tier": "broad",
+      "title": "#433 Chris Whalen: Nobody Will Fix the Deficit, Inflation Is the Only Issue & Gold\u2019s Dip Is a Gift",
+      "url": "https://traffic.megaphone.fm/APO6569905313.mp3",
+      "watch": [
+        "Whether the Fed widens the gap between the rate paid on reserves and the fed funds/repo rate, which Whalen treats as the precondition for balance-sheet shrinkage",
+        "Size and timing of the next Fed rate move following the midterms",
+        "Mortgage/non-bank credit volumes into Q1 2026 as a read on bank and non-bank lender revenue",
+        "Annaly Capital's book value and spread trends as a mortgage-REIT proxy"
+      ]
+    },
     "6af55eec808d34e7ad17f788": {
       "feed_name": "Under the Banyan Tree",
       "implications": "Background, not actionable for repo/funding or credit-spread positioning; the Fed/dollar discussion is a loose rates-sentiment input, and the hyperscaler debt/equity capex-financing debate is worth filing as a forward indicator of possible IG issuance supply and leverage drift in tech, but nothing here touches collateral, repo, or credit-derivative markets directly.",
