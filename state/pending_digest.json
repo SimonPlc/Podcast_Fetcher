@@ -88,6 +88,46 @@
         "Further NY Fed consumer expectations survey releases for unemployment-fear trend"
       ]
     },
+    "484a08f5-e32e-495d-91ae-48dbec812c44": {
+      "feed_name": "Top Traders Unplugged",
+      "implications": "Background, not actionable for a repo/financing desk \u2014 the content is CTA asset-allocation theory, though the sections on bond-trend convexity, bond-equity correlation flipping sign above ~4-5% inflation, and stagflation dynamics are relevant context for how rates volatility and inflation regime shifts are being priced and hedged by large systematic pools.",
+      "key_claims": [
+        "SocGen CTA index down 3.2% month-to-date (to Nov 11) but up 10.2% YTD; SocGen Trend index down 3.9% MTD, up 9.95% YTD (Alan Dunne)",
+        "US CPI inflation came in around 3.9% y/y, higher than expected, triggering a reversal in fixed income positioning (Av)",
+        "Bond-equity correlation turns positive above roughly 4-5% inflation, undermining bonds' role as equity crisis hedge (Av)",
+        "A 10% allocation to a standard CTA delivers only about \u00b13.5% effective equity exposure but close to \u00b110% effective bond exposure, due to internal risk-equalized leveraging (Av)",
+        "Historical convexity estimates cited: equity trend convexity ~35-40%, bond trend convexity ~20%; commodity and FX trend are roughly flat/uncorrelated to equity drawdowns (Av)",
+        "Adding commodity trend to a liquid CTA book raises Sharpe from ~0.6 to ~0.8, versus alternative trend adding only ~0.6 to 0.65; after adding commodity trend, alternative trend adds essentially zero incremental Sharpe (Av)",
+        "A Man Group paper (Panigirtzoglou et al., October) analyzing ~115 years of data found little differentiation in factor/trend performance between stagflation and overheating regimes, aside from betting-against-beta; Av is skeptical of its conclusions given data-backfilling issues pre-1960s/1970s"
+      ],
+      "kind": "podcast",
+      "one_liner": "A CTA/trend-following portfolio-construction deep dive on convexity and bond-vs-equity trend behavior across inflation regimes \u2014 useful macro/rates background but not a repo or credit desk catalyst.",
+      "published": "2026-11-14T05:00:00+00:00",
+      "recap": "On this Top Traders Unplugged episode, host Alan Dunne and guest Av (a CTA/systematic manager) discuss November's rough patch for trend-following funds (SocGen CTA index down 3.2% month-to-date but still up 10.2% YTD), driven by a reversal in energy positions tied to shifting Middle East expectations and a hotter-than-expected 3.9% US inflation print that whipsawed fixed income. The core of the conversation builds out a framework for why institutions hold CTAs: as standalone alpha, as equity 'crisis alpha'/convexity, or as bond convexity. Av distinguishes 'return convexity' (bonds rallying when equities fall, which is regime-dependent and breaks down above roughly 4-5% inflation) from 'exposure convexity' (CTAs mechanically cutting equity beta and going short as a trend matures, which is slower but more guaranteed). He argues CTAs are far more capital-efficient at delivering bond exposure/convexity than equity convexity, because CTAs lever up low-vol bonds and de-lever high-vol equities to equalize risk contribution. Historically, bond trend offers consistent positive convexity across inflation regimes while equity trend only helps in slow, protracted drawdowns, not sharp snap-back crises (e.g., March/April 2025). Commodity trend is largely uncorrelated to equities but provides strong 'inflation-plus' diversification, especially in overheating/stagflationary environments, and the discussion closes with a critique of a recent Man Group paper trying to condition trend performance on industrial production and inflation regimes jointly.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "CTA",
+        "trend-following",
+        "convexity",
+        "bond-equity correlation",
+        "inflation regime",
+        "rates",
+        "commodities"
+      ],
+      "terms": [
+        "CTA -- Commodity Trading Advisor, a fund manager running systematic (often trend-following) futures strategies",
+        "OIS -- Overnight Index Swap (referenced only via the broader rates context, not directly defined in transcript)",
+        "Sharpe ratio -- risk-adjusted return measure (excess return divided by volatility)"
+      ],
+      "tier": "quant",
+      "title": "SI426: The Hard Part Isn't Buying Trend Following ft. Yoav Git",
+      "url": "https://episodes.captivate.fm/episode/484a08f5-e32e-495d-91ae-48dbec812c44.mp3",
+      "watch": [
+        "Whether the positive bond-equity correlation regime (driven by current ~4% inflation) persists or reverts, since it governs whether bonds still act as a crisis hedge",
+        "Further CTA de-risking/re-risking around energy/rates volatility into year-end"
+      ]
+    },
     "6af55eec808d34e7ad17f788": {
       "feed_name": "Under the Banyan Tree",
       "implications": "Background, not actionable for repo/funding or credit-spread positioning; the Fed/dollar discussion is a loose rates-sentiment input, and the hyperscaler debt/equity capex-financing debate is worth filing as a forward indicator of possible IG issuance supply and leverage drift in tech, but nothing here touches collateral, repo, or credit-derivative markets directly.",

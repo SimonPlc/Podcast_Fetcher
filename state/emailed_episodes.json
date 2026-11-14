@@ -1719,6 +1719,46 @@
       "title": "WTF Just Happened to the Bond Market and Credit Spreads?",
       "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/d51c5259/447c94cb.mp3"
     },
+    "484a08f5-e32e-495d-91ae-48dbec812c44": {
+      "feed_name": "Top Traders Unplugged",
+      "implications": "Background, not actionable for a repo/financing desk \u2014 the content is CTA asset-allocation theory, though the sections on bond-trend convexity, bond-equity correlation flipping sign above ~4-5% inflation, and stagflation dynamics are relevant context for how rates volatility and inflation regime shifts are being priced and hedged by large systematic pools.",
+      "key_claims": [
+        "SocGen CTA index down 3.2% month-to-date (to Nov 11) but up 10.2% YTD; SocGen Trend index down 3.9% MTD, up 9.95% YTD (Alan Dunne)",
+        "US CPI inflation came in around 3.9% y/y, higher than expected, triggering a reversal in fixed income positioning (Av)",
+        "Bond-equity correlation turns positive above roughly 4-5% inflation, undermining bonds' role as equity crisis hedge (Av)",
+        "A 10% allocation to a standard CTA delivers only about \u00b13.5% effective equity exposure but close to \u00b110% effective bond exposure, due to internal risk-equalized leveraging (Av)",
+        "Historical convexity estimates cited: equity trend convexity ~35-40%, bond trend convexity ~20%; commodity and FX trend are roughly flat/uncorrelated to equity drawdowns (Av)",
+        "Adding commodity trend to a liquid CTA book raises Sharpe from ~0.6 to ~0.8, versus alternative trend adding only ~0.6 to 0.65; after adding commodity trend, alternative trend adds essentially zero incremental Sharpe (Av)",
+        "A Man Group paper (Panigirtzoglou et al., October) analyzing ~115 years of data found little differentiation in factor/trend performance between stagflation and overheating regimes, aside from betting-against-beta; Av is skeptical of its conclusions given data-backfilling issues pre-1960s/1970s"
+      ],
+      "kind": "podcast",
+      "one_liner": "A CTA/trend-following portfolio-construction deep dive on convexity and bond-vs-equity trend behavior across inflation regimes \u2014 useful macro/rates background but not a repo or credit desk catalyst.",
+      "published": "2026-11-14T05:00:00+00:00",
+      "recap": "On this Top Traders Unplugged episode, host Alan Dunne and guest Av (a CTA/systematic manager) discuss November's rough patch for trend-following funds (SocGen CTA index down 3.2% month-to-date but still up 10.2% YTD), driven by a reversal in energy positions tied to shifting Middle East expectations and a hotter-than-expected 3.9% US inflation print that whipsawed fixed income. The core of the conversation builds out a framework for why institutions hold CTAs: as standalone alpha, as equity 'crisis alpha'/convexity, or as bond convexity. Av distinguishes 'return convexity' (bonds rallying when equities fall, which is regime-dependent and breaks down above roughly 4-5% inflation) from 'exposure convexity' (CTAs mechanically cutting equity beta and going short as a trend matures, which is slower but more guaranteed). He argues CTAs are far more capital-efficient at delivering bond exposure/convexity than equity convexity, because CTAs lever up low-vol bonds and de-lever high-vol equities to equalize risk contribution. Historically, bond trend offers consistent positive convexity across inflation regimes while equity trend only helps in slow, protracted drawdowns, not sharp snap-back crises (e.g., March/April 2025). Commodity trend is largely uncorrelated to equities but provides strong 'inflation-plus' diversification, especially in overheating/stagflationary environments, and the discussion closes with a critique of a recent Man Group paper trying to condition trend performance on industrial production and inflation regimes jointly.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "CTA",
+        "trend-following",
+        "convexity",
+        "bond-equity correlation",
+        "inflation regime",
+        "rates",
+        "commodities"
+      ],
+      "terms": [
+        "CTA -- Commodity Trading Advisor, a fund manager running systematic (often trend-following) futures strategies",
+        "OIS -- Overnight Index Swap (referenced only via the broader rates context, not directly defined in transcript)",
+        "Sharpe ratio -- risk-adjusted return measure (excess return divided by volatility)"
+      ],
+      "tier": "quant",
+      "title": "SI426: The Hard Part Isn't Buying Trend Following ft. Yoav Git",
+      "url": "https://episodes.captivate.fm/episode/484a08f5-e32e-495d-91ae-48dbec812c44.mp3",
+      "watch": [
+        "Whether the positive bond-equity correlation regime (driven by current ~4% inflation) persists or reverts, since it governs whether bonds still act as a crisis hedge",
+        "Further CTA de-risking/re-risking around energy/rates volatility into year-end"
+      ]
+    },
     "493ecf90-66c0-42b6-bc56-e9f56572c840": {
       "feed_name": "Cloud 9fin",
       "implications": "Background, not actionable for a HK repo/rates desk -- this is Argentine sovereign/EM infrastructure and project-finance color with no direct read-through to global funding markets, central bank policy, or structured credit products, though the syndicated bank financing and corporate bond spread tightening are a loose proxy for EM credit risk appetite.",
@@ -3712,6 +3752,44 @@
         "Whether rescheduling opens access to Chapter 11 for cannabis borrowers"
       ]
     },
+    "8b468a38-c8b5-4d4f-a163-1167849f0200": {
+      "feed_name": "Eurodollar University",
+      "implications": "Background, not actionable -- this is a commodity/macro narrative piece; the only rates-adjacent threads (hawkish Fed repricing after CPI, higher bond yields, global USD funding/liquidity tightness implied by broad dollar strength) are mentioned only in passing and would need separate confirmation from money-market data.",
+      "key_claims": [
+        "LME copper fell from a September record of roughly $14,500/mt to $13,788 (speaker's figures)",
+        "US Comex copper inventories rose for 46 consecutive trading days to a record above 675,000 metric tons",
+        "US imported ~885,000 tons of refined copper cathode in H1 2026, more than double the same period in 2024, with July imports exceeding 200,000 tons",
+        "Total US copper stockpile (exchange, port, private) estimated above 1 million tons",
+        "Chinese PPI rose 5.7% y/y in October (highest since 2022); mining prices up ~28%, raw materials up >11%, while CPI rose only 0.7% and core CPI hit a nine-month low of 0.8%",
+        "Gold-to-silver ratio moved back toward 80 as silver gave back its earlier 2025/2026 outperformance",
+        "Australian dollar fell to its lowest level in more than nine months; yen weakened to near 160/USD"
+      ],
+      "kind": "podcast",
+      "one_liner": "A commodity-macro essay arguing copper's rollover (despite acute Chinese shortages) signals fading confidence in AI-driven demand and tightening global dollar liquidity, useful as cross-asset risk-sentiment background but not a rates/credit/funding story.",
+      "published": "2026-11-13T12:00:00+00:00",
+      "recap": "The host argues that copper's pullback from September record highs (~$14,500/mt to $13,788 on the LME) is significant precisely because the supply-side distortions that drove the rally haven't reversed. Anticipation of US tariffs on refined copper (15% from 2027, 30% from 2028) pulled vast quantities into US warehouses -- Comex inventories hit records, H1 imports nearly doubled year-on-year, and total US stockpiles may exceed 1 million tons. That left China, the largest consumer, facing record import premiums, weak smelter margins, and production cuts, while Chinese fabricators shifted to hand-to-mouth buying rather than building inventory -- a sign of margin stress rather than confident expansion. Chinese PPI accelerated to 5.7% y/y (highest since 2022) even as CPI slowed to 0.7% and core inflation hit a nine-month low, showing upstream costs rising while downstream pricing power fades -- a squeeze, not a boom. The piece frames AI capex as both the chief driver of commodity demand and the chief risk, since profitability and broader economic transmission (employment, wages, industrial output) remain unproven. Silver's gold/silver ratio reversal and weak iron/steel confirm no broad-based reflation. The author ties this to a stronger dollar (driven by risk aversion and demand for dollar liquidity, not productivity optimism), a nine-month-low Australian dollar, and yen weakness near 160 reviving intervention talk, framing all of it as corroborating evidence that AI-demand expectations are being revised down.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "commodities",
+        "copper",
+        "USD",
+        "dollar-liquidity",
+        "China",
+        "AI-capex",
+        "risk-sentiment",
+        "FX"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "Commodity Markets Are Preparing for Something",
+      "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/168f50cf/5bf386b2.mp3",
+      "watch": [
+        "Whether US copper tariff decisions (2027/2028) actually materialize and trigger unwinding of US stockpiles",
+        "Chinese PPI/CPI divergence for further margin-squeeze signals",
+        "AI-capex revisions among hyperscalers as a cross-asset risk-sentiment driver"
+      ]
+    },
     "8cd1efbf-943d-4d11-ba9c-b4b2007efb2f": {
       "feed_name": "Asia Centric",
       "implications": "Background, not actionable -- this is a European industrial-policy and equity-thematic story with no direct read-through to repo, funding markets, rates, or credit; any relevance would only surface indirectly via future European sovereign/defense-related bond supply, which isn't discussed here.",
@@ -3946,6 +4024,39 @@
         "Outcome of the Nvidia board investigation into Jensen Huang and the Megaspeed-linked affair",
         "Whether DOJ pursues a criminal case against Megaspeed",
         "Whether Congress tightens 'remote access' export-control loopholes in the annual defense authorization package"
+      ]
+    },
+    "953a4e2e-d098-47f1-8f62-b50100f7ea7c": {
+      "feed_name": "Money Stuff: The Podcast",
+      "implications": "Background, not actionable for repo/rates/credit \u2014 the only touchpoint of note is the passing observation that investment-grade chip/cloud balance sheets are increasingly used to backstop non-investment-grade AI labs' financing, a circularity worth filing away if AI capex credit exposure grows, but nothing here moves funding markets, collateral, or central bank policy.",
+      "key_claims": [
+        "The Jensen Huang affair disclosure wiped out roughly $400 billion of NVIDIA's market cap, per the hosts' discussion.",
+        "Anthropic launched IPO marketing at $70-78/share, valuing it up to $1.4 trillion, seeking to raise up to ~$65 billion.",
+        "Anthropic secured $26 billion in anchor investments from suppliers/customers including NVIDIA, AMD, Broadcom, TSMC, and Google.",
+        "Hyperliquid perpetual futures priced Anthropic shares around $105 (~$1.8 trillion market cap), about 30% above the IPO's high-end marketed valuation.",
+        "An NYU PhD paper (Valerie Bollinger, advised by Arpit Gupta) found that a wealth platform's AI chat assistant steered retail investors toward index funds, improving their performance; when the system prompt briefly encouraged ticker-specific recommendations (Dec 2025-Jan 2026), explicit ticker recommendations rose from 18% to 33% of answers and fund-share purchase behavior shifted by eight percentage points."
+      ],
+      "kind": "podcast",
+      "one_liner": "Mostly gossip (the NVIDIA CEO affair scandal) and equity-IPO color on Anthropic, with only a glancing, non-actionable mention of credit ratings underpinning circular AI financing.",
+      "published": "2026-11-13T15:41:33+00:00",
+      "recap": "This Money Stuff podcast episode (with guest host Mary Chiles) opens with the NVIDIA scandal: CEO Jensen Huang admitted to an affair with Alice Wong, tied to a Singaporean 'neo-cloud' (Megaspeed) under investigation for export-control violations. The hosts discuss how the revelation erased roughly $400 billion of NVIDIA's market cap, driven by renewed odds of stricter chip export controls and a board-ordered Wachtell Lipton investigation, alongside the inevitable securities-fraud shareholder suits. They dub it possibly the most expensive extramarital affair in nominal-dollar history and riff on AI-industry honeypot risks. The second half covers Anthropic's IPO: marketed at $70-78/share (~$1.4 trillion at the high end), intentionally priced conservatively per standard ECM practice to build momentum into pricing, alongside $26 billion of anchor investments from suppliers/customers (NVIDIA, AMD, Broadcom, TSMC, Google) that avoid IPO fees. They note Hyperliquid perpetual-futures markets pricing Anthropic ~30% above the marketed range, and flag the circularity of investment-grade chip companies backing non-investment-grade AI labs. A side note covers Anthropic quietly rebranding 'AI' to 'superintelligence' (SI) in its prospectus to court the Trump administration, done inconsistently. The episode closes with an NYU paper finding that LLM-driven robo-advice nudges retail investors toward boring, effective advice (index funds), improving outcomes until the platform briefly encouraged ticker-specific recommendations.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "equities",
+        "IPO",
+        "AI financing",
+        "NVIDIA",
+        "Anthropic",
+        "credit (tangential)"
+      ],
+      "terms": [],
+      "tier": "credit",
+      "title": "Loser Mentality",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/953a4e2e-d098-47f1-8f62-b50100f7ea7c/audio.mp3?utm_source=Podcast&in_playlist=77e6a3a7-290d-4a82-8164-b14001353ef2",
+      "watch": [
+        "Whether NVIDIA's export-control exposure escalates after the board's Wachtell Lipton investigation",
+        "Anthropic IPO pricing next week relative to the $70-78 marketed range and Hyperliquid perp levels"
       ]
     },
     "9909eeee-9c27-11f1-ab19-cf682a15597e": {
@@ -6598,6 +6709,32 @@
         "Fed speakers' comments post-blackout on whether they view policy as restrictive",
         "Core PCE prints and whether the three-month annualized improvement persists"
       ]
+    },
+    "marketmatters.podbean.com/9f3e5b8c-7d46-35d7-acbc-2a8dbf4964e1": {
+      "feed_name": "Making Sense (J.P. Morgan)",
+      "implications": "Background, not actionable: this is an equity-ETF product and retail-flow story with no repo, funding, collateral, rates, or credit content relevant to the reader's book.",
+      "key_claims": [
+        "Mazza: retail investors' share of daily US market volume rose from roughly 8-10% pre-COVID to around 20-25% today.",
+        "Mazza: MAGS combines cash equities and total return swaps to deliver precise Magnificent 7 exposure.",
+        "Mazza: South Korean equity ETFs are an imperfect proxy for Samsung/SK Hynix exposure because the two names make up about 50% of that market's index weight."
+      ],
+      "kind": "podcast",
+      "one_liner": "A conversation about thematic and retail-focused equity ETFs (Magnificent 7, memory-chip exposure) with no repo, funding, rates, or credit content, so it has nothing for a financing/repo trader's book.",
+      "published": "2026-11-13T15:45:03+00:00",
+      "recap": "JPMorgan's Fumi Oshiale interviews Dave Mazza, CEO of Roundhill Investments, about the firm's rise in the ETF industry. Roundhill was founded in 2018 by Will Hershey and Tim Maloney to serve a new generation of investors, and Mazza joined in 2023 to scale the business. The discussion centers on two flagship products: MAGS, the Roundhill Magnificent 7 ETF, which combines cash equities and total return swaps to give precise, liquid exposure to the seven mega-cap tech names; and DRAM, a global memory-semiconductor ETF covering Micron, SK Hynix, Samsung, Western Digital and SanDisk, built because existing country or sector ETFs gave investors only partial or diluted exposure to the memory chip theme tied to AI infrastructure buildout. Mazza explains Roundhill's framework for distinguishing durable, structurally-driven themes (like AI-linked memory demand) from catalyst-dependent themes (like cannabis or sports betting needing regulatory change) or short-lived trades. He welcomes competitors launching leveraged or derivative products around MAGS and DRAM as validation of the underlying thesis, including banks issuing structured notes referencing them. The conversation closes with reflections on Roundhill's direct engagement with retail investors \u2014 who now account for roughly 20-25% of daily US market volume, up from 8-10% pre-COVID \u2014 and the firm's ambition to be remembered for thoughtful financial product innovation in the ETF space over the next five years.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "ETF",
+        "equities",
+        "thematic investing",
+        "retail flows"
+      ],
+      "terms": [],
+      "tier": "quant",
+      "title": "Revving the ETF vehicle: Roundhill\u2019s CEO on DRAM, next-gen innovation and more",
+      "url": "https://mcdn.podbean.com/mf/web/t9qzbtm7cz42p3g3/1126_SS_ETF_Roundhill_V3.mp3",
+      "watch": []
     },
     "marketmatters.podbean.com/cf49bf42-2be3-3179-b7f3-0a2bb4fc73b7": {
       "feed_name": "Making Sense (J.P. Morgan)",
