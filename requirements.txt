@@ -3,3 +3,5 @@ pyyaml
 python-dateutil
 requests
 faster-whisper
+faster-whisper
+av<17
