@@ -3985,6 +3985,36 @@
       "title": "IL52: Why Staying Calm Is the Ultimate Investing Edge ft. David Booth",
       "url": "https://episodes.captivate.fm/episode/a55f3031-7b10-4295-8ca2-2170433f7ee3.mp3"
     },
+    "a6727a4c-593d-4876-9655-17039fb55fcd": {
+      "feed_name": "Eurodollar University",
+      "implications": "Background, not actionable -- this is a retail-economics/consumer-demand commentary with no direct read-through to repo/funding markets, central bank balance sheet mechanics, or credit spreads; the Treasury curve-flattening observation is the only point tangentially relevant to rates positioning but is presented without the plumbing detail this reader needs.",
+      "key_claims": [
+        "Baby food and formula prices rose 5.1% in October, the largest monthly increase on record (BLS data cited)",
+        "2-year Treasury yield rose ~17bp vs ~9-10bp for the 10-year after the October CPI report, flattening the curve",
+        "10-year breakeven fell to ~220bp, lowest since July; 5y5y forward inflation rate fell to near multi-year low",
+        "Virgin Atlantic plans to fly ~8% less capacity this winter due to higher fuel costs and softer demand",
+        "Average new vehicle transaction price hit a record $51,109 in October, up 2.1% y/y, while annualized U.S. new car sales fell to ~15.5 million, below expectations",
+        "Over a quarter of financed vehicle purchases carried terms of 84+ months (Edmunds)",
+        "Mexican vehicle production and exports have collapsed as front-loaded demand fades"
+      ],
+      "kind": "podcast",
+      "one_liner": "A consumer-affordability/inflation-narrative rant (baby formula prices, car affordability, airline capacity cuts) with no repo, funding, central-bank-balance-sheet, or credit-market content relevant to a HK bank financing/repo trader.",
+      "published": "2026-11-12T12:00:00+00:00",
+      "recap": "The host argues that the October 5.1% surge in baby formula prices is a symptom of an 'affordability crisis' rather than inflation, and that demand destruction, not reflation, is the real economic story. He cites Virgin Atlantic cutting winter capacity 8% due to high fuel costs paired with weak demand, and similar retrenchment at JetBlue, Wizz Air, IAG/British Airways, Ryanair, American and United. He discusses the Treasury curve reaction to a 'hot' October CPI print: the 2-year yield rose ~17bp versus ~9-10bp for the 10-year, flattening the curve, which he interprets as the market pricing policy-mistake risk (a Fed hike into weakening demand) rather than durable inflation; he also notes the 10-year breakeven fell to ~220bp and the 5y5y forward inflation rate hit a multi-year low. He then argues record average new-vehicle transaction prices (~$51,109) mask a shrinking, bifurcated market, with lower-income buyers priced out, longer loan terms (84+ months), and collapsing Mexican vehicle production/exports signaling weak forward U.S. demand. He closes by tying this to voter anger in the midterms, criticizing officials (citing a 2023 Bank of England comment from Huw Pill) for telling workers to 'accept' lower real incomes, and teases a 2027 event on the 'rise of socialism.' A sponsor segment for a gold-yield product (Monetary Metals) is included.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "macro",
+        "inflation",
+        "consumer-demand",
+        "off-topic"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "Baby Food Prices Just Revealed a Dark Truth About the U.S. Economy",
+      "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/4141e2a4/2ff1de05.mp3",
+      "watch": []
+    },
     "a7d5026d-0d53-43f6-9415-0c78d7d58631": {
       "feed_name": "Top Traders Unplugged",
       "kind": "podcast",
@@ -5010,6 +5040,46 @@
       "tier": "credit",
       "title": "Jeremy Maletz",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/d48864e5-24e3-4186-b8de-b4de00f38870/audio.mp3?utm_source=Podcast&in_playlist=77e6a3a7-290d-4a82-8164-b14001353ef2"
+    },
+    "d50c15fb-6c5a-4836-89a2-b4fe0174107c": {
+      "feed_name": "Odd Lots",
+      "implications": "Background, not actionable for repo/funding or credit desks -- this is an equity-market-structure and hedge-fund-flows story; the only tangential read-through is a reminder that AI-capex-driven credit/financing stress (neocloud leverage, equity supply from IPOs like Anthropic) could eventually spill into credit spreads worth monitoring, but nothing here touches repo, SOFR/OIS, central bank balance sheets or rates policy directly.",
+      "key_claims": [
+        "Nishant Kumar: Millennium was down 2.3% in October against a roughly 14% annualized return target",
+        "Nishant Kumar: Vara lost 33% in October but remains up for the year; Kirkoswald lost 6.4%, its worst month since inception; Chris Rokos's fund lost almost 5%",
+        "Pivotal Path: the ten largest multi-strat firms studied control about $2.2 trillion including leverage, against $300-350 billion of underlying capital",
+        "Nishant Kumar: Millennium sought ~$20 billion in new capital this year, got demand for over $30 billion, and took $22 billion; Point72 and Citadel together returned $35-40 billion to investors",
+        "Michael Ball: Iron's stock fell from $77 to $21 even as prepayment-driven free cash flow improved, while CoreWeave carries a more leveraged profile",
+        "Michael Ball: Anthropic's preliminary IPO valuation target is $1.4 trillion, down from earlier expectations of $2 trillion"
+      ],
+      "kind": "podcast",
+      "one_liner": "Odd Lots covers October's brutal multi-strat hedge fund losses and the AI-trade crowding/degrossing mechanics behind the equity selloff, but it's an equities/AI-positioning story with no direct repo, funding or credit-market content for a HK financing desk.",
+      "published": "2026-11-11T09:00:00+00:00",
+      "recap": "Bloomberg's Odd Lots hosts discuss a historically bad October/early-November for multi-strategy hedge funds (Millennium, Point72, ExodusPoint, Citadel, D.E. Shaw) with Bloomberg's Nishant Kumar. Despite diversified 'pod' structures meant to decorrelate returns, nearly every strategy lost money together, suggesting most funds were implicitly long the AI trade in some disguised form (chips, credit, rates). Millennium fell 2.3% -- small in isolation but large relative to its ~14% annualized target and its mandate to protect capital in drawdowns. Crowding, not necessarily momentum, is blamed: Pivotal Path data shows the ten largest multi-strats control about $2.2 trillion including leverage against only $300-350 billion of capital. Vara (an AI-concentrated fund) lost 33% in a month; macro funds Kirkoswald and Chris Rokos also posted rare large losses. Kumar explains the ruthless capital-cutting risk discipline inside multi-strats that can force forced deleveraging after a PM loses ~5-7.5%. The second half, with strategist Michael Ball, dissects the mechanical drivers of the post-midterm-election Thursday equity crash: negative gamma, dealer delta-hedging, leveraged/inverse ETFs, vol-control funds and CTAs amplifying the selloff once key S&P/Nasdaq levels broke. They cover AI-capex financing worries (neoclouds like CoreWeave, Iron, Nebius), the Anthropic IPO's lowered $1.4T valuation, Nvidia/Jensen Huang succession non-event, and oil's decoupling from rates amid falling crack spreads.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "hedge-funds",
+        "multi-strat",
+        "AI-trade",
+        "equities",
+        "volatility",
+        "gamma",
+        "CTA"
+      ],
+      "terms": [
+        "CTA -- Commodity Trading Advisor, a systematic fund that trades futures across asset classes, often trend-following",
+        "Gamma -- a dealer's sensitivity to changes in delta on options positions; short gamma means dealer hedging amplifies market moves",
+        "Negative convexity -- a position or product (e.g. leveraged ETFs) whose hedging needs accelerate in the direction of the market move"
+      ],
+      "tier": "plumbing",
+      "title": "The Perfect Storm That Clobbered Hedge Funds",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/d50c15fb-6c5a-4836-89a2-b4fe0174107c/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+      "watch": [
+        "CoreWeave earnings and leverage/prepayment trends as a read on neocloud credit quality",
+        "Whether multi-strat degrossing continues into year-end, affecting liquidity in crowded names",
+        "Anthropic IPO execution and its absorption of equity supply"
+      ]
     },
     "d532b966-adfa-11f1-bdb5-bf3625bc75cf": {
       "feed_name": "Monetary Matters",
