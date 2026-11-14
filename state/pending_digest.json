@@ -1,5 +1,49 @@
 {
   "queued": {
+    "2dd35c5b-56c6-4e69-9f2b-f5d6b009d19c": {
+      "feed_name": "Eurodollar University",
+      "implications": "If the reinversion thesis plays out, front-end rates vol and curve-flattener trades stay in focus into the December 8-9 FOMC; a book with duration/curve exposure should watch whether TIPS breakevens and 10s confirm or diverge from the 2yr-led move, since the author argues the move is Fed-driven repricing rather than a growth/inflation regime shift.",
+      "key_claims": [
+        "2-year Treasury yield rose 19bp in one session, the largest daily move since the April 2025 tariff turmoil (host)",
+        "2s10s spread flattened to 24 basis points (host)",
+        "October nonfarm payrolls rose 165,000, more than 3x the prior year's average monthly gain, with 84,000 added via upward revisions to August/September (host, citing BLS data)",
+        "Core CPI rose 0.3% m/m in October, headline rose 0.4% (host, citing BLS)",
+        "Fed Governor Waller said a core print of 0.3%+ could warrant considering a 50bp December hike; Dallas Fed's Logan backed at least two more 25bp hikes (host)",
+        "NY Fed survey: perceived probability of rising unemployment is at its highest since April 2020 (host, citing NY Fed survey of consumer expectations)",
+        "Labor's share of income fell to 52.8%, the lowest in records dating to 1947 (host)",
+        "Wages rose 3.1% y/y vs. CPI up 3.3% year-to-date, implying a real purchasing-power decline (host)"
+      ],
+      "kind": "podcast",
+      "one_liner": "A deep dive into the renewed 2s10s flattening and reinversion risk as hawkish Fed rhetoric (Waller, Logan) collides with a bond market and consumer survey data that are both pricing labor-market fear rather than durable inflation \u2014 core front-end rates content for a book that trades off curve shape and Fed path.",
+      "published": "2026-11-11T12:00:00+00:00",
+      "recap": "The episode argues the bond rally that ran from early October reversed after a strong October payrolls print (+165k, plus 84k in upward revisions) and a core CPI reading of 0.3% m/m that failed to decelerate as much as hoped. The 2-year yield jumped 19bp in a single session (its largest move since April 2025), pushing the 2s10s spread down to 24bp as Fed officials (Waller, Dallas Fed's Logan) talked up a December hike, possibly 50bp, and additional hikes into 2027. The host's thesis: this is \"Trichet risk\" \u2014 a central bank reacting to a supply-driven (energy) price shock as if it were demand-driven, echoing the ECB's 2008 mistake. He argues the curve shape (steep front, flat back), contained TIPS breakevens, and 2023-like swap market behavior all show the market isn't pricing durable inflation or stronger growth, only policy-mistake risk. The NY Fed's consumer survey is cited as corroborating: short-term inflation expectations rose only slightly (energy-driven) and fade at longer horizons, while the perceived probability of rising unemployment hit its highest level since April 2020. Supporting labor-market detail: part-time-for-economic-reasons jumped 339k, wage growth (3.1% y/y) trails CPI (3.3% YTD), and labor's share of income fell to 52.8%, a record low since 1947. The episode closes with an unrelated promo for a February 2027 live event on \"the rise of socialism.\"",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "yield curve",
+        "2s10s",
+        "CPI",
+        "payrolls",
+        "rate hikes",
+        "TIPS breakevens",
+        "Treasury"
+      ],
+      "terms": [
+        "2s10s spread -- the yield difference between 2-year and 10-year Treasuries, a standard curve-shape/recession-risk gauge",
+        "TIPS breakevens -- the market-implied inflation expectation derived from the yield gap between nominal Treasuries and inflation-protected TIPS",
+        "FOMC -- the Federal Open Market Committee, the Fed body that sets the policy rate"
+      ],
+      "tier": "plumbing",
+      "title": "You Won\u2019t Believe What the Bond Market Just Did",
+      "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/1fc91277/bea96bd4.mp3",
+      "watch": [
+        "December 8-9 FOMC decision and dot plot for hike size (25bp vs 50bp)",
+        "2s10s spread trajectory toward outright reinversion",
+        "TIPS breakevens / inflation swaps for signs of genuine inflation repricing",
+        "Further NY Fed consumer expectations survey releases for unemployment-fear trend"
+      ]
+    },
     "6af55eec808d34e7ad17f788": {
       "feed_name": "Under the Banyan Tree",
       "implications": "Background, not actionable for repo/funding or credit-spread positioning; the Fed/dollar discussion is a loose rates-sentiment input, and the hyperscaler debt/equity capex-financing debate is worth filing as a forward indicator of possible IG issuance supply and leverage drift in tech, but nothing here touches collateral, repo, or credit-derivative markets directly.",
@@ -38,6 +82,119 @@
         "Hyperscaler bond and equity issuance volumes if capex ramps toward the cited $1.5tn next year",
         "Whether Fed rate-path signals continue to underpin the dollar or crack given equity/AI volatility",
         "Any spillover from AI-financing stress (vendor financing, free-cash-flow deficits) into tech-sector credit spreads"
+      ]
+    },
+    "ICMA.podbean.com/d02bff17-7562-3d3d-8e56-06107427353a": {
+      "feed_name": "ICMA Podcast",
+      "implications": "Mostly educational background on money-market plumbing adjacent to the trader's repo book: useful context for understanding how CP pricing and investor demand interact with repo/funding markets and short-end collateral dynamics, but no actionable trade signal in this episode.",
+      "key_claims": [
+        "US CP market is $1.3tn, domestic and US-timezone only (George McKenzie, Rabobank)",
+        "ECP market is $1.2tn, larger than US CP; France's New CP market is $345bn (George McKenzie)",
+        "ECP breakdown: ~50% financials, 30-35% SSA, ~10% corporate, ~10% and growing ABCP; ~65% rated A1/P1+ (George McKenzie)",
+        "ECP currency mix: ~45% USD, 35-40% EUR, ~12% GBP, remainder CHF/JPY/other (George McKenzie)",
+        "Average ECP ticket size $50-75m, with some trades up to $250m-$1bn and others as small as $10-25m; average maturity ~50 days, out to 364 days (George McKenzie)"
+      ],
+      "kind": "podcast",
+      "one_liner": "An ICMA explainer on how the global commercial paper market (US CP, ECP, French New CP) is sized, structured and funded is core money-market-plumbing background for a financing desk, even though repo itself is only touched on tangentially.",
+      "published": "2026-11-12T16:32:35+00:00",
+      "recap": "This ICMA Commercial Paper Committee podcast is an introductory explainer on the CP market, featuring an issuer (Claudia Pieroni of Ferrovie dello Stato Italiane), a bank issuer (Josh Huddleston, Lloyds), an investor (Geeta Sharma, BlackRock) and a dealer (George McKenzie, Rabobank). George lays out market sizes: US CP is $1.3tn and purely domestic; Euro Commercial Paper (ECP) is larger at $1.2tn and global; France's domestic \"New CP\" market is $345bn. Within ECP, financials are roughly half the market, SSA (sovereign/supranational/agency) issuers 30-35%, corporates about 10%, and asset-backed commercial paper (ABCP) a growing ~10% slice; about 65% of ECP is rated A1/P1 or higher, and USD (45%) and EUR (35-40%) dominate currency issuance ahead of GBP (12%). Issuers (Claudia, Josh) explain CP's role as a flexible, fast-to-access liquidity tool sitting alongside bank lines, repo and longer-dated bonds, used to fund working capital and balance-sheet needs rather than big capital projects; pricing versus alternatives depends on market conditions and interacts closely with repo pricing. George details mechanics: average ECP ticket $50-75m (up to $250m-$1bn), average tenor ~50 days (up to 364 days), issuance at a discount rather than coupon-bearing, unlisted, dealer-panel distribution with inconsistent dealer fee arrangements. The group then discusses rollover risk \u2014 managing maturity concentration, weighted-average maturity, and investor communication \u2014 and notes CP is largely bought-to-hold by money market funds managing maturity ladders, with limited secondary liquidity.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "commercial paper",
+        "ECP",
+        "money markets",
+        "funding",
+        "liquidity",
+        "rollover risk",
+        "CD",
+        "ABCP"
+      ],
+      "terms": [
+        "ECP -- Euro Commercial Paper, short-term unsecured debt issued across currencies/jurisdictions outside the US domestic market",
+        "SSA -- Sovereign, Supranational and Agency issuers",
+        "ABCP -- Asset-Backed Commercial Paper, short-term paper backed by pooled receivables",
+        "A1/P1 -- top short-term credit ratings from S&P (A1) and Moody's (P1)"
+      ],
+      "tier": "plumbing",
+      "title": "Commercial Paper: The basics",
+      "url": "https://mcdn.podbean.com/mf/web/d8u29x8jgm29372q/CP_podcast_1_-_The_Basics_bfsic.mp3",
+      "watch": []
+    },
+    "a4a4c956-84d5-458f-87e0-9d7d31709f58": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "The CDS widening on SoftBank and bank-stock underperformance tied to data-center financing exposure are the only concrete credit signals here and worth a sanity-check against actual spread data rather than the show's framing; the Fed/debt-ceiling and 'financial repression' narrative is a background macro view, not a near-term rates catalyst for repo or front-end positioning.",
+      "key_claims": [
+        "McDonald: core PCE inflation has run above the Fed's 2% target since March 2021, now around 3.1% vs 1.5% in 2019",
+        "McDonald: there is roughly $4 trillion of off-balance-sheet leverage tied to AI/data-center financing that didn't exist 3-4 years ago",
+        "McDonald: CDS protection costs on SoftBank are rising sharply due to off-balance-sheet financing ties to OpenAI/Nvidia",
+        "McDonald: Bank of America and Goldman Sachs are roughly 20-24% off recent highs, which he attributes partly to data-center financing exposure",
+        "McDonald: he expects the Fed can deliver at most one more hike given financial-stability constraints, and sees Fed/Treasury moving toward a 1946-51-style financial repression regime"
+      ],
+      "kind": "podcast",
+      "one_liner": "A bearish equity-market call built around Fed policy constraints, widening SoftBank CDS spreads, and bank exposure to data-center financing \u2014 more useful for its rates/credit-stress framing than its stock picks.",
+      "published": "2026-11-12T13:00:00+00:00",
+      "recap": "Larry McDonald of the Bear Traps Report argues markets are flashing warning signs reminiscent of pre-COVID, pre-Lehman, and 2022 price action, driven by stress in AI/data-center financing. He says Nvidia-linked off-balance-sheet financing deals are proliferating among counterparties (SoftBank, OpenAI, Anthropic), and that CDS protection costs on SoftBank are rising sharply as these 'incestuous' financing arrangements raise systemic risk comparable to, though smaller than, 2008 bank leverage. He flags that Bank of America and Goldman Sachs are 20%+ off highs due to perceived exposure to data-center financing, even as Berkshire sits at all-time highs \u2014 a divergence he says hasn't been seen since 2008. On the Fed, he argues policymakers have let core PCE run near 3.1% since 2021 without aggressive hiking, are now pausing while expanding the balance sheet, and are unlikely to deliver more than one more hike given roughly $4 trillion of off-balance-sheet leverage that an aggressive 2022-style hiking cycle (50-75bp moves) would detonate. He frames this as implicit acceptance of higher inflation to erode the $41 trillion debt load, predicting a 1946-51-style Fed/Treasury coordination (financial repression) with rates held below inflation. He also cites a January debt-ceiling showdown as a looming catalyst, and recommends hard-asset/commodity exposure (aluminum, gold, silver) as a stagflation hedge, alongside hedges like the FAS leveraged financials ETF against bank credit stress.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rate hikes",
+        "CDS",
+        "credit stress",
+        "off-balance-sheet leverage",
+        "financial repression",
+        "debt ceiling",
+        "bank credit"
+      ],
+      "terms": [
+        "CDS -- credit default swap, a derivative providing protection against an issuer's default",
+        "PCE -- Personal Consumption Expenditures price index, the Fed's preferred inflation gauge",
+        "RSI -- Relative Strength Index, a technical momentum indicator"
+      ],
+      "tier": "broad",
+      "title": "#432 Larry McDonald: A Lehman-Style Warning, a Fed That Can\u2019t Hike & Gold and Silver Set to Run",
+      "url": "https://traffic.megaphone.fm/APO2022540721.mp3",
+      "watch": [
+        "January US debt-ceiling deadline and any fiscal showdown",
+        "SoftBank and other AI-financing counterparties' CDS spreads",
+        "Bank of America / Goldman Sachs equity and credit performance relative to data-center financing exposure",
+        "Whether the Fed actually delivers another hike or holds given stated leverage concerns"
+      ]
+    },
+    "ba808b61-11a1-4d34-b0ee-43d6bae6672d": {
+      "feed_name": "Cloud 9fin",
+      "implications": "Background, not actionable \u2014 this is legal-practice shop talk about LME structuring and jurisdictional nuance, not a market or policy catalyst; useful only as conceptual grounding for how collateral-stripping, uptier priming, and cross-border intercreditor disputes can play out in stressed leveraged-loan/HY credits the reader's book might touch.",
+      "key_claims": [
+        "Ed Downer: a traditional English credit agreement generally precludes open-market purchases of debt, so the open-market-purchase controversy seen in US LME precedent doesn't arise the same way in Europe",
+        "Ed Downer: Europe has not yet seen an LME subsequently collapse into insolvency, unlike patterns observed in the US",
+        "Matteo Clarkson-Massiel: well-known LMEs involving Canadian companies (e.g. Mitel, Cirque du Soleil) have more often involved US-law debt rather than domestic Canadian BSL paper"
+      ],
+      "kind": "podcast",
+      "one_liner": "A law-firm panel on a new legal textbook covering liability management exercises (LMEs) \u2014 useful background on the mechanics of drop-downs, up-tiers, and cross-border priming fights that drive leveraged-credit distress, but no market data or actionable signal.",
+      "published": "2026-11-12T17:07:11+00:00",
+      "recap": "This is a legal-industry podcast episode (Jane's LME Addiction) discussing a new textbook on liability management exercises (LMEs), hosted with three contributing lawyers: Matteo Clarkson-Massiel (editor, Canada), Ed Downer (UK/Europe), and Sam Baddawi (US). The guests describe their backgrounds moving from capital-markets or restructuring practice into the specialized LME space, and explain why the book was written: practitioners previously had to learn LME structuring either by doing deals or scavenging law-firm client alerts, with no foundational resource. The book uses a single running fact pattern to teach concepts like covenants, baskets, drop-down and up-tier transactions, and 'hunter-gatherer' structures, then moves into jurisdictional chapters (US, UK, Canada) covering how local law, disclosure regimes, and relationship-banking norms shape what LMEs are feasible. Key themes: Europe lags the US in LME sophistication and faces added complexity from stricter director fiduciary duties and more opaque, non-public credit documentation, with English law precluding certain open-market purchase strategies seen in the US; litigation is now surfacing around European LMEs. Speakers discuss whether LMEs are used proactively (avoiding bankruptcy) or reactively (preparing for it), note Europe hasn't yet seen an LME collapse into insolvency, and discuss AI's limited but growing role in drafting LME strategies, cautioning that AI still misses cross-provision interactions (e.g., indenture debt-incurrence limits) without expert oversight.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "LME",
+        "leveraged finance",
+        "distressed debt",
+        "restructuring",
+        "credit documentation",
+        "Europe/US legal",
+        "CLOs/loans background"
+      ],
+      "terms": [
+        "LME -- Liability Management Exercise, a transaction (e.g. drop-down, up-tier, exchange) used by a distressed or stressed borrower to restructure its debt outside of a formal bankruptcy/insolvency process",
+        "BSL -- Broadly Syndicated Loan",
+        "intercreditor agreement -- a contract among different classes of secured creditors governing their relative priority and rights"
+      ],
+      "tier": "credit",
+      "title": "Jane\u2019s LME Addiction \u2014 Someone finally wrote the playbook on liability management",
+      "url": "https://media.transistor.fm/c9cc74df/3f6092bb.mp3",
+      "watch": [
+        "European LME litigation outcomes and whether any European LME later collapses into insolvency, which would set new case law affecting creditor priority risk"
       ]
     }
   }
