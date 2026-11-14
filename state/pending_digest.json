@@ -1,3 +1,44 @@
 {
-  "queued": {}
+  "queued": {
+    "6af55eec808d34e7ad17f788": {
+      "feed_name": "Under the Banyan Tree",
+      "implications": "Background, not actionable for repo/funding or credit-spread positioning; the Fed/dollar discussion is a loose rates-sentiment input, and the hyperscaler debt/equity capex-financing debate is worth filing as a forward indicator of possible IG issuance supply and leverage drift in tech, but nothing here touches collateral, repo, or credit-derivative markets directly.",
+      "key_claims": [
+        "Frank: hyperscaler capex seen rising from $750bn this year to nearly $1.5tn next year (~100% growth), pushing net debt/equity to roughly 15-20%, still considered manageable",
+        "Frank: this is the first year major US hyperscalers turn free-cash-flow negative, forcing debt or equity raises",
+        "Frank: Nvidia's margins are near 100% but its valuation multiple is lower than at the crypto peak, reflecting financing/vendor-financing concerns",
+        "Paul Mackel: HSBC's RMB-outperformer call has held since roughly September 2024; gold has declined this year despite high macro risk",
+        "Yuchen: US AI capex runs at roughly 7-8x China's, with China optimizing system efficiency under export-control constraints rather than frontier-scale spending; China accounts for about 70% of the global optical components market"
+      ],
+      "kind": "podcast",
+      "one_liner": "HSBC's Asia panel debates the dollar/Fed backdrop and the AI capex financing story (hyperscalers turning free-cash-flow negative, debt/equity raising, vendor-financing circularity) -- rates/dollar and financing-adjacent, but mostly an equity/tech-hardware conversation rather than money-market or credit-market content.",
+      "published": "2026-11-11T18:30:00+00:00",
+      "recap": "HSBC's Under the Banyan Tree panel (Fred Newman, Harold, FX strategist Paul Mackel, tech analyst Frank, and auto/hardware analyst Yuchen) discuss the recent equity pullback, driven by inflation/oil worries, rising bond yields on Fed tightening expectations, and an AI valuation shakeout. Mackel argues the dollar remains supported by Fed rate signaling and strong equity-driven capital inflows into the US, sees recurring de-dollarization fears as overdone, flags the RMB as a long-running outperformer since September 2024, expects yen weakness to fade slowly given the US-Japan rate differential, and notes gold has actually fallen this year despite high macro risk, though he stays structurally long-term bullish on it. Frank covers AI hardware: hyperscaler capex is seen rising from $750bn this year to roughly $1.5tn next year, the first year these firms turn free-cash-flow negative and must raise debt or equity, pushing net debt/equity to a still-manageable 15-20%; he flags vendor-financing circularity (chipmakers funding customers who buy their chips) as a reason valuations stay capped despite near-100% margins, alongside power/data-center buildout delays as a newer risk, while underlying GPU demand (via rental pricing) still looks firm. Yuchen discusses autonomous driving's readiness being gated by regulation rather than technology, and argues China's AI buildout runs at a fraction of US capex, optimizing efficiency under export-control constraints rather than frontier scale, with real China-US hardware overlap concentrated in optical components (China ~70% of that market), prompting US diversification efforts.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "dollar",
+        "Fed",
+        "AI capex",
+        "hyperscaler financing",
+        "vendor financing",
+        "China tech",
+        "RMB",
+        "gold",
+        "EV/autonomous driving"
+      ],
+      "terms": [
+        "CSP -- Cloud Service Provider",
+        "EUV -- Extreme Ultraviolet lithography, advanced chipmaking equipment"
+      ],
+      "tier": "asia",
+      "title": "Live from Hong Kong 2026",
+      "url": "https://sphinx.acast.com/p/open/s/64db93c01796c400110e0ce3/e/6af55eec808d34e7ad17f788/media.mp3",
+      "watch": [
+        "Hyperscaler bond and equity issuance volumes if capex ramps toward the cited $1.5tn next year",
+        "Whether Fed rate-path signals continue to underpin the dollar or crack given equity/AI volatility",
+        "Any spillover from AI-financing stress (vendor financing, free-cash-flow deficits) into tech-sector credit spreads"
+      ]
+    }
+  }
 }
