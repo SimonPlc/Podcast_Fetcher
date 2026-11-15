@@ -364,6 +364,48 @@
       "watch": [
         "European LME litigation outcomes and whether any European LME later collapses into insolvency, which would set new case law affecting creditor priority risk"
       ]
+    },
+    "efea2084-e124-11f1-9a6a-c305f690e3fe": {
+      "feed_name": "Monetary Matters",
+      "implications": "For a repo/rates desk, his 'growth not inflation or fiscal panic' read on the Q3 yield back-up pushes against a duration-bearish fiscal-crisis narrative; for credit, his view that BDC/private-credit discounts to NAV (e.g., Blue Owl) are overdone versus high-yield is a relative-value signal worth stress-testing rather than a plumbing-level catalyst.",
+      "key_claims": [
+        "Van Eck: the US fiscal deficit rose from the high-5% range to 6.2% of GDP in the last fiscal year",
+        "Van Eck: 10-year Treasury yields rose to about 5.25% in Q3, driven primarily by strong nominal GDP growth (4-6%), not inflation or fiscal credit concerns",
+        "Van Eck: VanEck's token-demand model, built from internal Claude usage data, projects roughly 62 gigawatts of global AI compute demand by 2030, matching industry consensus",
+        "Van Eck: Anthropic posted a GAAP operating profit of just under $900 million in Q2",
+        "Van Eck: Blue Owl's stock fell below its IPO price and below levels seen when it managed a third of its current AUM, which he attributes to market overreaction to BDC redemption-rate fears (e.g., 7% vs 4% redemption requests)"
+      ],
+      "kind": "podcast",
+      "one_liner": "A VanEck macro interview spends most of its time on AI-equity and gold narratives, but includes a direct, tradeable take on the Q3 Treasury sell-off (growth-, not inflation-, driven) and a contrarian bullish view on discounted BDCs/private credit.",
+      "published": "2026-11-15T18:46:00+00:00",
+      "recap": "Jan Van Eck (CEO, VanEck) lays out the firm's four-factor macro framework -- fiscal policy, monetary policy, regulation, and technology -- for setting asset allocation over 10-year horizons. He flags the US fiscal deficit, which rose to 6.2% of GDP, as a structural risk that argues for holding gold and Bitcoin as currency hedges. On the Q3 surge in 10-year yields to roughly 5.25%, he rejects both the fiscal-panic and oil/inflation explanations (noting the dollar didn't weaken and bonds rallied early in the Iran conflict), attributing it instead to strong nominal GDP growth (4-6%) pulling up private credit demand -- his 'bond squeeze' thesis, where richer bonds pressure stocks, gold and other assets. He then pivots to AI: a rotation between chip stocks (AI 1.0) and data-center/power plays (AI 2.0), with Anthropic and OpenAI framed as durable 'real estate' incumbents inside corporate and consumer workflows, backed by VanEck's own token-demand modeling (projecting ~62 gigawatts of compute demand by 2030) and Anthropic's reported profitability. His top AI bear case is Chinese competition on cost and compute buildout. On private credit, he argues Q1 panic was overdone and that BDCs like Blue Owl -- trading below IPO price and below NAV on redemption fears -- are mispriced given still-benign default rates, calling it a structurally growing, post-2008 regulatory-driven asset class. He closes bullish on gold (holding near $4,000 despite the squeeze), gold miners' deleveraged balance sheets, royalty financing, and India's equity culture, and names Treasuries as his main bearish view.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "rates",
+        "Treasuries",
+        "fiscal-deficit",
+        "private-credit",
+        "BDC",
+        "gold",
+        "AI",
+        "macro"
+      ],
+      "terms": [
+        "BDC -- business development company, a publicly traded vehicle that makes private loans to middle-market companies",
+        "NAV -- net asset value",
+        "ROIC -- return on invested capital",
+        "GAAP -- Generally Accepted Accounting Principles",
+        "DCF -- discounted cash flow"
+      ],
+      "tier": "plumbing",
+      "title": "The Bond Squeeze | Jan van Eck on >5% Treasury Yields, Semis, Anthropic, and Gold",
+      "url": "https://traffic.megaphone.fm/EWWMN6618780928.mp3",
+      "watch": [
+        "Further moves in 10-year Treasury yields and whether the 'growth-driven' explanation holds up",
+        "BDC discount-to-NAV and redemption-request trends at firms like Blue Owl",
+        "Anthropic IPO pricing and terms as a read on late-stage private-to-public AI valuations"
+      ]
     }
   }
 }
