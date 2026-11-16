@@ -2452,6 +2452,37 @@
         "Any pickup in insurer demand for CLO AAA/AA tranches once NAIC capital charges drop"
       ]
     },
+    "600df4b7-4220-4de9-ab9e-0c5a25e201e2": {
+      "feed_name": "Flirting with Models",
+      "implications": "Background, not actionable for a repo/rates/credit desk -- this is an equity long/short portfolio-construction and PM-process discussion with no repo, funding, collateral, central-bank, or credit/structured-credit content; the single rates reference (home-builder sensitivity to the 10-year) is just an illustrative aside on factor-model design.",
+      "key_claims": [
+        "Falk Wallace: the market factor's long-run Sharpe ratio is roughly 0.6-0.8, while many well-run market-neutral PMs achieve 1-2x over the long term when properly isolated from factor exposure",
+        "Falk Wallace: roughly half of non-market equity risk factors are net return detractors over time",
+        "Falk Wallace: market-neutral books typically trade/turn over about 8-25 times a year (roughly once to twice a month)",
+        "Falk Wallace: a reasonable minimum track-record window to statistically distinguish PM skill from noise is about two years, depending on portfolio volatility and trade frequency"
+      ],
+      "kind": "podcast",
+      "one_liner": "A deep dive into equity factor-risk tooling and PM skill decomposition for long/short and long-only stock pickers, with essentially no repo, funding, rates, or credit content.",
+      "published": "2026-11-16T05:00:00+00:00",
+      "recap": "Corey Hofstein interviews Richard Falk Wallace, founder of Arcana, a portfolio intelligence platform that brings factor-risk tooling historically reserved for large multi-manager platforms to individual fundamental PMs. Falk Wallace, who moved from distressed credit and restructuring into equity long/short and market-neutral investing, argues that factor volatility has secularly risen (driven partly by passive flows and stock concentration) while alpha has become scarcer, forcing fundamental managers to adopt quant-style portfolio construction discipline long used by multi-strategy pods. He explains that correlation is mathematically equivalent to concentration, so unmanaged factor exposure (beta, momentum, growth/value, industry) drags a book's Sharpe ratio toward the market's even when the underlying factor call is directionally correct. He breaks down how Arcana decomposes PM track records into sizing versus selection skill (sizing is rarely persistent and often a Sharpe drag), earnings-day versus ex-earnings P&L patterns, and aging-bucket effects (e.g., consistently losing money in the first 15-30 days of a position before a thesis plays out). He discusses crowding risk when many PMs neutralize the same factors, the tradeoffs between off-the-shelf models (Barra, Axioma) and custom/thematic overlays (AI exposure baskets, crowding factors), and how long-only benchmark-relative managers are structurally closer to market-neutral thinking via tracking error than they may realize. He closes on how to decide whether a hot theme like AI power demand should be treated as a risk factor to neutralize or as deliberate idiosyncratic alpha.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "equities",
+        "factor-models",
+        "portfolio-construction",
+        "hedge-funds",
+        "quant"
+      ],
+      "terms": [
+        "IDO/IDEO -- idiosyncratic share of variance, the portion of a position's or portfolio's risk not explained by common factor exposures",
+        "PCA -- Principal Component Analysis, a statistical technique used here to derive data-driven risk factors from return correlations"
+      ],
+      "tier": "quant",
+      "title": "Richard Falk-Wallace \u2013\u00a0Risk Models for the Front Office with Arcana (S8E1)",
+      "url": "https://episodes.captivate.fm/episode/600df4b7-4220-4de9-ab9e-0c5a25e201e2.mp3",
+      "watch": []
+    },
     "601648ee-398a-402f-a6a9-a0e31e74fc56": {
       "feed_name": "The Julia La Roche Show",
       "implications": "Directly bears on the reader's repo/funding book: a shrinking Fed balance sheet plus a Treasury general-account drawdown recycled through reverse repo would add T-bill supply pressure and could compress front-end yields, while bill-heavy Treasury issuance keeps collateral plentiful -- both worth tracking against SOFR/repo spreads and bill auction demand.",
@@ -4940,6 +4971,44 @@
         "Redemption/gate activity at private credit funds and BDC discount-to-NAV levels as a flow indicator",
         "Leveraged software credit performance into the 2027-29 maturity wall",
         "Fed policy path and rate-cut timing given reported pushback in cut expectations"
+      ]
+    },
+    "ba570eb6-718b-4d41-a0f1-72b48a5f6a5e": {
+      "feed_name": "Macro Hive Conversations",
+      "implications": "Mostly background macro framing rather than a trading catalyst, but the crowding-out dynamic between hyperscaler/corporate debt issuance and UST supply \u2014 and the observed rotation of international investors from Treasuries into hyperscaler credit \u2014 is directly relevant to duration and credit-spread positioning and worth tracking as AI-related issuance volumes grow.",
+      "key_claims": [
+        "Mian: US average primary budget balance was essentially zero from WWII through 2007, but has run above 4% of GDP in deficit since 2008",
+        "Mian: the 2008 financial crisis did not interrupt the long-run upward trajectory of total debt-to-GDP; sovereign debt growth simply replaced slowing household debt growth",
+        "Mian: rising wealth-to-income ratios since the 1980s are mainly a valuation/discount-rate effect, not a reflection of higher expected growth",
+        "Host (Bilal Hafiz): international investors are reducing UST purchases in favor of hyperscaler debt, and the 10-year UST yield appears to move with hyperscaler borrowing pressure, consistent with the two competing for the same capital pool rather than reflecting credit/default risk"
+      ],
+      "kind": "podcast",
+      "one_liner": "A macro-theory conversation on the decades-long debt supercycle and inequality-driven savings imbalances, with a notable aside on hyperscaler debt issuance now crowding out and competing with Treasuries for duration demand.",
+      "published": "2026-11-16T16:28:00+00:00",
+      "recap": "Princeton economist Atif Mian (House of Debt co-author) discusses his extended thesis on the global \"debt supercycle.\" He argues total debt-to-GDP has risen for decades even as the composition shifted (household debt pre-2008, sovereign debt after), while interest rates fell in parallel \u2014 a price/quantity signature of excess savings supply. He traces this supply to \"imbalances\": rising top-1% income share (very high savers) and high-saving surplus economies like China, whose savings were never fully absorbed by productive investment (capex), leaving governments to plug the demand gap via \"unproductive\" deficit-financed consumption borrowing. He cites US primary budget balance averaging roughly zero from WWII to 2007, then running above 4% of GDP deficits since, forced by the zero lower bound. Rising wealth-to-income ratios reflect valuation effects (lower discount rates) rather than higher growth expectations. He draws a historical parallel to Fed founder Marriner Eccles's Depression-era testimony on inequality-driven demand shortfalls, and to Bretton Woods origins. On the present, he argues the AI investment boom is now a genuine productive opportunity, but because governments can't easily unwind embedded deficits, AI-related corporate borrowing is crowding out with sovereign issuance for the same capital pool \u2014 host Bilal Hafiz notes this empirically, observing hyperscaler bond issuance pressure moving the 10-year Treasury yield. Mian's policy prescriptions span supply-side deregulation (e.g., UK housing) and demand-side progressive tax reform (capital vs. labor taxation, estate taxes).",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "rates",
+        "fiscal deficit",
+        "sovereign debt",
+        "credit",
+        "inequality",
+        "macro",
+        "crowding-out",
+        "AI capex"
+      ],
+      "terms": [
+        "ZLB -- zero lower bound, the constraint where short-term policy rates cannot be meaningfully lowered below zero",
+        "primary budget balance -- government revenue minus expenditure excluding interest payments"
+      ],
+      "tier": "macro",
+      "title": "Ep. 384: Atif Mian on Global Debt Imbalances, Wealth Inequality, and the AI Boom",
+      "url": "https://traffic.libsyn.com/secure/macrohive/MH_w_MILAN_.mp3?dest-id=1929056",
+      "watch": [
+        "Hyperscaler/AI-related corporate bond issuance volumes and spreads relative to UST supply and the 10-year yield",
+        "US primary deficit trajectory and any post-midterm fiscal policy shifts",
+        "Cross-border investor allocation data showing UST vs. corporate/hyperscaler debt rotation"
       ]
     },
     "ba808b61-11a1-4d34-b0ee-43d6bae6672d": {

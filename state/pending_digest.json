@@ -44,6 +44,44 @@
         "Gold price behavior as a signal for fiscal/monetary stress",
         "US-China tech/AI de-escalation (e.g., an AI 'arms control' type accord) as a potential circuit breaker"
       ]
+    },
+    "ba570eb6-718b-4d41-a0f1-72b48a5f6a5e": {
+      "feed_name": "Macro Hive Conversations",
+      "implications": "Mostly background macro framing rather than a trading catalyst, but the crowding-out dynamic between hyperscaler/corporate debt issuance and UST supply \u2014 and the observed rotation of international investors from Treasuries into hyperscaler credit \u2014 is directly relevant to duration and credit-spread positioning and worth tracking as AI-related issuance volumes grow.",
+      "key_claims": [
+        "Mian: US average primary budget balance was essentially zero from WWII through 2007, but has run above 4% of GDP in deficit since 2008",
+        "Mian: the 2008 financial crisis did not interrupt the long-run upward trajectory of total debt-to-GDP; sovereign debt growth simply replaced slowing household debt growth",
+        "Mian: rising wealth-to-income ratios since the 1980s are mainly a valuation/discount-rate effect, not a reflection of higher expected growth",
+        "Host (Bilal Hafiz): international investors are reducing UST purchases in favor of hyperscaler debt, and the 10-year UST yield appears to move with hyperscaler borrowing pressure, consistent with the two competing for the same capital pool rather than reflecting credit/default risk"
+      ],
+      "kind": "podcast",
+      "one_liner": "A macro-theory conversation on the decades-long debt supercycle and inequality-driven savings imbalances, with a notable aside on hyperscaler debt issuance now crowding out and competing with Treasuries for duration demand.",
+      "published": "2026-11-16T16:28:00+00:00",
+      "recap": "Princeton economist Atif Mian (House of Debt co-author) discusses his extended thesis on the global \"debt supercycle.\" He argues total debt-to-GDP has risen for decades even as the composition shifted (household debt pre-2008, sovereign debt after), while interest rates fell in parallel \u2014 a price/quantity signature of excess savings supply. He traces this supply to \"imbalances\": rising top-1% income share (very high savers) and high-saving surplus economies like China, whose savings were never fully absorbed by productive investment (capex), leaving governments to plug the demand gap via \"unproductive\" deficit-financed consumption borrowing. He cites US primary budget balance averaging roughly zero from WWII to 2007, then running above 4% of GDP deficits since, forced by the zero lower bound. Rising wealth-to-income ratios reflect valuation effects (lower discount rates) rather than higher growth expectations. He draws a historical parallel to Fed founder Marriner Eccles's Depression-era testimony on inequality-driven demand shortfalls, and to Bretton Woods origins. On the present, he argues the AI investment boom is now a genuine productive opportunity, but because governments can't easily unwind embedded deficits, AI-related corporate borrowing is crowding out with sovereign issuance for the same capital pool \u2014 host Bilal Hafiz notes this empirically, observing hyperscaler bond issuance pressure moving the 10-year Treasury yield. Mian's policy prescriptions span supply-side deregulation (e.g., UK housing) and demand-side progressive tax reform (capital vs. labor taxation, estate taxes).",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "rates",
+        "fiscal deficit",
+        "sovereign debt",
+        "credit",
+        "inequality",
+        "macro",
+        "crowding-out",
+        "AI capex"
+      ],
+      "terms": [
+        "ZLB -- zero lower bound, the constraint where short-term policy rates cannot be meaningfully lowered below zero",
+        "primary budget balance -- government revenue minus expenditure excluding interest payments"
+      ],
+      "tier": "macro",
+      "title": "Ep. 384: Atif Mian on Global Debt Imbalances, Wealth Inequality, and the AI Boom",
+      "url": "https://traffic.libsyn.com/secure/macrohive/MH_w_MILAN_.mp3?dest-id=1929056",
+      "watch": [
+        "Hyperscaler/AI-related corporate bond issuance volumes and spreads relative to UST supply and the 10-year yield",
+        "US primary deficit trajectory and any post-midterm fiscal policy shifts",
+        "Cross-border investor allocation data showing UST vs. corporate/hyperscaler debt rotation"
+      ]
     }
   }
 }
