@@ -1848,6 +1848,51 @@
       "title": "OpenAI's Money Problem Is WAY Worse Than You Think",
       "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/3f752bc6/5edf134b.mp3"
     },
+    "4bf9cb81-2185-4513-8d9c-b5010173862f": {
+      "feed_name": "Odd Lots",
+      "implications": "Mostly background on the macro/political forces shaping rates, Treasury issuance strategy and bank balance-sheet policy (SLR reform, bill-heavy issuance, stablecoin demand for T-bills) rather than anything immediately actionable for repo/funding desks; useful context for how fiscal dominance and financial-repression risk could eventually pressure front-end rates and collateral demand, and for monitoring AI-financing credit exposure (circular Nvidia-linked deals) as a source of potential credit/financing stress if the Fed stays tight.",
+      "key_claims": [
+        "Weisenthal/Alloway: a hot CPI print this week caused traders to reprice expectations for more aggressive Fed action",
+        "Tian Yang: the 2023-2025 gold rally is analogous to the 1968 London gold pool breaking, an early warning sign preceding the eventual 1971 end of Bretton Woods",
+        "Tian Yang: financial repression (targeting 4-5% inflation to suppress real rates and amortize debt) is a likely path, with capital controls as a possible but market-negative endpoint",
+        "Tian Yang: stablecoins function like a modern Regulation Q, restricting interest paid and channeling demand into Treasury bills",
+        "Tian Yang: AI financing is structurally like a 'marathon run as a series of sprints,' with large AI players acting as anchor investors to maintain market confidence, now complicated by higher rates",
+        "Tian Yang: electrification-era productivity gains were estimated by Nick Bloom (Stanford) at roughly 1.5-2% of GDP per year, used as a benchmark suggesting AI's productivity upside may need to be much larger to resolve current fiscal/debt pressures"
+      ],
+      "kind": "podcast",
+      "one_liner": "A macro/geopolitical framing piece (Odd Lots) linking the Jensen Huang/Nvidia scandal to a broader 'impossible trinity' thesis (sovereignty vs. entitlement spending vs. sound money) that touches Fed policy, financial repression, SLR reform and Treasury issuance mix, but has no direct repo/collateral content.",
+      "published": "2026-11-16T09:00:00+00:00",
+      "recap": "Odd Lots hosts Joe Weisenthal and Tracy Alloway discuss the breaking news that Nvidia CEO Jensen Huang is out amid reports of an affair with a Megaspeed executive and an alleged national-security/espionage angle, sending Nvidia shares down sharply (reported as down roughly 7-14% intraday) while the S&P 500 barely moved. Guest Tian Yang, CIO of the VPX fund at Variant Perception, frames this within a multi-year 'primacy of sovereignty' thesis: as US-China rivalry escalates, states prioritize self-sufficiency (tech, food, energy) and domestic cohesion, creating an 'impossible trinity' of guns (mobilization spending), butter (entitlements/fiscal largesse) and sound money, where sound money historically gives way. He draws the 1960s analogy (LBJ's Great Society plus Vietnam War spending, Fed chair William McChesney Martin hiking against LBJ's wishes, the 1968 London gold pool breaking, ending in Nixon closing the gold window in 1971), and ties it to today's hot CPI print, persistent fiscal deficits, gold's 2023-25 rally, and renewed gold weakness now that rates have risen. He discusses financial repression as a response (4-5% inflation, suppressed rates, bank balance-sheet encouragement to hold government debt via SLR reform, stablecoins as a modern Regulation Q channeling demand into T-bills) and flags capital controls as a possible, market-negative end state. The conversation closes on AI financing: Nvidia-centered circular deals as sprint-like fundraising against a marathon of capital needs, the risk that tighter Fed policy makes each 'sprint' harder, and the likelihood that governments eventually backstop frontier AI labs, picking winners.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "Fed policy",
+        "financial repression",
+        "CPI/inflation",
+        "gold",
+        "SLR",
+        "Treasury issuance",
+        "AI financing",
+        "geopolitics",
+        "stablecoins"
+      ],
+      "terms": [
+        "SLR -- Supplementary Leverage Ratio, a US bank capital requirement governing how much leverage (including Treasury holdings) banks can take on relative to equity",
+        "CPI -- Consumer Price Index, a measure of US inflation",
+        "Operation Twist -- a Fed program selling short-term securities and buying longer-term ones to lower long-term yields without expanding the balance sheet",
+        "Regulation Q -- a historical US rule capping interest rates banks could pay on deposits"
+      ],
+      "tier": "plumbing",
+      "title": "The Impossible Trilemma That Hangs Over the Nvidia Crisis",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/4bf9cb81-2185-4513-8d9c-b5010173862f/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+      "watch": [
+        "Further CPI/inflation prints and Fed rate-path repricing",
+        "Any formal government backstop or financing support for frontier AI labs (Nvidia, OpenAI, SoftBank-linked deals)",
+        "Signs of SLR reform or further bank balance-sheet changes easing Treasury absorption",
+        "Gold price behavior as a signal for fiscal/monetary stress",
+        "US-China tech/AI de-escalation (e.g., an AI 'arms control' type accord) as a potential circuit breaker"
+      ]
+    },
     "4dabf3ec-4fc6-4bb9-a7a7-b4d601226e6f": {
       "feed_name": "Odd Lots",
       "kind": "podcast",
@@ -2632,6 +2677,15 @@
         "BDC discounts to NAV and any buyback activity",
         "Fed policy path relative to the 4.1% terminal signaled through 2027"
       ]
+    },
+    "66bce408-ecd7-4b91-896f-40917cec2a1f": {
+      "feed_name": "Macro Musings",
+      "kind": "podcast",
+      "published": "2026-11-16T10:00:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "Robin Wigglesworth on A Fabulous Debt",
+      "url": "https://traffic.libsyn.com/secure/macromusings/MM-569-RobinRigglesworth-Podcast.mp3?dest-id=865793"
     },
     "68b1296a-c328-11f1-ba00-f77b29e95f3a": {
       "feed_name": "Monetary Matters",
@@ -7093,6 +7147,15 @@
       "tier": "macro",
       "title": "What 10 years of African markets tells us",
       "url": "https://mcdn.podbean.com/mf/web/c46q2kr3fai6ehw2/Absa_10_year_mixdown6k3do.mp3"
+    },
+    "omfif.podbean.com/719fc330-4677-3e9b-891b-7e16043ba540": {
+      "feed_name": "Invested: The OMFIF Podcast",
+      "kind": "podcast",
+      "published": "2026-11-16T11:06:54+00:00",
+      "status": "failed",
+      "tier": "macro",
+      "title": "Inside the European Commission\u2019s record borrowing programme",
+      "url": "https://mcdn.podbean.com/mf/web/q7grzgabpnvuw8yj/SG_mixdown.mp3"
     },
     "omfif.podbean.com/ad798571-0a1a-391a-b86c-91329c80fa9e": {
       "feed_name": "Invested: The OMFIF Podcast",
