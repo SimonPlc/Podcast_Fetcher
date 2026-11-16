@@ -3832,6 +3832,32 @@
       "title": "#419 Chris Whalen: Mortgage Funeral, No Bond Rally & the Deficit Washington Won\u2019t Talk About",
       "url": "https://traffic.megaphone.fm/APO6384737840.mp3"
     },
+    "8354e0ec-c86f-4277-92fa-f97dd89cd92e": {
+      "feed_name": "Cloud 9fin",
+      "implications": "Background, not actionable -- this is about the mechanics of crypto bankruptcy claims administration and has no bearing on repo/funding markets, rates, or credit/structured credit positioning.",
+      "key_claims": [
+        "FTX's bankruptcy had more than one million creditors, per reporter Nick Rizzi",
+        "Rizzi cites a report that Bitcoin's price jumped about $8,400 in a single day in 2024, complicating petition-date claim valuation",
+        "A source told Rizzi that Lehman Brothers' bankruptcy had more claims and complications than the crypto fraud cases examined"
+      ],
+      "kind": "podcast",
+      "one_liner": "A 9fin podcast on the operational chaos of crypto bankruptcy administration (FTX, Celsius) -- distressed-debt trivia with no repo, rates, or credit-market relevance for this trader.",
+      "published": "2026-11-16T16:48:57+00:00",
+      "recap": "9fin's Sasha Padmajri interviews distressed debt reporter Nick Rizzi about the operational, non-financial headaches of administering crypto company bankruptcies like FTX, Celsius, and Voyager. The discussion focuses on logistics rather than markets: identifying creditors who are only known by long anonymous wallet strings, valuing claims when token prices swing thousands of dollars in a single day (petition-date valuation can leave claimants feeling shortchanged), and the cultural clash between traditional bankruptcy administrators and a largely retail, anti-institutional crypto creditor base. Rizzi notes FTX alone had over a million creditors, many found and contacted only through Discord servers rife with hostility and scam suspicion, forcing some firms to pull staff off community monitoring duty. On fraud, Rizzi observes that while crypto cases (e.g., Sam Bankman-Fried diverting FTX customer funds) involve messy books, sources told him the complexity is comparable to, and even less than, a case like Lehman Brothers. Looking forward, he says practitioners are developing playbooks (including pinging creditor wallets with NFTs instead of using chat rooms) but unresolved questions remain, including how to value token claims in dollars and how cross-border jurisdiction works given these firms' global footprints. The episode is purely about bankruptcy-administration mechanics in crypto, with no discussion of funding markets, rates, or credit products.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "crypto",
+        "bankruptcy",
+        "distressed-debt",
+        "off-topic"
+      ],
+      "terms": [],
+      "tier": "credit",
+      "title": "Crypto creditors versus the legal machine",
+      "url": "https://media.transistor.fm/413f2f30/54248cdd.mp3",
+      "watch": []
+    },
     "8406292c-7c32-4f86-b994-80188f6cbb88": {
       "feed_name": "Eurodollar University",
       "kind": "podcast",
