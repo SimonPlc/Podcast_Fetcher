@@ -60,6 +60,9 @@
     "48057c5e9d31d5ab15a356970a5ea04ef3adc469938bbc14bf09e42b501af347": {
       "feed_name": "Net Interest"
     },
+    "4ce03c4adf353d87ab593e90a84967ef11bd1d858a13785feb24840099db03ad": {
+      "feed_name": "NY Fed Liberty Street Economics"
+    },
     "501f2551089574380d89d607c56b5e3387e03f967cf9b74afdabe70f7ac503f2": {
       "feed_name": "NY Fed Liberty Street Economics"
     },
@@ -128,6 +131,12 @@
     },
     "a5195facef08570ea462edec1ec0a6b53e80533aa5fd5d1069bbf74ea631a356": {
       "feed_name": "NY Fed Liberty Street Economics"
+    },
+    "b687e1358e7dfdd4e0167a8f6dbe4c0bcc54e59084e918893aa590b02ce157d6": {
+      "feed_name": "Bank Policy Institute"
+    },
+    "ba3a1933fcc16e6c53fd976d89a032290937fed7ffcb9f564ed51cd46b1a00d2": {
+      "feed_name": "Bank Policy Institute"
     },
     "c027571525c2c34f5c1d02f7b40c58202c18a2147e47f773fa8e320c782a3881": {
       "feed_name": "Fed FEDS Notes"
