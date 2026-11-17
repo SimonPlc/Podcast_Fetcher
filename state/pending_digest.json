@@ -41,6 +41,51 @@
         "Foreign official-sector Treasury demand and dollar reserve-currency share trends",
         "Wage growth trajectory as the final leg of Hunt's 'money-price-wage spiral'"
       ]
+    },
+    "a753bb1e-e2b4-11f1-a386-47d9a7ead080": {
+      "feed_name": "Goldman Sachs Exchanges",
+      "implications": "For a rates/repo trader, the key signal is that Goldman expects fewer Fed/ECB/BoE hikes than the market is pricing, sees bond returns as attractively asymmetric into 2027 (high running yield plus room for yields to fall), and flags French fiscal/political risk and AI-capex deceleration as the catalysts most likely to move front-end and long-end rates; credit is expected to modestly underperform but without a dramatic deterioration.",
+      "key_claims": [
+        "Goldman estimates 2026 global growth at 2.7%, in line with potential, and forecasts 2.8% for 2027 (Jan Hatzius)",
+        "AI investment added about 0.5% to global GDP in 2026, concentrated in Taiwan, Korea and the US (Hatzius)",
+        "Tariff pass-through is still adding about 40bp to year-on-year core PCE inflation; Goldman expects core PCE at 2.4% by end-2027 (Hatzius)",
+        "Fed expected to hike 25bp in December 2026 and once more in Q1 2027 (likely March), capping tightening below current market pricing (Hatzius)",
+        "ECB expected to hike once in December with risk of one more in 2027; BoE one hike in early 2027; BoJ seen delivering three hikes to a 2% terminal rate, at or above market pricing (Hatzius)",
+        "Oil risk premium has compressed from about $30 a few weeks ago to near zero, leaving the market more exposed to renewed escalation risk (Dominic Wilson)",
+        "Goldman sees bond return prospects as the most attractive since 2020, given higher running yields plus expected gradual yield declines through 2027 (Wilson)",
+        "2027 baseline: positive but more modest equity and bond returns, modest credit underperformance, flattish-to-slightly-negative commodity returns (Wilson)"
+      ],
+      "kind": "podcast",
+      "one_liner": "Goldman's 2027 outlook centers on Fed hikes (not cuts), sticky inflation from tariffs/energy, and a friendlier bond-return backdrop once the hiking cycle caps out -- core reading for a rates desk even though repo/funding plumbing isn't directly addressed.",
+      "published": "2026-11-17T20:39:00+00:00",
+      "recap": "Goldman's chief economist Jan Hatzius and senior advisor Dominic Wilson review 2026 and preview 2027. Global growth held at ~2.7% in 2026 despite tariffs, the Iran war, and higher rates, cushioned by expansionary fiscal policy (US, Germany, Asian fuel subsidies) and an AI investment boom adding roughly half a percentage point to global GDP. For 2027 Goldman forecasts similar growth (2.8%) as financial-conditions tailwinds fade but AI capex (front-loaded) and falling oil prices (toward $80) offset that. Downside risks: renewed Middle East escalation spiking oil, unsustainable fiscal paths (US, UK, especially France ahead of its April-May presidential election) tightening financial conditions, and AI capex deceleration (expected 2028-29 in baseline, timing uncertain) amid chip/memory shortages. Labor market: unemployment stable near 4.1-4.2%, but AI adoption is now visibly correlated with weaker employment growth across industries, with a temporary 0.5pp unemployment bump expected by 2028-29. Inflation overshot 2026 expectations mainly via tariff pass-through (~40bp to core PCE) and energy-driven airline fares; Goldman sees core PCE falling to 2.4% by end-2027 as both fade. The Fed hiked in September, will hike again in December (25bp expected), and Goldman expects one more hike in Q1 2027 -- fewer than markets price. ECB, BoE similarly seen hiking less than priced; BoJ seen hiking three times to a 2% terminal rate. Wilson argues bonds offer the best risk/reward since 2020, with yields grinding lower through 2027, and expects modest dollar softening, particularly versus the yen and yuan.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "inflation",
+        "bond yields",
+        "credit",
+        "macro outlook",
+        "oil",
+        "dollar"
+      ],
+      "terms": [
+        "PCE -- Personal Consumption Expenditures price index, the Fed's preferred inflation gauge",
+        "FOMC -- Federal Open Market Committee, the Fed's rate-setting body",
+        "DM -- developed markets"
+      ],
+      "tier": "broad",
+      "title": "Steady Global Economic Growth in 2027 Outlook But Risks Tilted to Downside",
+      "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD1012556925.mp3",
+      "watch": [
+        "December FOMC meeting and dot plot for 2027 hike signaling",
+        "November/December US inflation prints for signs of tariff/energy pass-through fading",
+        "French presidential election (April-May 2027) and OAT spread stability",
+        "AI capex growth trajectory and any regulatory pushback on data-center investment",
+        "Middle East de-escalation/escalation and its pass-through to oil risk premium"
+      ]
     }
   }
 }
