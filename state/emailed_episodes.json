@@ -943,6 +943,48 @@
         "Further NY Fed consumer expectations survey releases for unemployment-fear trend"
       ]
     },
+    "2ec5dbc0-a359-49aa-8def-1c82ef17b9bf": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "For a repo/rates desk, Hunt's thesis points toward a structurally higher and more volatile long-end rate regime and widening Treasury term/risk premium as deficit and interest-expense dynamics worsen \u2014 relevant to duration positioning, collateral supply dynamics, and front-end Fed-policy expectations, though his M2/velocity framework is idiosyncratic and not the market consensus.",
+      "key_claims": [
+        "Hunt: FY just ended budget deficit was 6.3% of GDP versus a ~1.5% historical average for late-cycle expansions since 1960",
+        "Hunt: October 2025 interest expense was just under 20% of total federal revenues, and could reach ~20% of the total budget within about five years",
+        "Hunt: M2 money supply has grown at a 6.5% annualized rate since December, versus his calculated non-inflationary benchmark of roughly 3-3.25%",
+        "Hunt: core PCE inflation has run above the Fed's 2% target for 67-68 consecutive months, with services inflation above 4%",
+        "Hunt: a typical recession would push the deficit from 6% to over 10% of GDP, given deficits have historically widened ~4 percentage points in downturns",
+        "New York Fed (cited by Hunt): one-year consumer inflation expectations stood at 3.9%, close to the 12-month CPI rate"
+      ],
+      "kind": "podcast",
+      "one_liner": "A veteran economist argues the Fed is accelerating money growth into an already-entrenched inflation problem while the fiscal deficit becomes structurally unmanageable, implying a sustained rise in long-end yields and Treasury risk premia.",
+      "published": "2026-11-17T11:00:00+00:00",
+      "recap": "Dr. Lacey Hunt of Hoisington Investment Management tells Julia La Roche this is the most worried he's been in his 57-year career, despite the economy being at a late-cycle boom with low unemployment and record consumer/capital spending. His central concern is the federal budget deficit, which hit 6.3% of GDP in the last fiscal year versus a historical late-expansion norm of about 1.5% \u2014 four times worse than comparable prior periods. He calculates interest expense was already near 20% of federal revenues in October and projects it could hit 20% of the total budget within roughly five years, driven by rising debt and rising rates. He argues the deficit is politically intractable (citing Nobel laureate James Buchanan's work on democracies' inability to run surpluses in good times), and that any recession would push the deficit toward 10-10.5% of GDP, overwhelming national saving. On inflation, Hunt says M2 has grown at a 6.5% annualized rate since December versus his calculated non-inflationary benchmark of roughly 3-3.25% (potential growth plus Fed's 2% target, adjusted for rising velocity). He draws parallels to the Burns-era Fed of the 1970s, arguing inflation is not mean-reverting once embedded, and that the US has had 67-68 months of above-target inflation. He attributes the end of the disinflationary era to deglobalization/reshoring reversing prior economies-of-scale benefits, and warns of gradual erosion of dollar reserve-currency status and rising Treasury risk premia as foreign central banks diversify into gold.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "inflation",
+        "fiscal deficit",
+        "rates",
+        "Treasury yields",
+        "M2/velocity",
+        "macro"
+      ],
+      "terms": [
+        "M2 -- a broad measure of US money supply including cash, checking/savings deposits, and retail money market funds",
+        "CPI -- Consumer Price Index, a measure of inflation based on a basket of consumer goods and services",
+        "PCE -- Personal Consumption Expenditures price index, the Fed's preferred inflation gauge",
+        "CBO -- Congressional Budget Office, the nonpartisan US agency that scores federal budget and legislative costs"
+      ],
+      "tier": "broad",
+      "title": "#434 Dr. Lacy Hunt: Most Concerned In My Career \u2014 Intractable Deficit, Entrenched Inflation, No Way Out",
+      "url": "https://traffic.megaphone.fm/APO8958282297.mp3",
+      "watch": [
+        "Fed funds rate path and whether money supply (M2) growth decelerates toward Hunt's non-inflationary benchmark",
+        "Treasury interest expense as a share of federal revenue/budget in coming quarters",
+        "Foreign official-sector Treasury demand and dollar reserve-currency share trends",
+        "Wage growth trajectory as the final leg of Hunt's 'money-price-wage spiral'"
+      ]
+    },
     "2f64b528-dc55-11f1-83da-3b7f9558c396": {
       "feed_name": "Goldman Sachs Exchanges",
       "implications": "Background, not actionable -- this is a wealth-management/private-equity discussion of sports franchise valuations and NIL financing with no connection to repo, funding markets, rates, or credit.",
@@ -6188,6 +6230,39 @@
       "tier": "plumbing",
       "title": "The Most Extreme Shipping Market in History, Explained | J Mintzmyer on Why Oil Tanker Rates Are Up 25x and Why It Can\u2019t Last (and Why Dry Bulk, not Tankers, is the Next Shipping Boom)",
       "url": "https://traffic.megaphone.fm/EWWMN9066022330.mp3"
+    },
+    "ecab707c-e236-11f1-ad5d-776b2e9032f4": {
+      "feed_name": "Monetary Matters",
+      "implications": "Background, not actionable for a repo/financing desk \u2014 this is almost entirely venture/growth-equity market structure and AI-company valuation commentary with no repo, funding, collateral, central-bank, or credit/structured-credit content; the only loosely relevant thread is the equity market-structure angle (forced index-inclusion buying, passive/active shift) which sits at the bottom of this reader's priority list.",
+      "key_claims": [
+        "Shapiro: Anthropic should qualify for fast-track Nasdaq 100 inclusion post-IPO even at the low end of its valuation range, as SpaceX did, but S&P declined to fast-track SpaceX into the S&P 500",
+        "Shapiro: OpenVC's index prices Anthropic around the high $1.3 trillions, down from a peak near $1.48-1.49 trillion before the U.S. election",
+        "Shapiro: OpenAI's OpenVC index valuation sits below its reported ~$1-1.25 trillion target new funding round, implying the company could not raise the full $30 billion sought",
+        "Shapiro: standard lockup for most VC holders is expected to be 180 days or longer, mirroring SpaceX's structure",
+        "Shapiro: OpenVC tracks 1,300 unicorns daily but only sends about 300 meeting data-quality standards to NYSE, with only the top 50/20 included in published indices"
+      ],
+      "kind": "podcast",
+      "one_liner": "A VC/private-markets discussion of the Anthropic IPO, index inclusion mechanics, and the rise of private-market indexing \u2014 equity market-structure color with essentially no repo, rates, or credit content.",
+      "published": "2026-11-17T13:00:00+00:00",
+      "recap": "Jack interviews David Shapiro of OpenVC (private-market index provider partnered with NYSE) about the pending Anthropic IPO and its ripple effects on venture capital. Shapiro expects a substantial lockup (likely 180 days, possibly longer for large/strategic holders as with SpaceX), followed by volatility once it expires as long-starved VCs finally realize distributions to paid-in capital (DPI). He argues Anthropic will almost certainly qualify for fast-track Nasdaq 100 inclusion (as SpaceX did), forcing passive and benchmarked active buying, though S&P declined to fast-track SpaceX, limiting that channel's impact. They discuss how concentrated private-market indices have become in a handful of AI/defense names, OpenVC's methodology (daily pricing only where genuine secondary-market trading exists, top 20/50 unicorn indices, removal 180 days after IPO), and the broader thesis that private markets are following public markets' shift from active to passive management, squeezing underperforming mid-tier VC/growth managers. They cover relative valuations: Anthropic reportedly around $1.3-1.5 trillion (down from $1.48-1.49T peak before the election amid AI/semis jitters), OpenAI near $1 trillion and reportedly struggling to raise its targeted $30 billion raise. Both are described as profitable on an adjusted basis. The conversation closes on bull/bear AI framing (productivity/GDP upside versus token-cost commoditization risk) and OpenVC's plans to expand into non-US companies and private credit indices.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "equity market structure",
+        "IPO",
+        "venture capital",
+        "private markets",
+        "index inclusion",
+        "AI"
+      ],
+      "terms": [
+        "DPI -- Distributions to Paid-In capital, the cash (or share) distributions LPs have actually received relative to what they invested",
+        "MOIC -- Multiple on Invested Capital, a paper (unrealized) return multiple"
+      ],
+      "tier": "plumbing",
+      "title": "The Anthropic IPO\u2019s Massive Impact: Forced Passive Buying and a Liquidity Wave for Venture Capital | David Shapiro",
+      "url": "https://traffic.megaphone.fm/EWWMN7302040302.mp3",
+      "watch": []
     },
     "ecca2862-b38a-11f1-8ba3-5bdd634cc779": {
       "feed_name": "Monetary Matters",
