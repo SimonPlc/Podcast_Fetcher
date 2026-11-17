@@ -6776,6 +6776,39 @@
       "url": "https://mcdn.podbean.com/mf/web/9ve5ismqcjfqq8uc/SRI_EMEA_Episode_4_Finalb9ud9.mp3",
       "watch": []
     },
+    "marketmatters.podbean.com/390b2e18-412f-301e-be21-b755774f0f93": {
+      "feed_name": "Making Sense (J.P. Morgan)",
+      "implications": "background, not actionable -- this is a sell-side technology/distribution story about equity research and AI content consumption with no direct bearing on repo, funding, rates, or credit positioning, though the planned expansion of Content Hub into credit content could eventually be a secondary data-access channel worth noting.",
+      "key_claims": [
+        "Penner: JPMorgan's research franchise has about 500 authors publishing over 100,000 pieces of written content annually.",
+        "Penner: JPMorgan has over 400 salespeople worldwide writing more than 20,000 emails a year across 25 locations.",
+        "Penner: only about 10% of JPMorgan's thousands of clients are currently consuming machine-readable content feeds.",
+        "Penner: JPMorgan plans to expand Content Hub beyond equities into macro, commodities, and credit, and to add transcripts of spoken content (conferences, expert calls)."
+      ],
+      "kind": "podcast",
+      "one_liner": "A JPMorgan equity sales podcast on turning research/content into machine-readable data for AI workflows -- interesting on AI/data trends but has no repo, rates, or credit financing content.",
+      "published": "2026-11-17T06:00:00+00:00",
+      "recap": "JPMorgan's Making Sense podcast features Edwina Lowe (Data Assets and Alpha Group) interviewing Camilla Penner, co-head of global cash equity sales, on how AI and LLMs are transforming the consumption of sell-side content. Penner argues that while investors still want original insight and differentiated ideas, the delivery model is shifting: research, salesperson notes, conference themes, and trading color are all becoming \"content as data\" that clients feed into LLMs and agents for search, summarization, signal generation, and thesis monitoring. JPMorgan has built \"Content Hub,\" a centralized repository aggregating output from its roughly 500 research authors (100,000+ pieces annually) and 400+ salespeople (20,000+ emails/year across 25 locations), queryable via an AI search engine and increasingly distributed via API and MCP connectivity rather than just FTP/email. Penner notes adoption is uneven -- only about 10% of JPMorgan's thousands of clients currently consume these machine-readable feeds, with a wide spectrum from basic efficiency use to advanced signal-generation and risk-hedging integration. She flags risks around governance, proper attribution to content creators, and the erosion of differentiation as AI tooling becomes commoditized. Looking ahead, JPMorgan plans to convert spoken content (expert calls, conferences) into searchable transcripts and expand Content Hub beyond equities into macro, commodities, and credit, anticipating that some clients may abandon email entirely as machines become the primary interface between PMs and information.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "AI",
+        "market structure",
+        "equities",
+        "research distribution",
+        "off-topic"
+      ],
+      "terms": [
+        "MCP -- Model Context Protocol, a standard for connecting AI applications to external data/tools",
+        "LLM -- Large Language Model"
+      ],
+      "tier": "quant",
+      "title": "The rise of content as data: How AI is reshaping market insights",
+      "url": "https://mcdn.podbean.com/mf/web/knwa2wbstkwg7n85/JPM_DAAG_051126_v5_new_mix9nirx.mp3",
+      "watch": [
+        "Whether JPMorgan's Content Hub expansion into credit/macro content materializes and whether it changes how credit research/commentary is distributed to clients"
+      ]
+    },
     "marketmatters.podbean.com/427ea520-11aa-3a8a-bf2c-4da80c3bbd0c": {
       "feed_name": "Making Sense (J.P. Morgan)",
       "implications": "Background, not actionable -- this is about electricity/power derivatives market structure, not repo, funding, rates, or credit, and has no direct read-through to the reader's book.",
