@@ -3723,6 +3723,44 @@
         "Any SLR/dealer balance-sheet regulatory relief that could ease market-making capacity"
       ]
     },
+    "7bc72e65-d215-4755-ab3a-ecd406bc6334": {
+      "feed_name": "Cloud 9fin",
+      "implications": "Background, not actionable for HK repo/rates desks; relevant mainly as color for anyone holding Argentine corporate, project-finance, or sovereign credit exposure, where RIGI's tax-stability and FX-access clauses could affect bankability and recovery assumptions in a restructuring or arbitration scenario.",
+      "key_claims": [
+        "Vega Olmos: RIGI requires a minimum investment of $200 million to qualify",
+        "Vega Olmos: the RIGI enrollment window closes in July 2027",
+        "Santamaria: RIGI projects can defer or credit against other taxes any tax increase imposed in excess of the stabilized regime, rather than pay and litigate",
+        "Santamaria: RIGI allows a project to present its certificate to its bank so FX rules in effect at enrollment continue to apply even if regulations change, and shields the bank from regulator action for honoring it",
+        "Both guests: oil & gas and mining are the sectors making the most use of RIGI so far, with Decree 105 having widened eligibility for oil & gas projects"
+      ],
+      "kind": "podcast",
+      "one_liner": "A legal deep-dive on Argentina's RIGI investment-incentive regime (tax stability, FX-access protections, international arbitration) is useful EM-legal background but has no direct bearing on repo, rates, or credit trading.",
+      "published": "2026-11-18T18:57:32+00:00",
+      "recap": "9fin's LatAm podcast hosts two Argentine lawyers, Jimena Vega Olmos (Beccar Varela) and Gonzalo Santamaria (Marval), to discuss RIGI, the Milei government's Large Investment Incentive Regime launched as part of the 2023 'Ley Bases.' The guests frame RIGI as a response to Argentina's history of privatizations undone by tariff freezes, capital controls, and regulatory reversals since the 2002 crisis. RIGI offers projects over $200 million (mainly mining, oil & gas, and some infrastructure) a package of tax-rate cuts, 30-year regulatory stability commitments, and FX-access guarantees, with an enrollment window open until July 2027. Distinctive features discussed include a clause barring the state from redirecting committed supply or transport capacity away from a project (a reaction to past gas-supply interventions), a 'tax disobedience' mechanism letting projects defer or credit excess tax increases rather than litigate immediately, and a provision letting banks honor a RIGI certificate's FX terms even if rules change, shielding both the project and the lender from regulatory come-back. Disputes default to international arbitration even for domestic project vehicles, and RIGI rights are tied to Argentina's investment treaties. The lawyers note smaller suppliers to RIGI projects get only limited benefits (duty-free imports), prompting talk of a broader 'Super RIGI.' They conclude the regime's real test is political durability: success in ten years means projects continuing without a wave of ICSID claims, as seen when renewables and shale policy survived government changes.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "Argentina",
+        "RIGI",
+        "project finance",
+        "EM",
+        "sovereign risk",
+        "FX controls",
+        "arbitration"
+      ],
+      "terms": [
+        "RIGI -- R\u00e9gimen de Incentivo para Grandes Inversiones, Argentina's Large Investment Incentive Regime granting tax, FX, and legal stability benefits to investments over $200 million",
+        "ICSID -- International Centre for Settlement of Investment Disputes, the World Bank arbitration forum for investor-state disputes (referred to as 'SIADI' in Spanish)"
+      ],
+      "tier": "credit",
+      "title": "Emerging Markets \u2014 Argentina\u2019s RIGI reset and why it matters now",
+      "url": "https://media.transistor.fm/b986ad97/8779078b.mp3",
+      "watch": [
+        "Whether a broader 'Super RIGI' extending benefits to smaller projects/suppliers is enacted",
+        "RIGI project approvals and committed capital flows ahead of the July 2027 enrollment deadline",
+        "Any test case of the FX-access or tax-credit protections under a future change of government"
+      ]
+    },
     "7c971872-9fc4-11f1-b0dc-336d51e1327e": {
       "feed_name": "Goldman Sachs Exchanges",
       "kind": "podcast",
@@ -4496,6 +4534,43 @@
       "title": "Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
       "url": "https://traffic.megaphone.fm/EWWMN3352251052.mp3",
       "watch": []
+    },
+    "ICMA.podbean.com/2ee64b3e-3ce8-3153-9b8e-47d27436a01e": {
+      "feed_name": "ICMA Podcast",
+      "implications": "Background, not actionable \u2014 it's a plumbing/infrastructure primer on CP/CD issuance and the STEP label (notably its ECB collateral eligibility) rather than a market-moving data point, though it's useful context for understanding front-end funding supply dynamics and STEP-eligible collateral.",
+      "key_claims": [
+        "Giles Chapman: US domestic CP market is ~$1.4tn, plus roughly $0.5-1tn in CDs, making the total US market potentially ~$2.5tn",
+        "Giles Chapman: Euro CP and Euro CD issuance is roughly $2.2tn equivalent per the largest available database, with an additional ~\u20ac300bn in France's domestic 'NEU CP' market per Bank of France statistics",
+        "Jean-Louis Schirmann: there are currently around 220 STEP-labelled programmes outstanding with a combined ~\u20ac600bn, across issuers from over 20 countries",
+        "Soraya Shen: STEP-labelled issuers must update their Information Memorandum at least every three years"
+      ],
+      "kind": "podcast",
+      "one_liner": "A documentation/infrastructure explainer on European and US commercial paper and CD programs, useful background on short-term funding plumbing but not a trading catalyst for repo/credit desks.",
+      "published": "2026-11-18T17:44:52+00:00",
+      "recap": "This ICMA podcast, hosted by Katie Kelly with guests Giles Chapman (ABN Amro, head of CP/CD trading), Jean-Louis Schirmann (CEO, European Money Market Institute, chair of the STEP Market Committee) and Soraya Shen (Linklaters DCM), walks through the mechanics of commercial paper (CP) and certificate-of-deposit (CD) programs. Chapman sizes the US domestic CP/CD market at roughly $1.4tn CP plus up to another $1tn in CDs, and the non-US/euro CP+CD market at a roughly equivalent $2.2-2.5tn equivalent, noting strong growth since Covid as positive rates returned, cheap pandemic-era term debt matures, and banks (driven by LCR needs), corporates and sovereigns all return to or expand CP issuance. Shen outlines the lighter-touch CP documentation stack versus an EMTN programme: an Information Memorandum (not a prospectus, updated roughly every three years for STEP-labelled issuers), a dealer agreement, an issuing and paying agency agreement, and a deed of covenant, plus KYC, LEI and rating-agency workstreams. Schirmann explains the STEP label \u2014 a voluntary pan-European standardization framework (~220 programmes, ~\u20ac600bn outstanding, 20+ countries) that improves comparability, mandates standardized disclosure, and is recognized by the ECB as eligible collateral. Chapman details pricing mechanics (benchmarked off ESTR, SONIA, SOFR OIS curves, name recognition, rating, maturity liquidity sweet-spot of 2 weeks-3 months) and laments fragmented, inefficient settlement infrastructure (multiple CSDs, inconsistent ISIN/denomination conventions) versus the US's single DTCC system. Shen covers jurisdictional, selling-restriction and withholding-tax nuances across markets.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "commercial paper",
+        "CD",
+        "money markets",
+        "STEP label",
+        "settlement",
+        "funding"
+      ],
+      "terms": [
+        "STEP -- Short-Term European Paper, a voluntary pan-European labelling framework for standardizing commercial paper/CD programmes",
+        "LCR -- Liquidity Coverage Ratio, a Basel III bank liquidity requirement",
+        "IPA -- Issuing and Paying Agent, the entity authenticating notes and coordinating payments/clearing for a CP programme",
+        "EMTN -- Euro Medium Term Note programme, a standardized framework for issuing medium-term debt securities"
+      ],
+      "tier": "plumbing",
+      "title": "Commercial paper: Issuance and infrastructure",
+      "url": "https://mcdn.podbean.com/mf/web/uw8977u43sxjz5w7/CP_podcast_2_-_Issuance_and_Infrastructure917l6.mp3",
+      "watch": [
+        "Further STEP label growth/ECB collateral framework updates",
+        "Any move toward standardizing European CP settlement infrastructure (ISIN generation, denominations)"
+      ]
     },
     "ICMA.podbean.com/d02bff17-7562-3d3d-8e56-06107427353a": {
       "feed_name": "ICMA Podcast",
