@@ -244,6 +244,48 @@
       "title": "Token Bill Dwarfs CPU Bill | Ben Pouladian on Meta's Muse, Anthropic S1, and Why All Roads Still Lead to NVIDIA",
       "url": "https://traffic.megaphone.fm/EWWMN1939645778.mp3"
     },
+    "129aafb7-9642-4037-bb46-46ff1d58c60e": {
+      "feed_name": "Top Traders Unplugged",
+      "implications": "Background, not actionable -- this is a structural China macro narrative with no direct repo, funding, or rates-market mechanics relevant to HK dollar/credit financing desks, though it's useful context for China credit risk, property-developer/LGFV defaults, and renminbi/trade-surplus dynamics that could eventually spill into broader EM credit and FX positioning.",
+      "key_claims": [
+        "Wright: China's credit expansion added roughly a third of global GDP in new credit over eight years, with much of the latter half extended by shadow banks",
+        "Wright: the 1998-2003 banking bailout wrote off almost 20% of banking system assets, costing about 50% of GDP",
+        "Wright: credit growth averaged 18% from 2003-2016, 9% from 2017-2024, and is now around 5%",
+        "Wright: China's banking system holds about $74 trillion in assets, roughly 60% of global GDP",
+        "Wright: China's real exchange rate has depreciated about 20% over the last four years, aiding export share gains",
+        "Wright: China is about 26% of global investment but only about 12% of global consumption",
+        "Wright: a recent bank recapitalization was roughly 300-350 billion yuan (~$54 billion), seen as having only marginal effect on credit growth"
+      ],
+      "kind": "podcast",
+      "one_liner": "Deep macro/structural narrative on China's broken banking-credit-fiscal model -- insightful background on China's financial decay but not a near-term trade catalyst for HK repo/rates desks.",
+      "published": "2026-11-18T05:00:00+00:00",
+      "recap": "Logan Wright, author of 'Broken China,' argues China's economic trajectory shifted from genuine long-term planning to reactive crisis management starting in the early 2010s. He traces China's financial system history: a 1990s banking bailout that wrote off ~20% of bank assets (about 50% of GDP cost), followed by rapid WTO-era growth funded by trade and FDI inflows under credit quotas. After the 2008 GFC, Beijing funded a ~10% of GDP stimulus through bank lending rather than fiscal spending, which freed local governments to drive investment via local-government financing vehicles, taxed on output (VAT/turnover taxes) rather than income -- incentivizing overcapacity and property-led growth. Between 2012-2016 the funding base shifted from stable deposits to wealth-management products and shadow-bank liabilities; a 2017-2018 deleveraging campaign fixed the liability-side mismatch but cut off credit to roughly half of borrowers, triggering a slow-motion cascade of credit stress from P2P lenders (2018) to small banks (Baoshang, Jinzhou, 2019) to trust companies and property developers (2020-2021) to local governments (2023). Credit growth slowed from 18% (2003-2016) to ~9% (2017-2024) to 5% now. Wright contends China's $74 trillion banking system (60% of global GDP) is too large and unprofitable to recapitalize, and local governments hide bad-asset data, creating ongoing 'decay' rather than acute crisis. He also disputes official GDP data credibility and discusses China's export-led response to weak domestic demand and implications for Western de-risking policy.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "China",
+        "banking",
+        "shadow banking",
+        "credit",
+        "macro",
+        "fiscal policy",
+        "deleveraging"
+      ],
+      "terms": [
+        "LGFV -- Local Government Financing Vehicle, a special-purpose entity used by Chinese local governments to raise debt for infrastructure/investment off formal budget",
+        "NPL -- Non-Performing Loan",
+        "WMP -- Wealth Management Product, a shadow-banking funding instrument used by Chinese banks outside traditional deposits",
+        "PBOC -- People's Bank of China, the central bank"
+      ],
+      "tier": "quant",
+      "title": "IL55: China Isn't Collapsing. It's Decaying ft. Logan Wright",
+      "url": "https://episodes.captivate.fm/episode/129aafb7-9642-4037-bb46-46ff1d58c60e.mp3",
+      "watch": [
+        "Further Chinese bank recapitalization announcements and their scale relative to the $74tn banking system",
+        "Local government debt swap programs and any clarification of true NPL levels",
+        "European trade restrictions against Chinese export surges as a potential catalyst for China policy shifts"
+      ]
+    },
     "12d31f54-dd71-11f1-bf4a-4bbcce888520": {
       "feed_name": "Monetary Matters",
       "implications": "Background, not actionable: this is pure equity/tech-strategy commentary on AI capex, hyperscaler stock structure, and software business models with no mention of repo, funding, collateral, rates, or credit markets relevant to the reader's book.",
