@@ -4175,6 +4175,33 @@
         "Whether a Russia-Ukraine or US-Iran ceasefire materializes, which he ties to European equity and oil-price moves"
       ]
     },
+    "8dad6dc9-ed8d-497d-8cde-b50501578aa2": {
+      "feed_name": "Odd Lots",
+      "implications": "Background, not actionable -- this is pure consumer entertainment/tech industry content with no connection to repo, funding, rates, or credit markets; the only tangential point (AI chip demand raising GPU/console prices) is a real supply dynamic but not discussed here through a financing or capital-markets lens.",
+      "key_claims": [
+        "Schreier: GTA V sold 235 million copies, making it the best-selling non-mobile video game ever.",
+        "Schreier: GTA 6's development team grew from about 2,400 employees (after Red Dead Redemption 2) to 4,700.",
+        "Schreier: rumored GTA 6 budget estimates range from $1 billion to $1.5 billion, unconfirmed by Rockstar.",
+        "Schreier: PlayStation and Xbox both reported GTA 6 broke records for most pre-orders in history, with estimates exceeding 10 million pre-ordered copies.",
+        "Schreier: PlayStation 5 launched at $500 in 2020 and now costs $650 for the baseline model, the first time console prices have risen rather than fallen over a generation, attributed to AI data centers absorbing GPU and memory supply."
+      ],
+      "kind": "podcast",
+      "one_liner": "A deep dive into Grand Theft Auto 6's development, budget, and launch hype has no bearing on repo, rates, or credit markets.",
+      "published": "2026-11-18T11:00:00+00:00",
+      "recap": "This Odd Lots episode features Bloomberg video game reporter Jason Schreier discussing the upcoming launch of Grand Theft Auto 6. The conversation covers the game's roughly 13-year development gap since GTA V, driven by the massive success of GTA Online's microtransaction revenue (an estimated half a billion dollars a year) reducing urgency for a sequel, COVID-related production delays, and the sheer scale of building a highly detailed open world with two interacting protagonists. Schreier notes the development team grew from about 2,400 to 4,700 employees over eight years, with rumored budgets of $1-1.5 billion. The discussion covers GTA V's historic sales (235 million copies), pre-order records for GTA 6, Netflix's gameplay trailer outperforming a Robert De Niro film premiere, and the shift to digital-only distribution given the game's 200+ gigabyte size. They also discuss how AI-driven GPU and memory shortages have pushed console and PC gaming hardware prices up for the first time in industry history, with PlayStation 5 rising from $500 to $650. Schreier argues GTA 6 is an anomaly rather than an industry blueprint, since most publishers are trying to cut ballooning budgets as sales haven't kept pace with rising production costs, unlike Rockstar's near-certainty of recouping its investment.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "off-topic",
+        "video-games",
+        "media"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "How GTA VI Became the Most Expensive Video Game Ever Made",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/8dad6dc9-ed8d-497d-8cde-b50501578aa2/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+      "watch": []
+    },
     "8e30cc48-c94f-47b3-b450-b4ca014b861f": {
       "feed_name": "Odd Lots",
       "implications": "Background, not actionable -- this is a podcast promo with no bearing on financing, rates, or credit markets.",
@@ -4347,6 +4374,15 @@
         "Whether NVIDIA's export-control exposure escalates after the board's Wachtell Lipton investigation",
         "Anthropic IPO pricing next week relative to the $70-78 marketed range and Hyperliquid perp levels"
       ]
+    },
+    "96d7e485-e52b-4e5a-9c8a-7af61a54fe98": {
+      "feed_name": "Eurodollar University",
+      "kind": "podcast",
+      "published": "2026-11-18T12:00:00+00:00",
+      "status": "failed",
+      "tier": "plumbing",
+      "title": "Commodities Are Signaling Something Very Strange Is About to Happen",
+      "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/e7b075f6/14329291.mp3"
     },
     "9909eeee-9c27-11f1-ab19-cf682a15597e": {
       "feed_name": "Forward Guidance",
