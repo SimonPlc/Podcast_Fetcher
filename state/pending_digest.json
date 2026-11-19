@@ -96,6 +96,44 @@
         "Whether swap spreads start moving in tandem with treasury yields (would signal a genuine repricing, not just Fed-risk)",
         "Gold/silver ratio trajectory toward 80-90 as a read on global industrial demand/China"
       ]
+    },
+    "omfif.podbean.com/ff9cfe8a-7c4d-38a6-bf7b-aa4c3d13e46e": {
+      "feed_name": "Invested: The OMFIF Podcast",
+      "implications": "Background and historical/educational context rather than a trading catalyst, but reinforces two live themes: the growing wedge of debt- and SPV-style financing behind the AI capex boom (a credit/structured-finance exposure to monitor) and the erosion of US market-regulator capacity, which could loosen oversight of leverage and off-balance-sheet structures over time; also useful color on why France remains the most fragile DM sovereign-debt story and why ECB backstop expectations persist.",
+      "key_claims": [
+        "Wigglesworth: AI-related capex is increasingly debt-financed in 2026, roughly $500-600bn this year, with several trillion more via off-balance-sheet/SPV-style structures",
+        "Wigglesworth: the Fed Board is reportedly cutting about 30% of its supervisory/regulatory staff",
+        "Wigglesworth: France has not run a budget surplus in 52 years",
+        "Wigglesworth: the US breached 'Ferguson's law' (debt service exceeding defense spending) in 2024 for the first time in a century and will likely remain in violation for roughly five years",
+        "Wigglesworth: the UK spent close to 5% of GDP servicing debt in 1980, preceding Thatcher-era fiscal change"
+      ],
+      "kind": "podcast",
+      "one_liner": "A bond-market historian's conversation on sovereign debt sustainability, AI's shift toward debt-financed capex, and weakening US financial regulators carries real background value for a rates/credit desk even without a trade call.",
+      "published": "2026-11-19T12:45:34+00:00",
+      "recap": "Mark Sobel interviews FT Alphaville editor Robin Wigglesworth about his book 'A Fabulous Debt,' a history of the bond market. Wigglesworth argues bonds, not stocks, are the economy's true engine, illustrating this through Venice's 1171 war bond (the Prestiti) and Jay Cooke, the Civil War financier whose railway-bond overreach triggered the Panic of 1873. He draws a direct parallel to today's AI boom: like 19th-century railways, AI was initially funded by hyperscalers' free cash flow, but in 2026 financing has shifted toward debt (roughly $500-600bn this year) and increasingly toward creative, suboptimal off-balance-sheet structures reminiscent of the railway era's trust and mortgage bonds \u2014 a shift that makes him more uneasy. On regulation, he says the knowledge gap that caused 2008 has narrowed, but he's alarmed by what he calls deliberate political weakening of the SEC, CFTC and Fed supervisory staff (citing a 30% cut to the Fed Board's supervisory/regulatory staff), which he sees as emboldening mainstream Wall Street risk-taking. On sovereign debt, he says default is unthinkable for major economies; the realistic toolkit is a mix of growth, tax increases, spending cuts, financial repression and inflation. He flags France (52 years without a budget surplus, polarized politics) as most worrying, expects the ECB to backstop it regardless, and discusses 'Ferguson's law' (debt service exceeding defense spending signals imperial decline) as a flawed but evocative lens, noting the US breached it in 2024 but faces no real bond-market check given persistent foreign demand for Treasuries.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "sovereign debt",
+        "rates",
+        "Fed",
+        "regulation",
+        "AI financing",
+        "credit",
+        "SPV",
+        "France",
+        "UK",
+        "history"
+      ],
+      "terms": [],
+      "tier": "macro",
+      "title": "Robin Wigglesworth on A Fabulous Debt",
+      "url": "https://mcdn.podbean.com/mf/web/pum2hci3875fhit2/RW_full_mixdown7hpbd.mp3",
+      "watch": [
+        "Scale and structure of AI-related debt and off-balance-sheet/SPV financing through 2026-2027",
+        "Further staffing/enforcement cuts at the SEC, CFTC, and Fed's supervisory arm",
+        "French budget and political trajectory ahead of the next presidential election and any ECB response"
+      ]
     }
   }
 }
