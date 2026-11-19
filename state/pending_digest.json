@@ -44,6 +44,58 @@
         "Further LTV/covenant tightening or a visible wave of mid-market NeoCloud defaults",
         "Anthropic's cost of capital given its high-double-B credit profile as it scales compute purchases"
       ]
+    },
+    "8118e65e-0d1c-49d3-842b-daf277a8e268": {
+      "feed_name": "Eurodollar University",
+      "implications": "The swap-spread/TIPS/curve divergence from Waller's rhetoric is directly useful for repo and OIS-related positioning \u2014 it suggests any December hike (or hawkish surprise) is likely to be a front-end-only, non-durable move rather than a genuine shift in term premium; watch for mean reversion risk if the Fed hikes and growth signals keep deteriorating. The hung-deal/bridge-financing commentary on AI data-center debt is an early warning for leveraged loan, HY, and private-credit/CLO warehouse exposure \u2014 banks pulling back on bridge lending typically precedes wider spreads and slower CLO formation in that sleeve.",
+      "key_claims": [
+        "Waller (CNBC): inflation has been above target for over five years and firms are telling him they can pass through 3%+ price increases, justifying a potential 50bp December hike",
+        "Host: 10yr yield ~4.05-4.06%, 2yr ~4.78%, both little changed/lower despite Waller's hawkish repeat, unlike the selloff after the prior CPI print",
+        "Host: TIPS breakevens, especially at longer tenors and the 5y5y forward, are pricing very low risk of broadening/sustained inflation, contradicting Waller's pass-through narrative",
+        "Host: swap spreads showed no move even as 2yr treasury yields were volatile, implying the market is pricing pure short-run 'Fed risk,' not real inflation or growth repricing",
+        "Host: increasing frequency of 'hung deals' as banks struggle to syndicate bridge financing for AI data-center and M&A debt into HY/loan markets",
+        "Host: broad-based commodity meltdown (copper, silver, aluminum) is occurring despite tight physical supply conditions, read as repricing of the AI capex/reflation narrative",
+        "Host: gold/silver ratio reverting from roughly 40s-45 toward 80-90, which the host ties to weakening industrial demand proxied by Chinese GDP"
+      ],
+      "kind": "podcast",
+      "one_liner": "Waller's doubled-down call for a 50bp December hike is being rejected by TIPS, the flat yield curve and (crucially) static swap spreads, while a broadening commodity meltdown and rising reports of hung AI-related loan syndications point to real stress building in credit and dollar funding conditions.",
+      "published": "2026-11-19T12:00:00+00:00",
+      "recap": "The host covers Fed Governor Waller's CNBC appearance reiterating that the FOMC may need a 50bp hike in December, arguing firms are successfully passing 3%+ price increases to resilient consumers and that inflation expectations need a 'shock.' Unlike the prior CPI-driven selloff, markets largely ignored him this time: the 10yr sits near 4.05-4.06%, the 2yr near 4.78%, and the curve is flattening in both directions, consistent with weak growth expectations rather than inflation fear. TIPS breakevens, especially longer-dated and 5y5y forward measures, keep pricing very limited risk of sustained, broadening inflation. A key technical point: swap spreads showed no coincident move even as front-end treasury yields were volatile, which the host reads as proof the market is pricing a purely short-run 'Fed risk' rather than any genuine repricing of inflation or growth \u2014 a historical parallel is drawn to 2008, when Fed officials similarly dismissed TIPS signals based on anecdotal pass-through evidence and later had to reverse hikes quickly. Separately, the episode flags intensifying credit-market pushback on AI financing: banks are increasingly stuck with 'hung deals' as bridge financing for data-center and M&A deals proves hard to syndicate into HY/loan markets, discouraging further bridge lending. This compounds a broad commodity meltdown (copper, silver, aluminum) despite tight physical supply, read as a demand-side repricing of the AI capex/reflation narrative and China weakness, alongside dollar strength attributed to tightening global funding conditions. A chunk of the episode is an unrelated political/conference pitch, not relevant here.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "FOMC",
+        "rate hike",
+        "TIPS breakevens",
+        "yield curve",
+        "swap spreads",
+        "credit",
+        "hung deals",
+        "bridge financing",
+        "syndicated loans",
+        "AI capex",
+        "commodities",
+        "dollar funding",
+        "eurodollar"
+      ],
+      "terms": [
+        "TIPS -- Treasury Inflation-Protected Securities, used to derive market breakeven inflation expectations",
+        "breakeven inflation -- the inflation rate implied by the yield gap between nominal Treasuries and TIPS of the same maturity",
+        "swap spread -- the difference between a fixed swap rate and the yield on a Treasury of similar maturity, used as a funding/credit risk gauge",
+        "hung deal -- a loan or bond deal that a bank has underwritten/bridge-financed but cannot fully syndicate or sell down to investors at the expected terms",
+        "bridge financing -- short-term bank lending provided to fund a deal until permanent financing (e.g. bond or syndicated loan issuance) can be arranged",
+        "5y5y forward (breakeven) -- the market-implied average inflation rate expected over the five-year period beginning five years from now"
+      ],
+      "tier": "plumbing",
+      "title": "Markets Are Being Liquidated...Here\u2019s What\u2019s Really Happening",
+      "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/1cb55fe2/59e321ce.mp3",
+      "watch": [
+        "December FOMC outcome (25bp vs 50bp vs hold) and dot-plot signaling",
+        "Further reports of hung deals/failed syndications tied to AI data-center and bridge financing",
+        "Whether swap spreads start moving in tandem with treasury yields (would signal a genuine repricing, not just Fed-risk)",
+        "Gold/silver ratio trajectory toward 80-90 as a read on global industrial demand/China"
+      ]
     }
   }
 }

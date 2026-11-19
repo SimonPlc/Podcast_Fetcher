@@ -2856,6 +2856,36 @@
       "title": "Robin Wigglesworth on A Fabulous Debt",
       "url": "https://traffic.libsyn.com/secure/macromusings/MM-569-RobinRigglesworth-Podcast.mp3?dest-id=865793"
     },
+    "66fa9514-518d-4e85-ae99-791096168a63": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "Background, not actionable -- this is retail-oriented macro/political punditry and gold/crypto commentary with no discussion of repo, funding markets, collateral, SOFR/OIS, central bank reserves/balance-sheet operations in a money-market sense, or credit/structured credit; the Fed balance-sheet and rate-path commentary is too speculative and non-technical to inform a repo or rates book.",
+      "key_claims": [
+        "Peter Schiff predicts the US national debt reaches roughly $50 trillion within about two years, implying ~$9 trillion of new debt.",
+        "Schiff states interest expense on the debt is currently $1.4 trillion/year and could exceed $2 trillion next year.",
+        "Schiff claims banks hold about $2 trillion in unrealized (mark-to-market) losses on fixed-rate mortgages at current rates, which could grow to $3 trillion if mortgage rates rise further.",
+        "Schiff predicts the Fed funds rate would need to reach 6-9% to genuinely fight inflation, but argues the Fed under Kevin Warsh will not follow through and will eventually resort to major QE and rate cuts instead.",
+        "Schiff forecasts Bitcoin breaking below $50,000 (a 'neckline' on a head-and-shoulders chart pattern) would trigger a cascading liquidation, citing an average Bitcoin ETF buyer cost basis of about $77,000 versus a current price near $65,000."
+      ],
+      "kind": "podcast",
+      "one_liner": "A macro/political/gold-and-Bitcoin punditry episode (Peter Schiff on election outcomes, debt, inflation, gold, Bitcoin) with no repo, funding, or credit-market content relevant to a HK bank financing/repo desk.",
+      "published": "2026-11-19T11:00:00+00:00",
+      "recap": "Peter Schiff gives his quarterly macro update to host Julia LaRose, framing his commentary around the 2026 US midterms. He argues Republicans lost badly because voters blamed Trump for a cost-of-living crisis he had promised to fix but instead worsened, and predicts Democrats will win the White House in 2028 with a filibuster-proof Senate, leading to even larger deficits. He projects the national debt reaching $50 trillion within roughly two years, driven by exploding interest costs (already $1.4 trillion annually, heading toward $2 trillion). Schiff argues Fed Chair Kevin Warsh is 'bluffing' on inflation fighting -- rate hikes so far (one 25bp move, maybe a 50bp hike in December) are too small to matter, the Fed's balance sheet hasn't shrunk, and money supply is still growing 6% annualized. He predicts CPI could hit 5%+ by end of 2026, that the Fed funds rate would need to reach 6-9% to actually fight inflation but never will due to political and fiscal constraints, and that this ends in renewed QE and rate cuts despite high inflation. He touches on mortgage-market losses (banks sitting on ~$2-3 trillion in unrealized mortgage losses at current rates), housing price declines needed to restore affordability, and a bearish case for Bitcoin (predicting a break below $50,000 triggering cascading liquidations and corporate failures like Strategy/MicroStrategy). He reiterates his longstanding bullish case for gold, silver, and mining equities as a buying opportunity after the recent pullback, alongside promotion of his funds, newsletter, and gold-dealing business.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "macro",
+        "Fed",
+        "gold",
+        "Bitcoin",
+        "politics",
+        "inflation"
+      ],
+      "terms": [],
+      "tier": "broad",
+      "title": "#435 Peter Schiff: $50 Trillion Debt in 2 Years, the Fed Is Bluffing & the Biggest QE Yet Is Coming",
+      "url": "https://traffic.megaphone.fm/APO2253235390.mp3",
+      "watch": []
+    },
     "68b1296a-c328-11f1-ba00-f77b29e95f3a": {
       "feed_name": "Monetary Matters",
       "kind": "podcast",
@@ -4033,6 +4063,58 @@
         "State guaranty fund involvement if life insurers fail",
         "Further bank deposit rate increases signaling funding cost inflection",
         "Whether the Fed eventually restarts QE amid deficit financing pressure"
+      ]
+    },
+    "8118e65e-0d1c-49d3-842b-daf277a8e268": {
+      "feed_name": "Eurodollar University",
+      "implications": "The swap-spread/TIPS/curve divergence from Waller's rhetoric is directly useful for repo and OIS-related positioning \u2014 it suggests any December hike (or hawkish surprise) is likely to be a front-end-only, non-durable move rather than a genuine shift in term premium; watch for mean reversion risk if the Fed hikes and growth signals keep deteriorating. The hung-deal/bridge-financing commentary on AI data-center debt is an early warning for leveraged loan, HY, and private-credit/CLO warehouse exposure \u2014 banks pulling back on bridge lending typically precedes wider spreads and slower CLO formation in that sleeve.",
+      "key_claims": [
+        "Waller (CNBC): inflation has been above target for over five years and firms are telling him they can pass through 3%+ price increases, justifying a potential 50bp December hike",
+        "Host: 10yr yield ~4.05-4.06%, 2yr ~4.78%, both little changed/lower despite Waller's hawkish repeat, unlike the selloff after the prior CPI print",
+        "Host: TIPS breakevens, especially at longer tenors and the 5y5y forward, are pricing very low risk of broadening/sustained inflation, contradicting Waller's pass-through narrative",
+        "Host: swap spreads showed no move even as 2yr treasury yields were volatile, implying the market is pricing pure short-run 'Fed risk,' not real inflation or growth repricing",
+        "Host: increasing frequency of 'hung deals' as banks struggle to syndicate bridge financing for AI data-center and M&A debt into HY/loan markets",
+        "Host: broad-based commodity meltdown (copper, silver, aluminum) is occurring despite tight physical supply conditions, read as repricing of the AI capex/reflation narrative",
+        "Host: gold/silver ratio reverting from roughly 40s-45 toward 80-90, which the host ties to weakening industrial demand proxied by Chinese GDP"
+      ],
+      "kind": "podcast",
+      "one_liner": "Waller's doubled-down call for a 50bp December hike is being rejected by TIPS, the flat yield curve and (crucially) static swap spreads, while a broadening commodity meltdown and rising reports of hung AI-related loan syndications point to real stress building in credit and dollar funding conditions.",
+      "published": "2026-11-19T12:00:00+00:00",
+      "recap": "The host covers Fed Governor Waller's CNBC appearance reiterating that the FOMC may need a 50bp hike in December, arguing firms are successfully passing 3%+ price increases to resilient consumers and that inflation expectations need a 'shock.' Unlike the prior CPI-driven selloff, markets largely ignored him this time: the 10yr sits near 4.05-4.06%, the 2yr near 4.78%, and the curve is flattening in both directions, consistent with weak growth expectations rather than inflation fear. TIPS breakevens, especially longer-dated and 5y5y forward measures, keep pricing very limited risk of sustained, broadening inflation. A key technical point: swap spreads showed no coincident move even as front-end treasury yields were volatile, which the host reads as proof the market is pricing a purely short-run 'Fed risk' rather than any genuine repricing of inflation or growth \u2014 a historical parallel is drawn to 2008, when Fed officials similarly dismissed TIPS signals based on anecdotal pass-through evidence and later had to reverse hikes quickly. Separately, the episode flags intensifying credit-market pushback on AI financing: banks are increasingly stuck with 'hung deals' as bridge financing for data-center and M&A deals proves hard to syndicate into HY/loan markets, discouraging further bridge lending. This compounds a broad commodity meltdown (copper, silver, aluminum) despite tight physical supply, read as a demand-side repricing of the AI capex/reflation narrative and China weakness, alongside dollar strength attributed to tightening global funding conditions. A chunk of the episode is an unrelated political/conference pitch, not relevant here.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "FOMC",
+        "rate hike",
+        "TIPS breakevens",
+        "yield curve",
+        "swap spreads",
+        "credit",
+        "hung deals",
+        "bridge financing",
+        "syndicated loans",
+        "AI capex",
+        "commodities",
+        "dollar funding",
+        "eurodollar"
+      ],
+      "terms": [
+        "TIPS -- Treasury Inflation-Protected Securities, used to derive market breakeven inflation expectations",
+        "breakeven inflation -- the inflation rate implied by the yield gap between nominal Treasuries and TIPS of the same maturity",
+        "swap spread -- the difference between a fixed swap rate and the yield on a Treasury of similar maturity, used as a funding/credit risk gauge",
+        "hung deal -- a loan or bond deal that a bank has underwritten/bridge-financed but cannot fully syndicate or sell down to investors at the expected terms",
+        "bridge financing -- short-term bank lending provided to fund a deal until permanent financing (e.g. bond or syndicated loan issuance) can be arranged",
+        "5y5y forward (breakeven) -- the market-implied average inflation rate expected over the five-year period beginning five years from now"
+      ],
+      "tier": "plumbing",
+      "title": "Markets Are Being Liquidated...Here\u2019s What\u2019s Really Happening",
+      "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/1cb55fe2/59e321ce.mp3",
+      "watch": [
+        "December FOMC outcome (25bp vs 50bp vs hold) and dot-plot signaling",
+        "Further reports of hung deals/failed syndications tied to AI data-center and bridge financing",
+        "Whether swap spreads start moving in tandem with treasury yields (would signal a genuine repricing, not just Fed-risk)",
+        "Gold/silver ratio trajectory toward 80-90 as a read on global industrial demand/China"
       ]
     },
     "823608ea-a219-11f1-b45f-cf62504a9996": {
