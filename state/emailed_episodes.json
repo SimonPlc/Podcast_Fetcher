@@ -2904,6 +2904,52 @@
       "title": "Stacy Rasgon: \u201cDemand Is Off The Charts\u201d in Semiconductors\u2026 And Set To Double Again Soon",
       "url": "https://traffic.megaphone.fm/EWWMN1500834438.mp3"
     },
+    "6a4809cb-d7a5-49eb-8242-b50701559401": {
+      "feed_name": "The Credit Edge",
+      "implications": "For a repo/credit desk, this is useful background on bifurcation within private credit: large-cap/ARR-heavy and AI-adjacent software credits show real spread widening and restructuring stress while disciplined middle-market cash-flow lending has not, which matters for marking private-credit-adjacent collateral, CLO exposure to leveraged loans, and gauging how much BDC/evergreen-fund redemption risk has actually abated versus merely paused.",
+      "key_claims": [
+        "Magid: Audax's 26-year annual loss rate is 6bp on senior secured loans and 17bp on junior/mezzanine debt, versus an industry junior-debt loss rate he estimates near 4% in aggregate",
+        "Magid: Audax has made zero ARR loans across its portfolio, unlike peers who financed forward-revenue growth in software",
+        "Magid: direct lending market deal volume was down almost 10% in 2025 and down 16% year-to-date in 2026, while Audax's own deal flow is up 20% in 2026",
+        "Havens: the five largest private BDCs saw redemption requests averaging 9-19% over the last three quarters (some into the 40s), versus about 1.5% for Audax's roughly $6bn evergreen fund",
+        "Havens: the Bloomberg BDC spread index moved from 175bp to a 260bp peak in March, tightened below 170bp in September, and sits around 190bp now",
+        "Magid: current broadly syndicated large-cap loan spreads are around S+275, while private credit lenders seeking 425-550bp all-in on large-cap deals are using S+250 plus 200bp of PIK rather than wider cash spreads",
+        "Magid: Audax's AI risk-scoring tool (ToltIQ) found 4-6% of its portfolio heavily exposed to AI disruption and another ~20% somewhat exposed",
+        "Magid: unlevered mezzanine fund returns have run about 11% net (+/-100bp) across five funds, with 85% debt/15% equity co-investment structure"
+      ],
+      "kind": "podcast",
+      "one_liner": "Audax's Magid argues middle-market private credit losses remain low (6bp senior loss rate) and ARR-loan discipline insulated the fund from the SaaS/AI stress hitting large-cap broadly syndicated and private credit loans, offering a direct read on credit quality and structuring norms relevant to repo/credit books.",
+      "published": "2026-11-19T21:00:00+00:00",
+      "recap": "Bloomberg's Credit Edge hosts James Crumby and David Havens interview Kevin Magid, CEO of Audax Private Debt, on the state of private credit. Magid pushes back on \"golden age is over\" headlines, arguing underwriting quality, not market-level panic, determines outcomes. He distinguishes Audax's core middle-market segment (EBITDA $15-75mm, loans sized ~$100-175mm at ~5x leverage) from large-cap private credit and broadly syndicated loans, where AI-driven \"SaaS apocalypse\" stress has hit software loans trading in the 80s and some restructurings. Audax has made zero ARR (annual recurring revenue) loans, lending only against trailing 12-month EBITDA rather than projected growth, which he credits for avoiding losses. He cites 26-year loss rates of 6bp on senior secured and 17bp on junior/mezzanine debt, versus current market non-accrual rates near 2% and default rates of 2.5-6% depending on agency. Audax built an AI risk-scoring tool (ToltIQ) applied across its portfolio, finding only 4-6% heavily exposed. He emphasizes fixed charge coverage ratio (not interest coverage) as the binding covenant metric, with fund averages of 1.6-1.8x versus market stretching toward 1.2-1.3x. He discusses BDC redemption stress earlier in 2026 (public BDC redemptions 9-19%, Audax's evergreen fund only ~1.5%), deal flow down 10-16% industry-wide but up 20% for Audax, and skepticism that enough capital exists to fund the full AI buildout, with weaker credits and some data-center projects likely left unfinanced.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "private credit",
+        "middle market",
+        "CLO/leveraged finance",
+        "credit risk",
+        "BDC redemptions",
+        "fixed charge coverage",
+        "SaaS/AI stress",
+        "unitranche"
+      ],
+      "terms": [
+        "ARR loan -- annual recurring revenue loan, where lending is sized against projected/contracted forward revenue growth rather than trailing realized cash flow",
+        "LTM EBITDA -- latest twelve months earnings before interest, taxes, depreciation and amortization, a trailing cash-flow measure",
+        "fixed charge coverage ratio -- cash flow less fixed charges (taxes, capex, working capital) divided by fixed obligations, a stricter covenant metric than interest coverage",
+        "unitranche -- a single blended loan facility combining senior and subordinated debt into one tranche with one all-in rate",
+        "BDC -- business development company, a closed-end investment vehicle that lends to middle-market companies",
+        "PIK -- payment-in-kind, interest paid by adding to loan principal rather than in cash"
+      ],
+      "tier": "credit",
+      "title": "\u2018Fear Is Making a Comeback,\u2019 Says Audax Private Debt\u2019s CEO",
+      "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/e74a35e9-c028-4e5f-a3f7-afb10164a717/6a4809cb-d7a5-49eb-8242-b50701559401/audio.mp3?utm_source=Podcast&in_playlist=8792a2e9-d66c-4038-a1fe-afb101654894",
+      "watch": [
+        "Whether broadly syndicated loan spreads (currently ~275bp over) widen materially as AI-related credit stress spreads beyond isolated software names",
+        "Further BDC/evergreen fund redemption trends given redemption caps still above 5% and several quarters left to normalize",
+        "Capital availability and spread dynamics in AI/data-center financing as large private credit players compete for that supply"
+      ]
+    },
     "6a5aab7a-29f7-4572-907e-b4c900f5ffe7": {
       "feed_name": "Money Stuff: The Podcast",
       "kind": "podcast",
@@ -3481,6 +3527,34 @@
         "Whether a second consecutive weak monsoon materializes and hits rural consumption/credit quality in India",
         "Any pass-through of GCC insourcing trend into Indian IT services credit spreads"
       ]
+    },
+    "6aff6dc18f8ad2908fc27499": {
+      "feed_name": "Unhedged",
+      "implications": "Background, not actionable -- this is a pure AI/tech-equity IPO story with no direct read-through to repo, funding, rates, or credit markets, though persistent AI capex and equity-market volatility (noted Nasdaq selloff) could be tangential context for broader risk sentiment.",
+      "key_claims": [
+        "Anthropic went public at a $1.7 trillion fully diluted valuation, the largest IPO ever, surpassing SpaceX (George Hammond, FT).",
+        "Goldman Sachs, lead banker on the deal, reportedly forecasts Anthropic revenue could exceed $650 billion by 2030.",
+        "Anthropic's current annualized revenue run-rate is just over $80 billion, with about $30 billion in actual booked revenue for the year to date (George Hammond).",
+        "OpenAI's concurrent private fundraising lowered its target from $30 billion to $20 billion and is struggling to close, at a lower valuation than Anthropic's IPO.",
+        "The Nasdaq fell about 1.25% on the day of Anthropic's IPO and has lost roughly $5 trillion in value over the prior month, undercutting a generic 'AI is great' trade narrative."
+      ],
+      "kind": "podcast",
+      "one_liner": "A discussion of Anthropic's record-breaking $1.7tn IPO has no bearing on repo/funding markets, rates, or credit, and is pure tech-equity commentary.",
+      "published": "2026-11-19T21:44:32+00:00",
+      "recap": "FT's Unhedged podcast covers Anthropic's public market debut, which priced at a $1.7 trillion fully diluted valuation, making it the largest IPO ever, surpassing SpaceX. Hosts Rob Armstrong and George Hammond discuss how unusual the listing is: Anthropic is only five years old, had negligible revenue two years ago, and was seen as trailing OpenAI in the consumer race before pulling ahead commercially as an enterprise-focused AI provider. They discuss CEO Dario Amadei's stated reluctance around fundraising and his safety-focused mission framing, contrasted with the reality that venture investors backing the company are reaping enormous windfalls. Goldman Sachs, the lead banker, reportedly projects revenue could exceed $650 billion by 2030, which the hosts note would dwarf the current revenue of Microsoft, Meta, or Apple; current annualized revenue is said to be around $80 billion with roughly $30 billion in booked revenue. The conversation explores whether Anthropic's enterprise subscription and usage-based model business, sold directly and via cloud partners like Google and Amazon, can keep outrunning commoditization as token pricing falls, with Anthropic needing to continually move into new frontiers (coding, agentic AI, and eventually science/medicine/education) to sustain growth. They also note the contrast with OpenAI's struggling private fundraise at a lower valuation, and that the Nasdaq sold off sharply the same day, undercutting any 'AI euphoria' narrative. The episode closes with a lighthearted long/short segment unrelated to markets.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "equities",
+        "IPO",
+        "AI",
+        "off-topic"
+      ],
+      "terms": [],
+      "tier": "credit",
+      "title": "Anthropic\u2019s rocketing IPO",
+      "url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6aff6dc18f8ad2908fc27499/media.mp3",
+      "watch": []
     },
     "6c3646fe-afa0-45cf-8682-b500015998ac": {
       "feed_name": "Odd Lots",

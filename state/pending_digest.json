@@ -45,6 +45,52 @@
         "Anthropic's cost of capital given its high-double-B credit profile as it scales compute purchases"
       ]
     },
+    "6a4809cb-d7a5-49eb-8242-b50701559401": {
+      "feed_name": "The Credit Edge",
+      "implications": "For a repo/credit desk, this is useful background on bifurcation within private credit: large-cap/ARR-heavy and AI-adjacent software credits show real spread widening and restructuring stress while disciplined middle-market cash-flow lending has not, which matters for marking private-credit-adjacent collateral, CLO exposure to leveraged loans, and gauging how much BDC/evergreen-fund redemption risk has actually abated versus merely paused.",
+      "key_claims": [
+        "Magid: Audax's 26-year annual loss rate is 6bp on senior secured loans and 17bp on junior/mezzanine debt, versus an industry junior-debt loss rate he estimates near 4% in aggregate",
+        "Magid: Audax has made zero ARR loans across its portfolio, unlike peers who financed forward-revenue growth in software",
+        "Magid: direct lending market deal volume was down almost 10% in 2025 and down 16% year-to-date in 2026, while Audax's own deal flow is up 20% in 2026",
+        "Havens: the five largest private BDCs saw redemption requests averaging 9-19% over the last three quarters (some into the 40s), versus about 1.5% for Audax's roughly $6bn evergreen fund",
+        "Havens: the Bloomberg BDC spread index moved from 175bp to a 260bp peak in March, tightened below 170bp in September, and sits around 190bp now",
+        "Magid: current broadly syndicated large-cap loan spreads are around S+275, while private credit lenders seeking 425-550bp all-in on large-cap deals are using S+250 plus 200bp of PIK rather than wider cash spreads",
+        "Magid: Audax's AI risk-scoring tool (ToltIQ) found 4-6% of its portfolio heavily exposed to AI disruption and another ~20% somewhat exposed",
+        "Magid: unlevered mezzanine fund returns have run about 11% net (+/-100bp) across five funds, with 85% debt/15% equity co-investment structure"
+      ],
+      "kind": "podcast",
+      "one_liner": "Audax's Magid argues middle-market private credit losses remain low (6bp senior loss rate) and ARR-loan discipline insulated the fund from the SaaS/AI stress hitting large-cap broadly syndicated and private credit loans, offering a direct read on credit quality and structuring norms relevant to repo/credit books.",
+      "published": "2026-11-19T21:00:00+00:00",
+      "recap": "Bloomberg's Credit Edge hosts James Crumby and David Havens interview Kevin Magid, CEO of Audax Private Debt, on the state of private credit. Magid pushes back on \"golden age is over\" headlines, arguing underwriting quality, not market-level panic, determines outcomes. He distinguishes Audax's core middle-market segment (EBITDA $15-75mm, loans sized ~$100-175mm at ~5x leverage) from large-cap private credit and broadly syndicated loans, where AI-driven \"SaaS apocalypse\" stress has hit software loans trading in the 80s and some restructurings. Audax has made zero ARR (annual recurring revenue) loans, lending only against trailing 12-month EBITDA rather than projected growth, which he credits for avoiding losses. He cites 26-year loss rates of 6bp on senior secured and 17bp on junior/mezzanine debt, versus current market non-accrual rates near 2% and default rates of 2.5-6% depending on agency. Audax built an AI risk-scoring tool (ToltIQ) applied across its portfolio, finding only 4-6% heavily exposed. He emphasizes fixed charge coverage ratio (not interest coverage) as the binding covenant metric, with fund averages of 1.6-1.8x versus market stretching toward 1.2-1.3x. He discusses BDC redemption stress earlier in 2026 (public BDC redemptions 9-19%, Audax's evergreen fund only ~1.5%), deal flow down 10-16% industry-wide but up 20% for Audax, and skepticism that enough capital exists to fund the full AI buildout, with weaker credits and some data-center projects likely left unfinanced.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "private credit",
+        "middle market",
+        "CLO/leveraged finance",
+        "credit risk",
+        "BDC redemptions",
+        "fixed charge coverage",
+        "SaaS/AI stress",
+        "unitranche"
+      ],
+      "terms": [
+        "ARR loan -- annual recurring revenue loan, where lending is sized against projected/contracted forward revenue growth rather than trailing realized cash flow",
+        "LTM EBITDA -- latest twelve months earnings before interest, taxes, depreciation and amortization, a trailing cash-flow measure",
+        "fixed charge coverage ratio -- cash flow less fixed charges (taxes, capex, working capital) divided by fixed obligations, a stricter covenant metric than interest coverage",
+        "unitranche -- a single blended loan facility combining senior and subordinated debt into one tranche with one all-in rate",
+        "BDC -- business development company, a closed-end investment vehicle that lends to middle-market companies",
+        "PIK -- payment-in-kind, interest paid by adding to loan principal rather than in cash"
+      ],
+      "tier": "credit",
+      "title": "\u2018Fear Is Making a Comeback,\u2019 Says Audax Private Debt\u2019s CEO",
+      "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/e74a35e9-c028-4e5f-a3f7-afb10164a717/6a4809cb-d7a5-49eb-8242-b50701559401/audio.mp3?utm_source=Podcast&in_playlist=8792a2e9-d66c-4038-a1fe-afb101654894",
+      "watch": [
+        "Whether broadly syndicated loan spreads (currently ~275bp over) widen materially as AI-related credit stress spreads beyond isolated software names",
+        "Further BDC/evergreen fund redemption trends given redemption caps still above 5% and several quarters left to normalize",
+        "Capital availability and spread dynamics in AI/data-center financing as large private credit players compete for that supply"
+      ]
+    },
     "8118e65e-0d1c-49d3-842b-daf277a8e268": {
       "feed_name": "Eurodollar University",
       "implications": "The swap-spread/TIPS/curve divergence from Waller's rhetoric is directly useful for repo and OIS-related positioning \u2014 it suggests any December hike (or hawkish surprise) is likely to be a front-end-only, non-durable move rather than a genuine shift in term premium; watch for mean reversion risk if the Fed hikes and growth signals keep deteriorating. The hung-deal/bridge-financing commentary on AI data-center debt is an early warning for leveraged loan, HY, and private-credit/CLO warehouse exposure \u2014 banks pulling back on bridge lending typically precedes wider spreads and slower CLO formation in that sleeve.",
