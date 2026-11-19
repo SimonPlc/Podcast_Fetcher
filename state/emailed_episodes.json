@@ -2131,6 +2131,51 @@
       "title": "What's Behind the Big Surge in US Government Bond Yields",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/52b31e33-08b2-4ea7-a5d0-b4b9014b34d9/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83"
     },
+    "53c36daa-840c-48b3-b071-b5070021e016": {
+      "feed_name": "Odd Lots",
+      "implications": "Background but highly relevant to the credit book: GPU-backed lending is forming into a new leveraged-finance/structured-credit asset class (LTV compression, prepayment structuring, nascent CDS-style hedges) that could eventually intersect with CLO-equity-style risk transfer and private-credit stress; worth tracking for spillover into HY/leveraged loan spreads if NeoCloud defaults accelerate, though not a direct repo or rates catalyst today.",
+      "key_claims": [
+        "Stanley Lee: mid-market NeoCloud LTVs fell from ~80% over the summer to 70% post-Labor Day to 50-60% now",
+        "Lee: CoreWeave's latest delayed-draw term loan is being marketed up-market to IG off-takers and required higher customer prepayments, versus its prior loan backed by Anthropic, HRT and Jane Street",
+        "Lee: private credit firms are now getting 2-3 inquiries a day for put-option hedges on the B300 GPU rental index, versus almost none six months ago",
+        "Lee: the B200 rental index rose from the $5/hr range in August to $7.10/hr recently, driven partly by buyers' cost of capital, not just demand",
+        "Paul Kedrosky: project-finance math implies AI capex needs roughly $3-6 trillion in annual revenue by around 2032 to clear hurdle rates",
+        "Kedrosky: 50% of all critical software vulnerabilities ever found were discovered in the first half of 2026, with about 8% of all-time critical CVEs found in the first three weeks of October alone, giving reinsurers unusual pricing power"
+      ],
+      "kind": "podcast",
+      "one_liner": "A granular look at how private credit and leveraged finance are now pricing GPU/NeoCloud collateral risk, plus a skeptic's breakdown of why AI capex revenue math doesn't close -- a genuinely new structured-credit asset class forming in real time.",
+      "published": "2026-11-19T09:00:00+00:00",
+      "recap": "Odd Lots runs two linked segments. First, Stanley Lee of Liquid Compute (ex-Barclays HY/CDS, ex-Point72) explains how GPU compute has become a credit and financing ecosystem, not just a marketplace. Mid-market NeoCloud operators borrow against GPU clusters via multi-year amortizing loans, with off-taker creditworthiness (large AI labs) originally the main underwriting factor; now operator execution risk matters more too. LTVs have fallen from ~80% over the summer to 70% post-Labor Day to 50-60% now, forcing NeoClouds to demand higher customer prepayments or raise their own holdco equity. Lee argues GPU rental-rate indices (B200/B300) are rising partly from genuine demand but increasingly from buyers' cost-of-capital constraints, since VCs fund much of the 'demand' rather than revenue. He draws analogies to post-2008 aircraft finance (prepayments, re-let markets, appraisals) and flags growing private-credit demand for put-option hedges on rental indices -- a nascent CDS-like product -- plus the critical, often unverified, assumption that defaulted capacity can be quickly 're-let' (transferring SSH keys) rather than physically repossessed. Second, Paul Kedrosky (SK Ventures/Oxford) argues that the project-finance math behind AI capex doesn't close: hitting reasonable hurdle rates by ~2032 requires $3-6 trillion in annual AI revenue, achievable only via deep enterprise substitution, which so far shows up only in coding. He cites exploding software vulnerability counts (50% of all-time critical CVEs found in H1 2026) benefiting reinsurers' pricing power, not productivity.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "private credit",
+        "leveraged finance",
+        "NeoCloud financing",
+        "residual value risk",
+        "LTV",
+        "structured credit",
+        "CDS analogy",
+        "AI capex",
+        "GPU collateral"
+      ],
+      "terms": [
+        "LTV -- loan-to-value ratio, the loan amount as a percentage of the collateral's value",
+        "TAM -- total addressable market",
+        "CDS -- credit default swap",
+        "IG -- investment grade",
+        "HY -- high yield"
+      ],
+      "tier": "plumbing",
+      "title": "This Is The Problem With AI's Most Bullish Chart",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/53c36daa-840c-48b3-b071-b5070021e016/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+      "watch": [
+        "Whether Nvidia's new management maintains or withdraws its backstops to NeoCloud equity/credit",
+        "Standardization of GPU rental-index put options as a CDS-like hedge for private credit lenders",
+        "Further LTV/covenant tightening or a visible wave of mid-market NeoCloud defaults",
+        "Anthropic's cost of capital given its high-double-B credit profile as it scales compute purchases"
+      ]
+    },
     "560d2bd4-d4f6-44da-bef5-278c8824a999": {
       "feed_name": "Eurodollar University",
       "implications": "For a repo/financing desk, the key signal is credit, not equities: Oracle and hyperscaler CDS widening, private-credit NAV gating, and CoreWeave-style circular financing are early stress indicators worth tracking alongside CLO/CDO-adjacent structures reappearing in AI infrastructure funding; a yen-funded carry unwind would be the more likely near-term catalyst for a broader repo/collateral squeeze than an equity-market crash per se.",
@@ -3361,6 +3406,42 @@
       "tier": "credit",
       "title": "The Nvidious tech CEO",
       "url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6afcabec853da57052b46b67/media.mp3"
+    },
+    "6afeb6118d36a94aed7fea00": {
+      "feed_name": "Under the Banyan Tree",
+      "implications": "Background, not actionable for an HK repo/credit trader -- this is India domestic equity-strategy color with only a passing, unquantified mention of Indian bank credit growth and no content on funding markets, rates, or securitized/credit products.",
+      "key_claims": [
+        "Auto sales in India up 20-25% year-on-year this festive season versus a 20% contraction in China (Prerna Garg)",
+        "India government has incentivized semiconductors/OSAT with ~$40bn, hoping for ~$400bn in resulting private investment (Jogesh Agarwal)",
+        "Indian bank credit growth running near 20% year-on-year, aided by the FCNR(B) deposit scheme drawing non-resident Indian deposits (Jogesh Agarwal)",
+        "India's current data center capacity is about 1.5 gigawatts, with estimates of reaching 8-10 gigawatts in four to five years though the speakers expect closer to 5 (Jogesh Agarwal)"
+      ],
+      "kind": "podcast",
+      "one_liner": "An India equity-strategy discussion on consumption, semiconductors and IT services that only brushes against bank credit growth, with nothing on repo, rates or credit markets.",
+      "published": "2026-11-18T23:30:00+00:00",
+      "recap": "Standard Chartered's banyan tree podcast hosts India equity strategists Jogesh Agarwal and Prerna Garg to discuss why investors are rotating into India as an AI-diversification trade. They argue India's consumption story has stayed resilient since last year's GST tax cut, with festive-season spending and auto sales up 20-30% year-on-year even as China's auto sales contract. Oil price pass-through has been limited to one pump-price hike, with the government cushioning consumers and EV penetration doubling as a side effect. The main risk flagged is a historically bad monsoon concentrated in Maharashtra and Karnataka, with El Nino expected to intensify into November and hurt the winter (Rabi) crop over the next six to eight months; rural stress has not yet shown up in corporate results but could emerge for poorer farmers and landless labor, partly offset by rural infrastructure spending. On industrial policy, India is spending roughly $40bn subsidizing semiconductor and OSAT investment, hoping to catalyze ~$400bn in private investment, though data centers remain costlier to run domestically than in China due to power constraints. On IT services, they argue AI coding tools are pressuring Infosys/TCS-style outsourcers (low single-digit growth) and global capability centers (GCCs) are taking share from vendors by insourcing at lower cost, though GCC growth itself is also generating jobs. They close by noting bank credit growth near 20% year-on-year, helped by a central bank deposit scheme attracting non-resident Indian inflows.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "India",
+        "equities",
+        "consumption",
+        "credit growth",
+        "semiconductors",
+        "IT services"
+      ],
+      "terms": [
+        "GCC -- Global Capability Center, an offshore in-house operations/tech hub set up by a multinational corporate rather than outsourced to a vendor",
+        "OSAT -- Outsourced Semiconductor Assembly and Test, the back-end packaging/testing stage of chip manufacturing",
+        "GST -- Goods and Services Tax, India's national consumption tax"
+      ],
+      "tier": "asia",
+      "title": "Inside India: Asia's alternative in an AI world?",
+      "url": "https://sphinx.acast.com/p/open/s/64db93c01796c400110e0ce3/e/6afeb6118d36a94aed7fea00/media.mp3",
+      "watch": [
+        "Whether a second consecutive weak monsoon materializes and hits rural consumption/credit quality in India",
+        "Any pass-through of GCC insourcing trend into Indian IT services credit spreads"
+      ]
     },
     "6c3646fe-afa0-45cf-8682-b500015998ac": {
       "feed_name": "Odd Lots",
