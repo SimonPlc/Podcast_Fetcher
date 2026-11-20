@@ -2425,6 +2425,47 @@
       "title": "Mexico\u2019s Tourism Just PLUNGED... and Airlines Are Warning of More",
       "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/38fb6540/8e442782.mp3"
     },
+    "59d6e207-f957-4c9a-9098-aca4f9169b5f": {
+      "feed_name": "Eurodollar University",
+      "implications": "No direct repo/funding angle, but the yield-curve/swap-spread read (front-end sticky-hawkish vs. back-end skeptical) and the wealth-effect-to-Fed-cut linkage are directly useful background for positioning duration and front-end rate-cut expectations into 2026; worth cross-checking against actual swap spread and 2s10s moves rather than taking the narrative claim at face value.",
+      "key_claims": [
+        "Pending home sales down 4.7% in October, down ~18% over six months, lowest since NAR tracking began in 2001 (NAR data, per host)",
+        "National pending home sales index down ~17% year-over-year; West down 6.9% and South down 6.3% month-over-month",
+        "Only 3 of the 50 largest US metros are seller's markets, tying the record low from April 2020 (Redfin)",
+        "Sellers outnumbered buyers by an estimated 70.5% in October, a sixth consecutive record month; only ~895,752 buyers nationwide, lowest since 2013 (Redfin)",
+        "Housing starts rose to 1.309M annualized (+10% m/m) almost entirely on multifamily (+23.6% to 445k); single-family permits fell to a nearly four-year low",
+        "Host's thesis: unlike 2008, there is no wave of forced/foreclosure selling because most homeowners hold cheap fixed-rate mortgages; the current weakness is demand-side (buyers disappearing) rather than supply-side distress"
+      ],
+      "kind": "podcast",
+      "one_liner": "A housing-crash-without-foreclosures narrative that feeds directly into the rates trader's Fed-pivot and wealth-effect thesis, even though it has no repo/collateral content.",
+      "published": "2026-11-20T12:00:00+00:00",
+      "recap": "The host argues the US housing market is crashing in activity, not yet in price, and that this is structurally different from 2008. Pending home sales fell 4.7% in October, down 18% over six months, the lowest level since the NAR began tracking in 2001 and weaker than both 2008 and the pandemic. Every major region declined, led by the West (-6.9%) and South (-6.3%); the national index is down roughly 17% year-over-year. Redfin data show only 3 of the 50 largest metros remain seller's markets (tying the record low from April 2020), with sellers outnumbering buyers by 70.5% nationally for a sixth straight record month, and only about 895,752 buyers in the market, the lowest since 2013. Housing starts rose but almost entirely via noisy multifamily supply; single-family permits fell to a nearly four-year low, signaling builders expect weak demand ahead. The core argument: this isn't 2008's forced-selling, foreclosure-driven price collapse, because most homeowners hold cheap fixed-rate mortgages and aren't distressed sellers. Instead, buyers are vanishing because households doubt future income and job security, not just because of mortgage rates. The host ties this to the yield curve's current shape (steep front, flat back) and unmoved swap spreads, arguing bond markets already doubt the Fed's hawkish persistence, echoing late 2023 before the 2024 slowdown. If home prices start falling even modestly, the reversal of the housing wealth effect could further weaken an already fragile consumer and push the Fed toward cuts in 2026.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "housing",
+        "Fed",
+        "rate-cuts",
+        "yield-curve",
+        "wealth-effect",
+        "macro",
+        "consumer-credit"
+      ],
+      "terms": [
+        "ARM -- adjustable-rate mortgage, whose interest rate resets periodically with market rates",
+        "FOMC -- Federal Open Market Committee, the Fed body that sets US monetary policy",
+        "2s10s spread -- the difference between 2-year and 10-year Treasury yields, a common yield-curve/recession indicator"
+      ],
+      "tier": "plumbing",
+      "title": "Home Sales Just Crashed 18%. Everyone Is Missing the Real Warning",
+      "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/fec57381/a2250750.mp3",
+      "watch": [
+        "US home price indices (Case-Shiller/FHFA) for the first signs of outright price declines",
+        "Single-family permits trend for confirmation of builder pullback",
+        "2s10s and swap spread behavior for whether the curve keeps pricing Fed skepticism",
+        "Fed communication in early 2026 for any dovish shift tied to housing/consumer weakness"
+      ]
+    },
     "5ae2f5b2-a55e-11f1-90c0-c38f26cd87c8": {
       "feed_name": "Monetary Matters",
       "kind": "podcast",
@@ -5480,6 +5521,15 @@
         "Whether US or Chinese regulators move to formally oversee frontier AI labs (audit/liability regimes), which could eventually affect firms like Bridgewater that run AI-driven investment strategies",
         "Bridgewater's AI-first fund performance relative to Pure Alpha as a signal of how systematic/AI flows might evolve in markets"
       ]
+    },
+    "b71a9aa0-9299-42d2-9022-c0c61dc7118a": {
+      "feed_name": "Macro Hive Conversations",
+      "kind": "podcast",
+      "published": "2026-11-20T13:04:00+00:00",
+      "status": "failed",
+      "tier": "macro",
+      "title": "Ep. 385: Robert Carver on The Art and Science of Trading, Portfolio Diversification, and AI in Finance",
+      "url": "https://traffic.libsyn.com/secure/macrohive/MH_w_CARVER_.mp3?dest-id=1929056"
     },
     "b8c9473a-9f6e-11f1-946b-2b3f9ea17d93": {
       "feed_name": "Monetary Matters",
