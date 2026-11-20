@@ -84,6 +84,9 @@
     "63033a888f7754682c1fba60796571225b0c72fd584a742feb8038eb1f6ab962": {
       "feed_name": "Fed FEDS Notes"
     },
+    "7551d712f02118401ad52e9636cf9a1b7051bbac6a9e32e9ff915642205c4138": {
+      "feed_name": "BoE Bank Underground"
+    },
     "75731cb9de3776d7065b08660f8ef6cd9b8d079325244b8beb826111394c93b3": {
       "feed_name": "Fed FEDS Notes"
     },
@@ -152,6 +155,9 @@
     },
     "ccf64cc27333a1c0899fd5d33942db8e9d8cd48054c6773d83d386704f3b7ec2": {
       "feed_name": "Bank Policy Institute"
+    },
+    "da3be26cb090e9a1d4bfd871e9a8fd1ccadf994e8095f3ccbd5d16d61c4d1897": {
+      "feed_name": "BoE Bank Underground"
     },
     "db22358883c6d5543baceaecc0caa069c5ea028412cccec3600cecc1fcdf427c": {
       "feed_name": "Fed FEDS Notes"
