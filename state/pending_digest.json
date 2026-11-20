@@ -1,3 +1,46 @@
 {
-  "queued": {}
+  "queued": {
+    "caba60ee-e48f-11f1-899a-9375cafeb724": {
+      "feed_name": "Forward Guidance",
+      "implications": "Relevant as background for a rates desk: persistent hawkish Fed rhetoric despite weakening housing/labor data argues for a steeper near-term path before any cutting cycle, and the described freeze-up of unsecured credit markets for AI/data-center borrowers is a credit-market stress signal worth monitoring for spillover into broader HY/leveraged finance spreads, though nothing here touches repo or collateral markets directly.",
+      "key_claims": [
+        "Host: cross-curve Treasury yields fell roughly 30-40bps from a recent local low two weeks prior",
+        "Host: Nasdaq down ~15-16% and Russell 2000 down ~13-14% from highs, with equal-weight equities having hit an all-time high just a week earlier",
+        "Host: rates market pricing only ~5% odds of a 50bp Fed hike in December despite Waller's hawkish signaling",
+        "Host: average NFP job growth in 2022 exceeded 300k/month (over 500k Jan-Apr 2022) versus a much weaker labor market now",
+        "Host: oil down ~35% and broad commodity complex weak despite ongoing supply-side risks (Strait of Hormuz, Russia-Ukraine)",
+        "Host: Fed conducted roughly $40bn/month of reverse operations from December through mid-year before abruptly reversing course"
+      ],
+      "kind": "podcast",
+      "one_liner": "A macro-trading podcast argues the Fed is tightening into a slowdown it's only now recognizing, with AI-driven credit market stress (unsecured debt shut to data centers) and bond yields stuck despite weakening growth data.",
+      "published": "2026-11-20T11:00:00+00:00",
+      "recap": "Hosts on Forward Guidance discuss the Anthropic IPO (pricing at ~$2 trillion, aggressive unlock schedule, heavy retail demand) as emblematic of AI-trade exhaustion: token prices are collapsing even as usage rises, squeezing frontier-model margins. They tie this to Nvidia's ~40% drawdown and note credit markets have effectively closed to data center/neocloud financing, forcing reliance on equity raises instead of unsecured debt \u2014 a reversal of the 'circular financing' dynamic that propped up hyperscaler capex. On rates, they argue the Fed is behind the curve: FOMC minutes this week flagged AI-driven inflation risk just as the AI build-out is visibly slowing, and hawkish rhetoric from regional Fed presidents (Waller floating 50bp hike odds) is keeping bonds from rallying even as equal-weight equities, housing starts, and commodities (oil down 35%, copper weak per Druckenmiller) all signal a broadening slowdown. They note real rates are near GFC-era highs after the Fed reversed heavy repo/liquidity operations ($40bn/month) earlier in the year. Comparisons are drawn to 2018 (weak labor market, policy mistake risk) versus 2022 (inflation overshoot), concluding current conditions combine the worst of both. Treasury's Bessent is notably absent after a year of active market intervention. They argue a slow, controlled 'bleed' rather than a V-shaped crash is needed to actually durably lower inflation, and expect gold/Bitcoin and duration trades to wait until slowdown confirmation.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "FOMC",
+        "rates",
+        "credit",
+        "AI financing",
+        "macro",
+        "labor market",
+        "housing"
+      ],
+      "terms": [
+        "FOMC -- Federal Open Market Committee, the Fed's rate-setting body",
+        "NFP -- Nonfarm Payrolls, the monthly US jobs report",
+        "RMPs -- reverse repo/money-market operations referenced as liquidity-draining Fed operations"
+      ],
+      "tier": "macro",
+      "title": "Anthropic IPOs As Markets Wait On A Slowdown | Weekly Roundup",
+      "url": "https://traffic.megaphone.fm/BWG7606030647.mp3",
+      "watch": [
+        "December FOMC decision and whether 50bp hike talk materializes or fades",
+        "Data center/neocloud access to unsecured debt and equity financing markets",
+        "Housing starts/permits trend for confirmation of broader slowdown",
+        "Whether Treasury (Bessent) resumes market-supportive intervention"
+      ]
+    }
+  }
 }
