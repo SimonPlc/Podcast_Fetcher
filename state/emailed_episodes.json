@@ -932,6 +932,50 @@
       "title": "Ep. 379: Paul Cavey on East Asia's AI Tech Boom, Semiconductor Exports, and Macro Dynamics",
       "url": "https://traffic.libsyn.com/secure/macrohive/MH_w_CAVEY_.mp3?dest-id=1929056"
     },
+    "2b1e3a4a-e4eb-11f1-b58c-3b71a49c3391": {
+      "feed_name": "The Macro Trading Floor",
+      "implications": "For a repo/rates desk, the explicit 2018 parallel flags real tail risk of a credit-issuance freeze and widening spreads into December/January if the Fed delivers its fully-priced hike while data deteriorates; worth monitoring financial-conditions tightening and primary market access for IG/HY issuers, and positioning for a possible sharp dovish reversal (balance-sheet signaling or a Fed 'sorry' moment) once the 60-40 portfolio and equities take enough pain.",
+      "key_claims": [
+        "Donnelly: a Fed December 25bp hike is now priced at 100% probability, with the earlier 50bp scenario removed",
+        "Peccatiello: in 2018 the 60/40 portfolio went from +3-4% total return in September to -8% by year-end, which he uses as his deleveraging-pain yardstick; the 60/40 is still positive YTD now",
+        "Donnelly: US payroll breakeven is estimated near 30,000 jobs/month due to immigration-driven labor supply shock, versus actual prints around 150,000/month",
+        "Peccatiello: gold and silver have given back over 100% of their 2025 breakout rally gains, with silver approaching the ~$33 September 2025 breakout level",
+        "Donnelly: Nasdaq is down 14% from highs versus the S&P's roughly 8% decline referenced in the discussion",
+        "Peccatiello: market makers are pricing the rolling correlation between USD/CHF and the S&P at roughly zero, which he argues misprices a scenario where both move together"
+      ],
+      "kind": "podcast",
+      "one_liner": "Macro Compass/Spectrum Markets hosts argue this selloff mirrors Q4 2018 -- a hawkish Fed (Waller) hiking into deteriorating data risks a credit-issuance freeze and forced capex/deleveraging, with the Fed only reversing after a 2019-style capitulation.",
+      "published": "2026-11-20T15:07:00+00:00",
+      "recap": "Alfonso Peccatiello and Brent Donnelly discuss a brutal cross-asset selloff with bonds and stocks falling together, leaving nowhere to hide. Donnelly admits he tried fading the Fed's hawkish turn -- driven by Governor Waller's data-dependent hiking rhetoric amid an internal Fed 'civil war' with Waller reportedly undercutting Governor (Lisa) Cook/others -- and got hurt, though he still believes the Fed's forward guidance lacks credibility. Both draw an extended parallel to Q4 2018: strong prior risk-asset gains, a hawkish Powell declaring policy 'a long way from neutral,' a market selloff that froze corporate bond issuance for months, and a Fed that only reversed after Powell's January 2019 'sorry, sorry, sorry' capitulation. They note a December hike is now fully priced, and argue slowing capex (less ability to issue credit/equity when spreads widen and stocks are down) becomes self-reinforcing, lowering growth and eventually forcing the Fed's hand -- citing the RBA's pivot from hiking to pricing March cuts as a live template. They discuss dollar mechanics (hedger rebalancing then a later reversal as capital repatriates, e.g., to Switzerland), a correlation trade combining USD/CHF downside with S&P downside (dual-digital option, mispriced at near-zero correlation), and note gold/silver/Bitcoin are trading as liquidity proxies rather than hedges, having given back much of their 2025 breakout gains. Donnelly closes less bearish than the conversation sounds, estimating 70-80% of the move is done but stressing path risk.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "credit issuance",
+        "financial conditions",
+        "dollar",
+        "2018 parallel",
+        "RBA",
+        "correlation trading",
+        "vol"
+      ],
+      "terms": [
+        "OIS -- Overnight Index Swap, used to gauge expected central bank policy rates",
+        "CDX/iTraxx -- not directly discussed",
+        "dual digital option -- an exotic option that pays out only if two separate conditions (digital triggers) both occur, pricing in the correlation between them"
+      ],
+      "tier": "macro",
+      "title": "Macro Doomerism - Right or Wrong?",
+      "url": "https://traffic.megaphone.fm/ALFINVESTMENTSTRATEGYBV6780116764.mp3",
+      "watch": [
+        "December FOMC decision and whether the fully-priced 25bp hike goes through despite weakening data",
+        "Credit/bond issuance conditions (IG/HY primary market access) for signs of a 2018-style freeze",
+        "RBA policy path (now pricing March cuts) as a leading template for a Fed reversal",
+        "Month-over-month CPI prints turning negative and their effect on Fed rhetoric",
+        "Dollar vs Swiss franc and gold/silver/Bitcoin behavior as liquidity-stress barometers"
+      ]
+    },
     "2cb9593e-be76-11f1-a93f-0b43150a7a91": {
       "feed_name": "The Macro Trading Floor",
       "kind": "podcast",
@@ -2724,6 +2768,34 @@
         "Treasury's bill-vs-coupon issuance mix as rates reprice",
         "Yen carry-trade unwind risk and its effect on UST demand from Japan"
       ]
+    },
+    "605cf111-0054-447d-8f22-b5080101c0ec": {
+      "feed_name": "Money Stuff: The Podcast",
+      "implications": "Background, not actionable -- none of this touches repo, funding, collateral, SOFR/OIS, central bank policy, or credit/structured credit; the IPO mechanics and prediction-market regulation are only loosely adjacent to market structure and carry no direct financing angle.",
+      "key_claims": [
+        "Anthropic's IPO was reported as roughly seven times oversubscribed with about $500 billion in demand, pricing above its $70-78 range (Levine/Childs discussion)",
+        "Pre-IPO perpetual futures on Hyperliquid were pricing Anthropic at roughly a 20% premium to the expected IPO price (Levine)",
+        "The CFTC ordered Kalshi last Friday to halt trading on Trump-specific 'mention markets' (e.g., a market on whether Trump would say 'Slopidopolis'), while leaving mention markets on other public figures (e.g., the White House press secretary) untouched",
+        "A federal judge dismissed wire-fraud charges against two brothers (Anton and James Pereira Bueno) who extracted $25 million from Ethereum sandwich traders via a bait-order exploit, ruling that baiting manipulators does not constitute a lie or misrepresentation"
+      ],
+      "kind": "podcast",
+      "one_liner": "A light Money Stuff episode on the Anthropic IPO pop, pre-IPO perp markets, Jensen Huang fallout, CFTC's Kalshi mention-market ban, and a crypto sandwich-trading court ruling -- entertaining but with no repo, rates, or credit content.",
+      "published": "2026-11-20T15:52:16+00:00",
+      "recap": "Matt Levine and guest host Mary Childs cover several market-structure curiosities. They discuss Anthropic's IPO pricing above its $70-78 range amid reported $500 billion of demand (roughly seven times oversubscribed), noting SEC-style constraints on upsizing deals and the risk that heavy over-ordering backfires if an issue is actually filled in full. They examine 'perp walk' markets -- pre-IPO perpetual futures on platforms like Hyperliquid -- which have shown roughly 20% premiums to expected IPO prices but have a tiny, unproven sample size as predictors. They touch on Nvidia's Jensen Huang controversy and speculation about a possible return, drawing a loose parallel to Sam Altman's OpenAI ouster and return. The bulk of the episode covers the CFTC ordering Kalshi to halt Trump-specific 'mention markets' (bets on whether Trump will say certain words/nicknames), framed as a manipulation concern since one person controls the outcome, while similar markets on other public figures remain untouched. Finally, they discuss a New York federal judge dismissing wire-fraud charges against two brothers who used a crypto 'sandwich-trading' exploit to take $25 million from predatory Ethereum sandwich traders, ruling that baiting manipulators isn't the same as lying to them, plus a British man's prosecution for staging a fake corporate takeover.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "IPO",
+        "market-structure",
+        "prediction-markets",
+        "crypto",
+        "equities"
+      ],
+      "terms": [],
+      "tier": "credit",
+      "title": "Fakeovers",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/605cf111-0054-447d-8f22-b5080101c0ec/audio.mp3?utm_source=Podcast&in_playlist=77e6a3a7-290d-4a82-8164-b14001353ef2",
+      "watch": []
     },
     "60f28494-baf6-4e10-bc6a-c0dcabab2052": {
       "feed_name": "Eurodollar University",
