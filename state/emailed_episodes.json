@@ -7297,6 +7297,39 @@
         "Growth of JPMorgan deposit token / stablecoin-driven demand for on-chain cash"
       ]
     },
+    "marketmatters.podbean.com/2cc72000-1fd1-335a-800d-7ee773b7221c": {
+      "feed_name": "Making Sense (J.P. Morgan)",
+      "implications": "Background, not actionable for a repo/financing desk -- the only money-market-adjacent thread is Schott's view that a defensive, less rate-sensitive pharma sector could see accelerating bolt-on M&A in a higher-rate environment as SMID-cap biotechs seek partners, a minor data point for credit/M&A-driven issuance flow rather than a funding or rates catalyst.",
+      "key_claims": [
+        "Chris Schott: GLP-1 oral formulations already represent about 25% of market volume in 2026",
+        "Chris Schott: GLP-1 drug prices fell about 20% in 2026, with potential double-digit annual price erosion from 2027 onward",
+        "Chris Schott: over one million seniors enrolled in GLP-1 medication within a couple of months after $50/month Medicare access began in July 2026",
+        "Chris Schott: China's share of new drug output has risen from roughly 5% a decade ago to nearly 50% today",
+        "Robbie Marcus: medtech procedure volume growth is decelerating for the first time since the global financial crisis, driven by high rates and 2026 ACA subsidy cuts, with further Medicaid coverage declines expected in 2027"
+      ],
+      "kind": "podcast",
+      "one_liner": "A JPMorgan healthcare equity podcast on pharma/biotech innovation, GLP-1 drugs, medtech, and AI in medicine -- almost entirely off-topic for a repo/rates/credit desk aside from a passing nod to rate-sensitive M&A and affordability.",
+      "published": "2026-11-20T06:00:00+00:00",
+      "recap": "JPMorgan's Making Sense hosts a discussion among the bank's biopharma analyst Chris Schott and medtech analyst Robbie Marcus on the state of healthcare investing. Schott argues pharma is entering a major innovation cycle after a decade dominated by patent-expiration concerns, citing breakthroughs in pancreatic and small-cell lung cancer, new modalities like ADCs and bispecifics, personalized cancer vaccines, and continued GLP-1 advances (oral formulations, triple-incretin drug retatrutide, better-tolerated amylins, falling prices, and new Medicare access for seniors at $50/month). Marcus says medtech is troughing after two years of negative estimate revisions driven by high rates, weaker procedure volumes, and ACA subsidy cuts, with hope for recovery in 2027 via new products in cardiology, diabetes, and robotics. Both discuss AI's role: faster clinical trial analysis and regulatory filings in pharma (near-term, concrete benefit), with early-stage drug discovery impact still unproven; and AI already embedded in surgical robotics, imaging, insulin dosing, and ICU monitoring in devices. On policy, Schott notes a prior deal with the Trump administration moving US drug pricing toward global parity, a topic likely dormant until the 2028 administration; Marcus flags ACA subsidy cuts and tightening Medicaid eligibility pressuring device volumes. Schott also flags the rapid rise of Chinese biotech (from ~5% to ~50% of new drugs in a decade) as a structural industry shift to watch.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "healthcare",
+        "pharma",
+        "medtech",
+        "equities",
+        "macro-tangent"
+      ],
+      "terms": [
+        "GLP-1 -- glucagon-like peptide-1 receptor agonist, a class of drugs used for diabetes and weight loss",
+        "ADC -- antibody-drug conjugate, a cancer therapy combining an antibody with a cytotoxic drug",
+        "ACA -- Affordable Care Act, US health insurance legislation"
+      ],
+      "tier": "quant",
+      "title": "Healthcare\u2019s next wave: AI, innovation and the future of access",
+      "url": "https://mcdn.podbean.com/mf/web/9j4k69qqd98ibwfq/1126_Research_Healthcare_Podcast_V3FINAL.mp3",
+      "watch": []
+    },
     "marketmatters.podbean.com/3254e2e2-355b-35fa-87f0-5ce0dc776afd": {
       "feed_name": "Making Sense (J.P. Morgan)",
       "implications": "No direct relevance to repo/funding markets, rates, or credit; background color at most on European defense-spending and potential industrial financing themes, not actionable for positioning.",
