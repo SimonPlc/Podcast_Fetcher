@@ -2240,6 +2240,37 @@
         "Anthropic's cost of capital given its high-double-B credit profile as it scales compute purchases"
       ]
     },
+    "55675f73-8d68-49cf-b1f6-22dc52dbf2f6": {
+      "feed_name": "Top Traders Unplugged",
+      "implications": "Background, not actionable -- this is a CTA/trend-following and quant-methodology discussion with no mention of repo, funding, credit, or rates markets; relevant only as adjacent color on systematic strategy design and how CTAs are positioned amid recent volatility.",
+      "key_claims": [
+        "Carver states the BTOP50 CTA index is down 2.5% in November but up 10.5% year-to-date, versus the S&P 500 down 5.25% in November and up 5.89% YTD.",
+        "Carver describes being long Canadian 10-year bonds versus short US 10-year bonds, short Swiss franc/USD, and short platinum and silver as his largest current risk positions.",
+        "Carver discusses a paper by Resolve Asset Management (referencing Andrew Butler) testing per-market nonlinear trend response curves across 50 futures markets from 1950-2026, finding a 'modest but significant' out-of-sample improvement, but concludes the added complexity isn't worth implementing in practice.",
+        "Carver argues that hedging a concentrated portfolio (e.g., 80% bonds) is empirically better served by a diversified multi-asset trend fund than one concentrated in the same asset class, due to beta-stacking effects and unreliable crisis-alpha timing."
+      ],
+      "kind": "podcast",
+      "one_liner": "A trend-following podcast covering CTA performance, AI's role in strategy design, and momentum response-curve research -- interesting for systematic/quant readers but with no direct repo, rates, or credit content.",
+      "published": "2026-11-21T05:00:00+00:00",
+      "recap": "This episode of Top Traders Unplugged's Systematic Investors series features Rob Carver and Niels Kaastrup-Larsen reviewing markets and systematic trading research. They open with banter about Tesla's robotaxi rollout and industry news (Eckhart Trading closing, CalPERS returning to hedge funds, fund-of-funds AUM growth, Anthropic's IPO). They discuss November CTA performance: trend indices are down modestly for the month but still up double digits for the year, outperforming equities which fell over 5%. Reader questions cover whether Bloomberg's new agentic AI tool ('Ask B') could crowd trading strategies, leveraged ETFs versus futures for trend replication, and whether to keep re-tweaking a profitable algorithm (Carver argues against over-fitting for longer-horizon strategies). A listener question on a Resolve Asset Management paper examines whether trend-following response curves (position size versus signal strength) should be fit per-market rather than globally; Carver finds the paper rigorous but concludes the added complexity isn't worth it for his own practice. Another question asks whether trend-following hedges should match the asset composition of the portfolio being hedged (e.g., bond trend for a bond-heavy portfolio); Carver argues diversified trend across all asset classes is empirically more robust than concentrated hedges. The episode closes by starting a discussion on AI's limitations in trading-strategy research design, criticizing testing methodologies that risk data leakage and self-validation ('marking your own homework') when LLMs assess strategies they helped design.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "CTA",
+        "trend-following",
+        "AI/LLM",
+        "quant",
+        "momentum"
+      ],
+      "terms": [
+        "CTA -- Commodity Trading Advisor, typically a trend-following systematic futures fund",
+        "OOS -- out-of-sample testing, used here to describe validating a strategy on data not used for fitting"
+      ],
+      "tier": "quant",
+      "title": "SI427: Don't Let AI Mark Its Own Investment Homework ft. Rob Carver",
+      "url": "https://episodes.captivate.fm/episode/55675f73-8d68-49cf-b1f6-22dc52dbf2f6.mp3",
+      "watch": []
+    },
     "560d2bd4-d4f6-44da-bef5-278c8824a999": {
       "feed_name": "Eurodollar University",
       "implications": "For a repo/financing desk, the key signal is credit, not equities: Oracle and hyperscaler CDS widening, private-credit NAV gating, and CoreWeave-style circular financing are early stress indicators worth tracking alongside CLO/CDO-adjacent structures reappearing in AI infrastructure funding; a yen-funded carry unwind would be the more likely near-term catalyst for a broader repo/collateral squeeze than an equity-market crash per se.",
