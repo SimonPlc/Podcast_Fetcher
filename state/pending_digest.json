@@ -44,6 +44,50 @@
         "Dollar vs Swiss franc and gold/silver/Bitcoin behavior as liquidity-stress barometers"
       ]
     },
+    "461a68a7-c4bd-4b0d-820b-28504a672614": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "For a repo/financing desk: the central-clearing mandate for cash Treasuries and eventually repo is a structural collateral/liquidity risk worth tracking, since Whalen argues it could shrink dealer and foreign-official demand for Treasury collateral right as issuance balloons; on the credit side, his mortgage-sector and non-bank lender liquidity warnings (MSR duration flip, refi volume collapse) are a leading indicator for MBS/ABS spread stress worth monitoring alongside HY roll risk.",
+      "key_claims": [
+        "Whalen: long-term yields are up about 4.5 percentage points, pushing rates near a practical upper bound before systemic breakage",
+        "Whalen: Ellington Financial sold its entire MSR portfolio because the assets are now behaving like positive-duration bonds rather than hedges",
+        "Whalen: refinance transactions could fall to 20-25% of total mortgage volume, starving non-bank lenders of liquidity",
+        "Whalen: mandatory central clearing deadlines are December (cash Treasuries) and next July (repo), already extended once",
+        "Whalen: the Treasury is seeking to raise roughly $800 billion in the January refunding",
+        "Whalen: Fitch downgraded a number of large mortgage issuers",
+        "Whalen: home sales are at a 16-year low and the market has shifted from a seller's to a buyer's market"
+      ],
+      "kind": "podcast",
+      "one_liner": "Chris Whalen argues the Fed is already behind the curve on rates, warns mandatory central clearing for Treasuries/repo could crush dealer liquidity and Treasury demand, and flags non-bank mortgage lenders as the next systemic flashpoint.",
+      "published": "2026-11-21T11:00:00+00:00",
+      "recap": "Chris Whalen (Institutional Risk Analyst) argues Fed Chair Kevin Warsh has lost market credibility by talking tough on inflation without acting, unlike Paul Volcker. Whalen says the Fed should have hiked in steady quarter-point steps all year and widened the Fed funds/reserve-interest spread to signal balance-sheet intent; instead it waited on task forces while long-term yields rose roughly 4.5 points, pushing the system near its practical upper bound. He stresses that money markets run on spreads, not absolute rates -- repo funding cost versus asset yield is what matters -- and that economists like Chris Waller underweight this. Whalen's biggest near-term worry is mortgages: falling refinance volumes (toward 20-25% of total) starve non-bank lenders of liquidity, MSRs are flipping from negative to positive duration (Ellington sold its whole MSR book), rental/business-purpose and second-lien lending is deteriorating, and Fitch downgraded issuers. He separately warns that SEC/Fed-driven mandatory central clearing for Treasury cash and repo (deadlines pushed to December/next July) will reduce foreign and dealer demand for Treasuries just as issuance surges (~$800bn January refunding), evoking the March 2020 dash-for-cash. He also flags commercial real estate walk-aways (Brookfield), weak IPO reception (Anthropic), gold/copper weakness tied to higher real rates, and views equity rotation into bonds as a warning sign for high-yield and consumer-facing credit into 2027.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "repo",
+        "Treasury market",
+        "central clearing",
+        "mortgage",
+        "MSR",
+        "rates",
+        "credit spreads",
+        "balance sheet"
+      ],
+      "terms": [
+        "MSR -- Mortgage Servicing Right, the right to service a mortgage loan in exchange for a fee, typically a negative-duration asset that gains value as rates rise",
+        "OIS -- Overnight Index Swap (not directly defined in transcript but implied by rates discussion)"
+      ],
+      "tier": "broad",
+      "title": "#436 Chris Whalen: Warsh Has No Credibility, Rates at the Breaking Point & a Treasury Market Train Wreck",
+      "url": "https://traffic.megaphone.fm/APO6497437988.mp3",
+      "watch": [
+        "December FOMC decision and any shift in Fed forward guidance/rate-on-reserves spread",
+        "Progress/delay on mandatory central clearing deadlines for Treasury cash (December) and repo (next July)",
+        "Further MSR sales or duration-profile shifts among mortgage REITs (Ellington, Annaly, AGNC)",
+        "Non-bank mortgage lender downgrades/bankruptcies and refinance volume trends",
+        "January Treasury refunding (~$800bn) reception"
+      ]
+    },
     "59d6e207-f957-4c9a-9098-aca4f9169b5f": {
       "feed_name": "Eurodollar University",
       "implications": "No direct repo/funding angle, but the yield-curve/swap-spread read (front-end sticky-hawkish vs. back-end skeptical) and the wealth-effect-to-Fed-cut linkage are directly useful background for positioning duration and front-end rate-cut expectations into 2026; worth cross-checking against actual swap spread and 2s10s moves rather than taking the narrative claim at face value.",

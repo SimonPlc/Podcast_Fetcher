@@ -1867,6 +1867,50 @@
       "title": "WTF Just Happened to the Bond Market and Credit Spreads?",
       "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/d51c5259/447c94cb.mp3"
     },
+    "461a68a7-c4bd-4b0d-820b-28504a672614": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "For a repo/financing desk: the central-clearing mandate for cash Treasuries and eventually repo is a structural collateral/liquidity risk worth tracking, since Whalen argues it could shrink dealer and foreign-official demand for Treasury collateral right as issuance balloons; on the credit side, his mortgage-sector and non-bank lender liquidity warnings (MSR duration flip, refi volume collapse) are a leading indicator for MBS/ABS spread stress worth monitoring alongside HY roll risk.",
+      "key_claims": [
+        "Whalen: long-term yields are up about 4.5 percentage points, pushing rates near a practical upper bound before systemic breakage",
+        "Whalen: Ellington Financial sold its entire MSR portfolio because the assets are now behaving like positive-duration bonds rather than hedges",
+        "Whalen: refinance transactions could fall to 20-25% of total mortgage volume, starving non-bank lenders of liquidity",
+        "Whalen: mandatory central clearing deadlines are December (cash Treasuries) and next July (repo), already extended once",
+        "Whalen: the Treasury is seeking to raise roughly $800 billion in the January refunding",
+        "Whalen: Fitch downgraded a number of large mortgage issuers",
+        "Whalen: home sales are at a 16-year low and the market has shifted from a seller's to a buyer's market"
+      ],
+      "kind": "podcast",
+      "one_liner": "Chris Whalen argues the Fed is already behind the curve on rates, warns mandatory central clearing for Treasuries/repo could crush dealer liquidity and Treasury demand, and flags non-bank mortgage lenders as the next systemic flashpoint.",
+      "published": "2026-11-21T11:00:00+00:00",
+      "recap": "Chris Whalen (Institutional Risk Analyst) argues Fed Chair Kevin Warsh has lost market credibility by talking tough on inflation without acting, unlike Paul Volcker. Whalen says the Fed should have hiked in steady quarter-point steps all year and widened the Fed funds/reserve-interest spread to signal balance-sheet intent; instead it waited on task forces while long-term yields rose roughly 4.5 points, pushing the system near its practical upper bound. He stresses that money markets run on spreads, not absolute rates -- repo funding cost versus asset yield is what matters -- and that economists like Chris Waller underweight this. Whalen's biggest near-term worry is mortgages: falling refinance volumes (toward 20-25% of total) starve non-bank lenders of liquidity, MSRs are flipping from negative to positive duration (Ellington sold its whole MSR book), rental/business-purpose and second-lien lending is deteriorating, and Fitch downgraded issuers. He separately warns that SEC/Fed-driven mandatory central clearing for Treasury cash and repo (deadlines pushed to December/next July) will reduce foreign and dealer demand for Treasuries just as issuance surges (~$800bn January refunding), evoking the March 2020 dash-for-cash. He also flags commercial real estate walk-aways (Brookfield), weak IPO reception (Anthropic), gold/copper weakness tied to higher real rates, and views equity rotation into bonds as a warning sign for high-yield and consumer-facing credit into 2027.",
+      "score": 5,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "repo",
+        "Treasury market",
+        "central clearing",
+        "mortgage",
+        "MSR",
+        "rates",
+        "credit spreads",
+        "balance sheet"
+      ],
+      "terms": [
+        "MSR -- Mortgage Servicing Right, the right to service a mortgage loan in exchange for a fee, typically a negative-duration asset that gains value as rates rise",
+        "OIS -- Overnight Index Swap (not directly defined in transcript but implied by rates discussion)"
+      ],
+      "tier": "broad",
+      "title": "#436 Chris Whalen: Warsh Has No Credibility, Rates at the Breaking Point & a Treasury Market Train Wreck",
+      "url": "https://traffic.megaphone.fm/APO6497437988.mp3",
+      "watch": [
+        "December FOMC decision and any shift in Fed forward guidance/rate-on-reserves spread",
+        "Progress/delay on mandatory central clearing deadlines for Treasury cash (December) and repo (next July)",
+        "Further MSR sales or duration-profile shifts among mortgage REITs (Ellington, Annaly, AGNC)",
+        "Non-bank mortgage lender downgrades/bankruptcies and refinance volume trends",
+        "January Treasury refunding (~$800bn) reception"
+      ]
+    },
     "484a08f5-e32e-495d-91ae-48dbec812c44": {
       "feed_name": "Top Traders Unplugged",
       "implications": "Background, not actionable for a repo/financing desk \u2014 the content is CTA asset-allocation theory, though the sections on bond-trend convexity, bond-equity correlation flipping sign above ~4-5% inflation, and stagflation dynamics are relevant context for how rates volatility and inflation regime shifts are being priced and hedged by large systematic pools.",
@@ -5748,6 +5792,40 @@
       "watch": [
         "European LME litigation outcomes and whether any European LME later collapses into insolvency, which would set new case law affecting creditor priority risk"
       ]
+    },
+    "bb74684d-fcbe-4c36-9779-b5070115b930": {
+      "feed_name": "Odd Lots",
+      "implications": "Background, not actionable for a repo/rates/credit desk \u2014 the only faint market-structure thread is the aside that Chinese equities (CSI 300 dominated by Maotai/CATL) have had a brutal 2026, which is color rather than a financing catalyst.",
+      "key_claims": [
+        "Kyle Chen: Huawei and DeepSeek have an intensive co-design partnership, with personnel embedded at each other's companies, to optimize Ascend chips for inference.",
+        "Kyle Chen: the next DeepSeek model is rumored to be fully pre-trained on Huawei chips.",
+        "Kyle Chen: Huawei is reportedly telling customers it can supply NPUs but not HBM ('bring your own HBM'), leaving memory as a near-term bottleneck.",
+        "Kyle Chen: Chinese AI firms were eager to order Nvidia H200s after Trump allowed exports, while Beijing pushed back to force reliance on domestic chipmakers.",
+        "Kyle Chen: China's chip ambitions are now full-stack (equipment, materials, photoresist, etch/deposition), an effort to replicate the entire global semiconductor supply chain domestically."
+      ],
+      "kind": "podcast",
+      "one_liner": "A deep dive into China's tech/chip industrial policy and Huawei's AI chip push is interesting geopolitical background but has essentially no repo, rates, or credit content for this desk.",
+      "published": "2026-11-21T09:00:00+00:00",
+      "recap": "Odd Lots hosts Joe Weisenthal and Tracy Alloway speak with Brookings fellow Kyle Chen (newsletter 'High Capacity') about China's technology ecosystem. Chen argues Chinese tech giants (BYD, Xiaomi, Baidu) pursue full-stack vertical integration across EVs, batteries, chips, robotics and AI, driven by both supply-side spillovers across adjacent industries and deliberate government signaling via five-year plans and state investment funds. The core discussion centers on Huawei's AI chip effort: its Ascend chips have moved from barely viable to good enough for inference (with DeepSeek co-designing hardware) and are now approaching usability for large training runs by bundling many less-efficient chips into 'super pods.' Production remains capacity-constrained by SMIC's limited lithography (DUV/EUV) access and by HBM memory, where Chinese makers like CXMT still lag Hynix/Samsung/Micron. Chen says US export controls galvanized a 'Sputnik moment,' pushing China toward full supply-chain self-reliance rather than just chip design. He frames a tension between Chinese AI firms wanting the fastest available chips (including Nvidia H200s) versus Beijing pushing domestic self-reliance even at a short-term capability cost. Chen also argues Xi Jinping's priority is high-tech self-reliance over consumer welfare or GDP optimization, and that persistent Chinese equity underperformance reflects thin margins and weak competitive moats from overcapacity-driven industrial policy, with DJI cited as a rare moat exception.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "China",
+        "semiconductors",
+        "Huawei",
+        "AI",
+        "industrial-policy",
+        "equities"
+      ],
+      "terms": [
+        "CUDA -- Nvidia's software/compute platform ecosystem for programming its GPUs",
+        "HBM -- High Bandwidth Memory, a memory type paired with AI accelerator chips",
+        "EUV/DUV lithography -- extreme/deep ultraviolet lithography techniques used to manufacture advanced semiconductors"
+      ],
+      "tier": "plumbing",
+      "title": "How AI Is Forcing China to Reshape Industrial Policy",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/bb74684d-fcbe-4c36-9779-b5070115b930/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+      "watch": []
     },
     "bbee8dff-1ad3-4ccd-b707-b4bb00f7df11": {
       "feed_name": "Odd Lots",
