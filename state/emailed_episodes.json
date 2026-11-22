@@ -1999,6 +1999,52 @@
       "title": "Learn More Gooder",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/49d2136c-7d8a-4883-abe9-b4bb00c0bdfa/audio.mp3?utm_source=Podcast&in_playlist=77e6a3a7-290d-4a82-8164-b14001353ef2"
     },
+    "4a037da0-75bc-471d-bce2-298f33090895": {
+      "feed_name": "Eurodollar University",
+      "implications": "The bills-vs-term-SOFR divergence is the most actionable thread here -- it directly signals the market pricing a gap between Fed intent and what funding markets will actually tolerate, which bears on front-end positioning and basis trades; the flat long end and collapsing TIPS breakevens also argue against durable bear-steepening and for continued curve flattening/credit caution if the de-risking broadens into EM and credit spreads.",
+      "key_claims": [
+        "Host: the yield curve is steep from bills to the 2-year but unusually flat from the 2-year to the 10-year, signaling a hawkish near-term Fed alongside doubts about durable growth",
+        "10-year TIPS breakeven rate just set a new two-year low",
+        "Anthropic opened ~34% above its IPO price, closed its first day ~17% higher, then fell further (described as ~10% lower on day two)",
+        "Over 90% of S&P 500 constituents fell the day Anthropic debuted; the Dow fell more than 1,100 points, the S&P fell over 2%",
+        "MSCI EM equity index fell ~3% intraday and approached a bear market, down more than 20% from its June peak",
+        "Taiwan's TAIEX fell more than 6% in one session and ~18% for the week, its worst week since 1991; South Korea's KOSPI fell more than 5%",
+        "Host: Treasury bills are pricing a further Fed hike while term SOFR is pricing doubt that the Fed can deliver or sustain it -- a front-end divergence between policy intent and funding-market capacity",
+        "Host: the Fed has raised rates once already and another increase remains possible in December"
+      ],
+      "kind": "podcast",
+      "one_liner": "A rates-focused macro argument that the real signal behind this week's AI-led selloff is the yield curve's shape (steep front, flat back) and a growing bills-vs-term-SOFR split over whether the Fed can actually hike again -- core front-end/funding territory for a repo trader.",
+      "published": "2026-11-22T12:00:00+00:00",
+      "recap": "The commentator argues the market narrative blaming the AI/equity selloff on 'higher rates raising the discount rate' is wrong. The real signal was already in the yield curve's shape: steep from bills to the 2-year, but flat from the 2-year out to the 10-year. The front end reflects Fed policy expectations -- here, a hawkish response to energy-driven inflation fears (one hike delivered, another possible in December) -- while the back end reflects the market's own view of growth, inflation and labor-market durability, and it never confirmed an AI-driven reflation. Supporting evidence: 10-year TIPS breakevens just hit a two-year low, undercutting the idea that rising yields reflect inflationary reflation; copper and silver are being liquidated despite tight supply, which the host treats as a real-economy check on AI capex demand; and a fresh divergence has opened between Treasury bills (pricing further Fed hikes) and term SOFR (pricing doubt the Fed can follow through), which he reads as the market disagreeing with hawks like Waller and resilience-callers like Warsh. Anthropic's IPO, despite a spectacular +34%/+17% debut, failed to revive risk appetite -- over 90% of the S&P fell the same day, the Dow dropped 1,100+ points -- and EM equities (MSCI EM down ~3%, near a bear market) and Asian indices (Taiwan's TAIEX down ~18% on the week, KOSPI down 5%+) extended a broad, globally correlated de-risking. His conclusion: the AI boom may be real long-term, but the curve and commodities show the economy lacks the credit/labor resilience to validate current risk-taking near-term.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "yield curve",
+        "SOFR",
+        "Fed policy",
+        "TIPS breakevens",
+        "EM equities",
+        "credit cycle",
+        "commodities",
+        "AI bubble"
+      ],
+      "terms": [
+        "SOFR -- Secured Overnight Financing Rate, the benchmark overnight rate for USD repo transactions",
+        "TIPS breakeven -- the market-implied inflation expectation derived from the yield gap between nominal Treasuries and Treasury Inflation-Protected Securities",
+        "WTI -- West Texas Intermediate, the US crude oil price benchmark",
+        "KOSPI -- Korea Composite Stock Price Index, South Korea's main equity benchmark"
+      ],
+      "tier": "plumbing",
+      "title": "If You Don\u2019t Understand Bonds, You Don\u2019t Understand Why Stocks Are Crashing",
+      "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/b6403aba/b98cfea9.mp3",
+      "watch": [
+        "Whether term SOFR continues to diverge from bills pricing into the December FOMC",
+        "December Fed decision and whether another hike is delivered given energy/inflation focus",
+        "10-year TIPS breakeven trend for confirmation/denial of disinflation",
+        "Copper and silver price action as a real-economy/credit-elasticity gauge",
+        "Follow-through in EM equities and Asian markets (Taiwan, Korea) for signs of broader risk-off spilling into credit"
+      ]
+    },
     "4a276c86-30f8-41ad-afce-5c3cafab293c": {
       "feed_name": "Flirting with Models",
       "implications": "Background, not actionable \u2014 this is crypto-native retail market infrastructure with no direct read-through to bank repo, funding markets, or credit; the only overlap is a passing SOFR-referenced financing leg and a TRS analogy, useful only as a curiosity on how DeFi is copying TradFi financing mechanics.",
