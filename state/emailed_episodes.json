@@ -7975,6 +7975,15 @@
       "url": "https://mcdn.podbean.com/mf/web/t9qzbtm7cz42p3g3/1126_SS_ETF_Roundhill_V3.mp3",
       "watch": []
     },
+    "marketmatters.podbean.com/a38ed3de-1a66-38bb-bc06-1eeda959049e": {
+      "feed_name": "Making Sense (J.P. Morgan)",
+      "kind": "podcast",
+      "published": "2026-11-22T06:00:00+00:00",
+      "status": "failed",
+      "tier": "quant",
+      "title": "How generational demand is transforming the power grid",
+      "url": "https://mcdn.podbean.com/mf/web/b4i4i86nkvzihpmp/Power_Grid_Episode_5_Final70smt.mp3"
+    },
     "marketmatters.podbean.com/cf49bf42-2be3-3179-b7f3-0a2bb4fc73b7": {
       "feed_name": "Making Sense (J.P. Morgan)",
       "implications": "Background, not actionable -- no content on funding markets, rates, or credit; the only tangential angle is a general read on capital markets appetite (oversubscribed defense IPOs) that has no direct bearing on repo/financing or credit books.",
