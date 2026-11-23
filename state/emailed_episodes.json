@@ -4749,6 +4749,39 @@
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/8dad6dc9-ed8d-497d-8cde-b50501578aa2/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
       "watch": []
     },
+    "8e04e592-e6c5-11f1-8692-63227ba96cb0": {
+      "feed_name": "Monetary Matters",
+      "implications": "Background, not actionable for repo/rates/credit positioning; the only loosely relevant threads are the passing note on AI-sector circular financing as an equity earnings risk and the observation that degrossing/regrossing by multi-manager pods is driving single-name and now index-level volatility, which is a market-structure/liquidity signal worth minor awareness but not a financing catalyst.",
+      "key_claims": [
+        "Carson Block (Muddy Waters): Supermicro's former chief growth officer Sen Li Chen, alleged in an amended shareholder lawsuit to have controlled Nvidia GPU procurement and allocation, is reportedly married to AJ Puri, a senior Nvidia executive who left the company around June-August.",
+        "Two Supermicro employees and a third party were indicted in the US (and ~10 people, including two Supermicro employees, indicted in Taiwan) for allegedly smuggling Nvidia-chip-equipped servers into China.",
+        "Carson Block: Muddy Waters' internal momentum strategy (tracking relative momentum within the S&P 500 since October 2024) still shows strength in memory-sector names despite recent price weakness.",
+        "Carson Block attributes recent sharp single-name reversals (e.g., short positions down 70% one day, up 70% the next) to degrossing/regrossing at multi-manager pods and stat-arb algo flows, with volatility now also appearing at the index level."
+      ],
+      "kind": "podcast",
+      "one_liner": "A short-seller's deep dive into the Nvidia/Supermicro chip-smuggling and Jensen Huang scandal is mostly tech-geopolitics and equity-short color, with only glancing references to AI circular financing and degrossing-driven volatility that touch market structure.",
+      "published": "2026-11-22T22:39:00+00:00",
+      "recap": "Carson Block of Muddy Waters discusses his firm's short thesis on Nvidia, built around a shareholder lawsuit alleging that Supermicro's former chief growth officer, Sen Li Chen (later revealed to be Sen Li Puri), oversaw GPU allocation and procurement while Supermicro allegedly smuggled Nvidia chips into China; two Supermicro employees were indicted in the US and Taiwan for this. Muddy Waters connected her to AJ Puri, a senior Nvidia executive and reportedly her husband, raising questions about Nvidia's internal controls and whether ousted CEO Jensen Huang's affair with an alleged Chinese intelligence-linked figure (Alice Wong/mega speed, per Culper Research) was part of a broader pattern rather than an isolated incident. Block frames this as part of a larger dual-use technology struggle between an open US private sector and a closed, nationalizable Chinese state, likening the alleged operative dynamic to the Rupert Murdoch/Wendy Deng relationship. He discusses the politics of export controls, Treasury Secretary Bessent vs. Commerce Secretary Lutnick's stance, and the prospect of Democratic-controlled Congress using subpoena power to investigate further. Near the end, Block addresses AI bubble concerns, cautioning that circular financing among AI companies poses earnings risk, notes his firm avoids shorting the frothy AI complex, and describes recent market whipsaws as likely driven by fund degrossing/regrossing and systematic (stat-arb) flows rather than fundamental rotation, with volatility now bleeding into index-level moves.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "equities",
+        "AI-bubble",
+        "China",
+        "export-controls",
+        "market-structure",
+        "short-selling"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "Why Nvidia\u2019s China Problems May Go Beyond Jensen Huang | Carson Block",
+      "url": "https://traffic.megaphone.fm/EWWMN1870691444.mp3",
+      "watch": [
+        "Potential Congressional hearings/subpoenas on Nvidia-Supermicro-China chip smuggling once Democrats control both chambers",
+        "Whether AI-sector circular financing concerns escalate into a broader credit/equity risk-off event",
+        "Further signs of degrossing-driven volatility spilling from single names into broader index/market structure"
+      ]
+    },
     "8e30cc48-c94f-47b3-b450-b4ca014b861f": {
       "feed_name": "Odd Lots",
       "implications": "Background, not actionable -- this is a podcast promo with no bearing on financing, rates, or credit markets.",
