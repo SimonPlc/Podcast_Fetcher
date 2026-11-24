@@ -1,3 +1,82 @@
 {
-  "queued": {}
+  "queued": {
+    "63049323-0999-4f06-b34a-8770d014d105": {
+      "feed_name": "Macro Musings",
+      "implications": "For a repo/funding desk, this is high-value background explaining the structural mechanics behind SOFR/EFFR dislocations, the diminished self-correcting interbank market, and why the Fed's prospective move toward balance-sheet shrinkage and a scarce-reserve-like regime could reintroduce repo rate volatility and idiosyncratic funding spikes similar to September 2019.",
+      "key_claims": [
+        "Borio states Fed reserve demand grew from roughly $35 billion under the old scarce-reserve system to an estimated ~$3 trillion under ample reserves",
+        "Borio notes pre-crisis central banks operated with opportunity-cost spreads as wide as 100-200 basis points, versus today's much narrower 5-25 basis point bands",
+        "Borio suspects (as a hypothesis, not proven) that the scale of Fed intervention in the September 2019 repo spike and the 2020 dash-for-cash may have been partly driven by breakdown in interbank reserve redistribution rather than purely external shocks",
+        "Norges Bank ran a floor system from 1993 to 2011 before abandoning it after encountering the same interbank-market atrophy problems Borio describes",
+        "Riksbank had to seek a government capital injection after operating losses, unlike the Fed which uses a deferred asset entry because of its currency seniorage stream"
+      ],
+      "kind": "podcast",
+      "one_liner": "Claudio Borio (BIS) delivers a deep, systematic explainer on central bank operating systems (scarce reserves vs ample/floor) that bears directly on repo, interbank funding, and the Fed's prospective balance sheet shrinkage.",
+      "published": "2026-11-23T10:00:00+00:00",
+      "recap": "David Beckworth interviews BIS economist Claudio Borio on central bank operating systems, recorded at the Czech National Bank. Borio lays out two polar frameworks: a scarce-reserves (corridor) system, where reserves are purely a settlement medium, demand is steep/inelastic, and the central bank relies on signaling plus rough calibration of aggregate supply, with banks actively lending surplus reserves to each other; versus an ample/floor system, where the central bank saturates reserve supply so the overnight rate sits at the deposit floor, reserves become a store of value with risk-return characteristics, and banks have no incentive to redistribute reserves via the interbank market, causing that market to atrophy. Borio argues this atrophy is not harmless churn: when interbank reallocation breaks down, idle institutional memory and closed trading desks can produce sudden overnight-rate spikes (as in September 2019, and possibly the 2020 dash-for-cash), forcing the central bank to act as \"lender of first resort\" rather than last resort, with open market operations unable to target where reserves are actually needed. He discusses floor \"leakage\" from balance-sheet costs and uneven access to deposit facilities, the resulting drift of central banks toward repo-rate targeting (where they become price makers rather than price takers, effectively offering leveraged market participants an implicit volatility put), and cites the Bank of Canada's Cora rate and Norges Bank's 1993-2011 floor-system experience as real-world precedents. He closes with advice for the Fed's balance sheet task force (under Kevin Warsh): embrace a positive opportunity cost on reserves, widen operating bands, remove autonomous volatility sources like TGA and RRP, and abandon \"fear of floating\" on the overnight rate.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "repo",
+        "reserves",
+        "Fed balance sheet",
+        "interbank market",
+        "SOFR/OIS",
+        "central bank operating systems",
+        "floor system"
+      ],
+      "terms": [
+        "SOFR -- Secured Overnight Financing Rate, the US repo-based reference rate",
+        "RRP -- Reverse Repo Facility, a Fed facility allowing banks and eligible non-banks to invest cash overnight against Treasury collateral",
+        "TGA -- Treasury General Account, the US Treasury's cash account held at the Federal Reserve",
+        "LCR -- Liquidity Coverage Ratio, a Basel III regulatory requirement on banks' high-quality liquid asset holdings relative to short-term net cash outflows",
+        "SLR -- Supplementary Leverage Ratio, a US bank capital regulation measuring Tier 1 capital against total leverage exposure"
+      ],
+      "tier": "plumbing",
+      "title": "Claudio Borio on Rethinking Central Bank Operating Systems",
+      "url": "https://traffic.libsyn.com/secure/macromusings/MM-570-ClaudioBorio-Podcast.mp3?dest-id=865793",
+      "watch": [
+        "Developments from the Fed's balance sheet task force under Kevin Warsh",
+        "Any signals the Fed is widening its operating band or reintroducing opportunity cost on reserves",
+        "Repo market volatility around TGA rebuilds or RRP drawdown as potential early signs of reserve scarcity returning"
+      ]
+    },
+    "7ab3e665-ddd8-4436-bf62-026a74b614a0": {
+      "feed_name": "Cloud 9fin",
+      "implications": "No direct repo or funding angle, but the trader should watch for AI-driven primary bond supply pressuring IG/HY spreads and hyperscaler/neocloud financing costs, and treat AI-sector concentration and circularity risk as a tail scenario worth monitoring in broader credit exposure, even outside structured credit books.",
+      "key_claims": [
+        "Anthropic has roughly $450-560 billion in multi-year compute purchase commitments, per its IPO filings (Chin)",
+        "Skydance issued secured notes with IG ratings earlier this year despite not being a pure IG issuer, showing a BB+ issuer can still access IG-style structured deals (Chin)",
+        "Neocloud Volta is reportedly waiting on Anthropic's rating outcome to potentially secure better terms on its own loans and bonds (Chin)",
+        "Chin flags bond market supply competition, AI concentration risk in portfolios, and circularity risk across AI financing deals as the key risks if Anthropic taps the bond market"
+      ],
+      "kind": "podcast",
+      "one_liner": "Anthropic's IPO and pending credit rating decision could reshape IG/HY bond supply and spreads across the AI-linked corporate credit complex, a second-order read for credit desks even without a rates/repo angle.",
+      "published": "2026-11-23T15:51:12+00:00",
+      "recap": "9fin's Sasha Padmajri and Kimberly Chin discuss the credit market implications of Anthropic's IPO, the largest ever, and the pending decision by the major rating agencies on whether Anthropic will be rated investment grade or junk. Chin explains that IPO proceeds will boost Anthropic's cash balance and lower net leverage, factors the agencies will weigh alongside its roughly $450-560 billion in multi-year compute purchase commitments disclosed in its IPO filings. Most market participants she spoke to expect an eventual IG rating given Anthropic's centrality to the AI trade and its need for IG-level capital market access to fund massive capex. She notes a BB+ (high-yield) issuer could still place investment-grade-rated secured notes, as Skydance did earlier this year, though this encumbers the asset base and is a weaker substitute for genuine IG access to the deep pension and insurance investor base. The conversation ties Anthropic's rating outcome to a wider ecosystem: chipmakers, neoclouds (e.g. Volta) and data center operators are effectively waiting on Anthropic's rating to determine their own loan and bond terms. Chin flags three risks for credit investors if Anthropic taps bond markets: heavy new supply forcing issuers to compete for capital at higher cost, a ripple effect already visible among hyperscalers and tech-adjacent names, growing AI concentration risk within portfolios, and circularity risk across interlinked AI financing deals, where a single failure could cascade.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "credit ratings",
+        "IG/HY",
+        "AI financing",
+        "bond supply",
+        "concentration risk",
+        "Anthropic"
+      ],
+      "terms": [
+        "IG -- investment grade credit rating",
+        "HY -- high yield (junk) credit rating",
+        "S1 -- SEC Form S-1 registration statement filed ahead of an IPO"
+      ],
+      "tier": "credit",
+      "title": "Anthropic\u2019s next test: IG or HY?",
+      "url": "https://media.transistor.fm/f79952eb/396f7679.mp3",
+      "watch": [
+        "Agency rating decisions (S&P/Moody's/Fitch) on Anthropic",
+        "Whether Anthropic issues bonds and at what size/spread",
+        "Knock-on effects on neocloud (e.g. Volta) and hyperscaler debt pricing"
+      ]
+    }
+  }
 }

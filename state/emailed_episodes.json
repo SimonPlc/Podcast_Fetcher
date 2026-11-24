@@ -77,6 +77,35 @@
       "title": "Richmond Fed\u2019s Tom Barkin on the Surprisingly Resilient Real Economy",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/095923e3-5c15-4936-b26b-b4b70018f8d6/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83"
     },
+    "097fe40a-e767-11f1-bfdc-779ae38be0fc": {
+      "feed_name": "Monetary Matters",
+      "implications": "Background, not actionable for a rates/repo/credit book; the only tangential thread is a passing reference to GPU financing constraints being eased by rising rental prices, which has no direct read-through to funding markets or credit spreads.",
+      "key_claims": [
+        "Gavin Baker: market-implied odds of Jensen Huang returning as Nvidia CEO (~10%) are too low; he believes they are dramatically higher.",
+        "Baker: Nvidia stock fell after strong Q3 earnings once the board chair said Huang would not be reinstated, which he interprets as shareholders voting against that decision.",
+        "Baker: Nvidia raised its growth guidance from 70% to 75% on the earnings call.",
+        "Baker: a Japanese NAND producer trades at a forward multiple of under 2x, reflecting extreme market caution on semi earnings estimates.",
+        "Baker: GPU rental prices have risen sharply over the past month, three months, and year, which he views as the key proof point of rising AI compute value."
+      ],
+      "kind": "podcast",
+      "one_liner": "A tech-investor conversation about Nvidia's Jensen Huang CEO drama and AI/semiconductor capex cycles, with no repo, rates, or credit content relevant to a HK financing/repo trader.",
+      "published": "2026-11-23T17:55:00+00:00",
+      "recap": "Recorded at the TomorrowX Summit just after Nvidia's earnings but before Nvidia's board reinstated Jensen Huang as CEO, this conversation features Gavin Baker of Atreides discussing the fallout from Huang's departure. Baker argues market-implied odds (around 10%) of Huang's return are too low, believing Huang will be exonerated of any export-control wrongdoing and that shareholders, employees, and partners overwhelmingly want him back as CEO; he cites Nvidia's stock falling after strong earnings once the board chair said Huang would not be reinstated as evidence of shareholders \"voting with their feet.\" Baker contends semiconductor stocks have fallen over the past two months because the market is undercounting AI compute demand \u2014 missing private-company growth fueled by open-source models and on-premise GPU deployment (he cites Michael Dell's claim of 6,500 customers running open-weight models on-premise) \u2014 and because the second derivative of capex growth has peaked, historically a bearish signal for semi-cycles. He argues this cycle may instead resemble a decades-long buildout like railroads rather than a typical boomp-bust semiconductor cycle. He flags the biggest unknowable bear case as whether returns to intelligence keep increasing, pointing to rising GPU rental prices as the key fundamental indicator, and sees Huang's exit (if permanent) as a boon for Nvidia competitors like Broadcom and custom-ASIC players given Huang's unique 30-year supply-chain relationships.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "AI",
+        "semiconductors",
+        "Nvidia",
+        "equities",
+        "capex"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "Gavin Baker: The AI Capex Cycle Will Be Longer Than the Market Thinks | Jensen, Nvidia, and Gavin's Best AI Bear Case",
+      "url": "https://traffic.megaphone.fm/EWWMN8661762537.mp3",
+      "watch": []
+    },
     "0d618822-2682-48b3-8449-b4c000d9d9df": {
       "feed_name": "Asia Centric",
       "implications": "Background, not actionable -- this is a pure Japanese equity market-structure and shareholder-activism story with no repo, funding, rates, or credit content relevant to the reader's book.",
@@ -2993,6 +3022,47 @@
         "SEC's proposed ATM expansion to OTCQX/OTCQB issuers and state blue-sky preemption, expected to clarify in Q1 next year"
       ]
     },
+    "63049323-0999-4f06-b34a-8770d014d105": {
+      "feed_name": "Macro Musings",
+      "implications": "For a repo/funding desk, this is high-value background explaining the structural mechanics behind SOFR/EFFR dislocations, the diminished self-correcting interbank market, and why the Fed's prospective move toward balance-sheet shrinkage and a scarce-reserve-like regime could reintroduce repo rate volatility and idiosyncratic funding spikes similar to September 2019.",
+      "key_claims": [
+        "Borio states Fed reserve demand grew from roughly $35 billion under the old scarce-reserve system to an estimated ~$3 trillion under ample reserves",
+        "Borio notes pre-crisis central banks operated with opportunity-cost spreads as wide as 100-200 basis points, versus today's much narrower 5-25 basis point bands",
+        "Borio suspects (as a hypothesis, not proven) that the scale of Fed intervention in the September 2019 repo spike and the 2020 dash-for-cash may have been partly driven by breakdown in interbank reserve redistribution rather than purely external shocks",
+        "Norges Bank ran a floor system from 1993 to 2011 before abandoning it after encountering the same interbank-market atrophy problems Borio describes",
+        "Riksbank had to seek a government capital injection after operating losses, unlike the Fed which uses a deferred asset entry because of its currency seniorage stream"
+      ],
+      "kind": "podcast",
+      "one_liner": "Claudio Borio (BIS) delivers a deep, systematic explainer on central bank operating systems (scarce reserves vs ample/floor) that bears directly on repo, interbank funding, and the Fed's prospective balance sheet shrinkage.",
+      "published": "2026-11-23T10:00:00+00:00",
+      "recap": "David Beckworth interviews BIS economist Claudio Borio on central bank operating systems, recorded at the Czech National Bank. Borio lays out two polar frameworks: a scarce-reserves (corridor) system, where reserves are purely a settlement medium, demand is steep/inelastic, and the central bank relies on signaling plus rough calibration of aggregate supply, with banks actively lending surplus reserves to each other; versus an ample/floor system, where the central bank saturates reserve supply so the overnight rate sits at the deposit floor, reserves become a store of value with risk-return characteristics, and banks have no incentive to redistribute reserves via the interbank market, causing that market to atrophy. Borio argues this atrophy is not harmless churn: when interbank reallocation breaks down, idle institutional memory and closed trading desks can produce sudden overnight-rate spikes (as in September 2019, and possibly the 2020 dash-for-cash), forcing the central bank to act as \"lender of first resort\" rather than last resort, with open market operations unable to target where reserves are actually needed. He discusses floor \"leakage\" from balance-sheet costs and uneven access to deposit facilities, the resulting drift of central banks toward repo-rate targeting (where they become price makers rather than price takers, effectively offering leveraged market participants an implicit volatility put), and cites the Bank of Canada's Cora rate and Norges Bank's 1993-2011 floor-system experience as real-world precedents. He closes with advice for the Fed's balance sheet task force (under Kevin Warsh): embrace a positive opportunity cost on reserves, widen operating bands, remove autonomous volatility sources like TGA and RRP, and abandon \"fear of floating\" on the overnight rate.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "repo",
+        "reserves",
+        "Fed balance sheet",
+        "interbank market",
+        "SOFR/OIS",
+        "central bank operating systems",
+        "floor system"
+      ],
+      "terms": [
+        "SOFR -- Secured Overnight Financing Rate, the US repo-based reference rate",
+        "RRP -- Reverse Repo Facility, a Fed facility allowing banks and eligible non-banks to invest cash overnight against Treasury collateral",
+        "TGA -- Treasury General Account, the US Treasury's cash account held at the Federal Reserve",
+        "LCR -- Liquidity Coverage Ratio, a Basel III regulatory requirement on banks' high-quality liquid asset holdings relative to short-term net cash outflows",
+        "SLR -- Supplementary Leverage Ratio, a US bank capital regulation measuring Tier 1 capital against total leverage exposure"
+      ],
+      "tier": "plumbing",
+      "title": "Claudio Borio on Rethinking Central Bank Operating Systems",
+      "url": "https://traffic.libsyn.com/secure/macromusings/MM-570-ClaudioBorio-Podcast.mp3?dest-id=865793",
+      "watch": [
+        "Developments from the Fed's balance sheet task force under Kevin Warsh",
+        "Any signals the Fed is widening its operating band or reintroducing opportunity cost on reserves",
+        "Repo market volatility around TGA rebuilds or RRP drawdown as potential early signs of reserve scarcity returning"
+      ]
+    },
     "64f69dd8-9167-4b6f-9c04-6221f62e7ca2": {
       "feed_name": "Macro Musings",
       "kind": "podcast",
@@ -4103,6 +4173,43 @@
       "title": "Why Building a Crosswalk in LA Is Kafkaesque",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/7a3568d9-8263-4e3a-8f8f-b4d00139959f/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
       "watch": []
+    },
+    "7ab3e665-ddd8-4436-bf62-026a74b614a0": {
+      "feed_name": "Cloud 9fin",
+      "implications": "No direct repo or funding angle, but the trader should watch for AI-driven primary bond supply pressuring IG/HY spreads and hyperscaler/neocloud financing costs, and treat AI-sector concentration and circularity risk as a tail scenario worth monitoring in broader credit exposure, even outside structured credit books.",
+      "key_claims": [
+        "Anthropic has roughly $450-560 billion in multi-year compute purchase commitments, per its IPO filings (Chin)",
+        "Skydance issued secured notes with IG ratings earlier this year despite not being a pure IG issuer, showing a BB+ issuer can still access IG-style structured deals (Chin)",
+        "Neocloud Volta is reportedly waiting on Anthropic's rating outcome to potentially secure better terms on its own loans and bonds (Chin)",
+        "Chin flags bond market supply competition, AI concentration risk in portfolios, and circularity risk across AI financing deals as the key risks if Anthropic taps the bond market"
+      ],
+      "kind": "podcast",
+      "one_liner": "Anthropic's IPO and pending credit rating decision could reshape IG/HY bond supply and spreads across the AI-linked corporate credit complex, a second-order read for credit desks even without a rates/repo angle.",
+      "published": "2026-11-23T15:51:12+00:00",
+      "recap": "9fin's Sasha Padmajri and Kimberly Chin discuss the credit market implications of Anthropic's IPO, the largest ever, and the pending decision by the major rating agencies on whether Anthropic will be rated investment grade or junk. Chin explains that IPO proceeds will boost Anthropic's cash balance and lower net leverage, factors the agencies will weigh alongside its roughly $450-560 billion in multi-year compute purchase commitments disclosed in its IPO filings. Most market participants she spoke to expect an eventual IG rating given Anthropic's centrality to the AI trade and its need for IG-level capital market access to fund massive capex. She notes a BB+ (high-yield) issuer could still place investment-grade-rated secured notes, as Skydance did earlier this year, though this encumbers the asset base and is a weaker substitute for genuine IG access to the deep pension and insurance investor base. The conversation ties Anthropic's rating outcome to a wider ecosystem: chipmakers, neoclouds (e.g. Volta) and data center operators are effectively waiting on Anthropic's rating to determine their own loan and bond terms. Chin flags three risks for credit investors if Anthropic taps bond markets: heavy new supply forcing issuers to compete for capital at higher cost, a ripple effect already visible among hyperscalers and tech-adjacent names, growing AI concentration risk within portfolios, and circularity risk across interlinked AI financing deals, where a single failure could cascade.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "credit ratings",
+        "IG/HY",
+        "AI financing",
+        "bond supply",
+        "concentration risk",
+        "Anthropic"
+      ],
+      "terms": [
+        "IG -- investment grade credit rating",
+        "HY -- high yield (junk) credit rating",
+        "S1 -- SEC Form S-1 registration statement filed ahead of an IPO"
+      ],
+      "tier": "credit",
+      "title": "Anthropic\u2019s next test: IG or HY?",
+      "url": "https://media.transistor.fm/f79952eb/396f7679.mp3",
+      "watch": [
+        "Agency rating decisions (S&P/Moody's/Fitch) on Anthropic",
+        "Whether Anthropic issues bonds and at what size/spread",
+        "Knock-on effects on neocloud (e.g. Volta) and hyperscaler debt pricing"
+      ]
     },
     "7b1084d8-dd85-45fd-844f-60130d61930b": {
       "feed_name": "Eurodollar University",
@@ -7270,6 +7377,32 @@
         "ECB meeting next week amid core Eurozone CPI deceleration",
         "30yr-3mo and 10yr-30yr Treasury spread trend for curve inversion risk"
       ]
+    },
+    "ef741101-1572-4ac7-b9c9-b507017075ac": {
+      "feed_name": "Odd Lots",
+      "implications": "Background, not actionable -- this is a sociological look at Chinese AI culture and consumer sentiment with no read-through to funding markets, rates, or credit positioning.",
+      "key_claims": [
+        "Wong cites polling showing 83% of Chinese people believe AI will benefit their life/work, versus 38% in the US",
+        "China's official youth unemployment rate is cited as 18.9%, with Wong casting doubt on its accuracy",
+        "Wong estimates roughly 90% of AI-generated-content (AIGC) companies in China are currently losing money, with only about 0.16% of content considered a 'hit'",
+        "A projection cited in the episode estimates five million AI-generated short dramas will be produced and disseminated next year"
+      ],
+      "kind": "podcast",
+      "one_liner": "A cultural/sociological deep-dive on AI diffusion, vibe-coding culture, and AI-generated content in China with no financing, rates, or credit angle.",
+      "published": "2026-11-23T09:00:00+00:00",
+      "recap": "This Odd Lots episode features journalist Erin (Yifan) Wong discussing her New Yorker/New York Mag reporting on AI's social diffusion in China. She describes Beijing's 'AI plus' strategy, framed by Xi Jinping as a 'high-quality productivity force,' which emphasizes spreading AI across industries (manufacturing, agriculture, education) rather than solely chasing frontier model benchmarks like US labs do. Polling cited shows 83% of Chinese respondents view AI as beneficial versus 38% in the US, which Wong attributes to a sense of 'choicelessness' and a history of technology visibly improving living standards. She profiles Liangzhu, a 'vibe coding capital' near Hangzhou where laid-off or disaffected tech workers build quirky apps (fortune-telling, ADHD/productivity tools) outside the mainstream 996 corporate grind. She also describes a murky AI-education industry selling expensive, pyramid-scheme-like courses promising AI riches, and an 'AI slop' complex where local governments subsidize AI-generated short dramas to signal compliance with central tech priorities \u2014 despite 90% of such content producers losing money. The conversation touches on youth unemployment (official figure 18.9%), a revival of astrology/BaZi practices as a coping mechanism amid economic stagnation, comparisons to Japan's stalled economy, and why China has struggled to export cultural content like Japan or Korea despite industrial/tech strength. No discussion of markets, rates, credit, or financing appears.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "AI",
+        "China",
+        "off-topic"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "What a Town Full of Vibecoders Says About the Chinese Economy",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/ef741101-1572-4ac7-b9c9-b507017075ac/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+      "watch": []
     },
     "efea2084-e124-11f1-9a6a-c305f690e3fe": {
       "feed_name": "Monetary Matters",
