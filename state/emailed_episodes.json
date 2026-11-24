@@ -109,6 +109,44 @@
         "Oil prices, crack spreads, and SPR drawdown headlines feeding into Fed political pressure"
       ]
     },
+    "069a6253-c05f-424d-9173-b0b6bf062992": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "Largely background macro narrative rather than a plumbing or credit catalyst; the only desk-relevant threads are the view that term yields have peaked, a Fed hike seen as catch-up rather than tightening, and a flagged risk that heavy AI-related borrowing could crowd out other credit issuance next year.",
+      "key_claims": [
+        "Zulauf: US current account deficit is near 5% of GDP, an unsustainable imbalance against growing Asian surpluses",
+        "Zulauf: AI industry alone may need to borrow $700-800bn next year, crowding out other borrowers",
+        "Zulauf: 10-year Treasury yield has pulled back to about 4.95% from a peak near 5.32-5.36%",
+        "Zulauf: Fed funds are trading about 70bp below the 2-year Treasury yield, so a hike would just be catch-up, not new tightening",
+        "Zulauf: expects S&P to reach ~8500 by spring 2027 before a decline toward 5000 in the second half of 2027",
+        "Zulauf: Bank of America fund manager survey showed technology overweight cut from 37% to 12% in one month"
+      ],
+      "kind": "podcast",
+      "one_liner": "A macro strategist's speculative year-ahead call on equities, gold and oil, with only glancing references to bond yields and Fed policy that don't add much for a repo/funding desk.",
+      "published": "2026-11-24T11:00:00+00:00",
+      "recap": "Felix Zulauf, a veteran macro strategist, argues equity markets have just bottomed after last week's sell-off and will rally into a spring 2027 top (S&P to roughly 8500), driven by continued AI capex already locked into contracts. He expects a sharp reversal in the second half of 2027, comparing it to 1987, as AI earnings disappoint, foreign capital that financed the US tech boom reverses, and the dollar weakens. He frames the setup via global current-account imbalances (US deficit near 5% of GDP funded by Asian surpluses recycled into US tech stocks rather than Treasuries) and argues the AI investment boom is also a credit boom, with AI industry borrowing needs of $700-800bn next year crowding out other borrowers and tightening financial conditions. He says bond yields have already peaked (10-year around 4.95% down from 5.32-5.36%) and expects a Fed hike of up to 50bp to be a non-event since Fed funds sit 70bp below the 2-year yield, merely catching up rather than tightening further. He turned bullish on bonds this year on valuation grounds, expects oil to fall toward $60 as Middle East escalation risk fades and global growth slows, and sees gold rallying toward 6000 before a later correction. He closes by predicting that by late 2027 the AI bubble will be widely declared dead, only for a subsequent 'mother of all stimulus' (QE) to eventually reflate markets.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "macro",
+        "Fed",
+        "rates",
+        "equities",
+        "AI bubble",
+        "gold"
+      ],
+      "terms": [
+        "OIS -- Overnight Index Swap, a rate derivative referencing compounded overnight rates, used as a benchmark for short-term funding costs",
+        "QE -- Quantitative Easing, central bank purchases of government bonds to inject liquidity into the financial system"
+      ],
+      "tier": "broad",
+      "title": "#437 Felix Zulauf: The Bottom Is In, One Last Rally, Then a Crash and the \"Mother of All Stimulus\"",
+      "url": "https://traffic.megaphone.fm/APO9723143618.mp3",
+      "watch": [
+        "Whether 10-year Treasury yields continue falling from the ~4.95% level cited",
+        "Size and market reaction to the next Fed rate decision given the Fed funds/2-year spread argument",
+        "Scale of AI-sector debt issuance (cited at $700-800bn next year) and any crowding-out effect on corporate credit spreads"
+      ]
+    },
     "095923e3-5c15-4936-b26b-b4b70018f8d6": {
       "feed_name": "Odd Lots",
       "kind": "podcast",
