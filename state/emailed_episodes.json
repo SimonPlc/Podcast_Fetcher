@@ -2567,6 +2567,46 @@
       "title": "Blackstone Is Predicting a Big Surge in Quant Credit Investing",
       "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/e74a35e9-c028-4e5f-a3f7-afb10164a717/56375b80-e687-46e1-92bc-b4dd0149c9f6/audio.mp3?utm_source=Podcast&in_playlist=8792a2e9-d66c-4038-a1fe-afb101654894"
     },
+    "564b8550-e834-11f1-8896-b76922277cec": {
+      "feed_name": "Goldman Sachs Exchanges",
+      "implications": "The real credit exposure flagged here sits in neocloud SPV/ABS financing (GPU-backed take-or-pay structures) and in the pivot of hyperscalers from net debt-payers to debt and equity issuers -- both wrapped in IG support that a repo/credit desk should track via CDS on hyperscalers and any related ABS/SPV paper; the piece is largely background/thesis framing rather than an immediate trade catalyst.",
+      "key_claims": [
+        "Chamath: neocloud utilization runs around 70-75%, while airline-style economics require 85-100% utilization to generate margin",
+        "Chamath: neocloud CDS spreads have already widened, signaling market skepticism on AI capex ROI",
+        "Eric Sheridan: Goldman's analysis suggests hyperscalers can clear a 15%+ ROIC hurdle without needing 100% of revenue backlog to convert",
+        "Eric Sheridan: some hyperscalers have disclosed that 50% of current revenue backlog will convert to revenue within two years",
+        "Chamath: hyperscalers have shifted from being net cash-generative stock buyers to debt issuers and now equity issuers to fund AI capex"
+      ],
+      "kind": "podcast",
+      "one_liner": "Chamath Palihapitiya and Goldman's Eric Sheridan debate whether AI capex ROI will materialize before investors lose patience, with neocloud financing structures (SPVs, take-or-pay, IG wrappers, ABS) and hyperscaler debt/equity issuance as the key credit transmission points.",
+      "published": "2026-11-24T19:16:00+00:00",
+      "recap": "Goldman's Alison Nathan interviews Chamath Palihapitiya and Goldman analyst Eric Sheridan on the durability of the AI investment cycle amid an equity/credit selloff. Chamath argues neoclouds resemble airlines financially: they borrow long (fixed, long-dated obligations to buy GPUs and build data centers) against short, speculative revenue -- an inverted-bank risk profile. Utilization must run in the 85-100% range to be profitable, but current utilization sits around 70-75%, leaving little margin, especially as silicon and model efficiency gains compress the need for more hardware. He notes neocloud CDS spreads have already widened, reflecting market skepticism. He describes going through hyperscaler and neocloud regulatory filings to stack-rank default risk based on build-out capacity versus take-or-pay obligations, and stresses that most neocloud SPVs are ultimately underpinned by IG-rated hyperscaler guarantees, meaning credit risk concentrates back at the hyperscaler level -- companies that have flipped from cash-generative stock buyers to debt and now equity issuers to fund capex. He compares the current moment to the 1999-2002 dot-com cycle, where the thesis was right but the timing was wrong. Eric Sheridan is more constructive, arguing hyperscaler ROIC already clears a 15%+ hurdle even under conservative backlog-to-revenue assumptions, and that balance-sheet risk is concentrated further out the chain in companies more dependent on AI revenue than the hyperscalers, who retain strong non-AI free cash flow.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "credit",
+        "ABS",
+        "CDS",
+        "neoclouds",
+        "hyperscaler capex",
+        "structured finance",
+        "IG credit"
+      ],
+      "terms": [
+        "SPV -- special purpose vehicle, a legally isolated entity used to ring-fence assets and liabilities (here, neocloud data center financing)",
+        "take-or-pay -- a contract obligating the buyer to pay for a minimum committed volume whether or not it is used",
+        "ROIC -- return on invested capital",
+        "CDS -- credit default swap, used to hedge or speculate on an issuer's default risk"
+      ],
+      "tier": "broad",
+      "title": "What Will Determine the Durability of the AI Investment Cycle?",
+      "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD3836292455.mp3",
+      "watch": [
+        "Neocloud utilization rates and CDS spread moves",
+        "Hyperscaler debt/equity issuance volumes tied to capex",
+        "Enterprise AI ROI disclosures (ROIC, backlog-to-revenue conversion) in upcoming hyperscaler earnings"
+      ]
+    },
     "568c6e3c-2159-45c2-8e4d-b4ad011d7c22": {
       "feed_name": "Odd Lots",
       "implications": "Background, not actionable -- no repo/funding, rates, or credit angle; purely a development-economics discussion of African manufacturing and demographics.",
