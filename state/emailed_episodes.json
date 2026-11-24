@@ -3999,6 +3999,34 @@
       "url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6aff6dc18f8ad2908fc27499/media.mp3",
       "watch": []
     },
+    "6b05eb5dced26bb723221a46": {
+      "feed_name": "Unhedged",
+      "implications": "Background, not actionable -- this is a pure equity/tech-governance story about one company's CEO drama with no bearing on repo, funding, rates, or credit markets.",
+      "key_claims": [
+        "Nvidia shares rose about 33% the day Jensen Huang was reinstated as CEO (Rob Armstrong/Katie Martin)",
+        "Nvidia had fallen from a $213 stock to roughly $155, a 27% decline worth about $1.4 trillion, since the spy allegations emerged in late October (Rob Armstrong)",
+        "The FT reported Donald Trump's personal Nvidia holdings rose in value by as much as $15 million on the Monday of the rally (cited by Rob Armstrong)",
+        "Nvidia announced it is hiring a chief compliance officer at the same time as confirming Huang's return (discussed by hosts)"
+      ],
+      "kind": "podcast",
+      "one_liner": "A corporate-governance and market-reaction story about Jensen Huang's reinstatement as Nvidia CEO after Trump intervened, with no repo, funding, rates, or credit content.",
+      "published": "2026-11-24T21:00:00+00:00",
+      "recap": "FT Unhedged hosts Katie Martin and Rob Armstrong discuss the sudden reinstatement of Jensen Huang as Nvidia CEO, just days after he resigned amid reports of an extramarital affair and a separate relationship with a suspected Chinese government asset. The hosts note that Treasury Secretary Scott Bessent had called for an outside successor, then pivoted days later to claim Huang counted as 'outside.' They argue Trump personally intervened, reportedly calling into the board meeting to vouch for Huang, which removed the legal and national-security overhang that had been pressuring Nvidia's board. Nvidia's stock jumped roughly a third on the reinstatement news after having fallen about 27% (roughly $1.4 trillion in value) since the spy allegations surfaced in late October, though the stock gave back some gains the next morning alongside a broader Nasdaq pullback. The hosts frame this as a troubling precedent: a president effectively dictating corporate leadership outcomes, which they liken to a 'bailout' for AI-related tech valuations rather than a fix for underlying governance problems (no real board structure, no succession plan, no chief compliance officer until this episode). They compare the episode to Steve Jobs' triumphant return to Apple, Sam Altman's OpenAI ouster-and-return, and Ken Lay's return to Enron, concluding the episode will likely be remembered as a cautionary governance failure rather than vindication.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "equities",
+        "Nvidia",
+        "corporate governance",
+        "AI valuations",
+        "off-topic"
+      ],
+      "terms": [],
+      "tier": "credit",
+      "title": "Is the Booma-Huang a bad day for capitalism?",
+      "url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6b05eb5dced26bb723221a46/media.mp3",
+      "watch": []
+    },
     "6c3646fe-afa0-45cf-8682-b500015998ac": {
       "feed_name": "Odd Lots",
       "implications": "Background, not actionable -- this is a legal-industry structural story with no money-market, rates, or credit market relevance for the reader's book.",
