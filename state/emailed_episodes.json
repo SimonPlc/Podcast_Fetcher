@@ -7016,6 +7016,47 @@
       "title": "Bill Nelson on Shrinking the Fed's Balance Sheet and Reviving Interbank Markets",
       "url": "https://traffic.libsyn.com/secure/macromusings/MM-556-BillNelson-Podcast-auphonic.mp3?dest-id=865793"
     },
+    "e1cd0e3e-9e03-40db-bc4b-b50b0165eab4": {
+      "feed_name": "Odd Lots",
+      "implications": "The episode's actionable content for this book is the Fed/financial-conditions thread (near-certain Dec 9 hike, risk of FOMC overtightening into an already-fragile tape) and the credit angle on AI financing (hyperscaler/data-center and neocloud bond spreads not tightening despite the equity bounce), both worth tracking for front-end rate and spread positioning even though the episode's center of gravity is equity vol/dealer-gamma mechanics rather than repo or money-market plumbing.",
+      "key_claims": [
+        "Altmann (Barclays): Thursday was the 58th worst day for S&P liquidity in the past 10 years, comparable only to COVID and tariff-shock days",
+        "Altmann: roughly $35bn of levered ETF selling contributed to Friday's selling pressure",
+        "Altmann: financial conditions tightened at the fastest one-month pace since December 2018, nearly matching March 2020",
+        "Market pricing implies a near-certain (effectively >100%, up from ~91% on Friday) probability of a Fed hike at the December 9 FOMC meeting",
+        "Altmann: data center/hyperscaler bond spreads have not tightened despite the equity rebound, underscoring unresolved AI financing concerns",
+        "Altmann: 35% of US household net worth is in stocks and two-thirds of US households own stocks -- the highest equity exposure since the late 1920s"
+      ],
+      "kind": "podcast",
+      "one_liner": "An Odd Lots emergency pod on the AI-trade whiplash (Nvidia sell-off, Jensen Huang firing/rehiring, violent equity rebound) that threads in real rates and credit content: a near-certain Fed hike on Dec 9, fears of Fed overtightening into fragile conditions, and widening spreads on hyperscaler/neocloud debt as the AI financing bottleneck.",
+      "published": "2026-11-24T09:00:00+00:00",
+      "recap": "Tracy Alloway and Joe Weisenthal record an emergency Odd Lots episode with Barclays' Alexander Altmann (global head of equity tactical strategies) to make sense of the AI trade's extreme whiplash: an S&P correction and worst week since Covid last week, followed by a violent rebound after Nvidia's Jensen Huang was reinstated by the board. Altmann attributes the move less to a 'dead cat bounce' narrative and more to a genuine regime shift in volatility, with the VIX spiking near 40 on Friday and Thursday ranking as the 58th-worst S&P liquidity day in a decade, amplified by roughly $35bn of levered ETF selling and dealer short-gamma dynamics around the 7,100 strike. He stresses that the Fed has been an underappreciated driver: financial conditions tightened at the fastest one-month pace since December 2018, with hawkish commentary from Waller, Barr and Hammack, and markets now pricing a near-certain December 9 hike (odds moved from ~91% Friday to over 100% implied). Altmann worries less about whether the Fed hikes and more about whether its messaging is tone-deaf to already-fragile financial conditions\u2014drawing an ironic parallel to Kevin Warsh's 2018 op-ed warning against FOMC overtightening, given Warsh's current prominence. On AI fundamentals, he reiterates Barclays' August bearish thesis centered on financing (data center/hyperscaler bond spreads not tightening, SpaceX's recent bond placement) and uncertain revenue trajectory, arguing neither question has been resolved by Jensen's return. His quant framework has flipped from bearish to tactically bullish given washed-out positioning (vol-control at rock bottom, CTAs short, negative dealer gamma), but he flags the AI financing/credit-spread story as a persistent overhang regardless of near-term price action.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "financial-conditions",
+        "credit-spreads",
+        "AI-financing",
+        "high-yield",
+        "equity-vol",
+        "data-center-bonds"
+      ],
+      "terms": [
+        "VIX -- the CBOE index measuring implied S&P 500 volatility from options prices",
+        "CTA -- commodity trading advisor, a systematic trend-following fund",
+        "dealer gamma -- a measure of how options dealers' hedging flows amplify or dampen market moves as prices change"
+      ],
+      "tier": "plumbing",
+      "title": "What Jensen Huang's Stunning Return Means for the AI Trade",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/e1cd0e3e-9e03-40db-bc4b-b50b0165eab4/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+      "watch": [
+        "December 9 FOMC decision and messaging on further tightening of financial conditions",
+        "Spread behavior on hyperscaler/data-center and neocloud high-yield bond issuance (e.g., SpaceX's recent placement) as an AI-financing stress gauge",
+        "Whether AI-related credit spread widening resumes or persists even if equities keep rebounding"
+      ]
+    },
     "e1d94eaf-8dc6-4845-9200-b4fe008a34ca": {
       "feed_name": "Asia Centric",
       "implications": "Background, not actionable -- pure consumer electronics/equities content with no repo, funding, rates, or credit angle relevant to this trader's book.",
