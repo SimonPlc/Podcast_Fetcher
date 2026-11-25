@@ -1,5 +1,51 @@
 {
   "queued": {
+    "62c63a5c-e882-11f1-9238-a3575f438264": {
+      "feed_name": "Forward Guidance",
+      "implications": "Background, not actionable for repo/financing desks directly, though the CDS-blowout-at-5.3% 10yr and sovereign debt crowding-out narrative, plus the Fed-credibility/front-end-vol discussion, are worth filing as sentiment color for rates and credit risk premia.",
+      "key_claims": [
+        "Jim: forecasts a 25-40% equity decline starting after the midterms, likely before February, completed between March and June",
+        "Jim: CDS 'started exploding' in October when the 10-year yield hit roughly 5.3-5.4%",
+        "Jim: hyperscalers pledged roughly $500bn, $400bn and $600bn in capex commitments in a meeting with Trump",
+        "Jim: December OPEX is being described as the largest options expiration ever, driving heavy index-level vol compression",
+        "Jim: in the 2015-16 cycle the market fell 13% further after vol/skew had already compressed, versus a 9% peak-to-trough move during the initial 2015 vol explosion",
+        "Jim: 10-year yield target range of roughly 3.8-3.9% on the downside with a possible move back to 5.5-6%",
+        "Noel: recommends buying VIX put spreads/ratios on a view that elevated vol (around 40) fades over the next 40-50 days, explicitly distinguishing this from 'buying the dip'"
+      ],
+      "kind": "podcast",
+      "one_liner": "A macro/vol hedge-fund duo lay out a 'three-legged stool' thesis (flows, macro, activist-administration incentives) for a post-midterm equity correction, touching Fed credibility, debt rollover and CDS/HY stress along the way, but the core content is equity-options market structure and dispersion trading rather than repo or rates plumbing.",
+      "published": "2026-11-25T11:00:00+00:00",
+      "recap": "Macro strategist Jim and vol/market-structure trader Noel (ex-Susquehanna floor trader, early GETCO backer) discuss their new partnership and a joint thesis: markets are governed by a 'three-legged stool' of structural options/flow positioning, macro fundamentals, and an unusually proactive administration's incentives. Jim argues the AI capex boom has been the sole pillar holding up an otherwise rolling-over economy, financed by massive hyperscaler debt issuance that is now crowding out sovereign debt; he cites CDS blowing out once the 10-year hit 5.3-5.4%, plus a wave of 2021 zero-rate debt needing refinancing. He expects the administration's incentive to support markets fades post-midterms, favoring a Fed-driven crisis/QE eventually, forecasting a 25-40% equity decline between February and June, likely as a grinding 'stair-step' lower rather than a correlation-to-one crash, given still-supportive year-end options flows (December OPEX) and heavy vol-compression/skew. They debate Fed credibility: Waller's floated 50bp hike is framed as 'Kabuki Theater' to preserve independence before an eventual dovish U-turn. They discuss curve dynamics (sticky long end despite rollover, volatile front end), trade ideas (VIX put spreads, gold calls/sell oil puts, steepener logic), and historical vol-compression-into-decline analogs (2015-16, 2018, 2022) warning that low realized vol during declines often precedes sharper drops. Much of the conversation centers on options/dispersion mechanics and reading dealer positioning.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "Fed",
+        "rates",
+        "credit",
+        "CDS",
+        "high-yield",
+        "vol",
+        "dispersion",
+        "gold",
+        "oil",
+        "macro"
+      ],
+      "terms": [
+        "CDS -- credit default swap, a derivative providing protection against issuer default",
+        "OIS -- overnight index swap, used to derive risk-free short-term rate benchmarks",
+        "Vega -- an option's sensitivity to changes in implied volatility",
+        "Skew -- the difference in implied volatility across option strikes, reflecting relative demand for puts vs calls"
+      ],
+      "tier": "macro",
+      "title": "Washington Wants The Market Even Lower | Weekly Roundup",
+      "url": "https://traffic.megaphone.fm/BWG9628485387.mp3",
+      "watch": [
+        "Whether 10yr yields revisit the 5.3-5.4% level cited as the CDS stress trigger",
+        "Fed's actual move at the next meeting versus the floated 50bp hike framed as 'credibility theater'",
+        "Front-end rate vol/OIS pricing swings as hike/cut expectations whipsaw",
+        "Hyperscaler debt issuance pace and any crowding-out effect on Treasury auctions"
+      ]
+    },
     "e75e7439-30b7-4f25-b547-f9935b72ae5e": {
       "feed_name": "Top Traders Unplugged",
       "implications": "The argument that AI-capex borrowing (not fiscal panic) is driving long-end supply is relevant background for anyone pricing Treasury term premium and hyperscaler/IG credit issuance, and the Meta 30-year yield mention is a small but concrete credit data point; otherwise this is macro-philosophy and equity-vol implementation with no direct repo/funding or central-bank balance-sheet content.",
