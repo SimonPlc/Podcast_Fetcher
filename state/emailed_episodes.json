@@ -1223,6 +1223,32 @@
       "title": "SI420: The Market Might Be More Fragile Than It Looks ft. Cem Karsan",
       "url": "https://episodes.captivate.fm/episode/2fa3defe-6e87-4c4e-bc49-ca770325e8ca.mp3"
     },
+    "30d4bc25-00d8-441f-a418-b50d0038546c": {
+      "feed_name": "Asia Centric",
+      "implications": "background, not actionable -- this is a consumer/SME payments and fintech infrastructure story with no repo, funding, rates, or credit content relevant to the reader's book.",
+      "key_claims": [
+        "Ant International raised a $2 billion Series A round to fund expansion into the Middle East and Latin America, per Fagan",
+        "Ant International's Alipay+ gateway connects over 50 e-wallet/digital-bank partners representing roughly 2 billion consumer accounts to 150 million merchants worldwide, per Fagan",
+        "Antom provides merchant access to over 300 payment methods across more than 200 markets, per Fagan"
+      ],
+      "kind": "podcast",
+      "one_liner": "A corporate interview on Ant International's cross-border payments and digital wallet business has no bearing on repo, rates, or credit markets.",
+      "published": "2026-11-25T21:05:00+00:00",
+      "recap": "Bloomberg Intelligence's Asia Centric podcast interviews Douglas Fagan, president of Ant International, the Singapore-headquartered cross-border payments spinoff of China's Ant Group (distinct from the domestic Alipay super-app). Fagan describes four business lines: Antom, a global merchant-acquiring platform supporting 300+ payment methods across 200 markets; Alipay+, a wallet gateway connecting over 50 e-wallet and digital-bank partners (2 billion consumer accounts) so travelers can pay at 150 million merchants via QR code or the newer NFC tap-to-pay; WorldFirst, a multi-currency account and FX/treasury service for SMEs; and Better, an embedded-finance/lending arm that uses alternative data (order flow, fulfillment history) to extend working-capital credit to small merchants. Much of the conversation covers agentic commerce: Ant International's Agentic Mobile Protocol (AMP) and Know Your Agent (KYA) framework, built in cooperation with Visa and Mastercard, aim to let digital wallets safely authorize AI agents to make purchases, starting with repeatable buys (groceries) and complex ones (travel). Fagan also discusses the company's regulatory strategy of taking minority stakes in local wallets (Kakao Pay, GCash, TrueMoney) to navigate KYC/KYB and data-localization rules market by market, and notes a recent $2 billion Series A round funding geographic expansion into the Middle East and Latin America.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "payments",
+        "fintech",
+        "FX",
+        "off-topic"
+      ],
+      "terms": [],
+      "tier": "asia",
+      "title": "Inside Ant International's Global Growth Plan",
+      "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/992d604b-06ca-40cb-88b2-af6c016f5aa0/30d4bc25-00d8-441f-a418-b50d0038546c/audio.mp3?utm_source=Podcast&in_playlist=75a9f17c-2ff1-42c9-9a27-af6c016fae89",
+      "watch": []
+    },
     "30df4538-b2fe-11f1-a223-33e58f5060aa": {
       "feed_name": "Forward Guidance",
       "kind": "podcast",
@@ -1351,6 +1377,35 @@
       "tier": "credit",
       "title": "What's the Concern?",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/3185c85c-664e-438d-90c4-b4c20100cec0/audio.mp3?utm_source=Podcast&in_playlist=77e6a3a7-290d-4a82-8164-b14001353ef2",
+      "watch": []
+    },
+    "3317821e-e90b-11f1-a6f8-4376cd5aa7be": {
+      "feed_name": "Monetary Matters",
+      "implications": "Background, not actionable for a repo/credit book: the only passing financing reference is that tighter US data-center GPU licensing rules could make financing harder and slow approvals for Southeast Asian data-center buildouts, but there is no repo, rates, or credit-market content here.",
+      "key_claims": [
+        "Tay: Fonda's enterprise surveys found planned 2027 AI spend growth running below market/frontier-lab revenue expectations, prompting a cautious call months ago.",
+        "Tay: Anthropic's quarter-over-quarter revenue growth slowed from very high levels to a little above 40% QoQ from Q3 to Q2 (as cited by Farley), still high but below spring expectations.",
+        "Tay: memory and substrates are the two tightest bottlenecks in the current AI hardware supply chain, alongside CPUs.",
+        "Tay: Chinese investors turned bearish on the AI supply chain earliest, followed by the rest of Asia, then New York, with the Bay Area last \u2014 partly due to earlier visibility into NAND (early 2025) and laser component shortages (November 2025).",
+        "Tay: a new US rule tightening GPU access/licensing could restrict compute in third-country data centers (e.g., Malaysia, Singapore) serving Chinese labs, complicating financing and slowing approvals for Southeast Asian data-center buildouts."
+      ],
+      "kind": "podcast",
+      "one_liner": "A discussion of AI enterprise-adoption surveys, token pricing, and semiconductor supply chains has almost no bearing on repo, funding, rates, or credit markets.",
+      "published": "2026-11-25T20:02:00+00:00",
+      "recap": "Jack Farley interviews Kenneth Tay, Head of Content at Fonda, a research shop with ~20 analysts tracking AI adoption. Tay explains Fonda turned cautious on AI months ago after surveys of enterprises' actual and planned AI spend through 2027 came in below what markets and frontier labs were pricing in. He attributes this to a surge in demand for 'forward deployed engineers,' which signals enterprises are struggling to operationalize AI (compliance, reliability) outside of coding use cases, where venture-backed startups drove explosive 2026 growth. He expects an 'air pocket' in 2027 demand even though he remains structurally bullish long term. He flags cybersecurity vendors (CrowdStrike, Palo Alto) as AI beneficiaries rather than disruption targets, and highlights physical AI as a growth area Fonda is now covering in both the US and China. On token economics, he expects prices to keep falling as compute efficiency improves, tempered somewhat by competition from open-weight (Chinese) models. He notes Asian investors (China first, spreading to the rest of Asia) turned bearish on the AI supply chain before the US did, partly from earlier visibility into NAND and laser component shortages. He identifies memory and substrates as the tightest bottlenecks in the hardware supply chain, and flags a new US rule tightening GPU re-export/licensing for data centers in third countries (e.g., Malaysia, Singapore) that lease compute to Chinese labs, which could complicate financing and slow data-center buildout approvals in Southeast Asia.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "AI",
+        "semiconductors",
+        "equities",
+        "capex",
+        "data-centers"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "\u201cAir Pocket for AI Demand in 2027\u201d | Funda.AI\u2019s Kenneth Tay on Near-Term Headwinds for Enterprise AI Demand (Recorded at TomorrowX Summit)",
+      "url": "https://traffic.megaphone.fm/EWWMN1884537645.mp3",
       "watch": []
     },
     "347f3cb2-0047-4bc7-9907-5ac24e43affa": {
