@@ -784,6 +784,15 @@
       "url": "https://episodes.captivate.fm/episode/1d1489fb-454f-49ce-ab59-e6770c6833aa.mp3",
       "watch": []
     },
+    "1d415c9a-1247-4cd0-9bbd-b50d00fc0d52": {
+      "feed_name": "The Credit Edge",
+      "kind": "podcast",
+      "published": "2026-11-25T15:25:00+00:00",
+      "status": "failed",
+      "tier": "credit",
+      "title": "DoubleLine Turns AI Debt Bull From Bear After Selloff Made it Cheaper",
+      "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/e74a35e9-c028-4e5f-a3f7-afb10164a717/1d415c9a-1247-4cd0-9bbd-b50d00fc0d52/audio.mp3?utm_source=Podcast&in_playlist=8792a2e9-d66c-4038-a1fe-afb101654894"
+    },
     "1d6b25de-882c-40fe-98d0-c80b0419f819": {
       "feed_name": "Cloud 9fin",
       "kind": "podcast",
@@ -5421,6 +5430,41 @@
       "watch": [
         "Further STEP label growth/ECB collateral framework updates",
         "Any move toward standardizing European CP settlement infrastructure (ISIN generation, denominations)"
+      ]
+    },
+    "ICMA.podbean.com/b563f771-b80b-3e42-ab36-fad559447398": {
+      "feed_name": "ICMA Podcast",
+      "implications": "Background, not actionable -- this is market-structure education on CP documentation, clearing and legal fragmentation rather than a pricing or funding catalyst, though the STEP/Eurosystem collateral-eligibility point is a minor read-through for which paper counts as eligible collateral.",
+      "key_claims": [
+        "Chen: the European CP market taken as a whole is broadly comparable in size to the US CP market",
+        "Chen: STEP-labeled paper is recognized by the Eurosystem for collateral eligibility purposes",
+        "Chapman: the European CP market has shifted from being London-centric to roughly 50-50 with the rest of Europe since Brexit"
+      ],
+      "kind": "podcast",
+      "one_liner": "A structural overview of global/European CP market fragmentation and the STEP label -- useful background on funding plumbing but not a catalyst for repo/rates positioning.",
+      "published": "2026-11-25T17:46:30+00:00",
+      "recap": "ICMA's Katie Kelly hosts three market practitioners -- Giles Chapman (ABN AMRO), Jean-Louis Sherman (European Money Market Institute), and Serae Chen (Linklaters) -- to map the global commercial paper landscape. Chen explains that CP is not one market but many: USCP, the largest, benefits from a single currency, settlement system and legal regime under SEC exemptions; ECP (Euro Commercial Paper) is the dominant international European segment, typically English law, multi-currency, cleared via Euroclear/Clearstream; French New CP operates under Bank of France oversight with standardized reporting; and smaller domestic markets exist in Belgium (X/N clearing, withholding tax exemptions), Germany (issuers mostly use ECP instead), Italy (Euronext Securities Milan) and Spain (promissory notes). Chapman notes investors are largely indifferent to governing law as long as it's a recognized jurisdiction, and that the euro and Brexit have blurred old national distinctions, shifting some issuance back toward continental markets. Sherman describes STEP, ICMA's harmonization label that standardizes disclosure and documentation across jurisdictions without eliminating national frameworks, and notes STEP-labeled paper is Eurosystem collateral-eligible. Chen and Chapman identify three cross-border frictions: fragmented documentation across programs, proliferating selling restrictions, and divergent withholding tax treatment, often addressed via finance-subsidiary structuring. On settlement mechanics, Chapman flags denomination mismatches and ISIN/clearing-system frictions (e.g., Euroclear France vs. Kassenverein) as the biggest practical pain points. Looking ahead, Chapman is skeptical DLT/tokenization will meaningfully change CP in five years; Sherman is more open to tokenization eventually becoming STEP-eligible; Chen expects continued growth in sustainability-linked and use-of-proceeds CP issuance.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "commercial paper",
+        "ECP",
+        "STEP",
+        "money markets",
+        "funding",
+        "securitization law"
+      ],
+      "terms": [
+        "STEP -- Short-Term European Paper, an ICMA-promoted label that standardizes disclosure/documentation across European CP programs and is recognized by the Eurosystem for collateral eligibility",
+        "ECP -- Euro Commercial Paper, the international, typically English-law, multi-currency European CP market cleared via Euroclear/Clearstream",
+        "New CP -- the French domestic commercial paper market regulated under French law with Bank of France oversight"
+      ],
+      "tier": "plumbing",
+      "title": "Commercial paper: Comparing markets, cross border issuance and standardisation",
+      "url": "https://mcdn.podbean.com/mf/web/eea36tih84agppyh/CP_podcast_3_-_Comparing_markets_cross_border_issuance_and_standardisation_7pfhd.mp3",
+      "watch": [
+        "Whether STEP eligibility criteria extend to tokenized/DLT-based CP issuance",
+        "Growth of sustainability-linked and use-of-proceeds CP programs as a share of issuance"
       ]
     },
     "ICMA.podbean.com/d02bff17-7562-3d3d-8e56-06107427353a": {
