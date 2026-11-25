@@ -7319,6 +7319,43 @@
       "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD3905636252.mp3",
       "watch": []
     },
+    "e75e7439-30b7-4f25-b547-f9935b72ae5e": {
+      "feed_name": "Top Traders Unplugged",
+      "implications": "The argument that AI-capex borrowing (not fiscal panic) is driving long-end supply is relevant background for anyone pricing Treasury term premium and hyperscaler/IG credit issuance, and the Meta 30-year yield mention is a small but concrete credit data point; otherwise this is macro-philosophy and equity-vol implementation with no direct repo/funding or central-bank balance-sheet content.",
+      "key_claims": [
+        "Roubini: AI/tech innovation could raise US potential growth from ~2% to 4% by end of this decade, and to 6% by 2040 and 10% by 2050 under AGI",
+        "Roubini: tariffs cost roughly 50bps of growth versus a 200bps+ boost from technology",
+        "Roubini: expects nominal 10-year yields near 5% by decade's end, but with real rates ~3.5% and inflation ~1%, versus a more even split previously",
+        "Hank Paulson (cited by Brown): warned in April of a coming Treasury crisis requiring a backstop facility for the long end of the curve",
+        "Brown: Meta's 30-year corporate bonds yield about 7.5%",
+        "Brown: Boom & Bust returned ~28% in a prior year and over 100% in 2020 using options/volatility signals while holding roughly 50% cash"
+      ],
+      "kind": "podcast",
+      "one_liner": "Roubini and his partner David Brown argue AI-driven productivity growth will keep real rates elevated but inflation contained, with Treasury supply absorbed by private savings rather than causing a funding crisis \u2014 a relevant frame for the long end even though the episode is mostly macro philosophy and equity-options implementation, not money-market plumbing.",
+      "published": "2026-11-25T05:00:00+00:00",
+      "recap": "Nouriel Roubini (ex-\"Dr. Doom,\" now self-styled \"Dr. Boom\") and his Boom & Bust partner David Brown discuss how AI-driven technological innovation is, in Roubini's view, a first-order force that outweighs second-order risks like tariffs, geopolitics, and populism. He argues AI could lift US potential growth from ~2% to 4% by decade's end and much higher by 2040-50, funding redistribution to address rising inequality. Brown pushes back, framing the last 40 years as an unprecedented supply-side/low-rate boom now colliding with populism, deglobalization, and fiscal largesse \u2014 forces historically associated with structurally higher rates (citing 1970s inflation drivers). On rates specifically, Roubini argues nominal 10-year yields could stay near current levels by 2030, but the composition will shift: lower inflation offset by higher real rates driven by productivity-led growth, not fiscal distress. He dismisses Hank Paulson's \"Treasury crisis\" warning, arguing US yields are rising because of AI capex-driven private borrowing (a desirable, growth-driven dynamic) rather than inflation or fiscal panic, and that ample global private savings and equity financing will absorb issuance alongside hyperscaler debt-funded capex. He flags Meta's 30-year bonds yielding 7.5% as attractive given the durability of AI infrastructure. The conversation then shifts to David Brown's quantitative approach: using mean-reversion/standard-deviation signals plus Roubini's macro calls to time options (buying puts/gamma ahead of volatility clusters, e.g., February 2020) and portfolio sizing/cash discipline (~50% cash, selective leverage into selloffs).",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "rates",
+        "Treasury supply",
+        "Fed",
+        "fiscal deficit",
+        "AI capex",
+        "credit spreads",
+        "macro",
+        "volatility"
+      ],
+      "terms": [],
+      "tier": "quant",
+      "title": "UGO14: Dr. Doom Has Become Dr. Boom ft. Nouriel Roubini & David Brown",
+      "url": "https://episodes.captivate.fm/episode/e75e7439-30b7-4f25-b547-f9935b72ae5e.mp3",
+      "watch": [
+        "Hyperscaler debt issuance volumes and spreads as capex shifts from cash to bond financing",
+        "Whether 10-year Treasury yields hold near 4-5% with falling inflation but rising real rates as Roubini predicts",
+        "2028 presidential positioning and whether populist policy (tariffs, industrial policy) pushes fiscal/rate dynamics away from his base case"
+      ]
+    },
     "e7c52b24-a236-11f1-8bb8-cb2037ec9015": {
       "feed_name": "Goldman Sachs Exchanges",
       "implications": "Background, not actionable for repo/rates books; the only financing-relevant thread is the buildout of utility and IPP debt/equity issuance to fund data center capex, which could add to IG credit supply and is worth noting for anyone tracking utility-sector spreads, but there is no repo, funding, or rates policy content here.",
