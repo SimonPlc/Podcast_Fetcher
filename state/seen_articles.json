@@ -30,6 +30,9 @@
     "18a512a3d14446ac45ca69bad4286866d2e310f4c50883de58f89b9929d4d245": {
       "feed_name": "Bank Policy Institute"
     },
+    "19a843ce5e839879a361d271ed07606b551a2aa87054a19e17807d504aad71fc": {
+      "feed_name": "NY Fed Liberty Street Economics"
+    },
     "1a590a2b62dc54dd256744cfe4761a1e2b5fad108158f727885dcb4e3b05eeb8": {
       "feed_name": "Bank Policy Institute"
     },
@@ -87,6 +90,9 @@
     "59929ca01c270976c1c0cc8f63184a2e6b75b150f341a96726bfd745ea7b2f23": {
       "feed_name": "Net Interest"
     },
+    "5df24c3aebd09c37c6279a5dad62a0576a7c6dbf6f106d6dabcf5addaea7b5fd": {
+      "feed_name": "Net Interest"
+    },
     "63033a888f7754682c1fba60796571225b0c72fd584a742feb8038eb1f6ab962": {
       "feed_name": "Fed FEDS Notes"
     },
@@ -135,6 +141,9 @@
     "9744bea736ca48429395ae3bafcd270545d8140c24ec7f9f7fc70c48a2c70509": {
       "feed_name": "Bank Policy Institute"
     },
+    "9c6cce87d216c4b1f0296cf29405e69cc034b587fd49511d20d28a8e3568e9f9": {
+      "feed_name": "NY Fed Liberty Street Economics"
+    },
     "9d2b8087d461427cf414247387fbbdacc9ea6b71f11e1600a97e92ec9bf3f208": {
       "feed_name": "Bank Policy Institute"
     },
@@ -165,8 +174,14 @@
     "ccf64cc27333a1c0899fd5d33942db8e9d8cd48054c6773d83d386704f3b7ec2": {
       "feed_name": "Bank Policy Institute"
     },
+    "d2b1e1fec49c237f53efc910235dc665f189e27ed173d1f25bbef3c8113faf68": {
+      "feed_name": "Bank Policy Institute"
+    },
     "da3be26cb090e9a1d4bfd871e9a8fd1ccadf994e8095f3ccbd5d16d61c4d1897": {
       "feed_name": "BoE Bank Underground"
+    },
+    "da54438c2a1bf04fc2c35c6c88a151c3d22766fc1ea9e48913f4842cff7e3e79": {
+      "feed_name": "BIS working papers"
     },
     "db22358883c6d5543baceaecc0caa069c5ea028412cccec3600cecc1fcdf427c": {
       "feed_name": "Fed FEDS Notes"
