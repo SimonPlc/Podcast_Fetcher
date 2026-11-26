@@ -4174,6 +4174,74 @@
       "url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6b05eb5dced26bb723221a46/media.mp3",
       "watch": []
     },
+    "6b088ca2c356f28bdbe8b8a6": {
+      "feed_name": "Under the Banyan Tree",
+      "implications": "Background, not actionable for a repo/financing desk \u2014 the funding-cost and CDS-spread references are generic equity-market color on AI-linked corporate credit, not money-market plumbing, rates policy, or structured credit relevant to this book.",
+      "key_claims": [
+        "NVIDIA added over $1 trillion in market cap in a single trading day, with the stock up roughly 31% (Harold/Fred)",
+        "Taiwan's equity market moved about 10% in a single session this week (Harold)",
+        "TSMC, SK Hynix and Samsung together hold over $400 billion in cash now, projected to rise to $600 billion next year, with ~60% of cash flow committed to shareholder payouts (Fred)",
+        "Total equity investment in Korea and Taiwan chip-related names is estimated at about $3 trillion, versus daily trading volumes of only $30 billion in mainland China and $15 billion in India, limiting how much capital could rotate between these markets (Fred)",
+        "The US has closed a loophole that allowed Chinese AI developers to access Nvidia chips indirectly via data centers in Malaysia and Thailand (Harold/Fred)"
+      ],
+      "kind": "podcast",
+      "one_liner": "A macro/equity-focused discussion of AI-stock volatility (NVIDIA, Asian semis) that touches funding costs and CDS spreads only in passing, with no repo/rates/credit content actionable for a financing desk.",
+      "published": "2026-11-26T19:46:41+00:00",
+      "recap": "Harold and Fred discuss the recent extreme volatility in AI-related stocks following NVIDIA CEO Jensen Huang's return, noting unprecedented single-day market-cap moves (NVIDIA added over $1 trillion in one session) and sharp swings in Taiwan and Korea. They argue markets are not 'out of the woods' despite the relief rally, citing three risks to 2027 AI hardware demand: potential US regulatory tightening on data-center buildout post-midterms, tighter export controls on semiconductors to China, and rising financing costs as interest rates climb, making data-center buildouts more expensive. Fred notes credit default swap spreads have widened for some AI-linked companies, signaling investor concern about marginal borrowers' ability to repay, even if large hyperscalers can absorb higher funding costs given expected profits. They discuss rising US 10-year yields making equities less attractive relative to bonds. On Asia specifically, they cover memory-chip makers (TSMC, SK Hynix, Samsung) sitting on huge cash balances with committed shareholder payouts, a US rule change closing a loophole that let Chinese AI developers use Nvidia chips via data centers in Malaysia/Thailand, and how this both hurts Chinese AI firms' chip access while incentivizing China's domestic chip development. They close noting the scale of capital invested in Korea/Taiwan equities ($3 trillion) dwarfs the daily trading capacity of Chinese/Indian markets, meaning any rotation out would be slow and volatile.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "AI capex",
+        "equities",
+        "CDS",
+        "credit spreads",
+        "China tech"
+      ],
+      "terms": [
+        "CDS -- credit default swap, a derivative that insures against or speculates on a borrower's default risk"
+      ],
+      "tier": "asia",
+      "title": "More AI volatility to come?",
+      "url": "https://sphinx.acast.com/p/open/s/64db93c01796c400110e0ce3/e/6b088ca2c356f28bdbe8b8a6/media.mp3",
+      "watch": [
+        "Whether widening CDS spreads on AI/data-center-linked issuers develop into a broader leveraged-finance or private-credit concern",
+        "US regulatory decisions on chip exports and data-center buildout post-midterms",
+        "Further rotation flows out of Korea/Taiwan equities and their market-structure impact"
+      ]
+    },
+    "6b08925e28826f4c5b6186ae": {
+      "feed_name": "Unhedged",
+      "implications": "Background, not actionable -- this is retail/institutional equity-allocation commentary with no discussion of repo, funding markets, collateral, SOFR/OIS, central bank balance sheets, or credit/structured credit, so it has little direct bearing on a repo/financing book beyond general market-sentiment color.",
+      "key_claims": [
+        "Nangle: the S&P equal-weight index is up 16% over the past year versus the Nasdaq's 3%.",
+        "Martin: the S&P 500 is up a little under 5% YTD while the FTSE 100 is up about 6.7% YTD.",
+        "Gold is around $3,500/oz, down about a third from its January peak, per the hosts.",
+        "An OMFIF-quoted central bank reserve manager said gold is hard to manage because 'nobody knows why the price moves.'",
+        "Nangle notes Bitcoin has more than halved since its peak, after some UK pension consultants and BlackRock guidance suggested 1-5% allocations."
+      ],
+      "kind": "podcast",
+      "one_liner": "A light, equity-market-focused FT Unhedged chat on the tech-stock wobble, gold's slump, and diversification lessons -- interesting context but almost nothing on repo, funding, credit, or rates policy.",
+      "published": "2026-11-26T21:00:00+00:00",
+      "recap": "Katie Martin and FT Alphaville's Toby Nangle discuss the sharp reversal in the long-dominant US tech trade, with trillions wiped off markets and the UK's FTSE 100 (up ~6.7% YTD) outperforming the market-cap-weighted S&P 500 (up under 5%, helped by banks, pharma and energy). They cover a story about UK pension trustees firing fund managers for under-allocating to US tech, which Nangle frames as a mandate-design problem: managers are judged against market-cap-weighted benchmarks already heavy in tech, so 'overweighting' tech further just concentrates risk into names like Nvidia and Meta. They note the S&P equal-weight index is up 16% versus the Nasdaq's 3%, illustrating how concentration risk has hurt cap-weighted benchmarks. The conversation turns to diversification: gold, traditionally a safe haven, is instead down about a third from its January peak (~$3,500/oz), with an OMFIF central-bank reserve manager quoted admitting nobody really understands why gold's price moves despite central banks piling into it. Bitcoin is dismissed by Nangle as 'the original meme coin,' with concern that pension consultants and BlackRock guidance pushed small allocations (sometimes 5%) into it near its peak, since which it has more than halved. They close reaffirming Markowitz's diversification principle and the standard 'time in the market, not timing the market' discipline, and briefly explain the UK market's defensive, non-tech composition as the reason for its relative strength.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "equities",
+        "gold",
+        "diversification",
+        "fund-management",
+        "tech-selloff",
+        "Bitcoin"
+      ],
+      "terms": [
+        "IMA -- Investment Management Agreement, the contract setting a fund manager's mandate and risk limits",
+        "OMFIF -- Official Monetary and Financial Institutions Forum, a think tank focused on central banking and financial policy"
+      ],
+      "tier": "credit",
+      "title": "What's a fund manager to do?",
+      "url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6b08925e28826f4c5b6186ae/media.mp3",
+      "watch": []
+    },
     "6c3646fe-afa0-45cf-8682-b500015998ac": {
       "feed_name": "Odd Lots",
       "implications": "Background, not actionable -- this is a legal-industry structural story with no money-market, rates, or credit market relevance for the reader's book.",
