@@ -1589,6 +1589,43 @@
       "title": "There's a Mind-Boggling Number of Rich People in America",
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/3715cbfc-b4cf-4840-bf1b-b4c8010bc9bb/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83"
     },
+    "386b6eab-9784-4ed4-b005-64d1ba2f79a2": {
+      "feed_name": "Eurodollar University",
+      "implications": "Mostly macro background rather than a financing catalyst: for a rates desk it reinforces a bearish-growth, dovish-central-bank narrative (ECB/Fed 'resilience' rhetoric being overtaken by weak real-economy data) that could support duration and risk-off credit positioning, but it contains no actionable repo, funding, or credit-instrument detail.",
+      "key_claims": [
+        "Energy Aspects data cited: European diesel demand has been below the corresponding 2020 level in almost every month since the Iran War began",
+        "Germany's diesel consumption fell 10% year-over-year over the first eight months of 2026 (speaker's figure)",
+        "Italy and France saw double-digit year-over-year declines in road diesel consumption last month (speaker's figure)",
+        "Oil fell from near $120/barrel at end of October to roughly $90/barrel earlier this week (speaker's figure)",
+        "Polls published before a five-day blackout reportedly showed Pedro Sanchez's party losing a snap election to a PP/Vox majority"
+      ],
+      "kind": "podcast",
+      "one_liner": "Argues European diesel demand has fallen below 2020 (lockdown-era) levels, reading this as proof the slowdown is driven by demand destruction rather than the Iran War supply shock -- a macro growth-fragility signal relevant to rate-path thinking but with no direct repo, funding, or credit-market content.",
+      "published": "2026-11-26T12:00:00+00:00",
+      "recap": "The host argues that the real story in energy markets isn't supply disruption from the Iran War or attacks on Russian refineries, but a collapse in demand: European diesel consumption is on track to fall below its 2020 pandemic-lockdown level, with Italy and France posting double-digit monthly declines and German consumption down 10% year-over-year over the first eight months of 2026 (citing Energy Aspects). He uses this to explain why oil fell from near $120/barrel in late October to roughly $90 recently -- not the price action of a genuine supply crisis, which would see scarcity drive prices higher, but one where buyers are simply disappearing. He frames this as confirmation of a long-standing 'forgot how to grow' thesis: the global economy, and Europe especially, was never resilient despite surviving the initial energy shock, and the fragility is now surfacing through weak diesel demand, and corroborating weakness in copper, aluminum and tin. He links this economic deterioration to political instability -- an 'eviction cycle' in which incumbents of any ideology get voted out as younger generations face blocked job markets and unaffordable housing -- using Spain's upcoming snap election (Pedro Sanchez trailing PP/Vox in polls after a rejected housing package) as the next expected example, following the US midterms. He closes by tying this to AI/capex investment themes, arguing physical demand data undercuts assumptions of sustained industrial buildout, with a mid-segment ad for a gold-yield product.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "macro",
+        "oil",
+        "commodities",
+        "Europe",
+        "growth",
+        "central-bank",
+        "politics",
+        "recession-risk"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "Europe\u2019s Diesel Demand Is Now LOWER Than During COVID Lockdowns",
+      "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/6fbfa7ad/8b9b79d5.mp3",
+      "watch": [
+        "Spain's snap election outcome (PSOE vs PP/Vox) as a test of the 'eviction cycle' thesis",
+        "Further declines in industrial commodities (copper, aluminum, tin) as a corroborating recession signal",
+        "European diesel/fuel demand trend through year-end for confirmation or reversal",
+        "ECB and Fed commentary on growth 'resilience' versus incoming soft data"
+      ]
+    },
     "38d66de3-60e9-48cd-bb6b-174a2ea86f12": {
       "feed_name": "Eurodollar University",
       "implications": "For an HK financing/repo desk, this reinforces that offshore dollar funding remains structurally tight even as DXY looks soft -- a reason to watch cross-currency basis (JPY, PHP, INR) and Treasury/collateral demand from Asian officials rather than reading a weak DXY as an easing in dollar funding conditions; the FIMA repo facility discussion is also directly relevant collateral-financing plumbing to monitor.",
@@ -4879,6 +4916,27 @@
       "tier": "plumbing",
       "title": "ALERT: Did Anthropic Just Pop AI Bubble?",
       "url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/fe9569c7/8850f4d2.mp3"
+    },
+    "84bd57a3-7784-4f39-9716-b50d01106c9e": {
+      "feed_name": "Odd Lots",
+      "implications": "background, not actionable -- a corporate history/logistics piece with no bearing on repo, funding, rates, or credit markets.",
+      "key_claims": [],
+      "kind": "podcast",
+      "one_liner": "A history of UPS founder James Casey and the rise of parcel logistics, with no financing, rates, or credit content whatsoever.",
+      "published": "2026-11-26T09:00:00+00:00",
+      "recap": "This Odd Lots episode features historian Mark Levinson discussing his new book, The UPS Man, about James E. Casey, founder of UPS. The conversation traces the early 20th-century U.S. parcel delivery landscape, when the Postal Service could only carry small items, express companies like Wells Fargo handled larger parcels, and department stores ran their own delivery fleets using horses and wagons. Casey founded a Seattle messenger service in 1907 and pioneered the 'central station' model: consolidating packages from many retailers at a sorting hub rather than running point-to-point deliveries, an organizational rather than technological breakthrough rooted in the era's scientific-management movement. The discussion covers UPS's expansion to Oakland and Los Angeles in the 1920s, the shift from horses to motor trucks, the adoption of brown-liveried vehicles for a respectable brand image, and how UPS used exclusive retailer contracts to lock in customers and build near-monopolies city by city. It also covers UPS's unusual regulatory treatment as a contract (not common) carrier, its culture of promotion-from-within which made it slow to adopt barcoding versus FedEx, its secretive private-company history until its 1999 IPO, and Casey's enigmatic, work-obsessed personality. The episode closes with reflections on UPS's top-down corporate culture and a failed German expansion that didn't translate well.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "off-topic",
+        "logistics",
+        "history"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "Marc Levinson on How UPS Created Modern Logistics",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/84bd57a3-7784-4f39-9716-b50d01106c9e/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+      "watch": []
     },
     "84e5f9f2-bff2-403b-bb41-b4c20134a223": {
       "feed_name": "Odd Lots",
@@ -8747,6 +8805,37 @@
       "tier": "macro",
       "title": "What 10 years of African markets tells us",
       "url": "https://mcdn.podbean.com/mf/web/c46q2kr3fai6ehw2/Absa_10_year_mixdown6k3do.mp3"
+    },
+    "omfif.podbean.com/63a13fbf-a6df-3a04-bdfb-39cbfccebfd1": {
+      "feed_name": "Invested: The OMFIF Podcast",
+      "implications": "Background, not actionable: it's a sweeping historical narrative on reserve-currency status rather than anything bearing on repo/funding spreads, collateral, or credit markets, though the fiscal-sustainability and dollar-dominance themes are worth filing away as slow-moving macro context.",
+      "key_claims": [
+        "Eichengreen: Europe's euro has 'punched below its weight' partly due to a shortage of investment-grade euro-area government bonds and partly due to lack of a common EU defense/security policy.",
+        "Eichengreen: he does not think a significant US defense spending increase or an imminent US fiscal crisis is likely, but worries about longer-term US fiscal sustainability given political polarization.",
+        "Eichengreen: China's capital controls and domestic real estate/banking sector problems will keep Beijing cautious on capital account liberalization, limiting near-term RMB internationalization.",
+        "Eichengreen: he has 'deep doubts' that private stablecoins will gain broad appeal outside illicit transactions or the unbanked, and expects central banks to remain the backstop for monetary stability.",
+        "Eichengreen: central bank reserve portfolios are already diversifying into currencies such as the Australian, Canadian, Korean, Singapore and Nordic currencies, alongside CBDC cross-border payment experiments (Project mBridge, Project Agora)."
+      ],
+      "kind": "podcast",
+      "one_liner": "A historical/narrative discussion of reserve-currency cycles (sterling, dollar, renminbi, euro) that's intellectually interesting background but has little direct bearing on repo, funding, or credit markets.",
+      "published": "2026-11-26T12:22:16+00:00",
+      "recap": "This is the first episode of OMFIF's 'Taking Note' podcast, in which hosts Sarah Maloney and John Orchard interview Barry Eichengreen, a Berkeley economist, about his book 'Money Beyond Borders: Global Currencies from Croesus to Crypto.' The conversation traces the long history of international currencies from ancient Greek and Roman coinage through the Florentine florin, the Dutch guilder, British sterling, and the US dollar, arguing that the 'recipe' for a dominant international currency requires size, economic/political stability, deep liquid markets, and military security to back it. Eichengreen draws parallels between Rome's debasement of the denarius amid military overreach and eroding checks and balances, and current concerns about US fiscal sustainability and institutional erosion under Trump. He argues Europe's underweight role for the euro stems from a shortage of safe AAA government bonds and the lack of an independent European defense capability, though rising European defense spending and German fiscal expansion could change that. On China, he sees a growing but slow-moving international role for the renminbi, constrained by capital controls and domestic financial problems. He is skeptical that private stablecoins can durably replace central-bank-backed money, expecting central banks to remain the backstop of monetary systems, while noting experiments like Project mBridge and Project Agora as alternative cross-border payment rails. He closes by noting the dollar has recovered from past loss of dominance before (1930s) and could again.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "reserve currency",
+        "dollar",
+        "euro",
+        "renminbi",
+        "central banks",
+        "stablecoins",
+        "macro history"
+      ],
+      "terms": [],
+      "tier": "macro",
+      "title": "Barry Eichengreen on Money Beyond Borders",
+      "url": "https://mcdn.podbean.com/mf/web/ue4ffy7sawfkercf/BE_full_mixdown9owmc.mp3",
+      "watch": []
     },
     "omfif.podbean.com/719fc330-4677-3e9b-891b-7e16043ba540": {
       "feed_name": "Invested: The OMFIF Podcast",

@@ -1,3 +1,41 @@
 {
-  "queued": {}
+  "queued": {
+    "386b6eab-9784-4ed4-b005-64d1ba2f79a2": {
+      "feed_name": "Eurodollar University",
+      "implications": "Mostly macro background rather than a financing catalyst: for a rates desk it reinforces a bearish-growth, dovish-central-bank narrative (ECB/Fed 'resilience' rhetoric being overtaken by weak real-economy data) that could support duration and risk-off credit positioning, but it contains no actionable repo, funding, or credit-instrument detail.",
+      "key_claims": [
+        "Energy Aspects data cited: European diesel demand has been below the corresponding 2020 level in almost every month since the Iran War began",
+        "Germany's diesel consumption fell 10% year-over-year over the first eight months of 2026 (speaker's figure)",
+        "Italy and France saw double-digit year-over-year declines in road diesel consumption last month (speaker's figure)",
+        "Oil fell from near $120/barrel at end of October to roughly $90/barrel earlier this week (speaker's figure)",
+        "Polls published before a five-day blackout reportedly showed Pedro Sanchez's party losing a snap election to a PP/Vox majority"
+      ],
+      "kind": "podcast",
+      "one_liner": "Argues European diesel demand has fallen below 2020 (lockdown-era) levels, reading this as proof the slowdown is driven by demand destruction rather than the Iran War supply shock -- a macro growth-fragility signal relevant to rate-path thinking but with no direct repo, funding, or credit-market content.",
+      "published": "2026-11-26T12:00:00+00:00",
+      "recap": "The host argues that the real story in energy markets isn't supply disruption from the Iran War or attacks on Russian refineries, but a collapse in demand: European diesel consumption is on track to fall below its 2020 pandemic-lockdown level, with Italy and France posting double-digit monthly declines and German consumption down 10% year-over-year over the first eight months of 2026 (citing Energy Aspects). He uses this to explain why oil fell from near $120/barrel in late October to roughly $90 recently -- not the price action of a genuine supply crisis, which would see scarcity drive prices higher, but one where buyers are simply disappearing. He frames this as confirmation of a long-standing 'forgot how to grow' thesis: the global economy, and Europe especially, was never resilient despite surviving the initial energy shock, and the fragility is now surfacing through weak diesel demand, and corroborating weakness in copper, aluminum and tin. He links this economic deterioration to political instability -- an 'eviction cycle' in which incumbents of any ideology get voted out as younger generations face blocked job markets and unaffordable housing -- using Spain's upcoming snap election (Pedro Sanchez trailing PP/Vox in polls after a rejected housing package) as the next expected example, following the US midterms. He closes by tying this to AI/capex investment themes, arguing physical demand data undercuts assumptions of sustained industrial buildout, with a mid-segment ad for a gold-yield product.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "macro",
+        "oil",
+        "commodities",
+        "Europe",
+        "growth",
+        "central-bank",
+        "politics",
+        "recession-risk"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "Europe\u2019s Diesel Demand Is Now LOWER Than During COVID Lockdowns",
+      "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/6fbfa7ad/8b9b79d5.mp3",
+      "watch": [
+        "Spain's snap election outcome (PSOE vs PP/Vox) as a test of the 'eviction cycle' thesis",
+        "Further declines in industrial commodities (copper, aluminum, tin) as a corroborating recession signal",
+        "European diesel/fuel demand trend through year-end for confirmation or reversal",
+        "ECB and Fed commentary on growth 'resilience' versus incoming soft data"
+      ]
+    }
+  }
 }
