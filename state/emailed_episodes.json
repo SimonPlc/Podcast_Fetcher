@@ -5365,6 +5365,33 @@
       "title": "How Will Less Fed Transparency Affect Markets and the Economy?",
       "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD2256023879.mp3"
     },
+    "91bb2019-6e52-4581-8b8c-b50c0147aeaf": {
+      "feed_name": "Money Stuff: The Podcast",
+      "implications": "Background, not actionable \u2014 this is a retail-investing/equity-market-structure discussion with no repo, funding, rates, or credit content relevant to a HK bank financing/repo trading desk.",
+      "key_claims": [
+        "Robertson's paper 'Passive in Name Only' (2019) argues index construction involves pervasive discretionary choices, not a standardized process.",
+        "Robertson states roughly one-third of S&P 500 market cap is concentrated in the 'Magnificent Seven' companies; the top 10 holdings make up about 36% of the Vanguard 500 fund's assets.",
+        "Robertson recommends investors pay no more than about 3 basis points in fees for broad-based index funds.",
+        "The SEC's Investor Advisory Committee (on which Robertson now sits) opposed the SEC's proposal to eliminate mandatory quarterly reporting for some/all issuers, which drew hundreds of thousands of public comments."
+      ],
+      "kind": "podcast",
+      "one_liner": "A general-audience explainer on how equity index funds are actually constructed (discretionary, not truly passive) \u2014 interesting for personal finance but has no bearing on repo, rates, or credit markets.",
+      "published": "2026-11-27T14:00:00+00:00",
+      "recap": "This is a crossover episode from Mary Childs' podcast featuring University of Chicago law professor Adriana Robertson, discussing her 2019 paper 'Passive in Name Only: Delegated Management and Index Investing.' Robertson argues that index funds are far less 'passive' than commonly believed: every index (S&P 500, Russell, FTSE, etc.) requires discretionary human decisions about what counts as large-cap vs. small-cap, what counts as domestic, and which companies get added or removed (e.g., S&P's index committee). Index investing simply delegates stock-picking from a portfolio manager to an index provider rather than eliminating the choice. The conversation traces the history of index funds from Jack Bogle and Markowitz's modern portfolio theory, their huge benefit to retail investors via low fees (Robertson recommends not paying more than ~3 basis points), and debates about whether mega-cap concentration (the 'Magnificent Seven' making up roughly a third of the S&P 500) is dangerous, with Robertson relatively unworried since those companies have diversified business lines. They also discuss Robertson's new role on an SEC Investor Advisory Committee, including her views on a proposal to end mandatory quarterly reporting for public companies, where she favors experimentation (e.g., optional detailed disclosures beyond unaudited financials) over a flat yes/no stance. The episode closes with a personal aside on sleep habits.",
+      "score": 1,
+      "status": "ok",
+      "tags": [
+        "index funds",
+        "equities",
+        "market structure",
+        "off-topic"
+      ],
+      "terms": [],
+      "tier": "credit",
+      "title": "Mary in America: Adriana Robertson",
+      "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/91bb2019-6e52-4581-8b8c-b50c0147aeaf/audio.mp3?utm_source=Podcast&in_playlist=77e6a3a7-290d-4a82-8164-b14001353ef2",
+      "watch": []
+    },
     "924d0a40-8d01-4c5e-b43d-b4d7010d938b": {
       "feed_name": "Odd Lots",
       "kind": "podcast",
@@ -5575,6 +5602,43 @@
       "title": "Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
       "url": "https://traffic.megaphone.fm/EWWMN3352251052.mp3",
       "watch": []
+    },
+    "ICMA.podbean.com/21aedf3d-3104-36ad-8011-f5382137f217": {
+      "feed_name": "ICMA Podcast",
+      "implications": "Background, not actionable for repo/funding desks -- the only money-market-adjacent thread is Castelli's warning that a cyberattack on payment or financial-market infrastructure could cascade into liquidity, collateral, or settlement disruption, which is worth filing as a tail-risk scenario rather than a near-term positioning signal; the IG hyperscaler spread-widening comment is a minor credit-market data point.",
+      "key_claims": [
+        "Bob Parker: NASDAQ Computer Index is up only 4% YTD but down 19% from its October 19, 2026 peak.",
+        "Bob Parker: S&P P/E ratio is ~18.5 (down from ~22 earlier in 2026); US tech-sector P/E is now just under 18, cheaper than the broader market.",
+        "Bob Parker: IG hyperscaler credit spreads are now wider than the broader investment-grade credit spread despite IG ratings.",
+        "Bob Parker: Institute for Energy forecasts an average daily oil surplus of ~4 million barrels/day in 2027, versus a ~3 million barrels/day deficit in 2026.",
+        "Bob Parker: Core inflation in the Eurozone and UK is below 3% even as headline inflation runs near 4%.",
+        "Bob Parker: South Korea is the world's cheapest major equity market (P/E ~4) versus US (~18), Eurozone (~14), UK (~12), Japan (~14); China's P/E has fallen to ~9.",
+        "Max Castelli: expects hyperscaler earnings growth near 40% in 2027 even on conservative estimates.",
+        "Max Castelli: flags cyberattacks on payment/financial-market infrastructure as an underestimated risk that could escalate into liquidity, collateral, or settlement disruption."
+      ],
+      "kind": "podcast",
+      "one_liner": "A broad 2027 asset-allocation outlook (inflation, energy, AI valuations, regional equity diversification) with only glancing references to central bank rate moves and credit spreads -- little direct money-market or repo relevance.",
+      "published": "2026-11-27T10:38:30+00:00",
+      "recap": "ICMA's AMIC podcast features Bob Parker and Max Castelli discussing their 2027 outlook, framed as 'constructive but disciplined.' They expect the global economy to stay resilient and inflation to moderate, but argue capital costs will remain structurally higher than pre-pandemic as governments run large deficits and AI infrastructure investment (data centers, power, semiconductors) competes for capital -- framing AI as a macro and energy story, not just tech. Parker details oil-market dynamics: rising Americas production, recovered GCC output, and an Institute for Energy forecast of a 4 million barrel/day surplus in 2027 versus a 3mb/d deficit in 2026, plus a widening gap between headline inflation (~4%) and core inflation (under 3% in Europe/UK). On technology, Parker argues the October-November 2026 NASDAQ correction (down 19% from its October 19 peak) is a correction, not a repeat of the 2000-2003 dot-com bear market, citing stronger hyperscaler earnings and now-cheaper tech valuations (S&P tech P/E near 18, below the market's 18.5); he notes investment-grade hyperscaler credit spreads have widened beyond the broader IG index. Castelli stresses diversification across US, Europe, UK, China, India and other EM, arguing EM is under-owned and economically healthier than assumed. Risks flagged include US political gridlock, a potential Le Pen presidency, AI-bear-case tail risk, and Castelli's concern about cyberattacks on payment/financial-market infrastructure potentially cascading into liquidity, collateral, or settlement disruptions.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "macro",
+        "central-bank",
+        "credit-spreads",
+        "AI",
+        "geopolitics",
+        "asset-allocation"
+      ],
+      "terms": [],
+      "tier": "plumbing",
+      "title": "AMIC market update: ICMA Asset Management & Investors Council, November 2026",
+      "url": "https://mcdn.podbean.com/mf/web/9ne6ziugfv9thak3/AMIC_podcast_Nov_2026_-_final7pz1a.mp3",
+      "watch": [
+        "Whether hyperscaler/AI-related IG credit spreads continue widening relative to the broader IG index",
+        "Pace of Fed/ECB/BoE/BoJ rate moves described as 'modest' further tightening into 2027",
+        "Any concrete incident testing payment/settlement infrastructure resilience"
+      ]
     },
     "ICMA.podbean.com/2ee64b3e-3ce8-3153-9b8e-47d27436a01e": {
       "feed_name": "ICMA Podcast",
