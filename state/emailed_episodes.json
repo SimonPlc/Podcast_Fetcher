@@ -1379,6 +1379,35 @@
       "url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/3185c85c-664e-438d-90c4-b4c20100cec0/audio.mp3?utm_source=Podcast&in_playlist=77e6a3a7-290d-4a82-8164-b14001353ef2",
       "watch": []
     },
+    "33032ac5-8420-4e54-bc38-7402d5c3195b": {
+      "feed_name": "Top Traders Unplugged",
+      "implications": "Background, not actionable for a repo/credit book \u2014 the content is about systematic equity/trend strategy construction and CTA performance attribution, with only indirect relevance via the equity-bond correlation and inflation-regime discussion that touches rates positioning more broadly.",
+      "key_claims": [
+        "SocGen Trend Index down 2.63% in November but up 11.4% YTD; SocGen CTA Index down 2.66%, up ~11% YTD (hosts' figures).",
+        "US equity-bond return correlation moved from roughly -42% in the 2010s to about +28% in the 2020s (per the Quantica paper, as cited by the guest).",
+        "Over the last 35 years, US equity outperformance of ~4.7%/year broke down to ~3.8 points from valuation expansion versus ~1.1 points from earnings growth, per the AQR/CFA Institute return-expectations paper.",
+        "About half of S&P 500 constituents currently show negative beta to the index, per a chart cited by the guest."
+      ],
+      "kind": "podcast",
+      "one_liner": "A trend-following/CTA performance and portfolio-construction discussion (crowding, bond-equity correlation, inflation hedging) that's background macro color rather than anything touching repo, funding, or credit directly.",
+      "published": "2026-11-28T05:00:00+00:00",
+      "recap": "This Systematic Investor Series episode (Top Traders Unplugged) covers CTA/trend-following performance and portfolio theory rather than financing markets. The hosts review November performance: trend indices down roughly 2.6-2.9% month-to-date but still up 10-11% for 2026, driven mainly by reversals in energy trends and long-equity exposure unwinding after a sharp equity selloff (S&P down over 10% from highs) and VIX spikes. They discuss dispersion dynamics, noting about half of S&P names now have negative beta to the index, and debate whether the selloff resembles April 2025's V-shaped 'Liberation Day' dip or the start of a bigger bear market. A listener question prompts a discussion of 'crowding' and excess co-movement in momentum/divergent trades versus convergent trades like value, with the guest arguing leverage plus a macro shock (not leverage alone) drives crashes in cross-sectional momentum, though this applies less to trend-following's directional, vol-targeted design. Two research papers get summarized: an AQR/CFA Institute paper on objective (valuation-based, contrarian) versus subjective (extrapolative) return expectations; a Quantica paper showing bonds hedged equity drawdowns well in the 2010s but poorly since 2020, while trend-following did the opposite, tied to the end of central-bank 'Fed put' certainty; and a preview of an AQR inflation paper on how growth versus inflation shocks drive equity-bond correlation (negative versus positive, respectively), currently near 50-60 year highs.",
+      "score": 2,
+      "status": "ok",
+      "tags": [
+        "CTA",
+        "trend-following",
+        "bond-equity correlation",
+        "inflation",
+        "portfolio construction",
+        "quant"
+      ],
+      "terms": [],
+      "tier": "quant",
+      "title": "SI428: When Bonds Stop Protecting Your Portfolio ft. Nick Baltas",
+      "url": "https://episodes.captivate.fm/episode/33032ac5-8420-4e54-bc38-7402d5c3195b.mp3",
+      "watch": []
+    },
     "3317821e-e90b-11f1-a6f8-4376cd5aa7be": {
       "feed_name": "Monetary Matters",
       "implications": "Background, not actionable for a repo/credit book: the only passing financing reference is that tighter US data-center GPU licensing rules could make financing harder and slow approvals for Southeast Asian data-center buildouts, but there is no repo, rates, or credit-market content here.",
