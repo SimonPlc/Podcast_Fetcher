@@ -1,3 +1,87 @@
 {
-  "queued": {}
+  "queued": {
+    "24d835eb-811c-4827-8fd8-0e2869eaf812": {
+      "feed_name": "The Julia La Roche Show",
+      "implications": "The SOMA reinvestment detail and the 10yr-yield call (5-5.5%) are useful background for a rates desk, and the AGNC/Annaly repo-leverage mechanics are a decent refresher on MBS repo funding, but there is no actionable credit, CLO, or CDS content here -- treat as background context, not a catalyst for positioning.",
+      "key_claims": [
+        "Whalen: the Fed is keeping SOMA roughly stable, reinvesting maturing Treasury proceeds into more Treasuries and letting MBS roll off into Treasury bills rather than growing the balance sheet",
+        "Whalen: expects the 10-year yield to rise toward 5-5.5%, widening the spread to 30-year mortgage rates",
+        "Whalen: Annaly carries credit exposure (loans, MSRs) beyond rate risk, unlike AGNC's pure rate-hedged MBS book",
+        "Whalen: AGNC/mortgage REITs use the repo market to lever their MBS portfolios (cited at 7-8x leverage for Annaly-type vehicles)",
+        "Whalen: prime NYC commercial rents have reached roughly $300/sq ft, up from a prior $200 benchmark"
+      ],
+      "kind": "podcast",
+      "one_liner": "A retail-oriented Q&A hits a few points relevant to the desk -- Fed SOMA reinvestment mechanics, a 10yr yield call, and mortgage-REIT repo/leverage mechanics -- but is mostly gold, housing and book-promotion chatter with no credit/CLO content.",
+      "published": "2026-11-28T11:00:00+00:00",
+      "recap": "Chris Whalen's Thanksgiving Q&A episode of The Wrap fields viewer questions across the Fed, gold, housing and mortgage REITs. On the Fed, Whalen says rate hikes are partly symbolic given a $2 trillion deficit that makes the Fed's job 'very difficult, if not impossible,' and criticizes the Fed for not tightening more gradually earlier, leaving it to 'play catch up.' Asked directly whether the Fed is expanding its balance sheet, he clarifies the SOMA portfolio is being held roughly stable: maturing Treasuries are rolled into new Treasuries, while MBS roll-off proceeds are being reinvested into Treasury bills rather than growing the balance sheet. He expects the 10-year yield to push toward 5-5.5%, widening the mortgage spread and pressuring affordability, with inflation ultimately resolving into 'a pretty stiff deflation' the Fed can't prevent. On REITs, he contrasts Annaly (which carries credit exposure via loans and MSRs on top of rate risk) with AGNC (a 'plain vanilla' pure MBS/rate-hedge play funded via equity issuance and repo-market leverage of 7-8x), explaining how each manages funding cost versus portfolio yield and book value through quarterly mark-to-market swings. He also fields housing questions (manufactured housing's cost advantage, trophy-market NYC/SF commercial rent revival) and a long gold/monetary-history discussion tied to his forthcoming book, plus a closing view that AI financing is shifting from debt to equity dilution with no expectation of a Fed bailout for AI firms.",
+      "score": 3,
+      "status": "ok",
+      "tags": [
+        "Fed balance sheet",
+        "SOMA",
+        "rates",
+        "mortgage REITs",
+        "repo",
+        "MBS",
+        "10-year yield",
+        "gold"
+      ],
+      "terms": [
+        "SOMA -- the Fed's System Open Market Account, its portfolio of Treasury and agency MBS holdings",
+        "MSR -- mortgage servicing rights, the asset representing the right to service a mortgage loan for a fee",
+        "AGNC -- AGNC Investment Corp, an agency mortgage REIT that hedges interest rate risk on its MBS portfolio"
+      ],
+      "tier": "broad",
+      "title": "#438 Chris Whalen Answers Your Questions on Gold, the 10-Year, Annaly & His New Book",
+      "url": "https://traffic.megaphone.fm/APO3771603228.mp3",
+      "watch": [
+        "Whether the Fed signals any shift from passive SOMA reinvestment toward active balance-sheet growth or further runoff changes",
+        "10-year yield trajectory toward Whalen's 5-5.5% call as a read on mortgage-spread widening"
+      ]
+    },
+    "c9653137-068a-4cf4-97fc-b2bb2b3b0aed": {
+      "feed_name": "Eurodollar University",
+      "implications": "For a repo/rates desk this is a thesis piece, not a trade catalyst: the claimed pre-inversion front-end flattening (6m-2y) and falling TIPS breakevens are worth checking against actual curve data as a sentiment gauge on AI-linked credit risk, and Chinese bank retrenchment (falling total social financing, bid for govvies over loans) is a leading indicator for broader global credit-market risk aversion that could eventually show up in USD funding and credit spreads.",
+      "key_claims": [
+        "Host: CSI 300 up ~4% and Shanghai SSE up ~3% on the day, the best single-day move for Chinese stocks in two years",
+        "Host: China's major equity indexes had round-tripped back to September 2024 levels (when prior stimulus 'bazooka' launched)",
+        "Host: China's total social financing (new RMB bank loan flows) turned negative in 2026, something not seen in data going back to the 1990s",
+        "Host: Shenzhen party chief Chen, viewed as a potential Xi Jinping successor and overseer of China's AI buildout, was charged with corruption",
+        "Host: US Treasury curve has flattened specifically in the 6-month-to-2-year segment since early October 2026, producing a rare 'pre-inversion' shape",
+        "Host: TIPS breakeven rates have fallen to more than two-year lows"
+      ],
+      "kind": "podcast",
+      "one_liner": "Argues China's stock-buying intervention and a purge of a key AI-region party official are signals that Chinese bank credit creation (total social financing) has collapsed, and ties this to a US Treasury curve that is flattening into a rare 'pre-inversion' shape -- a direct read on the global credit cycle underpinning AI capex.",
+      "published": "2026-11-28T12:00:00+00:00",
+      "recap": "The host (Eurodollar University) frames a sharp rally in Chinese equities -- CSI 300 up ~4%, Shanghai SSE up ~3% -- as a sign of how serious China's AI-linked credit downturn has become, rather than good news. Beijing's State Council issued a rare midday statement directing the 'national team' (state-backed buyers, sometimes called the plunge-protection team) to stabilize markets, on top of earlier moves like discouraging IPO share sales and pushing buybacks. Separately, Chen, the party chief of Shenzhen -- China's AI/tech hub and a potential Xi successor -- was abruptly hit with corruption charges, which the host reads as a 'purge' tied to AI underperformance. The core argument is that this is a credit story, not an equity story: total social financing (new RMB bank loan flows) turned sharply negative in 2026 after a brief 2025 stabilization, showing Chinese banks de-risking and buying government bonds instead of lending, which starves AI buildout of funding. Falling Chinese bond yields are read as rising demand for safety/liquidity, not stimulus. The host links this to the Hang Seng as a broader macro proxy and extends the argument globally: the US Treasury curve has flattened specifically in the six-month-to-two-year segment since early October, producing a 'pre-inversion' shape, while TIPS breakevens have fallen to two-year lows -- both read as markets pricing rising (but not yet certain) odds of an AI-credit-driven downturn.",
+      "score": 4,
+      "status": "ok",
+      "tags": [
+        "China",
+        "credit cycle",
+        "yield curve",
+        "Fed",
+        "total social financing",
+        "rates",
+        "AI capex",
+        "TIPS breakevens"
+      ],
+      "terms": [
+        "SSE -- Shanghai Stock Exchange Composite Index",
+        "CSI 300 -- index of the 300 largest China A-share companies by market cap, akin to a blue-chip benchmark",
+        "Hang Seng -- Hong Kong's benchmark equity index",
+        "TIPS -- Treasury Inflation-Protected Securities",
+        "CCP -- Chinese Communist Party"
+      ],
+      "tier": "plumbing",
+      "title": "Chinese Insiders Just Made an INSANE Stock Market Move",
+      "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/bce0e58a/e318bde2.mp3",
+      "watch": [
+        "US Treasury 6m-2y curve segment for further flattening or outright inversion",
+        "TIPS breakeven rates for continued declines",
+        "Chinese total social financing / new loan data in coming months",
+        "Further Chinese state intervention (national team buying, brokerage guidance) or additional high-level CCP purges tied to AI regions"
+      ]
+    }
+  }
 }
